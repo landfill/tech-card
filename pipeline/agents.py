@@ -1,0 +1,26 @@
+"""스킬 기반 에이전트 러너. skills/<name>.md를 system으로, payload를 user로 LLM 호출."""
+import json
+from pathlib import Path
+
+
+def load_skill(skills_dir: str | Path, agent_name: str) -> str:
+    """skills_dir/agent_name.md 내용 반환 (frontmatter 포함)."""
+    path = Path(skills_dir) / f"{agent_name}.md"
+    if not path.is_file():
+        raise FileNotFoundError(f"Skill not found: {path}")
+    return path.read_text(encoding="utf-8").strip()
+
+
+def run_agent(
+    agent_name: str,
+    input_payload: dict | list,
+    skills_dir: str | Path,
+    llm_client,
+    extra_system_suffix: str = "",
+) -> str:
+    """에이전트 실행: 스킬 마크다운을 system으로, input_payload를 JSON user 메시지로 LLM 호출."""
+    system = load_skill(skills_dir, agent_name)
+    if extra_system_suffix:
+        system = system + "\n\n" + extra_system_suffix
+    user = json.dumps(input_payload, ensure_ascii=False, indent=2)
+    return llm_client.generate(system=system, user=user)
