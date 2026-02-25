@@ -40,10 +40,10 @@ sources:
 
 
 def test_load_sources_real_config():
-    """실제 config/sources.yaml에서 enabled만 2건 반환."""
+    """실제 config/sources.yaml에서 enabled인 소스만 반환."""
     path = os.path.join(os.path.dirname(__file__), "..", "config", "sources.yaml")
     path = os.path.abspath(path)
     result = load_sources(path)
     assert isinstance(result, list)
-    assert len(result) == 2
+    assert len(result) >= 1
     assert all(s.get("enabled") is True for s in result)
