@@ -1,0 +1,60 @@
+"""파이프라인 러너 테스트. Mock LLM·수집으로 전체 흐름 검증."""
+import json
+from pathlib import Path
+from unittest.mock import patch
+
+import pytest
+
+from pipeline.runner import run_pipeline
+
+
+@pytest.fixture
+def config_dir(tmp_path):
+    (tmp_path / "sources.yaml").write_text("sources:\n  - id: r\n  type: rss\n  url: https://example.com/feed\n  enabled: true\n", encoding="utf-8")
+    (tmp_path / "llm.yaml").write_text("provider: google\nmodel: gemini-3-flash-preview\n", encoding="utf-8")
+    return tmp_path
+
+
+@pytest.fixture
+def skills_dir(tmp_path):
+    for name in ["analyze", "summarize", "dedup", "letter_generate"]:
+        (tmp_path / f"{name}.md").write_text(f"# {name}\nDo the task.", encoding="utf-8")
+    return tmp_path
+
+
+@pytest.fixture
+def mock_llm():
+    class Mock:
+        def generate(self, system, user):
+            if "analyze" in (system or "").lower():
+                return json.dumps({"items": [{"title": "T", "summary": "S", "url": "https://x.com"}]})
+            if "letter_generate" in (system or "").lower():
+                return "# Newsletter\n\nContent."
+            return "[]"
+    return Mock()
+
+
+def test_run_pipeline_produces_letter(config_dir, skills_dir, tmp_path, mock_llm):
+    """run_pipeline 후 letter 파일 생성 (수집은 mock)."""
+    data_dir = tmp_path / "data"
+    data_dir.mkdir()
+    (data_dir / "subscribers.json").write_text("[]")
+    with patch("pipeline.runner.run_collect") as mock_collect:
+        mock_collect.return_value = {"date": "2025-02-26", "items": [{"title": "A", "summary": "a", "url": "https://a.com"}], "sources_run": ["r"]}
+        with patch("pipeline.runner.load_checkpoint") as mock_load:
+            def load_side_effect(data_dir, d, stage):
+                if stage == "collect":
+                    return {"items": [{"title": "A", "summary": "a", "url": "https://a.com"}]}
+                return None
+            mock_load.side_effect = load_side_effect
+            result = run_pipeline(
+                "2025-02-26",
+                str(config_dir),
+                str(data_dir),
+                str(skills_dir),
+                mock_llm,
+                force=True,
+            )
+    assert "letter_path" in result
+    assert Path(result["letter_path"]).is_file()
+    assert "Content." in Path(result["letter_path"]).read_text()
