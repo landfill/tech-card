@@ -1,0 +1,9 @@
+sources:
+  - id: example-rss
+    type: rss
+    url: https://example.com/feed.xml
+    enabled: true
+  - id: example-github
+    type: github
+    repo: owner/repo
+    enabled: true
