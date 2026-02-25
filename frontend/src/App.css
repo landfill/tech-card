@@ -1,0 +1,12 @@
+.app { max-width: 900px; margin: 0 auto; padding: 1rem; font-family: system-ui, sans-serif; }
+.app h1 { font-size: 1.5rem; }
+.app nav { margin-bottom: 1.5rem; }
+.app nav ul { list-style: none; padding: 0; }
+.app nav li { margin: 0.25rem 0; }
+.app nav button { padding: 0.35rem 0.75rem; cursor: pointer; }
+.app nav button.active { font-weight: bold; background: #ddd; }
+.letter-body { border: 1px solid #eee; padding: 1rem; border-radius: 6px; margin: 1rem 0; }
+.letter-body h1, .letter-body h2 { font-size: 1.1rem; margin-top: 1rem; }
+.feedback { margin-top: 2rem; padding: 1rem; background: #f8f8f8; border-radius: 6px; }
+.feedback select, .feedback textarea { display: block; margin: 0.5rem 0; width: 100%; max-width: 400px; }
+.feedback .success { color: green; margin-top: 0.5rem; }
