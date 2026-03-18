@@ -1,0 +1,313 @@
+{
+  "items": [
+    {
+      "title": "Weekly Cursor Project Showcase Thread",
+      "summary": "Welcome to the Weekly Project Showcase Thread — space to share things built using Cursor, include what you made and how Cursor helped.",
+      "url": "https://www.reddit.com/r/cursor/comments/1ritmge/weekly_cursor_project_showcase_thread/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "MCPs are broken in latest cursor update??",
+      "summary": "User reports that after installing the latest Cursor update none of their MCP servers are working, issue reproduced on another system.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rj8y6n/mcps_are_broken_in_latest_cursor_update/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Does “Included Usage” over $40 mean I have to pay extra on Cursor Pro?",
+      "summary": "User on $20/month Cursor Pro sees ~$46 under “Included Usage” while On-Demand Usage says $0.00 and wonders if they will be charged extra later.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rj42iz/does_included_usage_over_40_mean_i_have_to_pay/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Seeking feedback: Cursor Design Rules for UX, UI, IA, and Accessibility",
+      "summary": "Repo provides a design-first Cursor rules template to help AI maintain standards across UX, UI, IA, accessibility and research-driven design; seeking feedback from designers.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rj6eq3/seeking_feedback_cursor_design_rules_for_ux_ui_ia/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor randomly added text to my Agent input field ?",
+      "summary": "User opened another Cursor window and found unexpected text in their agent input field; surprised and asking what happened.",
+      "url": "https://www.reddit.com/r/cursor/comments/1riu0b8/cursor_randomly_added_text_to_my_agent_input_field/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Anyone still got the 500 Usage Requests in the Pro Plan? How many tokens are you using?",
+      "summary": "Discussion asking users who secured Pro+/Ultra when it was requests-only about actual token/request usage.",
+      "url": "https://www.reddit.com/r/cursor/comments/1riwkf3/anyone_still_got_the_500_usage_requests_in_the/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "How to stop suggestion overlay",
+      "summary": "User asks how to stop an overlay that appears every time they select a line — it's disruptive to workflow.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rj69tv/how_to_stop_suggestion_overlay/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Did cursor quietly increase the limits of Ultra token usage?",
+      "summary": "User reports using $373 on Ultra and seeing '66% of included API usage' and asks whether Ultra limits increased (e.g., from $400 to $600).",
+      "url": "https://www.reddit.com/r/cursor/comments/1rj4yqt/did_cursor_quietly_increase_the_limits_of_ultra/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor just went completely off the rails. It started generating random numbers and characters instead of usable code. Anyone else seeing this?",
+      "summary": "User reports Cursor generating random numbers/characters instead of usable code — a severe degradation in output quality.",
+      "url": "https://www.reddit.com/r/cursor/comments/1riui7b/cursor_just_went_completely_off_the_rails_it/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "5.3 Codex generated randomly a dog image while working on a typescript project",
+      "summary": "User says Codex 5.3 randomly generated a dog image while working on an unrelated bun.js sports-data API — suspects prompt injection or model regression.",
+      "url": "https://www.reddit.com/r/cursor/comments/1riet3t/53_codex_generated_randomly_a_dog_image_while/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Unresolved Billing Issue [Ultra Plan]",
+      "summary": "User paid $200 for Ultra and $40 for BugBot but account was unexpectedly downgraded to Free; support responses haven't resolved the issue.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rixrlf/unresolved_billing_issue_ultra_plan/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How to access previous chats via the UX?",
+      "summary": "User cannot find previous chats in Cursor's UX; clock and search features appear not to populate — current workaround is asking the assistant to reopen old chats.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rizrdc/how_to_access_previous_chats_via_the_ux/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Does cursor have now added usage limit for Auto Usage as well",
+      "summary": "User notices a usage percentage for Auto usage that previously didn't exist and asks whether new limits were added.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rilur8/does_cursor_have_now_added_usage_limit_for_auto/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Do you care that you don't understand the code you ship?",
+      "summary": "Discussion about two elements of not understanding shipped code: conceptual foundations vs. why a particular author/AI made an architectural choice; asks community for takes on long-term effect.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rissdc/do_you_care_that_you_dont_understand_the_code_you/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "vibecoding a dynamics 365 guide web app",
+      "summary": "User building a non-profit Dynamics 365 guide web app using Cursor seeks ideas to improve product features and maximize user efficiency.",
+      "url": "https://www.reddit.com/r/cursor/comments/1risjj2/vibecoding_a_dynamics_365_guide_web_app/",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor Pro Limit Reached — Upgrade to Pro+ or Get Claude Pro?",
+      "summary": "User reached Cursor Pro usage limit with Opus 4.6 and is deciding whether to upgrade Cursor plan or subscribe to Claude Pro instead.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rixx31/cursor_pro_limit_reached_upgrade_to_pro_or_get/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Is anyone else frustrated that Cursor sometimes loses visual context?",
+      "summary": "User describes Cursor's limitations when switching windows and considers building a WebRTC screen-watching voice agent or local model to preserve visual context for debugging UI/console issues.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rix3de/is_anyone_else_frustrated_that_cursor_sometimes/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Company wide rules and skills",
+      "summary": "User describes demoing rules and skills at their company and is asked to create generic, company-wide rules/skills managed by a few people while allowing project-specific rules — asks how to share/manage this setup.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rip8hq/company_wide_rules_and_skills/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "does an MCP-based idea-validation engine inside Cursor actually solve a real problem?",
+      "summary": "Developer is building an MCP server for multi-layer idea validation inside Cursor (market scan, competitor mapping, user pain extraction, MVP spec) and asks whether Cursor users would adopt it versus external workflows.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rimutg/does_an_mcpbased_ideavalidation_engine_inside/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] Self-Promotion Thread",
+      "summary": "Reddit MachineLearning recurring self-promotion thread for posting personal projects, startups, products and collaboration needs; moderators note rules and experiment status.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "[D] How much time do you actually lose trying to reproduce ML papers?",
+      "summary": "PhD student asks the ML community how much time is spent reproducing papers, main pain points, coping strategies, and whether they'd pay for a tool to automate this work.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rj9h0w/d_how_much_time_do_you_actually_lose_trying_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[P] Vera: a programming language designed for LLMs to write",
+      "summary": "Vera is a programming language designed for language models (not people): structural references, mandatory contracts verified by Z3, canonical representations, and model-friendly diagnostics to close write-check-fix loops; compiler to WASM and agent-focused docs.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rj5moq/p_vera_a_programming_language_designed_for_llms/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "[R] TorchLean: Formalizing Neural Networks in Lean",
+      "summary": "TorchLean brings a PyTorch-style verified API into Lean 4 theorem prover with explicit Float32 semantics and verification tools (IBP, CROWN/LiRPA) for end-to-end formal verification of learning-enabled systems.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1riqzme/r_torchlean_formalizing_neural_networks_in_lean/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] The engineering overhead of Verifiable ML: Why GKR + Hyrax for on-device ZK-ML?",
+      "summary": "Discussion of verifiable ML and the tradeoffs of prover systems (GKR + Hyrax) for on-device zero-knowledge ML proofs — exploring prover overhead vs. mobile hardware constraints.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rj3u3j/d_the_engineering_overhead_of_verifiable_ml_why/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] How to get credits to run experiments on closed source models as a student researcher.",
+      "summary": "Student researcher asks how to obtain credits to run large experiments on closed-source models (high token usage per run) for benchmarking ~900 questions.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1riz3de/d_how_to_get_credits_to_run_experiments_on_closed/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "[R] Toward Guarantees for Clinical Reasoning in Vision Language Models via Formal Verification",
+      "summary": "Paper introduces a verification layer that mathematically checks diagnostic claims from VLM-based radiology models before presenting to clinicians; reported improvements in soundness (best result ~99%).",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rih9kk/r_toward_guarantees_for_clinical_reasoning_in/",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "[D] ICLR 2026 Registration Process",
+      "summary": "New ICLR 2026 author asks about registration and where to set 'Visa Name' in profile to ensure visa letter matches passport for first-time in-person attendance.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ripleg/d_iclr_2026_registration_process/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "[P] easy-torch-tpu: Making it easy to train PyTorch-based models on Google TPUs",
+      "summary": "Author releases easy-torch-tpu framework to simplify training PyTorch models on Google TPUs (PyTorch/XLA), focusing on simplicity, flexibility, and academic-scale research with integrations (W&B, Hugging Face).",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rigxhy/p_easytorchtpu_making_it_easy_to_train/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with GitHub Issues and Projects",
+      "summary": "Step-by-step tutorial on organizing and collaborating efficiently using GitHub Issues and Projects — GitHub Blog beginner guide.",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "They are absolutely insane",
+      "summary": "Short Reddit post praising 'They have the best timing for everything. Absolutely insane' (context: ClaudeAI subreddit).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rj3oax/they_are_absolutely_insane/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude is down",
+      "summary": "User reports Claude outage and reflects on dependence on a single model provider and the need for redundancy and resilience.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rir4n5/claude_is_down/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "It is the best.",
+      "summary": "Short positive post about Claude (user praise).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rix9kt/it_is_the_best/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Anthropic quietly removed session & weekly usage progress bars from Settings → Usage",
+      "summary": "User notices that Anthropic removed session and weekly usage progress bars from the Settings → Usage page after an app update, raising concerns for power users who relied on them.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1riw67y/anthropic_quietly_removed_session_weekly_usage/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude is not GPT",
+      "summary": "User notes realization that different Claude model variants (Sonnet, Haiku, etc.) can be used for many tasks and that one doesn't always need the top-tier model to get good results.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rj62dn/claude_is_not_gpt/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude is just awesome",
+      "summary": "User describes switching to Claude and seeing large productivity gains for tasks like drafting and coding assistance; expresses excitement and apprehension about the future.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rj4fu4/claude_is_just_awesome/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "In turbulent times, breathe. I built an extension that turns Claude Code's thinking time into mindfulness",
+      "summary": "Developer built an open-source extension that uses Claude Code 'thinking' time to launch guided breathing exercises to reduce stress and improve focus; auto-launches during model processing.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1riy6qp/in_turbulent_times_breathe_i_built_an_extension/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I turned my ebook reader into a Claude Code agent terrarium.",
+      "summary": "Project 'AgentDeck': repurposed an e-ink ebook reader as a persistent agent dashboard showing agent states (octopus, crayfish, fish) with modes for e-ink and tablet; connects over LAN WebSocket.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rj81b5/i_turned_my_ebook_reader_into_a_claude_code_agent/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude will return in Avengers Doomsday",
+      "summary": "Meme/image post referencing 'Claude will return in Avengers Doomsday'.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rith0d/claude_will_return_in_avengers_doomsday/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Is ClaudeAI down?",
+      "summary": "User asks if ClaudeAI is down; later updates that Claude is up and running.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1riqntw/is_claudeai_down/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Major outage - claude.ai claude.ai/code, API, oauth and claude cowork all down for me, anyone else?",
+      "summary": "User reports a major Claude outage affecting claude.ai, Claude Code, API, OAuth and cowork features; cites status.claude.com incident and various error messages (500, connection termination).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1riqs17/major_outage_claudeai_claudeaicode_api_oauth_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Since no one else did it",
+      "summary": "Short image/post in ClaudeAI subreddit (context not substantive).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1riviwf/since_no_one_else_did_it/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude is what I’ve been missing- Day 1",
+      "summary": "User's first day using Claude; appreciates concise, actionable outputs and time savings across tasks like emails and presentations.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rj5cw3/claude_is_what_ive_been_missing_day_1/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Built a MCP server that lets Claude use your iPhone",
+      "summary": "Open-source MCP server that lets Claude Code interact with an iPhone (GitHub repo provided); used for 'vibe debugging' an iOS app — raises interesting capabilities and security considerations.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1riryys/built_a_mcp_server_that_lets_claude_use_your/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude uptime <99.9%",
+      "summary": "Post points out that Claude services have not maintained >99.9% uptime over the past month per status.claude.com, noting this is below typical SaaS expectations.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1riyjpq/claude_uptime_999/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}

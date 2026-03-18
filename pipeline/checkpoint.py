@@ -33,6 +33,20 @@ def list_completed_stages(data_dir: str, d: date) -> list[str]:
         return []
     stages = []
     for name in os.listdir(dirpath):
-        if name.endswith(".json"):
+        if name.endswith(".json") and name != "run_status.json":
             stages.append(name[:-5])  # .json 제거
     return stages
+
+
+def clear_checkpoints_for_date(data_dir: str, d: date) -> None:
+    """해당 날짜의 체크포인트 디렉터리 내 모든 파일을 삭제한다. 강제 재실행 시 사용."""
+    dirpath = _dir_for_date(data_dir, d)
+    if not os.path.isdir(dirpath):
+        return
+    for name in os.listdir(dirpath):
+        path = os.path.join(dirpath, name)
+        if os.path.isfile(path):
+            try:
+                os.remove(path)
+            except OSError:
+                pass

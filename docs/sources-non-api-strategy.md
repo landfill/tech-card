@@ -61,5 +61,6 @@ API 비용·제한 없이 뉴스레터 품질을 높이기 위한 수집 소스 
 | reddit_rss | fetch_rss | URL: https://www.reddit.com/r/{subreddit}.rss |
 | github_trending_rss | fetch_github_trending_rss | 비공식 RSS URL 생성 또는 스크래핑 |
 | github_blog | fetch_rss | url 그대로 RSS |
+- **crawl**: Playwright 헤드리스 브라우저로 목록 페이지 HTML 크롤링 (h2/h3·링크·요약 추출). JS 렌더링 지원.
 | firecrawl | fetch_firecrawl | Firecrawl API (크롤러 모드) |
 | headless | fetch_headless | Puppeteer/ScrapingBee |

@@ -1,0 +1,4 @@
+# 사용할 모델 하나만 지정. 폴백 없음.
+provider: openai   # google | openai
+model: gpt-5-mini
+# api_key, base_url 등은 .env에서 주입

@@ -1,0 +1,143 @@
+@startuml daily-intelligence-newsletter-components
+!theme plain
+title 데일리 인텔리전스 뉴스레터 - 시스템 컴포넌트
+
+skinparam componentStyle rectangle
+skinparam defaultFontName SansSerif
+
+package "Frontend (Vite + React)" #E8F4FD {
+  [App] as App
+  [PipelinePage] as PipelinePage
+  [Letters View] as LettersView
+  note right of App
+    - 발송 내역 / 파이프라인 탭
+    - VITE_API_BASE → Backend
+  end note
+}
+
+package "Backend (FastAPI)" #E8FDE8 {
+  [main: FastAPI] as Main
+  [letters router] as LettersRouter
+  [feedback router] as FeedbackRouter
+  [pipeline router] as PipelineRouter
+  [paths] as Paths
+  note right of Main
+    /api/letters, /api/feedback
+    /api/pipeline (status, run, run-step)
+  end note
+}
+
+package "Pipeline" #FDE8E8 {
+  [runner] as Runner
+  [collect] as Collect
+  [agents] as Agents
+  [letter_generate] as LetterGen
+  [dedup] as Dedup
+  [checkpoint] as Checkpoint
+  [storage] as Storage
+  [feedback_store] as FeedbackStore
+  [run_status] as RunStatus
+  [config] as Config
+}
+
+package "Pipeline.LLM" #FDF0E8 {
+  [client: get_llm_client] as LLMClient
+  [config: load_llm_config] as LLMConfig
+  [base: LLMAdapter] as LLMBase
+  [GeminiAdapter] as Gemini
+  [OpenAIAdapter] as OpenAI
+}
+
+package "Tools (Fetchers)" #F0E8FD {
+  [fetch_rss] as FetchRss
+  [fetch_hnrss] as FetchHnrss
+  [fetch_reddit_rss] as FetchReddit
+  [fetch_crawl] as FetchCrawl
+  [send_email] as SendEmail
+}
+
+package "Config & Data" #F5F5F5 {
+  folder "config" {
+    [sources.yaml] as SourcesYaml
+    [llm.yaml] as LLMYaml
+  }
+  folder "data" {
+    [letters/] as DataLetters
+    [checkpoints/] as DataCheckpoints
+    [index/] as DataIndex
+    [feedback/] as DataFeedback
+  }
+  folder "skills" {
+    [analyze.md] as SkillAnalyze
+    [summarize.md] as SkillSummarize
+    [letter_generate.md] as SkillLetter
+  }
+}
+
+' Frontend → Backend
+App --> Main : HTTP (REST)
+PipelinePage --> Main : /api/pipeline/*
+LettersView --> Main : /api/letters, /api/feedback
+
+' Backend internal
+Main --> LettersRouter
+Main --> FeedbackRouter
+Main --> PipelineRouter
+LettersRouter --> Paths
+FeedbackRouter --> Paths
+PipelineRouter --> Paths
+PipelineRouter --> Runner
+PipelineRouter --> RunStatus
+PipelineRouter --> Checkpoint
+LettersRouter --> Storage
+LettersRouter --> Checkpoint
+LettersRouter --> RunStatus
+
+' Backend → Pipeline
+PipelineRouter --> LLMClient : get_llm_client
+
+' Runner dependencies
+Runner --> Collect
+Runner --> Agents
+Runner --> LetterGen
+Runner --> Dedup
+Runner --> Checkpoint
+Runner --> Storage
+Runner --> FeedbackStore
+Runner --> RunStatus
+Runner --> Config
+
+Collect --> Config : load_sources
+Collect --> FetchRss
+Collect --> FetchHnrss
+Collect --> FetchReddit
+Collect --> FetchCrawl
+Collect --> Checkpoint
+
+Agents --> LLMClient : generate()
+LetterGen --> Agents
+Dedup --> LLMClient : generate (중복 판정)
+Runner --> LLMClient
+
+' LLM
+LLMClient --> LLMConfig
+LLMClient --> LLMBase
+Gemini ..|> LLMBase
+OpenAI ..|> LLMBase
+
+' Paths & Storage
+Paths --> DataLetters
+Storage --> DataLetters
+Storage --> DataIndex
+Checkpoint --> DataCheckpoints
+RunStatus --> DataCheckpoints
+FeedbackStore --> DataFeedback
+
+' Config
+Config --> SourcesYaml
+LLMConfig --> LLMYaml
+Agents --> SkillAnalyze
+Agents --> SkillSummarize
+LetterGen --> SkillLetter
+
+@enduml

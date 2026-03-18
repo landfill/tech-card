@@ -17,7 +17,7 @@ def config_dir(tmp_path):
 
 @pytest.fixture
 def skills_dir(tmp_path):
-    for name in ["analyze", "summarize", "dedup", "letter_generate"]:
+    for name in ["analyze", "summarize", "dedup", "letter_generate", "card_generate", "card_theme"]:
         (tmp_path / f"{name}.md").write_text(f"# {name}\nDo the task.", encoding="utf-8")
     return tmp_path
 
@@ -30,6 +30,13 @@ def mock_llm():
                 return json.dumps({"items": [{"title": "T", "summary": "S", "url": "https://x.com"}]})
             if "letter_generate" in (system or "").lower():
                 return "# Newsletter\n\nContent."
+            if "card_generate" in (system or "").lower():
+                return json.dumps({
+                    "date": "2025-02-26",
+                    "cards": [{"type": "cover", "title": "T", "body": ["B"]}],
+                })
+            if "card_theme" in (system or "").lower():
+                return "tech theme"
             return "[]"
     return Mock()
 

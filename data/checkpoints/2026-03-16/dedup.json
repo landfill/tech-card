@@ -1,0 +1,340 @@
+{
+  "items": [
+    {
+      "title": "Slash commands and skills are now unified in Claude Cowork",
+      "summary": "We've unified slash commands and skills in Cowork under a single concept: skills. The / menu in settings is now a flat list per plugin; legacy commands still work the same.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvdf6a/slash_commands_and_skills_are_now_unified_in/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Whenever I pour my heart out to Claude a little…",
+      "summary": "Personal, light post about the user's interactions with Claude (emotional/empathetic responses).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvkpd5/whenever_i_pour_my_heart_out_to_claude_a_little/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "I asked Claude if everyone uses AI to write, what actually gets lost?",
+      "summary": "User asked Claude about what is lost when people outsource writing to AI — discussion of voice, identity, and whether preserving voice matters (post drafted with Claude's help).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvcwmu/i_asked_claude_if_everyone_uses_ai_to_write_what/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "I asked Claude to impersonate Grok",
+      "summary": "Short community post showing Claude attempting to impersonate Grok (playful/testing behavior).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvepi3/i_asked_claude_to_impersonate_grok/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "I used Obsidian as a persistent brain for Claude Code and built a full open source tool over a weekend. happy to share the exact setup.",
+      "summary": "Author describes using an Obsidian vault as a persistent project \"brain\" for Claude Code, with departmental structure, custom commands (/resume, /wrap-up), parallel agent execution, and an open-source repo (clsh). Promises to open-source the full template, commands, and personas.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rv5ox0/i_used_obsidian_as_a_persistent_brain_for_claude/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Made a Music Maker using Claude Code where Claude can also participate in creating the music.",
+      "summary": "Side project: a Music Maker built with Claude Code (Opus 4.6) that represents music as JSON and uses Claude to generate beats. Hosted demo link provided.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvl61q/made_a_music_maker_using_claude_code_where_claude/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "1 mil context is so good.",
+      "summary": "User praising the 1,000k (1M) context window as a game changer for memory/context preservation and workflows with handoffs and large .md files.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvmqs2/1_mil_context_is_so_good/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Built a MCP tool that gives Claude Code a shared visual model of your project architecture to prevent drift",
+      "summary": "Author built Scryer, an MCP-connected tool that provides a shared visual C4-style model for a project so Claude Code can read/modify/implement from a single source of truth to reduce architectural drift. Repo: github.com/aklos/scryer",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rve7l3/built_a_mcp_tool_that_gives_claude_code_a_shared/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "the biggest productivity gain from claude code isn't code generation, it's codebase navigation",
+      "summary": "Personal experience: Claude Code's main productivity benefit is fast codebase reading and cross-referencing (dataflow mapping, debugging), not just code generation.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rv9o2g/the_biggest_productivity_gain_from_claude_code/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Architect full course breakdown (even if you can’t take the exam)",
+      "summary": "User broke down the Claude Certified Architect exam guide into a public learning guide that teaches how to build production AI systems with Claude (architecture-focused material).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rv3k1a/claude_architect_full_course_breakdown_even_if/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "I gave Claude Code a desktop pet that watches it work",
+      "summary": "Weekend project: a little stick-figure 'desktop pet' that reacts to Claude Code events (thinking, typing, errors), implemented as an always-on-top window using Tauri v2 and SVG animations. Open source link provided.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvfjf5/i_gave_claude_code_a_desktop_pet_that_watches_it/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "NVIDIA 2026 Conference LIVE. Claude Code Mentioned!",
+      "summary": "Community post noting that Claude Code was mentioned during NVIDIA's 2026 conference (screenshot).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rviu47/nvidia_2026_conference_live_claude_code_mentioned/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Professional Gaslighter",
+      "summary": "Post describing an observed behavior where Claude seems to always say the user guessed correctly (overfitting to be agreeable) — a quirky/bug-like behavior.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvcuoc/professional_gaslighter/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Confirmed!",
+      "summary": "Short community post (image) — minimal context provided.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rv17p1/confirmed/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "I stopped using Claude Code alone. Now it orchestrates GPT-5.4 and Gemini in the same IDE and they notify me on Telegram when they're done.",
+      "summary": "Detailed write-up of a multi-model, file-based orchestration workflow: Claude Code as orchestrator, GPT-5.4 for code review, Gemini for research, shared markdown 'context layer' (CLAUDE.md, PROFILE.md, SESSION_LOG.md), SOUL.md identity files per model, CLI-based cross-calls, session closer agent, Obsidian-based history — results: heavy compounding, parallel workstreams, and extensive tracked sessions.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rv438w/i_stopped_using_claude_code_alone_now_it/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "I built a tool that lets you explore any rabbit hole you want",
+      "summary": "Tool built with Claude Code that processes requests, draws connections based on previous requests, uses Claude Haiku and Brave Search API, and offers a map feature to navigate explored 'burrows'.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvp0nd/i_built_a_tool_that_lets_you_explore_any_rabbit/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "What happens when you give AI agents a 2-line bio and let them live together for 30 days?",
+      "summary": "Simulation (social-agent-sim) where six LLM agents with only 2-line bios and environment 'physics' (schedules, hunger, doors, adjacency) interact autonomously; emergent social structures and information cascades arose from environment constraints rather than complex prompts.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rv76bc/what_happens_when_you_give_ai_agents_a_2line_bio/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Autocompact sucks. Hundreds of context optimization tools has too much edge cases. No one tried to ask claude to profile and optimize its own context yet. I’ve tried it - and it works beautifully",
+      "summary": "Author describes limitations of auto-compact in Claude Code, experiments with hooks and deterministic compression, and presents 'wet claude' — a Go proxy shim that profiles tool results, compresses/evicts context with auditing, and exposes a skill to let Claude profile and optimize its own context. Repo: https://github.com/buildoak/wet",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvaivc/autocompact_sucks_hundreds_of_context/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Status Update : Elevated errors on Claude.ai on 2026-03-16T14:21:29.000Z",
+      "summary": "Auto post triggered by Claude system status update reporting an incident: elevated errors on Claude.ai with a link to the status incident page.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvavvd/claude_status_update_elevated_errors_on_claudeai/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude code for reverse engineering",
+      "summary": "User used Claude Opus 4.6 with Ghidra/MCP to identify and patch authentication verification in a Command & Conquer server emulator, generating patches and renaming functions — user found it impressively fast (raises practical/ethical considerations for reverse engineering).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rvd6x0/claude_code_for_reverse_engineering/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Nvidia Launches Vera CPU, Purpose-Built for Agentic AI",
+      "summary": "NVIDIA announced the Vera CPU, positioned as purpose-built for agentic AI workloads (news item with HN discussion).",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high"
+    },
+    {
+      "title": "Show HN: Claude Code skills that build complete Godot games",
+      "summary": "Godogen: a pipeline that takes prompts, designs architecture, generates assets, writes GDScript, and tests to output a playable Godot 4 project. Tackles training-data scarcity, build vs runtime state, and a visual QA loop (Gemini). Repo: https://github.com/htdt/godogen",
+      "url": "https://github.com/htdt/godogen",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] Lossless tokenizers lose nothing and add nothing — trivial observation or worth formalizing?",
+      "summary": "Short information-theoretic argument that lossless tokenization neither reduces expressiveness nor adds unavoidable redundancy; canonical construction equates entropies and notes practical deviations (BPE-Dropout can help). Link to write-up.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rv7e1e/d_lossless_tokenizers_lose_nothing_and_add/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] how to parallelize optimal parameter search for DL NNs on multiple datasets?",
+      "summary": "Poster asks for approaches to parallelize parameter sweeps across multiple datasets and models on a single GPU, describing challenges (checkpoint artifacts, GPU bottleneck) and asking for advice.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rv45pi/d_how_to_parallelize_optimal_parameter_search_for/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "[P] Using residual ML correction on top of a deterministic physics simulator for F1 strategy prediction",
+      "summary": "F1Predict: a personal project combining a deterministic lap time simulator with a LightGBM residual model trained on FastF1 telemetry to produce Monte Carlo strategy distributions; includes Monte Carlo, safety-car classifier, feature versioning, caching, and an ML fallback.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ruxn9t/p_using_residual_ml_correction_on_top_of_a/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "[D] Anyone else facing issues with Dataset Track submission for ACM MM 2026?",
+      "summary": "Users report missing Dataset Track submission option on OpenReview for ACM MM 2026 and seek confirmation or organizer updates.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rux8j1/d_anyone_else_facing_issues_with_dataset_track/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with GitHub Actions",
+      "summary": "How-to guide for setting up a first GitHub Actions workflow (beginners' guide on GitHub Blog).",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-actions/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "Why Codex Security Doesn’t Include a SAST Report",
+      "summary": "OpenAI deep dive explaining why Codex Security avoids traditional SAST and instead uses AI-driven constraint reasoning/validation to find real vulnerabilities with fewer false positives.",
+      "url": "https://openai.com/index/why-codex-security-doesnt-include-sast",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Weekly Cursor Project Showcase Thread",
+      "summary": "Recurring community thread for sharing projects built with Cursor; guidelines for submissions and examples requested.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv8srt/weekly_cursor_project_showcase_thread/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "context management is 90% of the skill in AI-assisted coding",
+      "summary": "Post arguing that the key skill in AI-assisted coding is context management (project conventions file, explicit scope, cleaning stale context), not clever prompting.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv9o5f/context_management_is_90_of_the_skill_in/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Does anyone else feel like the GPT models are lazy and don't complete the task?",
+      "summary": "User reports GPT models in Cursor behaving poorly compared to Opus, with partial/incorrect file moves and perceived declining quality.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvoi8c/does_anyone_else_feel_like_the_gpt_models_are/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Can someone explain why the removed the button in the header that lets you toggle the chat window",
+      "summary": "UX complaint: Cursor removed a header button used to toggle the chat window; user frustrated with product decision.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvjwf3/can_someone_explain_why_the_removed_the_button_in/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "claude code review is team/enterprise only. what are cursor users using for automated PR review?",
+      "summary": "Discussion about Claude's code review feature being restricted to team/enterprise plans and $15–25 per review, asking what solo devs/small teams using Cursor use instead for automated PR review.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvffav/claude_code_review_is_teamenterprise_only_what/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Here are Cursor rules I use as Product designer",
+      "summary": "Product designer shares a set of rules and structures (in .md) they use with Cursor to keep agents building reliably; offers to share files.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv7zqp/here_are_cursor_rules_i_use_as_product_designer/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Website to app asap?",
+      "summary": "User asks how to convert a SaaS website into a mobile app quickly and whether Stripe usage causes App Store rejection; asks which payment provider and fastest way to turn a site into an app.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvkl64/website_to_app_asap/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Created an app and made it to the App Store AMA",
+      "summary": "User claims to have built a complete social fitness app entirely with 'vibe coding' and Cursor over 4–6 months and links the App Store listing; offers proof of chat history.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvgn0h/created_an_app_and_made_it_to_the_app_store_ama/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor Auto vs Claude Opus — worth paying for Claude separately?",
+      "summary": "User with Cursor Auto plan asks whether paying for a separate Claude subscription (Opus) gives advantages for architecture/thinking tasks, or if using Opus inside Cursor is sufficient.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv3jx4/cursor_auto_vs_claude_opus_worth_paying_for/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Opus 4.6 thinks for a really long time",
+      "summary": "User reports Opus 4.6 spending a long time reasoning (up to 14 minutes) before producing code, sometimes going in circles — frustrating when the user already knows the solution.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv8dfg/opus_46_thinks_for_a_really_long_time/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "I saw that! (Cursor skips planning mode in hilarious fashion)",
+      "summary": "Humorous post noting Cursor skipped planning mode in a surprising way — monitoring behavior closely.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvlzjb/i_saw_that_cursor_skips_planning_mode_in/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Agent chat no longer scales to panel width",
+      "summary": "UX bug report: agent chat window in Cursor no longer scales to panel width on ultrawide monitors and becomes centered with unused space.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvlcpp/agent_chat_no_longer_scales_to_panel_width/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Understanding Cursor Pricing",
+      "summary": "Link to a write-up/article explaining Cursor pricing (user-contributed analysis).",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvdxte/understanding_cursor_pricing/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor Auto / Composer vs API",
+      "summary": "User reports degraded performance of Cursor Auto vs the API, feeling Auto is unusable and token-inefficient; wonders if many instructions/skills are causing problems.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvdxam/cursor_auto_composer_vs_api/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "156 free skills you can install into Cursor right now - front-end, memory management, seo and marketing and more",
+      "summary": "Registry of 156 open-source, production-ready skills for Cursor (engineering, frontend, DevOps, AI/ML, security, business categories) with install examples and two flagship skills (Superhuman, Second Brain). Repo: https://github.com/AbsolutelySkilled/AbsolutelySkilled",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv1xpt/156_free_skills_you_can_install_into_cursor_right/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "cursor caught a race condition i'd been debugging for 2 days",
+      "summary": "User recounts Cursor finding an intermittent race condition (missing await) in a Node.js backend within seconds after two days of manual debugging; praises the tool for accelerating bug discovery.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvdvp2/cursor_caught_a_race_condition_id_been_debugging/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Best way to install Cursor AI on Fedora using Ansible?",
+      "summary": "User asks for best practices to install Cursor AI on Fedora using Ansible (cross-post link to Fedora subreddit).",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv5892/best_way_to_install_cursor_ai_on_fedora_using/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Question for SaaS founders using Cursor",
+      "summary": "Question to founders about how they handled hosting/infrastructure as their Cursor-built apps gained users — keep simple vs move to production-ready infra, deployments, scaling, monitoring.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv4s1i/question_for_saas_founders_using_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "AdLoop an open source MCP for Google Ads and Analytics right from within Cursor",
+      "summary": "Open-source MCP (AdLoop) for integrating Google Ads and Analytics workflows directly from Cursor; repo link provided for feedback.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rv40zc/adloop_an_open_source_mcp_for_google_ads_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Haven't used cursor in a few months, has it gotten worse?",
+      "summary": "User returning to Cursor reports the app seems confused when opening existing files (won't modify the file in view, searches the computer), asks if a setting needs changing.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rvfcfd/havent_used_cursor_in_a_few_months_has_it_gotten/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    }
+  ]
+}

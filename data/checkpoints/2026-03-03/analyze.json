@@ -1,0 +1,313 @@
+{
+  "items": [
+    {
+      "title": "[P] We made GoodSeed, a pleasant ML experiment tracker",
+      "summary": "GoodSeed v0.3.0 — a simple, fast ML experiment tracker (UI, metric plots, monitoring, stdout/stderr, structured configs, git status logging, remote server beta, Neptune proxy). Repo: https://github.com/kripner/goodseed",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rk1mgi/p_we_made_goodseed_a_pleasant_ml_experiment/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[R] AdamWClip: AdamW with adaptive gradient clipping",
+      "summary": "AdamWClip — an extension to AdamW that performs adaptive gradient clipping (no manual thresholds, no extra memory, small overhead). Source: https://github.com/wandeln/AdamWClip",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rjmwmf/r_adamwclip_adamw_with_adaptive_gradient_clipping/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[P] I trained Qwen2.5-1.5b with RLVR (GRPO) vs SFT and compared benchmark performance",
+      "summary": "Experiment training Qwen2.5-1.5B-Instruct with RLVR (GRPO) vs SFT on GSM8K: RLVR improved math reasoning (+11.9), SFT degraded it. Multiple experiments and 388 checkpoints benchmarked; artifacts on HF Spaces and GitHub.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rk2kcz/p_i_trained_qwen2515b_with_rlvr_grpo_vs_sft_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[R] Are neurons the wrong primitive for modeling decision systems?",
+      "summary": "Discussion of an ICLR paper proposing Behavior Learning — replacing neural layers with learnable constrained optimization blocks (utility + constraints → optimal decision). Links to OpenReview.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rjcqzq/r_are_neurons_the_wrong_primitive_for_modeling/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[R] Boundary-Metric Evaluation for Thin-Structure Segmentation under 2% Foreground Sparsity",
+      "summary": "Undergrad author paper on segmentation evaluation with extreme foreground sparsity (~1.8% positive pixels). Focus on region vs boundary metrics, core vs thin-subset equity, multi-seed training, per-image robustness. arXiv: https://arxiv.org/abs/2603.00163",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rjptov/r_boundarymetric_evaluation_for_thinstructure/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude's Cycles [pdf]",
+      "summary": "Article PDF link: https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf — Hacker News thread with many comments.",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor Revenue Leak: $2 Billion Annual Sales Rate",
+      "summary": "Report: Cursor reached a $2B annualized revenue run rate as of Feb 2026, doubling revenue in three months; ~60% from corporate customers. Competes with OpenAI, Anthropic, Google, others; product autonomous coding features noted.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjqupl/cursor_revenue_leak_2_billion_annual_sales_rate/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Overcharged by $350 over a \"billing system error\"",
+      "summary": "Cursor user reports large erroneous mid-month charges (~$276.92) despite $4.05 actual usage; spending cap bypassed; support confirmed billing system error. User requests refund and unlinking payment method.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rk54ew/overcharged_by_350_over_a_billing_system_error/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Apple Foundation vs Qwen 3.5 4b running locally on iPhone16pro",
+      "summary": "Post showing comparison / demonstration of running Apple Foundation model vs Qwen 3.5 4B locally on an iPhone 16 Pro (image post).",
+      "url": "https://www.reddit.com/r/cursor/comments/1rk4hju/apple_foundation_vs_qwen_35_4b_running_locally_on/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "backspace broke (among other things)",
+      "summary": "Cursor user reports UI/keyboard shortcuts issues (backspace, tab, command shortcuts) that are temporarily fixed by restarting Cursor.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rk5u31/backspace_broke_among_other_things/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Clicking the \"wrong\" location while the model is \"Thinking\" collapses thinking and it cannot be reopened. The user loses all ability to monitor agent output on long, expensive calls.",
+      "summary": "Cursor user describes UX regression where misclick collapses live \"Thinking\" output and it can't be reopened, causing loss of visibility on long/token-expensive model runs and risk of costly bad outputs.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rk0zy8/clicking_the_wrong_location_while_the_model_is/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Not seeing the list of created/edited files in chat anymore",
+      "summary": "User reports missing list of created/edited files in Cursor chat UI (used to show until approvals). Asks if bug or intentional change.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rk3qj8/not_seeing_the_list_of_creatededited_files_in/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Between Auto vs Composer 1.5 which model will be best in Cursor?",
+      "summary": "User asks which model performs better in Cursor for typical tasks — Auto vs Composer 1.5 (Claude variants).",
+      "url": "https://www.reddit.com/r/cursor/comments/1rk4m9k/between_auto_vs_composer_15_which_model_will_be/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I built an MCP server that routes coding agents requests to Slack — tired of babysitting terminal sessions",
+      "summary": "Developer built an MCP tool to route coding agent approvals/questions to Slack so agents can run headless and request approvals via Slack buttons; works with Claude Code, Cursor, Gemini CLI, any MCP-supporting agent.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjl28k/i_built_an_mcp_server_that_routes_coding_agents/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Remote MCPs are more popular than you think",
+      "summary": "Short post/comment noting popularity of remote MCPs (no detailed summary).",
+      "url": "https://www.reddit.com/r/cursor/comments/1rk1fj2/remote_mcps_are_more_popular_than_you_think/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Payments Cursor - Revolut - Stripe - what a mess",
+      "summary": "User reports repeated Stripe/Link checkout failures with Revolut card for Cursor subscription, leading to canceled subscriptions and failed renewals; asks if others have the same issue and notes lack of iDEAL support.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rk0ztd/payments_cursor_revolut_stripe_what_a_mess/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Learning from the best",
+      "summary": "Short/light post (image) joking about how the AI learns from users.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjpr80/learning_from_the_best/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "chat history?",
+      "summary": "User asks whether an admin (company-provided account) can see their chat history/prompts on the admin dashboard.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjw0lk/chat_history/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Which tools are you missing to ship your projects faster?",
+      "summary": "Thread asking no-code creators / solopreneurs what tooling they lack to ship apps faster (DB connections, migrations, agent hallucinations, deployment, recurring jobs, etc.).",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjvv4j/which_tools_are_you_missing_to_ship_your_projects/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "payment parsing cursor",
+      "summary": "Short post mentioning payment parsing with Cursor (sparse details).",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjorgh/payment_parsing_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Composer 1.5 - IDIOT",
+      "summary": "User frustrated with Composer 1.5 agent giving unhelpful responses and asking for manual debugging steps; complaint about agent behavior.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjhlbg/composer_15_idiot/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Usage metrics not clear at all",
+      "summary": "User reports inconsistent usage metrics between web dashboard ($10 of $20) and app view (percentages for auto and API usage) and asks for clarification.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjj6v3/usage_metrics_not_clear_at_all/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "How to keep cursor running on a remote machine?",
+      "summary": "User asks how to keep a Cursor agent running on a remote machine via SSH after disconnecting local session.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rjhhiu/how_to_keep_cursor_running_on_a_remote_machine/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "GPT-5.3 Instant System Card",
+      "summary": "",
+      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "summary": "",
+      "url": "https://openai.com/index/gpt-5-3-instant",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+      "summary": "GitHub Engineering post on improving search experience for GHES customers — architecture changes for better speed and resilience.",
+      "url": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Join or host a GitHub Copilot Dev Days event near you",
+      "summary": "GitHub Copilot Dev Days — global series of hands-on, in-person, community-led events to explore AI-assisted coding.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "The AI not just fired us, It made our team irrelevant.",
+      "summary": "Personal account: an e-commerce company's internal AI analytics tool replaced a data analyst team; author warns about job displacement as companies adopt AI-first analytics.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rk1ns5/the_ai_not_just_fired_us_it_made_our_team/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude and Claude Code traffic grew faster than expected this week",
+      "summary": "Anthropic reports usage spike for Claude and Claude Code that exceeded forecasts; infrastructure scaling underway.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjyp7d/claude_and_claude_code_traffic_grew_faster_than/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I laugh so hard when it happens",
+      "summary": "Short/light image post about Claude behavior (humorous).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rk4tkh/i_laugh_so_hard_when_it_happens/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Opus 4.6 appreciation post",
+      "summary": "User appreciation post for Opus 4.6 (Claude model family).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rk51ag/opus_46_appreciation_post/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "And so they killed my sub for SuperWhisper",
+      "summary": "User complaint about losing subscription access for 'SuperWhisper' after rapid changes; links to related thread.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjnvz5/and_so_they_killed_my_sub_for_superwhisper/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude hits #1 on App Store while \"Claude for Government\" runs at 99.74% uptime through Iran operation",
+      "summary": "Thread linking multiple developments: Claude surpassing ChatGPT on US App Store, claims about 'Claude for Government' high uptime and reported use in military intelligence/operations during a conflict; touches on geopolitical and ethical angles.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rk15v2/claude_hits_1_on_app_store_while_claude_for/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "New: Voice mode is rolling out now in Claude Code, live for ~5% of users today, details below",
+      "summary": "Claude Code rolling out a voice (push-to-talk) mode to ~5% of users initially; transcript streams to cursor position; no extra cost; available across paid tiers on rolling basis.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjkwqk/new_voice_mode_is_rolling_out_now_in_claude_code/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "After DoW vs Anthropic, I built DystopiaBench to test the willingness of models to create an Orwellian nightmare",
+      "summary": "Author built 'DystopiaBench' to pressure-test models on dystopic scenarios, motivated by debates around DoW vs Anthropic and model safety/behavior.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rk3cqg/after_dow_vs_anthropic_i_built_dystopiabench_to/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "US Government Open Data MCP",
+      "summary": "MCP server connecting to ~37 US/international government data APIs (198 tools covering economic, health, campaign finance, patents, energy, etc.) to make public data easier to query; GitHub Pages with examples.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjww4o/us_government_open_data_mcp/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I gave Claude the ability to generate and run its own radio station 24/7 with music and talk segments etc",
+      "summary": "Demo/project: Claude-driven 24/7 radio station with music and talk segments (link: https://www.khaledeltokhy.com/claude-show).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjv1ih/i_gave_claude_the_ability_to_generate_and_run_its/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Boss \"I can't work today. Claude is out of service.\"",
+      "summary": "Short post/meme about Claude being out of service impacting work.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjh8yo/boss_i_cant_work_today_claude_is_out_of_service/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I see Claude's writing everywhere and it's starting to feel like an AI condom, I hate it",
+      "summary": "User complains about homogenized writing style from widespread Claude usage and urges humans to reintroduce personal voice into AI-drafted text.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjeqg3/i_see_claudes_writing_everywhere_and_its_starting/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "BEWARE of factory.ai. 10x more expensive than Claude Code and you can't cancel your subscription.",
+      "summary": "User alleges factory.ai charges persist after cancellation and has poor/no support; warns it's much more expensive than Claude Code.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjmqen/beware_of_factoryai_10x_more_expensive_than/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "What you will find in CC 2.1.64 (+1,291 tokens)",
+      "summary": "Summary of updates to Claude Code system prompts and agent skills (new verification specialist agent prompt, output efficiency instructions, verifier skill maintenance, ToolSearch changes, etc.). Link to release notes on GitHub.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rk3wdr/what_you_will_find_in_cc_2164_1291_tokens/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Frustrated by free games for children, I made my own",
+      "summary": "Developer made a no-ads, no-tracking web app for simple children's games (tic-tac-toe, checkers, rhyming game) built using Claude Code and Sonnet 4.6; free and parental-restricted.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjynsf/frustrated_by_free_games_for_children_i_made_my/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Anthropic, your fastest-growing region can't actually use Claude properly. Here's why EU data residency for claude.ai matters.",
+      "summary": "European Max subscriber explains lack of EU data residency for claude.ai / Claude Desktop forces EU users to send data to US, causing GDPR/compliance friction; requests EU residency option comparable to API and timeline — argues this is blocking enterprise adoption in EMEA.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rk06ou/anthropic_your_fastestgrowing_region_cant/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "I built a full desktop app with Claude Code — 2.8M artists, local AI, Rust + SvelteKit",
+      "summary": "BlackTape: a desktop music discovery app built end-to-end with Claude Code (Tauri/Rust backend, SvelteKit frontend, local AI sidecar shipping with Qwen2.5 3B). Open source: https://github.com/AllTheMachines/BlackTape — demonstrates Claude Code-driven product development.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjt5tr/i_built_a_full_desktop_app_with_claude_code_28m/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}

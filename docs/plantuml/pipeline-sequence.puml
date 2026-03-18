@@ -1,0 +1,63 @@
+@startuml pipeline-sequence
+!theme plain
+title 파이프라인 시퀀스 (CLI 또는 API 호출 시)
+
+actor User
+participant "CLI\npython -m pipeline" as CLI
+participant "API\nPOST /api/pipeline/run" as API
+participant "runner" as Runner
+participant "collect" as Collect
+participant "checkpoint" as CP
+participant "agents" as Agents
+participant "dedup" as Dedup
+participant "letter_generate" as LetterGen
+participant "storage" as Storage
+participant "tools\n(fetch_*)" as Tools
+participant "LLM" as LLM
+
+User -> CLI : --date YYYY-MM-DD [--force]
+User -> API : POST run { date?, force }
+
+alt CLI
+  CLI -> Runner : run_pipeline(date, config_dir, data_dir, skills_dir, llm_client, force)
+else API (BackgroundTasks)
+  API -> Runner : run_pipeline(...)
+end
+
+Runner -> CP : load_checkpoint(collect)
+alt 없음 또는 force
+  Runner -> Collect : run_collect(sources_path, data_dir, date_str)
+  Collect -> Tools : fetch_rss / fetch_hnrss / fetch_reddit_rss / fetch_crawl
+  Tools --> Collect : items[]
+  Collect -> CP : save_checkpoint(collect)
+end
+Runner -> CP : load_checkpoint(analyze)
+alt 없음 또는 force
+  loop 청크별 (80개, 4 workers)
+    Runner -> Agents : run_agent("analyze", chunk)
+    Agents -> LLM : generate(system=analyze.md, user=JSON)
+    LLM --> Agents : JSON items
+  end
+  Runner -> CP : save_checkpoint(analyze)
+end
+Runner -> Agents : run_agent("summarize", items)
+Agents -> LLM : generate(system=summarize.md, user=JSON)
+LLM --> Agents : raw
+Runner -> CP : save_checkpoint(summarize)
+Runner -> Dedup : dedup(candidates, recent_7d, llm_client)
+Dedup -> LLM : generate (유사 시 중복 판정)
+LLM --> Dedup : YES/NO
+Dedup --> Runner : deduped[]
+Runner -> CP : save_checkpoint(dedup)
+Runner -> LetterGen : letter_generate({ items, date }, skills_dir, llm_client)
+LetterGen -> Agents : run_agent("letter_generate", payload)
+Agents -> LLM : generate(system=letter_generate.md, user=JSON)
+LLM --> Agents : markdown
+Agents --> LetterGen : markdown
+LetterGen --> Runner : letter_md
+Runner -> Storage : letter_path, index_path
+Runner -> CP : save_checkpoint(letter_generate)
+Runner --> CLI : { letter_path, items_count }
+Runner --> API : (백그라운드 완료 후 run_status 갱신)
+
+@enduml

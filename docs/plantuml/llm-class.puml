@@ -1,0 +1,54 @@
+@startuml llm-class
+!theme plain
+title LLM 어댑터 계층 (pipeline.llm)
+
+skinparam classAttributeIconSize 0
+skinparam defaultFontName SansSerif
+
+abstract class LLMAdapter {
+  {abstract} + generate(system: str, user: str): str
+}
+note right of LLMAdapter
+  pipeline/llm/base.py
+  설정으로 선택된 단일 모델과 통신
+  엔드포인트·페이로드·프롬프팅은 구현체에만 둠
+end note
+
+class GeminiAdapter {
+  - _model_name: str
+  + __init__(model: str, api_key: str)
+  + generate(system: str, user: str): str
+}
+note right of GeminiAdapter
+  pipeline/llm/adapters/gemini.py
+  google.genai
+  GenerateContentConfig(system_instruction) + generate_content(contents)
+end note
+
+class OpenAIAdapter {
+  - _client: OpenAI
+  - _model: str
+  + __init__(model: str, api_key: str)
+  + generate(system: str, user: str): str
+}
+note right of OpenAIAdapter
+  pipeline/llm/adapters/openai.py
+  chat.completions.create
+  messages: [system, user]
+end note
+
+LLMAdapter <|-- GeminiAdapter
+LLMAdapter <|-- OpenAIAdapter
+
+class "client (모듈)" as Client {
+  + get_llm_client(config_path): LLMAdapter
+}
+class "config (모듈)" as Config {
+  + load_llm_config(config_path): dict
+}
+Config ..> Client : provider, model, api_key
+Client ..> GeminiAdapter : provider == "google"
+Client ..> OpenAIAdapter : provider == "openai"
+Client ..> Config : load_llm_config
+
+@enduml

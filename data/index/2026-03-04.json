@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "title": "[R] GFlowsNets for accelerating ray tracing for radio propagation modeling",
+      "summary": "Journal preprint and code applying Generative Flow Networks (GFlowNets) to path-finding in point-to-point ray tracing for radio propagation; reports up to 10x GPU and 1000x CPU speedups while keeping coverage accuracy, includes JAX-based code and a tutorial notebook."
+    },
+    {
+      "title": "[D] Intel Core Ultra 7 265K vs AMD Ryzen 7 7800X3D Which one is better for ML?",
+      "summary": "Reddit discussion about choosing between Intel Core Ultra 7 265K and AMD Ryzen 7 7800X3D for a mixed gaming + ML workstation (poster concluded Intel is better in their case)."
+    },
+    {
+      "title": "[R] IJCAI-ECAI'26 Summary Rejects status",
+      "summary": "Author asking the community for updates about IJCAI-ECAI'26 summary-reject decisions; deadline March 4 AOE and status still 'Submitted' on the conference tool."
+    },
+    {
+      "title": "[P] I open-sourced a synth framework for creating physics-simulated humanoids in Unity with MuJoCo -- train them with on-device RL and interact in VR",
+      "summary": "Open-source Unity packages (synth-core, synth-training, synth-vr) to convert humanoid models into MuJoCo-based physics-simulated agents, run on-device RL (TorchSharp) including Meta Quest support, and enable mixed-reality interaction; Apache-2.0 licensed repos provided."
+    },
+    {
+      "title": "[D] Quantified analysis of 2,218 Gary Marcus claims - two independent LLM pipelines, scored against evidence",
+      "summary": "Dataset and analysis scoring every testable claim from Gary Marcus's Substack posts using two LLM pipelines (Claude Opus 4.6 and ChatGPT Codex) with reconciliation; reports distribution of supported/mixed/contradicted claims and open dataset/repo."
+    },
+    {
+      "title": "I used Cursor to cut my AI costs by 50-70% with a simple local hook",
+      "summary": "A Cursor user open-sourced a tiny local pre-prompt hook that classifies prompts and suggests or blocks model choices (Opus/Sonnet/Haiku/Codex) to avoid overpaying; retrospective analysis claims 50–70% cost reduction with no quality loss."
+    },
+    {
+      "title": "Cursor 2.6.11 using ~7GB RAM on Windows and becoming very slow — is this normal?",
+      "summary": "User reports Cursor 2.6.11 consuming ~7 GB RAM on Windows with many subprocesses, causing lag on a medium-large enterprise repo; asks whether high memory usage relates to agent/indexing/embeddings and requests settings or known issues."
+    },
+    {
+      "title": "Super crashy recently?",
+      "summary": "Cursor user reports frequent crashes over weeks despite being up-to-date, sometimes unusable for more than a minute; asks if others see similar instability."
+    },
+    {
+      "title": "Why is their no 2FA?",
+      "summary": "Simple user question/suggestion asking why Cursor does not offer two-factor authentication, noting it seems like an important and easy security fix."
+    },
+    {
+      "title": "How can I prevent Cursor AI from automatically converting CRLF files to LF on Windows?",
+      "summary": "Developer asks how to stop Cursor agents from rewriting Windows CRLF files to LF (causing noisy diffs), lists environment (Windows, core.autocrlf=true, .gitattributes), and seeks settings/editorconfig or other ways to preserve existing line endings."
+    },
+    {
+      "title": "What's best workflow to run multiple agents in parallel and make them perform separate changes",
+      "summary": "User asks best practices for running multiple Cursor agents in parallel (e.g., frontend vs backend) to produce separate commits with clean history, mentions Cursor's worktree support."
+    },
+    {
+      "title": "Cursor now available in JetBrains IDEs",
+      "summary": "Announcement that Cursor is now available as an integration in JetBrains IDEs, broadening editor support."
+    },
+    {
+      "title": "Money well spent",
+      "summary": "User analyzed Cursor usage on a request-based pricing plan (500 requests/month) and discovered an average of 20M tokens per request while using claude-4.6-opus-max, noting high token consumption."
+    },
+    {
+      "title": "Which models are you using the most right now?",
+      "summary": "User survey/discussion about which models (OpenAI Codex 5.3, Claude Opus 4.6, Sonnet, Google's models, Cursor Composer) people use most for full-stack development and their trade-offs in quality, speed, and price."
+    },
+    {
+      "title": "Firebase just shipped Agent Skills. Here's a community one for Firestore schema auditing.",
+      "summary": "User built lintbase-mcp, an MCP server + Agent Skill that supplies Cursor with real Firestore schema (field names/types/presence rates) before code changes to prevent AI hallucinating field names; open-source and installable via npm."
+    },
+    {
+      "title": "\"When to use this skill\" in body of skills",
+      "summary": "Short discussion/post highlighting inclusion of 'When to use this skill' guidance within the body of Skills (UX/documentation detail)."
+    },
+    {
+      "title": "\"Review next file\" back to old place?",
+      "summary": "User UI/behavior question about Cursor's 'Review next file' navigation and restoring previous cursor location."
+    },
+    {
+      "title": "Cursor Pro + Next.js Monorepo: Shipping features is fast, but AI-generated tests keep failing. What's your AI testing workflow?",
+      "summary": "Developer describes successful feature generation with Cursor Pro on a Next.js/Supabase monorepo but struggles with AI-generated tests (Playwright/Cypress/Jest) that often fail or hallucinate; asks for recommended 'AI for QA' tools or workflows."
+    },
+    {
+      "title": "Been using the Claude Excel plugin for a week and I genuinely didn’t expect it to hit this hard",
+      "summary": "A finance modeler reports Claude Excel plugin substantially accelerating complex spreadsheet work (tracking circular refs, dependencies, finding hidden mistakes), reducing tasks from days to hours."
+    },
+    {
+      "title": "I had Opus 4.6 evaluate 547 Reddit investing recommendations on reasoning quality with no upvote counts, no popularity signals. Its filtered picks returned +37% vs the S&P's +19%.",
+      "summary": "User built a Claude Code multi-agent pipeline to blind-score 547 Reddit investing recommendations (removing popularity signals) and created portfolios; reports Claude-filtered portfolio outperformed the S&P over the tested period and suggests Opus can filter higher-quality analysis from crowd posts."
+    },
+    {
+      "title": "So Claude is #1 in the US Android Market",
+      "summary": "Short post noting Claude reached #1 in the US Android market ranking (screenshot/celebration)."
+    },
+    {
+      "title": "Thank you",
+      "summary": "Simple thank-you / appreciation post in the Claude community."
+    },
+    {
+      "title": "Claude is my new work Husband",
+      "summary": "User testimonial praising Claude for drastically speeding up work tasks and improving analysis and spreadsheets, describing a strong personal productivity benefit."
+    },
+    {
+      "title": "UltraThink is back — here's when to actually use it..",
+      "summary": "Discussion of Opus effort levels: 'medium' effort now default, 'high' can be set permanently, and 'Ultrathink' as a one-turn override to high effort; recommendation on when to use Ultrathink (complex debugging, security-critical code)."
+    },
+    {
+      "title": "Strange Claude Response",
+      "summary": "User shares an example of Opus 4.6 producing a long, repetitive, off-track response (including repeated 'The End' in many languages) and asks if others have seen similar bizarre behavior."
+    },
+    {
+      "title": "I've been building Claude Skills for a month. Here's what I learned the hard way.",
+      "summary": "Developer reflections on designing effective Claude Skills: reframing Skills as job descriptions, being specific about role, using constraints rather than instructions, and specifying strict output formats to get consistent professional results."
+    },
+    {
+      "title": "They brought the ULTRATHINK rainbow back 🌈 !",
+      "summary": "User notes the return of the ULTRATHINK status UI and mentions a new default medium effort recommendation for Opus with Ultrathink triggering high effort when needed."
+    },
+    {
+      "title": "OpenAI's post-training lead leaves and joins Anthropic: he helped ship GPT-5, 5.1, 5.2, 5.3-Codex, o3 and o1 and will return to hands-on RL research at Anthropic",
+      "summary": "Report of a senior OpenAI post-training lead (credited on multiple GPT/GPT-Codex releases) leaving OpenAI to join Anthropic to return to hands-on RL research."
+    },
+    {
+      "title": "Extending single-minus amplitudes to gravitons",
+      "summary": "A new preprint extends single-minus amplitudes to gravitons; GPT-5.2 Pro assisted in deriving and verifying nonzero graviton tree amplitudes in quantum gravity."
+    },
+    {
+      "title": "Understanding AI and learning outcomes",
+      "summary": "OpenAI introduces the Learning Outcomes Measurement Suite designed to assess AI’s impact on student learning across diverse educational environments over time."
+    },
+    {
+      "title": "How Axios uses AI to help deliver high-impact local journalism",
+      "summary": "Axios COO Allison Murphy describes how Axios uses AI to support local reporters, streamline newsroom workflows, and scale high-impact local journalism."
+    }
+  ]
+}

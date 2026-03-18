@@ -6,3 +6,5 @@ __pycache__/
 .eggs/
 frontend/node_modules/
 frontend/dist/
+.pytest_cache/
+tests/

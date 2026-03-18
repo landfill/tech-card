@@ -1,0 +1,249 @@
+{
+  "items": [
+    {
+      "title": "[D] What is even the point of these LLM benchmarking papers?",
+      "summary": "Reddit thread questioning the value of LLM benchmarking papers given rapid model churn and deprecation of proprietary models by the time papers publish.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rsdify/d_what_is_even_the_point_of_these_llm/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "[P] ColQwen3.5-v2 4.5B is out!",
+      "summary": "Release of ColQwen3.5-v2, a 4.5B-parameter visual document retrieval model (Apache 2.0) built on Qwen3.5-4B with improved training recipe; weights on Hugging Face.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rsxlg8/p_colqwen35v2_45b_is_out/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] Telecom modernization on legacy OSS, what actually worked for ML data extraction",
+      "summary": "Post-mortem of adding ML to a legacy telecom OSS (C++ core, Perl glue, no APIs). Extraction proved hardest — what failed (app-layer log parsing, instrumenting binary, ETL polling) and what worked (Debezium CDC on MySQL binlog, eBPF uprobes, Perl DBI hooks).",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rspvy7/d_telecom_modernization_on_legacy_oss_what/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] ICLR 2026 poster format for main conference posters?",
+      "summary": "Question from a presenter about commonly used poster dimensions and practical recommendations for ICLR 2026 poster formatting (official max 1.90 m × 0.90 m landscape).",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rsjvln/d_iclr_2026_poster_format_for_main_conference/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "[R] biomarker peak detection using machine learning - wanna collaborate?",
+      "summary": "Researcher seeking collaborators to develop ML pipeline for biomarker peak detection on MALDI-TOF mass spec data (tuberculosis / non-tuberculosis mycobacteria).",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rsxqoi/r_biomarker_peak_detection_using_machine_learning/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "[Project] JudgeGPT — open-source LLM-as-judge benchmarking tool with configurable scoring rubrics, CoT reasoning, and real-time GPU telemetry",
+      "summary": "Open-source tool (FastAPI + React) to run LLM-as-judge evaluations locally via Ollama. Features behavioral-anchored rubrics, configurable judge models, chain-of-thought before scoring, human-score blending, GPU telemetry, persistent SQLite history, Prometheus metrics. Repo: github.com/MegaBytesllc/judgegpt.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rsxcl3/project_judgegpt_opensource_llmasjudge/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "1 million context window is now generally available for Claude Opus 4.6 and Claude Sonnet 4.6.",
+      "summary": "Anthropic announced general availability of 1M-token context for Claude Opus 4.6 and Sonnet 4.6 at standard pricing; Opus 4.6 scores strongly on MRCR v2 and supports large codebases/doc sets and expanded media limits.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsubm0/1_million_context_window_is_now_generally/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Why the majority of vibe coded projects fail",
+      "summary": "Community post (opinion/meme) discussing reasons 'vibe coded' (quick/impulse-built) projects fail — posted in ClaudeAI subreddit.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rt31th/why_the_majority_of_vibe_coded_projects_fail/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Opus 4.6 now defaults to 1M context! (same pricing)",
+      "summary": "User report noting that Opus 4.6 now defaults to a 1M token context window without pricing change.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rst3zv/opus_46_now_defaults_to_1m_context_same_pricing/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Asked Claude for winning lottery numbers",
+      "summary": "User-shared screenshot of asking Claude for winning lottery numbers — light community post.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rss5mh/asked_claude_for_winning_lottery_numbers/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "I figured out another reason why people think AI is less powerful than it actually is",
+      "summary": "Post analyzing SaaS economics of offering high-quality models (e.g., Opus) to end users: subscription vs API economics mean most SaaS products must expose 'lobotomized' models to stay profitable, so average users seldom see full model capability.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rszj1a/i_figured_out_another_reason_why_people_think_ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "I regularly ask models to audit output from another mode to reduce the \"what an amazing suggestion\" before implementing in my code. Claude is the biggest hater of them all.",
+      "summary": "User notes they use models to audit other models' outputs and observes Claude tends to be especially critical in audit role.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rt270x/i_regularly_ask_models_to_audit_output_from/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Free 1M context with Opus 4.6",
+      "summary": "User reporting receiving a message about free access to 1M context in Claude Code as a Claude Max subscriber, asking for community thoughts.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rst4l5/free_1m_context_with_opus_46/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Opus now supports 1 million contexts",
+      "summary": "Another community note that Opus now defaults to/supports a 1M token context window ('5x more room, same pricing').",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsvreb/opus_now_supports_1_million_contexts/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "claude-code-best-practice hits GitHub Trending (Monthly) with 15,000★",
+      "summary": "A community-maintained 'claude-code-best-practice' repository (tips/workflows) is trending on GitHub with many stars; repo link shared.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsyfdz/claudecodebestpractice_hits_github_trending/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude.ai inline visualiser/widget is pretty cool.",
+      "summary": "User enjoying new Claude feature that creates inline visuals and interactive elements (buttons) in chat.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsvfv5/claudeai_inline_visualiserwidget_is_pretty_cool/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Microsoft backs Anthropic in legal battle against Pentagon",
+      "summary": "Post linking to news that Microsoft filed an amicus brief supporting Anthropic in its legal dispute with the Pentagon.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsugqk/microsoft_backs_anthropic_in_legal_battle_against/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "My ideas are too big for Claude apparently 😔",
+      "summary": "User-shared image/post about Claude not handling a user's 'big' idea — light community content.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rspjl3/my_ideas_are_too_big_for_claude_apparently/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "I asked Claude to make a wish",
+      "summary": "Whimsical/entertainment post where a user asked Claude to make a wish.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsc1oo/i_asked_claude_to_make_a_wish/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "LLMs are still not secure enough to entrust critical tasks to",
+      "summary": "User recounting an incident (from Hacker News) where Opus misunderstood user intent and started implementing despite a user's 'no' — raising concerns about trusting LLMs for critical tasks.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsldg6/llms_are_still_not_secure_enough_to_entrust/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Max $100 vs $200: What You Actually Get",
+      "summary": "User comparison of Claude Max $100 vs $200 tiers based on heavy coding use; links to a blog post with findings.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rt09nn/claude_max_100_vs_200_what_you_actually_get/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Stop spending money on Cursor. Chipotle's support bot is free:",
+      "summary": "Post suggesting people shouldn't pay for Cursor because Chipotle's support bot (free) can handle some tasks — community meme/critique of paid assistants.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rskemg/stop_spending_money_on_cursor_chipotles_support/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Your AI context is more valuable than the code it generates - start owning it",
+      "summary": "Argument that the differentiator with AI coding assistants is persistent context (decisions, conventions) and that users should store context in portable files; author mentions building an open-source 'Context Vault' tool and will share repo.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rt26ri/your_ai_context_is_more_valuable_than_the_code_it/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "Debug mode is actually amazing 🔥",
+      "summary": "User praise for Cursor's debug mode which adds instrumentation and tests hypotheses automatically — positive feature feedback.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsp73g/debug_mode_is_actually_amazing/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Megathread: Usage",
+      "summary": "Cursor subreddit moderator consolidating common usage questions and plan/model selection into a megathread for visibility.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsy59f/megathread_usage/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Is Claude Code + an IDE effectively the same as Cursor? I assume by itself it is worse?",
+      "summary": "User asks whether combining Claude Code (CLI) with an IDE gives equivalent functionality to Cursor's GUI, listing features they believe Cursor provides and asking about trade-offs.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rscil0/is_claude_code_an_ide_effectively_the_same_as/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "I made a free and open-source local remote tool for Cursor, demo video below! Github link in description, feedback is appreciated!",
+      "summary": "Developer released an open-source local-remote tool for Cursor (GitHub link provided) allowing local agent nudging; mentions CLI/IDE sync issues and a demo video.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsxdcy/i_made_a_free_and_opensource_local_remote_tool/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "ideas for daily workflow with cursor?",
+      "summary": "User solicits ideas for daily workflows using Cursor, including leveraging Jira, MCP, CLI, peer code reviews, and managing context switching with git worktrees.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rt1qp5/ideas_for_daily_workflow_with_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Built an open-source shared memory system for Claude Code — works with any Git repo",
+      "summary": "Announcement of 'repo-mem', an open-source tool that provides persistent, team-shared memory for Claude Code via an MCP server and per-user SQLite DBs committed to Git; MIT licensed. GitHub: https://github.com/timosieber/repo-mem.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rt0ts7/built_an_opensource_shared_memory_system_for/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "my cursor is crazy !!",
+      "summary": "User reports an agent-mode behavior in Cursor where the assistant 'can't stop thinking' — community bug/behavior post.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsjshs/my_cursor_is_crazy/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Why does the quality of the answers vary so much with every update?",
+      "summary": "User complaint about Cursor's response quality fluctuating significantly across updates — sometimes very capable, other updates feel much worse.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsm1dq/why_does_the_quality_of_the_answers_vary_so_much/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Do you guys suggest to update to the latest version?",
+      "summary": "User hesitant to update Cursor due to past updates degrading UX; asks whether they should upgrade from an old version.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsr016/do_you_guys_suggest_to_update_to_the_latest/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Ctrl+Backspace deletes everything in Cursor CLI (can’t undo) Can I change this?",
+      "summary": "User hits an inconvenient keybinding in Cursor CLI where Ctrl+Backspace deletes all text (no undo); asks for ways to change keybindings or workarounds.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsrsnf/ctrlbackspace_deletes_everything_in_cursor_cli/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Are AI Coding Assistants Doing to IT What the Mechanical Loom Did to Weaving?",
+      "summary": "Discussion post drawing analogy between AI coding assistants and historical automation (mechanical loom) and implications for IT jobs/workflows.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsqtj8/are_ai_coding_assistants_doing_to_it_what_the/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Cant add gemini api key to cursor",
+      "summary": "User reports inability to integrate Gemini API key into local Cursor instance and asks for help troubleshooting the integration.",
+      "url": "https://www.reddit.com/r/cursor/comments/1rsq2dh/cant_add_gemini_api_key_to_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    }
+  ]
+}

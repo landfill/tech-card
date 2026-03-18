@@ -1,0 +1,242 @@
+{
+  "items": [
+    {
+      "제목": "The arXiv is separating from Cornell University, and is hiring a CEO, who will be paid roughly $300,000/year. \"After decades of productive partnership with Cornell University, and with support from the Simons Foundation, arXiv is establishing itself as an independent nonprofit organization\"",
+      "요약": "arXiv이 Cornell과 분리되어 독립 비영리 조직으로 전환하며 CEO 채용(연봉 약 $300k). Simons Foundation의 지원 속 변화.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rtjirw/the_arxiv_is_separating_from_cornell_university/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "high"
+    },
+    {
+      "제목": "[P] Karpathy's autoresearch with evolutionary database.",
+      "요약": "Karpathy의 autoresearch 프로젝트에 간단한 tsv 로그를 대체하는 진화형 데이터베이스를 통합한 오픈소스 구현(리포 링크 포함).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rtsbkv/p_karpathys_autoresearch_with_evolutionary/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "[D] ran controlled experiments on meta's COCONUT and found the \"latent reasoning\" is mostly just good training. the recycled hidden states actually hurt generalization",
+      "요약": "Meta의 COCONUT 메커니즘에 대한 2x2 실험 설계로 재활용된 히든 스테이트(재사용된 컨텍스트)가 OOD 일반화에서 오히려 해를 끼치고 순차적 처리 방식이 일반화에 기여한다는 결과 보고(코드/체크포인트 공유).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rt4lyd/d_ran_controlled_experiments_on_metas_coconut_and/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "[D] Need advice on handling a difficult ACL ARR situation",
+      "요약": "ACL ARR 제출 후 리뷰어/윤리 관련 피드백 충돌로困惑한 연구자가 커뮤니티에 조언 요청 (오픈소스, 윤리, 평가자 불일치 관련 사례).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rtled3/d_need_advice_on_handling_a_difficult_acl_arr/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "제목": "[D] Reported our meta-reviewer in this ARR cycle — no response yet. Should we commit to ACL or should we go with March 2026 cycle with explaining how meta reviews are wrong in revision doc?",
+      "요약": "ARR 메타리뷰어에 대한 신고를 접수했으나 응답 없음. ACL 기한이 임박한 상황에서 결정 조언을 구함(커밋 vs 다음 사이클).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rth86s/d_reported_our_metareviewer_in_this_arr_cycle_no/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "제목": "[D] ACL ARR 2026 Jan cycle — Does the commitment track have to match the track chosen during ARR submission?",
+      "요약": "ARR 제출시 선택한 트랙과 ACL 커밋 단계의 트랙이 일치해야 하는지, 변경 시 리스크가 있는지에 대한 질의.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rtkazr/d_acl_arr_2026_jan_cycle_does_the_commitment/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "제목": "[D] Has interpretability research been applied to model training?",
+      "요약": "어텐션 프로브 등 해석 기법을 모델의 사전/후학습(SFT/RL) 단계에 적용해 효율성(예: 조기 CoT 종료) 개선에 실제로 활용한 사례가 있는지 질의.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rt8t19/d_has_interpretability_research_been_applied_to/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Does anyone here use the cursor Debug Tool?",
+      "요약": "Cursor 사용자들이 Debug 옵션(Plan / Ask / Debug 워크플로우) 중 디버그 도구를 얼마나 활용하는지 경험 공유 요청.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtwdxc/does_anyone_here_use_the_cursor_debug_tool/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "I built a headless bridge to relay prompts to Cursor from mobile (Open Source)",
+      "요약": "모바일에서 Cursor로 프롬프트를 중계하는 헤드리스 브리지(오픈소스) 개발 및 공유.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtuafh/i_built_a_headless_bridge_to_relay_prompts_to/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Claude Code review: $20 every PR?",
+      "요약": "Claude Code의 PR 자동 리뷰 비용(토큰 기반, PR당 평균 $15–25) 때문에 팀 워크플로우에서 비용이 빠르게 증가할 수 있다는 사용자 우려 및 사용 사례 논의.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtlird/claude_code_review_20_every_pr/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Is someone here who ran from Replit and is shocked how better Cursor is?",
+      "요약": "Replit에서 Cursor로 옮겨온 사용자가 Cursor에서의 생산성/정확도 향상에 감탄하는 경험 공유.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rto0bl/is_someone_here_who_ran_from_replit_and_is/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "What is the right way to use Plan Chat?",
+      "요약": "Cursor의 Plan Chat → Agent(빌드)로 전환하는 워크플로우 최적화 질문(컨텍스트 유지 및 효율적 빌드 전환 방법).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtpl4p/what_is_the_right_way_to_use_plan_chat/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "500 Credits Wiped Out in TWO Clicks",
+      "요약": "Cursor 인터페이스에서 Plan과 Build를 연속 클릭했더니 500 크레딧이 한 번에 소모되는 문제 발생, 문서화/UI 부족 및 지원 응답 불충분 보고.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rt9k7j/500_credits_wiped_out_in_two_clicks/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Built a memory layer for Cursor that works across all your AI tools",
+      "요약": "대화에서 중요한 컨텍스트를 추출해 지식 그래프로 저장하고 Cursor·Claude·ChatGPT·Gemini 등 다중 AI 도구에서 주입해 쓸 수 있는 외부 메모리 서비스 'Membase' 공개(프리·초대 베타).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtqcag/built_a_memory_layer_for_cursor_that_works_across/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "BMAD in Cursor to BMAD in Claude Code CLI",
+      "요약": "BMAD 관련(방법/포스트) 내용을 Cursor에서 Claude Code CLI로 연결했다는 간단한 게시(링크 포함).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtmwtn/bmad_in_cursor_to_bmad_in_claude_code_cli/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "Anyone else stuck at Taking Longer Than Expected?",
+      "요약": "Cursor 사용 중 'Taking Longer Than Expected' 단계에서 멈추는 오류 경험 공유 및 해결 방안 요청.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtla53/anyone_else_stuck_at_taking_longer_than_expected/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "Best extensions for Cursor to improve AI coding",
+      "요약": "Cursor에서 AI 코딩 경험을 향상시키는 확장(extension) 추천 요청(특히 AI 관련 확장 위주).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtir2f/best_extensions_for_cursor_to_improve_ai_coding/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "Any designer who's vibe coding now?",
+      "요약": "디자이너들이 Figma를 건너뛰고 'vibe coding' 워크플로우로 전환하는 현상에 대한 경험/의견 요청(디자인 → 코드 직접 전환 트렌드).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rt48iq/any_designer_whos_vibe_coding_now/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "MCPs reauthentication",
+      "요약": "Slack/Atlassian MCP 인증이 자주 재요청되어(특히 Cursor/맥 재시작 시) 불편하다는 문제 제기 및 영구화 가능한지 문의.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtg3k6/mcps_reauthentication/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "Taking longer than expected... with custom api key",
+      "요약": "Vertex AI + proxy로 OpenAI 호환 모델을 쓰는 설정에서 Cursor가 느리게 작동(기본 엔드포인트는 빠름). Cursor의 커스텀 API 키에 대한 레이트리밋 의심.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtkc9z/taking_longer_than_expected_with_custom_api_key/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Is it time to ditch Figma for an AI-native workflow? Looking for the ultimate \"Figma to Code\" flow",
+      "요약": "AI 네이티브 워크플로우로 Figma를 대체할 시점인지, 'Figma → 코드'의 최적 흐름을 찾는 토론/질문(디자인-코드 자동화 트렌드).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rt6s1x/is_it_time_to_ditch_figma_for_an_ainative/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Cursor IDE not opening and logo missing after laptop restart (Windows)",
+      "요약": "Windows에서 Cursor IDE가 재시작 후 실행되지 않고 아이콘이 사라지는 현상 보고 및 해결 요청.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1rtaudo/cursor_ide_not_opening_and_logo_missing_after/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "Anthropic just told you exactly when their servers are struggling, and they're paying you to help fix it",
+      "요약": "Anthropic(Claude)가 피크 시간대 용량 문제를 인정하고 오프피크 사용자를 인센티브(오프피크 2배 사용량)를 제공해 수요 조정 실험을 진행 중이라는 관찰/해석.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtwiux/anthropic_just_told_you_exactly_when_their/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Claude gets interactive now, jaw dropped",
+      "요약": "사용자가 Claude(Anthropic)의 새 상호작용 기능을 경험하고 놀랐다는 포스트(대화형/실시간 반응성 향상).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtxa2q/claude_gets_interactive_now_jaw_dropped/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Anthropic just wiped out another wave of startups, mostly in education. Custom charts, diagrams, and interactive visuals in Claude, learning mode.",
+      "요약": "Claude의 학습 모드에서 사용자 프롬프트만으로 실시간 조절 가능한 차트/다이어그램/인터랙티브 시각화를 제공하면서 관련 스타트업 시장에 영향이 있다는 관찰.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtxrt7/anthropic_just_wiped_out_another_wave_of_startups/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "2 weeks of 2x rates : Life's Good !!!",
+      "요약": "사용자가 Claude의 2주간 오프피크 2배 사용량 프로모션을 기뻐하는 소감 공유.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtyk4g/2_weeks_of_2x_rates_lifes_good/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "Claude doubles usage in off-peak hours until March 27th",
+      "요약": "Anthropic이 2026-03-13~03-27 기간 동안 오프피크(미 동부 8AM-2PM 제외)에서 사용 한도를 2배로 적용하는 제한적 프로모션 공지(Free/Pro/Max/Team 대상).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtu3v4/claude_doubles_usage_in_offpeak_hours_until_march/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Claude turns 3 today!",
+      "요약": "Claude 서비스 출시 3주년 기념 공지/축하 게시.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtezds/claude_turns_3_today/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "Ts real",
+      "요약": "짧은 이미지/밈형 게시(내용 맥락 제한적).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtnj28/ts_real/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "No one cares what you built",
+      "요약": "Claude Code·코딩 에이전트 보급으로 누구나 도구를 빠르게 만들 수 있게 되면서, 많은 공개 프로젝트가 특별할 것 없고 사용자가 직접 만들기 쉬워진 현실에 대한 비판적 의견.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtey4g/no_one_cares_what_you_built/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Claude can now directly edit audio in Audacity — 131 tools, free local transcription, no cloud needed",
+      "요약": "Claude를 Audacity에 파이프 인터페이스로 연결해 오디오 편집/마스터링/파이프라인 자동화(131개 도구, 9개 파이프라인), 로컬 Whisper 기반 자막/전사 제공하는 오픈소스 프로젝트 공개(깃허브).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtw81r/claude_can_now_directly_edit_audio_in_audacity/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    },
+    {
+      "제목": "15 or so hours later since 1m context included in MAX and I'm feeling almost high",
+      "요약": "Claude MAX 플랜에 1M 토큰 컨텍스트가 기본 포함되면서 실무 생산성이 크게 향상되었다는 사용자 경험 공유(컨텍스트 재설명 감소, 토큰 사용 효율화).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtgq1o/15_or_so_hours_later_since_1m_context_included_in/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "high"
+    },
+    {
+      "제목": "stopped asking claude for word docs and my sessions got noticeably faster",
+      "요약": "사용자가 .docx 요청을 멈추고 마크다운으로 요청하니 응답 속도·토큰 사용량이 개선되었다는 실무 팁 공유(불필요한 포맷 변환 비용 회피).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rtpww1/stopped_asking_claude_for_word_docs_and_my/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "low"
+    },
+    {
+      "제목": "I built, ehm, claude built an professional AI video editor in the browser. No server round trips, everything works on your GPU",
+      "요약": "브라우저 기반 전문 AI 비디오 편집기(서버 라운드트립 없음, GPU 로컬 실행) 및 76개의 AI 도구 제공 오픈소스 프로젝트(GitHub/데모 링크 포함).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rthbmn/i_built_ehm_claude_built_an_professional_ai_video/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "영향도": "medium"
+    }
+  ]
+}

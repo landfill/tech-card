@@ -4,12 +4,13 @@ from pathlib import Path
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-# DATA_DIR
-def _data_dir() -> Path:
-    return Path(__file__).resolve().parent.parent.parent / "data"
-
+from backend.paths import get_data_dir
 
 router = APIRouter()
+
+
+def _data_dir() -> Path:
+    return get_data_dir()
 
 
 class FeedbackCreate(BaseModel):

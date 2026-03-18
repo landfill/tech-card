@@ -1,0 +1,46 @@
+@startuml deployment
+!theme plain
+title 배포/실행 환경
+
+skinparam nodeBackgroundColor #E8F4FD
+skinparam defaultFontName SansSerif
+
+node "개발자 머신" {
+  node "브라우저" as Browser {
+    [Vite Dev Server\n:5173] as Vite
+  }
+  node "Python 프로세스" as Python {
+    [uvicorn\nbackend.main:app\n:8000] as Uvicorn
+    [python -m pipeline\n(CLI 1회 실행)] as CLI
+    [scheduler.py\n(매일 06:00)] as Scheduler
+  }
+  database "로컬 파일시스템" as FS {
+    folder "config" as Cfg
+    folder "data" as Data
+    folder "skills" as Skills
+  }
+}
+
+cloud "외부" {
+  [RSS/Reddit/HNRSS] as RSS
+  [Crawl 대상 URL] as Crawl
+  [Google Gemini API] as Gemini
+  [OpenAI API] as OpenAI
+}
+
+Browser --> Vite : http://localhost:5173
+Vite --> Uvicorn : VITE_API_BASE → :8000
+Uvicorn --> FS : DATA_DIR / data
+CLI --> FS : config, data, skills
+Scheduler --> CLI : 하루 1회 실행
+Uvicorn --> FS : 읽기/쓰기
+CLI --> FS : 체크포인트, letters, index
+
+Uvicorn --> Gemini : GOOGLE_API_KEY
+Uvicorn --> OpenAI : OPENAI_API_KEY
+CLI --> Gemini
+CLI --> OpenAI
+CLI --> RSS : 수집
+CLI --> Crawl : Playwright chromium
+
+@enduml

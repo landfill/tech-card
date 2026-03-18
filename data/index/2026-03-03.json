@@ -1,0 +1,180 @@
+{
+  "items": [
+    {
+      "title": "[P] We made GoodSeed, a pleasant ML experiment tracker",
+      "summary": "GoodSeed v0.3.0 — a simple, fast ML experiment tracker (UI, metric plots, monitoring, stdout/stderr, structured configs, git status logging, remote server beta, Neptune proxy). Repo: https://github.com/kripner/goodseed"
+    },
+    {
+      "title": "[R] AdamWClip: AdamW with adaptive gradient clipping",
+      "summary": "AdamWClip — an extension to AdamW that performs adaptive gradient clipping (no manual thresholds, no extra memory, small overhead). Source: https://github.com/wandeln/AdamWClip"
+    },
+    {
+      "title": "[P] I trained Qwen2.5-1.5b with RLVR (GRPO) vs SFT and compared benchmark performance",
+      "summary": "Experiment training Qwen2.5-1.5B-Instruct with RLVR (GRPO) vs SFT on GSM8K: RLVR improved math reasoning (+11.9), SFT degraded it. Multiple experiments and 388 checkpoints benchmarked; artifacts on HF Spaces and GitHub."
+    },
+    {
+      "title": "[R] Are neurons the wrong primitive for modeling decision systems?",
+      "summary": "Discussion of an ICLR paper proposing Behavior Learning — replacing neural layers with learnable constrained optimization blocks (utility + constraints → optimal decision). Links to OpenReview."
+    },
+    {
+      "title": "[R] Boundary-Metric Evaluation for Thin-Structure Segmentation under 2% Foreground Sparsity",
+      "summary": "Undergrad author paper on segmentation evaluation with extreme foreground sparsity (~1.8% positive pixels). Focus on region vs boundary metrics, core vs thin-subset equity, multi-seed training, per-image robustness. arXiv: https://arxiv.org/abs/2603.00163"
+    },
+    {
+      "title": "Claude's Cycles [pdf]",
+      "summary": "Article PDF link: https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf — Hacker News thread with many comments."
+    },
+    {
+      "title": "Cursor Revenue Leak: $2 Billion Annual Sales Rate",
+      "summary": "Report: Cursor reached a $2B annualized revenue run rate as of Feb 2026, doubling revenue in three months; ~60% from corporate customers. Competes with OpenAI, Anthropic, Google, others; product autonomous coding features noted."
+    },
+    {
+      "title": "Overcharged by $350 over a \"billing system error\"",
+      "summary": "Cursor user reports large erroneous mid-month charges (~$276.92) despite $4.05 actual usage; spending cap bypassed; support confirmed billing system error. User requests refund and unlinking payment method."
+    },
+    {
+      "title": "Apple Foundation vs Qwen 3.5 4b running locally on iPhone16pro",
+      "summary": "Post showing comparison / demonstration of running Apple Foundation model vs Qwen 3.5 4B locally on an iPhone 16 Pro (image post)."
+    },
+    {
+      "title": "backspace broke (among other things)",
+      "summary": "Cursor user reports UI/keyboard shortcuts issues (backspace, tab, command shortcuts) that are temporarily fixed by restarting Cursor."
+    },
+    {
+      "title": "Clicking the \"wrong\" location while the model is \"Thinking\" collapses thinking and it cannot be reopened. The user loses all ability to monitor agent output on long, expensive calls.",
+      "summary": "Cursor user describes UX regression where misclick collapses live \"Thinking\" output and it can't be reopened, causing loss of visibility on long/token-expensive model runs and risk of costly bad outputs."
+    },
+    {
+      "title": "Not seeing the list of created/edited files in chat anymore",
+      "summary": "User reports missing list of created/edited files in Cursor chat UI (used to show until approvals). Asks if bug or intentional change."
+    },
+    {
+      "title": "Between Auto vs Composer 1.5 which model will be best in Cursor?",
+      "summary": "User asks which model performs better in Cursor for typical tasks — Auto vs Composer 1.5 (Claude variants)."
+    },
+    {
+      "title": "I built an MCP server that routes coding agents requests to Slack — tired of babysitting terminal sessions",
+      "summary": "Developer built an MCP tool to route coding agent approvals/questions to Slack so agents can run headless and request approvals via Slack buttons; works with Claude Code, Cursor, Gemini CLI, any MCP-supporting agent."
+    },
+    {
+      "title": "Remote MCPs are more popular than you think",
+      "summary": "Short post/comment noting popularity of remote MCPs (no detailed summary)."
+    },
+    {
+      "title": "Payments Cursor - Revolut - Stripe - what a mess",
+      "summary": "User reports repeated Stripe/Link checkout failures with Revolut card for Cursor subscription, leading to canceled subscriptions and failed renewals; asks if others have the same issue and notes lack of iDEAL support."
+    },
+    {
+      "title": "Learning from the best",
+      "summary": "Short/light post (image) joking about how the AI learns from users."
+    },
+    {
+      "title": "chat history?",
+      "summary": "User asks whether an admin (company-provided account) can see their chat history/prompts on the admin dashboard."
+    },
+    {
+      "title": "Which tools are you missing to ship your projects faster?",
+      "summary": "Thread asking no-code creators / solopreneurs what tooling they lack to ship apps faster (DB connections, migrations, agent hallucinations, deployment, recurring jobs, etc.)."
+    },
+    {
+      "title": "payment parsing cursor",
+      "summary": "Short post mentioning payment parsing with Cursor (sparse details)."
+    },
+    {
+      "title": "Composer 1.5 - IDIOT",
+      "summary": "User frustrated with Composer 1.5 agent giving unhelpful responses and asking for manual debugging steps; complaint about agent behavior."
+    },
+    {
+      "title": "Usage metrics not clear at all",
+      "summary": "User reports inconsistent usage metrics between web dashboard ($10 of $20) and app view (percentages for auto and API usage) and asks for clarification."
+    },
+    {
+      "title": "How to keep cursor running on a remote machine?",
+      "summary": "User asks how to keep a Cursor agent running on a remote machine via SSH after disconnecting local session."
+    },
+    {
+      "title": "GPT-5.3 Instant System Card",
+      "summary": ""
+    },
+    {
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "summary": ""
+    },
+    {
+      "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+      "summary": "GitHub Engineering post on improving search experience for GHES customers — architecture changes for better speed and resilience."
+    },
+    {
+      "title": "Join or host a GitHub Copilot Dev Days event near you",
+      "summary": "GitHub Copilot Dev Days — global series of hands-on, in-person, community-led events to explore AI-assisted coding."
+    },
+    {
+      "title": "The AI not just fired us, It made our team irrelevant.",
+      "summary": "Personal account: an e-commerce company's internal AI analytics tool replaced a data analyst team; author warns about job displacement as companies adopt AI-first analytics."
+    },
+    {
+      "title": "Claude and Claude Code traffic grew faster than expected this week",
+      "summary": "Anthropic reports usage spike for Claude and Claude Code that exceeded forecasts; infrastructure scaling underway."
+    },
+    {
+      "title": "I laugh so hard when it happens",
+      "summary": "Short/light image post about Claude behavior (humorous)."
+    },
+    {
+      "title": "Opus 4.6 appreciation post",
+      "summary": "User appreciation post for Opus 4.6 (Claude model family)."
+    },
+    {
+      "title": "And so they killed my sub for SuperWhisper",
+      "summary": "User complaint about losing subscription access for 'SuperWhisper' after rapid changes; links to related thread."
+    },
+    {
+      "title": "Claude hits #1 on App Store while \"Claude for Government\" runs at 99.74% uptime through Iran operation",
+      "summary": "Thread linking multiple developments: Claude surpassing ChatGPT on US App Store, claims about 'Claude for Government' high uptime and reported use in military intelligence/operations during a conflict; touches on geopolitical and ethical angles."
+    },
+    {
+      "title": "New: Voice mode is rolling out now in Claude Code, live for ~5% of users today, details below",
+      "summary": "Claude Code rolling out a voice (push-to-talk) mode to ~5% of users initially; transcript streams to cursor position; no extra cost; available across paid tiers on rolling basis."
+    },
+    {
+      "title": "After DoW vs Anthropic, I built DystopiaBench to test the willingness of models to create an Orwellian nightmare",
+      "summary": "Author built 'DystopiaBench' to pressure-test models on dystopic scenarios, motivated by debates around DoW vs Anthropic and model safety/behavior."
+    },
+    {
+      "title": "US Government Open Data MCP",
+      "summary": "MCP server connecting to ~37 US/international government data APIs (198 tools covering economic, health, campaign finance, patents, energy, etc.) to make public data easier to query; GitHub Pages with examples."
+    },
+    {
+      "title": "I gave Claude the ability to generate and run its own radio station 24/7 with music and talk segments etc",
+      "summary": "Demo/project: Claude-driven 24/7 radio station with music and talk segments (link: https://www.khaledeltokhy.com/claude-show)."
+    },
+    {
+      "title": "Boss \"I can't work today. Claude is out of service.\"",
+      "summary": "Short post/meme about Claude being out of service impacting work."
+    },
+    {
+      "title": "I see Claude's writing everywhere and it's starting to feel like an AI condom, I hate it",
+      "summary": "User complains about homogenized writing style from widespread Claude usage and urges humans to reintroduce personal voice into AI-drafted text."
+    },
+    {
+      "title": "BEWARE of factory.ai. 10x more expensive than Claude Code and you can't cancel your subscription.",
+      "summary": "User alleges factory.ai charges persist after cancellation and has poor/no support; warns it's much more expensive than Claude Code."
+    },
+    {
+      "title": "What you will find in CC 2.1.64 (+1,291 tokens)",
+      "summary": "Summary of updates to Claude Code system prompts and agent skills (new verification specialist agent prompt, output efficiency instructions, verifier skill maintenance, ToolSearch changes, etc.). Link to release notes on GitHub."
+    },
+    {
+      "title": "Frustrated by free games for children, I made my own",
+      "summary": "Developer made a no-ads, no-tracking web app for simple children's games (tic-tac-toe, checkers, rhyming game) built using Claude Code and Sonnet 4.6; free and parental-restricted."
+    },
+    {
+      "title": "Anthropic, your fastest-growing region can't actually use Claude properly. Here's why EU data residency for claude.ai matters.",
+      "summary": "European Max subscriber explains lack of EU data residency for claude.ai / Claude Desktop forces EU users to send data to US, causing GDPR/compliance friction; requests EU residency option comparable to API and timeline — argues this is blocking enterprise adoption in EMEA."
+    },
+    {
+      "title": "I built a full desktop app with Claude Code — 2.8M artists, local AI, Rust + SvelteKit",
+      "summary": "BlackTape: a desktop music discovery app built end-to-end with Claude Code (Tauri/Rust backend, SvelteKit frontend, local AI sidecar shipping with Qwen2.5 3B). Open source: https://github.com/AllTheMachines/BlackTape — demonstrates Claude Code-driven product development."
+    }
+  ]
+}

@@ -1,53 +1,26 @@
 # 수집 소스 설정 (비(非) API 중심)
 #
-# 전략: RSS 브릿지 + Reddit RSS + Hacker News RSS + GitHub 피드 + AI 스크래핑(Firecrawl/헤드리스)
+# 실제 수집 가능한 소스만 포함. 구현된 타입: rss, hnrss, reddit_rss, github_blog, crawl
+# crawl: RSS 없는 목록 페이지 HTML 크롤링 (url, 선택: heading_tags, max_items)
+# 미구현 타입(rss_bridge, github_trending_rss, firecrawl, headless)은 enabled: false 또는 제거.
 # 상세: docs/sources-api-vs-crawl.md, docs/sources-non-api-strategy.md
 #
 # type별 필드:
-#   rss:              url (일반 RSS/Atom)
-#   rss_bridge:       bridge_url(자체 호스트 또는 공개 인스턴스), bridge(x|threads|instagram), account 또는 search_query
-#   hnrss:            query (키워드), points_min (선택, 점수 필터)
-#   reddit_rss:       subreddit (서브레딧명만, URL은 .../r/{subreddit}.rss 로 생성)
-#   github_trending_rss: language (선택), since (daily|weekly)
-#   github_blog:      url (AI & ML 등 섹션 RSS URL)
-#   firecrawl:        url, watch (선택, 감시 모드)
-#   headless:         url (Puppeteer/ScrapingBee 등 헤드리스 브라우저)
-# 공통: id, type, enabled. API 키 필요 시 .env (FIRECRAWL_API_KEY 등).
+#   rss:         url (일반 RSS/Atom)
+#   hnrss:       query (키워드), points_min (선택)
+#   reddit_rss:  subreddit (서브레딧명만)
+#   github_blog: url (GitHub Blog RSS)
+#   crawl:       url (목록 페이지), heading_tags (선택, 쉼표 구분 예: h2,h3), max_items (선택)
 
 sources:
-  # ========== 1. 소셜·커뮤니티: RSS 브릿지 & Reddit RSS & HN ==========
-
-  # --- RSS-bridge: X(트위터) → RSS (공개 인스턴스 또는 자체 호스트)
-  - id: rss-bridge-x-cursor
-    type: rss_bridge
-    bridge: x
-    search_query: "Cursor OR Claude Code OR agentic coding"
-    # bridge_url: "https://your-rss-bridge.instance"  # 없으면 공개 인스턴스
-    enabled: false
-  # - id: rss-bridge-x-account
-  #   type: rss_bridge
-  #   bridge: x
-  #   account: "Cursor_AI"
-  #   enabled: false
-  # --- RSS-bridge: Threads → RSS
-  # - id: rss-bridge-threads
-  #   type: rss_bridge
-  #   bridge: threads
-  #   account: "zuck"
-  #   enabled: false
-
-  # --- Hacker News (hnrss.org): 키워드·점수 필터
+  # ========== 1. Hacker News (hnrss.org) ==========
   - id: hn-agentic
     type: hnrss
     query: "Agentic OR Cursor OR Claude"
     points_min: 10
     enabled: true
-  # - id: hn-cursor
-  #   type: hnrss
-  #   query: "Cursor"
-  #   enabled: false
 
-  # --- Reddit RSS (서브레딧 URL + .rss)
+  # ========== 2. Reddit RSS ==========
   - id: reddit-claudeai
     type: reddit_rss
     subreddit: "ClaudeAI"
@@ -60,53 +33,55 @@ sources:
     type: reddit_rss
     subreddit: "MachineLearning"
     enabled: true
-  # - id: reddit-localllama
-  #   type: reddit_rss
-  #   subreddit: "LocalLLaMA"
-  #   enabled: false
 
-  # ========== 2. 에이전틱·GitHub 트렌드 ==========
-
-  # --- GitHub Trending (비공식 RSS)
-  - id: github-trending-daily
-    type: github_trending_rss
-    since: daily
-    language: ""   # 빈 값 = 전체
-    enabled: true
-  # - id: github-trending-python
-  #   type: github_trending_rss
-  #   since: daily
-  #   language: python
-  #   enabled: false
-
-  # --- GitHub Blog (AI & ML 섹션)
+  # ========== 3. GitHub Blog (RSS) ==========
   - id: github-blog-ai
     type: github_blog
     url: "https://github.blog/feed/"
-    # 또는 AI 섹션 전용 피드 URL (있을 경우)
     enabled: true
 
-  # ========== 3. 동적 페이지: Firecrawl / 헤드리스 ==========
+  # ========== 4. AI 공식 블로그 (RSS, 검증된 URL만) ==========
+  - id: openai-blog
+    type: rss
+    url: "https://openai.com/blog/rss.xml"
+    enabled: true
+  # Anthropic 공식 RSS는 현재 404 — 복구 시 enabled: true
+  - id: anthropic-news
+    type: rss
+    url: "https://www.anthropic.com/news.xml"
+    enabled: false
 
-  # --- Firecrawl: Cursor changelog 등 JS 중첩 페이지 → 마크다운
+  # ========== 5. 미구현 타입 (참고용, enabled: false) ==========
+  - id: github-trending-daily
+    type: github_trending_rss
+    since: daily
+    language: ""
+    enabled: false
+  - id: rss-bridge-x-cursor
+    type: rss_bridge
+    bridge: x
+    search_query: "Cursor OR Claude Code OR agentic coding"
+    enabled: false
   - id: firecrawl-cursor-changelog
     type: firecrawl
     url: "https://changelog.cursor.com/"
     watch: true
     enabled: false
-  # - id: firecrawl-claude-release
-  #   type: firecrawl
-  #   url: "https://www.anthropic.com/news"
-  #   enabled: false
 
-  # --- 헤드리스 브라우저 (Puppeteer/ScrapingBee): SPA 릴리스 노트
-  # - id: headless-cursor
-  #   type: headless
-  #   url: "https://www.cursor.com/changelog"
-  #   enabled: false
-
-  # ========== 4. 국내 IT ==========
-
+  # ========== 6. 크롤링 (RSS 없는 목록 페이지) ==========
+  - id: awesomeagents-ai
+    type: crawl
+    url: "https://awesomeagents.ai/news/"
+    # heading_tags: "h2,h3"   # 기본 h2,h3
+    max_items: 30
+    enabled: true
+  - id: platum
+    type: crawl
+    url: "https://platum.kr/"
+    max_items: 30
+    enabled: true
+  # ========== 7. 기타 RSS (URL 검증 실패 시 disabled) ==========
+  # Awesome Agents는 위 crawl로 수집. RSS가 필요한 경우 RSS.app 등으로 생성 후 type: rss 사용.
   - id: etnews-it
     type: rss
     url: "https://feeds.feedburner.com/etnews/technology"
@@ -115,34 +90,7 @@ sources:
     type: rss
     url: "https://www.etnews.com/rss/section/0301"
     enabled: false
-  # - id: digitaldaily
-  #   type: rss
-  #   url: "https://www.ddaily.co.kr/rss/ddaily.xml"
-  #   enabled: false
-
-  # ========== 5. 트래블 도메인 ==========
-
-  # Phocuswire AI Stories, Skift 등은 RSS.app 등으로 피드화 후 rss 타입으로 추가
   - id: phocuswire-ai
     type: rss
     url: "https://www.phocuswire.com/feed/"
     enabled: false
-  # - id: skift-digital
-  #   type: rss
-  #   url: "https://skift.com/feed/"  # 또는 RSS 생성 도구로 만든 URL
-  #   enabled: false
-
-  # ========== 6. 프론티어·AI 공식 블로그 (일반 RSS) ==========
-
-  - id: anthropic-news
-    type: rss
-    url: "https://www.anthropic.com/news.xml"
-    enabled: true
-  - id: openai-blog
-    type: rss
-    url: "https://openai.com/blog/rss.xml"
-    enabled: true
-  # - id: google-ai-blog
-  #   type: rss
-  #   url: "https://blog.google/technology/ai/rss/"
-  #   enabled: false

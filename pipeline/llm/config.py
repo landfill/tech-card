@@ -3,6 +3,10 @@ import os
 from pathlib import Path
 
 import yaml
+from dotenv import load_dotenv
+
+# 프로젝트 루트의 .env 로드 (CLI/서버 실행 시 cwd 기준)
+load_dotenv()
 
 
 def load_llm_config(config_path: str | Path) -> dict:

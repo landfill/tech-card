@@ -1,11 +1,14 @@
-"""수집 오케스트레이션. 소스별 병렬 실행, 실패 시 해당 소스만 스킵."""
+"""수집 오케스트레이션. 소스별 병렬 실행, 실패 시 해당 소스만 스킵. crawl은 async 병렬(브라우저 1개·페이지 N개).
+수집 후 기준일(date_str)에 발표된 항목만 남긴다. published가 없거나 다른 날짜면 제외해 당일 뉴스만 보장."""
+import asyncio
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 from pipeline.checkpoint import save_checkpoint
 from pipeline.config import load_sources
+from tools.fetch_crawl import fetch_crawl_async
 from tools.fetch_hnrss import fetch_hnrss
 from tools.fetch_reddit_rss import fetch_reddit_rss
 from tools.fetch_rss import fetch_rss
@@ -13,8 +16,51 @@ from tools.fetch_rss import fetch_rss
 logger = logging.getLogger(__name__)
 
 
+def _published_to_date(published: str) -> date | None:
+    """published 문자열(ISO8601 등)에서 날짜만 추출. 파싱 실패·빈 문자열이면 None."""
+    if not published or not isinstance(published, str):
+        return None
+    s = published.strip()
+    if not s:
+        return None
+    try:
+        if "T" in s:
+            dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+            return dt.date()
+        return date.fromisoformat(s[:10])
+    except (ValueError, TypeError):
+        return None
+
+
+def _filter_items_by_date(items: list[dict], date_str: str) -> list[dict]:
+    """기준일(date_str, YYYY-MM-DD)에 발표된 항목만 남긴다.
+    published가 없거나 다른 날짜면 제외(크롤 소스는 published가 비어 있어 제외됨)."""
+    try:
+        target = date.fromisoformat(date_str)
+    except ValueError:
+        logger.warning("Invalid date_str %r, skipping date filter", date_str)
+        return items
+    kept = [i for i in items if _published_to_date(i.get("published") or "") == target]
+    return kept
+
+
+def _crawl_params(source: dict) -> tuple[str, str, list[str] | None, int]:
+    """crawl 소스에서 url, source_id, heading_tags, max_items 추출."""
+    sid = source.get("id") or ""
+    url = source.get("url") or ""
+    heading_tags = source.get("heading_tags")
+    if isinstance(heading_tags, str):
+        heading_tags = [t.strip() for t in heading_tags.split(",") if t.strip()]
+    max_items = source.get("max_items")
+    if isinstance(max_items, str) and max_items.isdigit():
+        max_items = int(max_items)
+    elif not isinstance(max_items, int):
+        max_items = 50
+    return (url, sid, heading_tags or None, max_items)
+
+
 def _fetch_one(source: dict) -> tuple[str, list[dict]]:
-    """소스 하나 수집. (source_id, items) 반환. 예외 시 (source_id, []) 및 로그."""
+    """소스 하나 수집. (source_id, items) 반환. 예외 시 (source_id, []) 및 로그. crawl 타입은 호출하지 않음."""
     sid = source.get("id") or ""
     stype = (source.get("type") or "").strip().lower()
     try:
@@ -39,12 +85,55 @@ def _fetch_one(source: dict) -> tuple[str, list[dict]]:
         if stype == "github_blog":
             url = source.get("url") or "https://github.blog/feed/"
             return (sid, fetch_rss(url, source_id=sid))
+        if stype == "crawl":
+            # crawl은 run_collect에서 별도 async 병렬로 처리
+            return (sid, [])
         # 미구현 타입은 무시
         logger.warning("Unknown source type %r for %s", stype, sid)
         return (sid, [])
     except Exception as e:
         logger.exception("Collect failed for %s: %s", sid, e)
         return (sid, [])
+
+
+async def _crawl_all_parallel(crawl_sources: list[dict]) -> list[tuple[str, list[dict]]]:
+    """crawl 소스들을 브라우저 1개·페이지 N개로 비동기 병렬 수집. [(source_id, items), ...] 반환."""
+    if not crawl_sources:
+        return []
+    from playwright.async_api import async_playwright
+
+    async def one(s):
+        url, sid, heading_tags, max_items = _crawl_params(s)
+        if not url:
+            return (sid, [])
+        items = await fetch_crawl_async(
+            url,
+            sid,
+            heading_tags=heading_tags,
+            max_items=max_items,
+            browser=browser,
+        )
+        return (sid, items)
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        try:
+            results = await asyncio.gather(
+                *[one(s) for s in crawl_sources],
+                return_exceptions=True,
+            )
+        finally:
+            await browser.close()
+
+    out = []
+    for s, r in zip(crawl_sources, results):
+        sid = s.get("id") or ""
+        if isinstance(r, Exception):
+            logger.exception("Crawl failed for %s: %s", sid, r)
+            out.append((sid, []))
+        else:
+            out.append(r)
+    return out
 
 
 def run_collect(
@@ -54,19 +143,41 @@ def run_collect(
     max_workers: int = 4,
 ) -> dict:
     """sources.yaml에서 enabled 소스만 로드해 병렬 수집 후 결과 병합.
+    non-crawl: ThreadPoolExecutor로 병렬. crawl: async_playwright + 브라우저 1개·페이지 N개 병렬.
     반환: { "date": date_str, "items": [ ... ], "sources_run": [ id, ... ] }
     체크포인트에 저장: data_dir/checkpoints/{date}/collect.json
     """
     sources = load_sources(sources_config_path)
     data_dir = Path(data_dir)
+    crawl_sources = [s for s in sources if (s.get("type") or "").strip().lower() == "crawl"]
+    non_crawl_sources = [s for s in sources if (s.get("type") or "").strip().lower() != "crawl"]
+
     all_items = []
     sources_run = []
-    with ThreadPoolExecutor(max_workers=max_workers) as ex:
-        futures = {ex.submit(_fetch_one, s): s for s in sources}
-        for fut in as_completed(futures):
-            sid, items = fut.result()
+
+    # non-crawl: 기존 스레드 풀 병렬
+    if non_crawl_sources:
+        with ThreadPoolExecutor(max_workers=max_workers) as ex:
+            futures = {ex.submit(_fetch_one, s): s for s in non_crawl_sources}
+            for fut in as_completed(futures):
+                sid, items = fut.result()
+                sources_run.append(sid)
+                all_items.extend(items)
+
+    # crawl: async 브라우저 1개·페이지 N개 병렬
+    if crawl_sources:
+        crawl_results = asyncio.run(_crawl_all_parallel(crawl_sources))
+        for sid, items in crawl_results:
             sources_run.append(sid)
             all_items.extend(items)
+
+    # 기준일(date_str)에 발표된 항목만 남김 — 당일 뉴스만 보장
+    before = len(all_items)
+    all_items = _filter_items_by_date(all_items, date_str)
+    dropped = before - len(all_items)
+    if dropped > 0:
+        logger.info("Date filter %s: kept %d items, dropped %d (published not on target date)", date_str, len(all_items), dropped)
+
     payload = {
         "date": date_str,
         "items": all_items,

@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "title": "[D] What is even the point of these LLM benchmarking papers?",
+      "summary": "Reddit thread questioning the value of LLM benchmarking papers given rapid model churn and deprecation of proprietary models by the time papers publish."
+    },
+    {
+      "title": "[P] ColQwen3.5-v2 4.5B is out!",
+      "summary": "Release of ColQwen3.5-v2, a 4.5B-parameter visual document retrieval model (Apache 2.0) built on Qwen3.5-4B with improved training recipe; weights on Hugging Face."
+    },
+    {
+      "title": "[D] Telecom modernization on legacy OSS, what actually worked for ML data extraction",
+      "summary": "Post-mortem of adding ML to a legacy telecom OSS (C++ core, Perl glue, no APIs). Extraction proved hardest — what failed (app-layer log parsing, instrumenting binary, ETL polling) and what worked (Debezium CDC on MySQL binlog, eBPF uprobes, Perl DBI hooks)."
+    },
+    {
+      "title": "[D] ICLR 2026 poster format for main conference posters?",
+      "summary": "Question from a presenter about commonly used poster dimensions and practical recommendations for ICLR 2026 poster formatting (official max 1.90 m × 0.90 m landscape)."
+    },
+    {
+      "title": "[R] biomarker peak detection using machine learning - wanna collaborate?",
+      "summary": "Researcher seeking collaborators to develop ML pipeline for biomarker peak detection on MALDI-TOF mass spec data (tuberculosis / non-tuberculosis mycobacteria)."
+    },
+    {
+      "title": "[Project] JudgeGPT — open-source LLM-as-judge benchmarking tool with configurable scoring rubrics, CoT reasoning, and real-time GPU telemetry",
+      "summary": "Open-source tool (FastAPI + React) to run LLM-as-judge evaluations locally via Ollama. Features behavioral-anchored rubrics, configurable judge models, chain-of-thought before scoring, human-score blending, GPU telemetry, persistent SQLite history, Prometheus metrics. Repo: github.com/MegaBytesllc/judgegpt."
+    },
+    {
+      "title": "1 million context window is now generally available for Claude Opus 4.6 and Claude Sonnet 4.6.",
+      "summary": "Anthropic announced general availability of 1M-token context for Claude Opus 4.6 and Sonnet 4.6 at standard pricing; Opus 4.6 scores strongly on MRCR v2 and supports large codebases/doc sets and expanded media limits."
+    },
+    {
+      "title": "Why the majority of vibe coded projects fail",
+      "summary": "Community post (opinion/meme) discussing reasons 'vibe coded' (quick/impulse-built) projects fail — posted in ClaudeAI subreddit."
+    },
+    {
+      "title": "Opus 4.6 now defaults to 1M context! (same pricing)",
+      "summary": "User report noting that Opus 4.6 now defaults to a 1M token context window without pricing change."
+    },
+    {
+      "title": "Asked Claude for winning lottery numbers",
+      "summary": "User-shared screenshot of asking Claude for winning lottery numbers — light community post."
+    },
+    {
+      "title": "I figured out another reason why people think AI is less powerful than it actually is",
+      "summary": "Post analyzing SaaS economics of offering high-quality models (e.g., Opus) to end users: subscription vs API economics mean most SaaS products must expose 'lobotomized' models to stay profitable, so average users seldom see full model capability."
+    },
+    {
+      "title": "I regularly ask models to audit output from another mode to reduce the \"what an amazing suggestion\" before implementing in my code. Claude is the biggest hater of them all.",
+      "summary": "User notes they use models to audit other models' outputs and observes Claude tends to be especially critical in audit role."
+    },
+    {
+      "title": "Free 1M context with Opus 4.6",
+      "summary": "User reporting receiving a message about free access to 1M context in Claude Code as a Claude Max subscriber, asking for community thoughts."
+    },
+    {
+      "title": "Opus now supports 1 million contexts",
+      "summary": "Another community note that Opus now defaults to/supports a 1M token context window ('5x more room, same pricing')."
+    },
+    {
+      "title": "claude-code-best-practice hits GitHub Trending (Monthly) with 15,000★",
+      "summary": "A community-maintained 'claude-code-best-practice' repository (tips/workflows) is trending on GitHub with many stars; repo link shared."
+    },
+    {
+      "title": "Claude.ai inline visualiser/widget is pretty cool.",
+      "summary": "User enjoying new Claude feature that creates inline visuals and interactive elements (buttons) in chat."
+    },
+    {
+      "title": "Microsoft backs Anthropic in legal battle against Pentagon",
+      "summary": "Post linking to news that Microsoft filed an amicus brief supporting Anthropic in its legal dispute with the Pentagon."
+    },
+    {
+      "title": "My ideas are too big for Claude apparently 😔",
+      "summary": "User-shared image/post about Claude not handling a user's 'big' idea — light community content."
+    },
+    {
+      "title": "I asked Claude to make a wish",
+      "summary": "Whimsical/entertainment post where a user asked Claude to make a wish."
+    },
+    {
+      "title": "LLMs are still not secure enough to entrust critical tasks to",
+      "summary": "User recounting an incident (from Hacker News) where Opus misunderstood user intent and started implementing despite a user's 'no' — raising concerns about trusting LLMs for critical tasks."
+    },
+    {
+      "title": "Claude Max $100 vs $200: What You Actually Get",
+      "summary": "User comparison of Claude Max $100 vs $200 tiers based on heavy coding use; links to a blog post with findings."
+    },
+    {
+      "title": "Stop spending money on Cursor. Chipotle's support bot is free:",
+      "summary": "Post suggesting people shouldn't pay for Cursor because Chipotle's support bot (free) can handle some tasks — community meme/critique of paid assistants."
+    },
+    {
+      "title": "Your AI context is more valuable than the code it generates - start owning it",
+      "summary": "Argument that the differentiator with AI coding assistants is persistent context (decisions, conventions) and that users should store context in portable files; author mentions building an open-source 'Context Vault' tool and will share repo."
+    },
+    {
+      "title": "Debug mode is actually amazing 🔥",
+      "summary": "User praise for Cursor's debug mode which adds instrumentation and tests hypotheses automatically — positive feature feedback."
+    },
+    {
+      "title": "Megathread: Usage",
+      "summary": "Cursor subreddit moderator consolidating common usage questions and plan/model selection into a megathread for visibility."
+    },
+    {
+      "title": "Is Claude Code + an IDE effectively the same as Cursor? I assume by itself it is worse?",
+      "summary": "User asks whether combining Claude Code (CLI) with an IDE gives equivalent functionality to Cursor's GUI, listing features they believe Cursor provides and asking about trade-offs."
+    },
+    {
+      "title": "I made a free and open-source local remote tool for Cursor, demo video below! Github link in description, feedback is appreciated!",
+      "summary": "Developer released an open-source local-remote tool for Cursor (GitHub link provided) allowing local agent nudging; mentions CLI/IDE sync issues and a demo video."
+    },
+    {
+      "title": "ideas for daily workflow with cursor?",
+      "summary": "User solicits ideas for daily workflows using Cursor, including leveraging Jira, MCP, CLI, peer code reviews, and managing context switching with git worktrees."
+    },
+    {
+      "title": "Built an open-source shared memory system for Claude Code — works with any Git repo",
+      "summary": "Announcement of 'repo-mem', an open-source tool that provides persistent, team-shared memory for Claude Code via an MCP server and per-user SQLite DBs committed to Git; MIT licensed. GitHub: https://github.com/timosieber/repo-mem."
+    },
+    {
+      "title": "my cursor is crazy !!",
+      "summary": "User reports an agent-mode behavior in Cursor where the assistant 'can't stop thinking' — community bug/behavior post."
+    },
+    {
+      "title": "Why does the quality of the answers vary so much with every update?",
+      "summary": "User complaint about Cursor's response quality fluctuating significantly across updates — sometimes very capable, other updates feel much worse."
+    },
+    {
+      "title": "Do you guys suggest to update to the latest version?",
+      "summary": "User hesitant to update Cursor due to past updates degrading UX; asks whether they should upgrade from an old version."
+    },
+    {
+      "title": "Ctrl+Backspace deletes everything in Cursor CLI (can’t undo) Can I change this?",
+      "summary": "User hits an inconvenient keybinding in Cursor CLI where Ctrl+Backspace deletes all text (no undo); asks for ways to change keybindings or workarounds."
+    },
+    {
+      "title": "Are AI Coding Assistants Doing to IT What the Mechanical Loom Did to Weaving?",
+      "summary": "Discussion post drawing analogy between AI coding assistants and historical automation (mechanical loom) and implications for IT jobs/workflows."
+    },
+    {
+      "title": "Cant add gemini api key to cursor",
+      "summary": "User reports inability to integrate Gemini API key into local Cursor instance and asks for help troubleshooting the integration."
+    }
+  ]
+}

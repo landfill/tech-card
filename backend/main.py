@@ -4,10 +4,11 @@ from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.routers import letters, feedback
+from backend.routers import letters, feedback, pipeline
 
 app = FastAPI(title="Daily Intelligence Newsletter API")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 app.include_router(letters.router, prefix="/api/letters", tags=["letters"])
 app.include_router(feedback.router, prefix="/api/feedback", tags=["feedback"])
+app.include_router(pipeline.router, prefix="/api/pipeline", tags=["pipeline"])

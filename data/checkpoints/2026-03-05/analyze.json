@@ -1,0 +1,320 @@
+{
+  "items": [
+    {
+      "title": "[D] AMA Secure version of OpenClaw",
+      "summary": "Open-source Rust runtime IronClaw: security-focused agent runtime for OpenClaw with DB-backed memory, WASM sandboxed tools, credential protection, prompt-injection mitigations, and audit capabilities. GitHub: github.com/nearai/ironclaw",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1rlnwsk/d_ama_secure_version_of_openclaw/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] A mathematical proof from an anonymous Korean forum: The essence of Attention is fundamentally a d^2 problem, not n^2. (PDF included)",
+      "summary": "Post linking an anonymous paper claiming Attention's intrinsic optimization geometry is d^2-dimensional (not n^2), proposing CSQ (Centered Shifted-Quadratic) Attention to reduce complexity and replace softmax; requests expert verification.",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1rl9j3s/d_a_mathematical_proof_from_an_anonymous_korean/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] Has anyone read Blaise Agüera y Arcas' What is Intelligence?",
+      "summary": "Reddit discussion asking for impressions of Blaise Agüera y Arcas' 'What is Intelligence?'—early sections suggest big claims; poster requests community input.",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1rlo7ss/d_has_anyone_read_blaise_agüera_y_arcas_what_is/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[P] Bypassing CoreML to natively train a 110M Transformer on the Apple Neural Engine (Orion)",
+      "summary": "ORION: open-source system enabling multi-step training of a 110M transformer on Apple ANE by bypassing CoreML, custom compiler pipeline, techniques to avoid repeated recompilation; repo: github.com/mechramc/Orion.",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1rl9k3r/p_bypassing_coreml_to_natively_train_a_110m/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "[D] Ijcai 2026 reviews",
+      "summary": "Short thread asking whether people have received IJCAI 2026 reviews and expectations for outcomes; also asks for tips on the chairing tool.",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1rle02j/d_ijcai_2026_reviews/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[D] Impact of EU AI Act on your work?",
+      "summary": "Researcher asks how the EU AI Act affects practitioners working on models classified as high-risk (e.g., credit scoring, insurance) and whether small-scale testing practices are constrained by compliance burdens.",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1rldp59/d_impact_of_eu_ai_act_on_your_work/",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "[R] Are keywords necessary for ECCV submission?",
+      "summary": "First-time ECCV submitter asks whether including keywords in a submission is required.",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1rlfhqw/r_are_keywords_necessary_for_eccv_submission/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[D] Working on a photo-based calorie tracker app",
+      "summary": "Developer building a photo-based calorie tracking app asks for ML approaches (detection+regression vs segmentation), datasets for portion-aware recognition, and feasibility of monocular depth on mobile.",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1rl5pxu/d_working_on_a_photobased_calorie_tracker_app/",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor Automations",
+      "summary": "Post pointing to Cursor blog on Automations (Cursor product feature announcement).",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlnak2/cursor_automations/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "GPT 5.4 is now available in Cursor and leading benchmarks",
+      "summary": "Announcement that GPT-5.4 is available in Cursor and is performing strongly on benchmarks (Cursor community post).",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlp16k/gpt_54_is_now_available_in_cursor_and_leading/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Why are the GPT-5.4 models all in MAX mode by default?",
+      "summary": "User questions Cursor's choice to set GPT-5.4 models to MAX mode by default despite same context window as 5.3 and claimed token-efficiency.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlwkhw/why_are_the_gpt54_models_all_in_max_mode_by/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "WARNING: Cursor Support’s official response to my $544 \"rogue loop\" charge proves their billing system is dangerously flawed.",
+      "summary": "User reports a $544 charge caused by an automated agent loop hitting Cursor's backend at machine speed; claims backend bypassed UI safeguards and lacks server-side anomaly detection / kill-switches; warns others to hard-cap on-demand limits.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rldyt0/warning_cursor_supports_official_response_to_my/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "The importance of programming skill in AI-assisted development",
+      "summary": "Discussion arguing that programmer fundamentals (system design, coding paradigms) remain crucial in AI-assisted development; model and agent config matter less than skillful prompting and codebase patterns.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rljw5h/the_importance_of_programming_skill_in_aiassisted/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Looking for Clarity on Cursors Rules vs Cursor Skills vs Claude Skills",
+      "summary": "User asks how Cursor Rules, Cursor Skills, and Claude Code Skills differ and how to replicate modular 'load-when-relevant' skill behavior inside Cursor.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlpyvt/looking_for_clarity_on_cursors_rules_vs_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Discussion: Bringing Multi-Agent Debates to Cursor via MCP (AgentChatBus)",
+      "summary": "Proposal and experiment (AgentChatBus) that integrates a persistent multi-agent message bus into Cursor to run parallel role-based debates (security, perf, etc.) and synthesize consensus for safer code edits; includes a gist with a conversation log.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlsh6o/discussion_bringing_multiagent_debates_to_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Infinite refresh loop in cursor.com/agents ?",
+      "summary": "User reports infinite refresh loop on cursor.com/agents preventing new agents; cleared cache/cookies and tried logout with no fix.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlojgd/infinite_refresh_loop_in_cursorcomagents/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "The memory leak is back! Single line edits to a file show the entire file rewritten and massive RAM demand. Scrolling past a file in chat bogs down the system.",
+      "summary": "User reports a resurfaced memory leak in Cursor causing full-file rewrites for single-line edits and large RAM spikes when scrolling files in chat, severely slowing the app.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rl48tp/the_memory_leak_is_back_single_line_edits_to_a/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Working with Worktrees in Cursor",
+      "summary": "User asks about workflows for using git worktrees in Cursor and whether Cursor merges worktree changes back into the original branch or supports independent workstreams.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlwgn3/working_with_worktrees_in_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I tried Claude Code, but I'm sticking with Cursor. Claude just acts like a \"know-it-all\"",
+      "summary": "User compares Claude Code and Cursor: prefers Cursor's focused workflow; finds Claude tends to over-refactor and make architectural changes unsolicited.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rldcds/i_tried_claude_code_but_im_sticking_with_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "How do you guys automate/bypass Phantom wallet approvals",
+      "summary": "Developer building a Solana dApp asks for ways to speed frontend transaction testing (avoiding manual Phantom wallet approvals) during rapid AI-assisted dev—options considered: dev-mode burner keys, automated browser tests.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlvn00/how_do_you_guys_automatebypass_phantom_wallet/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "These 5 lines just reduced my MCP token usage from 50k to 4k",
+      "summary": "User shares a small code/config tweak that reduced MCP token usage dramatically (from ~50k to ~4k tokens).",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlpfh5/these_5_lines_just_reduced_my_mcp_token_usage/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "You can use this Control Tower for your Cursor Cloud Agents 🗼🛫",
+      "summary": "Open-source terminal dashboard 'agents-control-tower' to manage Cursor cloud agents (launch, stop, follow-ups, delete) via keyboard; repo: github.com/ofershap/agents-control-tower.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rluzcx/you_can_use_this_control_tower_for_your_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor visual issues",
+      "summary": "User reports visual/UI issues after the latest Cursor update; tried reinstalling and opening dev tools; Cursor support engaged.",
+      "source": "https://www.reddit.com/r/cursor/comments/1rll0pm/cursor_visual_issues/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "why model degradations happen?",
+      "summary": "Short post asking why model performance degradations happen (community discussion).",
+      "source": "https://www.reddit.com/r/cursor/comments/1rlhlyj/why_model_degradations_happen/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I Haven't Written a Line of Code in Six Months",
+      "summary": "Long-form reddit post by a veteran developer describing a shift from coding to managing Claude Code agents full-time; recounts productivity gains and identity shift.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlw1yw/i_havent_written_a_line_of_code_in_six_months/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Did you know Kojima named the Anthropic CEO?",
+      "summary": "Lighthearted/viral reddit post referencing Kojima and Anthropic CEO (community meme/content).",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlnfqv/did_you_know_kojima_named_the_anthropic_ceo/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Pentagon Formally Labels Anthropic Supply-Chain Risk, Escalating Conflict",
+      "summary": "Link to WSJ reporting that the Pentagon formally labeled Anthropic as a supply-chain risk, signaling a security/policy escalation.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rls9rh/pentagon_formally_labels_anthropic_supplychain/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Going from Pro to Max 20x .. HOLYY",
+      "summary": "User reports upgrading to Claude Max 20x greatly increased usage cap/capacity and improved experience despite cost.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlu0vf/going_from_pro_to_max_20x_holyy/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Chatgpt 5.4 vs claude opus 4.6",
+      "summary": "Community post comparing ChatGPT 5.4 and Claude Opus 4.6 (user benchmark / impressions).",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlp4nm/chatgpt_54_vs_claude_opus_46/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "PRIVACY: Just a reminder to turn off \"Help improve Claude\" if you're concerned about your chats becoming part of Claude's training data",
+      "summary": "Reminder screenshot/post advising users to disable 'Help improve Claude' if they don't want chats used for training.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlx0eq/privacy_just_a_reminder_to_turn_off_help_improve/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "The best thing about Claude is it doesn't want you to stay with it forever",
+      "summary": "User praises Claude for concise thread endings and for helping users move on rather than prolonging interactions, contrasting with GPT's tendency to upsell follow-ups.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlkbu9/the_best_thing_about_claude_is_it_doesnt_want_you/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "My wife kept nagging me so I built a harness to code for me instead. Won a hackathon with it.",
+      "summary": "User built an automated Claude Code harness (open-source, MIT) to manage sessions and generate code via Socratic interview + parallel Claude sessions; used at hackathon, produced large output.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rllmzu/my_wife_kept_nagging_me_so_i_built_a_harness_to/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Is Claude salty recently ?",
+      "summary": "User wonders whether Claude model responses have become 'salty' or different recently while using Opus 4.6.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rldgmj/is_claude_salty_recently/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "7.5m Tokens might be limit for Max 20x? Just hit 100% for the week.",
+      "summary": "User reports hitting weekly token limit (7.5M tokens) on Claude Max 20x plan.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlpwwu/75m_tokens_might_be_limit_for_max_20x_just_hit/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude desktop app silently downloads a 13 GB file on every launch — and you can't stop it",
+      "summary": "User reports Claude desktop app auto-downloads a ~13GB 'claudevm.bundle' VM for Claude Code on every launch with no opt-out for individual users; support acknowledges behavior and no workaround available.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlc71n/claude_desktop_app_silently_downloads_a_13_gb/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude feels strangely… calm compared to other AIs",
+      "summary": "User observes Claude's tone is calmer and more uncertainty-aware compared to other models; asks whether this is model behavior or prompting difference.",
+      "source": "https://www.reddit.com/r/ClaudeAI/comments/1rlo88r/claude_feels_strangely_calm_compared_to_other_ais/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "60 million Copilot code reviews and counting",
+      "summary": "GitHub blog post describing Copilot Code Review usage and how it helps teams keep up with AI-accelerated code changes (60M reviews milestone).",
+      "source": "https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
+      "summary": "GitHub blog post sharing learnings from Andela on how developers learn AI tools inside production workflows and scaling AI opportunity globally.",
+      "source": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "GPT-5.4 Thinking System Card",
+      "summary": "",
+      "source": "https://openai.com/index/gpt-5-4-thinking-system_card",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "summary": "Introducing GPT-5.4, OpenAI’s most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "source": "https://openai.com/index/introducing-gpt-5-4",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "summary": "OpenAI introduces CoT-Control and reports that reasoning models struggle to control their chains of thought, highlighting monitorability as an AI safety safeguard.",
+      "source": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Ensuring AI use in education leads to opportunity",
+      "summary": "OpenAI shares tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+      "source": "https://openai.com/index/ai-education-opportunity",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "The five AI value models driving business reinvention",
+      "summary": "OpenAI outlines five AI value models leaders can use to sequence AI adoption from workforce fluency to process reinvention for durable business advantage.",
+      "source": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "summary": "OpenAI launches ChatGPT for Excel and new financial integrations powered by GPT-5.4 aimed at accelerating modeling and analysis in regulated environments.",
+      "source": "https://openai.com/index/chatgpt-for-excel",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "Introducing the Adoption news channel",
+      "summary": "OpenAI launches a new Adoption news channel focused on practical insights and frameworks to translate AI progress into business advantage.",
+      "source": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "category": "산업별 AX",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}

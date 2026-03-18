@@ -1,0 +1,52 @@
+@startuml pipeline-activity
+!theme plain
+title 파이프라인 단계 (collect → analyze → summarize → dedup → letter_generate)
+
+skinparam activityBackgroundColor #F0F8FF
+skinparam activityBorderColor #333
+skinparam defaultFontName SansSerif
+
+start
+
+:collect;
+note right
+  sources.yaml 로드
+  RSS / hnrss / reddit_rss / crawl
+  병렬 수집 → 기준일(date) 필터
+  checkpoint: collect.json
+end note
+
+:analyze;
+note right
+  collect 항목을 청크(80개) 단위로
+  ThreadPoolExecutor(4) 병렬
+  skills/analyze.md + LLM
+  checkpoint: analyze.json
+end note
+
+:summarize;
+note right
+  analyze 결과 전체를
+  skills/summarize.md + LLM
+  checkpoint: summarize.json
+end note
+
+:dedup;
+note right
+  최근 7일 index 항목과
+  Jaccard 유사도 + LLM 판정
+  threshold 0.5
+  checkpoint: dedup.json
+end note
+
+:letter_generate;
+note right
+  skills/letter_generate.md + LLM
+  data/letters/YYYY-MM-DD.md
+  data/index/YYYY-MM-DD.json
+  checkpoint: letter_generate.json
+end note
+
+stop
+
+@enduml

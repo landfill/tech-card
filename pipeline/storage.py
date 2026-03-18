@@ -13,6 +13,17 @@ def index_path(data_dir: str, d: date) -> str:
     return os.path.join(data_dir, "index", f"{d.isoformat()}.json")
 
 
+def card_path(data_dir: str, d: date) -> str:
+    """해당 날짜 카드뉴스 JSON 경로."""
+    return os.path.join(data_dir, "cards", f"{d.isoformat()}.json")
+
+
+def card_bg_image_path(data_dir: str, d: date) -> str:
+    """해당 날짜 카드 배경 이미지 경로 (1호당 1장). 파일명 YYYYMMDD.png."""
+    yyyymmdd = d.strftime("%Y%m%d")
+    return os.path.join(data_dir, "cards", f"{yyyymmdd}.png")
+
+
 def recent_7d_dates(anchor: date) -> list[date]:
     """anchor 기준 과거 7일(anchor 포함) 날짜 리스트. 오래된 순."""
     return [anchor - timedelta(days=(6 - i)) for i in range(7)]
