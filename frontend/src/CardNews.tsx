@@ -18,10 +18,9 @@ type CardNewsProps = {
   date: string
   cards: CardItem[]
   bgImage?: string | null
-  onBack?: () => void
 }
 
-function CardNews({ date, cards, bgImage, onBack }: CardNewsProps) {
+function CardNews({ date, cards, bgImage }: CardNewsProps) {
   const [current, setCurrent] = useState(0)
   const [bgLoaded, setBgLoaded] = useState(false)
   const [touchStart, setTouchStart] = useState<number | null>(null)
@@ -69,20 +68,12 @@ function CardNews({ date, cards, bgImage, onBack }: CardNewsProps) {
     return (
       <div className="card-news card-news-empty">
         <p>표시할 카드가 없습니다.</p>
-        {onBack && <button type="button" className="card-news-btn-back" onClick={onBack}>본문 보기</button>}
       </div>
     )
   }
 
   return (
     <div className="card-news">
-      {onBack && (
-        <div className="card-news-actions">
-          <button type="button" className="card-news-btn-back" onClick={onBack} title="레터 본문으로">
-            본문
-          </button>
-        </div>
-      )}
       <div
         className="card-news-container"
         style={{ aspectRatio: '9/16' }}

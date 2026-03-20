@@ -10,6 +10,9 @@
   --purple-border: rgba(var(--brand-purple-rgb), 0.4);
   --mint-light: rgba(var(--brand-mint-rgb), 0.2);
   --mint-border: rgba(var(--brand-mint-rgb), 0.5);
+  --danger-bg: rgba(185, 28, 28, 0.1);
+  --danger-text: #991b1b;
+  --danger-shadow-inset: rgba(185, 28, 28, 0.12);
   /* 라이트 테마 (기본) */
   --bg-page: #f5f5f5;
   --bg-card: #ffffff;
@@ -30,6 +33,9 @@
   --mint-light: rgba(var(--brand-mint-rgb), 0.2);
   --neo-shadow-dark: #1a1a1a;
   --neo-shadow-light: #3d3d3d;
+  --danger-bg: rgba(248, 113, 113, 0.14);
+  --danger-text: #fecaca;
+  --danger-shadow-inset: rgba(248, 113, 113, 0.18);
 }
 
 html { min-height: 100%; background-color: var(--bg-page); color: var(--text-primary); }
@@ -98,13 +104,23 @@ body { margin: 0; min-height: 100%; background-color: var(--bg-page); color: var
 .letter-workflow-partial { color: var(--brand-purple); }
 .letter-workflow-pending { color: var(--text-secondary); }
 .letter-workflow-hint { font-size: 0.9rem; color: var(--text-primary); background: var(--bg-page); border: none; border-radius: 12px; padding: 0.75rem 1rem; margin: 0 0 1rem 0; box-shadow: inset 4px 4px 8px var(--neo-shadow-dark), inset -4px -4px 8px var(--neo-shadow-light); }
-.letter-actions { margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
-.letter-btn-cards.neo,
-.letter-btn-delete.neo { padding: 0.5rem 1rem; font-size: 0.9rem; font-weight: 500; color: var(--brand-purple); background: var(--bg-page); border: none; border-radius: 12px; cursor: pointer; box-shadow: 6px 6px 12px var(--neo-shadow-dark), -6px -6px 12px var(--neo-shadow-light); transition: box-shadow 0.2s; }
-.letter-btn-cards.neo:hover:not(:disabled) { box-shadow: 4px 4px 8px var(--neo-shadow-dark), -4px -4px 8px var(--neo-shadow-light); }
-.letter-btn-cards.neo:disabled { opacity: 0.5; cursor: not-allowed; color: var(--text-secondary); box-shadow: inset 3px 3px 6px var(--neo-shadow-dark), inset -3px -3px 6px var(--neo-shadow-light); }
-.letter-btn-delete.neo { color: var(--text-primary); box-shadow: 6px 6px 12px var(--neo-shadow-dark), -6px -6px 12px var(--neo-shadow-light); }
-.letter-btn-delete.neo:hover { box-shadow: 4px 4px 8px var(--neo-shadow-dark), -4px -4px 8px var(--neo-shadow-light); color: var(--brand-purple); }
+.letter-actions { margin-bottom: 1rem; display: flex; flex-wrap: nowrap; align-items: center; gap: 0.75rem; width: 100%; box-sizing: border-box; min-height: 2.75rem; }
+.letter-actions-view { display: inline-flex; flex-wrap: nowrap; align-items: center; gap: 0.5rem; flex: 0 0 auto; min-width: 0; }
+.letter-actions-delete-wrap { margin-left: auto; flex-shrink: 0; }
+@media (max-width: 767px) {
+  .letter-actions { gap: 0.5rem; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+  .letter-btn-view.neo { padding: 0.45rem 0.75rem; font-size: 0.85rem; }
+  .letter-btn-delete-danger.neo { padding: 0.45rem 0.75rem; font-size: 0.85rem; }
+}
+/* 본문/카드 토글: 비활성=볼록 네오, 활성=눌린 인셋 네오 */
+.letter-btn-view.neo { padding: 0.5rem 1rem; font-size: 0.9rem; font-weight: 500; color: var(--brand-purple); background: var(--bg-page); border: none; border-radius: 12px; cursor: pointer; transition: box-shadow 0.2s, color 0.2s, font-weight 0.15s; white-space: nowrap; }
+.letter-btn-view.neo:not(:disabled):not(.letter-btn-view--active) { box-shadow: 6px 6px 12px var(--neo-shadow-dark), -6px -6px 12px var(--neo-shadow-light); }
+.letter-btn-view.neo:not(:disabled):not(.letter-btn-view--active):hover { box-shadow: 4px 4px 8px var(--neo-shadow-dark), -4px -4px 8px var(--neo-shadow-light); }
+.letter-btn-view.neo.letter-btn-view--active { font-weight: 600; box-shadow: inset 4px 4px 8px var(--neo-shadow-dark), inset -4px -4px 8px var(--neo-shadow-light); color: var(--brand-purple); }
+.letter-btn-view.neo.letter-btn-view--active:hover:not(:disabled) { box-shadow: inset 3px 3px 6px var(--neo-shadow-dark), inset -3px -3px 6px var(--neo-shadow-light); }
+.letter-btn-view.neo:disabled { opacity: 0.48; cursor: not-allowed; color: var(--text-secondary); box-shadow: inset 3px 3px 6px var(--neo-shadow-dark), inset -3px -3px 6px var(--neo-shadow-light); font-weight: 500; }
+.letter-btn-delete-danger.neo { padding: 0.5rem 1rem; font-size: 0.9rem; font-weight: 600; color: var(--danger-text); background: var(--danger-bg); border: none; border-radius: 12px; cursor: pointer; box-shadow: 6px 6px 12px var(--neo-shadow-dark), -6px -6px 12px var(--neo-shadow-light), inset 0 0 0 1px var(--danger-shadow-inset); transition: box-shadow 0.2s, background 0.2s; }
+.letter-btn-delete-danger.neo:hover { box-shadow: 4px 4px 8px var(--neo-shadow-dark), -4px -4px 8px var(--neo-shadow-light), inset 0 0 0 1px var(--danger-shadow-inset); filter: brightness(1.03); }
 .letter-error { color: var(--brand-purple); font-size: 0.9rem; margin-bottom: 0.5rem; }
 .letter-body { border: none; padding: 1.25rem; border-radius: 16px; margin: 1rem 0; background: var(--bg-page); color: var(--text-primary); box-shadow: 8px 8px 16px var(--neo-shadow-dark), -8px -8px 16px var(--neo-shadow-light); }
 .letter-body h1, .letter-body h2 { font-size: 1.1rem; margin-top: 1rem; color: var(--text-primary); }
@@ -194,16 +210,14 @@ body { margin: 0; min-height: 100%; background-color: var(--bg-page); color: var
 
 /* 카드뉴스 */
 .card-news { margin: 1rem 0; }
-.card-news-actions { margin-bottom: 0.75rem; }
-.card-news-btn-back { padding: 0.4rem 0.9rem; font-size: 0.85rem; font-weight: 500; background: var(--bg-page); border: none; border-radius: 10px; cursor: pointer; color: var(--text-primary); box-shadow: 5px 5px 10px var(--neo-shadow-dark), -5px -5px 10px var(--neo-shadow-light); transition: box-shadow 0.2s; }
-.card-news-btn-back:hover { box-shadow: 3px 3px 6px var(--neo-shadow-dark), -3px -3px 6px var(--neo-shadow-light); color: var(--brand-purple); }
-.card-news-container { max-width: 360px; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: 12px 12px 24px var(--neo-shadow-dark), -12px -12px 24px var(--neo-shadow-light); position: relative; background: var(--brand-black); cursor: pointer; }
-.card-news-progress { height: 4px; background: var(--brand-mint); transition: width 0.3s ease; }
-.card-news-slide { position: relative; min-height: 320px; display: flex; flex-direction: column; justify-content: flex-end; }
+.card-news-container { max-width: 360px; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: 12px 12px 24px var(--neo-shadow-dark), -12px -12px 24px var(--neo-shadow-light); position: relative; background: var(--brand-black); cursor: pointer; display: flex; flex-direction: column; min-height: 0; }
+.card-news-progress { height: 4px; flex-shrink: 0; background: var(--brand-mint); transition: width 0.3s ease; }
+.card-news-slide { position: relative; flex: 1; min-height: 280px; display: flex; flex-direction: column; justify-content: flex-start; }
 .card-news-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: opacity 0.4s ease; }
 .card-news-bg-fallback { background: linear-gradient(to bottom, #2a1a4a 0%, #1a0a2a 50%, var(--brand-black) 100%); }
-.card-news-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.88) 40%, rgba(0,0,0,0.4) 70%, transparent); pointer-events: none; }
-.card-news-content { position: relative; z-index: 1; padding: 1.5rem 1.25rem; }
+/* 본문 상단 배치: 위쪽이 어두워 글자 대비 유지 */
+.card-news-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.55) 42%, rgba(0,0,0,0.2) 68%, transparent 100%); pointer-events: none; }
+.card-news-content { position: relative; z-index: 1; padding: 1.25rem 1.25rem 1.5rem; align-self: stretch; text-align: left; }
 .card-news-meta { font-size: 0.8rem; color: var(--brand-mint); margin-bottom: 0.5rem; font-weight: 600; }
 .card-news-title { font-size: 1.15rem; font-weight: 700; color: var(--brand-white); margin: 0 0 0.75rem 0; line-height: 1.35; word-break: break-word; }
 .card-news-body { color: #e5e7eb; font-size: 0.9rem; line-height: 1.55; word-break: break-word; }
@@ -213,4 +227,3 @@ body { margin: 0; min-height: 100%; background-color: var(--bg-page); color: var
 .card-news-zone-prev { left: 0; }
 .card-news-zone-next { right: 0; left: auto; }
 .card-news-empty { padding: 2rem; text-align: center; color: var(--text-secondary); }
-.card-news-empty button { margin-top: 1rem; padding: 0.5rem 1rem; cursor: pointer; }

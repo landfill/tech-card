@@ -26,6 +26,7 @@ function App() {
   const [letterDetailView, setLetterDetailView] = useState<'letter' | 'cards'>('letter')
   const [cardsData, setCardsData] = useState<CardsData | null>(null)
   const [cardsError, setCardsError] = useState<string | null>(null)
+  const [cardsLoading, setCardsLoading] = useState(false)
   const [theme, setTheme] = useState<'light' | 'dark'>(() => {
     if (typeof window === 'undefined') return 'light'
     const saved = localStorage.getItem('theme') as 'light' | 'dark' | null
@@ -42,12 +43,14 @@ function App() {
     setTheme((t) => (t === 'light' ? 'dark' : 'light'))
   }, [])
 
+  // 파이프라인으로 새 레터 생성 후에도 캘린더에 반영되도록, 발송 내역 탭으로 올 때마다 목록 갱신
   useEffect(() => {
+    if (view !== 'letters') return
     fetch(`${API}/api/letters`)
-      .then(r => r.json())
+      .then((r) => r.json())
       .then(setDates)
       .catch(() => setDates([]))
-  }, [])
+  }, [view])
 
   useEffect(() => {
     if (!selected) return
@@ -60,6 +63,7 @@ function App() {
     setLetterDetailView('letter')
     setCardsData(null)
     setCardsError(null)
+    setCardsLoading(false)
     const forDate = selected
     fetch(`${API}/api/letters/${selected}`)
       .then(r => r.text())
@@ -218,42 +222,65 @@ function App() {
                   </p>
                 )}
                 <div className="letter-actions">
-                  <button
-                    type="button"
-                    className="letter-btn-cards neo"
-                    disabled={!hasCards}
-                    title={!hasCards ? '카드뉴스가 생성된 후 이용할 수 있습니다.' : undefined}
-                    onClick={() => {
-                      if (!hasCards) return
-                      setCardsError(null)
-                      setCardsData(null)
-                      fetch(`${API}/api/letters/${selected}/cards`)
-                        .then((r) => {
-                          if (!r.ok) throw new Error(r.status === 404 ? '이 호는 카드뉴스가 없습니다.' : r.statusText)
-                          return r.json()
-                        })
-                        .then((data: CardsData) => {
-                          setCardsData(data)
+                  <div className="letter-actions-view" role="tablist" aria-label="레터 보기 방식">
+                    <button
+                      type="button"
+                      role="tab"
+                      aria-selected={letterDetailView === 'letter'}
+                      className={`letter-btn-view neo ${letterDetailView === 'letter' ? 'letter-btn-view--active' : ''}`}
+                      onClick={() => setLetterDetailView('letter')}
+                      title="마크다운 본문"
+                    >
+                      본문 보기
+                    </button>
+                    <button
+                      type="button"
+                      role="tab"
+                      aria-selected={letterDetailView === 'cards' && Boolean(cardsData)}
+                      className={`letter-btn-view neo ${letterDetailView === 'cards' && cardsData ? 'letter-btn-view--active' : ''}`}
+                      disabled={!hasCards || cardsLoading}
+                      title={
+                        !hasCards
+                          ? '카드뉴스가 생성된 후 이용할 수 있습니다.'
+                          : cardsLoading
+                            ? '카드 불러오는 중'
+                            : '카드뉴스 슬라이드'
+                      }
+                      onClick={() => {
+                        if (!selected || !hasCards || cardsLoading) return
+                        if (cardsData) {
                           setLetterDetailView('cards')
-                        })
-                        .catch((e) => setCardsError(e.message || '카드 로드 실패'))
-                    }}
-                  >
-                    카드로 보기
-                  </button>
-                  <button type="button" className="letter-btn-delete neo" onClick={deleteLetter}>
-                    이 호 삭제
-                  </button>
+                          setCardsError(null)
+                          return
+                        }
+                        setCardsLoading(true)
+                        setCardsError(null)
+                        fetch(`${API}/api/letters/${selected}/cards`)
+                          .then((r) => {
+                            if (!r.ok) throw new Error(r.status === 404 ? '이 호는 카드뉴스가 없습니다.' : r.statusText)
+                            return r.json()
+                          })
+                          .then((data: CardsData) => {
+                            setCardsData(data)
+                            setLetterDetailView('cards')
+                          })
+                          .catch((e) => setCardsError(e.message || '카드 로드 실패'))
+                          .finally(() => setCardsLoading(false))
+                      }}
+                    >
+                      {cardsLoading ? '불러오는 중…' : '카드 보기'}
+                    </button>
+                  </div>
+                  <div className="letter-actions-delete-wrap">
+                    <button type="button" className="letter-btn-delete-danger neo" onClick={deleteLetter}>
+                      이 호 삭제
+                    </button>
+                  </div>
                 </div>
                 {cardsError && <p className="letter-error">{cardsError}</p>}
                 {deleteError && <p className="letter-error">{deleteError}</p>}
                 {letterDetailView === 'cards' && cardsData ? (
-                  <CardNews
-                    date={selected}
-                    cards={cardsData.cards}
-                    bgImage={cardsData.bgImage}
-                    onBack={() => setLetterDetailView('letter')}
-                  />
+                  <CardNews date={selected} cards={cardsData.cards} bgImage={cardsData.bgImage} />
                 ) : (
                   <>
                     <div className="letter-body">

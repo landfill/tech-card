@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "제목": "Code with Claude is back. San Francisco, London, Tokyo.",
+      "요약": "Claude 주최 개발자 행사 'Code with Claude'가 올해 봄 샌프란시스코, 런던, 도쿄에서 재개된다. 워크숍, 데모, 팀과의 1:1 오피스아워가 예정되어 있으며 온라인 등록/참관 및 참석 신청 가능.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1rx8ta7/code_with_claude_is_back_san_francisco_london/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "제목": "[D] ICML rejects papers of reviewers who used LLMs despite agreeing not to",
+      "요약": "여러 소식에 따르면 ICML이 리뷰어가 LLM을 사용했다고 적힌 리뷰어들의 논문을 해당 리뷰어들이 'LLM 미사용'을 선택했음에도 불구하고 기각했다는 논란. AI 검출 도구의 한계와 학회 윤리·정책 문제를 촉발.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rx201a/d_icml_rejects_papers_of_reviewers_who_used_llms/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "high"
+    },
+    {
+      "제목": "[R] Extreme Sudoku as a constraint-satisfaction benchmark, solved natively without tools or CoT or solution backtracking",
+      "요약": "Pathway 계열 연구에서 매우 어려운 Sudoku(≈250k 인스턴스)를 제약 만족 문제로 취급한 벤치마크를 제시. 주요 LLM들(O3‑mini, DeepSeek R1, Claude 3.7 등)은 0% 정확도인 반면 BDH 아키텍처는 툴이나 CoT 없이 97.4% 달성—변형기(transformer) 기반 모델의 내재적 검색·추론 한계를 제기.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rx9qn4/r_extreme_sudoku_as_a_constraintsatisfaction/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "high"
+    },
+    {
+      "제목": "[R] A Gradient Descent Misalignment — Causes Normalisation To Emerge",
+      "요약": "ICLR GRaM 워크숍 채택 논문으로, 기울기 하강이 활성화 공간에서 '잘못된(step misaligned)' 이동을 일으킨다는 이론을 제시. 이로부터 새로운 affine-like 층(정규화 성질 내장)과 convolution용 'PatchNorm' 계열 정규화가 도출되며 일부 실험에서 BatchNorm/LayerNorm과 동등하거나 우수한 성능을 보였다고 보고.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rx1gtn/r_a_gradient_descent_misalignment_causes/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "제목": "[P] Tridiagonal eigenvalue models in PyTorch: cheaper training/inference than dense spectral models",
+      "요약": "비선형 '스펙트럴' 모델 계열에서 각 학습 행렬을 대칭 트리디아고널(삼대각)로 제약해 고비용의 조밀(eigen) 계산을 경감한 엔지니어링 보고서. scipy.linalg.eigh_tridiagonal을 PyTorch autograd와 연동해 배치에서 5x-6x 속도 개선을 확보한 사례를 설명.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rwy5ch/p_tridiagonal_eigenvalue_models_in_pytorch/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "제목": "[R] From Garbage to Gold: A Formal Proof that GIGO Fails for High-Dimensional Data with Latent Structure — with a Connection to Benign Overfitting Prerequisites",
+      "요약": "저자 논문(arXiv) 및 공개 R 시뮬레이션을 통해, 잠재 계층 구조가 있는 고차원 데이터에서 '데이터 정제(cleaning)'보다 예측 변수 집합을 확장하는 'breadth' 전략이 장기적으로 우월하다는 이론적 증명 제시. Benign Overfitting(관대한 과적합) 조건과의 연결도 서술.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rwyy9g/r_from_garbage_to_gold_a_formal_proof_that_gigo/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "제목": "Evaluation and Alignment: The Seminal Papers (new book + 50% code)",
+      "요약": "Manning에서 출간한 평가·정렬 관련 서적 소개. 모델 평가와 정렬 문제에 초점을 맞추며 실무에서의 평가-분석-정렬 반복 사이클을 다룸. 커뮤니티용 50% 할인 코드 제공.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rx4j4s/evaluation_and_alignment_the_seminal_papers_new/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "제목": "[P] ColQwen3.5-v3 release + Case study",
+      "요약": "ColQwen3.5-4.5B-v3 모델 릴리스 및 사례 연구. MTEB ViDoRe 리더보드에서 우수한 성능을 보고하며(평균 75.67), 이전 대비 파라미터·임베딩 차원·메모리 측면에서 효율화. 모델·평가 파일·학습 방법이 공개되어 있고 Apache 2.0 라이선스; colpali-engine 및 vLLM에서 지원.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1rx5avj/p_colqwen35v3_release_case_study/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    }
+  ]
+}
