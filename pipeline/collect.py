@@ -71,12 +71,21 @@ def _fetch_one(source: dict) -> tuple[str, list[dict]]:
             return (sid, fetch_rss(url, source_id=sid))
         if stype == "hnrss":
             query = source.get("query") or ""
-            if not query:
+            feed = source.get("feed") or "frontpage"
+            if not query and str(feed).lower() != "newest":
                 return (sid, [])
             points_min = source.get("points_min")
             if isinstance(points_min, str) and points_min.isdigit():
                 points_min = int(points_min)
-            return (sid, fetch_hnrss(query, points_min=points_min, source_id=sid))
+            return (
+                sid,
+                fetch_hnrss(
+                    query,
+                    points_min=points_min,
+                    source_id=sid,
+                    feed=str(feed),
+                ),
+            )
         if stype == "reddit_rss":
             sub = source.get("subreddit") or ""
             if not sub:
