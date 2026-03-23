@@ -7,7 +7,7 @@
 #
 # type별 필드:
 #   rss:         url (일반 RSS/Atom)
-#   hnrss:       query (키워드), points_min (선택)
+#   hnrss:       query (키워드; newest 피드만 쓸 때는 생략 가능), points_min (선택), feed (선택: frontpage | newest)
 #   reddit_rss:  subreddit (서브레딧명만)
 #   github_blog: url (GitHub Blog RSS)
 #   crawl:       url (목록 페이지), heading_tags (선택, 쉼표 구분 예: h2,h3), max_items (선택)
@@ -18,6 +18,25 @@ sources:
     type: hnrss
     query: "Agentic OR Cursor OR Claude"
     points_min: 10
+    enabled: true
+
+  # HN /newest — hnrss.org 가 YC newest와 동일 소스의 RSS 제공 (https://news.ycombinator.com/newest)
+  - id: hn-newest
+    type: hnrss
+    feed: newest
+    enabled: true
+
+  # Trend Hunter — Artificial Intelligence 카테고리 RSS. Akamai가 데이터센터·일부 IP에서 403을 반환해
+  # 이 저장소 CI/클라우드 수집에서는 실패할 수 있음. residential 등 허용망에서 검증 후 enabled: true 권장.
+  - id: trendhunter-artificial-intelligence
+    type: rss
+    url: "https://www.trendhunter.com/rss/category/Artificial%20Intelligence"
+    enabled: false
+
+  # GeekNews (긱뉴스) — https://news.hada.io/ 공식 RSS (/rss/news → FeedBurner). 개발·기술·스타트업 큐레이션.
+  - id: geeknews-hada
+    type: rss
+    url: "https://news.hada.io/rss/news"
     enabled: true
 
   # ========== 2. Reddit RSS ==========
