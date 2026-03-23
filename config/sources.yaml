@@ -33,6 +33,12 @@ sources:
     url: "https://www.trendhunter.com/rss/category/Artificial%20Intelligence"
     enabled: false
 
+  # GeekNews (긱뉴스) — https://news.hada.io/ 공식 RSS (/rss/news → FeedBurner). 개발·기술·스타트업 큐레이션.
+  - id: geeknews-hada
+    type: rss
+    url: "https://news.hada.io/rss/news"
+    enabled: true
+
   # ========== 2. Reddit RSS ==========
   - id: reddit-claudeai
     type: reddit_rss
