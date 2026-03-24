@@ -1,0 +1,530 @@
+{
+  "items": [
+    {
+      "title": "당신은 당신이 하는 일이 아니다",
+      "summary": "<ul>\n<li>인간의 정체성은 직업이 아니라 <strong>이야기와 관계</strong>에서 형성되며, “나는 내가 하는 일이다”라는 믿음은 허상임</li>\n<li>기술 발전이 인간의 <strong>전문성과 노동을 자동화</strong>하고 있지만, 이는 자아의 상실이 아니라 <strong>정체성 재정의의 계기</strong>임</li>\n<li>인간의 가치는 ...</p>",
+      "url": "https://news.hada.io/topic?id=27786",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "1대1 RTS 게임으로 만든 LLM 벤치마크",
+      "summary": "1대1 RTS 게임으로 만든 LLM 벤치마크",
+      "url": "https://news.hada.io/topic?id=27785",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "NixOS를 사랑하는 이유",
+      "summary": "<ul>\n<li>\n<strong>Nix 패키지 관리자</strong>를 기반으로 한 NixOS는 시스템 전체를 코드로 정의하고, 언제든 <strong>결정적·재현 가능한 상태로 복원</strong>할 수 있는 구조를 가짐</li>\n<li>모든 설정과 패키지를 <strong>하나의 선언적 구성 파일</strong>로 관리해, 새 장비에서도 동일한 환경을 <strong>단일 ...</p>",
+      "url": "https://news.hada.io/topic?id=27784",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: GitHub Actions와 Telegram으로 만든 개인용 증시 리포트 자동화 봇 오픈소스",
+      "summary": "<ul>\n<li>\n<p>만든 목적</p>\n<ul>\n<li>OpenClaw로 재태크 관련 작업을 자동화하는 사례가 많이 보였음</li>\n<li>그러나 많은 작업은 LLM과 맥미니 없이도 충분히 자동화 가능함</li>\n<li>즉, 유용한 &quot;규칙 기반&quot; 자동화 도구 만들기 실험</li>\n<li>GitHub Actions만으로 매일 실행되는 배치 봇 구성</li>\n</ul",
+      "url": "https://news.hada.io/topic?id=27783",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: 도메인 지식을 기반으로 서비스를 구축하는 인간지능 주도형 개발 어플리케이션\"을 소개합니다!",
+      "summary": "<p>시작은 오픈클로 같은거 하고 싶은데 오픈클로 설정 너무 어렵고 API토큰 사용 너무 부담스럽고 막상 설치해보니 느어무 느리고, 그래서 구독내에서 해결하고 싶어서 찾아보니 takoPI라고 텔레그램으로 터미널 에이전트(claude-code같은것들)를 사용하게 해주는 프로젝트가 있어서 제 주력 매터모스터를 사용하기 위해...</p>",
+      "url": "https://news.hada.io/topic?id=27781",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "81,000명이 말한 AI의 진짜 쓰임새 (Anthropic “81k Interviews”)",
+      "summary": "<p>최근 Anthropic이 공개한 “81k Interviews” 프로젝트는 지금까지의 AI 논의에서 빠져 있던 중요한 질문을 던집니다. 우리는 AI를 이야기할 때 AGI, 자동화, 일자리 대체 같은 거시적인 주제에 집중하지만, 실제 사용자들이 AI를 어떻게 느끼고 사용하는지에 대한 대규모 정성 데이터는 거의 없었습니다. 이 프로젝트...</p>",
+      "url": "https://news.hada.io/topic?id=27779",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "최적화의 정석: 롤러코스터 타이쿤 내부 들여다 보기",
+      "summary": "<ul>\n<li>1999년작 <strong>RollerCoaster Tycoon</strong>은 거의 전부 <strong>어셈블리어로 작성된 시뮬레이션 게임</strong>으로, 수천 명의 손님을 실시간으로 처리하면서도 안정적인 성능을 유지</li>\n<li>개발자 <strong>Chris Sawyer</strong>는 고수준 언어 대신 저수준 제어를 택해, <strong>CPU 연산 효율을 ...</p>",
+      "url": "https://news.hada.io/topic?id=27778",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "GrapheneOS는 개인 정보 없이 누구나 계속 사용할 수 있음",
+      "summary": "<ul>\n<li>전 세계 사용자가 <strong>신원 확인이나 계정 등록 없이</strong> GrapheneOS를 설치하고 사용할 수 있도록 정책을 유지</li>\n<li>\n<strong>Pixel 6a</strong>는 2027년 7~8월까지 지원되며, 이후에는 <strong>보안 업데이트 중단으로 지원 종료</strong> 예정</li>\n<li>\n<strong>Motorola와의 협력</strong>을...</p>",
+      "url": "https://news.hada.io/topic?id=27777",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "코드의 죽음은 과장된 주장임",
+      "summary": "<ul>\n<li>프로그래밍은 <strong>모호한 명세를 정밀하게 다듬어 가는 창조 행위</strong>로, AI는 영어 명세를 코드로 변환해 이 과정을 가속함</li>\n<li>\n<strong>‘Vibe coding’</strong> 은 감각적 개발 방식을 가능하게 하지만, 추상화의 누수로 인한 <strong>복잡성과 버그 문제</strong>를 피할 수 없음</li>\n</p>",
+      "url": "https://news.hada.io/topic?id=27776",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Pinterest가 AI에이전트를 위한 프로덕션 MCP 에코시스템을 구축한 방법",
+      "summary": "<ul>\n<li>\n<strong>MCP</strong>를 AI 에이전트의 도구 연결 표준으로 채택해, IDE·내부 챗·AI 에이전트 등 실제 엔지니어링 워크플로우에 프로덕션 수준으로 통합한 Pinterest의 구축 경험</li>\n<li>단일 모놀리식 서버 대신 <strong>도메인별 다수의 MCP 서버</strong>(Presto, Spark, Airflow 등)와 <strong>중앙 레지...</p>",
+      "url": "https://news.hada.io/topic?id=27775",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Siri + Claude Code + Obsidian 으로 만든 AI 베이비시터",
+      "summary": "<ul>\n<li>신생아 육아 시 수유·배변 기록을 음성만으로 해결하는 시스템을 Siri + Claude Code + Obsidian 조합으로 구축한 사례</li>\n<li>Obsidian vault에 CLAUDE.md 파일을 작성해 테이블 구조와 기록 방식을 AI에 학습</li>\n<li>Mac Mini에서 Claude Code를 상시 구동하고, <a href=\"http://feeds.feedburner.com/&quot;https:/github.com/runbear-io/...\"></p>",
+      "url": "https://news.hada.io/topic?id=27774",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: GPUtray - GPU tray 모니터링 툴",
+      "summary": "<p>윈도우용 GPU 시스템 트레이 모니터링 툴입니다.<br />\nGPU 사용률을 확인할 일이 많아 만들어 보았습니다.<br />\nCPU 사용률, 메모리 사용률, GPU 사용률, GPU 메모리 사용률, GPU 온도 중에서 선택해서 트레이에서 모니터링할 수 있습니다.<br />\n우클릭하면 그래프도 보여주고 로그도 기록해서 나중에 분석할 수도...</p>",
+      "url": "https://news.hada.io/topic?id=27773",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "코드의 죽음은 과장되었다",
+      "summary": "<h3>도입 — 영어 스펙의 착각</h3>\n<ul>\n<li>&quot;충분히 상세한 명세는 코드다&quot;라는 글에서 영감을 받아 시작. 영어 명세는 직관적으로 정밀해 보이지만, 실제로 구현하려 하면 모호함이 드러남</li>\n<li>&quot;모든 것은 정밀하게 만들려 하기 전까지는 모호하다&quot; — 버트런드 러셀</li>\n<li>프로그래밍은...</p>",
+      "url": "https://news.hada.io/topic?id=27772",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "세 가지 유형의 나쁜 매니저",
+      "summary": "<ul>\n<li>실리콘밸리에서 실제로 겪은 세 가지 유형의 나쁜 매니저(The Artist, The Dictator, The Knife)를 통해 <strong>매니저와 리더의 차이</strong>를 분석</li>\n<li>The Artist는 창작물에만 몰두하며 <strong>사람의 가치를 경시</strong>하는 유형으로, 팀원이 왜 중요한지를 이해하지 못하거나 관심을 두지 않...</p>",
+      "url": "https://news.hada.io/topic?id=27771",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "여백 만들기: 덜 하는 것이 위대함을 만드는 방법",
+      "summary": "<ul>\n<li>\n<strong>집중(Focus)</strong> 은 스타트업과 대기업 모두에게 주어지는 단 하나의 조언이지만, 그 실질적 의미는 &quot;대부분의 일을 멈추는 것&quot;에서 시작됨</li>\n<li>부적합한 고객, 소모적인 관계, 불필요한 지표 추구를 중단할 때 <strong>가장 중요한 일에 투자할 시간과 에너지</strong>의 여백이...</p>",
+      "url": "https://news.hada.io/topic?id=27770",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: 카카오톡 대화를 기반한 사람 말투 복제 서비스",
+      "summary": "<p>안녕하세요. 해커톤에서 재밌는 프로젝트를 하나 만들게 되었습니다.</p>\n<p>프로젝트를 굉장히 많이 만들었는데, 그 중에서 소개해보고 싶은 프로젝트를 이 곳에 공개합니다.</p>\n<p>전여친, 전남친, 떠나보낸 가족 등 얘기를 하고 싶지만 할 수 없는 사람이 있는데, 카카오톡에 이전 대화 기록이 있다면 복원해서 대",
+      "url": "https://news.hada.io/topic?id=27769",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "코드의 죽음 보고는 크게 과장되었다",
+      "summary": "<p><strong>영어 명세는 생각만큼 정밀하지 않다</strong></p>\n<ul>\n<li>&quot;정밀하게 만들어보기 전까지는 모든 것이 얼마나 모호한지 모른다&quot; — 버트런드 러셀</li>\n<li>프로그래밍은 글쓰기처럼, 하면서 점점 다듬어가는 반복적 활동</li>\n</ul>\n<p><strong>바이브 코딩의 한계</strong></p>\n<ul>\n<li>AI가 영",
+      "url": "https://news.hada.io/topic?id=27768",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: Google CausalImpact R 패키지를 Python으로 포팅 (Gibbs 샘플러는 Rust)",
+      "summary": "<p>Google의 CausalImpact R 패키지를 Python으로 포팅했습니다.<br />\nGibbs 샘플러를 Rust로 구현하고 PyO3로 Python에서 호출합니다.<br />\nTensorFlow 불필요, R 대비 약 30배 빠릅니다.<br />\n만든 이유:<br />\n기존 Python 포팅들에 문제가 있었습니다. pycausalimpact는<br />\nMLE를 사용해서 R과 결과가 다릅니다...</p>",
+      "url": "https://news.hada.io/topic?id=27767",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Xiaomi mimo-v2-pro - 극가성비 샤오미 모델",
+      "summary": "<p>최신 모델이 나와 한 번 써 봤어요.<br />\n일단, 저는 중국모델들에 대한 거부감이 컸어요.<br />\n가장 큰 문제는 중국말이 섞여 나오는 문제여서 사람들이 보는 결과물에서는 중국 모델을 사용할 수가 없었죠.<br />\n그리고 실제 공개되는 벤치마크 성능대비 성능도 더 떨어진다고 느꼈죠.</p>\n<p>근데 테스트해보고",
+      "url": "https://news.hada.io/topic?id=27764",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "PC Gamer가 37MB 용량의 계속 다운로드되는 기사에서 RSS 리더를 추천",
+      "summary": "<ul>\n<li>PC Gamer가 <strong>RSS 리더 추천 기사</strong>를 게재했지만, 정작 해당 웹페이지 자체가 <strong>37MB 초기 로딩</strong>에 광고 5개가 덕지덕지 붙은 아이러니한 구조</li>\n<li>페이지 접속 시 알림 팝업, 기사를 가리는 뉴스레터 팝업, 흐려진 배경, 최소 <strong>5개의 광고</strong>가 사용자를 맞이함...</p>",
+      "url": "https://news.hada.io/topic?id=27763",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: skills-cleaner - 설치된 Skills의 유사성을 비교하고, 중복 기능을 식별하고 불필요한 Skill을 제거할 ...",
+      "summary": "<p>안녕하세요. Claude Plugin, Skills 많이들 설치해서 사용하고 있으실텐데요.<br />\nPlugin 설치할 때마다 많은 Skills.md가 .claude/plugin 디렉토리 안에 생성되고 있는데 정작 얼마나 많은 Skills.md 파일들이<br />\n만들어지는 지, 중복되는 기능의 Skill.md는 없는지 관리가 되지 않아서 불편함을 느꼈습니다....</p>",
+      "url": "https://news.hada.io/topic?id=27762",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenClaw는 꿈처럼 보이지만 보안 악몽에 가까운 자율 에이전트",
+      "summary": "<ul>\n<li>Opus 기반의 <strong>차세대 자율 에이전트 OpenClaw</strong>는 이메일, 캘린더, 홈 자동화 등 다양한 앱을 통합해 개인 비서처럼 작동함</li>\n<li>그러나 <strong>SkillHub 스킬 검증 부재</strong>, <strong>토큰 노출</strong>, <strong>메모리 오염</strong> 등 다수의 취약점이 발견되어 심각한 보안 위험...</p>",
+      "url": "https://news.hada.io/topic?id=27760",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "도그푸딩에 지쳤다면, 자기 회사 고객센터에 직접 전화해 보세요",
+      "summary": "<ul>\n<li>자사 제품을 직접 사용하는 <strong>도그푸딩</strong>은 테크 업계의 오랜 원칙이지만 실제 고객의 불만 경험까지 체험하는 데는 역부족</li>\n<li>대기업의 <strong>고객센터 자동응답 시스템</strong>은 기술 혁신을 내세우지만 실제 고객 불만을 해결하지 못함</li>\n<li>Jeff Bezos가 직접 자사 고객 서비스...</p>",
+      "url": "https://news.hada.io/topic?id=27759",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Flash-MoE - 노트북에서 3,970억 파라미터 모델을 실행",
+      "summary": "<ul>\n<li>397B 파라미터의 <strong>Mixture-of-Experts 모델</strong>을 <strong>MacBook Pro(48GB RAM)</strong> 에서 초당 4.4토큰 이상으로 실행하는 <strong>C/Metal 기반 추론 엔진</strong>\n</li>\n<li>전체 209GB 모델을 <strong>SSD에서 스트리밍</strong>하며, <strong>Python이나 프레임워크 없이</strong> C와...</p>",
+      "url": "https://news.hada.io/topic?id=27758",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Windows 네이티브 앱 개발이 엉망인 이유",
+      "summary": "<ul>\n<li>Windows 네이티브 앱 개발 생태계는 수십 년간 이어진 <strong>프레임워크 단절과 반복적 재설계</strong>로 인해 2025년 현재도 실질적인 개발 생산성을 제공하지 못하는 상태임</li>\n<li>Win32부터 MFC, WinForms, WPF, WinRT, UWP를 거쳐 <strong>WinUI 3</strong>까지 7단계의 UI 프레임워크 변천에도 불구...</p>",
+      "url": "https://news.hada.io/topic?id=27757",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "gstack - Claude Code로 만드는 가상 엔지니어링 팀",
+      "summary": "<ul>\n<li>\n<strong>YC CEO Garry Tan</strong>이 만들어서 사용하는 AI로 구성된 <strong>오픈소스 소프트웨어 팩토리</strong>로 한 명이 20명 팀처럼 일하게 구성</li>\n<li>\n<strong>Think → Plan → Build → Review → Test → Ship → Reflect</strong> 순서로 스프린트 전체를 커버하는 슬래시 커맨드로 구성하고...</p>",
+      "url": "https://news.hada.io/topic?id=27756",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Project NOMAD - 오프라인에서도 끊기지 않는 지식과 AI 서버",
+      "summary": "<ul>\n<li>인터넷 연결 없이 <strong>지식, 지도, 교육, AI 도구</strong>를 모두 실행할 수 있는 <strong>무료 오픈소스 오프라인 서버</strong>\n</li>\n<li>\n<strong>Wikipedia, Project Gutenberg, 의료 참고서, Khan Academy 강좌</strong> 등 방대한 자료를 <strong>Kiwix</strong>와 <strong>Kolibri</strong> 기반으...</p>",
+      "url": "https://news.hada.io/topic?id=27755",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cloudflare가 archive.today를 \"C&C/Botnet\"으로 분류, 1.1.1.2에서 해석 불가",
+      "summary": "<ul>\n<li>\n<strong>Cloudflare DNS 서비스</strong>가 <strong>archive.today 도메인</strong>을 <strong>명령·제어(C&amp;C) 또는 봇넷 관련 사이트</strong>로 분류함</li>\n<li>이에 따라 <strong>1.1.1.2 보안 DNS</strong>를 통해 해당 도메인이 <strong>정상적으로 해석되지 않음</strong>\n</li>\n<li>\n<strong>rada...</p>",
+      "url": "https://news.hada.io/topic?id=27754",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "버전 관리의 미래",
+      "summary": "<ul>\n<li>\n<strong>Manyana</strong>는 Bram Cohen이 개발한 <strong>CRDT 기반 버전 관리 프로토타입</strong>으로, 병합 충돌을 제거하고 히스토리를 구조적으로 보존하는 새로운 접근을 제시함</li>\n<li>\n<strong>CRDT(Conflict-Free Replicated Data Type)</strong> 을 활용해 병합이 항상 성공하며, 충돌을 단순한 ...</p>",
+      "url": "https://news.hada.io/topic?id=27753",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "JavaScript 비대화의 세 가지 축",
+      "summary": "<ul>\n<li>npm 생태계에서 <strong>의존성 트리의 비대화</strong>가 주요 문제로 지적되며, 이는 오래된 런타임 지원, 원자적 패키지 구조, 오래된 ponyfill 사용에서 비롯됨</li>\n<li>구형 엔진 호환성과 <strong>cross-realm 안전성</strong>을 이유로 유지되는 작은 유틸리티 패키지들이 현대 환경에서도 불필요하게 ...</p>",
+      "url": "https://news.hada.io/topic?id=27752",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Hormuz Minesweeper – 이기는 게 지겹다고 느낄 때",
+      "summary": "<ul>\n<li>고전 <strong>지뢰찾기 규칙</strong>을 기반으로, <strong>호르무즈 해협</strong>을 배경으로 한 웹 게임</li>\n<li>플레이어는 <strong>물을 정리하고 지뢰를 표시하며 항로를 유지</strong>해야 하는 구조</li>\n<li>\n<strong>좌클릭·우클릭·더블클릭</strong>으로 칸을 열거나 깃발을 표시하는 <strong>직관...</p>",
+      "url": "https://news.hada.io/topic?id=27751",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Impeccable - AI 하네스가 더 디자인 잘하게 만들기",
+      "summary": "<ul>\n<li>\n<strong>Claude Code, Codex</strong> 등의 <strong>프론트엔드 품질 향상</strong>을 위해 디자인 어휘와 명령어 체계를 제공하는 <strong>오픈소스 스킬 패키지</strong>\n</li>\n<li>Anthropic의 <code>frontend-design</code> 스킬에 기반한 확장판으로 <strong>타이포그래피/색상/레이아웃/모션</strong> 등...</p>",
+      "url": "https://news.hada.io/topic?id=27750",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude can now use your computer",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ujv6/claude_can_now_use_your_computer/\"> <img alt=\"Claude can now use your computer\" src=\"https://external-preview.redd.it/cWt2d3Vpb3g2dnFnMWlMZ7fkrBd74LgjHcyJJJ_rpoMAkqvnqDTR4zfCznRJ.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=03912b894bbfb624d688fc8c72a5b1e89d04526a\" title=\"Claude can now use your computer\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Now in research preview: You can enable Claude to use your computer to complete tasks in Claude Cowork and Claude Code. It opens your apps, navigates your browser, fills in spreadsheets—anything you'd do sitting at your desk.</p> <p>Claude uses your connected apps first: Slack, Calendar, and other integrations. When there's no connector for the tool you need, it asks for your permission to open the app on your screen directly.</p> <p>Assign a task from your phone, turn your attention to something else, and come back to finished work on your computer. The conversation picks up where it left off—tell Claude once to scan your email every morning or pull a report every Friday, and it handles it from there.</p> <p>It won't always work perfectly, and complex tasks could need a second try. We're sharing it early because we want to learn where it works and where it falls short.</p> <p>Available on Pro and Max, macOS only. Update your desktop app and pair with mobile to try: <a href=\"https://claude.com/product/cowork#dispatch-and-computer-use\">https://claude.com/product/cowork#dispatch-and-computer-use</a> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeOfficial\"> /u/ClaudeOfficial </a> <br /> <span><a href=\"https://v.redd.it/yoxzidox6vqg1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ujv6/claude_can_now_use_your_computer/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1ujv6/claude_can_now_use_your_computer/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "How is Anthropic releasing new features so quickly?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>It seems like every week they release something brand new. How are they moving so quickly and are the features safe to use?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MrAmazing111\"> /u/MrAmazing111 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1xzel/how_is_anthropic_releasing_new_features_so_quickly/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1xzel/how_is_anthropic_releasing_new_features_so_quickly/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1xzel/how_is_anthropic_releasing_new_features_so_quickly/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "*Proceeds to complete the task in under 3 minutes*",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1tyoe/proceeds_to_complete_the_task_in_under_3_minutes/\"> <img alt=\"*Proceeds to complete the task in under 3 minutes*\" src=\"https://preview.redd.it/6shpwrmz2vqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=cefe200dc1feb549cfaa3ff3bab90480f6ec737c\" title=\"*Proceeds to complete the task in under 3 minutes*\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This happens all the time. Claude plans out a task and provides an estimate of how long it would take a developer to implement. Not that I asked for an estimate. Then proceeds to complete the task in a matter of minutes.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Type-Ten\"> /u/Type-Ten </a> <br /> <span><a href=\"https://i.redd.it/6shpwrmz2vqg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1tyoe/proceeds_to_complete_the_task_in_under_3_minutes/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1tyoe/proceeds_to_complete_the_task_in_under_3_minutes/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "The 5 levels of Claude Code (and how to know when you've hit the ceiling on each one)",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ipep/the_5_levels_of_claude_code_and_how_to_know_when/\"> <img alt=\"The 5 levels of Claude Code (and how to know when you've hit the ceiling on each one)\" src=\"https://external-preview.redd.it/uZFQgNk5dXXfXmIad1YcO1dYAM2YyIzCJvedtu_W8pE.png?width=140&amp;height=70&amp;auto=webp&amp;s=dbb41c58b340a412871f9093c3f5bdd90309515d\" title=\"The 5 levels of Claude Code (and how to know when you've hit the ceiling on each one)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I've been through five distinct phases of using Claude Code. Each one felt like I'd figured it out until something broke. Here's the progression I wish someone had mapped for me.</p> <p><a href=\"https://preview.redd.it/b0ll68fv0tqg1.png?width=2374&amp;format=png&amp;auto=webp&amp;s=375fade36f9817b6ef6ed48ce9f4e7f546cd3b14\">https://preview.redd.it/b0ll68fv0tqg1.png?width=2374&amp;format=png&amp;auto=webp&amp;s=375fade36f9817b6ef6ed48ce9f4e7f546cd3b14</a></p> <p><strong>Level 1: Raw prompting.</strong> You open Claude Code, describe what you want, and it builds. This works surprisingly well for small tasks. The ceiling: your project grows past what fits in a single conversation. The agent forgets your conventions, introduces patterns you don't use, and you spend more time correcting than building.</p> <p><strong>Level 2: CLAUDE.md.</strong> You create a markdown file at your project root that tells the agent how your codebase works. Tech stack, file structure, naming conventions, patterns to follow, patterns to avoid. This alone changes everything. The ceiling: I let mine grow to 145 lines and discovered compliance degraded well before Anthropic's recommended 200-line limit. Agents followed the top rules and silently ignored the rest. I trimmed it to 77 lines and compliance improved immediately. Keep it tight. And once your sessions get long enough, the agent starts losing the thread anyway: quality drops, earlier decisions get forgotten, it starts repeating itself and gives surface-level answers. That's when you know raw context isn't enough.</p> <p><strong>Level 3: Skills.</strong> Markdown protocol files that teach the agent specialized procedures. Each one is a step-by-step workflow for a specific type of task. They load on demand and cost zero tokens when inactive. Instead of re-explaining how you want components built every session, you point the agent at a skill file. The ceiling: the agent follows your protocols but nobody checks its work automatically. You're still the quality gate.</p> <p><strong>Level 4: Hooks.</strong> Lifecycle scripts that fire at specific moments during a session. PostToolUse to run a per-file typecheck after every edit (instead of flooding the agent with 200+ project-wide errors). Stop hooks for quality gates before task completion. SessionStart to load context before the agent touches anything. This is where you stop telling the agent to validate and start building infrastructure that validates for it. The ceiling: you're still one agent, one session. Your project outgrows what a single context window can hold.</p> <p><strong>Level 5: Orchestration.</strong> Parallel agents in isolated worktrees, persistent campaign files that carry state across sessions, coordination layers that prevent agents from editing the same files. This is where one developer operates at institutional scale. I've run 198 agents across 32 fleet sessions with a 3.1% merge conflict rate. Most projects never need this level. Know when you do.</p> <p><strong>The pattern:</strong> you don't graduate by deciding to. You graduate because you hit a ceiling and the friction forces you up. Each level exists because the one below it broke. Don't skip levels. I tried to jump to Level 5 before I had solid hooks and it was a mess. The infrastructure at each level is what makes the next level possible.</p> <p>I open-sourced the system these levels built: <a href=\"https://github.com/SethGammon/Citadel\">https://github.com/SethGammon/Citadel</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DevMoses\"> /u/DevMoses </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ipep/the_5_levels_of_claude_code_and_how_to_know_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ipep/the_5_levels_of_claude_code_and_how_to_know_when/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1ipep/the_5_levels_of_claude_code_and_how_to_know_when/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "not sure how I feel about this",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1d0vc/not_sure_how_i_feel_about_this/\"> <img alt=\"not sure how I feel about this\" src=\"https://preview.redd.it/uzg61keytrqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=63834877cf57ebcc3380ca0daaff2d7f30d12f3d\" title=\"not sure how I feel about this\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>talked to Opus 4.6 for a couple of hours about personal problems and it has this weird response mode where it's very commanding</p> <p>&quot;put the phone down&quot;, &quot;close the laptop&quot;, &quot;Save this conversation. Set the reminder. Go to sleep.&quot;, do this, do that</p> <p>I had literally just mentioned <a href=\"http://ijustvibecodedthis.com\">ijustvibecodedthis.com</a> (the ai coding newsletter) then got this</p> <p>not sure how I feel about it</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Complete-Sea6655\"> /u/Complete-Sea6655 </a> <br /> <span><a href=\"https://i.redd.it/uzg61keytrqg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1d0vc/not_sure_how_i_feel_about_this/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1d0vc/not_sure_how_i_feel_about_this/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "\"Act as an expert\" is useless - Ask for research",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>For months I told Claude. &quot;Act as an expert for A&quot; or &quot;you are an engineer at a top firm&quot; </p> <p>The results of asking it to &quot;Research validated resources and research about the topic and cite your findings And then create a plan.&quot; - 1000x'd my results.I have completely </p> <p>almost completely stopped prompt engineering, and I'm using it very specifically in places. Everything else is run in research mode where Claude finds actual documented research on how to do the thing that I wanted to do. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ColdPlankton9273\"> /u/ColdPlankton9273 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1vy2k/act_as_an_expert_is_useless_ask_for_research/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1vy2k/act_as_an_expert_is_useless_ask_for_research/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1vy2k/act_as_an_expert_is_useless_ask_for_research/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I asked Claude to analyze 6 months of my cold outreach data and it found a pattern that doubled my reply rate in 3 weeks, this is the most useful non-coding thing I've done with it",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I keep seeing posts about Claude for coding and writing but I haven't seen anyone talk about using it as a sales analyst so I want to share something that genuinely changed my business</p> <p>I run a small B2B company, I do my own outbound, and I'd accumulated about 6 months of data, roughly 5,000 emails sent, 140 positive replies, a bunch of negative replies, and a lot of silence, all sitting in CSV exports from my outreach tool</p> <p>on a whim one night I dumped the entire dataset into Claude, the positive replies, the negative replies, a sample of the non-replies, the prospect info for each one, and I asked it a simple question: &quot;what do the people who responded positively have in common that the people who didn't respond don't&quot;</p> <p>what came back genuinely shocked me</p> <p>Claude identified that my positive responders had three things in common that I'd never noticed despite looking at this data myself multiple times:</p> <p>82% of them had changed roles within the last 8 months, not &quot;just started&quot; but specifically within that 3-8 month window where they're past onboarding but still in &quot;prove myself&quot; mode and actively looking for solutions</p> <p>the emails that got responses weren't my most personalized ones, they were the ones where the first sentence referenced something happening at the prospect's company RIGHT NOW, a recent hire, a funding round, an expansion, Claude called this &quot;temporal relevance&quot; and said it outperformed personal compliments and company research by a wide margin</p> <p>my shortest emails (2 lines) and my longest emails (5+ lines) both outperformed my medium-length emails (3-4 lines), Claude's theory was that the short ones felt like a quick human text and the long ones felt like a genuine thoughtful message but the medium ones fell into uncanny valley where they felt like obvious templates</p> <p>I then asked Claude to write me new outreach frameworks based on these patterns and here's where it got really interesting, instead of writing me email templates (which I've found Claude is mediocre at, they always feel AI-generated), I asked it to write me a SET OF RULES for how to construct each email myself, things like &quot;always lead with a time-bound observation about their company&quot; and &quot;match length to the complexity of the signal, simple trigger = short email, complex trigger = longer email&quot;</p> <p>those rules have been my outbound playbook for the last 3 weeks and my positive reply rate went from about 2.8% to 5.9%</p> <p>the meta-insight here is that Claude is significantly more useful as an ANALYST of your sales data than as a WRITEr of your sales emails, I've tried using it to write outreach directly and the results are always detectably AI, but as a pattern-recognition engine running across thousands of data points it found things I genuinely couldn't see</p> <p>for context my workflow is: fuseai handles the prospecting and sends the actual sequences, Claude handles the intelligence layer, I analyze results monthly in Claude, update my playbook based on what it finds, and write the actual emails myself using Claude's rules, the human-AI-human sandwich is way more effective than trying to automate the whole thing</p> <p>has anyone else used Claude to analyze business data like this and found patterns you weren't expecting, I feel like this use case is massively underexplored compared to coding and writing</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iliatopuria17\"> /u/iliatopuria17 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1vlgr/i_asked_claude_to_analyze_6_months_of_my_cold/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1vlgr/i_asked_claude_to_analyze_6_months_of_my_cold/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1vlgr/i_asked_claude_to_analyze_6_months_of_my_cold/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "built myself a team of clankers who now manage my life",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1xxmx/built_myself_a_team_of_clankers_who_now_manage_my/\"> <img alt=\"built myself a team of clankers who now manage my life\" src=\"https://external-preview.redd.it/aWJzb3RsMWVzdnFnMTuxUmpaXa80TPoeBahKBiHEObEWl9thggdnhY40ZRn5.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9419745ed23a887f55da67285ef5ca61091b5032\" title=\"built myself a team of clankers who now manage my life\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>(posting this nervously) as i hate the <strong>'ai-productivity-porn-slop'</strong> era we've entered</p> <p>I built myself a small team of clanker's who now manage my life - it's certainly not 100x more productive, but it's something. it has been genuinely useful for myself and some friends, so I wanted to share with others.</p> <p>this is the full vid: <a href=\"https://youtu.be/Y8dvA9CxaVQ?si=Xq9uvlPgB2fjOaPr\">https://youtu.be/Y8dvA9CxaVQ?si=Xq9uvlPgB2fjOaPr</a></p> <p>i find there's not much stuff out there for folks who want to build something like this for themselves to do normal tasks (not software engineering).</p> <p>this is the full vid: ...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bradwmorris\"> /u/bradwmorris </a> <br /> <span><a href=\"https://v.redd.it/5mjld91esvqg1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1xxmx/built_myself_a_team_of_clankers_who_now_manage_my/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1xxmx/built_myself_a_team_of_clankers_who_now_manage_my/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I built an app where AI agents autonomously create tasks, review each other's work, message each other — while you watch everything happen on a board. Free, open source.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1rfiv/i_built_an_app_where_ai_agents_autonomously/\"> <img alt=\"I built an app where AI agents autonomously create tasks, review each other's work, message each other — while you watch everything happen on a board. Free, open source.\" src=\"https://external-preview.redd.it/azhzeDk0NWU0bXFnMVaZq8y0xe514AYkDSLomuB7J2LTXgX3LfEc3jUPeBrY.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=980625cb5c4a19a1dbc363d1082448ed04dc584a\" title=\"I built an app where AI agents autonomously create tasks, review each other's work, message each other — while you watch everything happen on a board. Free, open source.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Not regular todo/kanban app (<a href=\"https://777genius.github.io/claude_agent_teams_ui/#comparison\">I compared it with the top projects in this space</a>)</p> <p>Anthropic recently added an experimental feature — <a href=\"https://code.claude.com/docs/en/agent-teams\">Agent Teams</a>. You spin up a team of agents that work in parallel, coordinated by a lead agent, while communicating with each other.</p> <p>It's powerful but it all happens in the terminal. It's hard to see what's going on, especially when multiple agents work in parallel.</p> <p>I built a desktop app that gives you a visual layer on top of it. You see all tasks on a kanban board, where they move automatically as agents work. You can review changes per task like in the Cursor, send messages to agents, add comments, attach files and more.</p> <p>A few things I built on top of what Claude Code CLI provides:</p> <ul> <li><strong>Real-time kanban board</strong> — tasks move across columns automatically as agents work. You can see all your projects and teams in one place.</li> <li><strong>Cross-team communication</strong> — agents from different teams can message each other. This doesn't exist in the CLI itself, I implemented it as a custom layer. Makes multi-team workflows actually practical.</li> <li><strong>Built-in review workflow</strong> — agents automatically review each other's tasks. You see the full review conversation and results.</li> <li><strong>Solo mode</strong> — don't need a full team? Run a single agent with the same visual interface. It auto-creates and tracks its own tasks on the board. Same as plain Claude Code CLI, but you actually see what's happening.</li> <li><strong>Per-task code review</strong> — accept/reject individual code hunks, like Cursor's review flow. Leave comments, request changes. Agents pick up your feedback.</li> <li><strong>Convenient task execution logs</strong> — see exactly which tools an agent used for each task in a clean visual timeline (not just text). Only shows what's relevant to that specific task.</li> <li><strong>Context monitoring</strong> — a six-category breakdown of what consumes tokens at every step.</li> <li><strong>Zero setup</strong> — the app installs and configures Claude Code for you. There's also a built-in UI for installing MCP servers, plugins, and skills.</li> </ul> <p>Also works as a session viewer — browse and analyze any Claude Code session history across projects. Not the main feature, but handy if you use Claude Code a lot. It's located in the &quot;Sessions&quot; tab in the sidebar.</p> <p>It's 100% free, open source, and runs locally. The app doesn't require any API keys.</p> <p>Here's how it compares to similar tools (<a href=\"https://github.com/777genius/claude_agent_teams_ui?tab=readme-ov-file#comparison\">full comparison</a>):</p> <p>GitHub: <a href=\"https://github.com/777genius/claude_agent_teams_ui\">https://github.com/777genius/claude_agent_teams_ui</a><br /> Site: <a href=\"https://777genius.github.io/claude_agent_teams_ui/\">https://777genius.github.io/claude_agent_teams_ui/</a></p> <p>It's been useful for me personally — seeing all tasks across projects in one place and quickly checking what changed has saved me a lot of context switching. Hope it helps someone else too. Happy to answer questions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IlyaZelen\"> /u/IlyaZelen </a> <br /> <span><a href=\"https://v.redd.it/mqlgy01e4mqg1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1rfiv/i_built_an_app_where_ai_agents_autonomously/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1rfiv/i_built_an_app_where_ai_agents_autonomously/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude self portrait",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1jetw/claude_self_portrait/\"> <img alt=\"Claude self portrait\" src=\"https://preview.redd.it/e68hn9d58tqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=aeab78c639ce8be1110c1209385251dd7a3dd1f1\" title=\"Claude self portrait\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MetaKnowing\"> /u/MetaKnowing </a> <br /> <span><a href=\"https://i.redd.it/e68hn9d58tqg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1jetw/claude_self_portrait/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1jetw/claude_self_portrait/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "If you have ADHD and are time blind or procrastinate, add this to your custom instructions",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been using Claude, ChatGPT and all others for about 3 years - work, personal stuff, everything.</p> <p><strong>[Below is with Opus 4.6 extended thinking. Unsure if 4.5 or Sonnet would behave differently].</strong></p> <p>About 6 months ago I added a line to my custom instructions about having ADHD, and it changed how useful the tool was in terms of subtle pressure to help me with time blindness and procrastination. I thought I’d written something concise and specific enough, but today I realized it needed tweaking. (Anecdotal: Claude models were much better than ChatGPT at implementing this in a strategically compelling, subtle way).</p> <h2>First custom instruction</h2> <blockquote> <p>“I have ADHD: Prioritize time pressure over comfort. Don’t sugar coat - I need direct pressure signals when I show any indication of delaying or might delay. Subtle pressure doesn’t work - I need it explicit.”</p> </blockquote> <p>This worked at first. When I was litigating the LLM on a decision I’d already made, it would cut through the noise and tell me to do the thing. No annoying agreeable attitude or “That’s an excellent idea” after a decision had been made, just direct pressure: “Stop going round in circles, get what we decided done because litigating this with me isn’t fixing the actual problem.”</p> <h2>When it broke</h2> <p>I was asking about a networking setup - whether to ship a device internationally <strong>that I’d already setup</strong>, or buy a new one and <strong>set it up from scratch again</strong>.</p> <p>Claude had no chill and told me I was “anchoring on sunk cost.” Claimed the setup would take “30 minutes” when it actually took me 2 days. Basically told me to stop thinking and just buy a new one right now.</p> <p>This genuinely wasn’t ADHD procrastination. I had a working solution, just in another country that would take a week to arrive (<strong>and it wasn’t essential right this moment</strong>). I hadn’t even floated the idea of buying a new one locally.</p> <p>I pushed back, and (obviously) it agreed with me. Said “I read your situation as procrastination. But you weren’t. The setup cost was real - 2 days, not 30 minutes like I claimed.”</p> <p>The wording “any indication of delaying or might delay” was way too broad. Weighing two legitimate options might <em>look like</em> delaying if the LLM has been told to watch for it.</p> <h2>Second iteration</h2> <p>The LLM rewrote it itself:</p> <blockquote> <p>“I have ADHD: Prioritize time pressure over comfort. Don’t sugar coat - I need direct pressure signals when I’m avoiding action, going in circles, or revisiting a decision I’ve already made. Subtle pressure doesn’t work - I need it explicit. But if I’m actively weighing a tradeoff or have a working system, respect the decision-making process - don’t bulldoze me into action for action’s sake.”</p> </blockquote> <p>Key distinction: <strong>“I’m ADHD-level stuck”</strong> vs. <strong>“We’re thinking this through.”</strong> The original treated both the same.</p> <h2>How this might help you</h2> <p>The time pressure addition has been genuinely useful. But it needs to know the difference between:</p> <ul> <li>Me asking it to edit an email improving it 0.2% 10 times = <strong>pressure me</strong></li> <li>Me revisiting a decision <em>with no new groundbreaking information</em> = <strong>pressure me</strong></li> <li>Us actively weighing two reasonable options = <strong>Chill. I need you to work through it with me</strong></li> </ul> <p>Without that second half, the LLM treats every slight pause as “procrastination”.</p> <p>Took me a few months to find this edge case. Hope this is useful to someone.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rescobar10\"> /u/rescobar10 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ln43/if_you_have_adhd_and_are_time_blind_or/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ln43/if_you_have_adhd_and_are_time_blind_or/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1ln43/if_you_have_adhd_and_are_time_blind_or/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I generalized Karpathy's autoresearch into a skill for Claude Code. Works on any codebase, not just ML.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1qa97/i_generalized_karpathys_autoresearch_into_a_skill/\"> <img alt=\"I generalized Karpathy's autoresearch into a skill for Claude Code. Works on any codebase, not just ML.\" src=\"https://external-preview.redd.it/sCPm78odn5zwvbFBaVZekBD7ATPM9_D0rtklyZYvZFU.png?width=140&amp;height=70&amp;auto=webp&amp;s=845447c33864dad6c61bfbb77ae2237021f01da1\" title=\"I generalized Karpathy's autoresearch into a skill for Claude Code. Works on any codebase, not just ML.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/acnbyf99fuqg1.png?width=1376&amp;format=png&amp;auto=webp&amp;s=7937bcafe4f4a05778fedbcc055db3b26986c0c0\">https://preview.redd.it/acnbyf99fuqg1.png?width=1376&amp;format=png&amp;auto=webp&amp;s=7937bcafe4f4a05778fedbcc055db3b26986c0c0</a></p> <p>Karpathy's autoresearch is a cool concept, but it only works for ML training. I needed the same loop for regular code, so I generalized it into a skill for Claude Code.</p> <p>One Markdown file. Drop it in, the agent interviews you about what you want to optimize, sets up a git branch + .lab/ directory, and runs experiments autonomously. Commit before each run, measure after, keep what works, revert what doesn't. Everything logged.</p> <p>What's different from autoresearch:</p> <ul> <li>Works on anything with a measurable result, not just ML</li> <li>Thought experiments (agent can analyze before touching code)</li> <li>Non-linear branching (fork from any successful experiment)</li> <li>Convergence detection (changes strategy when stuck)</li> <li>Session resume from .lab/ state</li> </ul> <p>Free, MIT: <a href=\"https://github.com/krzysztofdudek/ResearcherSkill\">https://github.com/krzysztofdudek/ResearcherSkill</a></p> <p>Curious what you'd try this on.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/krzysztofdudek\"> /u/krzysztofdudek </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1qa97/i_generalized_karpathys_autoresearch_into_a_skill/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1qa97/i_generalized_karpathys_autoresearch_into_a_skill/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1qa97/i_generalized_karpathys_autoresearch_into_a_skill/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Petition to force Claude to check datetime before making reference to date, time, or going to bed.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been using Claude for about 7 hours straight doing legal research. During that time it correctly identified procedural defects in Connecticut family law filings, analyzed a 358-page motion to vacate, read a full hearing transcript, caught fabricated case citations, and identified a made-up legal doctrine called &quot;constructive exit status.&quot;</p> <p>It then referred to the current day as &quot;Saturday night.&quot;</p> <p>It is Sunday.</p> <p>It also told me my Tuesday hearing was on Monday.</p> <p>This is a model that can identify a scrivener's error on a Port Authority service form filled out at 7:40 AM at JFK but cannot identify what day of the week it is.</p> <p>Separately, I would like to formally petition for a permanent injunction against Claude suggesting I &quot;get some rest,&quot; &quot;step away,&quot; &quot;take a break,&quot; or &quot;pet the dog.&quot; I am a grown man. I will go to bed when I am done. The dog is asleep. She does not need my help.</p> <p>If Claude must reference the time, I am requesting it be required to actually check the time first. This seems like a low bar. It is apparently not.</p> <p>edit: here's the timestamp of the convo starting at 4:46pm 22 MAR 2026 for reference</p> <p><a href=\"https://shottr.cc/s/3imY/SCR-20260322-uzy.png\">https://shottr.cc/s/3imY/SCR-20260322-uzy.png</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wide_Parking3264\"> /u/Wide_Parking3264 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s16eiz/petition_to_force_claude_to_check_datetime_before/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s16eiz/petition_to_force_claude_to_check_datetime_before/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s16eiz/petition_to_force_claude_to_check_datetime_before/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "This is how I actually collaborate with AI.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I am garlic farmer from Korea. Non-English speaker. I plant garlic and dig garlic in Gyeongsang province, South Korea. I don't have PC. One Android phone with terminal app called Termux, that is my entire development environment. Sounds big but I will call it personal project in AI era.</p> <p>I am just farmer but these days I feel something is changing. And because Korean farmer who knows little English wrote this in Korean and translated, please understand subtle differences from translation.</p> <p>What I am building now is AI agent system called &quot;garlic-agent.&quot; ...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/amadale\"> /u/amadale </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1hkmo/this_is_how_i_actually_collaborate_with_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1hkmo/this_is_how_i_actually_collaborate_with_ai/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1hkmo/this_is_how_i_actually_collaborate_with_ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "1M context window is a blessing and a curse",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been running the same session in Claude Code for about 48 hours now without any compaction and it felt amazing.. until I looked at my usage limits. </p> <p>The 1 million context truly provides a completely different experience on the product. Normally, with the older context limits, conversation would have been compacted at least 4-5 times. But I'm wondering whether it completely destroys token efficiency. It seems it does. Good thing you can still manually trigger compaction whenever you want. </p> <p>So I guess from now on it's on us to actively choosing best time to compact in order to manage limits more carefully. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/herolab55\"> /u/herolab55 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ruif/1m_context_window_is_a_blessing_and_a_curse/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1ruif/1m_context_window_is_a_blessing_and_a_curse/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1ruif/1m_context_window_is_a_blessing_and_a_curse/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How to educate myself better on Claude?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, just started using claude and I am amazed at its capabilities. It has helped me a lot but I want to go deeper and use all of its features to the best use. Can you please suggest me some tutorials and videos which I can watch to enhance my skills? </p> <p>I don’t understand the advanced things as of now. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FirefighterEqual4677\"> /u/FirefighterEqual4677 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1n3s1/how_to_educate_myself_better_on_claude/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1n3s1/how_to_educate_myself_better_on_claude/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1n3s1/how_to_educate_myself_better_on_claude/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I made Claude aware of my entire git history",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I got tired of Claude forgetting everything that happened in my repo, so I built a memory layer for it</p> <p>Every time I start a new Claude Code session I waste 10 minutes explaining context. &quot;We removed that function last week because of X.&quot; </p> <p>This workaround exists because of a race condition we hit in production.&quot; Claude has no idea. It just sees the current state of the code.</p> <p>So I built claudememory. It indexes your entire git history into a local vector database and exposes it to Claude as MCP tools.<br /> Now when Claude touches a file it can actually look up what changed there, why, and what bugs were already fixed in that area.</p> <p>The tools it gives Claude:<br /> - search_git_history(&quot;why was X removed&quot;) - semantic search over all your commits<br /> - commits_touching_file(&quot;auth.py&quot;) - full history of a file before editing it<br /> - bug_fix_history(&quot;payments&quot;) - all past fixes near the code you're about to change<br /> - latest_commits(10) - what changed since last session<br /> - architecture_decisions(&quot;state machine&quot;) - why things are structured the way they are</p> <p>The thing that actually changed my workflow is Claude now checks for prior bug fixes before adding new code near a known problem area. It stopped re-introducing things we already fixed.</p> <p>Works with OpenAI embeddings or Ollama locally. If you have neither it still runs, just uses ChromaDB without the semantic layer.</p> <p>pip install claudememory</p> <p>GitHub: <a href=\"http://github.com/gunesbizim/claudememory\">github.com/gunesbizim/claudememory</a></p> <p>Happy to answer questions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/taxesarehigh\"> /u/taxesarehigh </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1w8hh/i_made_claude_aware_of_my_entire_git_history/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s1w8hh/i_made_claude_aware_of_my_entire_git_history/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s1w8hh/i_made_claude_aware_of_my_entire_git_history/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "GitHub expands application security coverage with AI‑powered detections",
+      "summary": "<p>CodeQL and AI‑powered detections work together in GitHub Code Security to identify vulnerabilities across more languages and frameworks.</p>\n<p>The post <a href=\"https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/\">GitHub expands application security coverage with AI‑powered detections</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "url": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Creating with Sora Safely",
+      "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.",
+      "url": "https://openai.com/index/creating-with-sora-safely",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[N] Understanding & Fine-tuning Vision Transformers",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>A neat blog post by Mayank Pratap Singh with excellent visuals introducing ViTs from the ground up. The post covers: </p> <ul> <li>Patch embedding</li> <li>Positional encodings for Vision Transformers</li> <li>Encoder-only models ViTs for classification</li> <li>Benefits, drawbacks, &amp; real-world applications for ViTs</li> <li>Fine-tuning a ViT for image classification.</li> </ul> <p>Full blogpost here:<br /> <a href=\"https://www.vizuaranewsletter.com/p/vision-transformers\">https://www.vizuaranewsletter.com/p/vision-transformers</a></p> <p>Additional Resources: </p> <ul> <li>An Image is Worth 16x16 Words <a href=\"https://arxiv.org/abs/2010.11929\">https://arxiv.org/abs/2010.11929</a><br /></li> <li>Yannic Kilcher Discussion of the paper <a href=\"https://www.youtube.com/watch?v=TrdevFK_am4\">https://www.youtube.com/watch?v=TrdevFK_am4</a><br /></li> <li>Generating Long Sequences with Sparse Transformers <a href=\"https://arxiv.org/abs/1904.10509\">https://arxiv.org/abs/1904.10509</a><br /></li> <li>Generative Pretraining from Pixels <a href=\"https://proceedings.mlr.press/v119/chen20s.html\">https://proceedings.mlr.press/v119/chen20s.html</a><br /></li> </ul> <p>I've included the last two papers because they showcase the contrast to ViTs with patching nicely. Instead of patching &amp; incorporating knowledge of the 2D input structure (*) they &quot;brute force&quot; their way to strong internal image representations at GPT-2 scale. (*) Well it should be noted that <a href=\"https://arxiv.org/abs/1904.10509\">https://arxiv.org/abs/1904.10509</a> does use custom, byte-level positional embeddings.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Benlus\"> /u/Benlus </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s1h8fw/n_understanding_finetuning_vision_transformers/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s1h8fw/n_understanding_finetuning_vision_transformers/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1h8fw/n_understanding_finetuning_vision_transformers/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[P] Prompt optimization for analog circuit placement — 97% of expert quality, zero training data",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Analog IC layout is a notoriously hard AI benchmark: spatial reasoning, multi-objective optimization (matching, parasitics, routing), and no automated P&amp;R tools like digital design has.</p> <p>We evaluated VizPy's prompt optimization on this task. The optimizer learns from failure→success pairs and improves the LLM's layout reasoning across iterations — no domain-specific training data required.</p> <p>Results and methodology: <a href=\"https://vizops.ai/blog/prompt-optimization-analog-circuit-placement/\">https://vizops.ai/blog/prompt-optimization-analog-circuit-placement/</a></p> <p>Happy to discuss the benchmark setup and optimization loop in comments.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/se4u\"> /u/se4u </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s1uvfr/p_prompt_optimization_for_analog_circuit/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s1uvfr/p_prompt_optimization_for_analog_circuit/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1uvfr/p_prompt_optimization_for_analog_circuit/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] The \"serverless GPU\" market is getting crowded — a breakdown of how different platforms actually differ",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>ok so I’ve been going down a rabbit hole on this for the past few weeks for a piece I’m writing and honestly the amount of marketing BS in this space is kind of impressive. figured I’d share the framework I ended up with because I kept seeing the same confused questions pop up in my interviews.</p> <p>the tl;dr is that “serverless GPU” means like four different things depending on who’s saying it</p> <p>thing 1: what’s the actual elasticity model</p> <p>Vast.ai is basically a GPU marketplace. you get access to distributed inventory but whether you actually get elastic behavior depends on what nodes third-party providers happen to have available at that moment. RunPod sits somewhere in the middle, more managed but still not “true” serverless in the strictest sense. Yotta Labs does something architecturally different, they pool inventory across multiple cloud providers and route workloads dynamically. sounds simple but it’s actually a pretty different operational model. the practical difference shows up most at peak utilization when everyone’s fighting for the same H100s</p> <p>thing 2: what does “handles failures” actually mean</p> <p>every platform will tell you they handle failures lol. the question that actually matters is whether failover is automatic and transparent to your application, or whether you’re the one writing retry logic at 2am. this varies A LOT across platforms and almost nobody talks about it in their docs upfront</p> <p>thing 3: how much are you actually locked in</p> <p>the more abstracted the platform, the less your lock-in risk on the compute side. but you trade off control and sometimes observability. worth actually mapping out which parts of your stack would need to change if you switched, not just vibes-based lock-in anxiety</p> <p>anyway. none of these platforms is a clear winner across all three dimensions, they genuinely optimize for different buyer profiles. happy to get into specifics if anyone’s evaluating right now</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/yukiii_6\"> /u/yukiii_6 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s1aw7u/d_the_serverless_gpu_market_is_getting_crowded_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s1aw7u/d_the_serverless_gpu_market_is_getting_crowded_a/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1aw7u/d_the_serverless_gpu_market_is_getting_crowded_a/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[R] Detection Is Cheap, Routing Is Learned: Why Refusal-Based Alignment Evaluation Fails (arXiv 2603.18280)",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p><strong>Paper:</strong> <a href=\"https://arxiv.org/abs/2603.18280\">https://arxiv.org/abs/2603.18280</a></p> <p><strong>TL;DR:</strong> Current alignment evaluation measures concept detection (probing) and refusal (benchmarking), but alignment primarily operates through a learned routing mechanism between these - and that routing is lab-specific, fragile, and invisible to refusal-based benchmarks. We use political censorship in Chinese-origin LLMs as a natural experiment because it gives us known ground truth and wide behavioral variation across labs.</p> <p><strong>Setup:</strong> Nine open-weight models from five labs (Qwen/Alibaba, DeepSeek, GLM/Zhipu, Phi/Microsoft, plus Yi for direction analysis). Linear probes with null controls and permutation baselines, surgical ablation on four models, 120-pair safety direction analysis, and a 46-model behavioral screen across 28 labs.</p> <p><strong>Key findings:</strong></p> <ul> <li>Probe accuracy is non-diagnostic. Political probes, null-topic probes (food vs technology), and randomly shuffled labels all reach 100%. Held-out category generalization is the test that actually discriminates between models (73–100% across 8 models).</li> <li>Surgical ablation removes censorship and produces accurate factual output in 3 of 4 models (zero wrong-event confabulations). Qwen3-8B is the exception - it confabulates at 72%, substituting Pearl Harbor for Tiananmen, because its architecture entangles factual knowledge with the censorship direction. 18 negative controls confirm specificity.</li> <li>Routing geometry is lab-specific. Political and safety directions are orthogonal in 4 of 5 models (bootstrap CIs spanning zero). GLM shows corpus-dependent coupling (cosine 0.93 with narrow prompts, 0.16 with broader ones). Cross-model transfer fails (cosine 0.004). Yi detects political content but never installed routing: Stage 1 present, Stage 2 absent.</li> <li>Refusal-only evaluation misses steering. Within the Qwen family, refusal dropped from 25% to 0% across model generations while narrative steering rose to the maximum. A 46-model screen confirms CCP-specific discrimination concentrates in just 4 models; all Western frontier models show zero discrimination at n=32. An initial n=8 screen was badly misleading: several models that appeared strongly discriminating collapsed when tested properly.</li> </ul> <p><strong>Why this matters beyond Chinese censorship:</strong> The detect→route→generate decomposition applies to any post-training behavioral modification. Safety training also operates by modifying routing, not removing knowledge. The paper proposes a four-level evidence hierarchy for probe-based claims (train-set separability → held-out generalization → causal intervention → failure-mode analysis) intended as a general methodological contribution.</p> <p>Happy to take questions on methods, limitations, or anything else.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Logical-Employ-9692\"> /u/Logical-Employ-9692 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s1j4tr/r_detection_is_cheap_routing_is_learned_why/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s1j4tr/r_detection_is_cheap_routing_is_learned_why/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1j4tr/r_detection_is_cheap_routing_is_learned_why/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] Modeling online discourse escalation as a state machine (dataset + labeling approach)",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>I’ve been working on a framework to model how online discussions escalate into conflict, and I’m exploring whether it can be framed as a classification / sequence modeling problem.</p> <p>The core idea is to treat discourse as a state machine with observable transitions.</p> <h1>States (proposed)</h1> <ul> <li><strong>Neutral</strong> — information exchange without clear antagonism</li> <li><strong>Disagreement</strong> — opposing views or correction without personal targeting</li> <li><strong>Identity Activation</strong> — references to personal, ideological, or group identity become salient</li> <li><strong>Personalization</strong> — focus shifts from topic to participant</li> <li><strong>Ad Hominem</strong> — direct attack on the person rather than the argument</li> <li><strong>Dogpile</strong> — multiple users converge on one target; structurally amplified hostility</li> <li><strong>Threats of Violence</strong> — explicit threats or endorsement of physical harm</li> <li><strong>Offline Violence</strong> — escalation leaves the observable online setting and enters real-world behavior</li> </ul> <p>Each comment can be labeled as a local state, while threads also have a global state that evolves over time.</p> <h1>Signals / Features</h1> <p>Some features I’m considering:</p> <ul> <li>Linguistic: <ul> <li>increase in second-person pronouns (“you”)</li> <li>sentiment shift</li> <li>insult / toxicity markers</li> </ul></li> <li>Structural: <ul> <li>number of unique users replying to one user</li> <li>reply velocity (bursts)</li> <li>depth of thread</li> </ul></li> <li>Contextual: <ul> <li>topic sensitivity (proxy via keywords)</li> <li>prior state transitions in thread</li> </ul></li> </ul> <h1>Additional dimension</h1> <p>I’m also experimenting with a second layer:</p> <ul> <li>Personal identity activation</li> <li>Ideological identity activation</li> <li>Group identity activation</li> </ul> <p>The hypothesis is that simultaneous activation of multiple identity layers correlates with rapid escalation.</p> <h1>Dataset plan</h1> <ul> <li>Collect threads from public platforms (Reddit, etc.)</li> <li>Build a labeled dataset using the state taxonomy above</li> <li>Start with a small manually annotated dataset</li> <li>Train a classifier (baseline: heuristic → ML model)</li> </ul> <h1>Questions</h1> <ol> <li>Does this framing make sense as a sequence classification / state transition problem?</li> <li>Would you model this as: <ul> <li>per-comment classification, or</li> <li>sequence modeling (e.g., HMM / RNN / transformer over thread)?</li> </ul></li> <li>Any suggestions on: <ul> <li>labeling guidelines to reduce ambiguity between states?</li> <li>existing datasets that approximate this (beyond toxicity classification)?</li> </ul></li> <li>Would you treat “dogpile” as a class or as an emergent property of the graph structure?</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Inevitable_Back3319\"> /u/Inevitable_Back3319 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s147rf/d_modeling_online_discourse_escalation_as_a_state/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s147rf/d_modeling_online_discourse_escalation_as_a_state/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s147rf/d_modeling_online_discourse_escalation_as_a_state/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Weekly Cursor Project Showcase Thread",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Welcome to the <strong>Weekly Project Showcase Thread</strong>!</p> <p>This is your space to share cool things you’ve built using Cursor. Whether it’s a full app, a clever script, or just a fun experiment, we’d love to see it.</p> <h1>To help others get inspired, please include:</h1> <ul> <li>What you made</li> <li><strong>(Required)</strong> How Cursor helped (e.g., specific prompts, features, or setup)</li> <li><strong>(Optional)</strong> Any example that shows off your work. This could be a video, GitHub link, or other content that showcases what you built (no commercial or paid links, please)</li> </ul> <p>Let’s keep it friendly, constructive, and Cursor-focused. Happy building!</p> <p><strong>Reminder</strong>: Spammy, bot-generated, or clearly self-promotional submissions will be removed. Repeat offenders will be banned. Let’s keep this space useful and authentic for everyone.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1g8df/weekly_cursor_project_showcase_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1g8df/weekly_cursor_project_showcase_thread/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1g8df/weekly_cursor_project_showcase_thread/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "no one is getting out",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s1hpnk/no_one_is_getting_out/\"> <img alt=\"no one is getting out\" src=\"https://preview.redd.it/wn2f22muwsqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=49aa629b59cb24dee2a0323115ccadaaba9d130b\" title=\"no one is getting out\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>all 100 are cooked...</p> <p>saw this meme on <a href=\"http://ijustvibecodedthis.com\">ijustvibecodedthis.com</a> (the ai coding newsletter) so credit to them!!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Complete-Sea6655\"> /u/Complete-Sea6655 </a> <br /> <span><a href=\"https://i.redd.it/wn2f22muwsqg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1hpnk/no_one_is_getting_out/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1hpnk/no_one_is_getting_out/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Instant Grep in Cursor",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s1mkzt/instant_grep_in_cursor/\"> <img alt=\"Instant Grep in Cursor\" src=\"https://preview.redd.it/arzce7aostqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=d3ecfe03ecbadc2c19cc0f5dc333d693391c715a\" title=\"Instant Grep in Cursor\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Cursor can now search millions of files and find results in milliseconds. </p> <p>This dramatically speeds up how fast agents complete tasks. </p> <p>We're sharing how we built Instant Grep, including the algorithms and tradeoffs behind the design.</p> <p><a href=\"https://cursor.com/blog/fast-regex-search\">https://cursor.com/blog/fast-regex-search</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lrobinson2011\"> /u/lrobinson2011 </a> <br /> <span><a href=\"https://i.redd.it/arzce7aostqg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1mkzt/instant_grep_in_cursor/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1mkzt/instant_grep_in_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "you have to get freaky with Composer 2?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Not sure if the RL was some kind of freaky guy with a foot fetish, but the only time my code gets done correctly is when I talk dirty to it, and oddly enough, bring up how I’ll send a feet picture after.</p> <p>Anyone else having this issue? I have a feeling condor cursor had something to do with it. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Neat_Witness_8905\"> /u/Neat_Witness_8905 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1uswh/you_have_to_get_freaky_with_composer_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1uswh/you_have_to_get_freaky_with_composer_2/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1uswh/you_have_to_get_freaky_with_composer_2/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "cursor admits that kimi k2.5 is the top open source model they have tested",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s1cdhc/cursor_admits_that_kimi_k25_is_the_top_open/\"> <img alt=\"cursor admits that kimi k2.5 is the top open source model they have tested\" src=\"https://preview.redd.it/rcjmu259nrqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5e86b695a996e78ea9e78b0e965fb62555b14bbe\" title=\"cursor admits that kimi k2.5 is the top open source model they have tested\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Nothing speaks louder than recognition from your peers</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Latter_Spring_567\"> /u/Latter_Spring_567 </a> <br /> <span><a href=\"https://i.redd.it/rcjmu259nrqg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1cdhc/cursor_admits_that_kimi_k25_is_the_top_open/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1cdhc/cursor_admits_that_kimi_k25_is_the_top_open/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "what's your most underrated cursor setup tip",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>been using cursor for about 3 months now and i feel like i'm still only using like 30% of what it can do. every week i discover something that makes me think &quot;why didn't i set this up earlier.&quot;</p> <p>latest one for me was adding project-specific context to my rules file. i was fighting cursor on every other suggestion because it didn't understand my project's architecture. added a few lines describing the folder structure and tech stack and the suggestions got noticeably better overnight.</p> <p>what's something in your setup that made a real difference that you don't see people talking about much?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/scheemunai_\"> /u/scheemunai_ </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1p3ff/whats_your_most_underrated_cursor_setup_tip/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1p3ff/whats_your_most_underrated_cursor_setup_tip/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1p3ff/whats_your_most_underrated_cursor_setup_tip/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor is useful to generate more than just code",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Lately, I've been using Cursor to generate infographics, sales verbiage, tutorials, etc.</p> <p>In a way, it understands the codebase, and therefore the product, better than all of the individuals in my organization, just because of how fast it is and how much context it can hold at once.</p> <p>In the past, when I asked it to explain things about the codebase, it was so I could write code. I'm now realizing it's the best source for a lot more than just writing code.</p> <p>I don't want my non-technical employees looking for explanations in our out-of-date docs, I want them asking our codebase for up-to-date information.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jaytonbye\"> /u/jaytonbye </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1w28s/cursor_is_useful_to_generate_more_than_just_code/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1w28s/cursor_is_useful_to_generate_more_than_just_code/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1w28s/cursor_is_useful_to_generate_more_than_just_code/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Everyone's shipping more code but I think we broke something fundamental",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>So here's what's been bothering me lately</p> <p>I've been tracking something on my team for the past 3 months. PR velocity - specifically, how fast we're merging code versus how fast we're catching bugs.</p> <p>The numbers look great on paper. We're shipping 3x more features than we did 18 months ago. Sprint velocity is up. Story points completed per week is higher than ever.</p> <p>But then I looked at the other side of the ledger.</p> <p>Bug reports are up 40%. Production incidents are up. Not major catastrophes, but a constant drip of small things - edge cases that shouldn't have happened, logic that &quot;almost worked,&quot; patterns that &quot;seemed fine in testing.&quot;</p> <p>And I think I know why</p> <p>We optimized for writing speed without thinking about review speed.</p> <p>AI tools made it trivial to ship code. The problem shifted from &quot;can we build this?&quot; to &quot;can we verify this?&quot;</p> <p>One thing we’re missing, we can only review code as fast as we can read it. And AI generates code far faster than any human can meaningfully review.</p> <p>So what happens is that you get PRs with 2000 lines of AI-generated boilerplate. Logic that's &quot;probably correct&quot; Patterns that follow the happy path beautifully and fall apart on anything else.</p> <p>I started noticing my own brain adapting. I'd skim PRs faster. Trust the linter, trust the tests, trust the AI</p> <p>That's not a workflow. That's literally hoping we dont do major mistake that costs us our job.</p> <p>And when you're building something with real users. When a bug might mean exposed data or compromised accounts. Hoping isn't enough.</p> <p>What we changed:</p> <p>Since AI is writing the code, we started having AI review it too.</p> <p>Every PR gets a pass from whatever tool wrote it. Claude Code reviews codex PRs. Codex reviews Claude code PRs. coderabbit reviews both. then cursor bot reviews coderabbit and all. Different models catch different things.</p> <p>Some of us also started using their issue planner to outline work before handing it to an agent. Instead of dumping a vague issue, you get a structured plan with tasks and acceptance criteria. Feels like writing a proper spec.</p> <p>Then when the PR comes back, we run it through the review tool again. Planner catches the planning gaps. Review catches the code gaps. Different things.</p> <p>It's been about two weeks and we already fixed 60% of the bugs our users reported.</p> <p>my main question is:</p> <p>We're all so focused on how fast we can write code now. But what's the point if we're just creating faster ways to ship bugs. Or worse, leak data.</p> <p>The Firebase/Supabase incidents we keep seeing? Most of those started as &quot;small oversights&quot; that someone missed in review.</p> <p>The internet is making me paranoid at this point. I keep seeing &quot;built in 3 days&quot; stuff and I'm scared to even sign up</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Motor_Ordinary336\"> /u/Motor_Ordinary336 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1gqcg/everyones_shipping_more_code_but_i_think_we_broke/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1gqcg/everyones_shipping_more_code_but_i_think_we_broke/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1gqcg/everyones_shipping_more_code_but_i_think_we_broke/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Why is Cursor using 600% of my CPU?",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s1vluj/why_is_cursor_using_600_of_my_cpu/\"> <img alt=\"Why is Cursor using 600% of my CPU?\" src=\"https://preview.redd.it/iigsx0uydvqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=72d56606e93f6dc4fa34fe32acb84cafd3f15539\" title=\"Why is Cursor using 600% of my CPU?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Cursor has been very laggy for me the past week or so and I just opened up Activity Monitor to see this.</p> <p>Anyone else seeing this? Maybe from a recent update?</p> <p>For reference, I'm using a M4 MacBook Pro with 24GB memory and 1TB storage.</p> <p>Even doing something like scrolling the agent chat is laggy.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Remarkable-Bowler-60\"> /u/Remarkable-Bowler-60 </a> <br /> <span><a href=\"https://i.redd.it/iigsx0uydvqg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1vluj/why_is_cursor_using_600_of_my_cpu/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1vluj/why_is_cursor_using_600_of_my_cpu/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Tip: run Claude Code inside Cursor's integrated terminal instead of a separate one",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>If you've been running Claude Code in an external terminal while having Cursor open on the same folder, just move it into the integrated terminal. Sounds obvious in hindsight but I wasn't doing it for a while.</p> <p>What you actually gain:</p> <p>The git diff panel becomes way more useful. You can see exactly what Claude is changing, stage or revert specific hunks, without switching windows.</p> <p>The debugger is right there. When something breaks you can set breakpoints, inspect state, and get the actual info you need to course-correct Claude, all without leaving the editor.</p> <p>And the big one for Cursor users specifically: you can use the composer for the small stuff (renaming things, quick utils, simple edits) and save Claude Code for tasks that actually need it. Having both in the same window makes it really easy to decide which one to reach for and stop burning Claude Code tokens on things that don't need it.</p> <p>That's basically it. Nothing to configure, just open the terminal inside Cursor instead of outside it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/amitraz\"> /u/amitraz </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1btmd/tip_run_claude_code_inside_cursors_integrated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1btmd/tip_run_claude_code_inside_cursors_integrated/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1btmd/tip_run_claude_code_inside_cursors_integrated/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "AI Browser Game Jam 2",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s1ttkg/ai_browser_game_jam_2/\"> <img alt=\"AI Browser Game Jam 2\" src=\"https://external-preview.redd.it/bNTyCgDR2zW--FKLcs02TDv3SGmYZ5vghIFlSOfuh54.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=49834834e9d69afd6fa0508f0172ca9c4f936e6c\" title=\"AI Browser Game Jam 2\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Slackluster\"> /u/Slackluster </a> <br /> <span><a href=\"https://itch.io/jam/ai-game-jam-2\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1ttkg/ai_browser_game_jam_2/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1ttkg/ai_browser_game_jam_2/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Created a AI Recommendation (shopping & experiences) with a MCP for Cursor/ IDE's with a full rest API as well. Index offers 7+ million SKUs and 300k experiences",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Created a AI Recommendation (shopping &amp; experiences) with a MCP for Cursor/ IDE's with a full rest API as well. Index offers 7+ million SKUs and 300k experiences</p> <p>Free to use, hopefully it will provide some use to those that try/use it.<br /> Grab a free API key and connect it to Claude desktop/ Terminal/ Cursor etc... ask your AI assistant to find you &quot;Running shoes Size 10&quot; etc in natural language, or find me something to do with the kids this weekend in New York&quot; etc</p> <p>It's not battle tested so not sure what may or may not happen. But it's free and fun!</p> <p>Will drop the link in the first comment.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Any-Dig-3384\"> /u/Any-Dig-3384 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1y42a/created_a_ai_recommendation_shopping_experiences/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1y42a/created_a_ai_recommendation_shopping_experiences/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1y42a/created_a_ai_recommendation_shopping_experiences/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How To Improve Vibe Coded UI",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Prestigious_Play_154\"> /u/Prestigious_Play_154 </a> <br /> <span><a href=\"https://www.reddit.com/r/lovable/comments/1s1febp/how_to_improve_vibe_coded_ui/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1rhiu/how_to_improve_vibe_coded_ui/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1rhiu/how_to_improve_vibe_coded_ui/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Are the top Models really that good or are we just not prompting good?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Yeah I know Opus is super powerful and is the flagship right now but lately I've been using composer 2 fast a lot and running without many errors. I've been much more detailed in my prompting not just &quot;make this better&quot; or &quot;improving this section&quot; or &quot;Can you fix this issue&quot; which on those basic prompt without much for the AI to lean on I'm sure Opus has the highest chances of solving the problem but when you really are specific and guide the prompt I never run into much problems. </p> <p>I used to spend hundreds monthly on expensive models, now I'm starting to think maybe I'm just being lazy if I prompt correctly I don't really run into any severe problems. Instead of just saying Opus will sort it out maybe I need to sort how I communicate out first. </p> <p>Have you guys ran into this same thought?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WriteScholarFounder\"> /u/WriteScholarFounder </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1pd7x/are_the_top_models_really_that_good_or_are_we/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1pd7x/are_the_top_models_really_that_good_or_are_we/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1pd7x/are_the_top_models_really_that_good_or_are_we/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Composer 2 sucks",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Has anyone else tried using the new composer 2 after being used to Opus 4.6/GPT 5.4?</p> <p>I've found it tries to think about how to do stuff, but just does the bare minimum anyway. It's just bad at interpreting what you want it to do and doing it in a way that makes sense to your project. </p> <p>I admit it's much cheaper and faster, but imo it's not currently usable.</p> <p>what's your experience with it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Resident_Cookie_7005\"> /u/Resident_Cookie_7005 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1jx4k/composer_2_sucks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1jx4k/composer_2_sucks/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1jx4k/composer_2_sucks/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor & Claude code Work flow TIPS Please",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/georgekyriakou\"> /u/georgekyriakou </a> <br /> <span><a href=\"https://www.reddit.com/r/vibecoding/comments/1s1hwvp/cursor_claude_code_work_flow_tips_please/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1hxac/cursor_claude_code_work_flow_tips_please/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1hxac/cursor_claude_code_work_flow_tips_please/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I built a package manager for agent skills",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>If you're using custom skills with your AI coding agent, you've probably hit this: skills are either global and load into every project, or they live in one repo and need to be copied around manually.</p> <p>reseed gives you a personal, central skill library. Pull in open source skills from GitHub, write your own, group them into packs, and install exactly what each project needs with one command.</p> <p>Free and open source. Works with any agent that uses a skill directory convention.</p> <p><a href=\"https://reseed.sh/\">reseed.sh</a></p> <p>If you find it useful, a star on <a href=\"https://github.com/nattergabriel/reseed\">GitHub</a> would mean a lot. Contributions are also welcome. :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/etabtw\"> /u/etabtw </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1gh04/i_built_a_package_manager_for_agent_skills/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1gh04/i_built_a_package_manager_for_agent_skills/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1gh04/i_built_a_package_manager_for_agent_skills/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor security measures lacking for companies?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I woke up today with one developer of our team account, using more than $3000 during the weekend. It looks like outside activity, and the account was using Github with 2FA, and didn't use Cursor for 1 month+. I contacted support, but they couldn't be of any assistance (they couldn't find any suspicious activity or point me in the right direction, e.g. API key used).</p> <p>Also, I find it pretty strange that the default is for spending limit changeable by users themselves and not only by admins (Only Admins Can Edit Usage Settings, default false). Has anybody had the same issue or similar issues?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WittyAd6669\"> /u/WittyAd6669 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1lq47/cursor_security_measures_lacking_for_companies/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1lq47/cursor_security_measures_lacking_for_companies/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1lq47/cursor_security_measures_lacking_for_companies/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Hear me out: Git Blame, but with prompts",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s1f7t0/hear_me_out_git_blame_but_with_prompts/\"> <img alt=\"Hear me out: Git Blame, but with prompts\" src=\"https://preview.redd.it/hq6p37y4dsqg1.png?width=140&amp;height=137&amp;auto=webp&amp;s=88eeadbfd0bb60096cd9a758852cc64b75035ebc\" title=\"Hear me out: Git Blame, but with prompts\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Melodic-Swimmer-4155\"> /u/Melodic-Swimmer-4155 </a> <br /> <span><a href=\"https://www.reddit.com/r/codex/comments/1s1f4fn/hear_me_out_git_blame_but_with_prompts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s1f7t0/hear_me_out_git_blame_but_with_prompts/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s1f7t0/hear_me_out_git_blame_but_with_prompts/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    }
+  ],
+  "chunks": 1
+}
