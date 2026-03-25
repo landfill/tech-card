@@ -1,0 +1,268 @@
+{
+  "items": [
+    {
+      "title": "비밀 상자: 아파트 인터폰을 Apple Home과 연동한 은밀한 개조",
+      "summary": "Doorking 인터폰의 셀룰러 서비스 중단으로 원격 게이트 개폐가 멈춘 상황에서 ESP32 Wi‑Fi 릴레이 보드를 이용해 솔레노이드 제어선을 직접 제어하고 Matter로 Apple Home과 연동한 하드웨어 해킹 사례."
+    },
+    {
+      "title": "Claude Code로 생산성을 높이는 방법",
+      "summary": "AI 에이전트를 이용해 반복 작업 자동화, 빌드 대기 제거, 병렬 워크트리 등 개발 인프라 개선으로 커밋 증가를 만든 6주 경험과 /git-pr 스킬로 PR 생성 자동화한 사례 정리."
+    },
+    {
+      "title": "Windows 3.1 타일형 배경화면 BMP 아카이브",
+      "summary": "1990년대 Windows 3.1의 기본 배경 패턴을 .bmp로 보존한 아카이브와 crop.py 스크립트 등 보존·가공 자료 제공."
+    },
+    {
+      "title": "럭셔리 자동차 정비소를 위한 AI 리셉셔니스트 구축기 - Part 1",
+      "summary": "전화 부재로 인한 매출 손실 해소를 위해 RAG(검색 기반 생성)로 웹사이트 정보로 답하는 AI 전화응대 리셉셔니스트 'Axle' 개발 사례 소개."
+    },
+    {
+      "title": "협업은 헛소리다",
+      "summary": "조직 성과의 대부분이 소수에서 나오고, 테크 업계가 '협업'으로 문제를 포장하지만 실제로는 도구만 늘어나고 생산성은 낮아지는 비판적 에세이."
+    },
+    {
+      "title": "학생 외모와 성적: 대면 및 원격 수업의 비교",
+      "summary": "스웨덴 공과대학 학생 데이터를 이용해 대면·원격 수업에서 외모 매력도와 학업 성과의 관계를 비교한 경제학 연구 — 대면에서 일부 과목군에 차이가 있음."
+    },
+    {
+      "title": "AI Native Engineer — 원리 위의 감각",
+      "summary": "AI 도구가 엔지니어링 도구·언어 학습 장벽을 낮추면서 생겨나는 'AI Native Engineer'의 특징과 변화된 역할에 대한 고찰."
+    },
+    {
+      "title": "FCC, 외국산 소비자용 라우터를 ‘Covered List’에 추가",
+      "summary": "미국 FCC가 외국 제조 소비자용 라우터를 'Covered List'에 포함해 신규 모델 승인 금지 조치 — 국가안보 판단에 근거한 업데이트."
+    },
+    {
+      "title": "LiteLLM이 공급망 공격으로 해킹당했습니다.",
+      "summary": "LiteLLM의 특정 버전(1.82.7/1.82.8 등)에 공급망(패키지/레포) 침해 흔적 보고 — 사용 중인 버전 확인 권고."
+    },
+    {
+      "title": "Show GN: 자연어로 말하면 쉘 명령어를 알아서 실행해주는 CLI 도구 `pls`",
+      "summary": "사용자 자연어를 받아 LLM이 적절한 셸 명령어를 생성·실행해주는 CLI 도구 'pls' 소개 (예: 포트 점유 프로세스 종료 등)."
+    },
+    {
+      "title": "Claude Code 치트시트",
+      "summary": "클로드 코드 최신 버전의 명령어·단축키·설정·MCP 서버·에이전트 구성 등을 정리한 개발자 요약 문서(헤드리스 모드, 채널 전송 등 포함)."
+    },
+    {
+      "title": "오픈소스 협력 강화｜ArmSoM Sige5, 2026 임베디드 월드에서 Collabora와 함께 선보여",
+      "summary": "Embedded World 2026에서 ArmSoM Sige5(RK3576) 개발보드가 Collabora 부스에 전시되었고 메인라인 중심 Linux 지원을 시연 — 임베디드 생태계 협력 사례."
+    },
+    {
+      "title": "라과디아 공항서 항공기와 소방차 충돌로 조종사 2명 사망",
+      "summary": "뉴욕 라과디아 활주로에서 Air Canada 여객기가 소방차와 충돌해 조종사 2명 사망 및 다수 부상 — 착륙 직후 발생한 사고 보도."
+    },
+    {
+      "title": "미국과 TotalEnergies, 해상 풍력 프로젝트 종료를 위한 약 10억 달러 규모 합의",
+      "summary": "미국 정부와 TotalEnergies가 해상 풍력 사업을 종료하고 자금을 화석연료 전환에 사용하는 약 10억 달러 규모 합의 발표(휴스턴 CERAWeek에서 공개)."
+    },
+    {
+      "title": "emulate - 로컬에서 GitHub·Vercel·Google API를 완전 복제해 실행하기",
+      "summary": "Vercel이 만든 로컬 API 에뮬레이터로 Vercel/GitHub/Google의 실제 응답·상태를 복제해 오프라인/차단 환경에서 테스트 가능 (npx emulate로 간편 실행)."
+    },
+    {
+      "title": "Show GN: Ship or Slop - 에이전트 사회로 아이디어 짜내기",
+      "summary": "에이전트 사회를 구성해 제품·아이디어를 자동으로 생성·평가하는 실험적 프로젝트 전면 개편 및 재출시 소개."
+    },
+    {
+      "title": "데이터만이 유일한 해자다",
+      "summary": "AI 툴로 소프트웨어 진입장벽이 낮아지는 상황에서 인간이 생성한 실세계 데이터만이 경쟁우위를 제공하는 진정한 해자라는 주장과 전략적 고찰."
+    },
+    {
+      "title": "스타트업의 오프닝, 미드게임, 엔드게임",
+      "summary": "체스의 오프닝·미드게임·엔드게임을 스타트업 단계에 적용해 초기·성장·장기 비전을 동시에 운영하는 창업자 전략 프레임워크 소개."
+    },
+    {
+      "title": "AI 크레딧 가격의 미래",
+      "summary": "크레딧 기반 요금제가 SaaS 표준으로 부상하는 가운데 Clay의 요금제 개편과 Figma의 크레딧 모델 도입 등 AI 크레딧 경제의 변화 분석."
+    },
+    {
+      "title": "RISC-V는 느려도 너무 느려요",
+      "summary": "Fedora의 RISC‑V 포트 작업 진행 상황과 RISC‑V 하드웨어에서의 빌드 속도 저하(동일 패키지 빌드 시 x86_64 대비 최대 5배) 관찰 보고."
+    },
+    {
+      "title": "Show GN: TokFresh: 내 몰입시간에 맞게 클로드의 5시간 토큰 갱신 관리하기",
+      "summary": "TokFresh는 Claude의 5시간 세션 리밋을 자동화해 장시간 작업에서 토큰 세션을 효율적으로 갱신·관리하는 서비스 소개."
+    },
+    {
+      "title": "자신의 사이트에 게시하고 다른 곳으로 배포하기(POSSE)",
+      "summary": "콘텐츠를 먼저 자신의 웹사이트에 게시하고 복사본·링크를 소셜 플랫폼에 배포하는 POSSE 워크플로와 permashortlink 등 구현 방안 소개."
+    },
+    {
+      "title": "Claude, 컴퓨터의 마우스·키보드·화면 직접 제어 기능 출시",
+      "summary": "Claude Code Desktop 및 Cowork와 연동해 실제 컴퓨터의 마우스·키보드·화면을 직접 제어하는 기능 발표 — Dispatch와 결합해 원격 조작 가능, macOS 우선 제공."
+    },
+    {
+      "title": "GitHub, 99.9% 가용성 유지에도 버거운 모습",
+      "summary": "최근 GitHub의 잦은 서비스 장애로 인해 업계의 높은 가용성 기대(5 nines 등)를 충족하지 못하고 있으며, Actions·PR·Copilot 등 주요 기능 동시 장애 사례 보고."
+    },
+    {
+      "title": "Walmart: ChatGPT 결제 전환율, 웹사이트의 1/3 수준",
+      "summary": "월마트가 ChatGPT Instant Checkout으로 테스트한 결과 ChatGPT 내 결제 전환율이 웹사이트 대비 3배 낮아(직접 결제는 클릭아웃 거래의 1/3 수준) 사용자 만족도 낮음."
+    },
+    {
+      "title": "Trivy가 다시 공격받다: 광범위한 GitHub Actions 태그 변조로 비밀정보 유출",
+      "summary": "공식 GitHub Action이 태그 강제 업데이트로 변조되어 악성코드 배포·공급망 공격 발생 — 76개 중 75개 태그가 악성 커밋으로 교체되어 약 1만개 이상의 워크플로 영향 및 비밀정보 유출 우려."
+    },
+    {
+      "title": "EU로 서비스 이전",
+      "summary": "개인 서비스/구독을 비EU 지역에서 EU 기반으로 이전하여 데이터 보호 강화와 정치적 안정성 확보를 목표로 이메일을 Fastmail에서 Uberspace로 이전하는 등 운영 변경."
+    },
+    {
+      "title": "오래된 연구 아이디어에 Autoresearch 수행하기",
+      "summary": "LLM 에이전트가 train.py를 반복 수정하면서 성능을 개선하는 제약 최적화 루프인 Autoresearch 시스템 소개 — 컨테이너 샌드박스에서 네트워크 제한 등 안전 장치 포함."
+    },
+    {
+      "title": "iPhone 17 Pro에서 400B LLM 실행하기",
+      "summary": "iPhone 17 Pro에서 400B 파라미터급 LLM을 Mixture-of-Experts 구조(실제 활성화 가중치는 ~50억)로 구동, 초당 약 0.6 토큰 속도, 4bit 양자화 등 모바일 추론 실험 보고."
+    },
+    {
+      "title": "Claude Code now has auto mode",
+      "summary": "Claude Code의 'auto mode'는 모든 파일 쓰기·bash 명령을 매번 승인할 필요 없이 Claude가 권한 결정을 대신하도록 하며, 실행 전 분류기로 위험한 액션을 차단하는 연구 미리보기로 Team 플랜에 제공."
+    },
+    {
+      "title": "Anthropic's latest data that shows global Al adoption",
+      "summary": "Anthropic 데이터는 국가별로 AI 도구(Claude 등)의 채택 강도가 매우 불균등하며, 단순 사용자 수보다 워크플로 내 통합 정도(코딩·연구·의사결정 등)가 장기 경쟁력에 영향 준다는 분석."
+    },
+    {
+      "title": "Devs are worried about the wrong thing",
+      "summary": "AI가 개발자를 대체할까에 대한 불안 대신, 도메인 전문가가 LLM으로 직접 제품을 빠르게 만드는 현실(예: 음악 교사·상점 주인이 Claude로 제품을 제작)으로 인해 CRUD·단순 툴 시장이 축소되고 있음을 지적."
+    },
+    {
+      "title": "I can't even say I was \"pulled\" into the hype, this is entirely self-inflicted",
+      "summary": "사용자 개인 게시물(이미지) — Claude 관련 개인적 경험/감상 표출."
+    },
+    {
+      "title": "Usage Limit Problems",
+      "summary": "사용자가 Max 5x 플랜에서 메시지 몇 건만으로 사용량 제한에 걸린다고 보고 — Anthropic의 상태 페이지·한도 문제에 대한 불만 제기."
+    },
+    {
+      "title": "How safe (Security-Wise) do you guys think is Claude's new feature on long-term?",
+      "summary": "Claude의 신규 기능(권한·자동화 등)에 대한 장기적 보안 우려를 묻는 커뮤니티 토론."
+    },
+    {
+      "title": "Built a 122K-line trading simulator almost entirely with Claude - what worked and what didn't",
+      "summary": "Claude를 주 코딩 파트너로 사용해 대규모 주식시장 시뮬레이터 및 관련 컴포넌트를 빠르게 구현한 사례 공유 — 엔진 코드·디버깅·리팩토링에서 큰 도움을 받음."
+    },
+    {
+      "title": "Claude made me a 'working' website! I am bursting with joy!",
+      "summary": "비개발자(의사)가 Claude의 도움으로 .html 파일 생성 및 배포를 통해 개인 웹사이트를 완성한 기쁨 공유."
+    },
+    {
+      "title": "Most developers have a graveyard of unfinished projects. I used Claude to give them a proper burial.",
+      "summary": "레포 URL을 분석해 '죽음의 원인'을 추정하고 죽음 증명서·마지막 커밋 메시지 등을 생성하는 도구를 Claude로 빠르게 프로토타입한 사례."
+    },
+    {
+      "title": "Claude Code didn't replace me — it made my decade of experience ship faster",
+      "summary": "DevOps/SRE 관점에서 Claude Code가 골격·통합 작업을 가속해 숙련자의 결정·경험을 더 빠르게 제품화한 경험담 및 사례 링크."
+    },
+    {
+      "title": "Claude Code with --dangerously-skip-permissions is a real attack surface. Lasso published research + an open-source defender worth knowing about.",
+      "summary": "Lasso Security가 Claude Code의 --dangerously-skip-permissions 사용 시 간접 프롬프트 인젝션 공격 벡터를 연구·공개하고, 출력 검사 후 경고하는 오픈소스 훅(claude-hooks)을 배포."
+    },
+    {
+      "title": "73 years old, no coding experience, cardiac patient — I built a real health app with Claude after a hospitalization. Here's what happened.",
+      "summary": "코딩 경험 없는 73세 사용자가 Claude와 함께 오프라인으로 동작하는 PWA 건강관리 앱 ClinBridge를 개발해 오픈소스화한 사례 공유."
+    },
+    {
+      "title": "Agent Flow: A beautiful way to visualize what Claude Code does",
+      "summary": "Claude Code의 에이전트·도구 호출·토큰 사용량·파일 주목도 등을 실시간 시각화해 디버깅·학습·제품 통합을 돕는 VS Code 확장 Agent Flow 소개 및 데모/GitHub 링크."
+    },
+    {
+      "title": "What’s the difference between Claude and Claude Code",
+      "summary": "엔터프라이즈 사용자가 Claude(Opus 등)와 Claude Code의 차이(파일 접근 방식·사용성·비용 등)를 묻는 토론."
+    },
+    {
+      "title": "Has anyone actually built a mobile app or web app completely using Claude?",
+      "summary": "커뮤니티에서 Claude로 모바일/웹 앱을 전부 만들어 출시한 사례와 경험 공유 요청."
+    },
+    {
+      "title": "Building AI-powered GitHub issue triage with the Copilot SDK",
+      "summary": "React Native 앱에 Copilot SDK를 통합해 이슈 요약·요약 생성 등 AI 기반 이슈 트리아지 기능을 구현하는 방법과 프로덕션 패턴(그레이스풀 디그레이데이션, 캐싱 등) 소개."
+    },
+    {
+      "title": "i tried Claude and now i understand why people say their agent run for hours",
+      "summary": "Cursor 사용자 경험 공유: Claude Code 세션이 매우 느리고 긴 실행을 하는 이유를 체감했다는 단문 리포트."
+    },
+    {
+      "title": "Composer 2 Technical Report",
+      "summary": "Composer 2(코딩 모델) 훈련·사후보정·RL·내부 벤치마크(CursorBench) 및 대규모 훈련 인프라(커널 오픈소스 포함)에 관한 기술보고서 공개."
+    },
+    {
+      "title": "Cursor charges 2x for Opus >200K tokens, even though Anthropic made it same price?",
+      "summary": "Anthropic가 200K 토큰 이상 모델에도 프리미엄을 부과하지 않기로 한 가운데 Cursor가 여전히 200K+ 토큰에 대해 2배 요금을 청구하는 현상에 대해 사용자들이 문제 제기."
+    },
+    {
+      "title": "not sure when this started happening but auto/premium now show the model being used. please dont change this i love this transparency",
+      "summary": "Cursor UI가 Auto/Premium 사용 시 실제로 어떤 모델을 사용하는지 보여주기 시작한 변경에 대해 긍정적 피드백 공유."
+    },
+    {
+      "title": "I made a /document-project slash command for Cursor that auto-documents my entire repo",
+      "summary": "Cursor용 슬래시 명령 /document-project를 만들어 리포지토리 전체를 순회해 AGENTS.md, 폴더 README 등 자동으로 문서화해 에이전트 초기 오리엔테이션을 돕는 도구 공유."
+    },
+    {
+      "title": "Listened to Jensen Huang and increased my AI spending",
+      "summary": "Jensen Huang(엔비디아 CEO) 관련 콘텐츠 청취 후 AI 지출을 늘렸다는 개인 소감(간단 리포트)."
+    },
+    {
+      "title": "Why LLM tries to take shortcuts?",
+      "summary": "Cursor 사용자들이 LLM이 계획 수행 시 '단축'하려는 행동(여러 파일을 한꺼번에 처리 등)으로 인해 정밀도가 떨어지는 문제를 지적하고 해결 방안 토론."
+    },
+    {
+      "title": "You've used 0% of your total included usage. You've used 3% of your total included usage. You've used 26% of your total included usage. You've used 3% of your total included usage.",
+      "summary": "Cursor의 사용량 표시 버그/불일치 보고: Auto만 사용했음에도 사용량이 갑자기 급증·다시 감소하는 등 불안정한 리포팅 경험 공유."
+    },
+    {
+      "title": "Build plan changes model to Auto",
+      "summary": "Cursor에서 Build plan을 클릭하면 모델이 Auto로 바뀌는 동작에 대한 불만 제기 — 사용자가 의도적으로 Opus를 유지하고 싶어함."
+    },
+    {
+      "title": "Allow allowlisting specific command + arguments please",
+      "summary": "Cursor에 특정 명령어와 인자를 정확히 허용리스트로 지정하는 기능(예: go vet ./...)이 있으면 좋겠다는 요청 — 전체 명령 허용은 위험하다는 지적."
+    },
+    {
+      "title": "Agent Skills are an API Design Problem, not a Documentation Problem",
+      "summary": "에이전트 스킬 설계는 문서 문제보다 API 디자인 문제라는 관점의 글(하위 기능·인터페이스 설계 중요성 강조) 공유."
+    },
+    {
+      "title": "[R] How are you managing long-running preprocessing jobs at scale? Curious what's actually working",
+      "summary": "작은 ML 팀에서 50–100GB 수준 전처리 잡의 실패·재시작 문제로 고심하며 Prefect·Temporal 등 도구의 운영 부담과 대안에 대해 커뮤니티 의견 요청."
+    },
+    {
+      "title": "[D] Matryoshka Representation Learning",
+      "summary": "Matryoshka Representation Learning(MRL)이 임베딩 압축 상황에서도 다운스트림 성능을 유지하는 장점과 한계에 대한 토론 요청."
+    },
+    {
+      "title": "[D] ICML 2026 Review Discussion",
+      "summary": "ICML 2026 리뷰 공개(24 March AoE)와 리뷰 결과에 대한 토론 스레드 — 연구자들간 리뷰 경험 공유 및 위로."
+    },
+    {
+      "title": "[R] Causal self-attention as a probabilistic model over embeddings",
+      "summary": "인과적(Self‑attention) self‑attention을 임베딩의 잠재변수 관점에서 확률적 모델로 해석해 안정성 마진 및 로스에 로그-배리어 항을 더하는 제안과 실험적 견인력 보고(arXiv 링크 포함)."
+    },
+    {
+      "title": "[D] Decoding backchannel info: Is a PI being \"aggressive in research\" a massive red flag? (C1 vs Siemens AI Lab)",
+      "summary": "PhD 학생이 인턴십 선택(기업·연구소) 관련해 '공격적 연구 스타일'이 실제로 어떤 근무 환경을 의미하는지 커뮤니티에 조언 요청."
+    },
+    {
+      "title": "[R] Evaluating MLLMs with Child-Inspired Cognitive Tasks",
+      "summary": "ICLR 2026 채택 KidGym 벤치마크 소개 — 아동 지능검사에서 영감받은 연속적 상호작용형 2D 그리드 기반 MLLM 평가용 벤치, 다차원 평가와 발견 내용 공유(arXiv·GitHub 링크 포함)."
+    },
+    {
+      "title": "[R] VLouvain: Louvain Community Detection Directly on Vectors, No Graph Construction",
+      "summary": "임베딩 행렬에서 직접 Louvain 커뮤니티 검출을 수행해 O(n^2) 그래프 구축을 피하는 VLouvain 제안 — 대규모(수백만 노드)에서 실행 가능하고 기존 그래프 축약이 품질 악화를 초래한다는 결과 공유(EDBT 2026)."
+    },
+    {
+      "title": "Helping developers build safer AI experiences for teens",
+      "summary": "OpenAI가 gpt-oss-safeguard를 위한 프롬프트 기반 틴(청소년) 안전 정책을 공개해 개발자가 연령별 위험을 조정·완화하도록 지원."
+    },
+    {
+      "title": "Update on the OpenAI Foundation",
+      "summary": "OpenAI 재단이 질병 치유, 경제 기회, AI 회복력, 지역사회 프로그램 등에 최소 10억 달러를 투자하겠다는 계획 발표."
+    },
+    {
+      "title": "Powering product discovery in ChatGPT",
+      "summary": "ChatGPT가 Agentic Commerce Protocol을 활용해 풍부한 시각적 제품 탐색, 상품 비교, 상인 통합을 지원하는 쇼핑 기능을 도입."
+    }
+  ]
+}
