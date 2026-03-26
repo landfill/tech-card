@@ -1,0 +1,481 @@
+{
+  "items": [
+    {
+      "title": "cq - 에이전트를 위한 Stack Overflow",
+      "summary": "<ul>\n<li>Mozilla AI가 공개한 <strong>cq</strong>는 AI 코딩 에이전트들이 학습한 지식을 공유하고, 동일한 실수를 반복하지 않도록 설계된 <strong>공유 지식 커먼즈(shared commons)</strong> 프로젝트</li>\n<li>Stack Overflow가 2014년 월 20만 건 이상의 질문에서 2025년 12월 <strong>3,862건으로 급감</strong>...</p>",
+      "url": "https://news.hada.io/topic?id=27855",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "라과디아 공항 조종사들, 치명적 활주로 충돌 전 수개월간 안전 경고",
+      "summary": "<ul>\n<li>라과디아 공항에서 발생한 <strong>활주로 충돌 사고</strong> 이전, 조종사들이 <strong>관제 지시 오류·시야 불량·교통 혼잡</strong> 등 반복적 위험을 NASA 보고서에 제기함</li>\n<li>\n<strong>Aviation Safety Reporting System</strong>에는 착륙기와 이륙기가 <strong>300피트 거리까지 접근</strong>한...</p>",
+      "url": "https://news.hada.io/topic?id=27854",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Arm AGI CPU 발표 - 에이전트형 AI 클라우드 시대를 위한 실리콘 기반",
+      "summary": "<ul>\n<li>Arm이 <strong>Neoverse 플랫폼 기반의 AGI CPU</strong>를 공개하며, 자율적 AI 인프라를 위한 생산 준비형 실리콘을 직접 제공</li>\n<li>이 CPU는 <strong>고밀도 랙 환경에서의 병렬 AI 워크로드</strong>를 위해 최적화되어, 지속 부하에서도 높은 단일 스레드 성능과 메모리 대역폭을 유지</li>\n<li>\n</p>",
+      "url": "https://news.hada.io/topic?id=27853",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "해충 방제용 Vertical SaaS를 만들고 싶어 기술자로 취업했다",
+      "summary": "<ul>\n<li>전통 산업 기업들이 외부 컨설팅보다 <strong>자체 솔루션 구축</strong>에 집중하는 현실을 보고, 사무직을 떠나 <strong>현장 직종으로 복귀</strong>함</li>\n<li>해충 방제 산업이 <strong>반복 수익 구조와 분산된 시장</strong>, <strong>규제 기반의 안정성</strong>을 가진다는 점에 매력을 느껴 직접 지...</p>",
+      "url": "https://news.hada.io/topic?id=27852",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Gemini의 비디오 임베딩 기능을 활용한 초단위 이하 의미 기반 영상 검색 도구 SentrySearch",
+      "summary": "<ul>\n<li>\n<strong>대시캠 등 영상 파일에서 자연어로 장면을 검색</strong>해 해당 구간을 자동으로 잘라내는 <strong>의미 기반 검색 시스템</strong>\n</li>\n<li>\n<strong>Google Gemini Embedding 2</strong> 모델을 이용해 <strong>비디오 자체를 벡터로 임베딩</strong>하고, <strong>ChromaDB</strong> 에 저장해 ...</p>",
+      "url": "https://news.hada.io/topic?id=27851",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "AI로 35년전 고전 게임 한글화하기",
+      "summary": "<h3>왜 지금까지 없었을까?</h3>\n<ul>\n<li>35년전에 나온 포인트 앤 클릭 어드벤처 시리즈 키란디아의 전설 시리즈. 시리즈 중 유일하게 2편 운명의 손만 한글화 되지 않았음</li>\n<li>ScummVM 에 구현되어있는 엔진 중 Lucas 의 SCUMM 이나 Sierra 의 SCI 의 경우는 꽤 팬 한글화 된 게임이 있는데 Westwood 의 Kyra 엔...</p>",
+      "url": "https://news.hada.io/topic?id=27850",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "2026 Bio-AI 오픈소스 감사 보고서: 10개를 점검해보니, \"대부분은 돌아가지만 믿기 어려웠다.\"",
+      "summary": "<h3>전체 요지</h3>\n<ul>\n<li>이 보고서는 2026년 3월 기준, 가시성이 높은 Bio-AI 및 인접 과학 자동화 저장소 10개를 감사한 결과를 정리</li>\n<li>무작위 선정 아닌 GitHub star. 기술적 논의 빈도. 실제 생태계 노출도 기준으로 선정.</li>\n<li>감사는 2단계 방식으로 진행, 1단계는 기술적 코드 검수: Repo 구조·엔�...</p>",
+      "url": "https://news.hada.io/topic?id=27848",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Video.js v10 - 88% 더 작아진 오픈소스 비디오 플레이어",
+      "summary": "<ul>\n<li>16년 만에 완전히 새로 작성된 Video.js v10은 <strong>번들 크기를 88% 줄이고</strong> 현대적 개발 환경에 맞춘 구조로 재탄생</li>\n<li>\n<strong>React·TypeScript·Tailwind</strong>를 1급으로 지원하며, <strong>심미적 기본 UI</strong>와 <strong>AI 친화적 문서 구조</strong>를 제공</li>\n<li>새로운...</p>",
+      "url": "https://news.hada.io/topic?id=27847",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: AI 검색(Perplexity)에서 내 사이트가 언급되는지 확인하는 도구 만들었습니다",
+      "summary": "<p>구글 SEO랑 다르게 AI 검색은 &quot;언급되거나 안 되거나&quot; 둘 중 하나입니다.<br />\n어떤 사이트가 인용되는지 기준도 불투명하고, 확인 방법도 마땅치 않아서 직접 만들었습니다.</p>\n<p>동작 방식:</p>\n<ul>\n<li>Claude가 브랜드/카테고리에 맞는 질문 자동 생성</li>\n<li>Perplexity API에 실제 질문을 던져",
+      "url": "https://news.hada.io/topic?id=27846",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: 트럼프 가라사대: 트럼프 발언 실시간 분석 및 한국 경제 영향 피드",
+      "summary": "<p>안녕하세요! 트럼프 전 대통령의 발언이 한국 경제와 시장에 미치는 영향을 실시간으로 분석하여 제공하는 서비스, '트럼프 가라사대(Trump-Saith)'를 만들었습니다.</p>\n<p>웹사이트: https://trump-saith.com/ (https://trump-saith.com/)<br />\n주요 기능: 트럼프 발언 실시간 수집 -&gt; LLM 한국어 요약 -&gt; 경",
+      "url": "https://news.hada.io/topic?id=27845",
+      "category": "대한민국 IT",
+      "impact": "low"
+    },
+    {
+      "title": "미국 FCC, 해외 생산 소비자용 라우터 신규 모델 수입 전면 금지",
+      "summary": "<p>미국 연방통신위원회 FCC가 국가안보를 이유로 해외에서 생산된 소비자용 라우터의 신규 모델 수입과 판매를 사실상 전면 금지했다. 이번 조치는 백악관 주도의 행정부 부처 간 협의체가 해외 생산 라우터가 미국의 국가안보와 국민 안전에 용납할 수 없는 위험을 초래한다고 판단한 데 따른 것이다.</p>\n<p>FCC는 해",
+      "url": "https://news.hada.io/topic?id=27842",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: make-slide – AI 코딩 에이전트용 프레젠테이션 생성 스킬 (10개 테마, PPTX 지원)",
+      "summary": "<p>AI에게 발표 자료를 만들어달라고 하면 매번 다른 결과가 나옵니다.<br />\n토큰도 많이 쓰고, 디자인이 들쭉날쭉하거나 하는 문제가 있었습니다.</p>\n<p>make-slide는 이 문제를 해결하기 위해 만든 오픈소스 AI 스킬입니다.<br />\nAI가 매번 새롭게 디자인을 생성하는 대신, 미리 만들어둔 테마 레퍼런스 코드를 참고",
+      "url": "https://news.hada.io/topic?id=27841",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: vscode에서 한국 주식을 확인할 수 있는 vscode extension",
+      "summary": "<p>최근 주식 시장의 변동성이 커지며 관심이 많이 생겨서, 2주 전에 claude code를 통해 vscode에서 한국 주식 시장을 확인할 수 있는 extension을 만들었습니다.</p>\n<p>vscode 내에 떠있는게 신기하다고 말씀 주신 분도 계셨고, 저도 관심을 주식에 관심을 더 갖게 되어서 아이디어나 개선 방안들을 추가로 받아보고",
+      "url": "https://news.hada.io/topic?id=27840",
+      "category": "대한민국 IT",
+      "impact": "low"
+    },
+    {
+      "title": "OpenAI, Sora 서비스 종료",
+      "summary": "<ul>\n<li>OpenAI의 <strong>AI 영상 생성 플랫폼 Sora</strong>가 공식 계정을 통해 <strong>앱과 API 종료</strong>를 발표하며 서비스 중단 예고</li>\n<li>종료 사유와 구체적 일정은 공개되지 않았으며, <strong>사용자 작업물 보존 방법은 추후 안내 예정</strong>를...</p>",
+      "url": "https://news.hada.io/topic?id=27839",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Cloudflare Dynamic Worker Loader - 더 빠른 AI 에이전트 샌드박스",
+      "summary": "<ul>\n<li>AI 에이전트의 코드 실행을 위한 경량 샌드박스, 컨테이너 대비 <strong>100배 빠른 기동 속도</strong>와 10~100배 높은 메모리 효율 제공</li>\n<li>V8 JavaScript 엔진의 <strong>isolate 기술</strong> 기반으로, 수 밀리초 내 시작되며 수 메가바이트만 사용하므로 요청마다 새 샌드박스를 생성하고 폐기하...</p>",
+      "url": "https://news.hada.io/topic?id=27838",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Ziptable — 소규모 데이터셋을 링크 하나로 공유하는 도구",
+      "summary": "<ul>\n<li>CSV나 JSON 파일을 <strong>URL 자체에 압축·인코딩</strong>하여 서버 업로드나 계정 없이 브라우저만으로 데이터를 공유할 수 있는 웹 도구</li>\n<li>데이터는 URL의 <strong>프래그먼트(# 이후 부분)</strong> 에 저장되며, 브라우저가 이 부분을 서버로 전송하지 않아 <strong>서버는 데이터를 수신하지 않...</p>",
+      "url": "https://news.hada.io/topic?id=27837",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "TypeScript 6.0 발표",
+      "summary": "<ul>\n<li>JavaScript 기반 현재 코드베이스의 <strong>마지막 릴리스</strong>이자, Go로 작성된 네이티브 포트인 TypeScript 7.0으로의 전환을 준비하는 <strong>브릿지 릴리스</strong>\n</li>\n<li>\n<code>this</code>를 사용하지 않는 함수의 <strong>컨텍스트 민감도 완화</strong>, <code>#/</code>로 시작하는 </p>",
+      "url": "https://news.hada.io/topic?id=27836",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Hypura – 애플 실리콘용 저장 계층 인식 LLM 추론 스케줄러",
+      "summary": "<ul>\n<li>\n<strong>GPU·RAM·NVMe 간 텐서 배치를 최적화</strong>해 대형 언어 모델을 실행하는 <strong>저장 계층 인식형 추론 스케줄러</strong>\n</li>\n<li>32GB 맥 미니에서 <strong>Mixtral 8x7B(31GB)</strong> 모델을 2.2 tok/s, <strong>Llama 70B(40GB)</strong> 모델을 0.3 tok/s 속도로 실행 가능</li>\n<li>접...</p>",
+      "url": "https://news.hada.io/topic?id=27835",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "그래서, AI 앱들은 다 어디에 있나요?",
+      "summary": "<ul>\n<li>AI 코딩 도구가 생산성을 크게 높였다는 주장과 달리, <strong>새로운 소프트웨어의 폭발적 증가 현상은 관찰되지 않음</strong>\n</li>\n<li>PyPI 데이터를 분석한 결과, <strong>ChatGPT 이후에도 전체 패키지 생성 속도는 변화 없음</strong>\n</li>\n<li>\n<strong>AI 관련 인기 패키지</strong>에서만 업데이트...</p>",
+      "url": "https://news.hada.io/topic?id=27834",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "GPT-5.4 Pro가 하이퍼그래프의 Ramsey형 수학 난제 해결",
+      "summary": "<ul>\n<li>\n<strong>GPT-5.4 Pro</strong>가 <strong>Kevin Barreto</strong>와 <strong>Liam Price</strong>의 협업을 통해 하이퍼그래프 관련 <strong>Ramsey형 문제</strong>를 해결함</li>\n<li>문제 제안자 <strong>Will Brian</strong>이 해법의 정확성을 검증했으며, 전체 대화 기록과 <strong>AI의 최종 해설 문서...</p>",
+      "url": "https://news.hada.io/topic?id=27833",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code Auto Mode 공개 - 권한 결정을 자동화하는 새로운 퍼미션 모드",
+      "summary": "<ul>\n<li>모든 파일 쓰기와 bash 명령마다 사용자 승인을 받던 기존 방식 대신 분류기(classifier)가 안전 여부를 판단해 자동 진행하는 중간 경로 제공</li>\n<li>\n<code>--dangerously-skip-permissions</code>보다 위험을 줄이지만 완전히 제거하지는 못하며, <strong>격리된 환경</strong>에서의 사용을 계속 권장</p>",
+      "url": "https://news.hada.io/topic?id=27831",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code로 20년 전 상용 게임을 거의 고치지 않고 브라우저로 이식하기까지",
+      "summary": "<ul>\n<li>2003년 Windows 전용 TPS 게임 <strong>GunZ: The Duel</strong>을<br />\n→ <strong>WebAssembly + WebGL 기반으로 브라우저에서 실행 가능하게 포팅</strong>\n</li>\n<li>설치 없이 <strong>크롬에서 URL만 열면 바로 플레이 가능</strong> <a href=\"https://gunz.sigr.io/\">https://gunz.sigr.io/</a>\n</li>\n...</p>",
+      "url": "https://news.hada.io/topic?id=27829",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "트럼프 게시 직전 석유 거래 급증, 내부자 거래 의혹 제기",
+      "summary": "<ul>\n<li>트럼프가 <strong>이란 공격 연기 발표</strong>를 하기 약 15분 전, <strong>수억 달러 규모의 석유 선물 거래량</strong>이 급증함</li>\n<li>발표 직후 <strong>유가가 14% 급락</strong>하며, 하락에 베팅한 거래자들이 큰 이익을 얻음</li>\n<li>거래 시점과 규모가 비정상적으로 집중돼 <strong>사전 정보 ...</p>",
+      "url": "https://news.hada.io/topic?id=27828",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "AI 이야기, 이제 지겹지 않나요?",
+      "summary": "<ul>\n<li>AI가 워크플로를 완전히 바꿔놓았고 생산성도 크게 높여줬지만, 매일 쓰다 보니 <strong>이제 더 이상 새로울 게 없는 일상</strong>이 됨</li>\n<li>Hacker News 등 개발자 커뮤니티가 거의 동일한 <strong>Claude Code 워크플로 자랑</strong>과 AI 도구 설정 이야기로 뒤덮여, 흥미로운 프로젝트와 문제 해결...</p>",
+      "url": "https://news.hada.io/topic?id=27827",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Wine 11, 커널 수준에서 Linux의 Windows 게임 실행 방식을 재작성해 대규모 성능 향상 달성",
+      "summary": "<ul>\n<li>Linux에서 Windows 게임 실행 구조를 <strong>커널 수준에서 전면 재설계</strong>해, 기존 wineserver 기반 동기화 병목을 제거</li>\n<li>새로운 <strong>NTSYNC 드라이버</strong>가 NT 동기화 객체를 커널에서 직접 처리하며, <strong>최대 8배 이상의 FPS 향상</strong>을 기록</li>\n<li>\n<strong>WoW64 완...</p>",
+      "url": "https://news.hada.io/topic?id=27826",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI, AI 영상 앱 Sora 전격 종료 — Disney 파트너십도 해체",
+      "summary": "<p>OpenAI가 2025년 9월 출시한 AI 영상 생성 앱 Sora를 출시 6개월 만에 종료한다고 3월 24일 발표했습니다. iOS 앱, API, Sora.com 모두 종료 예정이며, 구체적인 일정과 기존 영상 보존 방법은 추후 공지할 예정입니다.</p>\n<p>주요 내용<br />\n∙\tOpenAI는 “Sora 연구팀은 로보틱스 발전을 위한 세계 시뮬레이션 연",
+      "url": "https://news.hada.io/topic?id=27825",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "litellm 1.82.8 PyPI 패키지에 포함된 악성 `litellm_init.pth` 파일이 자격 증명 탈취 수행",
+      "summary": "<ul>\n<li>Python 인터프리터 시작 시 자동 실행되는 <code>.pth</code> 파일이 포함되어, <strong>API 키·SSH 키·클라우드 토큰 등 민감 정보 수집 및 외부 전송</strong> 수행</li>\n<li>악성 스크립트는 <strong>이중 base64 인코딩</strong>으로 숨겨져 있으며, 수집 데이터를 <strong>AES-256으로 암호화 후 RSA 공개...</p>",
+      "url": "https://news.hada.io/topic?id=27824",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "마이크로소프트의 Windows 11 ‘수정 계획’은 진정한 개선이 아닌 자기 변명",
+      "summary": "<ul>\n<li>Windows 11은 4년간 <strong>광고 삽입, Copilot 강제 통합, 불필요한 앱</strong> 등으로 비판받았으며, Microsoft는 이를 일부 제거하겠다고 발표함</li>\n<li>그러나 이번 ‘수정 계획’은 <strong>프라이버시 침해, 계정 강제, 데이터 수집</strong> 등 근본 문제를 다루지 않음</li>\n<li>\n<strong>Copilot ...</p>",
+      "url": "https://news.hada.io/topic?id=27822",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Dozzle - 컨테이너 실시간 로그 뷰어",
+      "summary": "<ul>\n<li>Docker, Swarm, K8s 등의 컨테이너 로그를 <strong>실시간으로 모니터링</strong>하기 위한 경량 웹앱</li>\n<li>로그 파일을 저장하지 않고 <strong>라이브 스트리밍 전용 구조</strong>로 설계</li>\n<li>\n<strong>다중 로그 분할 화면</strong> 제공으로 여러 컨테이너 동시 모니터링 가능</li>\n<li>\n<strong>...</p>",
+      "url": "https://news.hada.io/topic?id=27821",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Apple Business — 모든 규모의 기업을 위한 새로운 올인원 플랫폼",
+      "summary": "<ul>\n<li>\n<strong>기기 관리, 협업, 브랜드 관리, 광고 기능</strong>을 통합한 <strong>무료 비즈니스 플랫폼</strong>으로, 중소기업부터 대기업까지 Apple 생태계 내 운영을 단일화</li>\n<li>\n<strong>내장형 모바일 기기 관리(MDM)</strong> 로 모든 Apple 기기와 설정을 한 화면에서 제어하고, <strong>Blueprints...</p>",
+      "url": "https://news.hada.io/topic?id=27820",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "This new Claude update is crazy",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/\"> <img alt=\"This new Claude update is crazy\" src=\"https://preview.redd.it/wvpq4a6ge6rg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ae730e20da31022f2bb09cc9ffd03d5f50fd9c2b\" title=\"This new Claude update is crazy\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MetaKnowing\"> /u/MetaKnowing </a> <br /> <span><a href=\"https://i.redd.it/wvpq4a6ge6rg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Saying 'hey' cost me 22% of my usage limits",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/\"> <img alt=\"Saying 'hey' cost me 22% of my usage limits\" src=\"https://preview.redd.it/iz4owc5c98rg1.png?width=140&amp;height=24&amp;auto=webp&amp;s=dd25958b88beef66e8ac36a728df56f01238ccac\" title=\"Saying 'hey' cost me 22% of my usage limits\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Ok, something really weird is going on. Revisiting opened Claude Code sessions that haven't been used for a few hours skyrockets usage. I literally just wrote a &quot;hey&quot; message to a terminal session I was working on last night and my usage increased by 22%. That's crazy. I'm sure this was not happening before. Is this a known thing? Does it have to do with Claude Code system caching?</p> <p>The 46% usage in my current session (img) literally comes from 4-5 messages across 3 sessions I had left open overnight.</p> <p><a href=\"https://preview.redd.it/iz4owc5c98rg1.png?width=2064&amp;format=png&amp;auto=webp&amp;s=a32207f305ea677033e9d4a45317c57b16b38b76\">https://preview.redd.it/iz4owc5c98rg1.png?width=2064&amp;format=png&amp;auto=webp&amp;s=a32207f305ea677033e9d4a45317c57b16b38b76</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/herolab55\"> /u/herolab55 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "US judge says Pentagon's blacklisting of Anthropic looks like punishment for its views on AI safety",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3dmzr/us_judge_says_pentagons_blacklisting_of_anthropic/\"> <img alt=\"US judge says Pentagon's blacklisting of Anthropic looks like punishment for its views on AI safety\" src=\"https://external-preview.redd.it/SjyiNLUi_UHT0DHSyO-KM3osxv1jpkamWpi76YWFrcw.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=623ba8f0935ecbf54ac1d3574b9ac7788adb229f\" title=\"US judge says Pentagon's blacklisting of Anthropic looks like punishment for its views on AI safety\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MetaKnowing\"> /u/MetaKnowing </a> <br /> <span><a href=\"https://www.reuters.com/legal/government/us-judge-weigh-anthropics-bid-undo-pentagon-blacklisting-2026-03-24/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3dmzr/us_judge_says_pentagons_blacklisting_of_anthropic/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3dmzr/us_judge_says_pentagons_blacklisting_of_anthropic/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "built an MCP server that stops claude code from ever seeing your real API keys",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3n40n/built_an_mcp_server_that_stops_claude_code_from/\"> <img alt=\"built an MCP server that stops claude code from ever seeing your real API keys\" src=\"https://preview.redd.it/3jvikdxc89rg1.gif?width=640&amp;crop=smart&amp;s=fab01229382796acd113948ca2f9785bb38fda04\" title=\"built an MCP server that stops claude code from ever seeing your real API keys\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>if u use claude code with API keys (openai,anthropic,etc) those keys sit in ur environment variables.. claude can read them, they show up in the context window nd they end up in logs.</p> <p>I built wardn - it has a built in MCP server that integrates with claude</p> <p>code in one command:</p> <p><code>wardn setup claude-code</code></p> <p>what happens:</p> <ul> <li>your wpi keys are stored in an encrypted vault</li> <li>when claude needs a credential, it calls the MCP tool <code>get_credential_ref</code></li> <li>it gets back a placeholder token (wdn_placeholder_....) - not the real key</li> <li>when claude makes an API call through the proxy, the proxy swaps in the real key</li> <li>the real key never enters Claude's context window or your logs</li> </ul> <p>MCP tools available:</p> <ul> <li><code>get_credential_ref</code> - get a placeholder for a credential</li> <li><code>list_credentials</code> - see what credentials you have access to</li> <li><code>check_rate_limit</code> - see remaining quota</li> </ul> <p>works with Cursor too: <code>wardn setup cursor</code></p> <p>Open source, Rust: <code>cargo install wardn</code></p> <p>github: <a href=\"https://github.com/rohansx/wardn\">https://github.com/rohansx/wardn</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/synapse_sage\"> /u/synapse_sage </a> <br /> <span><a href=\"https://i.redd.it/3jvikdxc89rg1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3n40n/built_an_mcp_server_that_stops_claude_code_from/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3n40n/built_an_mcp_server_that_stops_claude_code_from/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Your Claude Code Limits Didn't Shrink — I Think the 1M Context Window Is Eating Them Alive",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>If you've been getting hit with more rate limits and outages on Claude Code lately, I have a theory about what's actually going on.</p> <p>Last week, Anthropic released Opus 4.6 with a 1 million token context window to everyone. Since then, two things happened: long-task performance got noticeably worse, and capacity issues went through the roof. There was no option to opt out of it.</p> <p>My theory is this: Claude Code's context compression (the system that summarizes old conversation history to save tokens) isn't aggressive enough for a 1M context window. That means every Claude Code session is probably stuffing <em>way</em> more raw token data into each request than it needs to. Multiply that across the entire userbase, and I think everyone is unintentionally DDoSing Anthropic's servers with bloated contexts full of stuff that didn't need to be there.</p> <p>If I'm right, Anthropic's short-term fix has been to lower everyone's usage limits to compensate for the extra load. That would explain why your limits feel like they shrank — you're burning through tokens faster <em>per task</em>, not because Anthropic is being stingy.</p> <p>Yesterday I noticed they quietly brought back the older, non-1M context model as an option. Switching to it made things noticeably more stable for me and I stopped blowing through my limits as fast, which seems to support my theory.</p> <p>TLDR: I believe the 1M context model is wasting tokens due to weak context compression, which is overloading Anthropic's servers, and their band-aid fix is cutting everyone's limits. If you want some relief now, try switching off the 1M context model. If I'm right, the real fix is better context compression — and hopefully once that's in place, they can raise the limits back up.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mattate\"> /u/mattate </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3bcit/your_claude_code_limits_didnt_shrink_i_think_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3bcit/your_claude_code_limits_didnt_shrink_i_think_the/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3bcit/your_claude_code_limits_didnt_shrink_i_think_the/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "WTAF?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I can’t believe some of the responses here. I'm a physician in my late 50s. MD, PhD, triple boarded. Also coding since the late 70s, starting in assembly. I have chops. I can't believe the negativity! I've been using Claude code for the past week or so. It's fantastic. Currently I'm sniffing codes for the 2x400 CD sony jukeboxes I've had for 25 years, using a bit of esp32 hardware claude helped me cobble together, and claude-code iterating with me through the Slink bus commands. There's already a codebase in GitHub (thanks Ircama - I'll send a pull when done updating missing codes). I know how to do this, but have been dreading it, because it would be beyond laborious looking at a bunch of hex manually. With claude it's fan-frigging-tastic. I keep auditing the code, and pointing out some issues, but screw it – it works and I can focus on what I want it to do, not how each bit works in detail. (notice I used an em-dash? I've also been doing that for decades).</p> <p>For me this is like switching from 8088 assembly to compiled C. From raw C, to actual libraries. Then from compiled languages to modern scripting languages like ruby or python (lets not talk about Perl). It's accelerating what I want to do. I'm no developer. I just tinker. This is a big leap forward.</p> <p>This guy in the other hand had not coded in any way before. He's discovered how liberating it is to do this stuff to make stuff he wants/needs. The general impulse here is to dogpile on him because it lacks some sort of purity? You trolls need to get over yourselves. Who cares if it's messy html. He's here posting about his joy late in life discovering he can get computers to do something besides opening software someone else created, and we're looking for freaking em-dashes to decide whether he's a bot, and grousing that he had the utter gall to include some sort of donation link. WTAF? We should be celebrating another huge leap in democratizing computing for all of us.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jrpg8255\"> /u/jrpg8255 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s30ilh/wtaf/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s30ilh/wtaf/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s30ilh/wtaf/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I'm out of tokens with just 3-4 prompts, need advice to use efficiently please",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3dw1w/im_out_of_tokens_with_just_34_prompts_need_advice/\"> <img alt=\"I'm out of tokens with just 3-4 prompts, need advice to use efficiently please\" src=\"https://preview.redd.it/cclwvlxrl7rg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=eb421226900e0f27c6e3285be9e41148da844f60\" title=\"I'm out of tokens with just 3-4 prompts, need advice to use efficiently please\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>So i'm building a web app, it's almost entirely vibe coded and i made a project in claude to do it but im not using claude code, just the web version (free plan for now, will upgrade to pro this weekend or sm)</p> <p>I have like 10-12 chats in it so for each phase of the app i made a new one and that's what i saw in random reddit users telling to do to save tokens</p> <p>The previous chat was enormous cuz i had to do a lot in that phase which actually ended up taking my entire quota in just 2 prompts today morning so i made a new chat </p> <p>in this new chat i've already hit 73% of my 5 hour usage with just 3 prompts (started at 7pm evening with 0% used), its a brand new chat and i have no files in the attached to the project, just a big instruction block </p> <p>I used to use chatgpt before but i found claude much better for coding tbh so I dont know much effective ways to use my 5 hour quota</p> <p>Also i'm aware of the spring-break offer but i cant always stick the timings cuz of school</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MiserableBus8139\"> /u/MiserableBus8139 </a> <br /> <span><a href=\"https://i.redd.it/cclwvlxrl7rg1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3dw1w/im_out_of_tokens_with_just_34_prompts_need_advice/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3dw1w/im_out_of_tokens_with_just_34_prompts_need_advice/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "This So Helpful I Hope They Add More Things",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/\"> <img alt=\"This So Helpful I Hope They Add More Things\" src=\"https://preview.redd.it/55lcrz85q6rg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=802ad5010d34c9eb585aae52b7142c80ff2accd2\" title=\"This So Helpful I Hope They Add More Things\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IncidentOwn8633\"> /u/IncidentOwn8633 </a> <br /> <span><a href=\"https://i.redd.it/55lcrz85q6rg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "What do you do while the agent is running a task?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm a software developer and I use claude code the whole work day. Most of the time I'm watching it executing tasks. When it's done, i let a subagent review the code, let another agent refactor the findings and just after a few iterations I then review and test the result by myself. In the meantime, I don't know what to do. I get bored and perhaps a little bit frustrated as I do not get as much satisfaction as I would have get, if I did everything by myself. Not having to think the whole time, as I had to, before AI agents, sometimes make me stop loving my job. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Reasonable_Catch_443\"> /u/Reasonable_Catch_443 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3pr9w/what_do_you_do_while_the_agent_is_running_a_task/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3pr9w/what_do_you_do_while_the_agent_is_running_a_task/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3pr9w/what_do_you_do_while_the_agent_is_running_a_task/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Your Agent is wasting tokens & you’re paying for it (I was too)",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Started checking what actually goes into my Claude agent's context when it fetches web data. Every page dumps the full HTML including scripts, nav bars, ads, all of it. One page was 700K tokens. The actual content was 2.6K.</p> <p>Been running a proxy that strips all that before it hits context. Works as an MCP server so the agent just uses it automatically.</p> <p><a href=\"https://github.com/Boof-Pack/token-enhancer\">https://github.com/Boof-Pack/token-enhancer</a></p> <p>If your agent fetches anything from the web, check your logs. You're probably burning way more than you think.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Altruistic_Bus_211\"> /u/Altruistic_Bus_211 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3m6vs/your_agent_is_wasting_tokens_youre_paying_for_it/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3m6vs/your_agent_is_wasting_tokens_youre_paying_for_it/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3m6vs/your_agent_is_wasting_tokens_youre_paying_for_it/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Status Update : Elevated Errors on claude.ai on 2026-03-25T13:45:25.000Z",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>This is an automatic post triggered within 2 minutes of an official Claude system status update. </p> <p>Incident: Elevated Errors on claude.ai</p> <p>Check on progress and whether or not the incident has been resolved yet here : <a href=\"https://status.claude.com/incidents/9rt6y2y4gkh1\">https://status.claude.com/incidents/9rt6y2y4gkh1</a></p> <p>Also check the Performance Megathread to see what others are reporting : <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/\">https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeAI-mod-bot\"> /u/ClaudeAI-mod-bot </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3b9fi/claude_status_update_elevated_errors_on_claudeai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s3b9fi/claude_status_update_elevated_errors_on_claudeai/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3b9fi/claude_status_update_elevated_errors_on_claudeai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Top 1% Cursor User?",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s3jh0c/top_1_cursor_user/\"> <img alt=\"Top 1% Cursor User?\" src=\"https://preview.redd.it/b1yvtxikl8rg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=c4fc2ad8031204f3c16d3b3a9f83d9fae5605658\" title=\"Top 1% Cursor User?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Recently received this mail. Scam? </p> <p>@Ben you better give me some more tokens to burn </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Charming-Actuary1042\"> /u/Charming-Actuary1042 </a> <br /> <span><a href=\"https://i.redd.it/b1yvtxikl8rg1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3jh0c/top_1_cursor_user/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s3jh0c/top_1_cursor_user/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Is it me or Composer2 is worse than Composer1.5?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm using Composer 2 (normal) right now and the feeling that I have is that this model is way dumber comparing to Composer 1.5. Is anyone else having this same feeling?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Straight_Dish_9182\"> /u/Straight_Dish_9182 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3d1jb/is_it_me_or_composer2_is_worse_than_composer15/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3d1jb/is_it_me_or_composer2_is_worse_than_composer15/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s3d1jb/is_it_me_or_composer2_is_worse_than_composer15/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "How do you guys deal with agent approvals when you're not at your desk?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>maybe this is just me but I keep losing so much time to this. I'll kick off a refactor or a big feature branch, agent starts running, I go make food or take a call, come back 30 minutes later and it's just been sitting there waiting for me to hit accept since minute 3.</p> <p>I tried keeping the sound notifications on but honestly if I'm in another room I don't hear them. I tried leaving my laptop open where I can see it but then I'm just staring at it from the couch which defeats the purpose of stepping away.</p> <p>has anyone figured out a decent workflow for this? like some way to get notified on your phone when the agent needs input? I saw someone mention ssh + tmux with claude code but I specifically want to keep using cursor agent mode with all my local context, not switch to a CLI tool.</p> <p>running 2-3 agents in paralell sometimes makes it even worse because by the time I come back at least one of them has been stuck for ages</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/venturepoker\"> /u/venturepoker </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3lwqh/how_do_you_guys_deal_with_agent_approvals_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3lwqh/how_do_you_guys_deal_with_agent_approvals_when/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s3lwqh/how_do_you_guys_deal_with_agent_approvals_when/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Working with Large Codebases - Suggestions",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I’ve recently been thrown into the deep end with a few massive Java codebases that I’ve never touched before. Between some recent workforce reductions and a total lack of documentation, it’s a bit of a &quot;learn or drown&quot; situation.</p> <p>The catch is that leadership is already asking for new features and logic tweaks, so I don't have time to read through everything line-by-line. I’m trying to use Cursor to speed things up, but I’d love to know what else you all do when in this situation.</p> <p>Here’s my current &quot;survival kit&quot;:</p> <p>• Mapping it out: Asking Cursor for high-level outlines based on entry points and generating sequence diagrams to actually see the data flow.</p> <p>• Having it write up Markdown docs on its understanding of the code, then I fact-check that against live use cases and existing tests.</p> <p>• Stress-testing context: Giving it some pending tickets to see if Cursor’s &quot;mental model&quot; of the app is actually accurate.</p> <p>• Handoffs: Writing detailed session handoff files so I can reference those when I start a new agent. Adding this to a rule to read previous session handoff files before moving further.</p> <p>• Pattern Hunting: Asking why certain things were designed a specific way to understand the background story.</p> <p>The Setup: It’s all Java, mostly Maven-based.</p> <p>Has anyone else been in this spot lately? Are there any specific tricks or AI prompts you’re using to get productive faster without losing your mind?</p> <p>Would appreciate any advice!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Flat_Accountant_2117\"> /u/Flat_Accountant_2117 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3qpah/working_with_large_codebases_suggestions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3qpah/working_with_large_codebases_suggestions/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s3qpah/working_with_large_codebases_suggestions/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Does Cursor retain anything you've corrected between sessions?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I keep running into the same thing: I correct Cursor mid-session — &quot;don't force-push,&quot; &quot;always run tests before committing,&quot; &quot;use the existing helper, don't write a new one&quot; — and it listens. That session is great.</p> <p>Next session? It's like the conversation never happened. Same force-push. Same skipped tests. I've tried beefing up my .cursorrules but it only partially helps.</p> <p>What actually changed things for me was hooking into the agent's tool execution layer — intercepting commands like git push or rm -rf before they run and checking them against validated failure patterns. A physical gate that blocks the action.</p> <p>Curious how others are handling cross-session reliability. Are .cursorrules and manual prompting enough, or have you found something that sticks better?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eazyigz123\"> /u/eazyigz123 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3q4d4/does_cursor_retain_anything_youve_corrected/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3q4d4/does_cursor_retain_anything_youve_corrected/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s3q4d4/does_cursor_retain_anything_youve_corrected/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "SYMLINKS ARE BROKEN - Cursor sabotage and destroy all my work 10 times per day",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>My life is a nightmare it's completely impossible to do ANY work with Cursor. I reported the issue on the forum, they don't care and they even ended up deleting my posts where I was simply reporting the bugs to them.</p> <p>Symlinks are completely broken, Cursor is constantly arguing files doesn't exist, even after it just created them. But it has become worse in the last few days, it randomly destroy all my work and revert files to previous versions from hours ago.</p> <p>Following Cursor support's recommendations, I am now opening ONLY the symlinked folder to do work in it. But all my work is randomly lost and reset. It seems to happen when I go back working on another project that includes the symlinked folder (even if I don't edit it)</p> <p>Even if I undo everything it will not fix the issue, every time I have to restore a backup. I do 3 hours of work, then lose everything, waste 2 hours to restore everything only to get it completely erased again.</p> <p>Only yesterday it happened 6 TIMES IN THE SAME DAY. I spent my entire day fixing Cursor's mess. I now achieve very little work, all my time is spent debugging the mess it creates. It happened 3 hours ago and it just happened again. I hate my life.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fluid-Possession6026\"> /u/Fluid-Possession6026 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3qwlx/symlinks_are_broken_cursor_sabotage_and_destroy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3qwlx/symlinks_are_broken_cursor_sabotage_and_destroy/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s3qwlx/symlinks_are_broken_cursor_sabotage_and_destroy/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor training / guidance (to cursor team)",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>This is mainly to the cursor team since I see they are active here. But if others want to share their experience that’s great. </p> <p>With the updates, Cursor has become a lot more Agentic. And it works really well. </p> <p>The main problem is token usage. </p> <p>I noticed Claude code was much more token efficient but made more mistakes. While Cursor tends to be more correct but token use can be very high. </p> <p>Is there any recommended ways to setup your project or use plugins or libraries to help with context management and efficient token use? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NickoBicko\"> /u/NickoBicko </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s37m5m/cursor_training_guidance_to_cursor_team/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s37m5m/cursor_training_guidance_to_cursor_team/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s37m5m/cursor_training_guidance_to_cursor_team/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Composer 2 sucks",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I have tried for over a week now with varying results but it just mostly ignores what I want and entirely ignores project rules, user rules and other guidelines I gave it. Gemini, Codex and Claude where all fine with the same codebase.</p> <p>Composer 1.5 was better.</p> <p>Yes, might be a skill issue. But I haven't changed my workflow a lot in the last year and it's still the same codebase with more reverts.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheLexoPlexx\"> /u/TheLexoPlexx </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s35i45/composer_2_sucks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s35i45/composer_2_sucks/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s35i45/composer_2_sucks/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Google docs/drive MCP",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone have a working Google docs or Google drive cli or MCP configuration? I am trying to find something that can update existing documents and processes to comments. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/theluxo\"> /u/theluxo </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3etwt/google_docsdrive_mcp/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3etwt/google_docsdrive_mcp/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s3etwt/google_docsdrive_mcp/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Which AI for me: MVP without touching code",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Claude or Cursor for shippable MVP without touching code</p> <p>Which AI should I use if I want to produce a shippable MVP, front and backend, without touching code? Its a marketplace type of solution.</p> <p>I have no code experience but understanding of software, frontend, backend, api 's, etc. Product Owner background. </p> <p>I want to start right. I've used Cursor Ai so far, managed to get pretty far with POC's. But before investing more time in cursor, I doubt if I should switch to Claude? </p> <p>Basically I will only reiterate based on reviewing the front end. backend on supabase, front end on vercel.</p> <p>I never look in cursor at the actual code, thats what's made me wonder if im in the right app doing what im doing. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Janpieterkoen\"> /u/Janpieterkoen </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3gwjx/which_ai_for_me_mvp_without_touching_code/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s3gwjx/which_ai_for_me_mvp_without_touching_code/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s3gwjx/which_ai_for_me_mvp_without_touching_code/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "which agents.md genuinely improve your model performance?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>which one works the best for you?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/anonymous_2600\"> /u/anonymous_2600 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s39p6l/which_agentsmd_genuinely_improve_your_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s39p6l/which_agentsmd_genuinely_improve_your_model/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s39p6l/which_agentsmd_genuinely_improve_your_model/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Any new AI editors worth trying?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I use Cursor for work, but I'm thinking of trying something new for home projects. Is there anything worth trying these days? Windsurf, Roo Code, anything else? Or should I just stay with Cursor? (not asking about more autonomous Claude Code &amp; Codex)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NoAssumption9443\"> /u/NoAssumption9443 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s2yfmw/any_new_ai_editors_worth_trying/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s2yfmw/any_new_ai_editors_worth_trying/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s2yfmw/any_new_ai_editors_worth_trying/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Updates to GitHub Copilot interaction data usage policy",
+      "summary": "<p>From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/\">Updates to GitHub Copilot interaction data usage policy</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "url": "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "[D] Is LeCun’s $1B seed round the signal that autoregressive LLMs have actually hit a wall for formal reasoning?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I’m still trying to wrap my head around the <a href=\"https://www.bloomberg.com/news/articles/2026-03-10/yann-lecun-s-new-ai-startup-raises-1-billion-in-seed-funding\">Bloomberg news</a> from a couple of weeks ago. A $1 billion seed round is wild enough, but the actual technical bet they are making is what's really keeping me up. </p> <p>LeCun has been loudly arguing for years that next-token predictors are fundamentally incapable of actual planning. Now, his new shop, <a href=\"https://logicalintelligence.com/\">Logical Intelligence</a>, is attempting to completely bypass Transformers to generate mathematically verified code using Energy-Based Models. They are essentially treating logical constraints as an energy minimization problem rather than a probabilistic guessing game. </p> <p>It sounds beautiful in theory for AppSec and critical infrastructure where you absolutely cannot afford a hallucinated library. But practically? We all know how notoriously painful EBMs are to train and stabilize. Mapping continuous energy landscapes to discrete, rigid outputs like code sounds incredibly computationally expensive at inference time. </p> <p>Are we finally seeing a genuine paradigm shift away from LLMs for rigorous, high-stakes tasks, or is this just a billion-dollar physics experiment that will eventually get beaten by a brute-forced GPT-5 wrapped in a good symbolic solver? Curious to hear from anyone who has actually tried forcing EBMs into discrete generation tasks lately.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fun-Information78\"> /u/Fun-Information78 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] Any other PhD students feel underprepared and that the bar is too low?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hello! I started my PhD a year and a half ago, and I feel like when I did everyone was kind of dismissive of how much/little theoretical knowledge I have or am missing.</p> <p>Now that I’ve been here a year I can say with confidence that I didn’t have enough theory, and am constantly scrambling to acquire it.</p> <p>This isn’t like an imposter syndrome rant, I think that this is quite common in ML academia, I just don’t know what to do with that reality, and wonder what folks on here think.</p> <p>Like why is it that despite citing the universal approximation theorem, and spending all our time working on applying it, so few of us can actually follow its proof?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Scrungo__Beepis\"> /u/Scrungo__Beepis </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3adeo/d_any_other_phd_students_feel_underprepared_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3adeo/d_any_other_phd_students_feel_underprepared_and/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s3adeo/d_any_other_phd_students_feel_underprepared_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[D] ICML 2026: Policy A vs Policy B impact on scores discussion",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I am curious whether others observed the same thing.</p> <p>At ICML 2026, papers could be reviewed under two LLM-review policies: a stricter one where reviewers were not supposed to use LLMs, and a more permissive one where limited LLM assistance was allowed. I chose Policy A for my paper.</p> <p>My impression, based on a small sample from:</p> <ul> <li>our batch,</li> <li>comments I have seen on Reddit and X,</li> <li>and discussions with professors / ACs around me,</li> </ul> <p>is that Policy A papers ended up with harsher scores on average than Policy B papers.</p> <p>Of course, this is anecdotal and I am not claiming this as a proven fact. But honestly, it is frustrating if true: I spent nearly a week doing every review as carefully as I could, only to feel that papers under the stricter policy may have been judged more harshly than papers reviewed under the more permissive policy.</p> <p>My take is that this outcome would not even be that surprising. In practice, LLM-assisted reviewing may lead to:</p> <ul> <li>more lenient tone,</li> <li>broader background knowledge being injected into reviews,</li> <li>cleaner and more polished reviewer text,</li> <li>and possibly a higher tendency to give the benefit of the doubt.</li> </ul> <p>In my local sample, among about 15 Policy A papers we know of (reviewed or from peers), our score is apparently one of the highest. But when I compare that to what people report online, it feels much closer to average (ofcourse people that tend to post their scores have normally average and above scores). That is what made me wonder whether the score distributions may differ by policy.</p> <p>One professor believes that ICML will normalize or z-score scores across groups, but I do not want to assume it.</p> <p>So I wanted to ask:</p> <p>Did you notice any difference in scores or review style between Policy A and Policy B papers? It would be helpful if you comment with the scores for your paper and your batch:</p> <ul> <li>which policy your paper used,</li> <li>your score vector,</li> <li>the reviewed papers' scores</li> <li>and whether the reviews felt unusually harsh / lenient / polished.</li> </ul> <p>I know this will not be a clean sample, but even a rough community snapshot would be interesting.</p> <p>I made an anonymous informal poll to get a rough snapshot of scores by ICML 2026 review policy:<br /> <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdQilhiCx_dGLgx0tMVJ1NDX1URdJoUGIscFoPCpe6qE2Ph8w/viewform?usp=publish-editor\">https://docs.google.com/forms/d/e/1FAIpQLSdQilhiCx_dGLgx0tMVJ1NDX1URdJoUGIscFoPCpe6qE2Ph8w/viewform?usp=publish-editor</a></p> <p>Please do not include identifying details.</p> <p>Obviously this will be noisy and self-selected, so I am not treating it as evidence, only as a rough community snapshot.</p> <hr /> <p><strong>Preliminary poll results</strong> — <strong>still not conclusive</strong>, the sample size (55 responses) is still small and not conclusive. I assume we got extra responses from Policy A, especially since they are the people mostly affected and more inclined to take part.</p> <p>Policy B continues to have a higher mean score than Policy A, while Policy A reviews show higher reviewer confidence.</p> <p>To have more unbiased and broad responses, people might have had to add responses from the papers they reviewed.</p> <table><thead> <tr> <th align=\"left\">Group</th> <th align=\"left\">Mean Score</th> <th align=\"left\">Standard Dev</th> <th align=\"left\">Samples</th> <th align=\"left\">Confidence</th> </tr> </thead><tbody> <tr> <td align=\"left\">Total</td> <td align=\"left\">3.32</td> <td align=\"left\">0.64</td> <td align=\"left\">55</td> <td align=\"left\">3.44</td> </tr> <tr> <td align=\"left\">Policy A</td> <td align=\"left\">3.23</td> <td align=\"left\">0.55</td> <td align=\"left\">36</td> <td align=\"left\">3.54</td> </tr> <tr> <td align=\"left\">Policy B</td> <td align=\"left\">3.47</td> <td align=\"left\">0.80</td> <td align=\"left\">19</td> <td align=\"left\">3.22</td> </tr> </tbody></table> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Available_Net_6429\"> /u/Available_Net_6429 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s387tx/d_icml_2026_policy_a_vs_policy_b_impact_on_scores/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s387tx/d_icml_2026_policy_a_vs_policy_b_impact_on_scores/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s387tx/d_icml_2026_policy_a_vs_policy_b_impact_on_scores/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "[R] Ternary neural networks as a path to more efficient AI - is (+1, 0, -1) weight quantization getting serious research attention?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been reading about ternary weight quantization in neural networks and wanted to get a sence of how seriously the ML research community is taking this direction.The theoretical appeal seems clear: ternary weights (+1, 0, -1) cut model size and inference cost a lot compared to full-precision or even binary networks, while keeping more power than strict binary. Papers like TWN (Ternary Weight Networks) from 2016 and some newer work suggest this is a real path for efficient inference.What I've been less clear on is the training story. Most ternary network research I've seen focuses on post-training quantization - you train in full precision and then quantize. But I came across a reference to an architecture that claims to train natively in ternary, using an evolutionary selection mechanism rather than gradient descent.The claim is that native ternary training produces models that represent uncertainty more naturally and stay adaptive rather than freezing after training. The project is called Aigarth, developed by Qubic.I'm not in a position to evaluate the claim rigourously. But the combination of native ternary training + evolutionary optimization rather than backpropagation is unusual enough that I wanted to ask: is this a known research direction? Are there peer-reviewed papers exploring native ternary training with evolutionary methods? Is this genuinely novel or am I missing obvious prior work?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/srodland01\"> /u/srodland01 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s366un/r_ternary_neural_networks_as_a_path_to_more/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s366un/r_ternary_neural_networks_as_a_path_to_more/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s366un/r_ternary_neural_networks_as_a_path_to_more/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[R] How to apply for a reviewer role at NeurIPS ‘26?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I just heard from a PhD student at my uni that they got an offer to be a NeurIPS reviewer. This was strange to me since they’ve never published at NeurIPS/ICML/ICLR and have only submitted to journals (not JMLR) so far.</p> <p>My question — since I ever got an invite email to be a reviewer, is there somewhere I can formally apply to be considered?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/confirm-jannati\"> /u/confirm-jannati </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3p4hm/r_how_to_apply_for_a_reviewer_role_at_neurips_26/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s3p4hm/r_how_to_apply_for_a_reviewer_role_at_neurips_26/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s3p4hm/r_how_to_apply_for_a_reviewer_role_at_neurips_26/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[R] Adversarial Machine Learning",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Adversarial Machine Learning</p> <p>Hy guys, i'm new in this field since my background is math (Bachelor and Master). I've started to work on security machine learning and the usage of Deep models to detect threats and malicious actions. I've started a PhD in Cybersecurity working in emerging risks in Artificial intelligence (that means all the field of adversarial machine learning.. training time-attacks and test-time evasion). I want to start a new line of research about this using mathematical tools as differential geometry and dynamical system(other suggestions?</p> <p>1) Wich are the open challenges in this field? </p> <p>2) There are recently work on the use of mathematical tools as dynamical system to solve some problem about adversarial machine learning?</p> <p>3) Some suggestion about reseources, papers or others(also idea!!!) to start a modern research line in this field?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RelationshipOk5930\"> /u/RelationshipOk5930 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s36bxr/r_adversarial_machine_learning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s36bxr/r_adversarial_machine_learning/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s36bxr/r_adversarial_machine_learning/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[P] Built a Interactive Web for PINN Solving the 2D Heat Equation",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I’ve been working on the idea of taking Scientific AI out of research notebooks and making it accessible as a useful real-time tool. I just finished the first interactive demo, and I’d love some feedback.</p> <p>I built and trained a 2D thermal simulation engine of two chips on a circuit board using Physics-Informed Neural Networks (PINNs), to solve the 2D heat equation.</p> <p>Exporting the trained model as ONNX, I build up a simple interactive web app in the browser which allows users to interact with the PINN model by varying the parameters like chip power and ambient temperature to obtain the temperature heatmap and hotspot temperatures.</p> <p><strong>The Tech Stack:</strong></p> <ul> <li><strong>AI:</strong> Trained a custom PINN in Python using DeepXDE with PyTorch backend</li> <li><strong>Deployment:</strong> Exported to ONNX for high-performance cross-platform execution.</li> <li><strong>Web:</strong> Built with Blazor WebAssembly and hosted on Azure. The simulation runs entirely client-side.</li> </ul> <p><strong>Live Demo:</strong> <a href=\"https://www.quantyzelabs.com/thermal-inference\">https://www.quantyzelabs.com/thermal-inference</a></p> <p>I'm currently working on improving the boundary condition flexibility and accuracy for more complex board layouts. I’d love to hear your feedback and where you think this approach has the most potential.</p> <p>Cheers!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/wyzard135\"> /u/wyzard135 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s38qxm/p_built_a_interactive_web_for_pinn_solving_the_2d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s38qxm/p_built_a_interactive_web_for_pinn_solving_the_2d/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s38qxm/p_built_a_interactive_web_for_pinn_solving_the_2d/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "[P] Made a dataset but don't know what to do with it",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>This weekend I was looking for a dataset on major air crashes (I like planes) containing the text of their final reports. Surprisingly I was unable to find even a single open source dataset matching this criteria. Anyway I started collecting a few reports and was in the stage of extracting and finalising the cleaning pipeline that I realized that I don't really have a clear idea what to do with this data. Perhaps build a RAG but what benefit would that have? Has anyone worked with such reports? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AbdullahKhanSherwani\"> /u/AbdullahKhanSherwani </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s397tl/p_made_a_dataset_but_dont_know_what_to_do_with_it/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s397tl/p_made_a_dataset_but_dont_know_what_to_do_with_it/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s397tl/p_made_a_dataset_but_dont_know_what_to_do_with_it/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[P] Best approach for online crowd density prediction from noisy video counts? (no training data)",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I have per-frame head counts from P2PNet running on crowd video clips. Counts are stable but noisy (±10%). I need to predict density 5-10 frames ahead per zone, and estimate time-to-critical-threshold.</p> <p>Currently using EMA-smoothed Gaussian-weighted linear extrapolation. MAE ~20 on 55 frames. Direction accuracy 49% (basically coin flip on reversals).</p> <p>No historical training data available. Must run online/real-time on CPU.</p> <p>What would you try? Kalman filter? Double exponential smoothing? Something else?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WitnessWonderful8270\"> /u/WitnessWonderful8270 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[R] What is the difference b/w Human and Humanoid?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>It is easy to observe that human are generally predictable in terms of their actions and uncertainty, whereas humanoid robots are more unpredictable. This raises an important question for long-video understanding: what kinds of challenges arise when using humanoid-robot videos. For example, when we generate questions from such videos, VLMs may struggle to identify the correct answers because humanoid robot actions are unpredictable.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Art2984\"> /u/Alternative_Art2984 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s346dl/r_what_is_the_difference_bw_human_and_humanoid/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s346dl/r_what_is_the_difference_bw_human_and_humanoid/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s346dl/r_what_is_the_difference_bw_human_and_humanoid/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Inside our approach to the Model Spec",
+      "summary": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
+      "url": "https://openai.com/index/our-approach-to-the-model-spec",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "summary": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+      "url": "https://openai.com/index/safety-bug-bounty",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show HN: A plain-text cognitive architecture for Claude Code",
+      "summary": "<p>Article URL: <a href=\"https://lab.puga.com.br/cog/\">https://lab.puga.com.br/cog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524704\">https://news.ycombinator.com/item?id=47524704</a></p>\n<p>Points: 101</p>\n<p># Comments: 33</p>",
+      "url": "https://lab.puga.com.br/cog/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "90% of Claude-linked output going to GitHub repos w <2 stars",
+      "summary": "<p>Article URL: <a href=\"https://www.claudescode.dev/?window=since_launch\">https://www.claudescode.dev/?window=since_launch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47521157\">https://news.ycombinator.com/item?id=47521157</a></p>\n<p>Points: 294</p>\n<p># Comments: 179</p>",
+      "url": "https://www.claudescode.dev/?window=since_launch",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}
