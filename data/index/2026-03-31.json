@@ -1,0 +1,328 @@
+{
+  "items": [
+    {
+      "title": "a bit dumb question",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>If AI companies collect your data to 3rd parties how FAANG and other tech companies use tools such cursor to generate thier own source closed code?</p> </div><!-- SC_ON -->  submitted by  /u/cs_developer_cpp_  <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8gqcb/a_bit_dumb_question/\">[link]</a></span>  <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8gqcb/a_bit_dumb_question/\">[comments]</a></span>"
+    },
+    {
+      "title": "Can I use api keys with Cursor's free plan?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm a programmer and I'm trying cursor out for the first time. I've used other AI tools before, but none gave me such a headache in the configuration step. </p> <p>Currently, I'm using the free plan (hobby plan I think they call it), but I'm really confused as to what really is available in the free tier. The docs, as far as I could search at least, do not provide any helpful information whatsoever related to how many requests/tokens I have in this free plan or how is my consumption of it. The docs say \"limited access\" but does not specify how limited it is. </p> <p>I've been trying to add my own API keys to cursor as well (trying things out you know), but it seems that cursor is not even using them. Every request I make shows up on cursor's dashboard with some cents attached to the number of tokens, which makes no sense for me since I'm on the free tier, and no use is detected on the APIs. </p> <p>Also, when I try to select a specific model to use for the agent, I get the message that the free plan only allows the auto option to be used, even if I enter my own api key. Do I really have to pay 20$ to select a model from an API that I already pay for or am I missing something here?</p> <p>I've been googling and turning the docs inside out for almost two hours now and was not able to find any helpful information. Starting to wonder if I'm really that stupid or if the docs are just built for non-programmers.</p> </div><!-- SC_ON -->  submitted by  /u/New_Thing_5914  <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8dvk6/can_i_use_api_keys_with_cursors_free_plan/\">[link]</a></span>  <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8dvk6/can_i_use_api_keys_with_cursors_free_plan/\">[comments]</a></span>"
+    },
+    {
+      "title": "Cursor not indexing images or folders.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Cursor is not indexing images or folders even after I deleted the index and re-synced. </p> <p>Version: 2.6.22 (user setup)</p> <p>VSCode Version: 1.105.1</p> <p>Commit: c6285feaba0ad62603f7c22e72f0a170dc8415a0</p> <p>Date: 2026-03-27T15:59:31.561Z</p> <p>Build Type: Stable</p> <p>Release Track: Default</p> <p>Electron: 39.8.1</p> <p>Chromium: 142.0.7444.265</p> <p>Node.js: 22.22.1</p> <p>V8: 14.2.231.22-electron.0</p> <p>OS: Windows_NT x64 10.0.22631</p> </div><!-- SC_ON -->  submitted by  /u/klrmac  <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8cve1/cursor_not_indexing_images_or_folders/\">[link]</a></span>  <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8cve1/cursor_not_indexing_images_or_folders/\">[comments]</a></span>"
+    },
+    {
+      "title": "Accelerating the next phase of AI",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI."
+    },
+    {
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+      "summary": "<p>Related ongoing thread: <i>Claude Code's source code has been leaked via a map file in their NPM registry</i> - <a href=\"https://news.ycombinator.com/item?id=47584540\">https://news.ycombinator.com/item?id=47584540</a><p>Also related: <a href=\"https://www.ccleaks.com\" rel=\"nofollow\">https://www.ccleaks.com</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47586778\">https://news.ycombinator.com/item?id=47586778</a></p>\n<p>Points: 788</p>\n<p># Comments: 328</p>"
+    },
+    {
+      "title": "Accidentally created my first fork bomb with Claude Code",
+      "summary": "<p>Article URL: <a href=\"https://www.droppedasbaby.com/posts/2602-01/\">https://www.droppedasbaby.com/posts/2602-01/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47583959\">https://news.ycombinator.com/item?id=47583959</a></p>\n<p>Points: 59</p>\n<p># Comments: 15</p>"
+    },
+    {
+      "title": "i dug through claude code's leaked source and anthropic's codebase is absolutely unhinged",
+      "summary": null
+    },
+    {
+      "title": "Thanks to the leaked source code for Claude Code, I used Codex to find and patch the root cause of the insane token drain in Claude Code and patched it. Usage limits are back to normal for me!",
+      "summary": null
+    },
+    {
+      "title": "Guys, stop bad mouthing your AI.",
+      "summary": null
+    },
+    {
+      "title": "Claude code source code has been leaked via a map file in their npm registry",
+      "summary": null
+    },
+    {
+      "title": "Claude Code's source code just leaked — so I had Claude Code analyze its own internals and build an open-source multi-agent framework from it",
+      "summary": null
+    },
+    {
+      "title": "I am fully blind, and this is why Claude is changing my life.",
+      "summary": null
+    },
+    {
+      "title": "Did Claude just troll me?",
+      "summary": null
+    },
+    {
+      "title": "Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked & improved version",
+      "summary": null
+    },
+    {
+      "title": "I wrote a cron job that saves me ~2 hours of dead time on Claude Code every day",
+      "summary": null
+    },
+    {
+      "title": "I read 17 papers on agentic AI workflows. Most Claude Code advice is measurably wrong",
+      "summary": null
+    },
+    {
+      "title": "I turned my Claude agents into pixel hamsters",
+      "summary": null
+    },
+    {
+      "title": "AI induced anxiety?",
+      "summary": null
+    },
+    {
+      "title": "About to lose another Max user. I haven't been able to work in 9-10 Days. Here is my week's findings.",
+      "summary": null
+    },
+    {
+      "title": "I wish Claude just knew how I work without me explaining - so I made something that quietly observes me, learns and teaches it. Open source",
+      "summary": null
+    },
+    {
+      "title": "heads up: axios@1.14.1 is compromised. if you vibe code with claude, check your lockfiles.",
+      "summary": null
+    },
+    {
+      "title": "I recreated the claude code's tamagotchi buddy system into a TypeScript app",
+      "summary": null
+    },
+    {
+      "title": "Explore\" just burned 94k tokens in 3 minutes. I'm rate-limited until dinner. 💀",
+      "summary": null
+    },
+    {
+      "title": "/effort in one Claude Code instance silently nukes the prompt cache in all your other running instances",
+      "summary": null
+    },
+    {
+      "title": "htop-style monitor for claude code sessions",
+      "summary": null
+    },
+    {
+      "title": "Apple Silicon M4·M5 칩에서 외부 4K 디스플레이의 HiDPI 해상도 제한 발생",
+      "summary": null
+    },
+    {
+      "title": "AI 이전 글쓰기 시대가 그리워진다",
+      "summary": null
+    },
+    {
+      "title": "Android 개발자 인증: 모든 개발자에게 확대 적용 시작",
+      "summary": null
+    },
+    {
+      "title": "워싱턴주, 비경쟁 계약 전면 금지 법안 통과",
+      "summary": null
+    },
+    {
+      "title": "새의 두뇌 (2023)",
+      "summary": null
+    },
+    {
+      "title": "Claude Code 내부 동작 방식 완전 해부 — Agentic Loop부터 컨텍스트 로딩까지",
+      "summary": null
+    },
+    {
+      "title": "claw-code - Claude Code 유출 소스 기반 Python 클린룸 재작성 프로젝트",
+      "summary": null
+    },
+    {
+      "title": "Show GN: 터미널(CLI)에서 대용량 파일전송 링크 생성하는 툴",
+      "summary": null
+    },
+    {
+      "title": "Claude Code 소스 코드가 npm 레지스트리 맵 파일을 통해 유출",
+      "summary": null
+    },
+    {
+      "title": "Project Sistine - MacBook을 1달러 하드웨어로 터치스크린으로 전환",
+      "summary": null
+    },
+    {
+      "title": "Show GN: 한국 주식시장 뉴스 분석 및 투자 리서치를 위해 특화된 7B 파라미터 에이전트 LLM",
+      "summary": null
+    },
+    {
+      "title": "레트로 데모씬 그래픽의 기묘한 사례",
+      "summary": null
+    },
+    {
+      "title": "Ollama, 이제 애플 실리콘에서 MLX 기반으로 구동",
+      "summary": null
+    },
+    {
+      "title": "Axios가 NPM에서 침해되어 원격 접근 트로이목마가 배포됨",
+      "summary": null
+    },
+    {
+      "title": "axios@1.14.1, axios@0.30.4 버전이 해킹당했습니다.",
+      "summary": null
+    },
+    {
+      "title": "CodingFont: 코딩 폰트를 선택하도록 돕는 게임",
+      "summary": null
+    },
+    {
+      "title": "법률적 시각(Legal AI)에서 본 온톨로지(Ontology)의 개념",
+      "summary": null
+    },
+    {
+      "title": "Show GN: civStation - Civilization VI를 전략 수준에서 제어하는 computer-use VLM 기반 에이전트(Human in the...)",
+      "summary": null
+    },
+    {
+      "title": "클로드 코워크로 테크 트렌드 키워드 수집 에이전트 빌드",
+      "summary": null
+    },
+    {
+      "title": "Show GN: CRLF를 LF로 강제해주는 도구, LFify",
+      "summary": null
+    },
+    {
+      "title": "PDF 논문 RAG, 텍스트만으로 충분할까? - Gemini embedding 002 임베딩 검색 실험",
+      "summary": null
+    },
+    {
+      "title": "Show GN: so-agentbar - Claude Code 세션, 상태를 메뉴바에서 모니터링하는 macOS 앱",
+      "summary": null
+    },
+    {
+      "title": "라이트하우스 플레이북 - 스타트업을 위한 신뢰 기반 성장 전략",
+      "summary": null
+    },
+    {
+      "title": "Wikipedia, AI 글쓰기 전면 금지, 40대 2 표결의 배경",
+      "summary": null
+    },
+    {
+      "title": "AI가 두려워 직업을 바꾼다, 미국 청년들의 커리어 피벗 현장",
+      "summary": null
+    },
+    {
+      "title": "AI에게 글쓰기를 맡기지 말라",
+      "summary": null
+    },
+    {
+      "title": "Microsoft Copilot이 약 150만개의 GitHub Pull Request에 광고를 삽입함",
+      "summary": null
+    },
+    {
+      "title": "AI 버블은 어떻게 붕괴되는가",
+      "summary": null
+    },
+    {
+      "title": "정부 앱 ‘Fedware’: 금지된 앱보다 더 강력한 감시 수행",
+      "summary": null
+    },
+    {
+      "title": "무엇이든 라우터로 만드는 방법",
+      "summary": null
+    },
+    {
+      "title": "Copilot이 내 Pull Request에 광고를 삽입했어요",
+      "summary": null
+    },
+    {
+      "title": "Agent-driven development in Copilot Applied Science",
+      "summary": null
+    },
+    {
+      "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "summary": null
+    },
+    {
+      "title": "[D] TurboQuant author replies on OpenReview",
+      "summary": null
+    },
+    {
+      "title": "[D] ICML 2026 review policy debate: 100 responses suggest Policy B may score higher, while Policy A shows higher confidence",
+      "summary": null
+    },
+    {
+      "title": "[D] Does ML have a \"bible\"/reference textbook at the Intermediate/Advanced level?",
+      "summary": null
+    },
+    {
+      "title": "[P] I built a personal research newspaper to funnel arXiv",
+      "summary": null
+    },
+    {
+      "title": "[R] Gram Newton-Schulz: A Fast, Hardware-Aware Newton-Schulz Algorithm for Muon",
+      "summary": null
+    },
+    {
+      "title": "[R] Fine-tuning services report",
+      "summary": null
+    },
+    {
+      "title": "[D] Howcome Muon is only being used for Transformers?",
+      "summary": null
+    },
+    {
+      "title": "[P] Looking for people who have had training runs fail unexpectedly to beta test a stability monitor. Free, takes 5 minutes to add to your existing loop. DM me.",
+      "summary": null
+    },
+    {
+      "title": "[D] ICPR Decision Discussion",
+      "summary": null
+    },
+    {
+      "title": "[D] Diffusion research interview experience?",
+      "summary": null
+    },
+    {
+      "title": "[R] VLMs Behavior for Long Video Understanding",
+      "summary": null
+    },
+    {
+      "title": "[P] I trained a language model from scratch for a low resource language and got it running fully on-device on Android (no GPU, demo)",
+      "summary": null
+    },
+    {
+      "title": "[R] 2026 Google PhD Fellowship Program",
+      "summary": null
+    },
+    {
+      "title": "[R] Pesquisa acadêmica sobre trabalho com microtarefas de machine learning para IA",
+      "summary": null
+    },
+    {
+      "title": "[D] The problem with comparing AI memory system benchmarks — different evaluation methods make scores meaningless",
+      "summary": null
+    },
+    {
+      "title": "Im having so much fun with Composer 2",
+      "summary": null
+    },
+    {
+      "title": "Pro Plan: Am I Cooked?",
+      "summary": null
+    },
+    {
+      "title": "Most coding agent code kinda sucks and this explains why",
+      "summary": null
+    },
+    {
+      "title": "Teams Question/Annoyances",
+      "summary": null
+    },
+    {
+      "title": "New in Cursor",
+      "summary": null
+    },
+    {
+      "title": "I built persistent cross-session memory for Claude Code -- one command to set up, memories survive every session restart",
+      "summary": null
+    },
+    {
+      "title": "Can you fix this using only prompts? No touching the code yourself",
+      "summary": null
+    },
+    {
+      "title": "Question: What more efficient to use cursor vs claude",
+      "summary": null
+    }
+  ]
+}

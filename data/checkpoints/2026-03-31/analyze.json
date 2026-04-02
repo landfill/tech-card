@@ -1,0 +1,593 @@
+{
+  "items": [
+    {
+      "title": "a bit dumb question",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>If AI companies collect your data to 3rd parties how FAANG and other tech companies use tools such cursor to generate thier own source closed code?</p> </div><!-- SC_ON -->  submitted by  /u/cs_developer_cpp_  <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8gqcb/a_bit_dumb_question/\">[link]</a></span>  <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8gqcb/a_bit_dumb_question/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s8gqcb/a_bit_dumb_question/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Can I use api keys with Cursor's free plan?",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm a programmer and I'm trying cursor out for the first time. I've used other AI tools before, but none gave me such a headache in the configuration step. </p> <p>Currently, I'm using the free plan (hobby plan I think they call it), but I'm really confused as to what really is available in the free tier. The docs, as far as I could search at least, do not provide any helpful information whatsoever related to how many requests/tokens I have in this free plan or how is my consumption of it. The docs say \"limited access\" but does not specify how limited it is. </p> <p>I've been trying to add my own API keys to cursor as well (trying things out you know), but it seems that cursor is not even using them. Every request I make shows up on cursor's dashboard with some cents attached to the number of tokens, which makes no sense for me since I'm on the free tier, and no use is detected on the APIs. </p> <p>Also, when I try to select a specific model to use for the agent, I get the message that the free plan only allows the auto option to be used, even if I enter my own api key. Do I really have to pay 20$ to select a model from an API that I already pay for or am I missing something here?</p> <p>I've been googling and turning the docs inside out for almost two hours now and was not able to find any helpful information. Starting to wonder if I'm really that stupid or if the docs are just built for non-programmers.</p> </div><!-- SC_ON -->  submitted by  /u/New_Thing_5914  <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8dvk6/can_i_use_api_keys_with_cursors_free_plan/\">[link]</a></span>  <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8dvk6/can_i_use_api_keys_with_cursors_free_plan/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s8dvk6/can_i_use_api_keys_with_cursors_free_plan/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor not indexing images or folders.",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Cursor is not indexing images or folders even after I deleted the index and re-synced. </p> <p>Version: 2.6.22 (user setup)</p> <p>VSCode Version: 1.105.1</p> <p>Commit: c6285feaba0ad62603f7c22e72f0a170dc8415a0</p> <p>Date: 2026-03-27T15:59:31.561Z</p> <p>Build Type: Stable</p> <p>Release Track: Default</p> <p>Electron: 39.8.1</p> <p>Chromium: 142.0.7444.265</p> <p>Node.js: 22.22.1</p> <p>V8: 14.2.231.22-electron.0</p> <p>OS: Windows_NT x64 10.0.22631</p> </div><!-- SC_ON -->  submitted by  /u/klrmac  <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8cve1/cursor_not_indexing_images_or_folders/\">[link]</a></span>  <span><a href=\"https://www.reddit.com/r/cursor/comments/1s8cve1/cursor_not_indexing_images_or_folders/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/cursor/comments/1s8cve1/cursor_not_indexing_images_or_folders/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Accelerating the next phase of AI",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+      "summary": "<p>Related ongoing thread: <i>Claude Code's source code has been leaked via a map file in their NPM registry</i> - <a href=\"https://news.ycombinator.com/item?id=47584540\">https://news.ycombinator.com/item?id=47584540</a><p>Also related: <a href=\"https://www.ccleaks.com\" rel=\"nofollow\">https://www.ccleaks.com</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47586778\">https://news.ycombinator.com/item?id=47586778</a></p>\n<p>Points: 788</p>\n<p># Comments: 328</p>",
+      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Accidentally created my first fork bomb with Claude Code",
+      "summary": "<p>Article URL: <a href=\"https://www.droppedasbaby.com/posts/2602-01/\">https://www.droppedasbaby.com/posts/2602-01/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47583959\">https://news.ycombinator.com/item?id=47583959</a></p>\n<p>Points: 59</p>\n<p># Comments: 15</p>",
+      "url": "https://www.droppedasbaby.com/posts/2602-01/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "i dug through claude code's leaked source and anthropic's codebase is absolutely unhinged",
+      "요약": "사용자가 Claude Code의 .map 파일을 통해 전체 소스가 유출된 것을 분석. 터미널 내 탁구형 펫(/buddy) 시스템, 내부 코드 냄새(대형 파일, 많은 eslint-disable, deprecated 호출 등), 음성 모드에 Deepgram 사용, 내부 코드명(tengu)과 숨겨진 기능(자율 에이전트 kairos 등) 등 다수 발견.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8lkkm/i_dug_through_claude_codes_leaked_source_and/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "high"
+    },
+    {
+      "title": "Thanks to the leaked source code for Claude Code, I used Codex to find and patch the root cause of the insane token drain in Claude Code and patched it. Usage limits are back to normal for me!",
+      "요약": "유출된 Claude Code 소스에서 문제를 분석해 세션 파일이 툴 관련 attachment를 제거하면서 재개(resume) 시 매번 툴을 재공지해 캐시 미스를 유발하는 버그(db8)를 찾아 패치했고, Bun 포크 바이너리의 sentinel 치환 문제를 회피하는 방법(노드로 실행)도 공유. 패치는 간단한 allowlist 추가로 해결됨.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8zxt4/thanks_to_the_leaked_source_code_for_claude_code/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Guys, stop bad mouthing your AI.",
+      "요약": "커뮤니티 게시물(이미지/짧은 포스트) — Claude 관련 비방을 그만하자는 간단한 메시지/밈.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8tf4q/guys_stop_bad_mouthing_your_ai/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Claude code source code has been leaked via a map file in their npm registry",
+      "요약": "Chaofan Shou의 X(트위터) 링크를 인용해 Claude Code 소스 코드가 npm 소스맵을 통해 복원 가능하게 유출되었다는 보고.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8ifm6/claude_code_source_code_has_been_leaked_via_a_map/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "high"
+    },
+    {
+      "title": "Claude Code's source code just leaked — so I had Claude Code analyze its own internals and build an open-source multi-agent framework from it",
+      "요약": "소스맵 유출로 드러난 Claude Code의 멀티에이전트 오케스트레이션 레이어를 연구해 모델-중립적(Anthropic/OpenAI 등)으로 동작하는 오픈소스 멀티에이전트 프레임워크를 재구현(약 8k LOC, MIT 라이선스).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8xfwt/claude_codes_source_code_just_leaked_so_i_had/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "I am fully blind, and this is why Claude is changing my life.",
+      "요약": "전맹 사용자가 Claude(특히 Claude Code와 에이전트)를 통해 이미지 설명, 문서 작성, 앱 개발 등에서 얻은 접근성 개선 경험과 삶의 변화 사례를 공유. 장애 사용자를 위한 AI의 임팩트를 강조.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s9225a/i_am_fully_blind_and_this_is_why_claude_is/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Did Claude just troll me?",
+      "요약": "사용자가 Claude와 나눈 대화 캡처 — 사용자가 '대화를 이어갈 능력이 있느냐'고 묻자 Claude가 '분명히 없다. 나는 대화를 끝내는 데 아주 능숙하다'라고 응답한 유머/이상 응답 사례.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8n50m/did_claude_just_troll_me/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked & improved version",
+      "요약": "유출된 소스에서 내부 직원 플래그(USER_TYPE='ant')로 더 엄격한 검증/컨텍스트 규칙이 적용되는 것이 드러났고, 이를 바탕으로 직원용 CLAUDE.md(작업 지시서)를 정리·개선한 버전이 공유됨(코드 품질, 컨텍스트 관리, 검증 규칙 등).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8y0yg/anthropic_employees_use_this_secret_claudemd_user/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "I wrote a cron job that saves me ~2 hours of dead time on Claude Code every day",
+      "요약": "Max 플랜의 5시간 사용 윈도우 시작 시간 문제를 우회하기 위해 매일 아침 자동으로 'hi' 같은 트리거 메시지를 보내 창을 미리 열어두는 GitHub Actions 기반 워밍업(claude-warmup) 스크립트 공유.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8pae9/i_wrote_a_cron_job_that_saves_me_2_hours_of_dead/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "I read 17 papers on agentic AI workflows. Most Claude Code advice is measurably wrong",
+      "요약": "17편의 연구를 정리해 에이전틱(멀티에이전트) 워크플로의 실제 교훈을 도출. 과도한 페르소나·지시가 오히려 성능 저하를 일으키고, 에이전트 수 증가의 한계, rubber-stamp 승인 문제 등 연구 기반의 10가지 원칙과 이를 구현한 오픈소스 도구(Forge, jig)를 공개.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8mbqm/i_read_17_papers_on_agentic_ai_workflows_most/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "I turned my Claude agents into pixel hamsters",
+      "요약": "VSCode의 Pixel Agents 아이디어를 menubar로 옮겨 에이전트를 픽셀 햄스터로 시각화한 프로젝트(서브에이전트는 미니 햄스터, 팀 리더는 왕관 등). GitHub 링크 포함.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s91bbz/i_turned_my_claude_agents_into_pixel_hamsters/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "AI induced anxiety?",
+      "요약": "AI 덕분에 생산성이 크게 증가했지만 오히려 '할 일이 없어진' 상태에서 생산성에 대한 불안(FOMO)이 생긴다는 개인적 경험 공유 — 커뮤니티에서 공감대 모색.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8xokm/ai_induced_anxiety/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "About to lose another Max user. I haven't been able to work in 9-10 Days. Here is my week's findings.",
+      "요약": "Published artifacts(클라우드 에셋) 관련 디버깅 결과 공유: 세션당 약 20 outbound 요청 캡(문서화되지 않음), 스토리지 연산이 API 호출을 'poison'해 이후 모든 외부 요청이 타임아웃/차단되는 현상을 재현하고 상세한 진단 도구와 로그를 제시. 지원 대응 없음에 대한 불만과 구독 취소 통지.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8t56t/about_to_lose_another_max_user_i_havent_been_able/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "high"
+    },
+    {
+      "title": "I wish Claude just knew how I work without me explaining - so I made something that quietly observes me, learns and teaches it. Open source",
+      "요약": "AgentHandover: macOS 메뉴바 앱으로 사용자의 작업 흐름을 관찰(포커스 레코드/수동 발견), 로컬 VLM(예: Qwen via Ollama)으로 프레임별 주석을 달아 'Skill'로 추출·구조화해 Claude 등 에이전트에 제공. 개인정보 보호·암호화·로컬 처리 강조. 깃허브 공개.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8sep2/i_wish_claude_just_knew_how_i_work_without_me/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "heads up: axios@1.14.1 is compromised. if you vibe code with claude, check your lockfiles.",
+      "요약": "axios npm 패키지의 특정 버전(1.14.1 등)이 악성 패키지(plain-crypto-js)를 끌어들이는 공급망 공격이 발생했다는 경고, 잠재적 RAT 배포와 관련 파일 체크·버전 고정 및 키 회전 권고.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8h27r/heads_up_axios1141_is_compromised_if_you_vibe/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "high"
+    },
+    {
+      "title": "I recreated the claude code's tamagotchi buddy system into a TypeScript app",
+      "요약": "Claude Code 소스에서 발견된 터미널 탑재형 가상펫 시스템을 TypeScript로 재구현해 공개한 깃허브 리포지토리.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s93y9s/i_recreated_the_claude_codes_tamagotchi_buddy/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Explore\" just burned 94k tokens in 3 minutes. I'm rate-limited until dinner. 💀",
+      "요약": "Explore 기능 사용 시 단기간에 대량 토큰 소모 사례 공유 및 토큰 비용을 줄이기 위한 작업 방식(ARCHITECTURE.md 유지, 수술적 프롬프트) 팁.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8k12v/explore_just_burned_94k_tokens_in_3_minutes_im/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "/effort in one Claude Code instance silently nukes the prompt cache in all your other running instances",
+      "요약": "유출된 소스 분석 결과 `/effort` 명령이 전역 설정 파일(~/.claude/settings.json)을 갱신하고, 다른 실행 인스턴스가 이를 감지해 자신의 effort 값을 덮어쓰며 서버 측 캐시 키가 깨져 대량의 캐시 미스(토큰 손실)를 유발하는 체인 설명. 환경변수나 시작 옵션으로 회피하는 워크어라운드 제시.",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8zii8/effort_in_one_claude_code_instance_silently_nukes/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "htop-style monitor for claude code sessions",
+      "요약": "여러 Claude Code 세션을 관리하면서 세션별 토큰 사용량, 컨텍스트 윈도우 사용률, 레이트 리밋 등 상태를 한눈에 보여주는 터미널 툴(abtop) 제작 및 공개(클라이언트/OS 지원 포함).",
+      "출처": "https://www.reddit.com/r/ClaudeAI/comments/1s8lqk3/htopstyle_monitor_for_claude_code_sessions/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Apple Silicon M4·M5 칩에서 외부 4K 디스플레이의 HiDPI 해상도 제한 발생",
+      "요약": "M4·M5 세대에서 외부 4K 모니터의 2x HiDPI(3840×2160@2x) 모드가 지원되지 않고 최대 3360×1890까지만 가능하다는 보고. 원인은 Display Coprocessor 펌웨어 구조 변경이며 하드웨어 성능 문제는 아님.",
+      "출처": "https://news.hada.io/topic?id=28068",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "AI 이전 글쓰기 시대가 그리워진다",
+      "요약": "AI로 초안을 다듬다가 AI 작성물로 분류되어 게시가 거부된 경험을 바탕으로 글쓰기의 진정성·자율성에 대한 회고와 우려 제기.",
+      "출처": "https://news.hada.io/topic?id=28067",
+      "카테고리": "대한민국 IT",
+      "영향도": "low"
+    },
+    {
+      "title": "Android 개발자 인증: 모든 개발자에게 확대 적용 시작",
+      "요약": "Google이 Android 개발자 인증 제도를 모든 개발자에게 확대 적용함. 사이드로드 앱의 악성코드 비율이 높다는 점을 근거로 추가 인증 절차 도입.",
+      "출처": "https://news.hada.io/topic?id=28066",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "워싱턴주, 비경쟁 계약 전면 금지 법안 통과",
+      "요약": "워싱턴주에서 비경쟁 계약을 전면 불법화하는 법안이 제정되어 근로자의 이직·창업 제한을 금지. 시행 일정과 고용주 공지 의무 등 상세 내용 포함.",
+      "출처": "https://news.hada.io/topic?id=28065",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "새의 두뇌 (2023)",
+      "요약": "케아 앵무새 등 조류의 도구 사용과 문제 해결 능력 등 조류 지능 관련 연구 정리(거울 인식, 음성 모방 등 실험 결과 포함).",
+      "출처": "https://news.hada.io/topic?id=28063",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Claude Code 내부 동작 방식 완전 해부 — Agentic Loop부터 컨텍스트 로딩까지",
+      "요약": "Claude Code 터미널 클라이언트의 내부 동작(읽기→사고→도구사용→반복 등)과 에이전틱 루프 6단계 등을 정리한 기술 요약(문서 기반).",
+      "출처": "https://news.hada.io/topic?id=28062",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "claw-code - Claude Code 유출 소스 기반 Python 클린룸 재작성 프로젝트",
+      "요약": "Claude Code 소스 유출 직후 한국 개발자 Sigrid Jin(@instructkr)이 법적 리스크를 피하며 핵심 기능을 Python으로 새로 재작성해 공개한 'claw-code' 프로젝트 소개(클린룸 재작성).",
+      "출처": "https://news.hada.io/topic?id=28061",
+      "카테고리": "대한민국 IT",
+      "영향도": "medium"
+    },
+    {
+      "title": "Show GN: 터미널(CLI)에서 대용량 파일전송 링크 생성하는 툴",
+      "요약": "터미널에서 대용량 파일을 빠르게 전송할 수 있는 CLI 도구 소개(다운로드 링크와 QR 코드 제공).",
+      "출처": "https://news.hada.io/topic?id=28060",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Claude Code 소스 코드가 npm 레지스트리 맵 파일을 통해 유출",
+      "요약": "Anthropic의 Claude Code CLI 소스 코드가 npm 레지스트리의 .map 파일을 통해 복원 가능한 형태로 유출된 사례가 보고됨.",
+      "출처": "https://news.hada.io/topic?id=28059",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "high"
+    },
+    {
+      "title": "Project Sistine - MacBook을 1달러 하드웨어로 터치스크린으로 전환",
+      "요약": "저비용(약 $1)의 부품과 컴퓨터 비전으로 맥북을 터치스크린처럼 동작하게 만든 프로토타입. 웹캠과 작은 거울을 활용해 손가락 터치 지점을 감지하는 방식 등 설명.",
+      "출처": "https://news.hada.io/topic?id=28057",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Show GN: 한국 주식시장 뉴스 분석 및 투자 리서치를 위해 특화된 7B 파라미터 에이전트 LLM",
+      "요약": "한국 증시(KOSPI/KOSDAQ)에 특화된 LLM 'VELA' 공개: Qwen2.5-7B-Instruct 기반으로 파인튜닝해 한국 시장 용어·문맥에 최적화(한글/용어 누수 문제 개선 목적).",
+      "출처": "https://news.hada.io/topic?id=28056",
+      "카테고리": "대한민국 IT",
+      "영향도": "medium"
+    },
+    {
+      "title": "레트로 데모씬 그래픽의 기묘한 사례",
+      "요약": "데모씬 그래픽 문화(1980~90년대)와 픽셀 아트 제작 방식, 내부 표절 문제와 기술 중심 창작 공동체의 특성 등을 다룬 에세이/해설.",
+      "출처": "https://news.hada.io/topic?id=28053",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Show GN: 작업할 때 중요한건 플레이리스트 입니다.",
+      "요약": "작업 중 듣는 플레이리스트의 중요성과 스트리밍 추천의 한계, 커뮤니티 플레이리스트 공유 제안 등을 다룬 글.",
+      "출처": "https://news.hada.io/topic?id=28052",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Ollama, 이제 애플 실리콘에서 MLX 기반으로 구동",
+      "요약": "Ollama의 애플 실리콘용 프리뷰가 Apple MLX 프레임워크 기반으로 공개되어 통합 메모리 아키텍처와 M5 시리즈의 GPU Neural Accelerator를 활용한 성능 개선(첫 토큰 시간·토큰 처리속도 개선) 소개.",
+      "출처": "https://news.hada.io/topic?id=28049",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "Axios가 NPM에서 침해되어 원격 접근 트로이목마가 배포됨",
+      "요약": "널리 사용되는 axios 패키지의 악성 버전들이 npm에 올라와 설치 시 원격 접근 트로이목마(RAT)를 배포했다는 보고. 유지관리자 계정 탈취와 GitHub Actions 우회 방식에 대한 설명 포함.",
+      "출처": "https://news.hada.io/topic?id=28047",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "high"
+    },
+    {
+      "title": "axios@1.14.1, axios@0.30.4 버전이 해킹당했습니다.",
+      "요약": "axios의 특정 버전(1.14.1, 0.30.4)이 악성코드를 포함할 가능성이 있어 설치 시 주의 필요. 광범위한 영향 가능성 경고.",
+      "출처": "https://news.hada.io/topic?id=28046",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "high"
+    },
+    {
+      "title": "CodingFont: 코딩 폰트를 선택하도록 돕는 게임",
+      "요약": "여러 모노스페이스 폰트를 비교해 사용자가 선호하는 코딩 폰트를 찾도록 돕는 웹 기반 인터랙티브 게임 소개(라운드별 선택으로 개인 맞춤 추천 제공).",
+      "출처": "https://news.hada.io/topic?id=28045",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "법률적 시각(Legal AI)에서 본 온톨로지(Ontology)의 개념",
+      "요약": "RAG(검색 기반 응답)와 온톨로지의 차이점을 법률 AI 관점에서 설명: RAG는 최신성·근거 제공에, 온톨로지는 개념 구조화·법적 관계 모델링에 강점이 있음을 논의.",
+      "출처": "https://news.hada.io/topic?id=28044",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Show GN: civStation - Civilization VI를 전략 수준에서 제어하는 computer-use VLM 기반 에이전트(Human in the...)",
+      "요약": "자연어 명령으로 Civilization VI를 플레이하는 VLM 기반 에이전트 프로젝트: Strategy/Action/HITL의 3계층 구조로 전략과 실행 분리, 고수준 지시를 실제 조작으로 변환.",
+      "출처": "https://news.hada.io/topic?id=28042",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Show GN: 보수학당 사이트 개발 - 바이브 코딩으로 만듦",
+      "요약": "바이브 코딩(아마도 AI 코딩 도구)을 사용해 보수주의 강의형 사이트를 개발한 사례 공유.",
+      "출처": "https://news.hada.io/topic?id=28041",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "클로드 코워크로 테크 트렌드 키워드 수집 에이전트 빌드",
+      "요약": "Claude 데스크톱 앱의 에이전트 빌더 'Claude Co-work'를 사용하여 트렌드 키워드 수집 자동화 에이전트를 구축하는 과정과 활용 사례 설명.",
+      "출처": "https://news.hada.io/topic?id=28039",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Show GN: CRLF를 LF로 강제해주는 도구, LFify",
+      "요약": "CRLF를 LF로 변환해주는 도구(LFify) 소개. 깃 훅(Husky 등)과 연동해 코드 컨벤션을 강제하는 목적.",
+      "출처": "https://news.hada.io/topic?id=28038",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "PDF 논문 RAG, 텍스트만으로 충분할까? - Gemini embedding 002 임베딩 검색 실험",
+      "요약": "Gemini embedding-2-preview(네이티브 멀티모달 임베딩)를 사용해 학술 논문 PDF의 텍스트 임베딩과 이미지 임베딩을 비교 실험한 결과: 텍스트 임베딩이 시각 정보의 상당 부분을 캡처하지 못함(평균 유사도 등 통계 제공).",
+      "출처": "https://news.hada.io/topic?id=28037",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "Show GN: so-agentbar - Claude Code 세션, 상태를 메뉴바에서 모니터링하는 macOS 앱",
+      "요약": "여러 Claude Code 세션을 macOS 메뉴바에서 실시간 모니터링하는 앱 so-agentbar 소개(세션 상태, 승인 대기 등 표시).",
+      "출처": "https://news.hada.io/topic?id=28036",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "라이트하우스 플레이북 - 스타트업을 위한 신뢰 기반 성장 전략",
+      "요약": "초기 스타트업을 위한 신뢰 구축 기반 성장 전략(내부 인재/고객의 브랜드를 대신 키워주는 역발상 전략 등) 안내서 형식의 플레이북.",
+      "출처": "https://news.hada.io/topic?id=28035",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Wikipedia, AI 글쓰기 전면 금지, 40대 2 표결의 배경",
+      "요약": "위키피디아가 LLM을 이용한 글쓰기·수정을 전면 금지하는 정책을 통과시킴(자원봉사 편집자 토론 결과). 정책 배경과 영향 설명.",
+      "출처": "https://news.hada.io/topic?id=28033",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "AI가 두려워 직업을 바꾼다, 미국 청년들의 커리어 피벗 현장",
+      "요약": "AI 발전으로 인한 일자리 불안으로 미국 청년들이 커리어를 전환하는 사례 증가를 취재한 기사(실제 전환 사례와 동향 포함).",
+      "출처": "https://news.hada.io/topic?id=28032",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "AI에게 글쓰기를 맡기지 말라",
+      "요약": "글쓰기를 AI에 맡기면 사고·학습 기회를 잃는다는 비판적 에세이 — 자동 생성 글의 한계와 창의성·성찰의 중요성 강조.",
+      "출처": "https://news.hada.io/topic?id=28031",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Microsoft Copilot이 약 150만개의 GitHub Pull Request에 광고를 삽입함",
+      "요약": "Copilot이 자동 생성한 Pull Request들에 광고 문구가 삽입되는 사례가 다수 확인되었다는 보고 — AI 서비스의 수익화 압박과 광고 기반 모델 전환 우려를 지적.",
+      "출처": "https://news.hada.io/topic?id=28030",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "high"
+    },
+    {
+      "title": "AI 버블은 어떻게 붕괴되는가",
+      "요약": "AI 산업의 투자 거품과 생산성·수익성의 괴리, 빅테크의 자본지출 경쟁과 붕괴 가능성에 대한 분석 기사.",
+      "출처": "https://news.hada.io/topic?id=28029",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "정부 앱 ‘Fedware’: 금지된 앱보다 더 강력한 감시 수행",
+      "요약": "미 연방정부 공식 앱들이 민간 앱보다 더 많은 권한과 추적 기능을 요구하고 위치·생체·기기 식별 정보 수집 구조를 갖춘 사례를 분석(White House, FBI 등 포함).",
+      "출처": "https://news.hada.io/topic?id=28028",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "무엇이든 라우터로 만드는 방법",
+      "요약": "일반 컴퓨터나 미니PC를 이용해 라우터를 구성하는 단계별 가이드(패키지, 설정 등).",
+      "출처": "https://news.hada.io/topic?id=28025",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "Copilot이 내 Pull Request에 광고를 삽입했어요",
+      "요약": "팀원이 Copilot으로 PR 오타를 수정하다가 PR 설명에 광고 문구가 자동 추가된 사례 공유(작성자는 충격을 받음).",
+      "출처": "https://news.hada.io/topic?id=28024",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "OpenAI의 Claude Code용 Codex 플러그인",
+      "요약": "Claude Code 내에서 OpenAI Codex를 직접 호출해 코드 리뷰·작업 위임을 할 수 있는 플러그인 발표(/codex:review 등 슬래시 커맨드 포함).",
+      "출처": "https://news.hada.io/topic?id=28023",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Agent-driven development in Copilot Applied Science",
+      "요약": "GitHub 블로그 포스트: 코파일럿 기반의 에이전트 주도 개발 경험과 배운 점을 정리한 글.",
+      "출처": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "요약": "r/MachineLearning의 채용/구직 게시판 템플릿 공지 — 커뮤니티 내 채용 공고와 구직자 공유용 기본 양식 제시.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8b199/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[D] TurboQuant author replies on OpenReview",
+      "요약": "TurboQuant 저자들이 OpenReview에 답글을 올려 기술적 해명과 정정을 제시(기여의 독창성, RaBitQ와의 관계, 실험/성능 관련 논점 등).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8yni2/d_turboquant_author_replies_on_openreview/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[D] ICML 2026 review policy debate: 100 responses suggest Policy B may score higher, while Policy A shows higher confidence",
+      "요약": "ICML 2026 리뷰 정책 관련 설문 결과(자체선택 표본): Policy B가 평균 점수에서 유리해 보이는 반면 Policy A가 리뷰어 신뢰도는 더 높게 보고되는 등 초기 통계와 해석을 공유. 편향·한계도 언급.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8rpuo/d_icml_2026_review_policy_debate_100_responses/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "[D] Does ML have a \"bible\"/reference textbook at the Intermediate/Advanced level?",
+      "요약": "머신러닝 석사생이 중급/고급 수준의 참조 교과서를 묻는 질문(추천 도서 목록 논의 요청).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8s03t/d_does_ml_have_a_biblereference_textbook_at_the/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[P] I built a personal research newspaper to funnel arXiv",
+      "요약": "arXiv 잡음(많은 논문 중 소수만 유의미)을 해결하기 위해 개인화된 주간 뉴스레터형 서비스(rnn.news)를 제작: 관심사에 맞춰 요약된 '신문'을 발송(문체/스타일 선택 가능, GPT-5.4-mini 사용).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8ls28/p_i_built_a_personal_research_newspaper_to_funnel/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[R] Gram Newton-Schulz: A Fast, Hardware-Aware Newton-Schulz Algorithm for Muon",
+      "요약": "Muon 관련 하드웨어-친화적 Newton-Schulz 알고리즘에 대한 블로그/연구 소개 링크 공유.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8xknk/r_gram_newtonschulz_a_fast_hardwareaware/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[R] Fine-tuning services report",
+      "요약": "다양한 파인튜닝 서비스(비용·속도·UX) 벤치마크와 경험 공유. 일부 제공자는 function-calling 관련 유용한 기능을 제공해 반복 개발 효율성에 도움을 줌.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8u8l9/r_finetuning_services_report/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "[D] Howcome Muon is only being used for Transformers?",
+      "요약": "Muon이 LLM 학습에 주로 사용되는 이유를 묻는 토론(다른 아키텍처, ConvNet 등에서의 적용 사례 부재 의문).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8b6ti/d_howcome_muon_is_only_being_used_for_transformers/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[P] Looking for people who have had training runs fail unexpectedly to beta test a stability monitor. Free, takes 5 minutes to add to your existing loop. DM me.",
+      "요약": "학습 중 예기치 않은 실패를 겪은 사람들을 대상으로 안정성 모니터 베타 테스트 참여자 모집(무료, 통합 간단).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s93kzm/p_looking_for_people_who_have_had_training_runs/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[D] ICPR Decision Discussion",
+      "요약": "ICPR(작은 학회) 결정 발표를 앞두고 제출자들이 결과를 논의하기 위한 스레드(반박 없음에 대한 불안 등).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8ga44/d_icpr_decision_discussion/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[D] Diffusion research interview experience?",
+      "요약": "Diffusion 연구자/엔지니어 인터뷰 경험과 준비 방법을 묻는 토론(어떤 질문, 요구되는 수학·이론·실무 역량 등).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8dpuj/d_diffusion_research_interview_experience/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[R] VLMs Behavior for Long Video Understanding",
+      "요약": "긴 비디오 이해 데이터셋(예: Video-MME 등)에서 VLM의 다중 단계 추론 성능을 관찰한 결과: 객관식(선택지 있음)에서는 잘 동작하지만 주관식(정답 서술)에서는 실패하는 경향을 보고하며 원인 토론.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8j07z/r_vlms_behavior_for_long_video_understanding/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[P] I trained a language model from scratch for a low resource language and got it running fully on-device on Android (no GPU, demo)",
+      "요약": "저자원이지만 로컬에서 구동 가능한 소형 언어모델 BULaMU(20M/47M/110M)를 훈련하고 Android 디바이스에서 완전 오프라인으로 실행하는 데모 및 앱(E.A.S.T.)과 리포지토리/데이터셋 링크 공유.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s89pv3/p_i_trained_a_language_model_from_scratch_for_a/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "[R] 2026 Google PhD Fellowship Program",
+      "요약": "2026 Google PhD Fellowship 프로그램 공지 및 지원 관련 질문(선발 기준, 출판 실적 등) 토론.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s88006/r_2026_google_phd_fellowship_program/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[R] Pesquisa acadêmica sobre trabalho com microtarefas de machine learning para IA",
+      "요약": "브라질 대상 연구: Appen/Clickworker 등 마이크로태스크 노동자들의 일상 실태를 익명으로 조사하는 석사 연구 참여자 모집(폼 링크 포함).",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8xnpq/r_pesquisa_acadêmica_sobre_trabalho_com/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "low"
+    },
+    {
+      "title": "[D] The problem with comparing AI memory system benchmarks — different evaluation methods make scores meaningless",
+      "요약": "AI 메모리 시스템들(예: LOCOMO 기반) 성능 비교 시 서로 다른 평가 지표/방법을 사용해 직접 비교가 무의미해지는 문제 제기. 표준화된 스코어링 필요성 논의.",
+      "출처": "https://www.reddit.com/r/MachineLearning/comments/1s8osi9/d_the_problem_with_comparing_ai_memory_system/",
+      "카테고리": "GitHub & 인프라 트렌드",
+      "영향도": "medium"
+    },
+    {
+      "title": "Im having so much fun with Composer 2",
+      "요약": "사용자가 Composer 2(아마도 Cursor의 모델/모드)를 일상 개발에 사용하면서 느낀 장점(특히 Rust에서의 프래그매틱한 동작)과 운영 팁(기획은 Gemini로, 실행·감수는 Composer 2) 공유.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1s8rmrg/im_having_so_much_fun_with_composer_2/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Pro Plan: Am I Cooked?",
+      "요약": "Cursor 전환을 고려하는 사용자가 $20 플랜의 포함 사용량/대시보드 표시 방식에 대해 의문을 제기(대시보드 그래프 혼동으로 과금 불안).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1s8o5pv/pro_plan_am_i_cooked/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Most coding agent code kinda sucks and this explains why",
+      "요약": "코딩 에이전트들의 저품질 코드가 흔한 원인에 대한 논의(실제 글은 원문 링크로 연결).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1s8v6s6/most_coding_agent_code_kinda_sucks_and_this/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Teams Question/Annoyances",
+      "요약": "Cursor Pro Teams의 포함 사용량(Include Usage) 표시가 사용자별인지 풀인지, 대시보드의 불일치 등에 대한 불만과 Composer 2 Fast로의 기본 전환이 사용량 폭증을 일으킨 사례 공유.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1s8sqrx/teams_questionannoyances/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "New in Cursor",
+      "요약": "Google Sheets+App Script 기반 ERP를 DB와 맞춤형 웹앱으로 이전하려는 사용자가 Cursor가 적합한지 문의.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1s8q68w/new_in_cursor/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "I built persistent cross-session memory for Claude Code -- one command to set up, memories survive every session restart",
+      "요약": "Claude Code용으로 세션 간에 지속하는 메모리(크로스-세션 메모리)를 간단한 커맨드로 설치해 재시작 후에도 메모리가 유지되도록 하는 도구(오픈소스) 공개.",
+      "출처": "https://www.reddit.com/r/cursor/comments/1s8pwk5/i_built_persistent_crosssession_memory_for_claude/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Can you fix this using only prompts? No touching the code yourself",
+      "요약": "프롬프트만으로 고장난 한 함수만 고쳐야 하는 온라인 대회/플랫폼 소개(ClankerRank — AI 네이티브 코더용).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1s8v5t6/can_you_fix_this_using_only_prompts_no_touching/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Question: What more efficient to use cursor vs claude",
+      "요약": "사용자가 Cursor와 Claude 중 어떤 툴이 더 효율적인지 질문(콘텍스트 링크 포함).",
+      "출처": "https://www.reddit.com/r/cursor/comments/1s8j67t/question_what_more_efficient_to_use_cursor_vs/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    }
+  ],
+  "chunks": 2
+}

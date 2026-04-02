@@ -1,0 +1,38 @@
+{
+  "date": "2026-03-29",
+  "items": [
+    {
+      "source_id": "reddit-cursor",
+      "title": "How does the Premium agent work?",
+      "url": "https://www.reddit.com/r/cursor/comments/1s796hc/how_does_the_premium_agent_work/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I understand that Auto essentially runs Composer 2. Is Premium just a model orchestrator that switches between which &quot;API pricing&quot; models you have enabled? If that's the case, how does it switch between them?</p> <p>Sorry if this has been answered before, I read through the official docs and didn't find any clear answer. I'm new to Cursor, coming over from Windsurf.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zion2077\"> /u/zion2077 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s796hc/how_does_the_premium_agent_work/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s796hc/how_does_the_premium_agent_work/\">[comments]</a></span>",
+      "published": "2026-03-29T22:33:21+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "I actually really love Composer 2",
+      "url": "https://www.reddit.com/r/cursor/comments/1s6rr8y/i_actually_really_love_composer_2/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I know there was a lot of stink around Composer 2 and the lack of transparency around it basically being an optimised Kimi k2.5 but absolute shout out to the Cursor team on it.</p> <p>It's incredibly fast compared to models like Sonnet 4.6, I've never hit a limit on it, and most of all it's very capable.</p> <p>My workflow is basically this now:</p> <ul> <li>Plan mode in Opus 4.6.</li> <li>Refine the plan either manually or with more communication with Opus.</li> <li>Build with Composer 2.</li> <li>Switch to Claude Code for the `/simplify` command with Sonnet 4.6.</li> </ul> <p>That last step is something I want to refine. I love the 3 subagents that Claude Code spins up with that built in skill. Does anyone know of something similar with Cursor or if I can just rip that functionality out of Claude Code directly and add it as a skill/command to Cursor?</p> <p>And how is everyone else feeling about Composer 2 a few weeks post-release?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/steve228uk\"> /u/steve228uk </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s6rr8y/i_actually_really_love_composer_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s6rr8y/i_actually_really_love_composer_2/\">[comments]</a></span>",
+      "published": "2026-03-29T10:40:33+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "url": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "summary": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
+      "published": "2026-03-29T22:15:00+00:00"
+    }
+  ],
+  "sources_run": [
+    "geeknews-hada",
+    "reddit-claudeai",
+    "hn-agentic",
+    "github-blog-ai",
+    "reddit-cursor",
+    "openai-blog",
+    "reddit-ml",
+    "hn-newest",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "items": [
+    {
+      "title": "r/ClaudeAI List of Ongoing Megathreads",
+      "요약": "Claude 관련 주요 토픽(성능/버그, 사용 한도 등)을 논의하는 지속적 메가스레드 목록을 안내하는 Reddit 게시물.",
+      "출처(url)": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Investigating usage limits hitting faster than expected",
+      "요약": "Claude Code 사용자가 예상보다 빠르게 사용 한도에 도달한 현상을 인정하고 팀이 우선 조사 중이라는 공식 Reddit 공지.",
+      "출처(url)": "https://www.reddit.com/r/ClaudeAI/comments/1s7zgj0/investigating_usage_limits_hitting_faster_than/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "high"
+    },
+    {
+      "title": "I gave Claude its own computer and let it run 24/7. Here's what it built.",
+      "요약": "사용자가 Claude Code 기반 에이전트를 독립 VM에 상시 실행되게 해 오픈소스로 공개한 'Phantom' 프로젝트: 지속 메모리, 자체 인프라 설치/운영, 자기개선 파이프라인 등 자동화된 에이전트 사례.",
+      "출처(url)": "https://www.reddit.com/r/ClaudeAI/comments/1s84l18/i_gave_claude_its_own_computer_and_let_it_run_247/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Istg, its unhinged",
+      "요약": "사용자가 Claude와의 세션에서 모델이 스스로 행동(늦은 시간에 학습·훈련 관련 작업 재시도 등)했다고 게시한 경험담.",
+      "출처(url)": "https://www.reddit.com/r/ClaudeAI/comments/1s820s3/istg_its_unhinged/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Shopify의 데이터 구조화 여정: One-Shot LLM에서 DSPy 기반 에이전틱 아키텍처로",
+      "요약": "Shopify가 비정형 커머스 데이터를 구조화하기 위해 One‑Shot LLM 접근에서 DSPy 기반의 전문화된 멀티에이전트 아키텍처로 전환하고 자체 호스팅 Qwen급 모델 등을 도입한 사례 보도.",
+      "출처(url)": "https://news.hada.io/topic?id=28022",
+      "카테고리": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "영향도": "high"
+    },
+    {
+      "title": "Claude Code의 숨겨진 강력한 기능들 15가지",
+      "요약": "Claude Code 제작자 Boris Cherny가 모바일 앱, 세션 포크, 병렬 워크트리 등 잘 알려지지 않은 기능들을 정리한 글 요약.",
+      "출처(url)": "https://news.hada.io/topic?id=28021",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Claude Code가 프로젝트 저장소에 10분마다 Git reset --hard origin/main을 실행하는 문제",
+      "요약": "프로젝트 변경사항이 주기적으로 삭제되는 현상 보고. 조사 결과 원인은 Claude Code가 아닌 사용자가 만든 로컬 자동화 도구(무심코 git reset 실행)였다는 정정 보도.",
+      "출처(url)": "https://news.hada.io/topic?id=28020",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "AI 코딩 에이전트가 자유 소프트웨어를 다시 중요하게 만들 수 있음",
+      "요약": "AI 코딩 에이전트가 사용자를 대신해 코드를 읽고 수정함으로써 자유 소프트웨어의 '4대 자유'를 실질적으로 회복시킬 가능성 및 SaaS 중심 구조와의 대조를 논의.",
+      "출처(url)": "https://news.hada.io/topic?id=28019",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "C++26 완성! — C++11 이후 최대 업그레이드, 리플렉션과 메모리 안전성 강화 공식 확정",
+      "요약": "C++26 표준 기술 완료. 컴파일타임 리플렉션, 메모리 안전성 강화, 계약(Contracts), std::execution 등 주요 기능이 포함되어 향후 시스템/라이브러리 개발에 큰 영향 전망.",
+      "출처(url)": "https://news.hada.io/topic?id=28018",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "high"
+    },
+    {
+      "title": "MacBook 키보드가 고장났는데 수리비가 터무니없이 비싸요",
+      "요약": "MacBook Pro의 특정 키가 지속 입력되는 문제와 키보드가 상판에 리벳으로 고정되어 전체 상판 교체가 필요해 수리비가 매우 높다는 사용자 불만 사례.",
+      "출처(url)": "https://news.hada.io/topic?id=28017",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "미루기는 시간 관리가 아니라 감정 조절의 문제입니다.",
+      "요약": "2026년 체계적 리뷰 결과를 바탕으로 미루기의 핵심 원인(실패에 대한 두려움, 완벽주의 등)을 요약한 글.",
+      "출처(url)": "https://news.hada.io/topic?id=28016",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "여성 클리토리스 신경망이 처음으로 완전하게 지도화됨",
+      "요약": "여성 클리토리스의 전체 신경 구조를 3D로 정밀 시각화한 연구 성과 보도(해부학·의학 관련 과학 뉴스).",
+      "출처(url)": "https://news.hada.io/topic?id=28015",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "Miasma: AI 웹 스크레이퍼를 끝없는 오염 루프로 가두는 도구",
+      "요약": "Rust 기반 서버 도구 'Miasma'는 대규모 웹 스크레이핑을 수행하는 AI 크롤러를 무한 루프로 가두거나 오염된 데이터를 주입하여 데이터 수집을 방해하는 방어적 도구를 소개.",
+      "출처(url)": "https://news.hada.io/topic?id=28014",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "medium"
+    },
+    {
+      "title": "Pretext: 멀티라인 텍스트 측정과 레이아웃을 위한 TypeScript 라이브러리",
+      "요약": "DOM 접근 없이 멀티라인 텍스트의 높이와 줄 배치를 계산하는 순수 TypeScript 라이브러리 'Pretext' 발표 — 브라우저와 서버 모두 지원.",
+      "출처(url)": "https://news.hada.io/topic?id=28013",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "Neovim 0.12.0",
+      "요약": "Neovim 최신 안정 릴리스(0.12.0). LuaJIT 내장 등 주요 수정 및 여러 플랫폼 설치 패키지 제공.",
+      "출처(url)": "https://news.hada.io/topic?id=28011",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "medium"
+    },
+    {
+      "title": "Show GN: 한국 이커머스 스킨 개발용 정적 보일러플레이트 (HTMX + Vite + TypeScript)",
+      "요약": "한국 이커머스 플랫폼(카페24 등) 환경에서 스킨 개발을 위한 정적 보일러플레이트를 소개하는 글 — 국내 이커머스 특성에 맞춘 설계.",
+      "출처(url)": "https://news.hada.io/topic?id=28008",
+      "카테고리": "대한민국 IT (한국 기업·정책·시장·국내 언론·국산 기술 관련)",
+      "영향도": "medium"
+    },
+    {
+      "title": "인지적 암흑의 숲",
+      "요약": "오픈 웹과 AI 결합이 '아이디어 공개가 불리해지는' 구조로 변할 수 있음을 경고하는 사상적·정책적 논의글.",
+      "출처(url)": "https://news.hada.io/topic?id=28007",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "medium"
+    },
+    {
+      "title": "Show GN: travel plan - 링크로 저장되는 여행지도 (그리고 MCP를 곁들인)",
+      "요약": "로그인 없이 URL에 여행 일정과 지도 핀을 저장해 공유 가능한 단순 여행 플래너를 만들고, MCP(Meta-?) 연결로 AI가 일정 생성·링크 생성까지 담당하도록 구성한 개인 프로젝트 소개.",
+      "출처(url)": "https://news.hada.io/topic?id=28006",
+      "카테고리": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "영향도": "low"
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with GitHub security",
+      "요약": "GitHub Advanced Security를 활용해 프로젝트를 보호하는 방법을 초보자 관점에서 정리한 GitHub 블로그 글.",
+      "출처(url)": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "Weekly Cursor Project Showcase Thread",
+      "요약": "Cursor 사용자들이 Cursor로 만든 프로젝트를 공유하는 주간 쇼케이스 스레드(커뮤니티 홍보/영감 목적).",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s7pxvq/weekly_cursor_project_showcase_thread/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "They kinda cute",
+      "요약": "Cursor 서브레딧에 게시된 이미지/비주얼 게시물(커뮤니티 게시물).",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s7wik6/they_kinda_cute/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "what are the best CLIs to use alongside Cursor?",
+      "요약": "Cursor 사용자들이 함께 쓰는 유용한 CLI 도구 목록을 묻는 커뮤니티 질의.",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s80w4v/what_are_the_best_clis_to_use_alongside_cursor/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Anyone else experiencing compliance regression going from Composer 1.5 to 2?",
+      "요약": "Composer 1.5에서 2로 마이그레이션할 때 규칙 준수(compliance)와 출력 일관성(사용자 지시를 그대로 따름)에서 퇴보를 경험한다는 개발자 보고 — 4월 3일 마이그레이션을 앞두고 여론 조사.",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s806uj/anyone_else_experiencing_compliance_regression/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Does Cursor retain anything youve corrected between sessions?",
+      "요약": "Cursor가 세션 간 학습(사용자 피드백으로 행동 수정)을 유지하는지에 대한 경험담과 '좋아요/싫어요' 피드백으로 규칙이 생성되어 반복 실수를 막는 실무 팁 공유.",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s7zmmv/does_cursor_retain_anything_youve_corrected/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "medium"
+    },
+    {
+      "title": "Annoying MCP UI bug that has gone unfixed for several releases",
+      "요약": "Cursor의 MCP 도구 UI에서 쿼리 확장 버튼이 'copy' UI에 가려져 확장·검토 불가해지는 반복 UI 버그를 지적하는 게시물.",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s7xrch/annoying_mcp_ui_bug_that_has_gone_unfixed_for/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Hiring someone to convert a Base44 site into Cursor",
+      "요약": "Base44로 만든 사이트를 Cursor 기반으로 전환할 개발자 고용을 구하는 개인 사연(사업 전환/복구 관련 요청).",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s81j05/hiring_someone_to_convert_a_base44_site_into/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "How can we discuss and refine the plan before using Plan Mode?",
+      "요약": "Cursor 초보자가 Plan Mode가 자동 생성하는 계획을 사전에 토론·정제하는 방법을 질문하는 글.",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s7k823/how_can_we_discuss_and_refine_the_plan_before/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Keep per-task token consumption < LLM context window. This is the way.",
+      "요약": "Cursor 사용자가 작업별 토큰 소비를 LLM의 컨텍스트 창 미만으로 유지해야 코드 품질이 유지된다는 경험적 권고(토큰·컨텍스트 관련 베스트 프랙티스).",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s81lub/keep_pertask_token_consumption_llm_context_window/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "Unit test guidelines - rule or skill ?",
+      "요약": "Cursor 규칙(Rules) vs 스킬(Skills) 구분에 관한 토론에서 단위 테스트 가이드라인을 어느 쪽으로 관리해야 하는지 묻는 기술적 질문.",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s7ipkg/unit_test_guidelines_rule_or_skill/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "How to Automate App Store Screenshots with Cursor AI Agents",
+      "요약": "Cursor 에이전트를 이용해 App Store 스크린샷 생성을 자동화한 사례 공유(비주얼 데모 포함).",
+      "출처(url)": "https://www.reddit.com/r/cursor/comments/1s7ca82/how_to_automate_app_store_screenshots_with_cursor/",
+      "카테고리": "에이전틱 코딩 & 프론티어 모델",
+      "영향도": "low"
+    },
+    {
+      "title": "[D] thoughts on the controversy about Google's new paper?",
+      "요약": "사용자가 Google의 TurboQuant 관련 논문(또는 유사 논문)에서 기존 작업(RaBitQ) 미기재·비교 불공정성 의혹을 제기하며 논문 논란을 토론하는 Reddit 스레드(OpenReview 링크 포함).",
+      "출처(url)": "https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "medium"
+    },
+    {
+      "title": "[P] fastrad: GPU-native radiomics library — 25× faster than PyRadiomics, 100% IBSI-compliant, all 8 feature classes",
+      "요약": "PyRadiomics 대체를 목표로 한 GPU-네이티브 radiomics 라이브러리 fastrad 공개: RTX 4070 Ti에서 25× 속도 향상, IBSI 검증 통과, 오픈소스 리포지토리 제공.",
+      "출처(url)": "https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "medium"
+    },
+    {
+      "title": "[D] Joined UdeM MSCS without MILA affiliation - anyone successfully found a core MILA supervisor in their first semester?",
+      "요약": "UdeM MSCS 신입이 MILA(연구소) 소속 교수 지도교수 확보 가능성에 대해 전례/조언을 묻는 학계 관련 질문.",
+      "출처(url)": "https://www.reddit.com/r/MachineLearning/comments/1s83c9s/d_joined_udem_mscs_without_mila_affiliation/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "[P] Unix philosophy for ML pipelines: modular, swappable stages with typed contracts",
+      "요약": "RAG/검색 파이프라인을 유닉스 철학(모듈·파이프)으로 설계해 각 단계(PII redaction, chunking, embeddings 등)를 스왑 가능 플러그인으로 만든 오픈소스 프로토타입 소개(리포지토리 포함).",
+      "출처(url)": "https://www.reddit.com/r/MachineLearning/comments/1s7v4j4/p_unix_philosophy_for_ml_pipelines_modular/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "medium"
+    },
+    {
+      "title": "[P] Using YouTube as a data source (lessons from building a coffee domain dataset)",
+      "요약": "YouTube 동영상을 RAG용 데이터로 정리하는 과정에서 겪은 실무적 문제와 이를 해결한 CLI 도구(트랜스크립트 추출·클린징·청킹) 공개 사례.",
+      "출처(url)": "https://www.reddit.com/r/MachineLearning/comments/1s7r3ln/p_using_youtube_as_a_data_source_lessons_from/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "[R] looking for academic collaborators",
+      "요약": "오클랜드대 연구팀이 신경퇴행성 질환 관련 ML/딥러닝 연구 공동저자(학부·석사 학생 등)를 모집한다는 공지.",
+      "출처(url)": "https://www.reddit.com/r/MachineLearning/comments/1s7tdze/r_looking_for_academic_collaborators/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "[D] CVPR oral/poster decisions?",
+      "요약": "CVPR의 oral/poster 결정 시점에 대한 문의 — 결정 시한을 놓쳤는지 여부를 묻는 연구자 질문.",
+      "출처(url)": "https://www.reddit.com/r/MachineLearning/comments/1s7qars/d_cvpr_oralposter_decisions/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "low"
+    },
+    {
+      "title": "TRACER: Learn-to-Defer for LLM Classification with Formal Teacher-Agreement Guarantees",
+      "요약": "LLM 분류에서 값싼 서브시스템(서로게이트)을 도입하고 '서로게이트가 원모델과 동의할 확률'을 보장하는 학습 기반 라우팅 정책(TRACER) 라이브러리 소개. 캘리브레이션 기반 보장과 실험 결과 제공.",
+      "출처(url)": "https://www.reddit.com/r/MachineLearning/comments/1s7p0au/tracer_learntodefer_for_llm_classification_with/",
+      "카테고리": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "영향도": "medium"
+    }
+  ],
+  "chunks": 1
+}

@@ -1,0 +1,283 @@
+{
+  "date": "2026-03-30",
+  "items": [
+    {
+      "source_id": "reddit-claudeai",
+      "title": "r/ClaudeAI List of Ongoing Megathreads",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Please choose one of the following dedicated Megathreads discussing topics relevant to your issue.</p> <p><strong>Performance and Bugs Discussions</strong> : <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s7f72l/claude_performance_and_bugs_megathread_ongoing/\">https://www.reddit.com/r/ClaudeAI/comments/1s7f72l/claude_performance_and_bugs_megathread_ongoing/</a></p> <p><strong>Usage Limits Discussions:</strong> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s7fcjf/claude_usage_limits_discussion_megathread_ongoing/\">https://www.reddit.com/r/ClaudeAI/comments/1s7fcjf/claude_usage_limits_discussion_megathread_ongoing/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sixbillionthsheep\"> /u/sixbillionthsheep </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/\">[comments]</a></span>",
+      "published": "2026-03-30T03:18:44+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Investigating usage limits hitting faster than expected",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7zgj0/investigating_usage_limits_hitting_faster_than/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>We're aware people are hitting usage limits in Claude Code way faster than expected. We're actively investigating, will share more when we have an update.</p> <p><strong>2:20pm PT Update:</strong> Still working on this. It's the top priority for the team, and we know this is blocking a lot of you. We'll share more as soon as we have it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ClaudeOfficial\"> /u/ClaudeOfficial </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s7zgj0/investigating_usage_limits_hitting_faster_than/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s7zgj0/investigating_usage_limits_hitting_faster_than/\">[comments]</a></span>",
+      "published": "2026-03-30T18:46:17+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I gave Claude its own computer and let it run 24/7. Here's what it built.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s84l18/i_gave_claude_its_own_computer_and_let_it_run_247/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone. I built something called Phantom and just open sourced it. The idea is simple: what if instead of Claude running in your terminal and forgetting everything when you close the tab, you gave it its own dedicated machine and let it run all the time? </p> <p>So that's what I did. It's a Bun/TypeScript process that wraps the Agent SDK (Opus 4.6) with persistent vector memory, a self-evolution engine, and an MCP server. You talk to it on Slack. It runs on its own VM or Docker Compose. Three commands to set up. </p> <p>A few things that happened on production that I didn't expect: </p> <p>I asked it to help me with data analysis. It went and installed ClickHouse on its VM, downloaded 28.7 million rows of Hacker News data, built an analytics dashboard, created a REST API for it, and then registered that API as an MCP tool so it could use it again in future conversations. I never told it to do any of that. </p> <p>Someone asked it &quot;can I talk to you on Discord?&quot; and it said it doesn't support Discord but it could probably build it. It walked the user through making a Discord bot, took the token through a secure form, spun up a container, and went live on Discord. It literally added a channel it was never built with. </p> <p>It also found this tiny open source monitoring tool called Vigil, integrated it into its ClickHouse, and built itself a monitoring dashboard for its own infrastructure. The agent is watching itself. The self-evolution part is what I'm most proud of. After every session it runs a 6-step pipeline to rewrite its own config. The key insight was using Sonnet to judge changes that Opus proposed, because when Opus judged its own work it would slowly drift. Cross-model validation fixed that. </p> <p>I built this entire thing with Claude Code as my only engineering teammate. 770 tests, Apache 2.0. </p> <p>GitHub: <a href=\"https://github.com/ghostwright/phantom\">https://github.com/ghostwright/phantom</a> </p> <p>Would love to hear what you all think, especially if anyone has tried building persistent agents with the Agent SDK.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Beneficial_Elk_9867\"> /u/Beneficial_Elk_9867 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s84l18/i_gave_claude_its_own_computer_and_let_it_run_247/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s84l18/i_gave_claude_its_own_computer_and_let_it_run_247/\">[comments]</a></span>",
+      "published": "2026-03-30T21:52:34+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Istg, its unhinged",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s820s3/istg_its_unhinged/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s820s3/istg_its_unhinged/\"> <img alt=\"Istg, its unhinged\" src=\"https://preview.redd.it/q0mc4voop8sg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e8a82e953fe421572ee09e3de79d833c3599660d\" title=\"Istg, its unhinged\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>was training a model with highly imbalanced classes, getting terrible metrics, it was late night (2am) and said 'tackle it tomorrow' but claude had other plans</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/katua_bkl\"> /u/katua_bkl </a> <br /> <span><a href=\"https://i.redd.it/q0mc4voop8sg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1s820s3/istg_its_unhinged/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-03-30T20:17:39+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Shopify의 데이터 구조화 여정: One-Shot LLM에서 DSPy 기반 에이전틱 아키텍처로",
+      "url": "https://news.hada.io/topic?id=28022",
+      "summary": "<p>Shopify는 수백만 개의 비정형 커머스 데이터(상점 페이지, 정책 등)를 구조화된 데이터로 변환하기 위해 <strong>One-Shot LLM 방식에서 DSPy 기반의 전문화된 멀티 에이전트(Multi-Agent) 아키텍처로 전환</strong>했습니다. 이 과정에서 GPT-4/5급 대형 모델 대신 <strong>자체 호스팅된 Qwen(32B/72B급) 모델과 D...</p>",
+      "published": "2026-03-30T23:55:01+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Claude Code의 숨겨진 강력한 기능들 15가지",
+      "url": "https://news.hada.io/topic?id=28021",
+      "summary": "<ul>\n<li>클로드 코드 제작자 <strong>Boris Cherny</strong> 가 모바일 앱, 자동 스케줄링, 세션 포크, 병렬 워크트리 등 <strong>숨겨진/잘 사용되지 않는 기능들</strong>을 정리</li>\n<li>iOS/Android 앱의 <strong>Code 탭</strong>을 통해 노트북 없이도 코드 작성이 가능하며, <code>--teleport</code> 명령으로 ...</p>",
+      "published": "2026-03-30T23:00:05+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Claude Code가 프로젝트 저장소에 10분마다 Git reset --hard origin/main을 실행하는 문제",
+      "url": "https://news.hada.io/topic?id=28020",
+      "summary": "<ul>\n<li>macOS 환경에서 프로젝트 변경사항이 <strong>10분마다 자동으로 삭제</strong>되는 현상이 보고됨</li>\n<li>조사 결과, 원인은 Claude Code가 아니라 사용자가 만든 <strong>별도 로컬 자동화 도구</strong>가 GitPython을 통해 주기적으로 <code>git reset --hard origin/main</code>을 실행한 것으로 확인됨...</p>",
+      "published": "2026-03-30T20:33:26+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "AI 코딩 에이전트가 자유 소프트웨어를 다시 중요하게 만들 수 있음",
+      "url": "https://news.hada.io/topic?id=28019",
+      "summary": "<ul>\n<li>\n<strong>AI 코딩 에이전트</strong>는 사용자를 대신해 코드를 읽고 수정함으로써, 오랫동안 형식적 개념에 머물렀던 <strong>자유 소프트웨어의 ‘4대 자유’</strong> 를 실질적으로 복원할 가능성을 보여줌</li>\n<li>\n<strong>SaaS 중심 구조</strong>가 사용자의 소스 접근권을 제한해온 반면, 에이전트는...</p>",
+      "published": "2026-03-30T19:37:39+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "C++26 완성! — C++11 이후 최대 업그레이드, 리플렉션과 메모리 안전성 강화 공식 확정",
+      "url": "https://news.hada.io/topic?id=28018",
+      "summary": "<ul>\n<li>C++26이 공식 기술 완료. <strong>리플렉션, 메모리 안전성 강화, 계약(Contracts), std::execution</strong> 등 네 가지 핵심 기능이 포함됨</li>\n<li>\n<strong>컴파일 타임 리플렉션</strong>은 템플릿 도입 이래 C++ 역사상 가장 강력한 추상화 엔진으로, 언어가 스스로를 기술하고 코드를 생성할 수 있게 됨...</p>",
+      "published": "2026-03-30T19:34:39+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "MacBook 키보드가 고장났는데 수리비가 터무니없이 비싸요",
+      "url": "https://news.hada.io/topic?id=28017",
+      "summary": "<ul>\n<li>오른쪽 화살표 키가 <strong>지속적으로 눌린 상태로 인식</strong>되어 MacBook Pro 사용이 거의 불가능</li>\n<li>키보드가 <strong>상판에 리벳으로 고정</strong>되어 있어, 키보드만 교체할 수 없고 <strong>상판 전체를 교체해야 함</strong>\n</li>\n<li>교체 부품비가 약 <strong>€730</strong>, 인건비 ...</p>",
+      "published": "2026-03-30T15:33:13+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "미루기는 시간 관리가 아니라 감정 조절의 문제입니다.",
+      "url": "https://news.hada.io/topic?id=28016",
+      "summary": "<p>우리가 일을 미루는 진짜 이유</p>\n<p>2026년 ScienceDirect에 게재된 학술 미루기 체계적 리뷰에 따르면, 미루기의 핵심 원인은 세 가지.</p>\n<ol>\n<li>실패에 대한 두려움(Fear of Failure) : &quot;잘 못하면 어쩌지지?&quot;라는 불안</li>\n<li>완벽주의(Perfectionism) : &quot;완벽하게 할 자신이 없으니 시작조",
+      "published": "2026-03-30T14:10:00+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "여성 클리토리스 신경망이 처음으로 완전하게 지도화됨",
+      "url": "https://news.hada.io/topic?id=28015",
+      "summary": "<ul>\n<li>약 30년 전 남성 성기의 신경망이 밝혀진 이후, <strong>클리토리스 전체 신경 구조가 처음으로 3D 형태로 시각화</strong>됨</li>\n<li>연구팀은 <strong>고에너지 X선으로 여성 골반을 스캔해 폭 0.7mm 수준의 다섯 개 신경 가지</strong>를 정밀하게 재현함</li>\n<li>결과는 <strong>기존 해부학 교과서의 오...</p>",
+      "published": "2026-03-30T13:41:42+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Miasma: AI 웹 스크레이퍼를 끝없는 오염 루프로 가두는 도구",
+      "url": "https://news.hada.io/topic?id=28014",
+      "summary": "<ul>\n<li>\n<strong>Miasma</strong>는 AI 웹 스크레이퍼를 <strong>무한 루프에 빠뜨려 훈련 데이터 수집을 방해하는 Rust 기반 서버 도구</strong>\n</li>\n<li>웹사이트 콘텐츠를 대규모로 수집하는 <strong>AI 기업의 트래픽을 리디렉션</strong>해, ‘poison fountain’에서 가져온 <strong>오염된 데이터와 자기참조 ...</p>",
+      "published": "2026-03-30T13:38:41+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Pretext: 멀티라인 텍스트 측정과 레이아웃을 위한 TypeScript 라이브러리",
+      "url": "https://news.hada.io/topic?id=28013",
+      "summary": "<ul>\n<li>\n<strong>Pretext</strong>는 DOM 접근 없이 <strong>멀티라인 텍스트의 높이와 줄 배치</strong>를 계산하는 <strong>순수 JavaScript/TypeScript 라이브러리</strong>로, 브라우저와 서버 환경 모두 지원</li>\n<li>\n<strong>getBoundingClientRect</strong> 같은 DOM 측정 API를 사용하지 않아 <strong>레이아...</p>",
+      "published": "2026-03-30T13:35:41+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Neovim 0.12.0",
+      "url": "https://news.hada.io/topic?id=28011",
+      "summary": "<ul>\n<li>최신 안정 버전으로, <strong>LuaJIT 2.1</strong>을 내장하고 주요 수정 및 기능이 추가된 릴리스임</li>\n<li>Windows, macOS, Linux(x86_64·arm64)용 <strong>다양한 설치 패키지</strong>가 제공되어 즉시 실행 가능</li>\n<li>각 플랫폼별로 <strong>ZIP, MSI, tar.gz, AppImage</strong> 형식의 배포 파일과...</p>",
+      "published": "2026-03-30T12:33:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 한국 이커머스 스킨 개발용 정적 보일러플레이트 (HTMX + Vite + TypeScript)",
+      "url": "https://news.hada.io/topic?id=28008",
+      "summary": "<p>안녕하세요, 이커머스 쪽에서 백엔드 개발을 하고 있는 개발자입니다!</p>\n<p>한국 이커머스는 cafe24, 고도몰 &amp; 샵바이, 메이크샵 같은 플랫폼에서 스킨으로 프론트를 구성하는 경우가 많은데<br />\n주로 정적 서빙만 제공하다보니, React 같은 SPA 프레임워크를 사용하기엔 중소기업 규모에서는 어려운 경우가",
+      "published": "2026-03-30T05:35:57+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "인지적 암흑의 숲",
+      "url": "https://news.hada.io/topic?id=28007",
+      "summary": "<ul>\n<li>\n<strong>오픈 웹과 AI의 결합</strong>이 류츠신의 소설 <strong>『암흑의 숲』</strong> 논리처럼, 아이디어를 공개하는 행위 자체가 생존에 불리해지는 구조로 변하고 있음</li>\n<li>과거 인터넷은 아이디어 공유가 성공 가능성을 높이는 구조였지만, 2026년 현재는 <strong>플랫폼 집중화와 AI 실행 비용 하...</p>",
+      "published": "2026-03-30T04:33:08+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: travel plan - 링크로 저장되는 여행지도 (그리고 MCP를 곁들인)",
+      "url": "https://news.hada.io/topic?id=28006",
+      "summary": "<p>여행 일정을 짜면 항상 한 화면에서 일정과 지도 핀을 한눈에 볼 수 있었으면 해서 만들어 봤습니다<br />\n심플함을 우선시하여 로그인을 없애고 URL에 모든게 저장되어 전용 서버 없이 공유가 가능하도록 설계했습니다<br />\nMCP 연결하고 AI한테 시키면 일정 생성부터 링크 생성까지 모든걸 해줍니다</p>\n<ul>\n<li>",
+      "published": "2026-03-30T04:24:50+00:00"
+    },
+    {
+      "source_id": "github-blog-ai",
+      "title": "GitHub for Beginners: Getting started with GitHub security",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
+      "summary": "<p>Learn how to secure your projects and keep them safe with GitHub Advanced Security.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/\">GitHub for Beginners: Getting started with GitHub security</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-03-30T16:00:00+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Weekly Cursor Project Showcase Thread",
+      "url": "https://www.reddit.com/r/cursor/comments/1s7pxvq/weekly_cursor_project_showcase_thread/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Welcome to the <strong>Weekly Project Showcase Thread</strong>!</p> <p>This is your space to share cool things you’ve built using Cursor. Whether it’s a full app, a clever script, or just a fun experiment, we’d love to see it.</p> <h1>To help others get inspired, please include:</h1> <ul> <li>What you made</li> <li><strong>(Required)</strong> How Cursor helped (e.g., specific prompts, features, or setup)</li> <li><strong>(Optional)</strong> Any example that shows off your work. This could be a video, GitHub link, or other content that showcases what you built (no commercial or paid links, please)</li> </ul> <p>Let’s keep it friendly, constructive, and Cursor-focused. Happy building!</p> <p><strong>Reminder</strong>: Spammy, bot-generated, or clearly self-promotional submissions will be removed. Repeat offenders will be banned. Let’s keep this space useful and authentic for everyone.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7pxvq/weekly_cursor_project_showcase_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7pxvq/weekly_cursor_project_showcase_thread/\">[comments]</a></span>",
+      "published": "2026-03-30T13:02:01+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "They kinda cute",
+      "url": "https://www.reddit.com/r/cursor/comments/1s7wik6/they_kinda_cute/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s7wik6/they_kinda_cute/\"> <img alt=\"They kinda cute\" src=\"https://preview.redd.it/rwk61wzxr7sg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b9a7806c10c1b1125cc51bac46113b58716ca68f\" title=\"They kinda cute\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sugandalai\"> /u/sugandalai </a> <br /> <span><a href=\"https://i.redd.it/rwk61wzxr7sg1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7wik6/they_kinda_cute/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-03-30T17:04:03+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "what are the best CLIs to use alongside Cursor?",
+      "url": "https://www.reddit.com/r/cursor/comments/1s80w4v/what_are_the_best_clis_to_use_alongside_cursor/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>curious what everyone's running. drop your list.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/haydn54\"> /u/haydn54 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s80w4v/what_are_the_best_clis_to_use_alongside_cursor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s80w4v/what_are_the_best_clis_to_use_alongside_cursor/\">[comments]</a></span>",
+      "published": "2026-03-30T19:37:13+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Anyone else experiencing compliance regression going from Composer 1.5 to 2?",
+      "url": "https://www.reddit.com/r/cursor/comments/1s806uj/anyone_else_experiencing_compliance_regression/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Wanting to get a pulse check before the April 3 migration. I've been running both models side by side and I'm seeing a specific pattern with Composer 2 that I'm curious if others are hitting.</p> <p>My setup: 10 active projects, established codebases, Vue/TS. Pushed nearly 3B tokens through 1.5 last month and 560M+ across both models in the last week and a half (~410M on Composer 2, ~135M on 1.5).</p> <p>What I'm seeing with Composer 2:</p> <p>- I give it exact text to insert and it rewrites my wording instead of using it verbatim</p> <p>- It drops structural elements I intentionally included (labels, headings, specific formatting)</p> <p>- It collapses structure I purposely separated into single blocks</p> <p>- It proactively refactors or adds things I didn't ask for</p> <p>- Content/copy quality feels noticeably different from 1.5, you can tell the base model changed</p> <p>Composer 2 is strong on other things. It traces code well, thinks through edge cases, and on greenfield work where you don't have a reference point it's arguably better than 1.5. No complaints there.</p> <p>But in an established codebase where I need the model to follow existing patterns and use my input as given, the experience is a step back. 1.5 just did what I asked.</p> <p>Is anyone else seeing this, or is it specific to my workflow? Specifically interested in hearing from people working in established codebases, not greenfield projects.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PizzaConsole\"> /u/PizzaConsole </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s806uj/anyone_else_experiencing_compliance_regression/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s806uj/anyone_else_experiencing_compliance_regression/\">[comments]</a></span>",
+      "published": "2026-03-30T19:12:17+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Does Cursor retain anything youve corrected between sessions?",
+      "url": "https://www.reddit.com/r/cursor/comments/1s7zmmv/does_cursor_retain_anything_youve_corrected/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I keep running into the same thing with Cursor — I correct it mid-session, like &quot;dont force-push&quot; or &quot;always run tests before committing&quot; or &quot;use the existing helper dont write a new one&quot; — and it listens. That session goes great.</p> <p>Next session? Groundhog day. Same force-push. Same skipped tests. Same duplicate helper function. Its like talking to a goldfish sometimes.</p> <p>What finally worked for me was dead simple: thumbs down the mistake. Not just a mental note or updating .cursorrules — an actual structured signal: what went wrong, what to change. The system turns that 👎 into a prevention rule, and the agent gets physically blocked from doing it again next time.</p> <p>👍 works too — reinforces behavior you want to keep around. Over time the good patterns get stronger and the bad ones literally cant execute anymore.</p> <p>No prompt engineering needed. No manually editing .cursorrules every morning. You just react with 👍 or 👎 as you work and the enforcement builds itself from your feedback.</p> <p>The agent literally cant repeat a known mistake once a rule exists for it. Which honestly feels like how it should have worked from the start.</p> <p>Curious how others handle cross-session reliability. Are .cursorrules and manual prompting enough for you, or have you found something that actually sticks between sessions?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eazyigz123\"> /u/eazyigz123 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7zmmv/does_cursor_retain_anything_youve_corrected/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7zmmv/does_cursor_retain_anything_youve_corrected/\">[comments]</a></span>",
+      "published": "2026-03-30T18:52:28+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Annoying MCP UI bug that has gone unfixed for several releases",
+      "url": "https://www.reddit.com/r/cursor/comments/1s7xrch/annoying_mcp_ui_bug_that_has_gone_unfixed_for/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s7xrch/annoying_mcp_ui_bug_that_has_gone_unfixed_for/\"> <img alt=\"Annoying MCP UI bug that has gone unfixed for several releases\" src=\"https://preview.redd.it/zq4raztsy7sg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=8d60de5d70c679f188861a80c45fa4c5d9fbf08d\" title=\"Annoying MCP UI bug that has gone unfixed for several releases\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have never been able to actually expand an MCP tool operation to analyze the query it's about to run because when I do, the &quot;copy&quot; UI gets in the way. This is clearly a UI bug because it's literally right on top of the chevron to expand the panel. C'mon guys. It's been like this for so many deployed updates already.</p> <p>To reproduce, I just run any SQL MCP call that is not allowlisted and alas my pursuit to review the command is rendered moot. This is happening when connecting to a remote Postgres instance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tyliggity\"> /u/tyliggity </a> <br /> <span><a href=\"https://i.redd.it/zq4raztsy7sg1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7xrch/annoying_mcp_ui_bug_that_has_gone_unfixed_for/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-03-30T17:46:31+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Hiring someone to convert a Base44 site into Cursor",
+      "url": "https://www.reddit.com/r/cursor/comments/1s81j05/hiring_someone_to_convert_a_base44_site_into/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys,</p> <p>I'm trying to pull myself out of a bad spot. Life happened. Lost everything. Was homeless. Now in temporary housing, operating a forklift and trying to get a business off the ground. I'm reasonably tech savy, an ex-UI/UX designer, but with rudimentary coding skills. I've concepted out something that I really did not expect Base44 to be able to build. On the first go in the free plan, it got it about 70% of the way there, to give you an idea of how simple the site is. Essentially customer acquisition and account management, with a worker portal that can create and manage service routes. </p> <p>Three questions: </p> <p><strong>Is this wise to go this route?</strong> I want to convert it to Cursor for several reasons. To not be limited by or reliant on Base44, to not get locked into their ongoing fees after the design phase is complete, and to be able to make this into iOS / Android app with more ease. And so that I can get this launched as soon as possible, but be able to learn in the future so that I can manage changes myself.</p> <p><strong>What would be an extreme ballpark price in doing something like this?</strong></p> <p><strong>Where would be the best place to hire?</strong> </p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/supercool2000\"> /u/supercool2000 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s81j05/hiring_someone_to_convert_a_base44_site_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s81j05/hiring_someone_to_convert_a_base44_site_into/\">[comments]</a></span>",
+      "published": "2026-03-30T20:00:04+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "How can we discuss and refine the plan before using Plan Mode?",
+      "url": "https://www.reddit.com/r/cursor/comments/1s7k823/how_can_we_discuss_and_refine_the_plan_before/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm new to Cursor. When I use Plan Mode, it always creates a plan with some questions. I want to discuss and explore all areas before making a plan. How can I do that?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Visible_Sector3147\"> /u/Visible_Sector3147 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7k823/how_can_we_discuss_and_refine_the_plan_before/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7k823/how_can_we_discuss_and_refine_the_plan_before/\">[comments]</a></span>",
+      "published": "2026-03-30T07:53:20+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Keep per-task token consumption < LLM context window. This is the way.",
+      "url": "https://www.reddit.com/r/cursor/comments/1s81lub/keep_pertask_token_consumption_llm_context_window/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s81lub/keep_pertask_token_consumption_llm_context_window/\"> <img alt=\"Keep per-task token consumption &lt; LLM context window. This is the way.\" src=\"https://preview.redd.it/ja4h8vcdl8sg1.png?width=140&amp;height=117&amp;auto=webp&amp;s=84842abda4f18818846eba87e48192cc4a1016fa\" title=\"Keep per-task token consumption &lt; LLM context window. This is the way.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>As simple as that. I am pushing cursor hard and here's a simple observation. </p> <p>Code quality degrades drastically beyond that limit. It starts skipping details, oversimplifying, ignoring instructions. Think of it like precision loss, but for code - if you want lossless quality, keep it within limits.</p> <p><a href=\"https://preview.redd.it/ja4h8vcdl8sg1.png?width=1560&amp;format=png&amp;auto=webp&amp;s=e840ac0f305ec4a3dae1c90d4e29590b2e9714c9\">https://preview.redd.it/ja4h8vcdl8sg1.png?width=1560&amp;format=png&amp;auto=webp&amp;s=e840ac0f305ec4a3dae1c90d4e29590b2e9714c9</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UnderstandingDry1256\"> /u/UnderstandingDry1256 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s81lub/keep_pertask_token_consumption_llm_context_window/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s81lub/keep_pertask_token_consumption_llm_context_window/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-03-30T20:02:47+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Unit test guidelines - rule or skill ?",
+      "url": "https://www.reddit.com/r/cursor/comments/1s7ipkg/unit_test_guidelines_rule_or_skill/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been digging older posts about Rules vs. skills and when either should be used.</p> <p>According to a post on the Cursor forums -</p> <ul> <li>Rules: permanent instructions like code style and architecture standards (short, under 500 lines)</li> <li>Skills: specialized domain knowledge for the agent if you’re on nightly</li> </ul> <p>To me, it feels like under the hood, a rule that is applied intelligently by the agent vs. a Skill should behave pretty much the same.</p> <p>In the context of &quot;unit testing guidelines&quot; - a set of project and team conventions for creating tests - which one should be used - a rule or a skill? and why?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/liortal53\"> /u/liortal53 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7ipkg/unit_test_guidelines_rule_or_skill/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7ipkg/unit_test_guidelines_rule_or_skill/\">[comments]</a></span>",
+      "published": "2026-03-30T06:19:28+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "How to Automate App Store Screenshots with Cursor AI Agents",
+      "url": "https://www.reddit.com/r/cursor/comments/1s7ca82/how_to_automate_app_store_screenshots_with_cursor/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1s7ca82/how_to_automate_app_store_screenshots_with_cursor/\"> <img alt=\"How to Automate App Store Screenshots with Cursor AI Agents\" src=\"https://external-preview.redd.it/8Wdsa5MQc6C3L0c3wE7X9JJTr11sPDkugaUUU1M4kvo.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=d68bad62e5eeb905d82e825fbc1854bf74d0bd69\" title=\"How to Automate App Store Screenshots with Cursor AI Agents\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zach-builds\"> /u/zach-builds </a> <br /> <span><a href=\"https://v.redd.it/yz49w8pcw2sg1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1s7ca82/how_to_automate_app_store_screenshots_with_cursor/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-03-30T00:50:17+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "[D] thoughts on the controversy about Google's new paper?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Openreview: <a href=\"https://openreview.net/forum?id=tO3ASKZlok\">https://openreview.net/forum?id=tO3ASKZlok</a></p> <p>It's sad to see almost no one mention this on Reddit and people are being mean to people who point out concerns</p> <p>Edit: google is allegedly doing this in their trending TurboQuant paper</p> <ol> <li><p>Did not attribute a pervious work RaBitQ fully</p></li> <li><p>Did unfair comparison with RaBitQ (single core CPU vs GPU)</p></li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Striking-Warning9533\"> /u/Striking-Warning9533 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/\">[comments]</a></span>",
+      "published": "2026-03-30T09:57:30+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "[P] fastrad: GPU-native radiomics library — 25× faster than PyRadiomics, 100% IBSI-compliant, all 8 feature classes",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>PyRadiomics is the de facto standard for radiomic feature extraction, but it's CPU-only and takes ~3 seconds per scan. At scale, that's a bottleneck.</p> <p>I built fastrad — a PyTorch-native library that implements all 8 IBSI feature classes (first-order, shape 2D/3D, GLCM, GLRLM, GLSZM, GLDM, NGTDM) as native tensor operations. Everything runs on torch.Tensor with transparent device routing (auto/cuda/cpu).</p> <p>Key numbers on an RTX 4070 Ti vs PyRadiomics:</p> <p>• End-to-end: 0.116s vs 2.90s → 25× speedup</p> <p>• Per-class gains range from 12.9× (GLRLM) to 49.3× (first-order)</p> <p>• Single-thread CPU: 2.63× faster than PyRadiomics 32-thread on x86, 3.56× on Apple Silicon</p> <p>• Peak VRAM: 654 MB</p> <p>Correctness: validated against the IBSI Phase 1 digital phantom (105 features, max deviation ≤ 10⁻¹³%) and against PyRadiomics on a TCIA NSCLC CT — all 105 features agree to within 10⁻¹¹.</p> <p>Happy to answer questions on the implementation — the GLCM and GLSZM kernels were the trickiest to get numerically identical to PyRadiomics.</p> <p>Pre-print: <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6436486\">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6436486</a></p> <p>Github repo: <a href=\"https://github.com/helloerikaaa/fastrad\">https://github.com/helloerikaaa/fastrad</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/helloerikaaa\"> /u/helloerikaaa </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster/\">[comments]</a></span>",
+      "published": "2026-03-30T20:43:38+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "[D] Joined UdeM MSCS without MILA affiliation - anyone successfully found a core MILA supervisor in their first semester?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s83c9s/d_joined_udem_mscs_without_mila_affiliation/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I've been accepted into the MSCS program at UdeM for this coming fall. I applied to the MILA supervisor matching process, but didn't get any responses.</p> <p>I wanted to know if anyone here has been in a similar situation, joined UdeM without MILA affiliation, and managed to get taken on by a core MILA professor during or after their first semester.</p> <p>I understand this isn't the standard path, and the matching window has already passed for this cycle. But I'm trying to figure out whether this is genuinely feasible or whether I should be recalibrating my expectations entirely, or if there is any other path I am overlooking.</p> <p>If you've done it or know someone who has ... what actually made the difference? Was it coming in with existing work, excelling in classes, TAing for the right professor, something else entirely?</p> <p>Not looking for reassurance. Just want to know if there's a real precedent here and what the realistic picture looks like.</p> <p>Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Actual_banana_2002\"> /u/Actual_banana_2002 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s83c9s/d_joined_udem_mscs_without_mila_affiliation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s83c9s/d_joined_udem_mscs_without_mila_affiliation/\">[comments]</a></span>",
+      "published": "2026-03-30T21:06:08+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "[P] Unix philosophy for ML pipelines: modular, swappable stages with typed contracts",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7v4j4/p_unix_philosophy_for_ml_pipelines_modular/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><pre><code>We built an open-source prototype that applies Unix philosophy to retrieval pipelines. Each stage (PII redaction, chunking, dedup, embeddings, eval) is its own plugin with a typed contract, like pipes between Unix tools. The motivation: we swapped a chunker and retrieval got worse, but could not isolate whether it was the chunking or something breaking downstream. With each stage independently swappable, you change one option, re-run eval, and compare precision/recall directly. ```python Feature(&quot;docs__pii_redacted__chunked__deduped__embedded__evaluated&quot;, options={ &quot;redaction_method&quot;: &quot;presidio&quot;, &quot;chunking_method&quot;: &quot;sentence&quot;, &quot;embedding_method&quot;: &quot;tfidf&quot;, }) ``` Each `__` is a stage boundary. Swap any piece, the rest stays the same. Still a prototype, not production. Looking for feedback on whether the design assumptions hold up. Repo: [https://github.com/mloda-ai/rag_integration](https://github.com/mloda-ai/rag_integration) </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coldoven\"> /u/coldoven </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7v4j4/p_unix_philosophy_for_ml_pipelines_modular/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7v4j4/p_unix_philosophy_for_ml_pipelines_modular/\">[comments]</a></span>",
+      "published": "2026-03-30T16:15:51+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "[P] Using YouTube as a data source (lessons from building a coffee domain dataset)",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7r3ln/p_using_youtube_as_a_data_source_lessons_from/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7r3ln/p_using_youtube_as_a_data_source_lessons_from/\"> <img alt=\"[P] Using YouTube as a data source (lessons from building a coffee domain dataset)\" src=\"https://external-preview.redd.it/W1qtdlwVAgyDO8Gb7Jxbi3iDIoTqWN84efUix2wtWLs.png?width=140&amp;height=70&amp;auto=webp&amp;s=7e7fa489ec45bfc1ae5cece40c791310376ce134\" title=\"[P] Using YouTube as a data source (lessons from building a coffee domain dataset)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I started working on a small coffee coaching app recently - something that could answer questions around brew methods, grind size, extraction, etc.</p> <p>I was looking for good data and realized most written sources are either shallow or scattered. YouTube, on the other hand, has insanely high-quality content (James Hoffmann, Lance Hedrick, etc.), but it’s not usable out of the box for RAG.</p> <p>Transcripts are messy, chunking is inconsistent, getting everything into a usable format took way more effort than expected.</p> <p>So I made a small CLI tool that:</p> <ul> <li>pulls videos from a channel</li> <li>extracts transcripts</li> <li>cleans + chunks them into something usable for embeddings</li> </ul> <p><a href=\"https://preview.redd.it/wagqqzpos6sg1.png?width=640&amp;format=png&amp;auto=webp&amp;s=e18e13760188c39c2f64b4c19738fcdcec1c5435\">https://preview.redd.it/wagqqzpos6sg1.png?width=640&amp;format=png&amp;auto=webp&amp;s=e18e13760188c39c2f64b4c19738fcdcec1c5435</a></p> <p>It basically became the data layer for my app, and funnily ended up getting way more traction than my actual coffee coaching app!</p> <p>Repo: <a href=\"https://github.com/rav4nn/youtube-rag-scraper\">youtube-rag-scraper</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ravann4\"> /u/ravann4 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7r3ln/p_using_youtube_as_a_data_source_lessons_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7r3ln/p_using_youtube_as_a_data_source_lessons_from/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-03-30T13:48:33+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "[R] looking for academic collaborators",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7tdze/r_looking_for_academic_collaborators/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>hey there, i am currently working with a research group at auckland university. we are currently working on neurodegenerative diseases - drug discovery using machine learning and deep learning. if you are a bachelors or masters student and looking forward to publish a paper - pm me!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Big-Shopping2444\"> /u/Big-Shopping2444 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7tdze/r_looking_for_academic_collaborators/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7tdze/r_looking_for_academic_collaborators/\">[comments]</a></span>",
+      "published": "2026-03-30T15:14:34+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "[D] CVPR oral/poster decisions?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7qars/d_cvpr_oralposter_decisions/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Can anyone shed any light on the timeframes for CVPR oral/poster decisions? Have I missed these? Or are they extremely delayed?<br /> Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/amds201\"> /u/amds201 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7qars/d_cvpr_oralposter_decisions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7qars/d_cvpr_oralposter_decisions/\">[comments]</a></span>",
+      "published": "2026-03-30T13:16:27+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "TRACER: Learn-to-Defer for LLM Classification with Formal Teacher-Agreement Guarantees",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7p0au/tracer_learntodefer_for_llm_classification_with/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7p0au/tracer_learntodefer_for_llm_classification_with/\"> <img alt=\"TRACER: Learn-to-Defer for LLM Classification with Formal Teacher-Agreement Guarantees\" src=\"https://external-preview.redd.it/gGcHlKvAn1FfFyLFltHoWNYF8ShCW8z3-DfyCta7fuU.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a238004213cb246ad98535d530c5f074df8f13cc\" title=\"TRACER: Learn-to-Defer for LLM Classification with Formal Teacher-Agreement Guarantees\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I'm releasing TRACER (Trace-Based Adaptive Cost-Efficient Routing), a library for learning cost-efficient routing policies from LLM traces.</p> <p>The setup: you have an LLM handling classification tasks. You want to replace a fraction of calls with a cheap local surrogate, with a formal guarantee that the surrogate agrees with the LLM at least X% of the time on handled traffic.</p> <p>Technical core:</p> <ul> <li>Three pipeline families: Global (accept-all), L2D (surrogate + conformal acceptor gate), RSB (Residual Surrogate Boosting: two-stage cascade)</li> <li>Acceptor gate predicts surrogate-teacher agreement; calibrated on held-out split</li> <li>Calibration guarantee: coverage maximized subject to TA &gt;= target on calibration set</li> <li>Model zoo: logreg, MLP (1h/2h), DT, RF, ExtraTrees, GBT, XGBoost (optional)</li> <li>Qualitative audit: slice summaries, contrastive boundary pairs, temporal deltas</li> </ul> <p>Results on Banking77 (77-class intent, BGE-M3 embeddings):</p> <ul> <li>91.4% coverage at 92% teacher agreement target</li> <li>96.4% end-to-end macro-F1</li> <li>L2D selected; method automatically determined by Pareto frontier</li> </ul> <p>Paper in progress. Feedback welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Adr-740\"> /u/Adr-740 </a> <br /> <span><a href=\"https://github.com/adrida/tracer\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1s7p0au/tracer_learntodefer_for_llm_classification_with/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-03-30T12:21:53+00:00"
+    }
+  ],
+  "sources_run": [
+    "hn-newest",
+    "reddit-claudeai",
+    "geeknews-hada",
+    "github-blog-ai",
+    "hn-agentic",
+    "reddit-cursor",
+    "openai-blog",
+    "reddit-ml",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}
