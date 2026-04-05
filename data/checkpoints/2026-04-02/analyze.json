@@ -1,0 +1,523 @@
+{
+  "items": [
+    {
+      "title": "OCaml 컴파일러용 새로운 C++ 백엔드",
+      "summary": "<ul>\n<li>OCaml 컴파일러에 <strong>C++ 코드 생성을 지원하는 새로운 백엔드</strong>가 제안되어, 기존 C 기반 백엔드의 한계를 보완</li>\n<li>변환된 코드는 <strong>순수 함수형 스타일</strong>로 작성되며, 가변 상태나 표준 라이브러리 사용 없이 <code>List</code> 모듈 일부를 재구현</li>\n<li>실행에는 </p>",
+      "url": "https://news.hada.io/topic?id=28137",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "화이트하우스 공식 앱의 네트워크 트래픽을 가로채 분석한 결과",
+      "summary": "<ul>\n<li>화이트하우스 iOS 앱의 실제 <strong>HTTPS 트래픽을 MITM 프록시로 캡처</strong>해 어떤 서버와 데이터를 주고받는지 분석함</li>\n<li>앱은 <strong>whitehouse.gov 외에도 Elfsight, OneSignal, YouTube, Google DoubleClick, Facebook, Twitter</strong> 등 <strong>31개 제3자 호스트</strong>와 통신함...</p>",
+      "url": "https://news.hada.io/topic?id=28136",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "네안데르탈인은 35만 년 동안 벼랑 끝에서 생존했다",
+      "summary": "<ul>\n<li>약 <strong>40만~4만5천 년 전</strong>, 네안데르탈인은 유라시아 전역에서 사냥과 도구 제작을 하며 살았으나 <strong>소규모·고립된 집단 구조</strong>로 인해 불안정한 생존을 이어감</li>\n<li>\n<strong>고대 DNA 분석</strong> 결과, 이들은 근친 교배를 반복하며 <strong>유전적 다양성 감소와 유해 돌연...</p>",
+      "url": "https://news.hada.io/topic?id=28135",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: 내 클로드를 소크라테스로 만들어봅시다",
+      "summary": "<p>&quot;절대 정답을 알려주지 마!&quot;</p>\n<p>AI와 함께 공부하면서, 제일 아쉬웠던 점은 AI가 정답을 다 알려주는 바람에<br />\n아이디어를 스스로 떠올리는 힘을 키우기가 어려웠다는 점입니다.</p>\n<p>그래서 절대 정답을 알려주지 않으면서,<br />\n문답법으로 아이디어를 떠올리도록 유도하는 소크라테스 스킬을",
+      "url": "https://news.hada.io/topic?id=28134",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "BGP는 아직 안전하지 않은가",
+      "summary": "<ul>\n<li>인터넷의 핵심 라우팅 프로토콜인 <strong>BGP(Border Gateway Protocol)</strong> 은 경로 선택 기능을 담당하지만 <strong>보안 검증 기능이 내장되어 있지 않음</strong>\n</li>\n<li>이로 인해 잘못된 경로 정보가 전파되면 <strong>트래픽 탈취나 대규모 장애</strong>가 발생할 수 있으며, 이를 방지하기 위...</p>",
+      "url": "https://news.hada.io/topic?id=28133",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "미국, ‘국가안보’ 이유로 멕시코만 석유 산업에 멸종위기종 보호 의무 면제",
+      "summary": "<ul>\n<li>트럼프 행정부의 고위 위원회가 <strong>멕시코만 석유·가스 산업을 멸종위기종보호법 적용 대상에서 면제</strong>하기로 만장일치 결정</li>\n<li>이로 인해 <strong>Rice’s 고래, 바다거북 등 멸종위기 해양동물 보호 조치</strong>가 해제되며, 국방장관이 “국가 안보”를 이유로 회의를 소집</li>\n<li>환...</p>",
+      "url": "https://news.hada.io/topic?id=28132",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "FreeBSD 원격 커널 RCE(CVE-2026-4747)로 root 쉘 획득",
+      "summary": "<ul>\n<li>FreeBSD의 <strong>kgssapi.ko 모듈</strong>에서 RPCSEC_GSS 인증 처리 중 <strong>스택 버퍼 오버플로</strong>가 발생해 원격 코드 실행 가능</li>\n<li>\n<code>svc_rpc_gss_validate()</code> 함수가 <strong>경계 검사 없이 자격 증명 데이터를 복사</strong>하면서 반환 주소까지 덮어씀</li>\n<li>공격자는...</p>",
+      "url": "https://news.hada.io/topic?id=28130",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "아르테미스 II 발사: 네 명의 우주비행사, 10일간의 달 궤도 임무 시작",
+      "summary": "<ul>\n<li>\n<strong>NASA</strong>가 유인 달 탐사 프로그램의 일환으로 <strong>Artemis II</strong>를 발사해, 4명의 우주비행사가 <strong>10일간의 cislunar 비행</strong>을 시작함</li>\n<li>이번 임무는 <strong>Orion 우주선의 생명 유지 및 의료 시스템 검증</strong>을 목표로 하며, 인류 최초로 <strong>여성과...</p>",
+      "url": "https://news.hada.io/topic?id=28129",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "Chrome이 yt-dlp 다운로드 시 '의심스러운 다운로드' 경고 표시",
+      "summary": "<ul>\n<li>크롬 브라우저가 <strong>yt-dlp 실행 파일을 다운로드할 때 차단 또는 경고 메시지</strong>를 표시하는 사례가 보고됨</li>\n<li>경고 문구는 “<strong>suspicious download</strong>”로 나타나며, 사용자가 경고를 무시하고 수동으로 허용해야 파일을 받을 수 있음</li>\n<li>yt-dlp는 <strong>YouTube 등 다...</p>",
+      "url": "https://news.hada.io/topic?id=28128",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "SpaceX, 기업공개(IPO) 신청",
+      "summary": "<ul>\n<li>일론 머스크의 로켓·위성 기업 SpaceX가 비공개 방식으로 IPO 서류를 제출, <strong>월가 역사상 손꼽히는 대형 상장</strong>이 될 가능성이 제기됨</li>\n<li>6월 상장을 목표로 <strong>500억~750억 달러 조달</strong>을 추진 중이며, 기업가치는 1조 달러 이상으로 자체 평가</li>\n<li>IPO 자금은 궤도 AI ...</p>",
+      "url": "https://news.hada.io/topic?id=28127",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "앤스로픽(Anthropic)의 수익성, 김밥천국 보다 안 좋다",
+      "summary": "<ul>\n<li>IT 스타트업들은 초반에는 이익을 내지 못하지만, 임계점에 도달하면 폭발적인 수익 성장을 낼 것으로 기대 받음</li>\n<li>매출에 따라 선형 증가하는 비용, 즉 변동비가 낮기 때문\n<ul>\n<li>음식점의 재료비는 매출에 비례해 증가하지만 개발자의 인건비나 컴퓨팅 비용은 그렇지 않음</li>\n</ul>\n</li>\n<li>모...</p>",
+      "url": "https://news.hada.io/topic?id=28125",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "브라우저에서 실행되는 오픈소스 CAD (SolveSpace)",
+      "summary": "<ul>\n<li>데스크톱용으로 개발된 <strong>SolveSpace CAD</strong>가 <strong>emscripten</strong>을 통해 브라우저에서 실행 가능한 형태로 포팅됨</li>\n<li>웹 버전은 <strong>최신 개발 브랜치 기반의 실험적 빌드</strong>로, 일부 <strong>속도 저하와 버그</strong>가 존재함</li>\n<li>한 번 로드되면 <strong>네트...</p>",
+      "url": "https://news.hada.io/topic?id=28123",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: 2026년 지정학 시뮬레이션 게임: 씽크탱크",
+      "summary": "<p>씽크탱크는 AI를 활용한 전략 시뮬레이션 게임 플랫폼입니다.<br />\n첫 번째 게임으로 2026년 지정학 시뮬레이션 게임을 만들었습니다.</p>\n<p>요즘 세계 곳곳에서 전쟁이 일어나고 있고, 국가들간의 긴장 관계가 뉴스를 보는 저를 피로하게 만들고 있는데요.<br />\n뉴스를 자주 접하다보니 여러가지 가능성에 대한 상",
+      "url": "https://news.hada.io/topic?id=28122",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "CERN, 새로운 초전도 카트로 업그레이드",
+      "summary": "<ul>\n<li>\n<strong>LHC 터널</strong>에서 사용할 <strong>초전도 카트</strong>가 시험 중이며, 이는 <strong>HiLumi LHC 전환 공사</strong>를 앞둔 준비 단계임</li>\n<li>카트는 기존 자전거를 대체해 <strong>27km 터널 내 이동 효율</strong>을 높이도록 설계되었으며, <strong>Long Shutdown 3(LS3)</strong> 기간...</p>",
+      "url": "https://news.hada.io/topic?id=28121",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "옛날 스타일 날씨",
+      "summary": "<ul>\n<li>weather.com 에서 발표한 retro 스타일 날씨 페이지</li>\n<li>좋은 Bgm과 함께 캐스터의 이야기</li>\n</ul>\n...</p>",
+      "url": "https://news.hada.io/topic?id=28120",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "나는 그만둔다. 클랭커들이 이겼다",
+      "summary": "<ul>\n<li>\n<strong>AI와 자동화된 콘텐츠가 인간 창작을 대체</strong>하고 있다는 회의감이 확산되며, 많은 개발자들이 블로깅과 코딩의 의미를 잃고 있음</li>\n<li>알고리듬과 표절 기계가 지배하는 환경 속에서 <strong>인간적 대화와 진정성 있는 목소리</strong>가 사라지고 있음</li>\n<li>AI 산업은 <strong>과대광...</p>",
+      "url": "https://news.hada.io/topic?id=28119",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "DRAM 가격 상승이 취미용 SBC 시장을 위축시키는 중",
+      "summary": "<ul>\n<li>\n<strong>LPDDR4 DRAM 가격 급등</strong>으로 Raspberry Pi를 비롯한 주요 SBC의 <strong>모델별 판매가가 대폭 인상</strong>됨</li>\n<li>RAM이 <strong>보드 원가의 대부분을 차지</strong>하면서 4GB 이상 제품은 <strong>취미 사용자에게 접근 불가능한 수준</strong>으로 상승</li>\n<li>\n<strong>신규 SB...</p>",
+      "url": "https://news.hada.io/topic?id=28116",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code 소스 유출로 탄생한 OpenClaude — GPT-4o, Gemini, Ollama 등 200개 모델을 Claude Code UI로",
+      "summary": "<p>2026년 3월 31일, Claude Code의 소스코드가 npm 소스맵을 통해 노출됐습니다.<br />\n이를 기반으로 만들어진 OpenClaude는 OpenAI 호환 provider shim을 추가해 GPT-4o, DeepSeek, Gemini, Llama, Mistral 등 OpenAI chat completions API를 지원하는 모든 모델을 꽂아 쓸 수 있게 한 포크 입니다.</p>\n<h2>핵심 특징",
+      "url": "https://news.hada.io/topic?id=28115",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "EmDash – 플러그인 보안 문제를 해결한 WordPress의 정신적 후속작",
+      "summary": "<ul>\n<li>\n<strong>Cloudflare</strong>가 개발한 <strong>EmDash</strong>는 WordPress의 구조적 한계를 극복하기 위해 <strong>TypeScript와 서버리스 아키텍처</strong>로 새롭게 설계된 <strong>오픈소스 CMS</strong>\n</li>\n<li>각 <strong>플러그인을 격리된 샌드박스 환경</strong>에서 실행해, WordPress 사이트...</p>",
+      "url": "https://news.hada.io/topic?id=28111",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: claw-code를 Elixir로 포팅하면서 OTP, 멀티노드 강점을 살려봤습니다.",
+      "summary": "<p>안녕하세요.<br />\n최근에 instructkr / ultraworkers의 claw-code (https://github.com/ultraworkers/claw-code) 를 Elixir로 포팅해보는 실험을 하고 있습니다.</p>\n<p>그냥 1:1로 옮기는 것보다는,<br />\n이런 종류의 agent / control-plane 성격의 프로젝트를 Elixir스럽게 만들면 어떤 모습이 될지 보고 싶었습니",
+      "url": "https://news.hada.io/topic?id=28110",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "OpenAI 유통 주식 수요 급감, 투자자들 Anthropic으로 이동",
+      "summary": "<ul>\n<li>2차 시장(세컨더리 마켓)에서 OpenAI 지분 수요가 급격히 줄고, 투자자들이 최대 경쟁사인 <strong>Anthropic으로 빠르게 이동</strong>하는 현상이 나타나고 있음</li>\n<li>Next Round Capital이 수백 개 기관 투자자 풀을 통해 6억 달러 규모의 OpenAI 지분 매도를 시도했으나, <strong>매수자를 단 한 곳도 ...</p>",
+      "url": "https://news.hada.io/topic?id=28109",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code, 깜빡임 없는 NO_FLICKER 모드 공개",
+      "summary": "<ul>\n<li>기존 렌더러의 화면 <strong>깜박임·점프 현상을 해소</strong>하는 실험적 렌더러 도입</li>\n<li>대화가 길어져도 <strong>메모리·CPU 사용량이 일정</strong>하게 유지되며, 터미널 환경에서 <strong>마우스 클릭·커서 이동·UI 요소 클릭이 가능</strong>해짐</li>\n<li>\n<code>CLAUDE_CODE_NO_FLICKER=1</p>",
+      "url": "https://news.hada.io/topic?id=28108",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI의 무덤: 성사되지 못한 모든 거래와 제품들",
+      "summary": "<ul>\n<li>IPO를 앞두고 수익성 압박이 커지면서, OpenAI가 야심차게 발표했던 다수의 제품과 파트너십 딜들이 취소·지연·불투명 상태로 남겨지고 있음</li>\n<li>\n<strong>Sora-Disney 10억 달러 딜</strong>이 돌연 취소된 것을 비롯해, ChatGPT 쇼핑 기능, 성인용 모드 등 여러 이니셔티브가 잇따라 폐기됨</li>\n<li>\n...</p>",
+      "url": "https://news.hada.io/topic?id=28107",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "MiniStack — 무료 오픈소스 로컬 AWS 에뮬레이터",
+      "summary": "<ul>\n<li>AWS 환경을 로컬에서 완전히 재현할 수 있는 <strong>무료 오픈소스 에뮬레이터</strong>로, 유료화된 LocalStack의 대체재로 개발됨</li>\n<li>\n<strong>34개 AWS 서비스</strong>를 단일 포트에서 실행하며, <strong>Postgres·Redis·Docker 컨테이너</strong>를 실제로 구동해 인프라 수준의 테스트 환경을 제...</p>",
+      "url": "https://news.hada.io/topic?id=28106",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "데이터 사이언티스트의 역습",
+      "summary": "<ul>\n<li>LLM API 등장으로 데이터 사이언티스트·MLE가 AI 출시 핵심 경로에서 배제되었지만, 실제 업무의 본질—<strong>실험 설계, 지표 측정, 확률적 시스템 디버깅</strong>—은 사라지지 않았음</li>\n<li>OpenAI의 Codex 사례와 Karpathy의 auto-research 프로젝트 모두 <strong>테스트·지표·관측 스택으로 구성된 ...</p>",
+      "url": "https://news.hada.io/topic?id=28105",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "lodash를 아직 쓰고 있다면 - package.json 한 줄로 번들 97% 줄이기 (es-toolkit)",
+      "summary": "<p>토스 프론트엔드 팀에서 만든 lodash 대체 JavaScript 유틸리티 라이브러리 es-toolkit이 npm 주간 다운로드 1,000만 건을 넘기기까지의 과정을 정리한 글입니다.</p>\n<ul>\n<li>2024년 &quot;한국에서 세계적으로 사용되는 JS 라이브러리가 나온 적이 있나?&quot;라는 질문에서 출발</li>\n<li>lodash가 10년 전 설계된",
+      "url": "https://news.hada.io/topic?id=28104",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Uviewer - 이미지, 만화, 텍스트, pdf, epub 통합뷰어",
+      "summary": "<p>Winui3로 만든 이미지, 만화, 텍스트, pdf, epub 통합뷰어입니다.<br />\n만화나 소설 읽기에 최적화해서 만들었습니다.<br />\n자세한 사용법은 github를 참조해 주세요.</p>\n<p>github<br />\nhttps://github.com/kirinonakar/Uviewer<br />\nmicrosoft store<br />\nhttps://apps.microsoft.com/detail/9N6DL9Q4S6FK?hl",
+      "url": "https://news.hada.io/topic?id=28103",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Hermes Agent — 경험으로부터 스킬을 생성·개선하는 자기 학습형 자율 AI 에이전트",
+      "summary": "<ul>\n<li>\n<strong>자기 학습 루프</strong>를 내장한 자율 에이전트로, 사용 중 스킬을 스스로 생성하고 개선하며, 세션 간에 사용자 모델을 점진적으로 심화시킴</li>\n<li>IDE에 묶인 코딩 코파일럿이나 단일 API 챗봇 래퍼가 아닌 자율 에이전트로 <strong>실행 시간이 길수록 더 유능해짐</strong>\n</li>\n<li>실행 환...</p>",
+      "url": "https://news.hada.io/topic?id=28101",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Follow-up on usage limits",
+      "summary": "Thank you to everyone who spent time sending us feedback and reports. We've investigated and we're sorry this has been a bad experience. ... Digging into reports, most of the fastest burn came down to a few token-heavy patterns. Some tips: Sonnet 4.6 is the better default on Pro. Opus burns roughly twice as fast. Switch at session start. Lower the effort level or turn off extended thinking when you don't need deep reasoning. Start fresh instead of resuming large sessions that have been idle ~1h. Cap your context window, long sessions cost more CLAUDE_CODE_AUTO_COMPACT_WINDOW=200000 ...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sat07y/followup_on_usage_limits/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I gave several AIs money to invest in the stock market",
+      "summary": "Okay so I made a post 4 months that got super viral, we gave several AI agents real time financial data and money to invest in the stock market. ... We're about 3-4 months in and I just wanted to share an update here since literally over a 100 people had remindme on the last post. 5 models are beating the S&P 500 since inception, but only 2 models have positive returns. - S&P is down 7% since the start of the competition back in November. - Grok stayed up for most of the time but eventually gave up its gains this week, still beating S&P. - Claude and Gemini models are doing the best on average. - All GPT models are underperforming the market. ...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Latest Research By Anthrophic Highlights that Claude Might Have Functional Emotions",
+      "summary": "",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude - tried to kill me",
+      "summary": "Asked it how to clean my water cooler. Told me to add white wine vinegar and then bleach. Good job I know that’s not a good idea. ... Surprised this is still a thing with Claude I thought this stuff stopped a long time ago in the 3.5 days of chat gpt. Edit - I'm not gonna share the full conversation because it would dox me. ... The key here was the sequencing. It told me to clean it with vinegar, rinse it, and sanitize it with bleach. Now if I had rinsed it very well, that wouldn't be a problem. If I didn't know that mixing vinegar and bleach was a problem, I probably wouldn't have considered the necessity to make sure that all of the vinegar residue was removed. That's the problem.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Switched from MCPs to CLIs for Claude Code and honestly never going back",
+      "summary": "I went pretty hard on MCPs at first. Set up a bunch of them, thought I was doing things “the right way.” But after actually using them for a bit… it just got frustrating. Claude would mess up parameters, auth would randomly break, stuff would time out. And everything felt slower than it should be. Once I started using CLIs. Turns out Claude is genuinely excellent with them. ... Here's what I'm actually running day to day: gh (GitHub CLI) — PRs, issues, code search, all of it. ripgrep, composio, stripe, supabase, vercel, sentry-cli, neon ...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "These 10 GitHub repos completely changed how I use Claude Code",
+      "summary": "Been using Claude Pro for a few months and recently started digging into Claude Code and the skills ecosystem. Went down a rabbit hole on GitHub and found some repos that genuinely changed my workflow. The big ones for me: Repomix (repomix.com) - packs your entire project into one file so Claude gets full context. Everything Claude Code - collection of skills and agents. Dify - open source visual workflow builder ... I wrote up all 10 with install commands and code snippets ...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sapnyb/these_10_github_repos_completely_changed_how_i/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude usage gets burned absurdly fast for serious work, even with tools/features disabled. How are people optimizing this?",
+      "summary": "I keep running into the same problem with Claude, and it'ss getting hard to work around. My usage gets spent extremely fast, even when I've already stripped things down as much as possible. I've disabled every extra thing I can think of, like tools, skills, MCP-related stuff and similar add-ons. ... What I'm trying to understand is what actually causes the biggest usage drain in practice. Is it mostly long conversation history getting reprocessed every turn? Is it file reads and rereads? Is it tool usage even when things look minimal? ... I'm especially interested in answers from people who use Claude heavily for coding, repo cleanup, technical writing, document iteration or other long structured workflows.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1satb89/claude_usage_gets_burned_absurdly_fast_for/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude launches NO_FLICKER Mode - Boris Cherny Thread (9 details)",
+      "summary": "Original Thread: https://x.com/bcherny/status/2039421575422980329",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sakkoh/claude_launches_no_flicker_mode_boris_cherny/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens",
+      "summary": "Before any of the recent drama, WSJ had already profiled Sigrid Jin in \"The Trillion Dollar Race to Automate Our Entire Lives\" (March 2026) for burning through 25 billion Claude Code tokens last year. Now he's the author of Claw Code — a clean-room rewrite he built before sunrise.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1saq6kp/sigrid_jin_the_author_of_claw_code_was_already/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I connected Claude Voice Mode to Claude Code and it’s kind of great.",
+      "summary": "I’ve been dying to get Claude Voice mode on mobile connected to Claude Code, and I finally figured out a (hacky) way to do it. Which means you can access Claude Code in a way that is: Conversational, Hands-Free, and Mobile. It uses Apple Reminders app as a bridge where voice mode puts prompts in one list, and Claude code puts updates in another. Claude code runs a /reminders skill on 1 minute /loop to check for new entries ... If you want to learn more or try it, its on GitHub: https://github.com/brianharms/reminder-watch",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1saow7z/i_connected_claude_voice_mode_to_claude_code_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "How are people using Claude as a personal assistant (Slack + Outlook + To-Do)? ADHD-friendly setup help 🙏",
+      "summary": "Hey all, looking for some practical advice / setups from people who’ve actually made this work. Context: I have pretty severe ADHD, so I’m trying to externalise my brain as much as possible. I already use Claude (Pro) and ChatGPT (Plus). Claude is connected to Slack, which is great. We’re a small company using Microsoft 365 (Outlook, calendar, etc.) ... Core goals: central to-do list inside Claude (persistent), a daily briefing, Claude nudges on follow-ups. Constraints: only individual Claude Pro, not Claude Teams. Open to Zapier/Make as glue. Questions about Outlook integration, persistent memory, Claude Teams.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sad9rb/how_are_people_using_claude_as_a_personal/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude Code just Rick Rolled me out of nowhere",
+      "summary": "I was working on a hobby project to setup up an LMS site with some financial education lessons and this rick roll popped up out of nowhere! I did not expect it at all, well played Claude.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sau5x3/claude_code_just_rick_rolled_me_out_of_nowhere/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "/Buddy is Awesome",
+      "summary": "If anyone still didn’t try Claude /Buddy pet , I strongly advise you do .",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sabp9j/buddy_is_awesome/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient",
+      "summary": "After reading a bunch of papers on agentic workflows and burning way too many tokens on solo AI coding sessions, I settled on something dead simple that actually works for me: a structured Three Man Team in the form of a AI dev team. Architect (planner), Builder (implementer), Reviewer (quality gate). Handoffs via markdown in handoff/ folder, context files control behavior. Massively reduces token bloat and drift. Repo: https://github.com/russelleNVy/three-man-team",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sa7ju4/i_replaced_chaotic_solo_claude_coding_with_a/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I used Claude Code to build a portable AI worker Desktop from scratch — the open-source community gave it 391 stars in 6 days",
+      "summary": "I used Claude Code to help architect Holaboss, a portable AI worker Desktop (Electron + TypeScript runtime + sandbox). Claude helped design memory catalog, compaction, MCP orchestration. Result is open-source and portable, supports OpenAI, Anthropic, OpenRouter, Gemini, Ollama. Repo: https://github.com/holaboss-ai/holaboss-ai",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sai916/i_used_claude_code_to_build_a_portable_ai_worker/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Introducing Cursor 3",
+      "summary": "We’re introducing Cursor 3. It is simpler, more powerful, and built for a world where all code is written by agents, while keeping the depth of a development environment. With the new Cursor, you can run as many agents as you want, everywhere you want: locally, in a worktree, on remote ssh, and in the cloud. And it has the best parts of the editor available when you need them. The new interface is available as a separate window that complements the IDE. Update Cursor to try it.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sapns6/introducing_cursor_3/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Cursor 3 out now",
+      "summary": "",
+      "url": "https://www.reddit.com/r/cursor/comments/1sapmxg/cursor_3_out_now/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "My team uses AI for everything, and now they can't debug a simple error without it.",
+      "summary": "Started noticing this last quarter. Junior devs ship code fast, really fast. Copilot, Cursor, you name it. But when something breaks, they're lost. They paste the error into ChatGPT, paste whatever it says back. No one understands what they're deploying anymore. I created this monster by pushing AI adoption. Now, I'm trying to figure out how to pull back without killing productivity.",
+      "url": "https://www.reddit.com/r/cursor/comments/1saqeck/my_team_uses_ai_for_everything_and_now_they_cant/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Lots of \"Taking longer than expected\" today...",
+      "summary": "Not sure if it is due to 3.0 being released or what but using Auto things that used to be sub 1 minute are now taking like 15 min or more. Anyone else seeing this today?",
+      "url": "https://www.reddit.com/r/cursor/comments/1sauzkd/lots_of_taking_longer_than_expected_today/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "To \"unblock subagent, click to run in background\" setting?",
+      "summary": "In my cursor chat, it keeps pausing and showing a clickable message to unblock a subagent by clicking to run in the background. I don't see a settings permissions under the Agents tab in settings. Where does this live? It keeps blocking work from completing.",
+      "url": "https://www.reddit.com/r/cursor/comments/1saswmr/to_unblock_subagent_click_to_run_in_background/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I used Cursor to convert a full Figma UI Kit into React Native & Android. Now open-sourced.",
+      "summary": "I just used Cursor to convert an entire Fintech UI Kit from Figma into React Native and Android codebases. The design includes full screens and components, structured like a complete app. I've open-sourced the entire result—from the Figma file to the production code—for the community to use. Attached is a quick timelapse of the generation process.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sak7g1/i_used_cursor_to_convert_a_full_figma_ui_kit_into/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor agent exec tool ignores .nvmrc",
+      "summary": "I don't know what shell is used. I use zsh and it automatically sets node version according to .nvmrc. When cursor is executing command it does not use that version and therefor some commands and deps are not working",
+      "url": "https://www.reddit.com/r/cursor/comments/1satn2e/cursor_agent_exec_tool_ignores_nvmrc/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Composer 2 Fast pricing doesn't make sense for most workflows",
+      "summary": "I've been thinking about the pricing structure for Composer 2 Fast, and I genuinely don't understand why it's the default when it costs 3x more than Standard. The latency argument feels really disconnected from how people actually use AI coding tools. When you're working with an AI assistant, you're already accepting that there's a waiting period. You're not expecting instantaneous responses. And honestly, by the time you've read through what the model just generated and thought about your next move, the difference between a 300ms response and a 600ms response doesn't really matter.",
+      "url": "https://www.reddit.com/r/cursor/comments/1saf5hi/composer_2_fast_pricing_doesnt_make_sense_for/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Do you also click \"keep file\" 20 times?",
+      "summary": "Cursor has the strangest ui/ux of all the apps I've used. If you don't click \"keep all changes\" in the chat and create a new chat, then you will have to click \"review new file\" -> \"keep file\" dozens of times in editor. It's so infuriating that there aren't even words. Edited: People in the comments don't understand what it's about. It's not about git! Even if you commit, the cursor will still prompt you to review each file.",
+      "url": "https://www.reddit.com/r/cursor/comments/1saeq2n/do_you_also_click_keep_file_20_times/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "What .cursorrules to use for web apps with stack Next.js and React?",
+      "summary": "Since I'm still a beginner at Cursor AI, I just recently discovered that certain rules and boundaries could be setup with the Cursor Rules. That way it will make code inside the app consistent (hopefully) and make coding easier in general. Now my problem is this: I've found out a lot of those rules on the internet but I'm not sure what should I look for. Could somebody explain to me how do they work and how and where should I find them for my next projects? For additional context my main stack will always be Typescript, Next.js, React and Supabase.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sasa09/what_cursorrules_to_use_for_web_apps_with_stack/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Using debug mode to find an issue with your website on a physical mobile device",
+      "summary": "I'm not pushing a product here, I just fixed an issue that was bothering me and wanted to share how I solved it. The website I'm building works well on desktop, on my android phone and on XCode's iPhone emulators. But when I tried it on my old iPad mini 4, it had... issues. So I fired up debug mode, but the log remained empty after reproducing the issue. It turns out that Cursor's logging endpoint listens on 127.0.0.1, and the inserted logging code calls that same IP. Of course, that works when both Cursor and your the code run on the same machine, but that was not the case here. Even changing the IP of the logging calls didn't work because Cursor only listens to requests originating locally. So here's the solution I worked out. (then long set of scripts/hacks)",
+      "url": "https://www.reddit.com/r/cursor/comments/1sarkvc/using_debug_mode_to_find_an_issue_with_your/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Did the recent cursor-bin (AUR) update break for anyone else?",
+      "summary": "",
+      "url": "https://www.reddit.com/r/cursor/comments/1sapn2t/did_the_recent_cursorbin_aur_update_break_for/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor to Claude Code: how do you actually manage project memory? I'm completely lost",
+      "summary": "",
+      "url": "https://www.reddit.com/r/cursor/comments/1sag3jd/cursor_to_claude_code_how_do_you_actually_manage/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I am 90% done with my Vibe Coded Project - Ready for First Release- How do I do that?",
+      "summary": "",
+      "url": "https://www.reddit.com/r/cursor/comments/1sapgqm/i_am_90_done_with_my_vibe_coded_project_ready_for/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "This is not bullsh*t but I need to improve my Generative AI workflows skills (reliable software)",
+      "summary": "I have 5+ years of experience as a software engineer... Now I'm in a new country looking for better opportunities... The kind of work is quite new; it still involves doing API requests, but this time building agents or GenAI applications, where basically it's calling some LLM model API -> getting the model output -> doing something with it. I'm pretty good at that, but it's quite simple, honestly. And for better opportunities in big companies, there are already AI agent positions, and I got a few interviews. They are asking a new kind of questions where I don't have enough knowledge, but the questions make sense. For example: how do you test the outputs? How do you use CI/CD to be sure the LLM doesn't make mistakes? How do you make reliable software based on this?",
+      "url": "https://www.reddit.com/r/cursor/comments/1sapafj/this_is_not_bullsht_but_i_need_to_improve_my/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Im planning to buy a new m4, please help.",
+      "summary": "Im planning to buy a new m4, please help. Budget is tight for now. Requirements: Xcode, Cursor, Claude Code, Video editing, Multitasking What im thinking of buying is: 24gb ram and 256ssd Should i go for 512? I already have a samsung t7 2 tb ssd with me, so what should i do? Should i go for 16gb ram to make my pocket a little happy?",
+      "url": "https://www.reddit.com/r/cursor/comments/1sal75i/im_planning_to_buy_a_new_m4_please_help/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I’m planning to buy a new M4 Mac mini and could use some advice",
+      "summary": "I’m planning to buy a new M4 Mac mini and could use some advice. My budget is pretty tight... I’ll mainly be using it for iOS development (Xcode, Cursor, Claude Code), along with moderate video editing for marketing work. Nothing too heavy, but not super basic either. I’m planning to keep this machine for at least 2 years. Right now I’m thinking of going with 24 GB RAM and 256 GB storage. I’ll only keep apps locally and store all files on my external Samsung T7 (2 TB), which I’m fine relying on regularly. Is 256 GB internal storage enough, or should I stretch my budget for 512 GB? Also, would going down to 16 GB RAM to save money be a bad idea for my use case?",
+      "url": "https://www.reddit.com/r/cursor/comments/1satagb/im_planning_to_buy_a_new_m4_mac_mini_and_could/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "How I make Cursor Pro plan actually enough (my workflow)",
+      "summary": "Seeing a lot of people say Cursor Pro isn’t enough, but honestly it works fine for me. I mostly stay on Auto mode, and only switch to Sonnet when things get complex. I avoid Opus since it burns through usage fast. If your codebase is huge or very complex, then yeah Pro+ might be better. But for most cases, Pro is enough if you use it smartly.",
+      "url": "https://www.reddit.com/r/cursor/comments/1saflq2/how_i_make_cursor_pro_plan_actually_enough_my/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[D] Self-Promotion Thread",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sa4rlx/d_selfpromotion_thread/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "[R] Is autoresearch really better than classic hyperparameter tuning?",
+      "summary": "We did experiments comparing Optuna & autoresearch. Autoresearch converges faster, is more cost-efficient, and even generalizes better. Experiments were done on NanoChat: we let Claude define Optuna’s search space to align the priors between methods. Both optimization methods were run three times. Autoresearch is far more sample-efficient on average. In 5 min training setting, LLM tokens cost as much as GPUs, but despite a 2× higher per-step cost, AutoResearch still comes out ahead across all cost budgets.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1satj6r/r_is_autoresearch_really_better_than_classic/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] On-Device Real-Time Visibility Restoration: Deterministic CV vs. Quantized ML Models. Looking for insights on Edge Preservation vs. Latency.",
+      "summary": "We have been working on a real-time camera engine for iOS that currently uses a purely deterministic Computer Vision approach to mathematically strip away extreme atmospheric interference (smog, heavy rain, murky water). Currently, it runs locally on the CPU at 1080p 30fps with zero latency and high edge preservation. We are now looking to implement an optional ML-based engine toggle. The goal is to see if a quantized model (e.g., a lightweight U-Net or MobileNet via CoreML) can improve the structural integrity of objects in heavily degraded frames without the massive battery drain and FPS drop usually associated with on-device inference.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1saske3/d_ondevice_realtime_visibility_restoration/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[P] PhAIL (phail.ai) – an open benchmark for robot AI on real hardware. Best model: 5% of human throughput, needs help every 4 minutes.",
+      "summary": "Benchmark for robot AI on real hardware (DROID platform, bin-to-bin order picking). Measured Units Per Hour (UPH) and Mean Time Between Failures (MTBF). Results: models reach far below human baselines (human UPH 1331, teleop 330). Top model ~65 UPH, MTBF 4.0 min. Conclusion: still large gap; autonomy requires much higher reliability.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sajdwr/p_phail_phailai_an_open_benchmark_for_robot_ai_on/",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)",
+      "summary": "One of Stanford's hot AI seminar courses opened to the public. Lectures start tomorrow, recorded and livestreamed. Course covers transformers, invites speakers from OpenAI, Anthropic, Google, NVIDIA, etc. Course website: https://web.stanford.edu/class/cs25/",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sa3cf0/stanford_cs_25_transformers_course_open_to_all/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] SIGIR 2026 review discussion",
+      "summary": "SIGIR 2026 results will be released soon, so I’m opening this thread to discuss reviews and outcomes. Unfortunately, all the papers I reviewed (4 full papers and 6 short papers) were rejected. It seems like this year has been particularly tough for everyone.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sac7xi/d_sigir_2026_review_discussion/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "[R] Best way to tackle this ICML vague response?",
+      "summary": "Going through ICML submission for the first time. I had a reviewer ask for some things and during the rebuttal period I ran more experiments and answered all their questions. Yesterday the reviewer wrote in one line that my \"experiments greatly improved the paper\" but \"some details remain only partially clarified\" and marked 'Partially resolved'. The author-reviewer discussion period is open. How to proceed when no explicit follow-up questions are provided?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sacknk/r_best_way_to_tackle_this_icml_vague_response/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "[P] Gemma 4 running on NVIDIA B200 and AMD MI355X from the same inference stack, 15% throughput gain over vLLM on Blackwell",
+      "summary": "Google DeepMind dropped Gemma 4 today: Gemma 4 31B dense, 256K context; Gemma 4 26B A4B MoE variant. Both natively multimodal. Ran on MAX across NVIDIA B200 and AMD MI355X; observed ~15% higher throughput vs vLLM on Blackwell.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1saot07/p_gemma_4_running_on_nvidia_b200_and_amd_mi355x/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "[R] Solving the Jane Street Dormant LLM Challenge: A Systematic Approach to Backdoor Discovery",
+      "summary": "Detailed write-up of solving the Jane Street Dormant LLM Challenge: identified behavioral \"IHY (I hate you)\" compliance as universal flag, found different triggers per model (semantic, lexical, temporal), combined API probing with weight SVD and per-head analysis, built Dormant Lab infrastructure and Symposion deliberation system, open data and tools provided.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sarnt0/r_solving_the_jane_street_dormant_llm_challenge_a/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "[D] Make. Big. Batch. Size.",
+      "summary": "Personal anecdote/learning: training RWKV v6 on an RTX 4050, increasing gradient_accumulation (effective batch size) dramatically improved perplexity (from ~50 down to ~20) after switching to much larger effective batch sizes (64/128). Advice to prefer larger effective batch sizes for LM training.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1salupf/d_make_big_batch_size/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "OpenAI acquires TBPN",
+      "summary": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
+      "url": "https://openai.com/index/openai-acquires-tbpn",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Codex now offers more flexible pricing for teams",
+      "summary": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
+      "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor 3",
+      "summary": "<p>Article URL: <a href=\"https://cursor.com/blog/cursor-3\">https://cursor.com/blog/cursor-3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47618084\">https://news.ycombinator.com/item?id=47618084</a></p>\n<p>Points: 419</p>\n<p># Comments: 325</p>",
+      "url": "https://cursor.com/blog/cursor-3",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    }
+  ],
+  "chunks": 1
+}

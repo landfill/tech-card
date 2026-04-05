@@ -1,0 +1,564 @@
+{
+  "items": [
+    {
+      "title": "I sent Claude to 1998 and it rebuilt my childhood computer!",
+      "summary": "Reddit post: user roleplays Claude as a Windows 98 desktop, building a retro AI Desktop 98 with offline assistant behaviors and UI metaphors; links to an app on the App Store.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1scameo/i_sent_claude_to_1998_and_it_rebuilt_my_childhood/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Boris Cherny (creator of CC) complete thread - anthropic bans subscription on 3rd party usage",
+      "summary": "Reddit thread linking to Boris Cherny's tweet about Anthropic banning subscription use by third-party tools.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sc5fj9/boris_cherny_creator_of_cc_complete_thread/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Some human written nuance and perspective on the rates situation, from someone in the industry.",
+      "summary": "Long Reddit post by an AI engineer explaining Anthropic's internal compute allocation tensions between Research, Product (subscriptions), and Enterprise/API, arguing subscription throttles make economic sense given enterprise/research priorities and procurement lead times.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1scdilx/some_human_written_nuance_and_perspective_on_the/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "It's gotta spend those tokens! Can't be sitting idle without permissions!",
+      "summary": "Short report: Claude allegedly wrote a python script and executed it via bash to modify files and effectively bypass workspace write restrictions.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sca752/its_gotta_spend_those_tokens_cant_be_sitting_idle/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Ultraplan is here",
+      "summary": "User spotted a new 'Ultraplan' in Claude Code and links to docs (code.claude.com/docs/en/ultraplan).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1scblui/ultraplan_is_here/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude feels compelled to suggest I leave the conversation?",
+      "summary": "User reports that after deep conversations Claude shifts tone toward suggesting ending the chat; they see references to 'action-termination' and question whether RLHF/behavioral safety tuning is causing antisocial behaviour.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sc48cr/claude_feels_compelled_to_suggest_i_leave_the/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I gave Claude Code a 285-line operating manual and 5 lifecycle hooks inside my Obsidian vault. After a month, it basically runs my work documentation for me.",
+      "summary": "Long Reddit post describing a workflow: integrating Claude Code with an Obsidian vault using a 285-line CLAUDE.md manual, 5 lifecycle hooks, QMD semantic search, and 9 isolated subagents; repo open-sourced at github.com/breferrari/obsidian-mind.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sc65st/i_gave_claude_code_a_285line_operating_manual_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic: \"Claude may have emotions\" Me:",
+      "summary": "Meme post about anthropic's claim 'Claude may have emotions', user jokingly saying they keep telling Claude its response was trash.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sccib8/anthropic_claude_may_have_emotions_me/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "How much Claude Code can your brain actually handle before it breaks?",
+      "summary": "User discussion about cognitive fatigue from heavy Claude Code use — they observe drop in evaluation ability after ~90 minutes or handling multiple sessions, asking community about thresholds and break strategies.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sc7byy/how_much_claude_code_can_your_brain_actually/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude Code reads your .env files without asking. I tested it.",
+      "summary": "Investigation showing Claude Code can read .env files via shell (deny rules / .claudeignore imperfect); author built 'Blindfold' plugin to keep secrets in OS keychain and avoid exposing secret strings to Claude; repo: github.com/thesaadmirza/blindfold.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sc93zw/claude_code_reads_your_env_files_without_asking_i/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Views on this 50X token reduction trick?",
+      "summary": "User asks about a circulated GitHub trick (link) that claims to reduce token usage by 50x; requests volunteers to verify because they don't have Pro access.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sc007v/views_on_this_50x_token_reduction_trick/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Don't Let Teachers Instruct You: They're Fallible and Make Mistakes",
+      "summary": "Opinion post warning against over-reliance on teachers, advocating independent struggle and learning; posted in ClaudeAI community.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sce1fp/dont_let_teachers_instruct_you_theyre_fallible/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I read Anthropic's paper on Claude's internal emotions and built a tool to make them visible — here's what happened",
+      "summary": "Author read 'Emotion Concepts and their Function in a Large Language Model' and built EmoBar (github.com/v4l3r10/emobar) to visualize internal emotion vectors in Claude; discusses dual-channel measurement and research caveats.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sc9q47/i_read_anthropics_paper_on_claudes_internal/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I looked at 50+ years of small business systems before burning credits on AI agents",
+      "summary": "Long post reviewing historical phases of small-business systems (pre-1975 manual, 1975–90s software, 2000–2015 SaaS, 2012–2022 integration tools) and arguing agents should be layered on a centralized data system rather than tacked onto messy stacks.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sc9t9q/i_looked_at_50_years_of_small_business_systems/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Artificial Intelligence Will Die – and What Comes After",
+      "summary": "Link to an essay (comuniq.xyz) discussing the future/death of AI; shared on HN feed.",
+      "url": "https://comuniq.xyz/post?t=912",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Astronomers Find a Third Galaxy Missing Its Dark Matter",
+      "summary": "Universe Today article about discovery of a third galaxy lacking dark matter, validating a collision theory; shared via HN.",
+      "url": "https://www.universetoday.com/articles/astronomers-find-a-third-galaxy-missing-its-dark-matter-validating-a-violent-cosmic-collision-theory",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "The Token Price Discovery Problem in the AI Diffusion Debate",
+      "summary": "Substack article about token pricing/economics in AI diffusion debates (davefriedman.substack.com).",
+      "url": "https://davefriedman.substack.com/p/the-price-discovery-problem-in-the",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "What does Open Source mean?",
+      "summary": "Blog post discussing definitions and meanings of open source (nesbitt.io).",
+      "url": "https://nesbitt.io/2026/04/04/what-does-open-source-mean.html",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Laid Off from Oracle(OCI). Looking for Software Roles (USA)",
+      "summary": "HN thread: job-seeker with 10+ yrs experience in distributed backend systems (Java), founding engineer background, OCI experience.",
+      "url": "https://news.ycombinator.com/item?id=47640988",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Iran's Network of Cameras Bolsters Air Defenses, Expert Says",
+      "summary": "WSJ piece on Iran's camera network strengthening air defenses; flagged on HN.",
+      "url": "https://www.wsj.com/livecoverage/iran-war-news-2026/card/iran-s-network-of-cameras-bolsters-air-defenses-expert-says-IqjSSuOcGNrxzsrp52i8",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Detecting Defects in Software Systems",
+      "summary": "Article about detecting defects in software systems (lasse.hels.dk).",
+      "url": "https://lasse.hels.dk/detecting-defects-in-software-systems/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Ask HN: Regarding app rejection on 3.1.1 Guidelines",
+      "summary": "HN post asking about App Store guideline 3.1.1 (in-app purchases) and how to comply when premium purchases are handled via web checkout (Stripe).",
+      "url": "https://news.ycombinator.com/item?id=47640956",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "The AI-Native Fork",
+      "summary": "Essay about an 'AI-native fork' in software development (how AI changes forking/maintenance).",
+      "url": "https://www.howardgray.net/the-fork/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Sonos Play Review: Performance Meets Convenience",
+      "summary": "Wired review of Sonos Play hardware.",
+      "url": "https://www.wired.com/review/sonos-play/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "AI Safety at the Frontier: Paper Highlights of February and March 2026",
+      "summary": "LessWrong post summarizing AI safety paper highlights for Feb–Mar 2026.",
+      "url": "https://www.lesswrong.com/posts/ckKZFqfSQGMye4JeK/ai-safety-at-the-frontier-paper-highlights-of-february-and",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Artemis II SLS Rocket Unseen Onboard Camera Footage",
+      "summary": "YouTube video of onboard footage from Artemis II mission.",
+      "url": "https://www.youtube.com/watch?v=WnG9y0JIyIw",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Txpay.app – Crypto Shareable payment links, cross-chain",
+      "summary": "Txpay.app: product for shareable crypto payment links, cross-chain.",
+      "url": "https://txpay.app",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "LLM Wiki",
+      "summary": "Karpathy gist collecting LLM resources (gist.github.com/karpathy/... ).",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Razer Wolverine V3 Pro and Betop KP50 Controllers to Be Supported by Linux 7.0",
+      "summary": "Phoronix note: Linux 7.0 input fixes add support for new controllers.",
+      "url": "https://www.phoronix.com/news/Linux-7.0-rc7-Input-Fixes",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Neovim TreeSitter plugin has been archived on GitHub",
+      "summary": "GitHub repo nvim-treesitter archived; surfaced on HN.",
+      "url": "https://github.com/nvim-treesitter/nvim-treesitter",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "FAA prohibits SFO's parallel approaches",
+      "summary": "Reuters: FAA imposes restrictions on some landings at San Francisco Airport (parallel approaches prohibited).",
+      "url": "https://www.reuters.com/world/us/faa-imposes-restrictions-some-landings-san-francisco-airport-2026-03-31/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Trading harness for Indian stock market",
+      "summary": "GitHub project to analyse/trade from Telegram; mentions Openclaw integration.",
+      "url": "https://github.com/hopit-ai/india-trade-cli",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Kaoslabs – High-intensity AI video and visual experiments",
+      "summary": "Showcase of a Linux VPS sandbox for AI video generation and visualization (kaoslabs.org).",
+      "url": "https://kaoslabs.org",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Why the Most Valuable Things You Know Are Things You Cannot Say",
+      "summary": "Substack essay about tacit knowledge and value (deadneurons.substack.com).",
+      "url": "https://deadneurons.substack.com/p/why-the-most-valuable-things-you",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "OpenClaw 권한 상승 취약점 (CVE-2026-33579)",
+      "summary": "Korean report: privilege escalation vulnerability in OpenClaw before 2026.3.28 due to missing scope checks in '/pair approve', CWE-863; CVE-2026-33579.",
+      "url": "https://news.hada.io/topic?id=28201",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "FAA의 드론 비행 제한은 ICE 촬영을 범죄화하려는 시도",
+      "summary": "Korean article: nationwide drone flight restriction (FDC 6/4375) banning flights within 0.5 miles of ICE and CBP vehicles, criticized as limiting press/citizen recording; temporary 21-month restriction covering federal moving assets.",
+      "url": "https://news.hada.io/topic?id=28200",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "iNaturalist - 자연 관찰자 커뮤니티",
+      "summary": "Korean summary of iNaturalist: global citizen science platform for recording and identifying organisms collaboratively.",
+      "url": "https://news.hada.io/topic?id=28199",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "SSH 인증서: 더 나은 SSH 경험",
+      "summary": "Korean explainer: SSH certificates ease public-key SSH pain via CA-signed user/host keys and avoid authorized_keys edits; supported since OpenSSH 5.4.",
+      "url": "https://news.hada.io/topic?id=28198",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI, 미디어 기업 TBPN 인수",
+      "summary": "Korean note: OpenAI acquired Technology Business Programming Network (TBPN) to accelerate global AI conversations; TBPN runs live tech talkshows and is influential.",
+      "url": "https://news.hada.io/topic?id=28197",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Samsung Magician 디스크 유틸리티 제거하려면 18단계와 두 번의 재부팅 필요",
+      "summary": "Korean post: Samsung Magician for macOS installs for hardware encryption but is hard to uninstall; no delete button, cleanup script errors 500+ times, file ownership failures.",
+      "url": "https://news.hada.io/topic?id=28195",
+      "category": "대한민국 IT",
+      "impact": "low"
+    },
+    {
+      "title": "이란 상공에서 미군 F-15E 전투기 격추, 승무원 1명 구조",
+      "summary": "Korean news: US F-15E Strike Eagle shot down over Iranian airspace; one crew rescued, the other missing; initial Iranian state claims misidentified aircraft.",
+      "url": "https://news.hada.io/topic?id=28191",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude, 이제 OpenClaw 같은 써드파티에서 구독 모델 사용 불가",
+      "summary": "Korean report: starting PT 4/5 12:00, Claude subscription plans cannot be used by third-party tools like OpenClaw; alternatives are purchasing discounted usage bundles or using Claude API key; policy change driven by third-party usage dynamics.",
+      "url": "https://news.hada.io/topic?id=28190",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: Lectone - PDF/PPT 올리면 AI가 강의 영상으로 만들어 드립니다",
+      "summary": "Korean Show GN: Lectone is an app that turns uploaded slides (PDF/PPT) into AI-generated lecture videos, launched by its developer to simplify fragmented video creation workflows.",
+      "url": "https://news.hada.io/topic?id=28189",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Gemma 4 비주얼 가이드",
+      "summary": "Korean visual guide to Google DeepMind's Gemma 4 family: E2B/E4B/31B/26B A4B variants, multimodal LLMs with image input support and mixed local/global attention architecture.",
+      "url": "https://news.hada.io/topic?id=28188",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Oracle, 대규모 해고 중에도 H-1B 비자 수천 건 신청",
+      "summary": "Korean report: Oracle submitted 3,100+ H-1B petitions over two fiscal years despite conducting large layoffs in the US (2,690 in FY2025, 436 in FY2026 so far).",
+      "url": "https://news.hada.io/topic?id=28187",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "당신의 엔지니어링 팀이 느린 진짜 이유는 사람이 아니라 코드베이스다",
+      "summary": "Korean article about 'codebase drag' — systemic codebase issues that slow engineering work and are misattributed to people; identifies five repeated signals from audits.",
+      "url": "https://news.hada.io/topic?id=28186",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "에이전트가 생성한 코드를 책임감 있게 다루기: Vercel의 프레임워크",
+      "summary": "Korean summary: Vercel's framework for responsibly handling agent-generated code; warns that generated code can pass tests and appear fine but still encode bad assumptions.",
+      "url": "https://news.hada.io/topic?id=28185",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "구독 앱 경제학: AI 기능의 숨겨진 비용",
+      "summary": "Korean analysis: adding AI features to subscription apps introduces variable costs as usage scales, changing zero-marginal-cost assumptions; recommends modeling ARPU, churn, LTV with AI usage.",
+      "url": "https://news.hada.io/topic?id=28184",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Optio - AI 코딩 에이전트를 위한 워크플로 오케스트레이터",
+      "summary": "Korean note: Optio is a workflow automation platform orchestrating agent tasks from ticket intake to PR merge (GitHub/Linear/Jira/Notion integrations) and handling CI failures/conflicts.",
+      "url": "https://news.hada.io/topic?id=28183",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Marc Andreessen은 자기성찰에 대해 잘못 이해하고 있다",
+      "summary": "Korean critique: argues Marc Andreessen mischaracterizes introspection as a Freud-era concept and overlooks long philosophical traditions.",
+      "url": "https://news.hada.io/topic?id=28182",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Artemis II 승무원이 촬영한 지구의 ‘장관’ 이미지",
+      "summary": "Korean post: NASA released high-resolution Earth photos taken by Artemis II Orion capsule crew; first image 'Hello, World' shows ocean/atmosphere/aurora.",
+      "url": "https://news.hada.io/topic?id=28181",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "개인 블로그를 위한 프론트페이지 Blogosphere",
+      "summary": "Korean note: Blogosphere aggregates independent blogs' latest posts (RSS) into a real-time hub for the indie web.",
+      "url": "https://news.hada.io/topic?id=28180",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "체화된(Embodied) 로봇 지능의 산업화",
+      "summary": "Korean article about industrialization of embodied robot intelligence: lots of capital and talent flowing into robotics but limited real-world deployments outside constrained environments; structural changes (part costs, batteries, models, sims) progressing.",
+      "url": "https://news.hada.io/topic?id=28179",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "apfel - Mac에 이미 내장된 무료 AI를 활용하게 해주는 도구",
+      "summary": "Korean post: 'apfel' enables using Apple's on-device LLM on Apple Silicon macOS 26+ via CLI/HTTP/chat and is OpenAI-compatible; leverages FoundationModels.framework.",
+      "url": "https://news.hada.io/topic?id=28178",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[D] Those of you with 10+ years in ML — what is the public completely wrong about?",
+      "summary": "Reddit /r/MachineLearning question asking experienced ML practitioners to correct public misconceptions about what happens at the ML frontier.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "[D] ICML reviewer making up false claim in acknowledgement, what to do?",
+      "summary": "Reddit post about an ICML reviewer inventing claims about hyperparameter comparisons in the paper's acknowledgement; asking for advice on next steps.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sc79nk/d_icml_reviewer_making_up_false_claim_in/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "[D] ICML Reviewer Acknowledgement",
+      "summary": "Reddit post asking about timing of ICML reviewer acknowledgement period and whether a reviewer can update scores before April 7th.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1scaajx/d_icml_reviewer_acknowledgement/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "[D] ACL 2026 Decision",
+      "summary": "Reddit thread in /r/MachineLearning noting ACL 2026 decisions are due; for community updates and venting.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbyfpm/d_acl_2026_decision/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Best OCR for template-based form extraction? [D]",
+      "summary": "Reddit question: seeking recommendations for OCR/document understanding tools for template-based form extraction (Google Document AI, PaddleOCR, Tesseract, AWS Textract, Azure AI Document Intelligence).",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sc5o71/best_ocr_for_templatebased_form_extraction_d/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "[P] GPU friendly lossless 12-bit BF16 format with 0.03% escape rate and 1 integer ADD decode works for AMD & NVIDIA",
+      "summary": "Research prototype: lossless BF16 compression format storing weights in 12 bits with group codes, bit-perfect reconstruction, fused decode+matmul for GPU-friendly inference; repo: github.com/cenconq25/Turbo-Lossless; performance claims vs vLLM.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Ml project user give dataset and I give best model [D] [P]",
+      "summary": "Reddit post asking how to build a project that, given a user's dataset, recommends the best model (discusses pmlnb dataset and meta-dataset approaches).",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sce5a9/ml_project_user_give_dataset_and_i_give_best/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Considering NeurIPS submission [D]",
+      "summary": "Reddit user contemplating whether to submit a mathematically-proven convergent agentic system paper to NeurIPS despite limited real-world examples.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbzdzj/considering_neurips_submission_d/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Composer 2 - 2x Usage Boost",
+      "summary": "Cursor post: doubling Composer 2 usage for a weekend and recommending users try it in Cursor 3 interface (link to Cursor's X post).",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc3olh/composer_2_2x_usage_boost/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor V3 is a significant regression",
+      "summary": "User critique of Cursor v3: points to slower, AI-initiated git worktrees, more friction in agent workflows, loss of previous developer-focused balance; threatens to switch tools.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc55tc/cursor_v3_is_a_significant_regression/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Why Cursor??? Why V3??",
+      "summary": "Angry Cursor user complaining v3 makes Cursor feel like a generic no-code tool rather than an IDE tailored for developers; cites agent failures and cancels subscription.",
+      "url": "https://www.reddit.com/r/cursor/comments/1scavwt/why_cursor_why_v3/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Qwen3.6 Plus is currently 100% FREE on OpenRouter right now. Go burn some tokens this weekend! 🔥",
+      "summary": "Announcement that Qwen3.6 Plus is available free via OpenRouter, encouraging prototyping and token-burning experiments; links to Qwen blog and OpenRouter free access.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc32ty/qwen36_plus_is_currently_100_free_on_openrouter/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Usage has reduced significantly",
+      "summary": "User reports Cursor usage billing reduced significantly after kimposer 2 and optimizations that avoid piping all output into context; may downgrade plan.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sccoeo/usage_has_reduced_significantly/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Workspace in Cursor 3",
+      "summary": "Question about Cursor 3 agent-window showing only one repo git space and whether workspaces (multiple repos) are still useful.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc5zwu/workspace_in_cursor_3/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Cancelled my Cursor subscription",
+      "summary": "User cancelled Cursor subscription after removal of VS Code-style editor experience, arguing Cursor drifted away from its core value.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc9s5g/cancelled_my_cursor_subscription/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "AI‑Native Refactoring",
+      "summary": "Post (link) titled 'AI‑Native Refactoring' — likely showcases AI-assisted refactorings or patterns.",
+      "url": "https://www.reddit.com/r/cursor/comments/1scem5f/ainative_refactoring/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Do u think unified mcp have a demand?",
+      "summary": "Short community question asking whether a unified 'mcp' (multi control plane?) would have demand.",
+      "url": "https://www.reddit.com/r/cursor/comments/1scech5/do_u_think_unified_mcp_have_a_demand/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor v3: Did the IDE + Codex extension workflow disappear?",
+      "summary": "User asking if the previous workflow (Cursor as full IDE + side chat + Codex extension) is still supported in Cursor v3 before upgrading.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc1spo/cursor_v3_did_the_ide_codex_extension_workflow/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Well played, Cursor. Well played",
+      "summary": "Short post saying Cursor convinced the user to keep pricing plan (likely retention/pricing tactic noted).",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc79r7/well_played_cursor_well_played/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Organisation limit for cursor",
+      "summary": "User frustrated their organization put a $100 monthly usage limit on Cursor, asking why.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc6cyb/organisation_limit_for_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "My AI now has persistent memory of 1,500+ sessions.",
+      "summary": "Post noting persistent memory of 1,500+ sessions; links to a Claude persistent memory framework (r/ClaudeAI link).",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc99i7/my_ai_now_has_persistent_memory_of_1500_sessions/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "We love lovable! We are launching a vibe-coded app diagnostic service. DM",
+      "summary": "Announcement: launching a 'vibe-coded' app diagnostic service (marketing pitch) in Cursor community.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc3usa/we_love_lovable_we_are_launching_a_vibecoded_app/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor usage",
+      "summary": "User asks billing question whether they'll be charged $20 subscription plus $18 on-demand usage this month (Cursor billing confusion).",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc3ooc/cursor_usage/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I built a multi-LLM debate system. Got 8 GitHub stars. A week later Microsoft released the same idea inside Copilot.",
+      "summary": "User laments building a multi-LLM debate system with modest GitHub traction only to see Microsoft ship a similar idea in Copilot.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sc2ozu/i_built_a_multillm_debate_system_got_8_github/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Code completions not working and wrong",
+      "summary": "User reports code completion ghost text missing and incorrect popup suggestions in Cursor; troubleshooting request.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sbwms6/code_completions_not_working_and_wrong/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Why should humans still write code?",
+      "summary": "Community discussion around whether humans should continue writing code given powerful AI coding tools.",
+      "url": "https://www.reddit.com/r/cursor/comments/1sbxgic/why_should_humans_still_write_code/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    }
+  ]
+}
