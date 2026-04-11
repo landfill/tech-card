@@ -3,12 +3,13 @@ import ReactMarkdown from 'react-markdown'
 import PipelinePage from './PipelinePage'
 import CardNews from './CardNews'
 import LettersCalendar from './LettersCalendar'
+import WeeklyPage from './WeeklyPage'
 import type { CardsData } from './CardNews'
 import './App.css'
 
 const API = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
 
-type View = 'letters' | 'pipeline'
+type View = 'letters' | 'weekly' | 'pipeline'
 
 function App() {
   const [view, setView] = useState<View>('letters')
@@ -168,6 +169,13 @@ function App() {
         </button>
         <button
           type="button"
+          className={view === 'weekly' ? 'active' : ''}
+          onClick={() => setView('weekly')}
+        >
+          주간 리뷰
+        </button>
+        <button
+          type="button"
           className={view === 'pipeline' ? 'active' : ''}
           onClick={() => setView('pipeline')}
         >
@@ -293,6 +301,9 @@ function App() {
                     <option value="stale">오래된 정보</option>
                     <option value="missing_trend">누락된 트렌드</option>
                     <option value="add_source">추가할 소스</option>
+                    <option value="tone">어조/톤 문제</option>
+                    <option value="structure">구조/배치 문제</option>
+                    <option value="quality">품질/정확도 문제</option>
                   </select>
                   <textarea
                     value={feedbackContent}
@@ -315,6 +326,11 @@ function App() {
             )}
           </main>
         </div>
+      )}
+      {view === 'weekly' && (
+        <main>
+          <WeeklyPage />
+        </main>
       )}
       {view === 'pipeline' && (
         <main>

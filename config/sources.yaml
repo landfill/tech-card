@@ -1,7 +1,9 @@
 # 수집 소스 설정 (비(非) API 중심)
 #
-# 실제 수집 가능한 소스만 포함. 구현된 타입: rss, hnrss, reddit_rss, github_blog, crawl
+# 실제 수집 가능한 소스만 포함. 구현된 타입: rss, hnrss, reddit_rss, github_blog, crawl, twitter_cli, rdt_cli
 # crawl: RSS 없는 목록 페이지 HTML 크롤링 (url, 선택: heading_tags, max_items)
+# twitter_cli: twitter-cli 검색 (pipx install twitter-cli + Cookie 인증 필요)
+# rdt_cli: rdt-cli 검색/서브레딧 (pipx install rdt-cli)
 # 미구현 타입(rss_bridge, github_trending_rss, firecrawl, headless)은 enabled: false 또는 제거.
 # 상세: docs/sources-api-vs-crawl.md, docs/sources-non-api-strategy.md
 #
@@ -11,6 +13,8 @@
 #   reddit_rss:  subreddit (서브레딧명만)
 #   github_blog: url (GitHub Blog RSS)
 #   crawl:       url (목록 페이지), heading_tags (선택, 쉼표 구분 예: h2,h3), max_items (선택)
+#   twitter_cli: query (검색어), max_items (선택, 기본 30), search_type (선택: Latest | Top)
+#   rdt_cli:     query (검색어) 또는 subreddit (서브레딧), max_items, sort (선택: new | top | hot), time_filter (선택: day | week)
 
 sources:
   # ========== 1. Hacker News (hnrss.org) ==========
@@ -70,7 +74,50 @@ sources:
     url: "https://www.anthropic.com/news.xml"
     enabled: false
 
-  # ========== 5. 미구현 타입 (참고용, enabled: false) ==========
+  # ========== 5. X/Twitter (twitter-cli) ==========
+  # 사전 설치: pipx install twitter-cli
+  # 인증: export TWITTER_AUTH_TOKEN="xxx" && export TWITTER_CT0="yyy"
+  - id: x-agentic-coding
+    type: twitter_cli
+    query: "Claude Code OR Codex CLI OR Cursor agent OR agentic coding"
+    max_items: 30
+    search_type: Latest
+    enabled: true
+  - id: x-github-copilot
+    type: twitter_cli
+    query: "GitHub Copilot OR GitHub Actions AI"
+    max_items: 20
+    search_type: Latest
+    enabled: true
+
+  # ========== 5-2. Reddit (rdt-cli, 검색 + 댓글 수집 가능) ==========
+  # 사전 설치: pipx install rdt-cli
+  # 기존 reddit_rss 소스와 병행 또는 대체 가능
+  - id: rdt-claude-code
+    type: rdt_cli
+    query: "Claude Code"
+    subreddit: ClaudeAI
+    max_items: 20
+    sort: new
+    time_filter: day
+    enabled: true
+  - id: rdt-codex
+    type: rdt_cli
+    query: "Codex CLI agentic"
+    max_items: 20
+    sort: new
+    time_filter: day
+    enabled: true
+  - id: rdt-cursor-agent
+    type: rdt_cli
+    query: "Cursor agent background"
+    subreddit: cursor
+    max_items: 20
+    sort: new
+    time_filter: day
+    enabled: true
+
+  # ========== 6. 미구현 타입 (참고용, enabled: false) ==========
   - id: github-trending-daily
     type: github_trending_rss
     since: daily

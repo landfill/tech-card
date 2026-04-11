@@ -10,8 +10,10 @@ from pipeline.checkpoint import save_checkpoint
 from pipeline.config import load_sources
 from tools.fetch_crawl import fetch_crawl_async
 from tools.fetch_hnrss import fetch_hnrss
+from tools.fetch_rdt import fetch_rdt_search, fetch_rdt_subreddit
 from tools.fetch_reddit_rss import fetch_reddit_rss
 from tools.fetch_rss import fetch_rss
+from tools.fetch_twitter import fetch_twitter_search
 
 logger = logging.getLogger(__name__)
 
@@ -94,6 +96,24 @@ def _fetch_one(source: dict) -> tuple[str, list[dict]]:
         if stype == "github_blog":
             url = source.get("url") or "https://github.blog/feed/"
             return (sid, fetch_rss(url, source_id=sid))
+        if stype == "twitter_cli":
+            query = source.get("query") or ""
+            if not query:
+                return (sid, [])
+            max_items = int(source.get("max_items") or 30)
+            search_type = source.get("search_type") or "Latest"
+            return (sid, fetch_twitter_search(query, source_id=sid, max_items=max_items, search_type=search_type))
+        if stype == "rdt_cli":
+            query = source.get("query") or ""
+            sub = source.get("subreddit") or ""
+            max_items = int(source.get("max_items") or 30)
+            sort = source.get("sort") or "new"
+            time_filter = source.get("time_filter") or "day"
+            if query:
+                return (sid, fetch_rdt_search(query, source_id=sid, subreddit=sub, max_items=max_items, sort=sort, time_filter=time_filter))
+            elif sub:
+                return (sid, fetch_rdt_subreddit(sub, source_id=sid, max_items=max_items, sort=sort))
+            return (sid, [])
         if stype == "crawl":
             # crawl은 run_collect에서 별도 async 병렬로 처리
             return (sid, [])

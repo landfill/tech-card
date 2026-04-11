@@ -2,19 +2,19 @@
 import json
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date, timedelta
+from datetime import date
 from pathlib import Path
 from typing import Callable
 
 from pipeline.checkpoint import load_checkpoint, save_checkpoint
 from pipeline.collect import run_collect
 from pipeline.dedup import dedup
-from pipeline.feedback_store import load_feedback_since
 from pipeline.letter_generate import letter_generate
 from pipeline.storage import letter_path, recent_7d_dates, index_path, card_path
 from pipeline import agents
 from pipeline.card_generate import card_generate as run_card_generate, load_letter_for_date
 from pipeline.card_backgrounds import generate_card_background, update_card_json_bg
+from pipeline.prompt_evolution import evolve_prompt, EVOLUTION_TARGETS
 
 logger = logging.getLogger(__name__)
 
@@ -55,7 +55,7 @@ def _run_analyze_chunk(
     chunk: list[dict],
     skills_dir: Path,
     llm_client,
-    feedback_suffix: str,
+    data_dir: Path,
 ) -> list[dict]:
     """청크 하나에 대해 analyze 에이전트 실행. 반환: items 리스트."""
     out = agents.run_agent(
@@ -63,7 +63,7 @@ def _run_analyze_chunk(
         {"items": chunk},
         skills_dir,
         llm_client,
-        extra_system_suffix=feedback_suffix,
+        data_dir=str(data_dir),
     )
     try:
         parsed = json.loads(out)
@@ -113,16 +113,6 @@ def run_step(
         cp = load_checkpoint(str(data_dir), d, "collect")
         collect_items = (cp or {}).get("items") or []
         analyze_cp = None if force else load_checkpoint(str(data_dir), d, "analyze")
-        feedback_suffix = ""
-        try:
-            cutoff = d - timedelta(days=7)
-            feedback_items = load_feedback_since(str(data_dir), cutoff)
-            if feedback_items:
-                feedback_suffix = "최근 피드백 (수집/분석 개선에 반영할 것):\n" + "\n".join(
-                    f"- [{x.get('type')}] {x.get('content', '')[:200]}" for x in feedback_items[:15]
-                )
-        except Exception:
-            pass
         if analyze_cp is None:
             analyzed = []
             chunks = [
@@ -137,7 +127,7 @@ def run_step(
                         chunk,
                         skills_dir,
                         llm_client,
-                        feedback_suffix,
+                        data_dir,
                     ): i
                     for i, chunk in enumerate(chunks)
                 }
@@ -165,7 +155,7 @@ def run_step(
         analyzed = (analyze_cp.get("items") if isinstance(analyze_cp, dict) else []) if analyze_cp else []
         summarize_cp = None if force else load_checkpoint(str(data_dir), d, "summarize")
         if summarize_cp is None:
-            sum_out = agents.run_agent("summarize", {"items": analyzed or collect_items}, skills_dir, llm_client)
+            sum_out = agents.run_agent("summarize", {"items": analyzed or collect_items}, skills_dir, llm_client, data_dir=str(data_dir))
             summarize_cp = {"raw": sum_out}
             save_checkpoint(str(data_dir), d, "summarize", summarize_cp)
         cb("completed", {})
@@ -192,6 +182,7 @@ def run_step(
             {"items": deduped, "date": date_str},
             skills_dir,
             llm_client,
+            data_dir=str(data_dir),
         )
         letter_file = letter_path(str(data_dir), d)
         Path(letter_file).parent.mkdir(parents=True, exist_ok=True)
@@ -200,7 +191,7 @@ def run_step(
         index_file = index_path(str(data_dir), d)
         Path(index_file).parent.mkdir(parents=True, exist_ok=True)
         Path(index_file).write_text(
-            json.dumps({"items": [{"title": x.get("title"), "summary": x.get("summary")} for x in deduped]}, ensure_ascii=False, indent=2),
+            json.dumps({"items": [{"title": x.get("title"), "summary": x.get("summary"), "category": x.get("category", ""), "impact": x.get("impact", ""), "url": x.get("url", ""), "source_id": x.get("source_id", "")} for x in deduped]}, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
         cb("completed", {"letter_path": letter_file, "items_count": len(deduped)})
@@ -209,7 +200,7 @@ def run_step(
     if step_id == "card_generate":
         cb("started", None)
         letter_md = load_letter_for_date(str(data_dir), d)
-        card_data = run_card_generate(letter_md, date_str, skills_dir, llm_client)
+        card_data = run_card_generate(letter_md, date_str, skills_dir, llm_client, data_dir=str(data_dir))
         card_file = card_path(str(data_dir), d)
         Path(card_file).parent.mkdir(parents=True, exist_ok=True)
         Path(card_file).write_text(
@@ -259,6 +250,19 @@ def run_pipeline(
             raise ValueError(f"Unknown from_step: {from_step}")
         idx = PIPELINE_STEPS.index(from_step)
         steps_to_run = PIPELINE_STEPS[idx:]
+
+    # 프롬프트 진화 체크 (파이프라인 실행 전 1회)
+    try:
+        for agent_name in EVOLUTION_TARGETS:
+            evolve_prompt(
+                agent_name=agent_name,
+                data_dir=str(data_dir),
+                skills_dir=skills_dir,
+                llm_client=llm_client,
+                anchor_date=d,
+            )
+    except Exception as e:
+        logger.warning("프롬프트 진화 체크 실패 (무시): %s", e)
 
     for step_id in steps_to_run:
         try:

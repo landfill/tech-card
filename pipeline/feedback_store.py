@@ -3,6 +3,16 @@ import json
 import os
 from datetime import date, datetime, timezone
 
+VALID_FEEDBACK_TYPES = [
+    "wrong_source",      # 잘못된 대상 수집
+    "stale",             # 오래된 정보
+    "missing_trend",     # 누락된 트렌드
+    "add_source",        # 추가할 소스
+    "tone",              # 어조/톤 관련
+    "structure",         # 구조 관련
+    "quality",           # 품질 관련
+]
+
 
 def save_feedback(
     data_dir: str,

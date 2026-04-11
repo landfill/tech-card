@@ -35,6 +35,20 @@ def _source_id_to_label(sources_config: list[dict]) -> dict[str, str]:
             out[sid] = "GitHub Blog"
         elif stype == "rss":
             out[sid] = sid
+        elif stype == "twitter_cli":
+            query = (s.get("query") or "")[:30]
+            out[sid] = f"X: {query}" if query else "X"
+        elif stype == "rdt_cli":
+            sub = (s.get("subreddit") or "").strip()
+            query = (s.get("query") or "")[:20]
+            if sub and query:
+                out[sid] = f"r/{sub} ({query})"
+            elif sub:
+                out[sid] = f"r/{sub}"
+            elif query:
+                out[sid] = f"Reddit: {query}"
+            else:
+                out[sid] = sid
         elif stype == "crawl":
             out[sid] = sid
         else:

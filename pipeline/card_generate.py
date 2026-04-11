@@ -12,10 +12,11 @@ def card_generate(
     date_str: str,
     skills_dir: str | Path,
     llm_client,
+    data_dir: str | Path | None = None,
 ) -> dict:
     """스킬 card_generate + 레터 본문으로 LLM 호출, 카드 JSON(dict) 반환."""
     payload = {"letter_md": letter_md, "date": date_str}
-    out = run_agent("card_generate", payload, skills_dir, llm_client)
+    out = run_agent("card_generate", payload, skills_dir, llm_client, data_dir=data_dir)
     # 응답에서 JSON 블록만 추출 (```json ... ``` 또는 순수 JSON)
     text = out.strip()
     json_match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)

@@ -16,9 +16,9 @@ logger = logging.getLogger(__name__)
 GEMINI_IMAGE_MODEL = "gemini-3.1-flash-image-preview"
 
 
-def extract_theme(letter_md: str, skills_dir, llm_client) -> str:
+def extract_theme(letter_md: str, skills_dir, llm_client, data_dir=None) -> str:
     """레터에서 이미지용 한 줄 컨셉 추출."""
-    out = run_agent("card_theme", {"letter_md": letter_md}, skills_dir, llm_client)
+    out = run_agent("card_theme", {"letter_md": letter_md}, skills_dir, llm_client, data_dir=data_dir)
     return out.strip().strip('"').strip()
 
 
@@ -75,7 +75,7 @@ def generate_card_background(
         logger.info("No GOOGLE_API_KEY in .env, skipping card background")
         return None
 
-    theme = extract_theme(letter_md, skills_dir, llm_client)
+    theme = extract_theme(letter_md, skills_dir, llm_client, data_dir=data_dir)
     if not theme:
         return None
 

@@ -19,6 +19,13 @@ class FeedbackCreate(BaseModel):
     content: str
 
 
+@router.get("/types")
+def get_feedback_types():
+    """사용 가능한 피드백 유형 목록."""
+    from pipeline.feedback_store import VALID_FEEDBACK_TYPES
+    return {"types": VALID_FEEDBACK_TYPES}
+
+
 @router.post("")
 def create_feedback(body: FeedbackCreate):
     """피드백 한 건 저장."""

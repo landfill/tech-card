@@ -227,3 +227,43 @@ body { margin: 0; min-height: 100%; background-color: var(--bg-page); color: var
 .card-news-zone-prev { left: 0; }
 .card-news-zone-next { right: 0; left: auto; }
 .card-news-empty { padding: 2rem; text-align: center; color: var(--text-secondary); }
+
+/* ─── Weekly Review ─── */
+.weekly-page { max-width: 860px; margin: 0 auto; padding: 1rem; }
+.weekly-nav { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; }
+.weekly-nav button { padding: 0.3rem 0.7rem; cursor: pointer; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-card); color: var(--text-primary); }
+.weekly-nav button:disabled { opacity: 0.3; cursor: default; }
+.weekly-nav-label { font-weight: 700; font-size: 1.1rem; flex: 1; text-align: center; }
+.weekly-run-btn { margin-left: auto !important; }
+.weekly-summary { display: flex; gap: 1rem; color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem; }
+.weekly-tabs { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.weekly-tabs button { padding: 0.4rem 1rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-card); color: var(--text-primary); cursor: pointer; }
+.weekly-tabs button.active { background: var(--brand-purple); color: #fff; border-color: var(--brand-purple); }
+.weekly-trend h3 { margin: 1.2rem 0 0.5rem; font-size: 1rem; color: var(--text-primary); }
+.trend-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-bottom: 1rem; }
+.trend-table th, .trend-table td { padding: 0.35rem 0.5rem; border: 1px solid var(--border); text-align: center; }
+.trend-table th { background: var(--bg-card); font-weight: 600; }
+.trend-topic { text-align: left !important; font-weight: 500; }
+.trend-dot { font-size: 1rem; color: var(--brand-purple); }
+.trend-impact { font-family: monospace; color: var(--brand-mint); }
+.trend-direction { font-size: 0.8rem; }
+.category-bars { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
+.category-bar-row { display: flex; align-items: center; gap: 0.5rem; }
+.category-bar-label { width: 220px; font-size: 0.85rem; text-align: right; flex-shrink: 0; }
+.category-bar-track { flex: 1; height: 18px; background: var(--bg-card); border-radius: 4px; overflow: hidden; border: 1px solid var(--border); }
+.category-bar-fill { height: 100%; background: var(--brand-purple); border-radius: 4px 0 0 4px; transition: width 0.3s; }
+.category-bar-value { font-size: 0.8rem; color: var(--text-secondary); width: 90px; }
+.top5-list { padding-left: 1.2rem; }
+.top5-list li { margin-bottom: 0.4rem; font-size: 0.9rem; }
+.top5-list a { color: var(--brand-purple); text-decoration: none; }
+.top5-list a:hover { text-decoration: underline; }
+.top5-meta { font-size: 0.8rem; color: var(--text-secondary); }
+.daily-counts { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.daily-count-chip { background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px; padding: 0.2rem 0.5rem; font-size: 0.8rem; }
+.weekly-letter-body { line-height: 1.7; }
+.weekly-letter-body h1 { font-size: 1.3rem; }
+.weekly-letter-body h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+.weekly-letter-body table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.85rem; }
+.weekly-letter-body th, .weekly-letter-body td { padding: 0.3rem 0.5rem; border: 1px solid var(--border); }
+.weekly-letter-body th { background: var(--bg-card); }
+.weekly-empty { text-align: center; color: var(--text-secondary); padding: 3rem; }

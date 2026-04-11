@@ -159,6 +159,12 @@ def _run_pipeline_task(date_str: str, force: bool, from_step: str | None) -> Non
             "error": str(e),
         })
         raise
+    # 파이프라인 완료 후 자동 git push
+    try:
+        from pipeline.git_push import auto_push
+        auto_push(str(data_dir), d)
+    except Exception:
+        pass  # push 실패는 파이프라인 성공에 영향 주지 않음
     write_run_status(str(data_dir), d, {
         "running": False,
         "current_step": None,

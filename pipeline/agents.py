@@ -3,8 +3,19 @@ import json
 from pathlib import Path
 
 
-def load_skill(skills_dir: str | Path, agent_name: str) -> str:
-    """skills_dir/agent_name.md 내용 반환 (frontmatter 포함)."""
+def load_skill(
+    skills_dir: str | Path,
+    agent_name: str,
+    data_dir: str | Path | None = None,
+) -> str:
+    """skills_dir/agent_name.md 또는 진화된 버전 반환.
+    data_dir이 주어지면 진화된 프롬프트를 우선 사용."""
+    if data_dir is not None:
+        from pipeline.prompt_version_store import load_active_prompt
+        evolved = load_active_prompt(str(data_dir), agent_name)
+        if evolved is not None:
+            return evolved
+
     path = Path(skills_dir) / f"{agent_name}.md"
     if not path.is_file():
         raise FileNotFoundError(f"Skill not found: {path}")
@@ -17,9 +28,10 @@ def run_agent(
     skills_dir: str | Path,
     llm_client,
     extra_system_suffix: str = "",
+    data_dir: str | Path | None = None,
 ) -> str:
     """에이전트 실행: 스킬 마크다운을 system으로, input_payload를 JSON user 메시지로 LLM 호출."""
-    system = load_skill(skills_dir, agent_name)
+    system = load_skill(skills_dir, agent_name, data_dir=data_dir)
     if extra_system_suffix:
         system = system + "\n\n" + extra_system_suffix
     user = json.dumps(input_payload, ensure_ascii=False, indent=2)
