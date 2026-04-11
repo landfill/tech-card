@@ -56,19 +56,28 @@ def _load_week_data(data_dir: str, week_dates: list[date]) -> dict:
     daily_items = {}
 
     for d in week_dates:
-        # index
-        idx_file = index_path(data_dir, d)
-        if Path(idx_file).is_file():
-            try:
-                data = json.loads(Path(idx_file).read_text(encoding="utf-8"))
-                items = data.get("items", []) if isinstance(data, dict) else data
-                if isinstance(items, list):
-                    for item in items:
-                        item["_date"] = d.isoformat()
-                    all_items.extend(items)
-                    daily_items[d.isoformat()] = items
-            except Exception:
-                pass
+        # analyze 체크포인트 우선 (category/impact 포함), fallback으로 index
+        items = None
+        analyze_cp = load_checkpoint(data_dir, d, "analyze")
+        if analyze_cp:
+            raw = analyze_cp.get("items") if isinstance(analyze_cp, dict) else analyze_cp
+            if isinstance(raw, list) and raw:
+                items = raw
+        if items is None:
+            idx_file = index_path(data_dir, d)
+            if Path(idx_file).is_file():
+                try:
+                    data = json.loads(Path(idx_file).read_text(encoding="utf-8"))
+                    raw = data.get("items", []) if isinstance(data, dict) else data
+                    if isinstance(raw, list):
+                        items = raw
+                except Exception:
+                    pass
+        if items:
+            for item in items:
+                item["_date"] = d.isoformat()
+            all_items.extend(items)
+            daily_items[d.isoformat()] = items
 
         # letter
         lt_file = letter_path(data_dir, d)

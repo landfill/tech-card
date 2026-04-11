@@ -4,27 +4,117 @@
     "2026-04-06",
     "2026-04-12"
   ],
-  "total_items": 523,
-  "filtered_items": 0,
-  "trend_map": [],
+  "total_items": 552,
+  "filtered_items": 505,
+  "trend_map": [
+    {
+      "topic": "Claude Code",
+      "days": [
+        "04-06",
+        "04-07",
+        "04-08",
+        "04-09",
+        "04-10",
+        "04-11"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Claude Mythos / Mythos Preview / Claude Managed Agents",
+      "days": [
+        "04-07",
+        "04-08",
+        "04-09",
+        "04-10",
+        "04-11"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor (Cursor 3 / Composer 2 / Cursor ecosystem)",
+      "days": [
+        "04-06",
+        "04-07",
+        "04-08",
+        "04-09",
+        "04-10",
+        "04-11"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GitHub Copilot (including Copilot CLI / Copilot Pro changes)",
+      "days": [
+        "04-06",
+        "04-10",
+        "04-11"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "OpenAI announcements & initiatives (Safety Fellowship, enterprise AI, OpenAI Academy)",
+      "days": [
+        "04-06",
+        "04-08",
+        "04-10"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    }
+  ],
   "category_stats": {
     "에이전틱 코딩 & 프론티어 모델": {
-      "count": 0,
-      "high_count": 0
+      "count": 320,
+      "high_count": 80
     },
     "GitHub & 인프라 트렌드": {
-      "count": 0,
-      "high_count": 0
+      "count": 185,
+      "high_count": 25
     }
   },
-  "top5": [],
+  "top5": [
+    {
+      "title": "System Card: Claude Mythos Preview [pdf]",
+      "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+      "mentions": 6,
+      "impact": "high"
+    },
+    {
+      "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+      "url": "https://github.com/anthropics/claude-code/issues/42796",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "Announcing the OpenAI Safety Fellowship",
+      "url": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "mentions": 2,
+      "impact": "high"
+    },
+    {
+      "title": "Introducing Claude Managed Agents, now in public beta.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfz7a5/introducing_claude_managed_agents_now_in_public/",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "@saravanankalya4: GitHub Copilot Chat’s CamoLeak (CVE-2025-59145, CVSS 9.6) shows how indirect prompt injection can become a data-exfil pa...",
+      "url": "https://x.com/saravanankalya4/status/2043028625260491101",
+      "mentions": 3,
+      "impact": "high"
+    }
+  ],
   "daily_counts": {
-    "2026-04-06": 0,
-    "2026-04-07": 0,
-    "2026-04-08": 0,
-    "2026-04-09": 0,
-    "2026-04-10": 0,
-    "2026-04-11": 0,
+    "2026-04-06": 89,
+    "2026-04-07": 85,
+    "2026-04-08": 72,
+    "2026-04-09": 66,
+    "2026-04-10": 83,
+    "2026-04-11": 110,
     "2026-04-12": 0
   }
 }
