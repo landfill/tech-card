@@ -21,8 +21,12 @@ python -m venv .venv
 cp config/llm.yaml.example config/llm.yaml
 # config/llm.yaml에 사용할 provider·model 설정. .env에 GOOGLE_API_KEY 또는 OPENAI_API_KEY 설정
 
-# crawl 타입 소스 사용 시 Playwright 브라우저 설치 (단일 방식, 수집 소스 병렬: 브라우저 1개·다중 페이지)
+# crawl 타입 소스 사용 시 Playwright 브라우저 설치
 .venv/bin/playwright install chromium
+
+# X/Twitter · Reddit 소셜 수집 (선택)
+uv tool install twitter-cli    # X 검색. 인증: .env에 TWITTER_AUTH_TOKEN, TWITTER_CT0 설정
+uv tool install rdt-cli         # Reddit 검색 (실패 시 JSON API 자동 fallback)
 ```
 
 ## 실행 명령어 가이드
@@ -100,19 +104,57 @@ chmod +x scripts/run-dev.sh
 
 - 매일 06:00 일간 파이프라인, 매주 월요일 07:00 주간 레터 자동 실행. 중단: `Ctrl+C`
 
+## 파이프라인 단계
+
+### 일간 (collect → ... → git push)
+
+| 단계 | 설명 |
+|------|------|
+| collect | RSS, HN, Reddit, X/Twitter, 크롤링 소스 병렬 수집 |
+| analyze | 4개 카테고리 분류 + 영향도 산정 (LLM) |
+| summarize | 섹션별 요약 (LLM) |
+| dedup | 7일 데이터 기반 의미적 중복 제거 |
+| letter_generate | 마크다운 뉴스레터 본문 생성 (LLM) |
+| card_generate | 카드뉴스 JSON 생성 (LLM) |
+| card_backgrounds | 배경 이미지 생성 (Gemini) |
+| git push | 산출물 자동 커밋/푸시 |
+
+### 주간 (weekly_collect → ... → git push)
+
+| 단계 | 설명 |
+|------|------|
+| weekly_collect | 7일분 analyze 체크포인트에서 데이터 수집, 에이전틱 코딩 + 인프라 카테고리 필터링 |
+| weekly_analyze | 트렌드맵, Top5, 카테고리 통계, 전주 비교 (LLM) |
+| weekly_generate | 주간 레터 마크다운 생성 (LLM) |
+| weekly_card | 주간 카드뉴스 JSON 생성 (LLM) |
+| git push | 산출물 자동 커밋/푸시 |
+
 ## 디렉터리
 
-- `config/sources.yaml` — 수집 소스 (RSS, hnrss, reddit_rss, github_blog, crawl, twitter_cli, rdt_cli)
-- `config/llm.yaml` — LLM provider·model (단일 모델 지정)
-- `data/letters/` — 발행본 마크다운 (YYYY-MM-DD.md)
-- `data/cards/` — 카드뉴스 JSON + 배경 이미지
-- `data/index/` — 제목/요약 인덱스 (7일 dedup용)
-- `data/feedback/` — 호별 피드백
-- `data/checkpoints/` — 단계별 체크포인트 (재시도용)
-- `data/prompt_versions/` — 진화된 프롬프트 버전
-- `data/prompt_evolution_log/` — 진화 메타데이터 (diff, 피드백, 사유)
-- `data/weekly/` — 주간 레터, 메타 JSON, 카드뉴스
-- `skills/` — 에이전트 스킬 마크다운 (base 프롬프트, 수정 금지)
+```
+config/
+  sources.yaml              수집 소스 (rss, hnrss, reddit_rss, github_blog, crawl, twitter_cli, rdt_cli)
+  llm.yaml                  LLM provider·model (단일 모델 지정)
+  images.yaml               이미지 생성 설정
+
+data/
+  letters/YYYY-MM-DD.md     일간 발행본 마크다운
+  cards/YYYY-MM-DD.json     일간 카드뉴스 JSON
+  cards/YYYYMMDD.png        카드 배경 이미지
+  index/YYYY-MM-DD.json     제목/요약/카테고리 인덱스 (dedup + 주간 분석용)
+  weekly/YYYY-Www.md        주간 레터 본문
+  weekly/YYYY-Www-meta.json 주간 메타 (트렌드맵, Top5, 카테고리 통계)
+  weekly/YYYY-Www-cards.json 주간 카드뉴스
+  feedback/YYYY-MM-DD.json  호별 피드백
+  checkpoints/YYYY-MM-DD/   단계별 체크포인트 (재시도용)
+  prompt_versions/           진화된 프롬프트 버전
+  prompt_evolution_log/      진화 메타데이터 (diff, 피드백, 사유)
+
+skills/                      에이전트 스킬 마크다운 (base 프롬프트, 수정 금지)
+pipeline/                    파이프라인 엔진 (Python)
+backend/                     FastAPI 웹 API
+frontend/                    React+Vite 웹 UI
+```
 
 **백엔드 데이터 경로**: 서비스 재기동 후에도 발송 내역이 동일한 위치를 보려면 `.env`에 `DATA_DIR`을 두고, **항상 프로젝트 루트에서** 백엔드를 실행하세요. `DATA_DIR`이 없으면 코드 기준 프로젝트 루트의 `data`를 사용합니다. 예: `DATA_DIR=data` (기본값과 동일) 또는 `DATA_DIR=/절대경로/data`
 
