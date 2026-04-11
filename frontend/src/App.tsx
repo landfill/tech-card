@@ -200,9 +200,14 @@ function App() {
                     <p className="letter-meta">문서 생성: {formatCreatedAt(createdAt)}</p>
                   )}
                   {sourcesUsed.length > 0 && (
-                    <p className="letter-sources">
-                      수집 출처: {sourcesUsed.join(', ')}
-                    </p>
+                    <div className="letter-sources">
+                      수집 출처
+                      <div className="letter-sources-list">
+                        {sourcesUsed.map((s, i) => (
+                          <span key={i} className="letter-source-chip">{s}</span>
+                        ))}
+                      </div>
+                    </div>
                   )}
                   {hasCards !== null && (
                     <div className="letter-workflow-status" role="status" aria-label="워크플로 완료 상태">
