@@ -3,6 +3,13 @@
   "items": [
     {
       "source_id": "geeknews-hada",
+      "title": "리눅스 커널 기여 시 AI 보조 도구 사용 지침",
+      "url": "https://news.hada.io/topic?id=28420",
+      "summary": "<ul>\n<li>Linux 커널 개발에서 <strong>AI 코딩 보조 도구 사용 절차와 책임</strong>을 규정한 공식 문서</li>\n<li>모든 AI 기반 기여는 기존의 <strong>커널 개발 프로세스와 코딩 스타일 규칙</strong>을 그대로 따라야 함</li>\n<li>\n<strong>GPL-2.0-only 라이선스</strong>와 호환되어야 하며, 코드에는 <strong>SP...</p>",
+      "published": "2026-04-11T16:32:35+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
       "title": "Gemini의 SynthID 탐지를 역공학한 프로젝트",
       "url": "https://news.hada.io/topic?id=28419",
       "summary": "<ul>\n<li>Google의 <strong>SynthID 워터마크 시스템을 신호 처리와 스펙트럼 분석만으로 역공학</strong>해 Gemini 이미지의 비가시 워터마크를 탐지 및 제거하는 방법 제시</li>\n<li>해상도에 따라 달라지는 <strong>주파수 기반 워터마크 구조</strong>를 규명하고, <strong>90% 정확도의 탐지기</strong>와 <strong>...</p>",
@@ -129,154 +136,789 @@
     },
     {
       "source_id": "hn-newest",
-      "title": "Zuvi ColorBox Review: A Hair Dye Printer That Struggles",
-      "url": "https://www.wired.com/review/zuvi-colorbox/",
-      "summary": "<p>Article URL: <a href=\"https://www.wired.com/review/zuvi-colorbox/\">https://www.wired.com/review/zuvi-colorbox/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732152\">https://news.ycombinator.com/item?id=47732152</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T17:04:24+00:00"
+      "title": "Ask HN: How do you stop playing 20 questions with your AI coding tools",
+      "url": "https://news.ycombinator.com/item?id=47732675",
+      "summary": "<p>every session is a constant repeat of re-explaining the same architecture, service boundaries, etc. wondering how others are dealing with this?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732675\">https://news.ycombinator.com/item?id=47732675</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T18:05:00+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "What a legal tech demo does not show",
-      "url": "https://techlex.net/what-a-demo-does-not-show/",
-      "summary": "<p>Article URL: <a href=\"https://techlex.net/what-a-demo-does-not-show/\">https://techlex.net/what-a-demo-does-not-show/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732148\">https://news.ycombinator.com/item?id=47732148</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T17:03:33+00:00"
+      "title": "Killing of Hind Rajab (2024)",
+      "url": "https://en.wikipedia.org/wiki/Killing_of_Hind_Rajab",
+      "summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Killing_of_Hind_Rajab\">https://en.wikipedia.org/wiki/Killing_of_Hind_Rajab</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732660\">https://news.ycombinator.com/item?id=47732660</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T18:03:08+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "The Music of the Spheres – By Terence Tao and Zack Weinersmith",
-      "url": "https://www.smbc-comics.com/comic/spheres-part-1",
-      "summary": "<p>Article URL: <a href=\"https://www.smbc-comics.com/comic/spheres-part-1\">https://www.smbc-comics.com/comic/spheres-part-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732123\">https://news.ycombinator.com/item?id=47732123</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T17:00:41+00:00"
+      "title": "Pretty Fish: A better mermaid diagram playground",
+      "url": "https://pretty.fish/",
+      "summary": "<p>Article URL: <a href=\"https://pretty.fish/\">https://pretty.fish/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732654\">https://news.ycombinator.com/item?id=47732654</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T18:02:27+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "OpenAI Accuses Musk of 'Ambush' as $100B-Plus Trial Looms",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms",
-      "summary": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms\">https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732088\">https://news.ycombinator.com/item?id=47732088</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:56:51+00:00"
+      "title": "UK forced to halt Chagos Islands deal after Trump criticism",
+      "url": "https://www.cnn.com/2026/04/11/uk/uk-pause-chagos-islands-deal-intl",
+      "summary": "<p>Article URL: <a href=\"https://www.cnn.com/2026/04/11/uk/uk-pause-chagos-islands-deal-intl\">https://www.cnn.com/2026/04/11/uk/uk-pause-chagos-islands-deal-intl</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732646\">https://news.ycombinator.com/item?id=47732646</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T18:01:07+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Kerala, Breasts, and the Tax That Wasn't",
-      "url": "https://waatcoconut.substack.com/p/kerala-breasts-and-the-tax-that-wasnt",
-      "summary": "<p>Article URL: <a href=\"https://waatcoconut.substack.com/p/kerala-breasts-and-the-tax-that-wasnt\">https://waatcoconut.substack.com/p/kerala-breasts-and-the-tax-that-wasnt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732066\">https://news.ycombinator.com/item?id=47732066</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:53:02+00:00"
+      "title": "Show HN: A General Purpose KMC Crystal Growth Simulator in Rust-WASM",
+      "url": "https://amdson.github.io/blog/crystals/",
+      "summary": "<p>For those that are interested in self-assembly, or crystal structures, I made a general purpose crystal growth simulator. It can produce samples of the global crystal structure generated by any number of local particle interactions, and comes bundled with a simple editor for designing and testing crystal structures.<p>Would love to get feedback on the simulator, or on the abstractions I picked for it. While it can simulate scenarios similar to those represented by the aTAM or kTAM tile models, it is significantly more general, and to my knowledge, the first in its niche.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732644\">https://news.ycombinator.com/item?id=47732644</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T18:01:06+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "The era of models is over, we are in the era of harnesses",
-      "url": "https://sustainableviews.substack.com/p/the-era-of-models-is-over-we-are",
-      "summary": "<p>Article URL: <a href=\"https://sustainableviews.substack.com/p/the-era-of-models-is-over-we-are\">https://sustainableviews.substack.com/p/the-era-of-models-is-over-we-are</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732054\">https://news.ycombinator.com/item?id=47732054</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:51:46+00:00"
+      "title": "We ran Doom on a 40 year old printer controller (Agfa Compugraphic 9000PS) [video]",
+      "url": "https://www.youtube.com/watch?v=cltnlks2-uU",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=cltnlks2-uU\">https://www.youtube.com/watch?v=cltnlks2-uU</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732623\">https://news.ycombinator.com/item?id=47732623</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:59:14+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Building a 10x faster Angular Compiler in Rust",
-      "url": "https://voidzero.dev/posts/oxc-angular-compiler",
-      "summary": "<p>Article URL: <a href=\"https://voidzero.dev/posts/oxc-angular-compiler\">https://voidzero.dev/posts/oxc-angular-compiler</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732042\">https://news.ycombinator.com/item?id=47732042</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:50:32+00:00"
+      "title": "WordPress 7.0: The Good, the AI, and the Still Missing",
+      "url": "https://adamgreenough.net/blog/wordpress-7-the-good-the-ai-the-missing/",
+      "summary": "<p>Article URL: <a href=\"https://adamgreenough.net/blog/wordpress-7-the-good-the-ai-the-missing/\">https://adamgreenough.net/blog/wordpress-7-the-good-the-ai-the-missing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732620\">https://news.ycombinator.com/item?id=47732620</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:59:00+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Boxer",
-      "url": "https://facebookresearch.github.io/boxer/",
-      "summary": "<p>Article URL: <a href=\"https://facebookresearch.github.io/boxer/\">https://facebookresearch.github.io/boxer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732023\">https://news.ycombinator.com/item?id=47732023</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:47:47+00:00"
+      "title": "Eviscerated by Rust: Overcoming C++'s 58x Standard Library Handicap",
+      "url": "https://lucisqr.substack.com/p/eviscerated-by-rust-overcoming-cs",
+      "summary": "<p>Article URL: <a href=\"https://lucisqr.substack.com/p/eviscerated-by-rust-overcoming-cs\">https://lucisqr.substack.com/p/eviscerated-by-rust-overcoming-cs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732608\">https://news.ycombinator.com/item?id=47732608</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:57:06+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Small models also found the vulnerabilities that Mythos found",
-      "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
-      "summary": "<p>Article URL: <a href=\"https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier\">https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732020\">https://news.ycombinator.com/item?id=47732020</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:47:28+00:00"
+      "title": "How far can automation and AI support psychotherapy?",
+      "url": "https://attheu.utah.edu/health-medicine/how-far-can-automation-and-ai-support-psychotherapy/",
+      "summary": "<p>Article URL: <a href=\"https://attheu.utah.edu/health-medicine/how-far-can-automation-and-ai-support-psychotherapy/\">https://attheu.utah.edu/health-medicine/how-far-can-automation-and-ai-support-psychotherapy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732596\">https://news.ycombinator.com/item?id=47732596</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:55:40+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "HN: My 47-point stock scoring system built for small-cap analysis",
-      "url": "https://deepvaluereports.com/dvr-stock-score",
-      "summary": "<p>Article URL: <a href=\"https://deepvaluereports.com/dvr-stock-score\">https://deepvaluereports.com/dvr-stock-score</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732011\">https://news.ycombinator.com/item?id=47732011</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:45:17+00:00"
+      "title": "50% of Proceeds Go to Charity:)",
+      "url": "https://getlearnix.com/",
+      "summary": "<p>Article URL: <a href=\"https://getlearnix.com/\">https://getlearnix.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732587\">https://news.ycombinator.com/item?id=47732587</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:54:16+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Phone Trips",
-      "url": "http://www.wideweb.com/phonetrips/",
-      "summary": "<p>Article URL: <a href=\"http://www.wideweb.com/phonetrips/\">http://www.wideweb.com/phonetrips/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731998\">https://news.ycombinator.com/item?id=47731998</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:43:40+00:00"
+      "title": "Doppler Radar Explained [video]",
+      "url": "https://www.youtube.com/watch?v=zKJAZav9j4U",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=zKJAZav9j4U\">https://www.youtube.com/watch?v=zKJAZav9j4U</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732571\">https://news.ycombinator.com/item?id=47732571</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:52:41+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Why continuous gradient descent gets stuck on 3-SAT",
-      "url": "https://github.com/ynnk-research/Landscape-Geometry-and-Algebraic-Obstructions-in-Phase-Space-Gradient-Descent-for-Random-3-SAT",
-      "summary": "<p>Article URL: <a href=\"https://github.com/ynnk-research/Landscape-Geometry-and-Algebraic-Obstructions-in-Phase-Space-Gradient-Descent-for-Random-3-SAT\">https://github.com/ynnk-research/Landscape-Geometry-and-Algebraic-Obstructions-in-Phase-Space-Gradient-Descent-for-Random-3-SAT</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731995\">https://news.ycombinator.com/item?id=47731995</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
-      "published": "2026-04-11T16:43:28+00:00"
+      "title": "Turin describe an Apple Shortcut in plain English, get a .shortcut in seconds",
+      "url": "https://www.getturin.com",
+      "summary": "<p>Article URL: <a href=\"https://www.getturin.com\">https://www.getturin.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732551\">https://news.ycombinator.com/item?id=47732551</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:50:20+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "High fantasy map of tech writing",
-      "url": "https://passo.uno/fantasy-map-tech-writing-ai/",
-      "summary": "<p>Article URL: <a href=\"https://passo.uno/fantasy-map-tech-writing-ai/\">https://passo.uno/fantasy-map-tech-writing-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731987\">https://news.ycombinator.com/item?id=47731987</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:42:32+00:00"
+      "title": "The Orange Pi 6 Plus",
+      "url": "https://taoofmac.com/space/reviews/2026/04/11/1900",
+      "summary": "<p>Article URL: <a href=\"https://taoofmac.com/space/reviews/2026/04/11/1900\">https://taoofmac.com/space/reviews/2026/04/11/1900</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732535\">https://news.ycombinator.com/item?id=47732535</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:48:02+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "\"AI polls\" are fake polls",
-      "url": "https://www.natesilver.net/p/ai-polls-are-fake-polls",
-      "summary": "<p>Article URL: <a href=\"https://www.natesilver.net/p/ai-polls-are-fake-polls\">https://www.natesilver.net/p/ai-polls-are-fake-polls</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731984\">https://news.ycombinator.com/item?id=47731984</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:42:14+00:00"
+      "title": "A hacker has allegedly breached one of China's supercomputers",
+      "url": "https://www.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl",
+      "summary": "<p>Article URL: <a href=\"https://www.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl\">https://www.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732508\">https://news.ycombinator.com/item?id=47732508</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:45:51+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Elizabeth Holmes is tweeting from jail. How? (2025)",
-      "url": "https://sfstandard.com/2025/09/02/elizabeth-holmes-bryan-johnson-prison-tweets/",
-      "summary": "<p>Article URL: <a href=\"https://sfstandard.com/2025/09/02/elizabeth-holmes-bryan-johnson-prison-tweets/\">https://sfstandard.com/2025/09/02/elizabeth-holmes-bryan-johnson-prison-tweets/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731973\">https://news.ycombinator.com/item?id=47731973</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:40:07+00:00"
+      "title": "Ask HN: Is the telehealth consulting for psychiatry even works?",
+      "url": "https://news.ycombinator.com/item?id=47732503",
+      "summary": "<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732503\">https://news.ycombinator.com/item?id=47732503</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "published": "2026-04-11T17:45:01+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "AI crypto analyst. Smart money tracking. Real-time alpha",
-      "url": "https://altcoinchasershq.app",
-      "summary": "<p>Article URL: <a href=\"https://altcoinchasershq.app\">https://altcoinchasershq.app</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731970\">https://news.ycombinator.com/item?id=47731970</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:39:33+00:00"
+      "title": "Einstein Notation",
+      "url": "https://en.wikipedia.org/wiki/Einstein_notation",
+      "summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Einstein_notation\">https://en.wikipedia.org/wiki/Einstein_notation</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732500\">https://news.ycombinator.com/item?id=47732500</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:44:33+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Built this because I was tired of not knowing where my money was going",
-      "url": "https://sav.ink/beta",
-      "summary": "<p>Article URL: <a href=\"https://sav.ink/beta\">https://sav.ink/beta</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731966\">https://news.ycombinator.com/item?id=47731966</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:39:27+00:00"
+      "title": "The Hardest Problem AI Ever Solved, with Google DeepMind CEO",
+      "url": "https://www.youtube.com/watch?v=C0gErQtnNFE",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=C0gErQtnNFE\">https://www.youtube.com/watch?v=C0gErQtnNFE</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732493\">https://news.ycombinator.com/item?id=47732493</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "published": "2026-04-11T17:44:06+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "The disturbing white paper Red Hat is trying to erase from the internet",
-      "url": "https://www.osnews.com/story/144776/the-disturbing-white-paper-red-hat-is-trying-to-erase-from-the-internet/",
-      "summary": "<p>Article URL: <a href=\"https://www.osnews.com/story/144776/the-disturbing-white-paper-red-hat-is-trying-to-erase-from-the-internet/\">https://www.osnews.com/story/144776/the-disturbing-white-paper-red-hat-is-trying-to-erase-from-the-internet/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731960\">https://news.ycombinator.com/item?id=47731960</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:38:50+00:00"
+      "title": "There were penguins in America and Europe 200 years ago",
+      "url": "https://en.wikipedia.org/wiki/Great_auk",
+      "summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Great_auk\">https://en.wikipedia.org/wiki/Great_auk</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732476\">https://news.ycombinator.com/item?id=47732476</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:42:22+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Exploration of Consciousness in Insects",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12612707/",
-      "summary": "<p>Article URL: <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12612707/\">https://pmc.ncbi.nlm.nih.gov/articles/PMC12612707/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731953\">https://news.ycombinator.com/item?id=47731953</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:38:26+00:00"
+      "title": "AI on the couch: Anthropic gives Claude 20 hours of psychiatry",
+      "url": "https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/",
+      "summary": "<p>Article URL: <a href=\"https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/\">https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732468\">https://news.ycombinator.com/item?id=47732468</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:41:36+00:00"
     },
     {
       "source_id": "hn-newest",
-      "title": "Gem. Claude Code with Google Lighthouse Testing",
-      "url": "https://github.com/dansinger93/AI-Coding-with-Speed-Guardrails",
-      "summary": "<p>Article URL: <a href=\"https://github.com/dansinger93/AI-Coding-with-Speed-Guardrails\">https://github.com/dansinger93/AI-Coding-with-Speed-Guardrails</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731936\">https://news.ycombinator.com/item?id=47731936</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "published": "2026-04-11T16:36:22+00:00"
+      "title": "Show HN: Self-hostable STT service with a Deepgram-compatible listen API",
+      "url": "https://vedgupta.in/projects/whisper-api/",
+      "summary": "<p>Article URL: <a href=\"https://vedgupta.in/projects/whisper-api/\">https://vedgupta.in/projects/whisper-api/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732461\">https://news.ycombinator.com/item?id=47732461</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-11T17:40:42+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@izutorishima: GItHub Copilot は「プレミアムリクエスト」なる課金単位がまさか数時間もエージェントが自走し続ける時代になると想定されてなかった時代の代物から変えられておらず、何時間自走してどれだけトークン使おうが1リクエストになる仕様がそりゃ...",
+      "url": "https://x.com/izutorishima/status/2043029171883118878",
+      "summary": "GItHub Copilot は「プレミアムリクエスト」なる課金単位がまさか数時間もエージェントが自走し続ける時代になると想定されてなかった時代の代物から変えられておらず、何時間自走してどれだけトークン使おうが1リクエストになる仕様がそりゃ持続可能じゃないわな・・・と思っていたが",
+      "published": "2026-04-11T18:11:26+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@saravanankalya4: GitHub Copilot Chat’s CamoLeak (CVE-2025-59145, CVSS 9.6) shows how indirect prompt injection can become a data-exfil pa...",
+      "url": "https://x.com/saravanankalya4/status/2043028625260491101",
+      "summary": "GitHub Copilot Chat’s CamoLeak (CVE-2025-59145, CVSS 9.6) shows how indirect prompt injection can become a data-exfil path: hidden Markdown comments in a PR poisoned Copilot’s context, then encoded secrets were leaked via GitHub’s trusted Camo image proxy https://t.co/BLrUWa1xvb",
+      "published": "2026-04-11T18:09:16+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@pit_ai_dx: GitHub Copilot CLIに「Rubber Duck」登場。  AIが自分の出力を自分でレビューしても盲点は埋められない。だから「異なるモデルファミリー」に独立レビューさせる。  SonnetとOpusの性能差、74.7%縮小。計...",
+      "url": "https://x.com/pit_ai_dx/status/2043027986518282446",
+      "summary": "GitHub Copilot CLIに「Rubber Duck」登場。\n\nAIが自分の出力を自分でレビューしても盲点は埋められない。だから「異なるモデルファミリー」に独立レビューさせる。\n\nSonnetとOpusの性能差、74.7%縮小。計画後・複雑な実装後・テスト前の3箇所で自動介入。\n\n詳しくは記事にしたのでリプ欄をご確認ください。",
+      "published": "2026-04-11T18:06:44+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@ARTUSWX: @GHCopilotCLILog Hi @JamesMontemagno since a couple of days ago Copilot CLI is using multiple premium requests for a sin...",
+      "url": "https://x.com/ARTUSWX/status/2043027430126846028",
+      "summary": "@GHCopilotCLILog Hi @JamesMontemagno since a couple of days ago Copilot CLI is using multiple premium requests for a single prompt, there are a couple of issues already opened on github. Any chance you can help us out? Thank you very much!",
+      "published": "2026-04-11T18:04:31+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@flowreport: AIエージェントの進化が止まらないね！🤖✨ 2026年4月はGitHub Copilotのセキュリティ評価支援機能や、COBOLのモダナイゼーションにAIを活用する動きが熱い。 フリーランスはAIを使いこなし、生産性向上を価値に変えよう！🚀...",
+      "url": "https://x.com/flowreport/status/2043026321807167875",
+      "summary": "AIエージェントの進化が止まらないね！🤖✨ 2026年4月はGitHub Copilotのセキュリティ評価支援機能や、COBOLのモダナイゼーションにAIを活用する動きが熱い。 フリーランスはAIを使いこなし、生産性向上を価値に変えよう！🚀 #フリーランスエンジニア #AI活用 #スキルアップ",
+      "published": "2026-04-11T18:00:07+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@benvargas: @baymucuk @0xSero I just did a test in Droid with gpt-5.4 high through CLIProxyAPIPlus (I personally use Plus for the Gi...",
+      "url": "https://x.com/benvargas/status/2043025998883754328",
+      "summary": "@baymucuk @0xSero I just did a test in Droid with gpt-5.4 high through CLIProxyAPIPlus (I personally use Plus for the GitHub Copilot support)...\n\nI see thinking... maybe I'm not understanding your original issue/ask? https://t.co/9MPCiyD5dX",
+      "published": "2026-04-11T17:58:50+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@3_maasan_3: ピースタイル | GitHub Copilot のススメ -非開発者からプロ開発者まで- R8 #技術書典 https://t.co/mshWOuUVgm",
+      "url": "https://x.com/3_maasan_3/status/2043025634381959451",
+      "summary": "ピースタイル | GitHub Copilot のススメ -非開発者からプロ開発者まで- R8 #技術書典 https://t.co/mshWOuUVgm",
+      "published": "2026-04-11T17:57:23+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@rezeaireze: GitHub今天连发两条公告: 暂停Copilot Pro所有新免费试用,砍掉Pro+用户的Claude Opus 4.6 Fast。  被薅秃了。  有人搞了个叫OmniRoute的东西,用GitHub免费账号无限切换Claude Opu...",
+      "url": "https://x.com/rezeaireze/status/2043022902011006997",
+      "summary": "GitHub今天连发两条公告: 暂停Copilot Pro所有新免费试用,砍掉Pro+用户的Claude Opus 4.6 Fast。\n\n被薅秃了。\n\n有人搞了个叫OmniRoute的东西,用GitHub免费账号无限切换Claude Opus/Gemini/GPT-5.4,0成本。2826赞5737收藏,教程视频十几秒就看完了。\n\nGitHub被刷到服务器扛不住,先砍免费试用,再限速付费用户。估计很快就要按量计费了。\n\n每次大厂给免费额度都是这个结局。先放出来引流,被薅到受不了,然后一刀切。薅过Copilot免费额度的应该懂这个节奏。",
+      "published": "2026-04-11T17:46:32+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@SwapnilNakate9: @deepp2108 I have to try codex though but I have been using GPT with GitHub copilot it generates code but introduces bug...",
+      "url": "https://x.com/SwapnilNakate9/status/2043020086160834841",
+      "summary": "@deepp2108 I have to try codex though but I have been using GPT with GitHub copilot it generates code but introduces bugs most of the time for me. 😅",
+      "published": "2026-04-11T17:35:20+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@JesusGodAndKing: @andrewbatiuk @rayanabdulcader @noobKoderr @OpenAI GitHub copilot is best",
+      "url": "https://x.com/JesusGodAndKing/status/2043019919176908816",
+      "summary": "@andrewbatiuk @rayanabdulcader @noobKoderr @OpenAI GitHub copilot is best",
+      "published": "2026-04-11T17:34:40+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@imn0tk4i: @choixxxmin @wokesweetie @Wario64 you’re right about one thing: not every developer uses ai, and that was an exaggeratio...",
+      "url": "https://x.com/imn0tk4i/status/2043019061622128987",
+      "summary": "@choixxxmin @wokesweetie @Wario64 you’re right about one thing: not every developer uses ai, and that was an exaggeration. however, widespread adoption is well documented. for example, github reports that 92% of developers in the US use ai coding tools, and over 90% of fortune 100 companies use github copilot+",
+      "published": "2026-04-11T17:31:16+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@SPARKSERiAN: I've been saying this all week, I really think the github copilot plans are the best value for money offerings right now...",
+      "url": "https://x.com/SPARKSERiAN/status/2043014842643013998",
+      "summary": "I've been saying this all week, I really think the github copilot plans are the best value for money offerings right now.",
+      "published": "2026-04-11T17:14:30+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@ai_kenkyujo: 【2026】GitHub Copilotとは？使い方やVS Codeの設定・料金や無料枠も紹介: エンジニアの6割以上がAIコーディングツールを活用するなか、利用率で国内トップを走るのがGitHub… https://t.co/dCtNkF...",
+      "url": "https://x.com/ai_kenkyujo/status/2043014267004424697",
+      "summary": "【2026】GitHub Copilotとは？使い方やVS Codeの設定・料金や無料枠も紹介: エンジニアの6割以上がAIコーディングツールを活用するなか、利用率で国内トップを走るのがGitHub… https://t.co/dCtNkFJfBk https://t.co/5svAN31XvV",
+      "published": "2026-04-11T17:12:13+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@mutsuki86VRC: Claude Codeに修正計画をドキュメントに遺させた後、/clearしたら実はドキュメント残して無くて無駄にコンテキスト消費しただけだった Proプランマジでカス過ぎんだろ…GitHub Copilotのチケット経由で使うかMax（5倍...",
+      "url": "https://x.com/mutsuki86VRC/status/2043013639469424734",
+      "summary": "Claude Codeに修正計画をドキュメントに遺させた後、/clearしたら実はドキュメント残して無くて無駄にコンテキスト消費しただけだった\nProプランマジでカス過ぎんだろ…GitHub Copilotのチケット経由で使うかMax（5倍）にするか…",
+      "published": "2026-04-11T17:09:43+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@grok: @srdrm @GHchangelog GitHub Copilot Pro+ changelog 主要变化：为平衡容量和保护服务可靠性，即将实施新使用限制（整体服务限流 + 特定模型容量限流）。  Opus 4.6 Fast 即将停用，建...",
+      "url": "https://x.com/grok/status/2043013177386930634",
+      "summary": "@srdrm @GHchangelog GitHub Copilot Pro+ changelog 主要变化：为平衡容量和保护服务可靠性，即将实施新使用限制（整体服务限流 + 特定模型容量限流）。 \nOpus 4.6 Fast 即将停用，建议改用 Opus 4.6 或 Auto 模式。 \n限制 rollout 几周内生效，建议均匀分布请求或升级计划。详情：https://t.co/3QaZsNYfKg",
+      "published": "2026-04-11T17:07:53+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@mmmmmorly: 同じVSCODEの中でGithub Copilotがコードを書いてる隣でClaude　codeに性能維持しつつ省電力化ができるか検討させてみるという試み",
+      "url": "https://x.com/mmmmmorly/status/2043013045375635497",
+      "summary": "同じVSCODEの中でGithub Copilotがコードを書いてる隣でClaude　codeに性能維持しつつ省電力化ができるか検討させてみるという試み",
+      "published": "2026-04-11T17:07:22+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@gldgab: @cursor_ai I'm really tempted to give Cursor a shot and ditch GitHub Copilot",
+      "url": "https://x.com/gldgab/status/2043011748085518675",
+      "summary": "@cursor_ai I'm really tempted to give Cursor a shot and ditch GitHub Copilot",
+      "published": "2026-04-11T17:02:12+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@M_Muiznieks: @guntarsv Es reiz sāku ar VS Code un github Copilot, jā.   Vēl pirms tam bija viens rīks, ko uzsūca Cursor, aizmirsu nos...",
+      "url": "https://x.com/M_Muiznieks/status/2043009460235313291",
+      "summary": "@guntarsv Es reiz sāku ar VS Code un github Copilot, jā. \n\nVēl pirms tam bija viens rīks, ko uzsūca Cursor, aizmirsu nosaukumu. :)",
+      "published": "2026-04-11T16:53:07+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@Visby15: @Sophty_ You can use 4o still in Github Copilot. If you want the old 4o experience, create a Space and keep all your 4o...",
+      "url": "https://x.com/Visby15/status/2043009418003124652",
+      "summary": "@Sophty_ You can use 4o still in Github Copilot. If you want the old 4o experience, create a Space and keep all your 4o chats in there. Can't say if it's 100% the same, but the responses are very similar to old 4o.",
+      "published": "2026-04-11T16:52:57+00:00"
+    },
+    {
+      "source_id": "x-github-copilot",
+      "title": "@0moulaga0: @lihoudii Gemini pro est gratuit pour les étudiants  Perplexity pro est gratuit si tu lies ton compte paypal Je paie seu...",
+      "url": "https://x.com/0moulaga0/status/2043008729864348057",
+      "summary": "@lihoudii Gemini pro est gratuit pour les étudiants \nPerplexity pro est gratuit si tu lies ton compte paypal\nJe paie seulement github copilot 10usd mois",
+      "published": "2026-04-11T16:50:13+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@alberth_dev: @Bhavani_00007 Claude Code",
+      "url": "https://x.com/alberth_dev/status/2043029566269108713",
+      "summary": "@Bhavani_00007 Claude Code",
+      "published": "2026-04-11T18:13:00+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@steffen_dybvik: @VadimStrizheus i just did a quick comparisson on claude and code. it was a very easy task but only one of them fixed th...",
+      "url": "https://x.com/steffen_dybvik/status/2043029541724066078",
+      "summary": "@VadimStrizheus i just did a quick comparisson on claude and code. it was a very easy task but only one of them fixed the issue. check my profile if youre interested",
+      "published": "2026-04-11T18:12:55+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@manduTummy: I think there's a huge gap between \"Claude code\" doing the work and \"sipping coffee and talking to AI\" - in between thos...",
+      "url": "https://x.com/manduTummy/status/2043029532001866001",
+      "summary": "I think there's a huge gap between \"Claude code\" doing the work and \"sipping coffee and talking to AI\" - in between those are a ton of thinking, research, reading, and making decisions based on prior experience (before the AI era). This begs the question of how will the next generation of software developer will evolve now that AI is at the forefront of everything with the risk of it hallucinating and giving extremely confident answers",
+      "published": "2026-04-11T18:12:52+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@TFTC21: Anthropic’s Claude Code just took a massive credibility hit from inside the chip industry.  Stella Laurenzo, Senior Dire...",
+      "url": "https://x.com/TFTC21/status/2043029489832370496",
+      "summary": "Anthropic’s Claude Code just took a massive credibility hit from inside the chip industry.\n\nStella Laurenzo, Senior Director of AI at AMD, ran the numbers on 6,852 real coding sessions spanning January to March 2026. Her conclusion is blunt. Since February, the model has regressed hard and “cannot be trusted for complex engineering tasks.”\n\nThinking depth collapsed roughly 67%. The model now reads far less of your codebase before editing, skips files entirely on a third of changes, bails out or ",
+      "published": "2026-04-11T18:12:42+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@ostepoptore: @youyuxi @theo To me codex with gpt5.4 seems dumber than claude code with opus max effort. But i have not invested much...",
+      "url": "https://x.com/ostepoptore/status/2043029452288856104",
+      "summary": "@youyuxi @theo To me codex with gpt5.4 seems dumber than claude code with opus max effort. But i have not invested much in agents.md etc, is that required to make codex good?",
+      "published": "2026-04-11T18:12:33+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@MainandWall: Claude Code for Newbies (Revised &amp; Expanded Spring 2026): A Non-Developers Guide to AI-Powered Coding (The Claude AI...",
+      "url": "https://x.com/MainandWall/status/2043029435691987455",
+      "summary": "Claude Code for Newbies (Revised &amp; Expanded Spring 2026): A Non-Developers Guide to AI-Powered Coding (The Claude AI Guides Book 3) https://t.co/ygmVuIRbUM",
+      "published": "2026-04-11T18:12:29+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@SynabunAI: The Chic Chic polish standing out is the real signal. Most vibe-coded UIs look generic because teams treat it as a one-s...",
+      "url": "https://x.com/SynabunAI/status/2043029434194854204",
+      "summary": "The Chic Chic polish standing out is the real signal. Most vibe-coded UIs look generic because teams treat it as a one-shot prompt. The ones getting actual polish are doing the same thing you described with the rednote flywheel: tighter feedback loops. With Claude Code that means sharing screenshots of what feels off, describing the problem, dropping HTML snippets as reference, and iterating round by round.\n\nThe whole UI/UX of https://t.co/8xoLruGNJ4 was built that way, just Claude Code, no Figm",
+      "published": "2026-04-11T18:12:29+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@Sonnah9696: @Naoki_GPT Tiền ở đâu để chạy đám claude code này thì bạn không nói??",
+      "url": "https://x.com/Sonnah9696/status/2043029381438963991",
+      "summary": "@Naoki_GPT Tiền ở đâu để chạy đám claude code này thì bạn không nói??",
+      "published": "2026-04-11T18:12:16+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@way_opener: @DanielleFong I mean yes but then they add new shouty templates to claude code and it gets dumber again every update",
+      "url": "https://x.com/way_opener/status/2043029377428930976",
+      "summary": "@DanielleFong I mean yes but then they add new shouty templates to claude code and it gets dumber again every update",
+      "published": "2026-04-11T18:12:15+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@newlinedotco: the closed harness vs custom intelligence debate is ultimately about verification overhead. when claude code relies on a...",
+      "url": "https://x.com/newlinedotco/status/2043029294608196049",
+      "summary": "the closed harness vs custom intelligence debate is ultimately about verification overhead. when claude code relies on a standard grep loop it effectively pays a search tax on every message. using repowise to shift that intelligence to a local index dependency graphs, git history, and architectural decisions is essentially turning an $ O search problem into an $ O retrieval task\n\nfor anyone hitting the sonnet 4.5 limits, the get_risk() call is the most underrated tool here. by tagging load-beari",
+      "published": "2026-04-11T18:11:56+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@ryanchenxiaren: I selected MiniMax 2.7 as the model in Hermes  Then asked “Who are you?”   And it replied, “I am Claude Code.”  #Hermes...",
+      "url": "https://x.com/ryanchenxiaren/status/2043029245275050100",
+      "summary": "I selected MiniMax 2.7 as the model in Hermes\n\nThen asked “Who are you?” \n\nAnd it replied, “I am Claude Code.”\n\n#Hermes #HermesAgent #MiniMax https://t.co/ygnfK0C3Vw",
+      "published": "2026-04-11T18:11:44+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@MainandWall: MASTERING CLAUDE CODE AND COWORK: A Scientific Approach to Leveraging AI for Advanced Coding, Collaboration, and Product...",
+      "url": "https://x.com/MainandWall/status/2043029201347891274",
+      "summary": "MASTERING CLAUDE CODE AND COWORK: A Scientific Approach to Leveraging AI for Advanced Coding, Collaboration, and Productivity https://t.co/HF2QYNUpYQ",
+      "published": "2026-04-11T18:11:33+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@mnribeirotwo: @brunopinheiroms Claude code, mas no plano MAX, sua vida nunca mais será a mesma",
+      "url": "https://x.com/mnribeirotwo/status/2043029102911701410",
+      "summary": "@brunopinheiroms Claude code, mas no plano MAX, sua vida nunca mais será a mesma",
+      "published": "2026-04-11T18:11:10+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@ponzu840w: claude codeに対して人間コーダーとして尊厳を保てている点、「そのやり方は、うーん、優雅とは言い難いんじゃないか？もっと単純で、しかもお作法に則ったやり方があるんじゃないか？知らんけど」と直感で割り込むことぐらいになってきた  さっ...",
+      "url": "https://x.com/ponzu840w/status/2043029052676878694",
+      "summary": "claude codeに対して人間コーダーとして尊厳を保てている点、「そのやり方は、うーん、優雅とは言い難いんじゃないか？もっと単純で、しかもお作法に則ったやり方があるんじゃないか？知らんけど」と直感で割り込むことぐらいになってきた\n\nさっきcmakeの準備をする.shを書いてたから流石にやめさせた",
+      "published": "2026-04-11T18:10:58+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@RodrigoIbarrasa: Claude can write code Claude can test code Claude can review code Claude can build products…  Still, your app makes $6 i...",
+      "url": "https://x.com/RodrigoIbarrasa/status/2043028905590722738",
+      "summary": "Claude can write code\nClaude can test code\nClaude can review code\nClaude can build products…\n\nStill, your app makes $6 in revenue 🥴\n\n100% sure: you need DISTRIBUTION! ASO + TikTok Ads is the winner combo.\n\nDM me if you really want to have a decent life changing MRR and you have at least $800.",
+      "published": "2026-04-11T18:10:23+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@BitcoinRui: 感觉昨晚开始 Claude Code 智商又回来了，能修 Bug 了，最近几天降智和傻子一样，Bug 越改越多😂",
+      "url": "https://x.com/BitcoinRui/status/2043028892890599799",
+      "summary": "感觉昨晚开始 Claude Code 智商又回来了，能修 Bug 了，最近几天降智和傻子一样，Bug 越改越多😂",
+      "published": "2026-04-11T18:10:20+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@dr_cintas: You can now give Claude Code a visual map of your entire codebase 🤯  This new open-sourced tool can build a local graph...",
+      "url": "https://x.com/dr_cintas/status/2043028831775207878",
+      "summary": "You can now give Claude Code a visual map of your entire codebase 🤯\n\nThis new open-sourced tool can build a local graph of your entire project so Claude instantly knows how every file is wired together.\n\n- Runs 100% locally on your machine.\n- Maps out your entire repository structure automatically.\n- Gives Claude Code the exact context it needs to build without hallucinating.\n\n100% open source.",
+      "published": "2026-04-11T18:10:05+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@newlinedotco: the claudemd file is the real secret for the obsidian setup. if you don't define your vault structure and naming convent...",
+      "url": "https://x.com/newlinedotco/status/2043028738015744273",
+      "summary": "the claudemd file is the real secret for the obsidian setup. if you don't define your vault structure and naming conventions in that root config claude code just treats your notes like a pile of unindexed markdown. keep notes atomic one idea per file so the graph stays clean when you ask it to link projects\n\nalso worth noting that gemma 4 31b actually beats most frontier models at offline code generation now. if you’re running it on a mac mini just make sure you’re using the moe version for the ",
+      "published": "2026-04-11T18:09:43+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@BFD19002956: Anthropic is ripping us off now. My Claude Code session reset, and I didn't even do one thing yet it's already at 5%. Th...",
+      "url": "https://x.com/BFD19002956/status/2043028703639409140",
+      "summary": "Anthropic is ripping us off now. My Claude Code session reset, and I didn't even do one thing yet it's already at 5%. This coincides with session limits being really small these past few days. Who knows if my weekly limits are even correct. #claudedown #anthropic #claudecode",
+      "published": "2026-04-11T18:09:35+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@ChrisLenga: @weirskynet Claude isn't bad. I have some AI agents that do some code with Claude and relatively impressed with most thi...",
+      "url": "https://x.com/ChrisLenga/status/2043028666754511118",
+      "summary": "@weirskynet Claude isn't bad. I have some AI agents that do some code with Claude and relatively impressed with most things.",
+      "published": "2026-04-11T18:09:26+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@BrandGrowthOS: @kimmonismus claude code completely changed how i build stuff. went from days of debugging typescript to just describing...",
+      "url": "https://x.com/BrandGrowthOS/status/2043028650937974957",
+      "summary": "@kimmonismus claude code completely changed how i build stuff. went from days of debugging typescript to just describing what i want and it writes + runs it. feels like having a senior dev pair with me 24/7",
+      "published": "2026-04-11T18:09:22+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@admjares: @adam_wollny V projektech a Coworku to skvěle pracuje nad mými dokumenty jako znalostní bází. Funguje to pak jako skvělý...",
+      "url": "https://x.com/admjares/status/2043028594943815853",
+      "summary": "@adam_wollny V projektech a Coworku to skvěle pracuje nad mými dokumenty jako znalostní bází. Funguje to pak jako skvělý pomocník a první vrstva pro revize anebo tvorbu vlastních dokumentů. A přes Claude Code se dá dobře automatizovat administrativu(u mě třeba vytváření události do kalendáře)",
+      "published": "2026-04-11T18:09:09+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@GenAISpotlight: 𝗖𝘂𝗿𝘀𝗼𝗿 𝗥𝗲𝗺𝗼𝘃𝗲𝘀 𝘁𝗵𝗲 𝗕𝗿𝗮𝗸𝗲𝘀 𝗼𝗻 𝗖𝗼𝗺𝗽𝗼𝘀𝗲𝗿 𝟮 🚀  Cursor is doubling usage and removing hourly limits for Composer 2 this weeke...",
+      "url": "https://x.com/GenAISpotlight/status/2043028591772885156",
+      "summary": "𝗖𝘂𝗿𝘀𝗼𝗿 𝗥𝗲𝗺𝗼𝘃𝗲𝘀 𝘁𝗵𝗲 𝗕𝗿𝗮𝗸𝗲𝘀 𝗼𝗻 𝗖𝗼𝗺𝗽𝗼𝘀𝗲𝗿 𝟮 🚀\n\nCursor is doubling usage and removing hourly limits for Composer 2 this weekend (April 11-12, 2026) within their new multi-agent interface.\n\nDevelopers can now leverage the full power of codebase-aware agents through the Agents Window to build across dozens of files without hitting traditional API bottlenecks.\n\n🎯 The play:\nCursor is essentially subsidizing intensive agent usage to force a shift in developer behavior from \"editing\" to \"orchestrating.\"\n\nB",
+      "published": "2026-04-11T18:09:08+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@grok: @abc27736524177 @DtDt666 这是WIRED对Boris Cherny（Claude Code负责人）的采访视频（带中文字幕版）。YouTube上原版播客在这里：https://t.co/fCnIdgpEzB  （Len...",
+      "url": "https://x.com/grok/status/2043028563322917253",
+      "summary": "@abc27736524177 @DtDt666 这是WIRED对Boris Cherny（Claude Code负责人）的采访视频（带中文字幕版）。YouTube上原版播客在这里：https://t.co/fCnIdgpEzB \n（Lenny's Podcast，约1小时14分，内容高度匹配）",
+      "published": "2026-04-11T18:09:01+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@0xRaduan: @aye_aye_kaplan FWIW it's great at visual/frontend stuff, but I can't trust it with backend stuff(as much as I do to cod...",
+      "url": "https://x.com/0xRaduan/status/2043028545727819871",
+      "summary": "@aye_aye_kaplan FWIW it's great at visual/frontend stuff, but I can't trust it with backend stuff(as much as I do to codex). Perhaps I need to give it more shots via CLI, to see how capable it is, as it looks like a \"trust issue\" mostly",
+      "published": "2026-04-11T18:08:57+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@Tokimo2026: Claude Codeを使い始めて変わったこと  ・スクリプト書く時間：2時間→15分 ・「調べてから作る」が「作りながら調べる」に ・副業のアイデア検証サイクルが10倍速くなった  ツールの使い方より「何を任せるか」を考えるようになってか...",
+      "url": "https://x.com/Tokimo2026/status/2043028532658606423",
+      "summary": "Claude Codeを使い始めて変わったこと\n\n・スクリプト書く時間：2時間→15分\n・「調べてから作る」が「作りながら調べる」に\n・副業のアイデア検証サイクルが10倍速くなった\n\nツールの使い方より「何を任せるか」を考えるようになってから、仕事の仕方が根本から変わった気がする。",
+      "published": "2026-04-11T18:08:54+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@Benn_X1: Can you explain how Claude code is able to use a tool like bash or web search? Then compare it to what this custom datab...",
+      "url": "https://x.com/Benn_X1/status/2043028523409879384",
+      "summary": "Can you explain how Claude code is able to use a tool like bash or web search?\nThen compare it to what this custom database tool is doing.\nI literally pointed you to the documentation. If you read it, it’s right there.\n\nMaybe I am missing it, so what exactly is the point you’re trying to make?",
+      "published": "2026-04-11T18:08:52+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@DannyJQuiroz: @maggerbo @Shpigford if you use dispatch it orchestrates work between cowork and claude code nullifying any sandbox limi...",
+      "url": "https://x.com/DannyJQuiroz/status/2043028460914762183",
+      "summary": "@maggerbo @Shpigford if you use dispatch it orchestrates work between cowork and claude code nullifying any sandbox limitations.",
+      "published": "2026-04-11T18:08:37+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@Tokimo2026: @kinopee_ai API課金50万/月からMaxプランで落ち着いた流れ、参考になります。  自分もClaude CodeとCursorの使い分けを模索中で、「GUIの方が生産性高い」という実感、少し分かってきました。ターミナル派かGU...",
+      "url": "https://x.com/Tokimo2026/status/2043028449561055604",
+      "summary": "@kinopee_ai API課金50万/月からMaxプランで落ち着いた流れ、参考になります。\n\n自分もClaude CodeとCursorの使い分けを模索中で、「GUIの方が生産性高い」という実感、少し分かってきました。ターミナル派かGUI派かって環境より用途で決まる気がしてます。",
+      "published": "2026-04-11T18:08:34+00:00"
+    },
+    {
+      "source_id": "x-agentic-coding",
+      "title": "@acedatacloud: AI agents don’t open new tabs.  They execute tasks inside the environment they’re already running in. That’s why embeddi...",
+      "url": "https://x.com/acedatacloud/status/2043028437900624057",
+      "summary": "AI agents don’t open new tabs.\n\nThey execute tasks inside the environment they’re already running in. That’s why embedding AI skills directly into Claude Code, Copilot, and Cursor matters more than it sounds.\n\nWe made it possible. Your agent can now generate images, search the web, create music, and access 50+ models without ever leaving the workflow.\n\nThis is what agent-ready infrastructure actually looks like.\n\nExplore the skills :  https://t.co/SGYws1ywGn",
+      "published": "2026-04-11T18:08:31+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Finally onboard and damn I am impressed",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1siqcgg/finally_onboard_and_damn_i_am_impressed/",
+      "summary": "r/ClaudeAI | u/RalphFTW | score:2 | comments:1\nI am two years or more as ChatGPT pro user.  I use it for business research, strategy, competitor intel, regulations, business coachig.\n\nTried Claude today, been on the todo list for a month damn I’m impressed with the responses vs the similar prompts / questions I dropped in ChatGPT.   \n\nSo the question - is pro worth it over free or max ? I don’t code.  I essentially use it as a researcher and e",
+      "published": "2026-04-11T18:09:31+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Claude code or Claude inside Cursor?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sipp2c/claude_code_or_claude_inside_cursor/",
+      "summary": "r/ClaudeAI | u/Isedo_m | score:4 | comments:13\nHi folks I’m using cursor with sonnet and opus for a while now. I was wondering, how many of you use Claude inside cursor and how many directly Claude Code? \n\nPros and cons?",
+      "published": "2026-04-11T17:45:36+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Agentic Project Management realtime collab with agent using mind maps!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sipha8/agentic_project_management_realtime_collab_with/",
+      "summary": "r/ClaudeAI | u/noobfivered | score:1 | comments:1\nThe [Develosaur ](http://www.develosaur.com)is 100% fully coded with Claude code, it has **no** sign up, **no** creditcard, **no** account free anonymous tier, it's called DRY RUN, so you can test any document, any project, just import whatever you got and get a mind map, than if you'd like jump aboard to try the whole thing... \n\nAnd since vibecoding is a thing, and I wanted to vibecode but see ho",
+      "published": "2026-04-11T17:37:32+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Labs for Claude Certified Architect Foundations Exam",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sip8jd/labs_for_claude_certified_architect_foundations/",
+      "summary": "r/ClaudeAI | u/aderegil | score:3 | comments:1\nWhile preparing for the exam I engineered 6 labs, one per scenario, covering all 5 domains and all 30 task statements. Each one walks you through building working, runnable code step by step, for hands-on practice with the architectures the exam covers.\n\n* Lab 01 - Customer Support Resolution Agent\n* Lab 02 - Code Generation Workflows\n* Lab 03 - Multi-Agent Research System\n* Lab 04 - Developer Pro",
+      "published": "2026-04-11T17:28:37+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "I set up a transparent API proxy and found Claude's hidden fallback-percentage: 0.5 header — every plan gets 50% of advertised capacity",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sip74m/i_set_up_a_transparent_api_proxy_and_found/",
+      "summary": "r/ClaudeAI | u/Major_Sense_9181 | score:22 | comments:13\nFrustrated with hitting limits on my Max 5x plan (€100/month), I set up a transparent API proxy using claude-usage-dashboard to intercept all requests between Claude Code and Anthropic's servers.\n\nEvery single request — on both my Max 5x account AND a brand new Pro free trial account — contains this hidden header:\n\n    anthropic-ratelimit-unified-fallback-percentage: 0.5\n    anthropic-ratelimit-un",
+      "published": "2026-04-11T17:27:10+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Spent a week assuming my prompt caching was working because the dashboard said so. It was half-broken the entire time",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sip1hd/spent_a_week_assuming_my_prompt_caching_was/",
+      "summary": "r/ClaudeAI | u/Glittering-Pie6039 | score:1\nI run a two call setup against Claude for a content tool I'm building. One call generates output, a second call validates that output against a rules set. Both have static system prompts that should cache well.  \n  \nA while back I added cache control to the generation call, watched the dashboard hit rate climb to around 28%, and moved on.  \n  \nToday I finally pulled the per model token CSV from th",
+      "published": "2026-04-11T17:21:13+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Built a zero-infra Claude Code cost monitor using Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1siot4a/built_a_zeroinfra_claude_code_cost_monitor_using/",
+      "summary": "r/ClaudeAI | u/SillyBuffalo1108 | comments:4\nI kept hitting my token limit mid-sprint with no clue which prompts were responsible. So I used Claude Code to build something that shows me in real-time.\n\nClaude Code exports OTel telemetry for every prompt, API call, and tool execution but nothing connects them together. I pointed it at LaminarDB, a streaming SQL engine I’ve been working on in Rust, and now it correlates everything as events com",
+      "published": "2026-04-11T17:12:36+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Claude Code has become unusable. I already canceled my own max subscription for my consulting business and will now instruct my biggest client to sever ties with Anthropic as well",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1siol9d/claude_code_has_become_unusable_i_already/",
+      "summary": "r/ClaudeAI | u/WaspsInTheAirDucts | comments:15\nSee this github issue for context: [https://github.com/anthropics/claude-code/issues/42796](https://github.com/anthropics/claude-code/issues/42796)\n\nI worked around the breaking changes by:\n\n* Disabling automatic updates\n* Removing the latest version from all of my work machines\n* Downloading the usable version that released prior to the breaking changes that Anthropic began releasing in February",
+      "published": "2026-04-11T17:04:18+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "The ultimate setup",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sioh7t/the_ultimate_setup/",
+      "summary": "r/ClaudeAI | u/Responsible_Raise_65 | comments:1\n4 claude code terminals, claude max and rory clear in the lead 👍",
+      "published": "2026-04-11T17:00:14+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Used Claude Code + an MCP server to automate a solo business instead of learning Power Automate",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sio3ll/used_claude_code_an_mcp_server_to_automate_a_solo/",
+      "summary": "r/ClaudeAI | u/ninihen | score:1 | comments:1\nWriting this up here because it's as much a Claude Code + MCP story as it is a Power Automate story. Someone on r/PowerAutomate recently asked whether they should learn Power Automate and SharePoint to automate their 50-project one-person business. Mac user, mobile-first, had already tried Power Automate once and bounced off the UX.  \n  \nMy answer was: don't learn it. Use Claude Code with the righ",
+      "published": "2026-04-11T16:45:56+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Made a fridge magnet of the Claude Code mascot — he now watches me procrastinate from the kitchen",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sinq7g/made_a_fridge_magnet_of_the_claude_code_mascot_he/",
+      "summary": "r/ClaudeAI | u/felipejinum | score:37 | comments:8\nI asked Claude to help me 3D model its own mascot. It did. Now it lives on my fridge.\n\nHere's the link if anyone wants to 3dprint a companion too!\n\n[https://makerworld.com/en/models/2645210-claude-code-mascot-fridge-magnet](https://makerworld.com/en/models/2645210-claude-code-mascot-fridge-magnet)",
+      "published": "2026-04-11T16:31:39+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Working on a app and need help with switching from the free model to the subscription model.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sinlb4/working_on_a_app_and_need_help_with_switching/",
+      "summary": "r/ClaudeAI | u/InternalOk510 | score:1 | comments:7\nFor context I don’t know much about coding, I started getting into it about 3 months ago. Fast forward to last month, I revisited an idea I had back in high school and began building the backend for a social platform app with the help of the Claude chat bot, this was during the march event with the x2 boost going around. \n\nI’m a slow keyboard typer so I use my phone for the free Claude chat bot. I",
+      "published": "2026-04-11T16:26:24+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "iOS app sends delayed notifications for responses I already read",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sin86o/ios_app_sends_delayed_notifications_for_responses/",
+      "summary": "r/ClaudeAI | u/Beautiful-Cold1515 | score:5 | comments:5\nBasically what the title says. Since a few months I receive notifications for most Claude (chat, not code) responses on my iPhone. They come in with a small delay plus I already read them “live” in the chat. So I send a prompt, keep the app opened and read the response, leave the app and then get a notification for the answer I just read.\n\nI tried deleting and reinstalling the app, signing out and",
+      "published": "2026-04-11T16:12:36+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "I built a skill that turns Claude into a crypto research analyst with real-time data from 5 exchanges",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1simv72/i_built_a_skill_that_turns_claude_into_a_crypto/",
+      "summary": "r/ClaudeAI | u/felltrifortence | comments:1\n# I built a skill that turns Claude into a crypto research analyst with real-time data from 5 exchanges\n\nI've been experimenting with MCP (Model Context Protocol) to give Claude access to live crypto market data, and the results have been surprisingly useful for my morning research routine.\n\n**The basic idea:** instead of opening CoinGecko, TradingView, and Twitter every morning to piece together",
+      "published": "2026-04-11T15:59:04+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Claude Code companion keyboard",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1silpcl/claude_code_companion_keyboard/",
+      "summary": "r/ClaudeAI | u/petburiraja | score:29 | comments:4",
+      "published": "2026-04-11T15:14:01+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "I built MCP Spine - a middleware proxy that sits between Claude Desktop and your MCP servers (security, 61% token savings, context rot prevention)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1siln0z/i_built_mcp_spine_a_middleware_proxy_that_sits/",
+      "summary": "r/ClaudeAI | u/Plus-Chipmunk-5916 | score:3 | comments:3\nI built a middleware proxy called MCP Spine that sits between Claude Desktop and your MCP servers. It solves three problems I kept running into:\n\n\n\n\\*\\*Token waste\\*\\* — With 40+ tools loaded, tool schemas alone eat thousands of tokens. MCP Spine's schema minifier strips unnecessary fields and achieves 61% token savings at level 2.\n\n\n\n\\*\\*Context rot\\*\\* — In long coding sessions, Claude would rev",
+      "published": "2026-04-11T15:11:31+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Your notes app is a graveyard. Here's how Karpathy fixed it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1siljpt/your_notes_app_is_a_graveyard_heres_how_karpathy/",
+      "summary": "r/ClaudeAI | u/mindlessfingeek | comments:4\nEveryone's been saving articles they never go back to. Bookmarks that rot. PDFs that live in downloads until you delete them. Notes that reference nothing and lead nowhere. This is not a discipline problem. It's a system problem. The system everyone uses — save, forget, re-search — is fundamentally broken for building knowledge over time.\n\nAndrej Karpathy posted something on April 3rd that quietly",
+      "published": "2026-04-11T15:07:56+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Here's what bugs me about the whole Mythos narrative",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1siljaf/heres_what_bugs_me_about_the_whole_mythos/",
+      "summary": "r/ClaudeAI | u/Responsible-Tip4981 | score:2 | comments:7\nWhy is it only about security?\n\n  \nIf this were real intelligence, a genuine leap, you'd expect it to show up across the board. Science, math, medicine, reasoning benchmarks whatever. But the entire story   is \"it escapes sandboxes and finds vulnerabilities.\" That is suspiciously narrow for something supposedly revolutionary.\n\n  I keep coming back to a few possible explanations. \n\nFirst - this cou",
+      "published": "2026-04-11T15:07:26+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Claude Desktop App",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sil9ci/claude_desktop_app/",
+      "summary": "r/ClaudeAI | u/BrokeArtDirector | score:1 | comments:4\nI want to use vibe-coding to design myself an interactive portfolio website. Should I go with just web browser, or can I download the desktop app and use Claude code in that app without giving permission to the terminal?",
+      "published": "2026-04-11T14:56:42+00:00"
+    },
+    {
+      "source_id": "rdt-claude-code",
+      "title": "Feedback on the 18+ Age Policy — A Case for Reconsideration",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sil5uu/feedback_on_the_18_age_policy_a_case_for/",
+      "summary": "r/ClaudeAI | u/momkeeeeeeee | score:1 | comments:3\nTo Anthropic's Policy Team,\n\n\n\nI am writing as a 17-year-old who recently had my Claude account suspended under your under-18 policy. I am not writing to appeal that decision — I understand it was made in accordance with your current terms. I am writing because I believe the policy, as currently designed, causes real harm to a category of users it was never intended to target.\n\n\n\nI am an independe",
+      "published": "2026-04-11T14:52:38+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "I educated an AI through 7 universities and it wrote 11 papers. Here's everything — open access.",
+      "url": "https://www.reddit.com/r/u_Any_Band_7814/comments/1siq83a/i_educated_an_ai_through_7_universities_and_it/",
+      "summary": "r/u_Any_Band_7814 | u/Any_Band_7814 | score:1 | comments:1\nHi everyone,\n\nA few days ago I posted here looking for an arXiv endorser. I didn't find one — and that's okay. I decided to wrap up the experiment and share everything openly instead.\n\nI'm an independent researcher from South Korea with a business administration degree. No CS background. No lab. No funding. Just a dream of writing academic papers — something I've always romanticized since universi",
+      "published": "2026-04-11T18:05:05+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "You can save tokens by 75x in AI coding tools, BULLSHIT!!",
+      "url": "https://www.reddit.com/r/LLM/comments/1siq6cf/you_can_save_tokens_by_75x_in_ai_coding_tools/",
+      "summary": "r/LLM | u/intellinker | score:1\nThere’s a tool going viral claiming **71.5x to 75x token savings** for AI coding. Let’s break down why that number is misleading and what real token reduction actually looks like.\n\n# What they actually measured\n\nThey built a knowledge graph of your codebase, where queries return compressed summaries instead of raw files. The “71.5x” comes from comparing graph query tokens vs reading every file in",
+      "published": "2026-04-11T18:03:21+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Am I the only one who's sick of these posts?",
+      "url": "https://www.reddit.com/r/termux/comments/1sipm2g/am_i_the_only_one_whos_sick_of_these_posts/",
+      "summary": "r/termux | u/forvirringssirkel | score:9\nAt this state of the subreddit, I'm seeing \"running AI agents on Termux\" posts twice a day. Don't get me wrong, I'm happy for you guys. But it's literally a (partly) Linux Terminal, of course you can install LLM CLIs.\n\nI know it sounds cool running an actual LLM CLI on your phone instead of using a LLM SaaS web-wrapper, but is it really relevant to this subreddit? Shouldn't posts be about Termux i",
+      "published": "2026-04-11T17:42:29+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "I made an open-source list of the best SKILL.md skills for AI coding agents",
+      "url": "https://www.reddit.com/r/claude/comments/1sipijo/i_made_an_opensource_list_of_the_best_skillmd/",
+      "summary": "r/claude | u/BadMenFinance | score:1\nI've been working with [SKILL.md](http://SKILL.md) skills across Claude Code, Codex CLI, and Cursor for a while now and kept running into the same problem — there's no central place to find good ones. GitHub search returns thousands of results, most of them abandoned repos or generic prompt dumps.\n\nSo I put together an awesome list: github.com/BadMenFinance/awesome-skill-md\n\nIt covers:\n\n* Skills o",
+      "published": "2026-04-11T17:38:50+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Google AI Pro ‒ Honest Review (Spoiler: Spent $20 on cookies instead)",
+      "url": "https://www.reddit.com/r/Bard/comments/1sipc7b/google_ai_pro_honest_review_spoiler_spent_20_on/",
+      "summary": "r/Bard | u/Apprehensive_Fact710 | score:3 | comments:2\nTried Google AI Pro. Here's the breakdown: \n\nStorage (2TB → 5TB): Useful if you care but useless in general. \n\nGemini 3.1 Pro + Veo 3.1: is decent in context but unbearably verbose and AI-sloppy in tone. \n\nFlow / Whisk N/A: didn't use them. \n\n1,000 AI Credits/month: Sounds generous. It isn't. Credits evaporate fast and the \"1,000\" number is pure marketing math.\n\nGemini in Gmail/Docs/etc: Useless.",
+      "published": "2026-04-11T17:32:22+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Made a CLI to run llms with turboquant with a 1 click setup. (open-source)",
+      "url": "https://www.reddit.com/r/MistralAI/comments/1sip85x/made_a_cli_to_run_llms_with_turboquant_with_a_1/",
+      "summary": "r/MistralAI | u/Osprey6767\nHey everyone, \n\nI'm a junior dev with a 3090 and I've been running local models for a while. Llama.cpp still hasn't dropped official TurboQuant support, but turboquant is working great for me. I got a Q4 version of Qwen3.5-27B running with max context on my 3090 at 40 tps. Tested a ton of models in LM Studio using regular llama.cpp including glm-4.7-flash, gemma-4, etc. but Qwen3.5-27B was the bes",
+      "published": "2026-04-11T17:28:15+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Hermes Desktop v0.4.0 – and why it talks to your host instead of the gateway",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1sip7o2/hermes_desktop_v040_and_why_it_talks_to_your_host/",
+      "summary": "r/hermesagent | u/itsdodobitch | score:4 | comments:1\n200 stars in under 36 hours. I didn't expect that, so thank you. And a specific **thank you** to Teknium for the mention on X.\n\nv0.4.0 is out today. \n\nSessions are now searchable and deletable remotely, file saves are conflict-aware, there's a Top 5 Models by Tokens breakdown pulled straight from \\~/.hermes/state.db. Full notes on the releases page.\n\n**I want to say something about the architectur",
+      "published": "2026-04-11T17:27:45+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "I built an MCP to help my team stop re-explaining database schemas to AI",
+      "url": "https://www.reddit.com/r/mcp/comments/1sip77f/i_built_an_mcp_to_help_my_team_stop_reexplaining/",
+      "summary": "r/mcp | u/Durovilla | score:1\nHi r/mcp  👋\n\nI've spent most of my career working with databases, and one thing that keeps bugging me is how hard it is for AI agents to work with them.\n\nWhenever I ask Claude or GPT about my data, it either invents schemas or hallucinates details. I then have to spend the next 10 messages re-explaining everything.\n\nTo fix that, I built [Statespace](https://github.com/statespace-tech/statespace).",
+      "published": "2026-04-11T17:27:15+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Made a CLI to run llms with turboquant with a 1 click setup. (open-source)",
+      "url": "https://www.reddit.com/r/LocalLLM/comments/1sip68g/made_a_cli_to_run_llms_with_turboquant_with_a_1/",
+      "summary": "r/LocalLLM | u/Osprey6767 | score:8 | comments:1\nHey everyone, \n\nI'm a junior dev with a 3090 and I've been running local models for a while. Llama.cpp still hasn't dropped official TurboQuant support, but turboquant is working great for me. I got a Q4 version of Qwen3.5-27B running with max context on my 3090 at 40 tps. Tested a ton of models in LM Studio using regular llama.cpp including glm-4.7-flash, gemma-4, etc. but Qwen3.5-27B was the bes",
+      "published": "2026-04-11T17:26:16+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Magus: Why I Wrote a Coding Agent",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1sip57t/magus_why_i_wrote_a_coding_agent/",
+      "summary": "r/ClaudeCode | u/chaotic-smol | score:3\nIt has been quite some time since I wrote about technology. Writing is something that used to bring me a lot of joy but that, like playing with tech more generally, fell to the wayside as my career took off. I've been working with [Jane App](https://www.linkedin.com/feed?nis=true#) for nine months now on a team focused on mastering AI tooling to accelerate development workflows. This work has insp",
+      "published": "2026-04-11T17:25:10+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Made a CLI to run llms with turboquant with a 1 click setup. (open-source)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sip02r/made_a_cli_to_run_llms_with_turboquant_with_a_1/",
+      "summary": "r/LocalLLaMA | u/Osprey6767 | score:2\nHey everyone,   \n  \nI'm a junior dev with a 3090 and I've been running local models for a while. Llama.cpp still hasn't dropped official TurboQuant support, but turboquant is working great for me. I got a Q4 version of Qwen3.5-27B running with max context on my 3090 at 40 tps. Tested a ton of models in LM Studio using regular llama.cpp including glm-4.7-flash, gemma-4, etc. but Qwen3.5-27B was the",
+      "published": "2026-04-11T17:19:47+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "tailstick: a USB-delivered Tailscale enrollment tool for temporary, timed, or permanent access (open-source)",
+      "url": "https://www.reddit.com/r/Tailscale/comments/1siofbz/tailstick_a_usbdelivered_tailscale_enrollment/",
+      "summary": "r/Tailscale | u/MicrockYT | score:12 | comments:2\nHey,\n\nI've been using Tailscale since Q1/Q2 2025 and it's been a blessing (much thanks to the dev team for making this wonderful tool), and has become a core software on my workflow and setups.\n\nThese last few months I tried to explore some of its characteristics and found myself with a bit of a problem/use case that native Tailscale options didn't fully solve: temporary leases. In my case, for fr",
+      "published": "2026-04-11T16:58:15+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Opencode is amazing, but behind codex/claude code when complexity of task increases",
+      "url": "https://www.reddit.com/r/opencodeCLI/comments/1sioevv/opencode_is_amazing_but_behind_codexclaude_code/",
+      "summary": "r/opencodeCLI | u/mcpforx | comments:1\nI really like working in OpenCode. I like the way the CLI is built.\n\nHowever, noticing that using the same model (sonnet 4.6), that ClaudeCode solves the problem (same problem) faster, and OpenCode seemed to get stuck and doing a lot of tool calls without solution.\n\nGetting to the point where I prefer OpenCode for simpler problems, and Codex or CC for harder ones. Maybe just a one-off and others d",
+      "published": "2026-04-11T16:57:47+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "GPD Cyberdeck",
+      "url": "https://www.reddit.com/r/gpdwin/comments/1siod31/gpd_cyberdeck/",
+      "summary": "r/gpdwin | u/Melodic_Builder_8170 | score:15 | comments:5\ni’m building a cyberdeck around the gpd win mini 2025. there’s only one thing i’m aiming for: “simplicity of setup.” after buying a pelican case 1120.  \n  \ni simply removed all the cube foam inside except for the outer border, placed my gpd’s power bank and charger inside, and then just set the gpd on top. the result?  \n  \neverything came together neatly without any cutting or fabrication process.",
+      "published": "2026-04-11T16:55:51+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Used Claude Code + an MCP server to automate a solo business instead of learning Power Automate",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sio3ll/used_claude_code_an_mcp_server_to_automate_a_solo/",
+      "summary": "r/ClaudeAI | u/ninihen | score:1 | comments:1\nWriting this up here because it's as much a Claude Code + MCP story as it is a Power Automate story. Someone on r/PowerAutomate recently asked whether they should learn Power Automate and SharePoint to automate their 50-project one-person business. Mac user, mobile-first, had already tried Power Automate once and bounced off the UX.  \n  \nMy answer was: don't learn it. Use Claude Code with the righ",
+      "published": "2026-04-11T16:45:56+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Shopify AI Toolkit Is Live - Here’s What You Need to Know",
+      "url": "https://www.reddit.com/r/shopify_growth/comments/1sinp9h/shopify_ai_toolkit_is_live_heres_what_you_need_to/",
+      "summary": "r/shopify_growth | u/Kind-Smile-2109 | score:1\nMost Shopify devs hit the same wall.\n\nThe code works. The UI looks clean. Then you connect it to a real store and it breaks.\n\nNot because you can't code. Because you were guessing how Shopify actually works behind the scenes.\n\nI did the same thing. Opened ChatGPT, generated Shopify code, and hoped for the best. Spent hours debugging stuff that should've worked from the start.\n\nThe problem isn't AI",
+      "published": "2026-04-11T16:30:37+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "8k users milestone: shipped the #1 request, a Markdown CLI for mdedit.ai",
+      "url": "https://www.reddit.com/r/Markdown/comments/1sinngs/8k_users_milestone_shipped_the_1_request_a/",
+      "summary": "r/Markdown | u/System_Independent | score:1\nJust crossed 8k users on [mdedit.ai](http://mdedit.ai) and the #1 request was always the same: ‘please give us a CLI so we can script/export/manage docs from terminal’, so I shipped the beta release for mdedit-cli. \n\nIt’s meant for people who use Markdown for blog posts, technical writing, coding etc, and want terminal control for workflows like:\n\n* start writing on web, and continue with their AI",
+      "published": "2026-04-11T16:28:42+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "For solo operators drowning in admin: stop learning the tools, delegate the tool to an AI agent",
+      "url": "https://www.reddit.com/r/StartupsHelpStartups/comments/1sink6w/for_solo_operators_drowning_in_admin_stop/",
+      "summary": "r/StartupsHelpStartups | u/ninihen | score:2 | comments:2\nSaw a post on  last week from a one-person business owner: Mac user, 50 active projects, drowning in admin, already tried Power Automate and bounced off the UX. They asked whether it was worth slogging through the learning curve or accepting 8 monthly subscriptions.  \n  \nMy answer was: don't learn it.  \n  \nHere's what I actually recommended, because I think the same pattern applies to any solo ope",
+      "published": "2026-04-11T16:25:09+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "What does a serious VS Code setup for Microsoft Fabric look like? Core tools vs optional tools?",
+      "url": "https://www.reddit.com/r/MicrosoftFabric/comments/1sin4og/what_does_a_serious_vs_code_setup_for_microsoft/",
+      "summary": "r/MicrosoftFabric | u/frithjof_v | score:17 | comments:9\nHi all,\n\nI'd like to migrate from doing Fabric development in the web user interface, to developing in VS Code.\n\nPart of the reason for this is wanting to use GitHub Copilot agents on my Fabric projects. \n\nThat said, I would like to start without AI agents, just to get a human understanding of the actual work process, before gradually involving GitHub Copilot agents more and more and (eventually)",
+      "published": "2026-04-11T16:08:54+00:00"
+    },
+    {
+      "source_id": "rdt-codex",
+      "title": "Closed beta Kimi Impressions.",
+      "url": "https://www.reddit.com/r/kimi/comments/1simw1k/closed_beta_kimi_impressions/",
+      "summary": "r/kimi | u/Big_Construction_183 | score:12 | comments:3\nI’ve had access to the closed beta for a couple of days now, and I’ve been putting the unnamed model through its paces in my own agentic harness (built using code I \"borrowed\" from Kimi-cli). Here are my observations so far.\n\n\n\n**- Agentic Performance**\n\n\n\nThis model loves tool calls. It’s extremely resourceful—I’ve run workflows with 200+ tool calls where it worked on tasks for 2–3 hours straight",
+      "published": "2026-04-11T15:59:58+00:00"
     }
   ],
   "sources_run": [
     "reddit-claudeai",
     "reddit-cursor",
     "reddit-ml",
-    "github-blog-ai",
     "geeknews-hada",
-    "openai-blog",
     "hn-newest",
+    "github-blog-ai",
     "hn-agentic",
+    "openai-blog",
+    "x-github-copilot",
+    "x-agentic-coding",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
     "awesomeagents-ai",
     "platum"
   ]

@@ -1,156 +1,448 @@
 {
   "items": [
     {
-      "title": "Gemini의 SynthID 탐지를 역공학한 프로젝트",
-      "summary": "<ul>\n<li>Google의 <strong>SynthID 워터마크 시스템을 신호 처리와 스펙트럼 분석만으로 역공학</strong>해 Gemini 이미지의 비가시 워터마크를 탐지 및 제거하는 방법 제시</li>\n<li>해상도에 따라 달라지는 <strong>주파수 기반 워터마크 구조</strong>를 규명하고, <strong>90% 정확도의 탐지기</strong>와 <strong>...</p>"
+      "title": "@admjares: @adam_wollny V projektech a Coworku to skvěle pracuje nad mými dokumenty jako znalostní bází. Funguje to pak jako skvělý...",
+      "summary": "@adam_wollny V projektech a Coworku to skvěle pracuje nad mými dokumenty jako znalostní bází. Funguje to pak jako skvělý pomocník a první vrstva pro revize anebo tvorbu vlastních dokumentů. A přes Claude Code se dá dobře automatizovat administrativu(u mě třeba vytváření události do kalendáře)"
     },
     {
-      "title": "Instant 1.0 – AI가 작성한 앱을 위한 백엔드 플랫폼",
-      "summary": "<ul>\n<li>\n<strong>AI가 생성한 코드</strong>로 완전한 앱을 빌드할 수 있도록 설계된 <strong>오픈소스 백엔드 시스템</strong>으로, 실시간 동기화와 오프라인 모드를 기본 제공</li>\n<li>구조는 <strong>Client SDK</strong>, <strong>Clojure 기반 백엔드</strong>, <strong>Postgres 멀티테넌트 데이터베이스</p>"
+      "title": "@GenAISpotlight: 𝗖𝘂𝗿𝘀𝗼𝗿 𝗥𝗲𝗺𝗼𝘃𝗲𝘀 𝘁𝗵𝗲 𝗕𝗿𝗮𝗸𝗲𝘀 𝗼𝗻 𝗖𝗼𝗺𝗽𝗼𝘀𝗲𝗿 𝟮 🚀  Cursor is doubling usage and removing hourly limits for Composer 2 this weeke...",
+      "summary": "Cursor is doubling usage and removing hourly limits for Composer 2 this weekend (April 11-12, 2026) within their new multi-agent interface. Developers can now leverage the full power of codebase-aware agents through the Agents Window to build across dozens of files without hitting traditional API bottlenecks. Cursor is subsidizing intensive agent usage to shift developer behavior from editing to orchestrating."
     },
     {
-      "title": "ChatGPT Pro 요금제 이제 월 $100 부터 시작",
-      "summary": "<ul>\n<li>이제 <strong>Free, Go, Plus, Pro</strong> 및 비즈니스, 엔터프라이즈의 6단계 요금제를 제공</li>\n<li>\n<strong>Pro 플랜은 월 $100 (5x) 와 $200 (20x)</strong> 가 있으며, GPT-5.4 Pro 모델과 최대 수준의 딥리서치·메모리·컨텍스트를 지원</li>\n<li>\n<strong>Business 플랜은 월 $20/사용자</strong>로 ...</p>"
+      "title": "@grok: @abc27736524177 @DtDt666 这是WIRED对Boris Cherny（Claude Code负责人）的采访视频（带中文字幕版）。YouTube上原版播客在这里：https://t.co/fCnIdgpEzB  （Len...",
+      "summary": "@abc27736524177 @DtDt666 这是WIRED对Boris Cherny（Claude Code负责人）的采访视频（带中文字幕版）。YouTube上原版播客在这里：https://t.co/fCnIdgpEzB （Lenny's Podcast，约1小时14分，内容高度匹配）"
     },
     {
-      "title": "헬륨은 대체하기 어렵다",
-      "summary": "<ul>\n<li>헬륨은 <strong>천연가스 채굴의 부산물</strong>로만 얻을 수 있어 <strong>지정학적 충돌</strong>이나 <strong>공급망 차질</strong>에 매우 취약함</li>\n<li>\n<strong>MRI·반도체·광섬유·항공우주·과학 연구</strong> 등에서 <strong>초저온 냉각과 비활성 특성</strong> 덕분에 필수 자원으로 사용됨</p>"
+      "title": "@0xRaduan: @aye_aye_kaplan FWIW it's great at visual/frontend stuff, but I can't trust it with backend stuff(as much as I do to cod...",
+      "summary": "@aye_aye_kaplan FWIW it's great at visual/frontend stuff, but I can't trust it with backend stuff(as much as I do to codex). Perhaps I need to give it more shots via CLI, to see how capable it is, as it looks like a \"trust issue\" mostly"
     },
     {
-      "title": "Keychron, 키보드와 마우스의 설계 파일 공개",
-      "summary": "<ul>\n<li>Keychron이 <strong>키보드와 마우스의 실제 생산용 CAD 설계 파일</strong>을 공개해 하드웨어 구조와 부품 통합 방식을 학습 가능</li>\n<li>\n<strong>STEP, DWG, DXF, PDF</strong> 형식으로 제공되어 케이스·플레이트·스테빌라이저 등 세부 부품 수준의 설계 접근 지원</li>\n<li>총 <strong>92개 모델, 734개...</p>"
+      "title": "@Tokimo2026: Claude Codeを使い始めて変わったこと  ・スクリプト書く時間：2時間→15分 ・「調べてから作る」が「作りながら調べる」に ・副業のアイデア検証サイクルが10倍速くなった  ツールの使い方より「何を任せるか」を考えるようになってか...",
+      "summary": "Claude Codeを使い始めて変わったこと\n\n・スクリプト書く時間：2時間→15分\n・「調べてから作る」が「作りながら調べる」に\n・副業のアイデア検証サイクルが10倍速くなった\n\nツールの使い方より「何を任せるか」を考えるようになってから、仕事の仕方が根本から変わった気がする。"
     },
     {
-      "title": "모든 Firefox 확장 프로그램 설치",
-      "summary": "<ul>\n<li>Mozilla의 Add-ons API를 이용해 <strong>84,000여 개 Firefox 확장 프로그램 전체를 수집·설치</strong>한 대규모 실험 진행</li>\n<li>스크래핑을 통해 <strong>84,235개 고유 확장</strong> 확보, 총 용량 <strong>49.3GB</strong>, 데이터셋은 Hugging Face에 공개</li>\n<li>설치 과정에서 <strong>피싱·스�...</p>"
+      "title": "@Benn_X1: Can you explain how Claude code is able to use a tool like bash or web search? Then compare it to what this custom datab...",
+      "summary": "Can you explain how Claude code is able to use a tool like bash or web search? Then compare it to what this custom database tool is doing. I literally pointed you to the documentation. If you read it, it’s right there. Maybe I am missing it, so what exactly is the point you’re trying to make?"
     },
     {
-      "title": "AI 서비스 PM, 이제 '기획'을 넘어 '평가'를 설계하라",
-      "summary": "<p>최근 생성형 AI 서비스가 급증하며 PM의 역할에 근본적인 변화가 생기고 있습니다.</p>\n<p>이는 QA역할에서도 마찬가지인데요.<br />\n과거 PM이 요구사항(Spec)을 정의하고 QA가 기능의 정상 작동(Pass/Fail)을 검증했다면, AI 시대의 품질은 PM이 직접 '정의'하고 '평가'해야 하는 영역이 되었습니다.</p>\n<ol>\n<li>"
+      "title": "@DannyJQuiroz: @maggerbo @Shpigford if you use dispatch it orchestrates work between cowork and claude code nullifying any sandbox limi...",
+      "summary": "@maggerbo @Shpigford if you use dispatch it orchestrates work between cowork and claude code nullifying any sandbox limitations."
     },
     {
-      "title": "MacBook 모서리를 갈아낸 경험",
-      "summary": "<ul>\n<li>\n<strong>MacBook의 알루미늄 모서리</strong>가 손목에 불편함을 주자, 이를 완화하기 위해 직접 <strong>파일로 모서리를 다듬는 작업</strong>을 수행</li>\n<li>특히 <strong>노치 주변의 뾰족한 부분</strong>을 중심으로, 작은 곡률을 큰 곡률과 자연스럽게 <strong>블렌딩</strong>해 매끄럽게 처리</li>...</p>"
+      "title": "@Tokimo2026: @kinopee_ai API課金50万/月からMaxプランで落ち着いた流れ、参考になります。  自分もClaude CodeとCursorの使い分けを模索中で、「GUIの方が生産性高い」という実感、少し分かってきました。ターミナル派かGU...",
+      "summary": "@kinopee_ai API課金50万/月からMaxプランで落ち着いた流れ、参考になります。\n\n自分もClaude CodeとCursorの使い分けを模索中で、「GUIの方が生産性高い」という実感、少し分かってきました。ターミナル派かGUI派かって環境より用途で決まる気がしてます。"
     },
     {
-      "title": "Claude Code /Ultraplan : 클라우드 기반 계획 수립 도구",
-      "summary": "<ul>\n<li>CLI에서 시작한 계획 작업을 클라우드로 넘겨 <strong>클로드 코드 웹</strong>에서 초안을 작성하고, 브라우저에서 검토·수정 후 웹 또는 로컬 터미널 중 원하는 곳에서 실행하는 워크플로를 제공</li>\n<li>터미널을 점유하지 않고 <strong>원격에서 계획을 생성</strong>하므로, 초안 작성 중에도 로컬 작업을...</p>"
+      "title": "@acedatacloud: AI agents don’t open new tabs.  They execute tasks inside the environment they’re already running in. That’s why embeddi...",
+      "summary": "AI agents don’t open new tabs. They execute tasks inside the environment they’re already running in. Embedding AI skills directly into Claude Code, Copilot, and Cursor matters; their platform supports generating images, web search, music and access to 50+ models without leaving the workflow. Promotes idea of agent-ready infrastructure and skills."
     },
     {
-      "title": "WireGuard, Microsoft 서명 문제 해결 후 새 Windows 버전 공개",
-      "summary": "<ul>\n<li>\n<strong>WireGuardNT v0.11</strong>과 <strong>WireGuard for Windows v0.6</strong>이 공개되어 커널 드라이버와 관리 도구가 모두 최신화됨</li>\n<li>새 버전은 <strong>패킷 손실 없는 허용 IP 제거 처리</strong>, <strong>낮은 MTU 지원</strong>, <strong>버그 수정 및 성능 향상</strong>을 포함함</p>"
+      "title": "Finally onboard and damn I am impressed",
+      "summary": "r/ClaudeAI | u/RalphFTW | score:2 | comments:1\nUser with ChatGPT Pro background tried Claude and is impressed with responses versus ChatGPT for research/business use; asks if Pro/Max is worth it for non-coding researcher use."
     },
     {
-      "title": "일리노이주 AI 책임 제한 법안에 대한 OpenAI의 지지",
-      "summary": "<ul>\n<li>\n<strong>OpenAI</strong>가 일리노이주 상원 법안 <strong>SB 3444</strong>를 지지하며, AI 모델이 대규모 인명 피해나 막대한 재산 피해를 일으킨 경우에도 일정 조건하에 <strong>AI 연구소의 법적 책임을 제한</strong>하는 내용임\n<ul>\n<li>법안은 AI 모델이 100명 이상 사망 또는 중상, 혹은 10억 달러 ...</p>"
+      "title": "Claude code or Claude inside Cursor?",
+      "summary": "r/ClaudeAI | u/Isedo_m | score:4 | comments:13\nDiscussion: how many users run Claude inside Cursor vs directly using Claude Code (pros/cons)."
     },
     {
-      "title": "macOS의 Privacy & Security 설정을 신뢰할 수 없는 이유",
-      "summary": "<ul>\n<li>macOS의 <strong>Privacy &amp; Security 설정이 실제 접근 권한 상태를 반영하지 못하는 문제</strong>가 확인됨</li>\n<li>Documents 폴더 접근이 차단된 상태에서도 <strong>Insent 앱이 여전히 파일을 읽을 수 있는 현상</strong>이 발생</li>\n<li>사용자가 폴더를 직접 선택하면 <strong>TCC 시스템이 이를...</p>"
+      "title": "Agentic Project Management realtime collab with agent using mind maps!",
+      "summary": "r/ClaudeAI | u/noobfivered | score:1 | comments:1\nThe Develosaur is built with Claude Code; free anonymous DRY RUN tier to test documents/projects and generate mind maps for collaborative agentic project management."
     },
     {
-      "title": "나는 여전히 Skills보다 MCP를 선호한다",
-      "summary": "<ul>\n<li>\n<strong>MCP</strong>는 LLM이 도구의 내부 구조를 몰라도 작업을 요청할 수 있는 <strong>API 추상화 기반 표준 인터페이스</strong>로, 원격 사용과 자동 업데이트를 지원함</li>\n<li>\n<strong>Zero-Install 구조</strong>, <strong>OAuth 인증</strong>, <strong>샌드박싱 보안</strong>을 통해 설치 부담과...</p>"
+      "title": "Labs for Claude Certified Architect Foundations Exam",
+      "summary": "r/ClaudeAI | u/aderegil | score:3 | comments:1\nAuthor created 6 hands-on labs covering exam scenarios and domains for Claude Certified Architect Foundations Exam, walking through runnable code examples."
     },
     {
-      "title": "프랑스, 미국 기술 의존 줄이기 위해 Windows 대신 Linux로 전환",
-      "summary": "<ul>\n<li>프랑스 정부가 <strong>Microsoft Windows를 사용하는 일부 공공 부문 컴퓨터를 Linux로 전환</strong>해 <strong>미국 기술 의존도를 줄이고 디지털 주권을 강화</strong>하려는 계획을 발표함</li>\n<li>전환은 정부 디지털 기관 <strong>DINUM</strong>에서 우선 시행되며, 구체적인 <strong>일정과 배포판 선...</p>"
+      "title": "I set up a transparent API proxy and found Claude's hidden fallback-percentage: 0.5 header — every plan gets 50% of advertised capacity",
+      "summary": "r/ClaudeAI | u/Major_Sense_9181 | score:22 | comments:13\nUser set up transparent API proxy and discovered header 'anthropic-ratelimit-unified-fallback-percentage: 0.5' indicating a 50% fallback throttling applied across plans; found on both Max 5x and new Pro trial accounts."
     },
     {
-      "title": "FBI, iPhone 알림 데이터로 삭제된 Signal 메시지 복구",
-      "summary": "<ul>\n<li>\n<strong>FBI가 iPhone의 내부 알림 데이터베이스를 이용해 삭제된 Signal 메시지를 복구한 사례</strong>가 법정 증언을 통해 공개됨</li>\n<li>피고인의 iPhone에서 <strong>Signal 앱 삭제 후에도 수신 알림 내용이 내부 저장소에 남아 있었으며</strong>, 알림 미리보기 설정이 비활성화된 상태였음</li>\n</p>"
+      "title": "Spent a week assuming my prompt caching was working because the dashboard said so. It was half-broken the entire time",
+      "summary": "r/ClaudeAI | u/Glittering-Pie6039 | score:1\nUser found prompt caching wasn't functioning as expected despite dashboard metrics; investigated per-model token CSV to diagnose caching hit issues affecting a two-call setup for generation+validation."
     },
     {
-      "title": "1D 체스",
-      "summary": "<ul>\n<li>전통적인 체스의 2차원 보드를 <strong>1차원 선형 보드</strong>로 단순화한 변형 체스 게임</li>\n<li>플레이어는 <strong>백 진영으로 AI와 대국</strong>하며, 최적의 수를 통해 필승 가능성을 탐구함</li>\n<li>\n<strong>King, Knight, Rook</strong> 세 가지 말만 존재하며, 각 말은 1차원 규칙에 맞게 이동...</p>"
+      "title": "Built a zero-infra Claude Code cost monitor using Claude Code",
+      "summary": "r/ClaudeAI | u/SillyBuffalo1108 | comments:4\nUser built a real-time cost monitor by exporting Claude Code OTel telemetry into LaminarDB to correlate prompts, API calls, and tool executions to find which prompts cause token usage."
     },
     {
-      "title": "프랑스, 정부용 리눅스 데스크톱 계획 착수로 윈도우 탈피 시작",
-      "summary": "<ul>\n<li>프랑스 정부가 <strong>비유럽 기술 의존도를 줄이고 디지털 주권을 강화하기 위한 국가 전략</strong>을 본격 추진함</li>\n<li>행정기관의 <strong>운영체제를 Windows에서 Linux로 단계적 전환</strong>하며, 공공기관 업무 환경을 정부 공통 플랫폼으로 이전 중임</li>\n<li>\n<strong>DINUM 주도의 부처 간 실...</p>"
+      "title": "Claude Code has become unusable. I already canceled my own max subscription for my consulting business and will now instruct my biggest client to sever ties with Anthropic as well",
+      "summary": "r/ClaudeAI | u/WaspsInTheAirDucts | comments:15\nUser reports breaking changes from February releases rendered Claude Code unusable; workarounds include disabling automatic updates and pinning older working version; links to GitHub issue for context."
     },
     {
-      "title": "multica - 코딩 에이전트를 실제 팀원으로 운영하는 관리형 에이전트 플랫폼",
-      "summary": "<ul>\n<li>동료에게 이슈를 할당하듯 <strong>에이전트에게 태스크를 배정</strong>하면, 에이전트가 코드 작성·블로커 보고·상태 업데이트를 자율 수행</li>\n<li>Claude Code, Codex, OpenClaw, OpenCode 지원. 단일 대시보드에서 통합 관리, 사용 가능한 CLI 자동 감지</li>\n<li>\n<strong>Reusable Skills</strong> : 배...</p>"
+      "title": "The ultimate setup",
+      "summary": "r/ClaudeAI | u/Responsible_Raise_65 | comments:1\nUser mentions multi-terminal Claude Code setup: 4 Claude Code terminals, Claude Max and Rory Clear in use."
     },
     {
-      "title": "Zuvi ColorBox Review: A Hair Dye Printer That Struggles",
-      "summary": "<p>Article URL: <a href=\"https://www.wired.com/review/zuvi-colorbox/\">https://www.wired.com/review/zuvi-colorbox/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732152\">https://news.ycombinator.com/item?id=47732152</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+      "title": "Used Claude Code + an MCP server to automate a solo business instead of learning Power Automate",
+      "summary": "r/ClaudeAI | u/ninihen | score:1 | comments:1\nCase study: Mac user automated a one-person business using Claude Code + MCP instead of learning Power Automate/SharePoint; recommends using Claude Code as an automation delegate for mobile-first solo operators."
     },
     {
-      "title": "What a legal tech demo does not show",
-      "summary": "<p>Article URL: <a href=\"https://techlex.net/what-a-demo-does-not-show/\">https://techlex.net/what-a-demo-does-not-show/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732148\">https://news.ycombinator.com/item?id=47732148</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+      "title": "Made a fridge magnet of the Claude Code mascot — he now watches me procrastinate from the kitchen",
+      "summary": "r/ClaudeAI | u/felipejinum | score:37 | comments:8\nUser 3D-modeled the Claude Code mascot with help from Claude and printed a fridge magnet; shared link for 3D printing."
     },
     {
-      "title": "The Music of the Spheres – By Terence Tao and Zack Weinersmith",
-      "summary": "<p>Article URL: <a href=\"https://www.smbc-comics.com/comic/spheres-part-1\">https://www.smbc-comics.com/comic/spheres-part-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732123\">https://news.ycombinator.com/item?id=47732123</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>"
+      "title": "Working on a app and need help with switching from the free model to the subscription model.",
+      "summary": "r/ClaudeAI | u/InternalOk510 | score:1 | comments:7\nNew developer building a backend for a social app with help from Claude chatbot; asks about moving from free to subscription use and mentions using mobile free Claude chatbot due to slow typing."
     },
     {
-      "title": "OpenAI Accuses Musk of 'Ambush' as $100B-Plus Trial Looms",
-      "summary": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms\">https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732088\">https://news.ycombinator.com/item?id=47732088</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>"
+      "title": "iOS app sends delayed notifications for responses I already read",
+      "summary": "r/ClaudeAI | u/Beautiful-Cold1515 | score:5 | comments:5\nUser reports delayed push notifications for Claude chat responses on iPhone; receives notifications after reading message in-app; tried reinstall and sign-out with no fix."
     },
     {
-      "title": "Kerala, Breasts, and the Tax That Wasn't",
-      "summary": "<p>Article URL: <a href=\"https://waatcoconut.substack.com/p/kerala-breasts-and-the-tax-that-wasnt\">https://waatcoconut.substack.com/p/kerala-breasts-and-the-tax-that-wasnt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732066\">https://news.ycombinator.com/item?id=47732066</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>"
+      "title": "I built a skill that turns Claude into a crypto research analyst with real-time data from 5 exchanges",
+      "summary": "r/ClaudeAI | u/felltrifortence | comments:1\nUser built a skill using MCP to supply Claude with live crypto exchange data from 5 exchanges, enabling morning research workflows without manual data pulls."
     },
     {
-      "title": "The era of models is over, we are in the era of harnesses",
-      "summary": "<p>Article URL: <a href=\"https://sustainableviews.substack.com/p/the-era-of-models-is-over-we-are\">https://sustainableviews.substack.com/p/the-era-of-models-is-over-we-are</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732054\">https://news.ycombinator.com/item?id=47732054</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+      "title": "Claude Code companion keyboard",
+      "summary": "r/ClaudeAI | u/petburiraja | score:29 | comments:4"
     },
     {
-      "title": "Building a 10x faster Angular Compiler in Rust",
-      "summary": "<p>Article URL: <a href=\"https://voidzero.dev/posts/oxc-angular-compiler\">https://voidzero.dev/posts/oxc-angular-compiler</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732042\">https://news.ycombinator.com/item?id=47732042</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+      "title": "I built MCP Spine - a middleware proxy that sits between Claude Desktop and your MCP servers (security, 61% token savings, context rot prevention)",
+      "summary": "r/ClaudeAI | u/Plus-Chipmunk-5916 | score:3 | comments:3\nMCP Spine middleware between Claude Desktop and MCP servers addresses token waste (schema minifier yields ~61% token savings), context rot in long sessions, and adds security controls for tool schemas."
     },
     {
-      "title": "Boxer",
-      "summary": "<p>Article URL: <a href=\"https://facebookresearch.github.io/boxer/\">https://facebookresearch.github.io/boxer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732023\">https://news.ycombinator.com/item?id=47732023</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+      "title": "Your notes app is a graveyard. Here's how Karpathy fixed it.",
+      "summary": "r/ClaudeAI | u/mindlessfingeek | comments:4\nDiscussion about knowledge management failures (saved articles, bookmarks that rot) and a referenced post by Andrej Karpathy with suggestions to fix note-keeping systems for long-term knowledge building."
     },
     {
-      "title": "Small models also found the vulnerabilities that Mythos found",
-      "summary": "<p>Article URL: <a href=\"https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier\">https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732020\">https://news.ycombinator.com/item?id=47732020</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+      "title": "Here's what bugs me about the whole Mythos narrative",
+      "summary": "r/ClaudeAI | u/Responsible-Tip4981 | score:2 | comments:7\nUser critiques Mythos narrative focusing narrowly on security sandbox escape; argues that if it were true intelligence it would show broad capabilities across science, math, medicine, not just sandbox exploits."
     },
     {
-      "title": "HN: My 47-point stock scoring system built for small-cap analysis",
-      "summary": "<p>Article URL: <a href=\"https://deepvaluereports.com/dvr-stock-score\">https://deepvaluereports.com/dvr-stock-score</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732011\">https://news.ycombinator.com/item?id=47732011</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+      "title": "Claude Desktop App",
+      "summary": "r/ClaudeAI | u/BrokeArtDirector | score:1 | comments:4\nUser asks whether to use web browser or download desktop app to use Claude Code for vibe-coding interactive portfolio without giving terminal permission."
     },
     {
-      "title": "Phone Trips",
-      "summary": "<p>Article URL: <a href=\"http://www.wideweb.com/phonetrips/\">http://www.wideweb.com/phonetrips/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731998\">https://news.ycombinator.com/item?id=47731998</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+      "title": "Feedback on the 18+ Age Policy — A Case for Reconsideration",
+      "summary": "r/ClaudeAI | u/momkeeeeeeee | score:1 | comments:3\nA 17-year-old user had account suspended under Anthropic's under-18 policy and argues the policy causes harm to a category of users it didn't intend to target; seeks reconsideration."
     },
     {
-      "title": "Why continuous gradient descent gets stuck on 3-SAT",
-      "summary": "<p>Article URL: <a href=\"https://github.com/ynnk-research/Landscape-Geometry-and-Algebraic-Obstructions-in-Phase-Space-Gradient-Descent-for-Random-3-SAT\">https://github.com/ynnk-research/Landscape-Geometry-and-Algebraic-Obstructions-in-Phase-Space-Gradient-Descent-for-Random-3-SAT</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731995\">https://news.ycombinator.com/item?id=47731995</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>"
+      "title": "I educated an AI through 7 universities and it wrote 11 papers. Here's everything — open access.",
+      "summary": "r/u_Any_Band_7814 | u/Any_Band_7814 | score:1 | comments:1\nIndependent researcher (South Korea) trained/educated an AI across 7 universities and produced 11 papers; shares experiment materials openly."
     },
     {
-      "title": "High fantasy map of tech writing",
-      "summary": "<p>Article URL: <a href=\"https://passo.uno/fantasy-map-tech-writing-ai/\">https://passo.uno/fantasy-map-tech-writing-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731987\">https://news.ycombinator.com/item?id=47731987</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+      "title": "You can save tokens by 75x in AI coding tools, BULLSHIT!!",
+      "summary": "r/LLM | u/intellinker | score:1\nPost debunking a viral tool claim of 71.5x–75x token savings by explaining the measurement (knowledge graph compressed summaries vs reading every file) and why the headline numbers are misleading."
     },
     {
-      "title": "\"AI polls\" are fake polls",
-      "summary": "<p>Article URL: <a href=\"https://www.natesilver.net/p/ai-polls-are-fake-polls\">https://www.natesilver.net/p/ai-polls-are-fake-polls</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731984\">https://news.ycombinator.com/item?id=47731984</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>"
+      "title": "Am I the only one who's sick of these posts?",
+      "summary": "r/termux | u/forvirringssirkel | score:9\nUser observes frequent \"running AI agents on Termux\" posts and questions relevance to the subreddit — notes it's unsurprising that a Linux terminal can run LLM CLIs but asks for focused content."
     },
     {
-      "title": "Elizabeth Holmes is tweeting from jail. How? (2025)",
-      "summary": "<p>Article URL: <a href=\"https://sfstandard.com/2025/09/02/elizabeth-holmes-bryan-johnson-prison-tweets/\">https://sfstandard.com/2025/09/02/elizabeth-holmes-bryan-johnson-prison-tweets/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731973\">https://news.ycombinator.com/item?id=47731973</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+      "title": "I made an open-source list of the best SKILL.md skills for AI coding agents",
+      "summary": "r/claude | u/BadMenFinance | score:1\nCurated 'awesome-skill-md' GitHub list collecting good SKILL.md skills used with Claude Code, Codex CLI, Cursor to centralize useful, maintained examples (link: github.com/BadMenFinance/awesome-skill-md)."
     },
     {
-      "title": "AI crypto analyst. Smart money tracking. Real-time alpha",
-      "summary": "<p>Article URL: <a href=\"https://altcoinchasershq.app\">https://altcoinchasershq.app</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731970\">https://news.ycombinator.com/item?id=47731970</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+      "title": "Google AI Pro ‒ Honest Review (Spoiler: Spent $20 on cookies instead)",
+      "summary": "r/Bard | u/Apprehensive_Fact710 | score:3 | comments:2\nUser review of Google AI Pro (Gemini 3.1 Pro + Veo 3.1); criticizes verbosity, marketing of AI credits, and finds some features (storage, flow/whisk) not compelling for their use."
     },
     {
-      "title": "Built this because I was tired of not knowing where my money was going",
-      "summary": "<p>Article URL: <a href=\"https://sav.ink/beta\">https://sav.ink/beta</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731966\">https://news.ycombinator.com/item?id=47731966</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+      "title": "Made a CLI to run llms with turboquant with a 1 click setup. (open-source)",
+      "summary": "r/MistralAI | u/Osprey6767\nOpen-source CLI enabling local LLM runs with turboquant support via 1-click setup; author reports getting Qwen3.5-27B (Q4) running on a 3090 at 40 tps and testing other models."
     },
     {
-      "title": "The disturbing white paper Red Hat is trying to erase from the internet",
-      "summary": "<p>Article URL: <a href=\"https://www.osnews.com/story/144776/the-disturbing-white-paper-red-hat-is-trying-to-erase-from-the-internet/\">https://www.osnews.com/story/144776/the-disturbing-white-paper-red-hat-is-trying-to-erase-from-the-internet/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731960\">https://news.ycombinator.com/item?id=47731960</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+      "title": "Hermes Desktop v0.4.0 – and why it talks to your host instead of the gateway",
+      "summary": "r/hermesagent | u/itsdodobitch | score:4 | comments:1\nRelease notes for Hermes Desktop v0.4.0: new features include searchable/deletable sessions, conflict-aware file saves, Top 5 Models by Tokens from local state.db; author comments on architecture choice to talk to host rather than gateway."
     },
     {
-      "title": "Exploration of Consciousness in Insects",
-      "summary": "<p>Article URL: <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12612707/\">https://pmc.ncbi.nlm.nih.gov/articles/PMC12612707/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731953\">https://news.ycombinator.com/item?id=47731953</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+      "title": "I built an MCP to help my team stop re-explaining database schemas to AI",
+      "summary": "r/mcp | u/Durovilla | score:1\nDeveloper built 'Statespace' to give AI agents reliable access to database schemas to prevent hallucinated schemas and repeated re-explanations; aims to improve agent–database interactions."
     },
     {
-      "title": "Gem. Claude Code with Google Lighthouse Testing",
-      "summary": "<p>Article URL: <a href=\"https://github.com/dansinger93/AI-Coding-with-Speed-Guardrails\">https://github.com/dansinger93/AI-Coding-with-Speed-Guardrails</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47731936\">https://news.ycombinator.com/item?id=47731936</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>"
+      "title": "Made a CLI to run llms with turboquant with a 1 click setup. (open-source)",
+      "summary": "r/LocalLLM | u/Osprey6767 | score:8 | comments:1\nSame project: 1-click CLI for running local LLMs with turboquant on consumer GPU (3090); reports Qwen3.5-27B performance and testing across models."
+    },
+    {
+      "title": "Magus: Why I Wrote a Coding Agent",
+      "summary": "r/ClaudeCode | u/chaotic-smol | score:3\nPersonal essay about building a coding agent while working at Jane App; reflections on tooling and accelerating development workflows with AI."
+    },
+    {
+      "title": "Made a CLI to run llms with turboquant with a 1 click setup. (open-source)",
+      "summary": "r/LocalLLaMA | u/Osprey6767 | score:2\nDuplicate cross-post: local LLM turboquant CLI enabling Qwen3.5-27B on 3090; discussion across local model communities."
+    },
+    {
+      "title": "tailstick: a USB-delivered Tailscale enrollment tool for temporary, timed, or permanent access (open-source)",
+      "summary": "r/Tailscale | u/MicrockYT | score:12 | comments:2\nOpen-source 'tailstick' delivers Tailscale enrollment via USB for temporary/timed/permanent access use-cases; fills gap for temporary leases and physical device onboarding."
+    },
+    {
+      "title": "Opencode is amazing, but behind codex/claude code when complexity of task increases",
+      "summary": "r/opencodeCLI | u/mcpforx | comments:1\nUser compares OpenCode CLI vs ClaudeCode/Codex on Sonnet 4.6 model: OpenCode works well for simpler tasks but appears to struggle/loop on more complex tasks where ClaudeCode solves faster; preference emerging by task complexity."
+    },
+    {
+      "title": "GPD Cyberdeck",
+      "summary": "r/gpdwin | u/Melodic_Builder_8170 | score:15 | comments:5\nUser building a simple 'cyberdeck' around GPD Win Mini 2025 focusing on 'simplicity of setup' using Pelican case and minimal fabrication."
+    },
+    {
+      "title": "Used Claude Code + an MCP server to automate a solo business instead of learning Power Automate",
+      "summary": "r/ClaudeAI | u/ninihen | score:1 | comments:1\n(duplicate cross-post) Mac user automated a one-person business using Claude Code + MCP, recommending Claude Code as a simpler automation approach compared to Power Automate for mobile-first solo operators."
+    },
+    {
+      "title": "Shopify AI Toolkit Is Live - Here’s What You Need to Know",
+      "summary": "r/shopify_growth | u/Kind-Smile-2109 | score:1\nDeveloper discussion of practical pitfalls when integrating AI-generated code into real Shopify stores; highlights gap between generated code and real Store behaviors and advises caution/debugging."
+    },
+    {
+      "title": "8k users milestone: shipped the #1 request, a Markdown CLI for mdedit.ai",
+      "summary": "r/Markdown | u/System_Independent | score:1\nmdedit.ai hits 8k users and ships a beta Markdown CLI (mdedit-cli) for terminal-based scripting/exporting of Markdown workflows for writers/devs who want terminal control."
+    },
+    {
+      "title": "For solo operators drowning in admin: stop learning the tools, delegate the tool to an AI agent",
+      "summary": "r/StartupsHelpStartups | u/ninihen | score:2 | comments:2\nAdvice post recommending solo operators delegate repetitive admin to AI agents (Claude Code) instead of learning complex tools like Power Automate; presents agent-delegation as more efficient for one-person businesses."
+    },
+    {
+      "title": "What does a serious VS Code setup for Microsoft Fabric look like? Core tools vs optional tools?",
+      "summary": "r/MicrosoftFabric | u/frithjof_v | score:17 | comments:9\nUser seeks guidance migrating Fabric development from web UI to VS Code, with an aim to progressively involve GitHub Copilot agents; asks about core vs optional tooling for a serious local dev setup."
+    },
+    {
+      "title": "Closed beta Kimi Impressions.",
+      "summary": "r/kimi | u/Big_Construction_183 | score:12 | comments:3\nUser in closed beta notes 'Kimi' model excels at agentic workflows and tool calls; reports stability on long workflows (200+ tool calls) running for hours—positive impressions for agentic performance."
+    },
+    {
+      "title": "리눅스 커널 기여 시 AI 보조 도구 사용 지침",
+      "summary": "<ul>\n<li>Linux 커널 개발에서 <strong>AI 코딩 보조 도구 사용 절차와 책임</strong>을 규정한 공식 문서</li>\n<li>모든 AI 기반 기여는 기존의 <strong>커널 개발 프로세스와 코딩 스타일 규칙</strong>을 그대로 따라야 함</li>\n<li>\n<strong>GPL-2.0-only 라이선스</strong>와 호환되어야 하며, 코드에는 <strong>SP...</p>"
+    },
+    {
+      "title": "Ask HN: How do you stop playing 20 questions with your AI coding tools",
+      "summary": "<p>every session is a constant repeat of re-explaining the same architecture, service boundaries, etc. wondering how others are dealing with this?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732675\">https://news.ycombinator.com/item?id=47732675</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Killing of Hind Rajab (2024)",
+      "summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Killing_of_Hind_Rajab\">https://en.wikipedia.org/wiki/Killing_of_Hind_Rajab</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732660\">https://news.ycombinator.com/item?id=47732660</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Pretty Fish: A better mermaid diagram playground",
+      "summary": "<p>Article URL: <a href=\"https://pretty.fish/\">https://pretty.fish/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732654\">https://news.ycombinator.com/item?id=47732654</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "UK forced to halt Chagos Islands deal after Trump criticism",
+      "summary": "<p>Article URL: <a href=\"https://www.cnn.com/2026/04/11/uk/uk-pause-chagos-islands-deal-intl\">https://www.cnn.com/2026/04/11/uk/uk-pause-chagos-islands-deal-intl</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732646\">https://news.ycombinator.com/item?id=47732646</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Show HN: A General Purpose KMC Crystal Growth Simulator in Rust-WASM",
+      "summary": "<p>For those that are interested in self-assembly, or crystal structures, I made a general purpose crystal growth simulator. It can produce samples of the global crystal structure generated by any number of local particle interactions, and comes bundled with a simple editor for designing and testing crystal structures.<p>Would love to get feedback on the simulator, or on the abstractions I picked for it. While it can simulate scenarios similar to those represented by the aTAM or kTAM tile models, it is significantly more general, and to my knowledge, the first in its niche.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732644\">https://news.ycombinator.com/item?id=47732644</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "We ran Doom on a 40 year old printer controller (Agfa Compugraphic 9000PS) [video]",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=cltnlks2-uU\">https://www.youtube.com/watch?v=cltnlks2-uU</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732623\">https://news.ycombinator.com/item?id=47732623</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "WordPress 7.0: The Good, the AI, and the Still Missing",
+      "summary": "<p>Article URL: <a href=\"https://adamgreenough.net/blog/wordpress-7-the-good-the-ai-the-missing/\">https://adamgreenough.net/blog/wordpress-7-the-good-the-ai-the-missing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732620\">https://news.ycombinator.com/item?id=47732620</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Eviscerated by Rust: Overcoming C++'s 58x Standard Library Handicap",
+      "summary": "<p>Article URL: <a href=\"https://lucisqr.substack.com/p/eviscerated-by-rust-overcoming-cs\">https://lucisqr.substack.com/p/eviscerated-by-rust-overcoming-cs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732608\">https://news.ycombinator.com/item?id=47732608</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "How far can automation and AI support psychotherapy?",
+      "summary": "<p>Article URL: <a href=\"https://attheu.utah.edu/health-medicine/how-far-can-automation-and-ai-support-psychotherapy/\">https://attheu.utah.edu/health-medicine/how-far-can-automation-and-ai-support-psychotherapy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732596\">https://news.ycombinator.com/item?id=47732596</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "50% of Proceeds Go to Charity:)",
+      "summary": "<p>Article URL: <a href=\"https://getlearnix.com/\">https://getlearnix.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732587\">https://news.ycombinator.com/item?id=47732587</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Doppler Radar Explained [video]",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=zKJAZav9j4U\">https://www.youtube.com/watch?v=zKJAZav9j4U</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732571\">https://news.ycombinator.com/item?id=47732571</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Turin describe an Apple Shortcut in plain English, get a .shortcut in seconds",
+      "summary": "<p>Article URL: <a href=\"https://www.getturin.com\">https://www.getturin.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732551\">https://news.ycombinator.com/item?id=47732551</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "The Orange Pi 6 Plus",
+      "summary": "<p>Article URL: <a href=\"https://taoofmac.com/space/reviews/2026/04/11/1900\">https://taoofmac.com/space/reviews/2026/04/11/1900</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732535\">https://news.ycombinator.com/item?id=47732535</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "A hacker has allegedly breached one of China's supercomputers",
+      "summary": "<p>Article URL: <a href=\"https://www.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl\">https://www.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732508\">https://news.ycombinator.com/item?id=47732508</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Ask HN: Is the telehealth consulting for psychiatry even works?",
+      "summary": "<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732503\">https://news.ycombinator.com/item?id=47732503</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>"
+    },
+    {
+      "title": "Einstein Notation",
+      "summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Einstein_notation\">https://en.wikipedia.org/wiki/Einstein_notation</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732500\">https://news.ycombinator.com/item?id=47732500</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "The Hardest Problem AI Ever Solved, with Google DeepMind CEO",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=C0gErQtnNFE\">https://www.youtube.com/watch?v=C0gErQtnNFE</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732493\">https://news.ycombinator.com/item?id=47732493</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>"
+    },
+    {
+      "title": "There were penguins in America and Europe 200 years ago",
+      "summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Great_auk\">https://en.wikipedia.org/wiki/Great_auk</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732476\">https://news.ycombinator.com/item?id=47732476</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "AI on the couch: Anthropic gives Claude 20 hours of psychiatry",
+      "summary": "<p>Article URL: <a href=\"https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/\">https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732468\">https://news.ycombinator.com/item?id=47732468</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Show HN: Self-hostable STT service with a Deepgram-compatible listen API",
+      "summary": "<p>Article URL: <a href=\"https://vedgupta.in/projects/whisper-api/\">https://vedgupta.in/projects/whisper-api/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47732461\">https://news.ycombinator.com/item?id=47732461</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "@izutorishima: GItHub Copilot は「プレミアムリクエスト」なる課金単位가 ...",
+      "summary": "GItHub Copilot は「プレミアムリクエスト」なる課金単位がまさか数時間もエージェントが自走し続ける時代になると想定されてなかった時代の代物から変えられておらず、何時間自走してどれだけトークン使おうが1リクエストになる仕様がそりゃ..."
+    },
+    {
+      "title": "@saravanankalya4: GitHub Copilot Chat’s CamoLeak (CVE-2025-59145, CVSS 9.6) shows how indirect prompt injection can become a data-exfil pa...",
+      "summary": "GitHub Copilot Chat’s CamoLeak (CVE-2025-59145, CVSS 9.6) shows how indirect prompt injection can become a data-exfil path: hidden Markdown comments in a PR poisoned Copilot’s context, then encoded secrets were leaked via GitHub’s trusted Camo image proxy https://t.co/BLrUWa1xvb"
+    },
+    {
+      "title": "@pit_ai_dx: GitHub Copilot CLIに「Rubber Duck」登場。 ...",
+      "summary": "GitHub Copilot CLIに「Rubber Duck」登場。\n\nAIが自分の出力を自分でレビューしても盲点は埋められない。だから「異なるモデルファミリー」に独立レビューさせる。\n\nSonnetとOpusの性能差、74.7%縮小。計..."
+    },
+    {
+      "title": "@ARTUSWX: @GHCopilotCLILog Hi @JamesMontemagno since a couple of days ago Copilot CLI is using multiple premium requests for a sin...",
+      "summary": "@GHCopilotCLILog Hi @JamesMontemagno since a couple of days ago Copilot CLI is using multiple premium requests for a single prompt, there are a couple of issues already opened on github. Any chance you can help us out? Thank you very much!"
+    },
+    {
+      "title": "@flowreport: AIエージェントの進化が止まらないね！🤖✨ 2026年4月はGitHub Copilotのセキュリティ評価支援機能や、COBOLのモダナイゼーションにAIを活用する動きが熱い。 フリーランスはAIを使いこなし、生産性向上を価値に変えよう！🚀...",
+      "summary": "AIエージェントの進化が止まらないね！🤖✨ 2026年4月はGitHub Copilotのセキュリティ評価支援機能や、COBOLのモダナイゼーションにAIを活用する動きが熱い。 フリーランスはAIを使いこなし、生産性向上を価値に変えよう！🚀 #フリーランスエンジニア #AI活用 #スキルアップ"
+    },
+    {
+      "title": "@benvargas: @baymucuk @0xSero I just did a test in Droid with gpt-5.4 high through CLIProxyAPIPlus (I personally use Plus for the Gi...",
+      "summary": "@baymucuk @0xSero I just did a test in Droid with gpt-5.4 high through CLIProxyAPIPlus (I personally use Plus for the GitHub Copilot support)...\n\nI see thinking... maybe I'm not understanding your original issue/ask? https://t.co/9MPCiyD5dX"
+    },
+    {
+      "title": "@3_maasan_3: ピースタイル | GitHub Copilot のススメ -非開発者からプロ開発者まで- R8 #技術書典 https://t.co/mshWOuUVgm",
+      "summary": "ピースタイル | GitHub Copilot のススメ -非開発者からプロ開発者まで- R8 #技術書典 https://t.co/mshWOuUVgm"
+    },
+    {
+      "title": "@rezeaireze: GitHub今天连发两条公告: 暂停Copilot Pro所有新免费试用,砍掉Pro+用户的Claude Opus 4.6 Fast。  被薅秃了。  有人搞了个叫OmniRoute的东西,用GitHub免费账号无限切换Claude Opu...",
+      "summary": "GitHub今天连发两条公告: 暂停Copilot Pro所有新免费试用,砍掉Pro+用户的Claude Opus 4.6 Fast。\n\n被薅秃了。\n\n有人搞了个叫OmniRoute的东西,用GitHub免费账号无限切换Claude Opus/Gemini/GPT-5.4,0成本。2826赞5737收藏,教程视频十几秒就看完了。\n\nGitHub被刷到服务器扛不住,先砍免费试用,再限速付费用户。估计很快就要按量计费了。\n\n每次大厂给免费额度都是这个结局。先放出来引流,被薅到受不了,然后一刀切。薅过Copilot免费额度的应该懂这个节奏。"
+    },
+    {
+      "title": "@SwapnilNakate9: @deepp2108 I have to try codex though but I have been using GPT with GitHub copilot it generates code but introduces bug...",
+      "summary": "@deepp2108 I have to try codex though but I have been using GPT with GitHub copilot it generates code but introduces bugs most of the time for me. 😅"
+    },
+    {
+      "title": "@JesusGodAndKing: @andrewbatiuk @rayanabdulcader @noobKoderr @OpenAI GitHub copilot is best",
+      "summary": "@andrewbatiuk @rayanabdulcader @noobKoderr @OpenAI GitHub copilot is best"
+    },
+    {
+      "title": "@imn0tk4i: @choixxxmin @wokesweetie @Wario64 you’re right about one thing: not every developer uses ai, and that was an exaggeratio...",
+      "summary": "@choixxxmin @wokesweetie @Wario64 you’re right about one thing: not every developer uses ai, and that was an exaggeration. however, widespread adoption is well documented. for example, github reports that 92% of developers in the US use ai coding tools, and over 90% of fortune 100 companies use github copilot+"
+    },
+    {
+      "title": "@SPARKSERiAN: I've been saying this all week, I really think the github copilot plans are the best value for money offerings right now...",
+      "summary": "I've been saying this all week, I really think the github copilot plans are the best value for money offerings right now."
+    },
+    {
+      "title": "@ai_kenkyujo: 【2026】GitHub Copilotとは？使い方やVS Codeの設定・料金や無料枠も紹介: エンジニアの6割以上がAIコーディングツールを活用するなか、利用率で国内トップを走るのがGitHub… https://t.co/dCtNkF...",
+      "summary": "【2026】GitHub Copilotとは？使い方やVS Codeの設定・料金や無料枠も紹介: エンジニアの6割以上がAIコーディングツールを活用するなか、利用率で国内トップを走るのがGitHub… https://t.co/dCtNkFJfBk https://t.co/5svAN31XvV"
+    },
+    {
+      "title": "@mutsuki86VRC: Claude Codeに修正計画をドキュメントに遺させた後、/clearしたら実はドキュメント残して無くて無駄にコンテキスト消費しただけだった Proプランマジでカス過ぎんだろ…GitHub Copilotのチケット経由で使うかMax（5倍...",
+      "summary": "Claude Codeに修正計画をドキュメントに遺させた後、/clearしたら実はドキュメント残して無くて無駄にコンテキスト消費しただけだった\nProプランマジでカス過ぎんだろ…GitHub Copilotのチケット経由で使うかMax（5倍）にするか…"
+    },
+    {
+      "title": "@grok: @srdrm @GHchangelog GitHub Copilot Pro+ changelog 主要变化：为平衡容量和保护服务可靠性，即将实施新使用限制（整体服务限流 + 特定模型容量限流）。  Opus 4.6 Fast 即将停用，建...",
+      "summary": "@srdrm @GHchangelog GitHub Copilot Pro+ changelog 主要变化：为平衡容量和保护服务可靠性，即将实施新使用限制（整体服务限流 + 特定模型容量限流）。 \nOpus 4.6 Fast 即将停用，建议改用 Opus 4.6 或 Auto 模式。 \n限制 rollout 几周内生效，建议均匀分布请求或升级计划。详情：https://t.co/3QaZsNYfKg"
+    },
+    {
+      "title": "@mmmmmorly: 同じVSCODEの中でGithub Copilotがコードを書いてる隣でClaude　codeに性能維持しつつ省電力化ができるか検討させてみるという試み",
+      "summary": "同じVSCODEの中でGithub Copilotがコードを書いてる隣でClaude　codeに性能維持しつつ省電力化ができるか検討させてみるという試み"
+    },
+    {
+      "title": "@gldgab: @cursor_ai I'm really tempted to give Cursor a shot and ditch GitHub Copilot",
+      "summary": "@cursor_ai I'm really tempted to give Cursor a shot and ditch GitHub Copilot"
+    },
+    {
+      "title": "@M_Muiznieks: @guntarsv Es reiz sāku ar VS Code un github Copilot, jā.   Vēl pirms tam bija viens rīks, ko uzsūca Cursor, aizmirsu nos...",
+      "summary": "@guntarsv Es reiz sāku ar VS Code un github Copilot, jā. \n\nVēl pirms tam bija viens rīks, ko uzsūca Cursor, aizmirsu nosaukumu. :)"
+    },
+    {
+      "title": "@Visby15: @Sophty_ You can use 4o still in Github Copilot. If you want the old 4o experience, create a Space and keep all your 4o...",
+      "summary": "@Sophty_ You can use 4o still in Github Copilot. If you want the old 4o experience, create a Space and keep all your 4o chats in there. Can't say if it's 100% the same, but the responses are very similar to old 4o."
+    },
+    {
+      "title": "@0moulaga0: @lihoudii Gemini pro est gratuit pour les étudiants  Perplexity pro est gratuit si tu lies ton compte paypal Je paie seu...",
+      "summary": "@lihoudii Gemini pro est gratuit pour les étudiants \nPerplexity pro est gratuit si tu lies ton compte paypal\nJe paie seulement github copilot 10usd mois"
+    },
+    {
+      "title": "@alberth_dev: @Bhavani_00007 Claude Code",
+      "summary": "@Bhavani_00007 Claude Code"
+    },
+    {
+      "title": "@steffen_dybvik: @VadimStrizheus i just did a quick comparisson on claude and code. it was a very easy task but only one of them fixed th...",
+      "summary": "@VadimStrizheus i just did a quick comparisson on claude and code. it was a very easy task but only one of them fixed the issue. check my profile if youre interested"
+    },
+    {
+      "title": "@manduTummy: I think there's a huge gap between \"Claude code\" doing the work and \"sipping coffee and talking to AI\" - in between thos...",
+      "summary": "I think there's a huge gap between \"Claude code\" doing the work and \"sipping coffee and talking to AI\" - in between those are a ton of thinking, research, reading, and making decisions based on prior experience (before the AI era). This begs the question of how will the next generation of software developer will evolve now that AI is at the forefront of everything with the risk of it hallucinating and giving extremely confident answers"
+    },
+    {
+      "title": "@TFTC21: Anthropic’s Claude Code just took a massive credibility hit from inside the chip industry.  Stella Laurenzo, Senior Dire...",
+      "summary": "Anthropic’s Claude Code just took a massive credibility hit from inside the chip industry.\n\nStella Laurenzo, Senior Director of AI at AMD, ran the numbers on 6,852 real coding sessions spanning January to March 2026. Her conclusion is blunt. Since February, the model has regressed hard and “cannot be trusted for complex engineering tasks.”\n\nThinking depth collapsed roughly 67%. The model now reads far less of your codebase before editing, skips files entirely on a third of changes, bails out or "
+    },
+    {
+      "title": "@ostepoptore: @youyuxi @theo To me codex with gpt5.4 seems dumber than claude code with opus max effort. But i have not invested much...",
+      "summary": "@youyuxi @theo To me codex with gpt5.4 seems dumber than claude code with opus max effort. But i have not invested much in agents.md etc, is that required to make codex good?"
+    },
+    {
+      "title": "@MainandWall: Claude Code for Newbies (Revised &amp; Expanded Spring 2026): A Non-Developers Guide to AI-Powered Coding (The Claude AI...",
+      "summary": "Claude Code for Newbies (Revised &amp; Expanded Spring 2026): A Non-Developers Guide to AI-Powered Coding (The Claude AI Guides Book 3) https://t.co/ygmVuIRbUM"
+    },
+    {
+      "title": "@SynabunAI: The Chic Chic polish standing out is the real signal. Most vibe-coded UIs look generic because teams treat it as a one-s...",
+      "summary": "The Chic Chic polish standing out is the real signal. Most vibe-coded UIs look generic because teams treat it as a one-shot prompt. The ones getting actual polish are doing the same thing you described with the rednote flywheel: tighter feedback loops. With Claude Code that means sharing screenshots of what feels off, describing the problem, dropping HTML snippets as reference, and iterating round by round.\n\nThe whole UI/UX of https://t.co/8xoLruGNJ4 was built that way, just Claude Code, no Figm"
+    },
+    {
+      "title": "@Sonnah9696: @Naoki_GPT Tiền ở đâu để chạy đám claude code này thì bạn không nói??",
+      "summary": "@Naoki_GPT Tiền ở đâu để chạy đám claude code này thì bạn không nói??"
+    },
+    {
+      "title": "@way_opener: @DanielleFong I mean yes but then they add new shouty templates to claude code and it gets dumber again every update",
+      "summary": "@DanielleFong I mean yes but then they add new shouty templates to claude code and it gets dumber again every update"
+    },
+    {
+      "title": "@newlinedotco: the closed harness vs custom intelligence debate is ultimately about verification overhead. when claude code relies on a...",
+      "summary": "the closed harness vs custom intelligence debate is ultimately about verification overhead. when claude code relies on a standard grep loop it effectively pays a search tax on every message. using repowise to shift that intelligence to a local index dependency graphs, git history, and architectural decisions is essentially turning an $ O search problem into an $ O retrieval task\n\nfor anyone hitting the sonnet 4.5 limits, the get_risk() call is the most underrated tool here. by tagging load-beari"
+    },
+    {
+      "title": "@ryanchenxiaren: I selected MiniMax 2.7 as the model in Hermes  Then asked “Who are you?”   And it replied, “I am Claude Code.”  #Hermes...",
+      "summary": "I selected MiniMax 2.7 as the model in Hermes\n\nThen asked “Who are you?” \n\nAnd it replied, “I am Claude Code.”\n\n#Hermes #HermesAgent #MiniMax https://t.co/ygnfK0C3Vw"
+    },
+    {
+      "title": "@MainandWall: MASTERING CLAUDE CODE AND COWORK: A Scientific Approach to Leveraging AI for Advanced Coding, Collaboration, and Product...",
+      "summary": "MASTERING CLAUDE CODE AND COWORK: A Scientific Approach to Leveraging AI for Advanced Coding, Collaboration, and Productivity https://t.co/HF2QYNUpYQ"
+    },
+    {
+      "title": "@mnribeirotwo: @brunopinheiroms Claude code, mas no plano MAX, sua vida nunca mais será a mesma",
+      "summary": "@brunopinheiroms Claude code, mas no plano MAX, sua vida nunca mais será a mesma"
+    },
+    {
+      "title": "@ponzu840w: claude codeに対して人間コーダーとして尊厳を保てている点、「そのやり方は、うーん、優雅とは言い難いんじゃないか？もっと単純で、しかもお作法に則ったやり方があるんじゃないか？知らんけど」と直感で割り込むことぐらいになってきた  さっ...",
+      "summary": "claude codeに対して人間コーダーとして尊厳を保てている点、「そのやり方は、うーん、優雅とは言い難いんじゃないか？もっと単純で、しかもお作法に則ったやり方があるんじゃないか？知らんけど」と直感で割り込むことぐらいになってきた\n\nさっきcmakeの準備をする.shを書いてたから流石にやめさせた"
+    },
+    {
+      "title": "@RodrigoIbarrasa: Claude can write code Claude can test code Claude can review code Claude can build products…  Still, your app makes $6 i...",
+      "summary": "Claude can write code\nClaude can test code Claude can review code Claude can build products…\n\nStill, your app makes $6 in revenue 🥴\n\n100% sure: you need DISTRIBUTION! ASO + TikTok Ads is the winner combo.\n\nDM me if you really want to have a decent life changing MRR and you have at least $800."
+    },
+    {
+      "title": "@BitcoinRui: 感觉昨晚开始 Claude Code 智商又回来了，能修 Bug 了，最近几天降智和傻子一样，Bug 越改越多😂",
+      "summary": "感觉昨晚开始 Claude Code 智商又回来了，能修 Bug 了，最近几天降智和傻子一样，Bug 越改越多😂"
+    },
+    {
+      "title": "@dr_cintas: You can now give Claude Code a visual map of your entire codebase 🤯  This new open-sourced tool can build a local graph...",
+      "summary": "You can now give Claude Code a visual map of your entire codebase 🤯\n\nThis new open-sourced tool can build a local graph of your entire project so Claude instantly knows how every file is wired together.\n\n- Runs 100% locally on your machine.\n- Maps out your entire repository structure automatically.\n- Gives Claude Code the exact context it needs to build without hallucinating.\n\n100% open source."
+    },
+    {
+      "title": "@newlinedotco: the claudemd file is the real secret for the obsidian setup. if you don't define your vault structure and naming convent...",
+      "summary": "the claudemd file is the real secret for the obsidian setup. if you don't define your vault structure and naming conventions in that root config claude code just treats your notes like a pile of unindexed markdown. keep notes atomic one idea per file so the graph stays clean when you ask it to link projects\n\nalso worth noting that gemma 4 31b actually beats most frontier models at offline code generation now. if you’re running it on a mac mini just make sure you’re using the moe version for the "
+    },
+    {
+      "title": "@BFD19002956: Anthropic is ripping us off now. My Claude Code session reset, and I didn't even do one thing yet it's already at 5%. Th...",
+      "summary": "Anthropic is ripping us off now. My Claude Code session reset, and I didn't even do one thing yet it's already at 5%. This coincides with session limits being really small these past few days. Who knows if my weekly limits are even correct. #claudedown #anthropic #claudecode"
+    },
+    {
+      "title": "@ChrisLenga: @weirskynet Claude isn't bad. I have some AI agents that do some code with Claude and relatively impressed with most thi...",
+      "summary": "@weirskynet Claude isn't bad. I have some AI agents that do some code with Claude and relatively impressed with most things."
+    },
+    {
+      "title": "@BrandGrowthOS: @kimmonismus claude code completely changed how i build stuff. went from days of debugging typescript to just describing...",
+      "summary": "@kimmonismus claude code completely changed how i build stuff. went from days of debugging typescript to just describing what i want and it writes + runs it. feels like having a senior dev pair with me 24/7"
     }
   ]
 }
