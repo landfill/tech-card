@@ -117,6 +117,7 @@ chmod +x scripts/run-dev.sh
 | letter_generate | 마크다운 뉴스레터 본문 생성 (LLM) |
 | card_generate | 카드뉴스 JSON 생성 (LLM) |
 | card_backgrounds | 배경 이미지 생성 (Gemini) |
+| publish | 구독자에게 메일 발송 (M365 SMTP) |
 | git push | 산출물 자동 커밋/푸시 |
 
 ### 주간 (weekly_collect → ... → git push)
@@ -127,6 +128,7 @@ chmod +x scripts/run-dev.sh
 | weekly_analyze | 트렌드맵, Top5, 카테고리 통계, 전주 비교 (LLM) |
 | weekly_generate | 주간 레터 마크다운 생성 (LLM) |
 | weekly_card | 주간 카드뉴스 JSON 생성 (LLM) |
+| publish | 구독자에게 주간 레터 메일 발송 |
 | git push | 산출물 자동 커밋/푸시 |
 
 ## 디렉터리
@@ -198,6 +200,28 @@ frontend/                    React+Vite 웹 UI
 | tone | 어조/톤 문제 | letter_generate |
 | structure | 구조/배치 문제 | letter_generate |
 | quality | 품질/정확도 문제 | letter_generate |
+
+## 메일 발송 (M365 SMTP)
+
+파이프라인의 publish 단계에서 구독자에게 뉴스레터를 메일로 발송한다. 마크다운을 HTML로 변환하여 보기 좋은 형태로 전달.
+
+**설정** (`.env`에 추가):
+```
+SMTP_HOST=smtp.office365.com
+SMTP_PORT=587
+SMTP_USER=your-email@company.com
+SMTP_PASSWORD=your-password-or-app-password
+SMTP_FROM=your-email@company.com    # 생략 시 SMTP_USER 사용
+```
+
+**수신자** (`data/subscribers.json`):
+```json
+["recipient1@company.com", "recipient2@company.com"]
+```
+
+- SMTP 미설정 시 스텁 모드 (로그만 출력, 파이프라인은 정상 진행)
+- 일간/주간 레터 모두 publish 단계에서 자동 발송
+- M365 앱 암호 사용 권장 (MFA 활성화 시)
 
 ## 자동 Git Push
 

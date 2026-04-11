@@ -26,6 +26,7 @@ PIPELINE_STEPS = [
     "letter_generate",
     "card_generate",
     "card_backgrounds",
+    "publish",
 ]
 
 # 분석 단계: 청크당 항목 수, 동시 LLM 호출 수 (병렬 에이전트)
@@ -221,6 +222,14 @@ def run_step(
         save_checkpoint(str(data_dir), d, "card_backgrounds", {"bgImage": bg_filename})
         cb("completed", {"bgImage": bg_filename})
         return {"bgImage": bg_filename}
+
+    if step_id == "publish":
+        cb("started", None)
+        from pipeline.publish import publish
+        result = publish(date_str, str(data_dir))
+        save_checkpoint(str(data_dir), d, "publish", result)
+        cb("completed", result)
+        return result
 
     raise ValueError(f"Unknown step: {step_id}")
 

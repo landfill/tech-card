@@ -250,6 +250,18 @@ def run_weekly_pipeline(
         save_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_card", card_cp)
     logger.info("weekly_card: cards saved")
 
+    # ─── publish (메일 발송) ───
+    publish_cp = None if force else load_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_publish")
+    if publish_cp is None:
+        try:
+            from pipeline.publish import publish_weekly
+            publish_cp = publish_weekly(week_id, data_dir)
+        except Exception as e:
+            logger.warning("weekly publish failed (non-fatal): %s", e)
+            publish_cp = {"sent": False, "error": str(e)}
+        save_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_publish", publish_cp)
+    logger.info("weekly_publish: %s", publish_cp)
+
     return {
         "week_id": week_id,
         "date_range": date_range,

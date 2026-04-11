@@ -21,6 +21,7 @@ STEP_NAMES = {
     "letter_generate": "레터 생성",
     "card_generate": "카드 생성",
     "card_backgrounds": "카드 배경",
+    "publish": "메일 발송",
 }
 
 
