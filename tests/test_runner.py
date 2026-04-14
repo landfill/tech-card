@@ -86,6 +86,8 @@ def test_run_pipeline_logs_operator_sequence(config_dir, skills_dir, tmp_path, m
                     def load_side_effect(data_dir, d, stage):
                         if stage == "collect":
                             return {"items": [{"title": "A", "summary": "a", "url": "https://a.com"}]}
+                        if stage == "dedup":
+                            return {"items": [{"title": "A", "summary": "a"}]}
                         return None
                     mock_load.side_effect = load_side_effect
                     run_pipeline(
@@ -102,6 +104,10 @@ def test_run_pipeline_logs_operator_sequence(config_dir, skills_dir, tmp_path, m
     assert any("event=step_started step=collect" in message for message in messages)
     assert any("event=step_completed step=publish" in message for message in messages)
     assert any("event=run_completed" in message for message in messages)
+    dedup_messages = [message for message in messages if "event=step_completed step=dedup" in message]
+    assert dedup_messages
+    assert all("items_count" in message for message in dedup_messages)
+    assert all('"items":' not in message for message in dedup_messages)
 
 
 def test_load_recent_7d_items_excludes_anchor_date(tmp_path):

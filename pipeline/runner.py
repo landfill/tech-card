@@ -37,6 +37,20 @@ ANALYZE_MAX_WORKERS = 4
 ProgressCallback = Callable[[str, str, dict | None], None]  # (step_id, status, detail)
 
 
+def _summarize_step_detail(step_id: str, detail: dict | None) -> dict | None:
+    if not isinstance(detail, dict):
+        return None
+    if step_id in {"collect", "analyze", "dedup"} and isinstance(detail.get("items"), list):
+        return {"items_count": len(detail["items"])}
+    if "path" in detail:
+        return {"path": detail.get("path")}
+    if "bgImage" in detail:
+        return {"bgImage": detail.get("bgImage")}
+    if any(key in detail for key in ("sent", "recipients", "error")):
+        return {key: detail.get(key) for key in ("sent", "recipients", "error") if key in detail}
+    return None
+
+
 def _load_recent_7d_items(data_dir: str, anchor: date) -> list[dict]:
     """과거 7일 인덱스에서 제목·요약 항목 수집."""
     items: list[dict] = []
@@ -300,7 +314,7 @@ def run_pipeline(
                 progress_callback=progress_callback,
             )
             cp = load_checkpoint(str(data_dir), d, step_id)
-            detail = cp if isinstance(cp, dict) else None
+            detail = _summarize_step_detail(step_id, cp if isinstance(cp, dict) else None)
             logger.info(format_event("step_completed", step=step_id, date=date_str, detail=detail))
         except Exception as e:
             logger.error(format_event("step_failed", step=step_id, date=date_str, error=str(e)))
