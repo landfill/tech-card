@@ -6,7 +6,15 @@ from fastapi import APIRouter, BackgroundTasks, HTTPException
 from pydantic import BaseModel
 
 from pipeline.checkpoint import clear_checkpoints_for_date, list_completed_stages
-from pipeline.run_status import read_run_status, write_run_status
+from pipeline.run_status import (
+    mark_progress,
+    mark_run_failed,
+    mark_run_finished,
+    mark_step_finished,
+    mark_step_started,
+    read_run_status,
+    start_run,
+)
 from pipeline.runner import PIPELINE_STEPS, run_pipeline, run_step
 
 from backend.paths import get_data_dir
@@ -52,20 +60,17 @@ def _get_llm_client():
 
 def _progress_callback_factory(data_dir: Path, d: date):
     def progress_callback(step_id: str, status: str, detail: dict | None) -> None:
-        payload = {
-            "running": True,
-            "current_step": step_id,
-            "started_at": datetime.utcnow().isoformat() + "Z",
-            "error": None,
-        }
-        if detail:
-            if "chunk_index" in detail and "chunk_total" in detail:
-                payload["chunk_index"] = detail["chunk_index"]
-                payload["chunk_total"] = detail["chunk_total"]
-        if status == "failed" and detail and "error" in detail:
-            payload["error"] = detail["error"]
-            payload["running"] = False
-        write_run_status(str(data_dir), d, payload)
+        if status == "started":
+            mark_step_started(str(data_dir), d, step_id)
+        elif status == "progress":
+            mark_progress(str(data_dir), d, step_id, detail)
+        elif status == "completed":
+            mark_step_finished(str(data_dir), d, step_id, detail)
+        elif status == "failed":
+            error = detail.get("error") if detail else "step_failed"
+            last_result = detail if detail else None
+            mark_run_failed(str(data_dir), d, step_id, error or "step_failed", last_result)
+
     return progress_callback
 
 
@@ -89,6 +94,12 @@ def _build_status_response(date_str: str) -> dict:
             if run.get("chunk_index") is not None and run.get("chunk_total") is not None:
                 detail["chunk_index"] = run["chunk_index"]
                 detail["chunk_total"] = run["chunk_total"]
+            if run.get("stalled") is not None:
+                detail["stalled"] = run.get("stalled", False)
+            if run.get("stall_seconds") is not None:
+                detail["stall_seconds"] = run.get("stall_seconds", 0)
+            if run.get("last_result") is not None:
+                detail["last_result"] = run.get("last_result")
         elif run and run.get("error") and sid == current_step:
             status = "failed"
             detail = {"error": run.get("error")}
@@ -135,7 +146,7 @@ def _run_pipeline_task(date_str: str, force: bool, from_step: str | None) -> Non
     try:
         d = date.fromisoformat(date_str)
     except ValueError:
-        write_run_status(str(data_dir), date.today(), {"running": False, "error": "Invalid date"})
+        mark_run_failed(str(data_dir), date.today(), None, "Invalid date")
         return
     config_dir = _config_dir()
     skills_dir = _skills_dir()
@@ -153,12 +164,7 @@ def _run_pipeline_task(date_str: str, force: bool, from_step: str | None) -> Non
             progress_callback=progress_callback,
         )
     except Exception as e:
-        write_run_status(str(data_dir), d, {
-            "running": False,
-            "current_step": None,
-            "started_at": None,
-            "error": str(e),
-        })
+        mark_run_failed(str(data_dir), d, None, str(e))
         raise
     # 파이프라인 완료 후 자동 git push
     try:
@@ -166,12 +172,7 @@ def _run_pipeline_task(date_str: str, force: bool, from_step: str | None) -> Non
         auto_push(str(data_dir), d)
     except Exception:
         pass  # push 실패는 파이프라인 성공에 영향 주지 않음
-    write_run_status(str(data_dir), d, {
-        "running": False,
-        "current_step": None,
-        "started_at": None,
-        "error": None,
-    })
+    mark_run_finished(str(data_dir), d)
 
 
 def _run_single_step_task(date_str: str, step_id: str, force: bool) -> None:
@@ -179,7 +180,7 @@ def _run_single_step_task(date_str: str, step_id: str, force: bool) -> None:
     try:
         d = date.fromisoformat(date_str)
     except ValueError:
-        write_run_status(str(data_dir), date.today(), {"running": False, "error": "Invalid date"})
+        mark_run_failed(str(data_dir), date.today(), step_id, "Invalid date")
         return
     config_dir = _config_dir()
     skills_dir = _skills_dir()
@@ -197,19 +198,9 @@ def _run_single_step_task(date_str: str, step_id: str, force: bool) -> None:
             progress_callback=progress_callback,
         )
     except Exception as e:
-        write_run_status(str(data_dir), d, {
-            "running": False,
-            "current_step": step_id,
-            "started_at": None,
-            "error": str(e),
-        })
+        mark_run_failed(str(data_dir), d, step_id, str(e))
         raise
-    write_run_status(str(data_dir), d, {
-        "running": False,
-        "current_step": None,
-        "started_at": None,
-        "error": None,
-    })
+    mark_run_finished(str(data_dir), d)
 
 
 @router.post("/run", status_code=202)
@@ -227,12 +218,7 @@ def post_run(body: RunBody, background_tasks: BackgroundTasks):
     # 강제 재실행 시: 기존 체크포인트를 비워서 중단 후 재진입 시 완료/대기 상태가 정확히 보이도록 함
     if body.force:
         clear_checkpoints_for_date(str(data_dir), d)
-    write_run_status(str(data_dir), d, {
-        "running": True,
-        "current_step": None,
-        "started_at": datetime.utcnow().isoformat() + "Z",
-        "error": None,
-    })
+    start_run(str(data_dir), d)
     background_tasks.add_task(_run_pipeline_task, date_str, body.force, None)
     return {"message": "started", "date": date_str}
 
@@ -253,12 +239,7 @@ def post_run_step(body: RunStepBody, background_tasks: BackgroundTasks):
     run = read_run_status(str(data_dir), d)
     if run and run.get("running"):
         raise HTTPException(status_code=409, detail="already_running")
-    write_run_status(str(data_dir), d, {
-        "running": True,
-        "current_step": None,
-        "started_at": datetime.utcnow().isoformat() + "Z",
-        "error": None,
-    })
+    start_run(str(data_dir), d)
     if body.mode == "only":
         background_tasks.add_task(_run_single_step_task, date_str, body.step, True)
     else:
