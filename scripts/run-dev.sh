@@ -5,6 +5,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 BACKEND_PORT="${BACKEND_PORT:-8000}"
+VITE_API_BASE="${VITE_API_BASE:-http://localhost:$BACKEND_PORT}"
 
 # 포트 사용 중이면 안내 후 종료 (데이터가 안 보이는 원인 방지)
 if command -v lsof >/dev/null 2>&1; then
@@ -30,4 +31,5 @@ UVICORN_PID=$!
 
 sleep 2
 echo "프론트엔드 시작: http://localhost:5173"
-cd frontend && npm run dev
+echo "프론트엔드 API 대상: $VITE_API_BASE"
+cd frontend && VITE_API_BASE="$VITE_API_BASE" npm run dev
