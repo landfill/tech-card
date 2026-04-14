@@ -154,6 +154,9 @@ def mark_step_started(data_dir: str, d: date, step_id: str) -> dict[str, Any]:
         status["current_step"] = step_id
         status["current_step_started_at"] = _isoformat(now)
         status["last_event_at"] = _isoformat(now)
+        status.pop("chunk_index", None)
+        status.pop("chunk_total", None)
+        status["last_result"] = None
         status["stalled"] = False
         status["suspected_stale"] = False
         status["stall_seconds"] = 0
@@ -310,12 +313,8 @@ def _evaluate_status_health(data_dir: str, d: date, status: dict[str, Any]) -> d
 
 def read_run_status(data_dir: str, d: date) -> dict[str, Any] | None:
     """Read current run status and apply stale/stall evaluation."""
-    path = _status_path(data_dir, d)
-    payload = _load_status(path)
+    payload = _load_status(_status_path(data_dir, d))
     if payload is None:
         return None
 
-    evaluated = _evaluate_status_health(data_dir, d, payload)
-    if evaluated != payload:
-        _save_status(path, evaluated)
-    return evaluated
+    return _evaluate_status_health(data_dir, d, payload)
