@@ -1,6 +1,22 @@
 {
-  "running": false,
-  "current_step": null,
-  "started_at": null,
+  "running": true,
+  "run_id": "6bcc618f97ad467f92a1a1d81ce5136e",
+  "server_instance_id": "583767431f644a7aad0a92a79051452b",
+  "pid": 16187,
+  "owner_started_at": "2026-04-14T09:44:49Z",
+  "run_started_at": "2026-04-14T09:45:07Z",
+  "current_step": "publish",
+  "current_step_started_at": "2026-04-14T09:54:36Z",
+  "last_event_at": "2026-04-14T09:54:41Z",
+  "stalled": false,
+  "stall_seconds": 0,
+  "suspected_stale": false,
+  "stale_cleared_at": null,
+  "stall_reported_at": null,
+  "last_result": {
+    "sent": true,
+    "recipients": 2,
+    "error": null
+  },
   "error": null
 }
