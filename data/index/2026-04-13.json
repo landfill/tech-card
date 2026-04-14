@@ -1,11 +1,283 @@
 {
   "items": [
     {
-      "title": "@blackanger: 我早上刚开始用 claude code https://t.co/2CRzDSchIW",
-      "summary": "我早上刚开始用 claude code https://t.co/2CRzDSchIW",
-      "category": "에이전틱 코딩 & 프론티어 모델",
+      "title": "Ask HN: 지금 어떤 프로젝트를 진행하고 계신가요? (2026년 4월)",
+      "summary": "Ask HN: 지금 어떤 프로젝트를 진행하고 계신가요? (커뮤니티 프로젝트 현황 스레드)",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
       "impact": "low",
-      "url": "https://x.com/blackanger/status/2043834116102336714",
+      "url": "https://news.hada.io/topic?id=28494",
+      "source_id": ""
+    },
+    {
+      "title": "우리는 99%의 이메일 평판을 가지고 있지만 Gmail은 다르게 판단함",
+      "summary": "Font Awesome 팀이 SendGrid에서 높은 평판을 유지함에도 Gmail에서 메일이 스팸으로 분류되는 문제와 Gmail의 자체 평판 시스템에 대한 설명.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28493",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: Girlfriend in cli - \"AI-native 시대의 사회성 훈련용 페르소나 하네스\"",
+      "summary": "AI 네이티브 시대에 사람과 대화하는 능력(공감·매력 등)을 연습하기 위한 페르소나 하네스(가상 파트너) 제안 및 데모성 프로젝트 소개.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28492",
+      "source_id": ""
+    },
+    {
+      "title": "pip install torch 한 줄로 끝낸다 — Python 패키징의 오랜 숙제, 드디어 풀리나",
+      "summary": "NVIDIA·Astral·Quansight 연합의 Wheel Next 제안: CPU·GPU 구분 없이 통합된 휠 패키징 표준으로 Python 패키징 복잡성 해소를 목표.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28490",
+      "source_id": ""
+    },
+    {
+      "title": "GitButler — GitHub 공동창업자가 만든 AI 시대를 위한 Git 재설계, a16z $1,700만 Series A 투자 유치",
+      "summary": "Scott Chacon이 이끄는 팀의 Git 재설계 클라이언트 GitButler가 a16z 등에서 Series A 투자 유치. AI 시대 개발 워크플로에 초점.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28488",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 꽃 어디 - 전국 꽃 명소 지도 & 실시간 개화 정보 앱",
+      "summary": "사이드 프로젝트로 만든 전국 꽃 명소 지도와 실시간 개화 정보 앱 소개 — 주말 꽃놀이 목적지 탐색을 쉽게 해주는 서비스.",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28487",
+      "source_id": ""
+    },
+    {
+      "title": "macOS용 작업 표시줄 스타일 Dock 대체 도구 boringBar",
+      "summary": "macOS 기본 Dock을 대체해 창 중심 작업 표시줄 인터페이스와 창 미리보기·앱 고정·알림 배지 등 편의 기능을 제공하는 데스크톱 도구.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28485",
+      "source_id": ""
+    },
+    {
+      "title": "취약점 없이도 뚫린다 — 오픈소스 개발자를 노린 '신뢰 기반' 공격의 실체",
+      "summary": "공격자가 오픈소스 커뮤니티의 '신뢰'를 악용해 소셜 엔지니어링으로 악성 파일을 유포하거나 기여자들을 공격하는 새로운 위협 유형 분석.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28484",
+      "source_id": ""
+    },
+    {
+      "title": "DIY 소프트드링크",
+      "summary": "무설탕·무카페인 콜라 등 자체 소다 레시피 개발 경험과 배치별 재료·비율 조정 사례 공유.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28483",
+      "source_id": ""
+    },
+    {
+      "title": "Vibe coding 이후 오픈소스 커뮤니티에 대한 고민",
+      "summary": "AI 개발 도구(바이브 코딩)가 기여 장벽을 낮춘 장점뿐 아니라 저품질 PR 증가, 협업 습관 변화 등 오픈소스 커뮤니티에 미친 부정적 영향 고찰.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28482",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: md-to-naver-blog: 마크다운을 네이버 블로그 호환 HTML로 변환하는 라이브러리",
+      "summary": "마크다운으로 관리한 블로그 글을 네이버 블로그 에디터 호환 HTML로 자동 변환해 교차 게시 작업을 간소화하는 라이브러리 소개.",
+      "category": "대한민국 IT (한국 기업·정책·시장·국내 언론·국산 기술 관련)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28478",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 긱뉴스 웹사이트를 모던한 스타일로 바꿔주는 커스텀 CSS",
+      "summary": "GeekNews 사이트를 모던 스타일로 바꿔주는 커스텀 CSS 공유: 다크/라이트 모드, 코드 하이라이팅 등 개선 목적.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28477",
+      "source_id": ""
+    },
+    {
+      "title": "Google, ‘Doki Doki Literature Club’을 Google Play에서 제거",
+      "summary": "게임 개발사 Serenity Forge가 DDLC의 Google Play 스토어 삭제에 대해 공식 입장을 발표한 사건 보고.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28474",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: winclipshot: Windows 터미널에서 Ctrl+V로 스크린샷을 붙여넣을 수 있게 해주는 도구",
+      "summary": "Windows 터미널에서 클립보드의 이미지 데이터를 붙여넣을 수 없던 문제를 해결하는 오픈소스 도구. 작성자가 Claude Code를 사용해 개발한 사례 언급.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28472",
+      "source_id": ""
+    },
+    {
+      "title": "게으름의 미덕을 잃는 위험",
+      "summary": "프로그래밍에서의 '게으름'을 추상화와 단순함을 추구하는 미덕으로 재정의하고, 현대 개발 문화에서 그 가치가 훼손되는 위험을 논함.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28471",
+      "source_id": ""
+    },
+    {
+      "title": "프런티어의 종말",
+      "summary": "Anthropic의 Mythos 발표를 계기로 인터넷·창조 공간의 무허가적 자유가 줄어들고, 소수 기업이 AI 시대의 우위를 고착화할 가능성에 대한 비판적 논의.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28470",
+      "source_id": ""
+    },
+    {
+      "title": "rzweb - Rizin을 이용한 브라우저 기반 리버스 엔지니어링 플랫폼",
+      "summary": "Rizin 기반의 경량 웹 리버스엔지니어링 도구로, WebAssembly로 로컬에서 분석을 수행해 설치 없이 바이너리 분석 가능.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28469",
+      "source_id": ""
+    },
+    {
+      "title": "레바논의 대부분 도시와 마을이 Apple 지도에서 사라짐",
+      "summary": "Apple 지도에서 레바논 다수 도시·마을명이 표시되지 않는 문제 발생, 지명 검색 및 위치 탐색에 제약이 생김.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28468",
+      "source_id": ""
+    },
+    {
+      "title": "메모장 만으로 MCP 서버 작성하기",
+      "summary": "외부 런타임과 IDE 사용이 엄격히 제한된 환경에서 Windows 기본 메모장만으로 MCP 서버를 구축하는 경험 공유.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28467",
+      "source_id": ""
+    },
+    {
+      "title": "iOS 업데이트로 체코어 문자 입력 불가로 아이폰 잠금 해제 불가능 사례 발생",
+      "summary": "iOS 26.4 업데이트 이후 체코어 특수문자 háček 입력이 잠금화면에서 불가능해 아이폰 잠금 해제에 문제를 일으킨 사례 발생.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28465",
+      "source_id": ""
+    },
+    {
+      "title": "pgmicro - SQLite 기반으로 만든 인-프로세스 PostgreSQL",
+      "summary": "PostgreSQL SQL을 SQLite 바이트코드로 직접 컴파일해 인메모리 임베디드 DB로 동작시키는 프로젝트. AI 에이전트 환경의 일시적·소규모 DB 수요 겨냥.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28464",
+      "source_id": ""
+    },
+    {
+      "title": "AI는 폭력에 직면할 것이며, 그로부터 좋은 결과는 없을 것이다",
+      "summary": "AI·데이터센터를 향한 공격(예: Sam Altman 자택 공격, 데이터센터 총격 등) 사례를 들어 AI 기술을 겨냥한 폭력 발생 가능성과 사회적 위험을 논함.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28463",
+      "source_id": ""
+    },
+    {
+      "title": "관용적 디자인을 되살리자",
+      "summary": "운영체제·가이드라인이 제공하던 일관된 UI 관용구를 웹·브라우저 시대에 되살려 학습 부담을 줄이고 일관된 상호작용을 강조하는 논의.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28462",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic, 2026년 3월 6일 캐시 TTL을 1시간에서 5분으로 단축",
+      "summary": "Claude Code 관련: Anthropic이 캐시 TTL을 단축해 캐시 재생성 비용 증가 및 장시간 세션에서 쿼터 소모 급증이 관찰되는 변경 사항 보고.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28461",
+      "source_id": ""
+    },
+    {
+      "title": "100% 재생에너지로 전력 생산하는 7개국",
+      "summary": "알바니아·부탄 등 7개국이 전력의 99.7% 이상을 재생에너지로 생산한다는 조사 결과와 활용 자원 소개.",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28460",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code Pro Max 5x 요금제, 적당한 사용량에도 1.5시간 만에 할당량 소진되는 문제",
+      "summary": "Pro Max 5x 요금제(1M 컨텍스트)에서 적당한 Q&A·개발 작업만으로도 토큰 한도가 빠르게 소진되는 현상 보고. cache_read 토큰 계산 오류가 지목됨.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28459",
+      "source_id": ""
+    },
+    {
+      "title": "스페인에서 Cloudflare의 축구 관련 차단으로 Docker Pull 실패 발생",
+      "summary": "스페인 지역에서 Cloudflare의 경기 중계 관련 차단 정책이 Docker Hub 트래픽에 영향을 미쳐 docker pull 실패 및 개발/배포 지연 발생.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28458",
+      "source_id": ""
+    },
+    {
+      "title": "월 $20 스택으로 월매출 $10K 회사를 여러 개 운영하는 법",
+      "summary": "단일 VPS·Go·SQLite·로컬 GPU 등 저비용 스택으로 여러 SaaS를 운영하는 부트스트랩 전략과 인프라 간소화 팁 공유.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28457",
+      "source_id": ""
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with GitHub Pages",
+      "summary": "GitHub Pages로 저장소 기반 무료 웹사이트를 만드는 방법을 설명하는 초심자용 가이드 포스트.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/",
+      "source_id": ""
+    },
+    {
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "summary": "Cloudflare가 OpenAI의 GPT-5.4 및 Codex를 Agent Cloud에 통합해 기업이 실무 작업용 AI 에이전트를 구축·배포·확장할 수 있게 함.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "source_id": ""
+    },
+    {
+      "title": "Cursor no deja de escribir en Argentino cuando soy Chileno (no hate)",
+      "summary": "Cursor 사용자가 에이전트가 아르헨티나식 스페인어로 계속 작성해 지역 방언(칠레)으로 바꿀 수 없는 문제를 토론하는 Reddit 글.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1sknjc7/cursor_no_deja_de_escribir_en_argentino_cuando/",
+      "source_id": ""
+    },
+    {
+      "title": "cant seem to run claude code extension in Cursor 3.0",
+      "summary": "Cursor 3.0(ADE 모드)에서 Claude Code 확장 실행이 불가능한 문제를 제기하는 사용자 문의 (Reddit).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1skbwo7/cant_seem_to_run_claude_code_extension_in_cursor/",
+      "source_id": ""
+    },
+    {
+      "title": "My IDE freezes randomly due to something in the agent session.",
+      "summary": "사용자가 Cursor 에이전트 세션 관련으로 워크스페이스나 IDE가 무작위로 멈추는 현상을 보고하고 문제 원인을 토론.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1sk864o/my_ide_freezes_randomly_due_to_something_in_the/",
+      "source_id": ""
+    },
+    {
+      "title": "Someone did a deep dive into Cursor Agent and discovered that it was literally just Claude Code with a process that does search and replace to brand it as Cursor Agent",
+      "summary": "한 사용자가 Cursor Agent 내부를 분석해 본 결과 실제로 Claude Code 기반에 단순 브랜딩 처리가 더해진 형태임을 주장하는 깊이 있는 분석 공유(Reddit/Gist).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1sk7qwx/someone_did_a_deep_dive_into_cursor_agent_and/",
+      "source_id": ""
+    },
+    {
+      "title": "Using my own Anthropic API key is just purely chats with no tools?",
+      "summary": "Cursor에 개인 Anthropic API 키를 넣었을 때 에이전트 기능(도구 연동 등) 없이 단순 채팅만 동작하는 문제를 토론하는 글.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1sk75dp/using_my_own_anthropic_api_key_is_just_purely/",
       "source_id": ""
     }
   ]
