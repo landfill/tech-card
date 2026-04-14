@@ -41,6 +41,8 @@ def _load_recent_7d_items(data_dir: str, anchor: date) -> list[dict]:
     """과거 7일 인덱스에서 제목·요약 항목 수집."""
     items: list[dict] = []
     for d in recent_7d_dates(anchor):
+        if d == anchor:
+            continue
         path = index_path(data_dir, d)
         if Path(path).is_file():
             try:

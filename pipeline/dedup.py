@@ -59,7 +59,7 @@ def dedup(
                     pass
         if not is_dup:
             keep.append(c)
-        if progress_callback is not None:
+        if progress_callback is not None and (index == total_candidates or index % 5 == 0):
             progress_callback(
                 {
                     "checked_candidates": index,

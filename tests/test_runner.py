@@ -1,12 +1,14 @@
 """파이프라인 러너 테스트. Mock LLM·수집으로 전체 흐름 검증."""
 import json
 import logging
+from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 
 import pytest
 
-from pipeline.runner import run_pipeline
+from pipeline.runner import _load_recent_7d_items, run_pipeline
+from pipeline.storage import index_path
 
 
 @pytest.fixture
@@ -100,3 +102,20 @@ def test_run_pipeline_logs_operator_sequence(config_dir, skills_dir, tmp_path, m
     assert any("event=step_started step=collect" in message for message in messages)
     assert any("event=step_completed step=publish" in message for message in messages)
     assert any("event=run_completed" in message for message in messages)
+
+
+def test_load_recent_7d_items_excludes_anchor_date(tmp_path):
+    data_dir = tmp_path / "data"
+    data_dir.mkdir()
+    anchor = date(2026, 4, 13)
+    same_day = Path(index_path(str(data_dir), anchor))
+    same_day.parent.mkdir(parents=True, exist_ok=True)
+    same_day.write_text(json.dumps({"items": [{"title": "current-day"}]}, ensure_ascii=False), encoding="utf-8")
+    prev_day = Path(index_path(str(data_dir), date(2026, 4, 12)))
+    prev_day.write_text(json.dumps({"items": [{"title": "previous-day"}]}, ensure_ascii=False), encoding="utf-8")
+
+    items = _load_recent_7d_items(str(data_dir), anchor)
+
+    titles = [item.get("title") for item in items]
+    assert "previous-day" in titles
+    assert "current-day" not in titles

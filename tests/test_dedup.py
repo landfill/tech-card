@@ -64,3 +64,22 @@ def test_dedup_reports_progress():
     assert events
     assert events[-1]["checked_candidates"] == 3
     assert events[-1]["total_candidates"] == 3
+
+
+def test_dedup_throttles_progress_events():
+    class NoCallLLM:
+        def generate(self, system, user):
+            return "NO"
+
+    events = []
+    candidates = [{"title": f"Item {i}", "summary": "Unique"} for i in range(12)]
+
+    dedup(
+        candidates,
+        [],
+        NoCallLLM(),
+        threshold=0.5,
+        progress_callback=lambda detail: events.append(detail),
+    )
+
+    assert [event["checked_candidates"] for event in events] == [5, 10, 12]
