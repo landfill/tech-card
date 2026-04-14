@@ -64,7 +64,7 @@ cd frontend && npm install && npm run dev
 ```
 
 - 프론트: **http://localhost:5173**
-- API 연동: `frontend/.env` 에 `VITE_API_BASE=http://localhost:8000` 설정 권장
+- API 연동: 기본값은 `scripts/run-dev.sh` 가 `BACKEND_PORT` 에 맞춰 자동 주입. 수동 고정이 필요하면 `frontend/.env` 에 `VITE_API_BASE=http://localhost:8000` 설정
 - **파이프라인 탭**: 날짜 선택 → 전체 실행 / 단계만·단계부터 실행, 진행 상황 폴링
 - **주간 리뷰 탭**: 트렌드맵, 카테고리 비중, Top5, 주간 레터 본문
 
@@ -84,6 +84,7 @@ chmod +x scripts/run-dev.sh
 - 백엔드: **http://localhost:8000**
 - 프론트: **http://localhost:5173**
 - 포트 변경: `BACKEND_PORT=9000 ./scripts/run-dev.sh`
+  - 프론트 API 대상도 자동으로 `http://localhost:9000` 으로 맞춰짐
 
 **방법 B: 터미널 두 개**
 

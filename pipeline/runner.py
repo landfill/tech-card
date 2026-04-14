@@ -15,6 +15,7 @@ from pipeline import agents
 from pipeline.card_generate import card_generate as run_card_generate, load_letter_for_date
 from pipeline.card_backgrounds import generate_card_background, update_card_json_bg
 from pipeline.prompt_evolution import evolve_prompt, EVOLUTION_TARGETS
+from pipeline.ops_logging import format_event
 
 logger = logging.getLogger(__name__)
 
@@ -36,10 +37,26 @@ ANALYZE_MAX_WORKERS = 4
 ProgressCallback = Callable[[str, str, dict | None], None]  # (step_id, status, detail)
 
 
+def _summarize_step_detail(step_id: str, detail: dict | None) -> dict | None:
+    if not isinstance(detail, dict):
+        return None
+    if step_id in {"collect", "analyze", "dedup"} and isinstance(detail.get("items"), list):
+        return {"items_count": len(detail["items"])}
+    if "path" in detail:
+        return {"path": detail.get("path")}
+    if "bgImage" in detail:
+        return {"bgImage": detail.get("bgImage")}
+    if any(key in detail for key in ("sent", "recipients", "error")):
+        return {key: detail.get(key) for key in ("sent", "recipients", "error") if key in detail}
+    return None
+
+
 def _load_recent_7d_items(data_dir: str, anchor: date) -> list[dict]:
     """과거 7일 인덱스에서 제목·요약 항목 수집."""
     items: list[dict] = []
     for d in recent_7d_dates(anchor):
+        if d == anchor:
+            continue
         path = index_path(data_dir, d)
         if Path(path).is_file():
             try:
@@ -96,6 +113,8 @@ def run_step(
     sources_path = config_dir / "sources.yaml"
 
     def cb(status: str, detail: dict | None = None) -> None:
+        if status == "progress":
+            logger.info(format_event("step_progress", step=step_id, date=date_str, detail=detail or {}))
         if progress_callback:
             progress_callback(step_id, status, detail)
 
@@ -170,7 +189,13 @@ def run_step(
         collect_items = (collect_cp or {}).get("items") or []
         analyzed = (analyze_cp.get("items") if isinstance(analyze_cp, dict) else []) if analyze_cp else []
         candidates = analyzed or [{"title": x.get("title"), "summary": x.get("summary")} for x in collect_items[:50]]
-        deduped = dedup(candidates, recent, llm_client, threshold=0.5)
+        deduped = dedup(
+            candidates,
+            recent,
+            llm_client,
+            threshold=0.5,
+            progress_callback=lambda detail: cb("progress", detail),
+        )
         save_checkpoint(str(data_dir), d, "dedup", {"items": deduped})
         cb("completed", {"items_count": len(deduped)})
         return {"items_count": len(deduped)}
@@ -253,6 +278,8 @@ def run_pipeline(
     except ValueError:
         d = date.today()
 
+    logger.info(format_event("run_started", date=date_str, from_step=from_step or "full", force=force))
+
     steps_to_run = PIPELINE_STEPS
     if from_step:
         if from_step not in PIPELINE_STEPS:
@@ -275,6 +302,7 @@ def run_pipeline(
 
     for step_id in steps_to_run:
         try:
+            logger.info(format_event("step_started", step=step_id, date=date_str))
             run_step(
                 step_id,
                 date_str,
@@ -285,7 +313,11 @@ def run_pipeline(
                 force=force,
                 progress_callback=progress_callback,
             )
+            cp = load_checkpoint(str(data_dir), d, step_id)
+            detail = _summarize_step_detail(step_id, cp if isinstance(cp, dict) else None)
+            logger.info(format_event("step_completed", step=step_id, date=date_str, detail=detail))
         except Exception as e:
+            logger.error(format_event("step_failed", step=step_id, date=date_str, error=str(e)))
             if progress_callback:
                 progress_callback(step_id, "failed", {"error": str(e)})
             raise
@@ -297,4 +329,5 @@ def run_pipeline(
     card_file = card_path(str(data_dir), d)
     if Path(card_file).is_file():
         result["card_path"] = card_file
+    logger.info(format_event("run_completed", date=date_str, items_count=items_count, card_path=result.get("card_path")))
     return result

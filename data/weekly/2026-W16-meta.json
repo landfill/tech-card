@@ -1,0 +1,136 @@
+{
+  "week": "2026-W16",
+  "date_range": [
+    "2026-04-13",
+    "2026-04-19"
+  ],
+  "total_items": 146,
+  "filtered_items": 126,
+  "trend_map": [
+    {
+      "topic": "Claude Code",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Cursor (Cursor 3 / Cursor ecosystem)",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "GitHub Copilot (including Copilot CLI / Copilot Pro changes)",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "OpenAI announcements & initiatives",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Supply chain security for AI-assisted development",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "Linux Kernel 7.0",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "GitButler (Git redesign for AI era)",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "pip install torch / Python packaging progress",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "pgmicro (SQLite-based in-process PostgreSQL)",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "Cloudflare Docker pull failure (regional infra incident)",
+      "days": [
+        "04-13"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 75,
+      "high_count": 8
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 51,
+      "high_count": 11
+    }
+  },
+  "top5": [
+    {
+      "title": "Claude Code v2.1.105, 워크트리(path) 이동 지원 — Claude Code 관련 업데이트·한주간 논의",
+      "url": "https://x.com/AIPlus_Findy/status/2043833591822725125",
+      "mentions": 75,
+      "impact": "high"
+    },
+    {
+      "title": "Copilot CLI GA and --remote flag (Copilot CLI / Copilot Pro changes)",
+      "url": "https://x.com/0xnidhii/status/2043827326753157124",
+      "mentions": 10,
+      "impact": "high"
+    },
+    {
+      "title": "Supply chain security for AI-assisted development - catching typosquats and malicious packages",
+      "url": "https://www.reddit.com/r/devsecops/comments/1skow3z/supply_chain_security_for_aiassisted_development/",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "GitButler — Git reimagined for the AI era (a16z $17M Series A)",
+      "url": "https://news.hada.io/topic?id=28488",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "Linux Kernel 7.0",
+      "url": "https://www.kernel.org/",
+      "mentions": 1,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-04-13": 126
+  }
+}

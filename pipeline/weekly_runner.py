@@ -18,6 +18,7 @@ from pipeline.storage import (
     weekly_letter_path,
     weekly_meta_path,
 )
+from pipeline.ops_logging import format_event
 
 logger = logging.getLogger(__name__)
 
@@ -138,9 +139,10 @@ def run_weekly_pipeline(
     week_id = get_week_id(anchor_date)
     date_range = [week_dates[0].isoformat(), week_dates[-1].isoformat()]
 
-    logger.info("주간 파이프라인 시작: %s (%s ~ %s)", week_id, date_range[0], date_range[1])
+    logger.info(format_event("weekly_run_started", week=week_id, date_from=date_range[0], date_to=date_range[1], force=force))
 
     # ─── weekly_collect ───
+    logger.info(format_event("weekly_step_started", step="weekly_collect", week=week_id))
     collect_cp = None if force else load_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_collect")
     if collect_cp is None:
         week_data = _load_week_data(data_dir, week_dates)
@@ -153,10 +155,18 @@ def run_weekly_pipeline(
             "daily_letters": week_data["daily_letters"],
         }
         save_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_collect", collect_cp)
-    logger.info("weekly_collect: %d items (filtered from %d)",
-                collect_cp.get("filtered_items_count", 0), collect_cp.get("total_items", 0))
+    logger.info(
+        format_event(
+            "weekly_step_completed",
+            step="weekly_collect",
+            week=week_id,
+            filtered_items=collect_cp.get("filtered_items_count", 0),
+            total_items=collect_cp.get("total_items", 0),
+        )
+    )
 
     # ─── weekly_analyze ───
+    logger.info(format_event("weekly_step_started", step="weekly_analyze", week=week_id))
     analyze_cp = None if force else load_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_analyze")
     if analyze_cp is None:
         items = collect_cp.get("items", [])
@@ -194,7 +204,7 @@ def run_weekly_pipeline(
         try:
             meta = json.loads(text)
         except json.JSONDecodeError:
-            logger.error("weekly_analyze JSON 파싱 실패")
+            logger.error(format_event("weekly_step_failed", step="weekly_analyze", week=week_id, error="parse_failed"))
             meta = {"week": week_id, "error": "parse_failed", "raw": raw[:500]}
 
         analyze_cp = meta
@@ -204,9 +214,10 @@ def run_weekly_pipeline(
     meta_file = weekly_meta_path(data_dir, week_id)
     Path(meta_file).parent.mkdir(parents=True, exist_ok=True)
     Path(meta_file).write_text(json.dumps(analyze_cp, ensure_ascii=False, indent=2), encoding="utf-8")
-    logger.info("weekly_analyze: meta saved -> %s", meta_file)
+    logger.info(format_event("weekly_step_completed", step="weekly_analyze", week=week_id, meta_path=meta_file))
 
     # ─── weekly_generate ───
+    logger.info(format_event("weekly_step_started", step="weekly_generate", week=week_id))
     generate_cp = None if force else load_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_generate")
     if generate_cp is None:
         daily_letters = collect_cp.get("daily_letters", {})
@@ -225,9 +236,10 @@ def run_weekly_pipeline(
         Path(letter_file).write_text(letter_md, encoding="utf-8")
         generate_cp = {"path": letter_file}
         save_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_generate", generate_cp)
-    logger.info("weekly_generate: letter saved")
+    logger.info(format_event("weekly_step_completed", step="weekly_generate", week=week_id, letter_path=generate_cp.get("path") if isinstance(generate_cp, dict) else None))
 
     # ─── weekly_card ───
+    logger.info(format_event("weekly_step_started", step="weekly_card", week=week_id))
     card_cp = None if force else load_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_card")
     if card_cp is None:
         letter_file = weekly_letter_path(data_dir, week_id)
@@ -248,19 +260,21 @@ def run_weekly_pipeline(
         Path(card_file).write_text(json.dumps(card_data, ensure_ascii=False, indent=2), encoding="utf-8")
         card_cp = {"path": card_file}
         save_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_card", card_cp)
-    logger.info("weekly_card: cards saved")
+    logger.info(format_event("weekly_step_completed", step="weekly_card", week=week_id, card_path=card_cp.get("path") if isinstance(card_cp, dict) else None))
 
     # ─── publish (메일 발송) ───
+    logger.info(format_event("weekly_step_started", step="weekly_publish", week=week_id))
     publish_cp = None if force else load_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_publish")
     if publish_cp is None:
         try:
             from pipeline.publish import publish_weekly
             publish_cp = publish_weekly(week_id, data_dir)
         except Exception as e:
-            logger.warning("weekly publish failed (non-fatal): %s", e)
+            logger.warning(format_event("weekly_step_failed", step="weekly_publish", week=week_id, error=str(e)))
             publish_cp = {"sent": False, "error": str(e)}
         save_checkpoint(data_dir, week_dates[0], f"weekly_{week_id}_publish", publish_cp)
-    logger.info("weekly_publish: %s", publish_cp)
+    logger.info(format_event("weekly_step_completed", step="weekly_publish", week=week_id, result=publish_cp))
+    logger.info(format_event("weekly_run_completed", week=week_id, letter_path=weekly_letter_path(data_dir, week_id), meta_path=weekly_meta_path(data_dir, week_id)))
 
     return {
         "week_id": week_id,

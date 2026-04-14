@@ -72,21 +72,25 @@ def generate_card_background(
     """
     cfg = load_image_config(config_dir)
     if not cfg:
-        logger.info("No GOOGLE_API_KEY in .env, skipping card background")
+        logger.info("event=integration_image outcome=missing_config date=%s", d.isoformat())
         return None
 
     theme = extract_theme(letter_md, skills_dir, llm_client, data_dir=data_dir)
     if not theme:
+        logger.info("event=integration_image outcome=empty_theme date=%s", d.isoformat())
         return None
 
     out_path = card_bg_image_path(data_dir, d)
     api_key = cfg.get("api_key", "").strip()
     if not api_key:
+        logger.info("event=integration_image outcome=missing_api_key date=%s", d.isoformat())
         return None
     model = cfg.get("model")
 
     if _generate_gemini_image(theme, api_key, out_path, model=model):
+        logger.info("event=integration_image outcome=succeeded date=%s file=%s", d.isoformat(), f"{d.strftime('%Y%m%d')}.png")
         return f"{d.strftime('%Y%m%d')}.png"
+    logger.info("event=integration_image outcome=failed date=%s", d.isoformat())
     return None
 
 

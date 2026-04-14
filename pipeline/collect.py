@@ -14,6 +14,7 @@ from tools.fetch_rdt import fetch_rdt_search, fetch_rdt_subreddit
 from tools.fetch_reddit_rss import fetch_reddit_rss
 from tools.fetch_rss import fetch_rss
 from tools.fetch_twitter import fetch_twitter_search
+from pipeline.ops_logging import format_event
 
 logger = logging.getLogger(__name__)
 
@@ -189,16 +190,34 @@ def run_collect(
         with ThreadPoolExecutor(max_workers=max_workers) as ex:
             futures = {ex.submit(_fetch_one, s): s for s in non_crawl_sources}
             for fut in as_completed(futures):
+                source = futures[fut]
                 sid, items = fut.result()
                 sources_run.append(sid)
                 all_items.extend(items)
+                logger.info(
+                    format_event(
+                        "source_fetch_succeeded",
+                        source_id=sid,
+                        source_type=(source.get("type") or "").strip().lower(),
+                        items=len(items),
+                    )
+                )
 
     # crawl: async 브라우저 1개·페이지 N개 병렬
     if crawl_sources:
         crawl_results = asyncio.run(_crawl_all_parallel(crawl_sources))
+        crawl_types = {str(s.get("id") or ""): (s.get("type") or "").strip().lower() for s in crawl_sources}
         for sid, items in crawl_results:
             sources_run.append(sid)
             all_items.extend(items)
+            logger.info(
+                format_event(
+                    "source_fetch_succeeded",
+                    source_id=sid,
+                    source_type=crawl_types.get(sid, "crawl"),
+                    items=len(items),
+                )
+            )
 
     # 기준일(date_str)에 발표된 항목만 남김 — 당일 뉴스만 보장
     before = len(all_items)
@@ -206,6 +225,15 @@ def run_collect(
     dropped = before - len(all_items)
     if dropped > 0:
         logger.info("Date filter %s: kept %d items, dropped %d (published not on target date)", date_str, len(all_items), dropped)
+    logger.info(
+        format_event(
+            "collect_completed",
+            date=date_str,
+            sources=len(sources_run),
+            items=len(all_items),
+            dropped=dropped,
+        )
+    )
 
     payload = {
         "date": date_str,
