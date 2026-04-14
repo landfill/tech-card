@@ -15,6 +15,7 @@ from pipeline import agents
 from pipeline.card_generate import card_generate as run_card_generate, load_letter_for_date
 from pipeline.card_backgrounds import generate_card_background, update_card_json_bg
 from pipeline.prompt_evolution import evolve_prompt, EVOLUTION_TARGETS
+from pipeline.ops_logging import format_event
 
 logger = logging.getLogger(__name__)
 
@@ -34,15 +35,6 @@ ANALYZE_CHUNK_SIZE = 80
 ANALYZE_MAX_WORKERS = 4
 
 ProgressCallback = Callable[[str, str, dict | None], None]  # (step_id, status, detail)
-
-
-def _format_event(event: str, **fields: object) -> str:
-    parts = [f"event={event}"]
-    for key, value in fields.items():
-        if value is None:
-            continue
-        parts.append(f"{key}={value}")
-    return " ".join(parts)
 
 
 def _load_recent_7d_items(data_dir: str, anchor: date) -> list[dict]:
@@ -105,6 +97,8 @@ def run_step(
     sources_path = config_dir / "sources.yaml"
 
     def cb(status: str, detail: dict | None = None) -> None:
+        if status == "progress":
+            logger.info(format_event("step_progress", step=step_id, date=date_str, detail=detail or {}))
         if progress_callback:
             progress_callback(step_id, status, detail)
 
@@ -262,7 +256,7 @@ def run_pipeline(
     except ValueError:
         d = date.today()
 
-    logger.info(_format_event("run_started", date=date_str, from_step=from_step or "full", force=force))
+    logger.info(format_event("run_started", date=date_str, from_step=from_step or "full", force=force))
 
     steps_to_run = PIPELINE_STEPS
     if from_step:
@@ -286,7 +280,7 @@ def run_pipeline(
 
     for step_id in steps_to_run:
         try:
-            logger.info(_format_event("step_started", step=step_id, date=date_str))
+            logger.info(format_event("step_started", step=step_id, date=date_str))
             run_step(
                 step_id,
                 date_str,
@@ -299,9 +293,9 @@ def run_pipeline(
             )
             cp = load_checkpoint(str(data_dir), d, step_id)
             detail = cp if isinstance(cp, dict) else None
-            logger.info(_format_event("step_completed", step=step_id, date=date_str, detail=detail))
+            logger.info(format_event("step_completed", step=step_id, date=date_str, detail=detail))
         except Exception as e:
-            logger.error(_format_event("step_failed", step=step_id, date=date_str, error=str(e)))
+            logger.error(format_event("step_failed", step=step_id, date=date_str, error=str(e)))
             if progress_callback:
                 progress_callback(step_id, "failed", {"error": str(e)})
             raise
@@ -313,5 +307,5 @@ def run_pipeline(
     card_file = card_path(str(data_dir), d)
     if Path(card_file).is_file():
         result["card_path"] = card_file
-    logger.info(_format_event("run_completed", date=date_str, items_count=items_count, card_path=result.get("card_path")))
+    logger.info(format_event("run_completed", date=date_str, items_count=items_count, card_path=result.get("card_path")))
     return result

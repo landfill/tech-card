@@ -1,4 +1,5 @@
 """수집 오케스트레이션 테스트."""
+import logging
 import tempfile
 from pathlib import Path
 
@@ -51,3 +52,16 @@ def test_run_collect_saves_checkpoint(sources_yaml, data_dir):
     data = json.loads(cp.read_text())
     assert data["date"] == "2025-02-25"
     assert "items" in data
+
+
+def test_run_collect_logs_source_fetch_results(sources_yaml, data_dir, monkeypatch, caplog):
+    monkeypatch.setattr("pipeline.collect.fetch_rss", lambda *args, **kwargs: [{"title": "rss", "published": "2025-02-25T01:00:00Z"}])
+    monkeypatch.setattr("pipeline.collect.fetch_reddit_rss", lambda *args, **kwargs: [{"title": "reddit", "published": "2025-02-25T02:00:00Z"}])
+    caplog.set_level(logging.INFO, logger="pipeline.collect")
+
+    result = run_collect(sources_yaml, data_dir, "2025-02-25", max_workers=2)
+
+    assert len(result["items"]) == 2
+    messages = [record.getMessage() for record in caplog.records]
+    assert any("event=source_fetch_succeeded" in message and "source_id=rss-one" in message for message in messages)
+    assert any("event=source_fetch_succeeded" in message and "source_id=reddit-one" in message for message in messages)

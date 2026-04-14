@@ -12,7 +12,7 @@ if [ -n "$COMMON_GIT_DIR" ] && [ "$(basename "$COMMON_GIT_DIR")" = ".git" ]; the
   SHARED_ROOT="$(cd "$COMMON_GIT_DIR/.." && pwd)"
 fi
 
-UVICORN_BIN=".venv/bin/uvicorn"
+UVICORN_BIN="$ROOT/.venv/bin/uvicorn"
 if [ ! -x "$UVICORN_BIN" ] && [ -n "$SHARED_ROOT" ] && [ -x "$SHARED_ROOT/.venv/bin/uvicorn" ]; then
   UVICORN_BIN="$SHARED_ROOT/.venv/bin/uvicorn"
 fi
@@ -24,7 +24,7 @@ if [ -z "$UVICORN_BIN" ] || [ ! -x "$UVICORN_BIN" ]; then
   exit 1
 fi
 
-VITE_BIN="frontend/node_modules/.bin/vite"
+VITE_BIN="$ROOT/frontend/node_modules/.bin/vite"
 if [ ! -x "$VITE_BIN" ] && [ -n "$SHARED_ROOT" ] && [ -x "$SHARED_ROOT/frontend/node_modules/.bin/vite" ]; then
   VITE_BIN="$SHARED_ROOT/frontend/node_modules/.bin/vite"
 fi

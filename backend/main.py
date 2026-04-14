@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from backend.paths import get_config_dir, get_data_dir
 from backend.routers import letters, feedback, pipeline, evolution, weekly
+from pipeline.llm.config import load_llm_config
 
 logger = logging.getLogger(__name__)
 
@@ -18,11 +19,40 @@ class SuppressStatusPollFilter(logging.Filter):
 
     def filter(self, record: logging.LogRecord) -> bool:
         args = record.args if isinstance(record.args, tuple) else ()
+        method = args[1] if len(args) >= 2 else ""
         path = args[2] if len(args) >= 3 else ""
+        status_code = args[4] if len(args) >= 5 else 0
         if not isinstance(path, str):
             return True
         target = path.split("?", 1)[0]
-        return target != "/api/pipeline/status"
+        if method not in {"GET", "OPTIONS"}:
+            return True
+        if isinstance(status_code, int) and status_code >= 400:
+            return True
+        if target == "/api/pipeline/status":
+            return False
+        if target.startswith("/api/letters"):
+            return False
+        if target.startswith("/api/weekly"):
+            return False
+        return True
+
+
+def _configure_application_logging() -> None:
+    root_logger = logging.getLogger()
+    uvicorn_error = logging.getLogger("uvicorn.error")
+    candidate_handlers = uvicorn_error.handlers or []
+    for handler in candidate_handlers:
+        if handler not in root_logger.handlers:
+            root_logger.addHandler(handler)
+    if not root_logger.handlers:
+        root_logger.addHandler(logging.StreamHandler())
+    if root_logger.level == logging.NOTSET or root_logger.level > logging.INFO:
+        root_logger.setLevel(logging.INFO)
+    for logger_name in ("backend", "pipeline", "tools"):
+        app_logger = logging.getLogger(logger_name)
+        app_logger.setLevel(logging.INFO)
+        app_logger.propagate = True
 
 
 def _configure_access_log_filter() -> None:
@@ -38,6 +68,19 @@ def build_startup_summary() -> str:
     config_dir = get_config_dir()
     smtp_configured = bool(os.environ.get("SMTP_USER", "").strip())
     google_api_key_set = bool(os.environ.get("GOOGLE_API_KEY", "").strip())
+    openai_api_key_set = bool(os.environ.get("OPENAI_API_KEY", "").strip())
+    llm_config_path = config_dir / "llm.yaml"
+    if not llm_config_path.is_file():
+        llm_config_path = config_dir / "llm.yaml.example"
+    llm_provider = "unknown"
+    llm_model = "unknown"
+    if llm_config_path.is_file():
+        try:
+            llm_cfg = load_llm_config(llm_config_path)
+            llm_provider = llm_cfg["provider"]
+            llm_model = llm_cfg["model"]
+        except Exception:
+            pass
     return (
         "event=server_started "
         f"env_file_present={env_file.is_file()} "
@@ -45,11 +88,15 @@ def build_startup_summary() -> str:
         f"config_dir={config_dir} "
         f"smtp_configured={smtp_configured} "
         f"google_api_key_set={google_api_key_set} "
+        f"openai_api_key_set={openai_api_key_set} "
+        f"llm_provider={llm_provider} "
+        f"llm_model={llm_model} "
         "routes=/api/letters,/api/pipeline,/api/weekly "
-        "/api/pipeline/status access log suppressed"
+        "noisy_ui_access_logs_suppressed=/api/letters,/api/weekly,/api/pipeline/status"
     )
 
 
+_configure_application_logging()
 _configure_access_log_filter()
 
 
