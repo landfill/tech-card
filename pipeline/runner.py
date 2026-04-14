@@ -173,7 +173,13 @@ def run_step(
         collect_items = (collect_cp or {}).get("items") or []
         analyzed = (analyze_cp.get("items") if isinstance(analyze_cp, dict) else []) if analyze_cp else []
         candidates = analyzed or [{"title": x.get("title"), "summary": x.get("summary")} for x in collect_items[:50]]
-        deduped = dedup(candidates, recent, llm_client, threshold=0.5)
+        deduped = dedup(
+            candidates,
+            recent,
+            llm_client,
+            threshold=0.5,
+            progress_callback=lambda detail: cb("progress", detail),
+        )
         save_checkpoint(str(data_dir), d, "dedup", {"items": deduped})
         cb("completed", {"items_count": len(deduped)})
         return {"items_count": len(deduped)}

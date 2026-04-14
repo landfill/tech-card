@@ -283,6 +283,18 @@ def _evaluate_status_health(data_dir: str, d: date, status: dict[str, Any]) -> d
         return normalized
 
     age = now - last_event_at
+    if not _owner_matches_current(normalized):
+        probe = _probe_pid(normalized.get("pid"))
+        if probe == "missing" and age <= STALE_LOCK_TIMEOUT:
+            normalized["running"] = False
+            normalized["error"] = "orphaned_run_cleared"
+            normalized["stale_cleared_at"] = _isoformat(now)
+            normalized["last_event_at"] = _isoformat(now)
+            normalized["stalled"] = False
+            normalized["stall_seconds"] = 0
+            normalized["suspected_stale"] = False
+            return normalized
+
     normalized["stall_seconds"] = max(0, int(age.total_seconds()))
     normalized["suspected_stale"] = age > STALE_LOCK_TIMEOUT
     normalized["stalled"] = STALL_WARN_THRESHOLD < age <= STALE_LOCK_TIMEOUT

@@ -124,6 +124,40 @@ def test_read_run_status_marks_stalled_without_clearing(tmp_path: Path, monkeypa
     assert persisted == payload
 
 
+def test_read_run_status_clears_orphaned_run_after_restart(tmp_path: Path, monkeypatch) -> None:
+    data_dir = tmp_path / "data"
+    d = date(2026, 4, 13)
+    last_event = datetime(2026, 4, 13, 1, 0, 0, tzinfo=UTC)
+    now = last_event + timedelta(minutes=2)
+    payload = {
+        "running": True,
+        "run_id": "run-1",
+        "current_step": "dedup",
+        "run_started_at": "2026-04-13T00:58:00Z",
+        "last_event_at": "2026-04-13T01:00:00Z",
+        "server_instance_id": "srv-old",
+        "pid": 5127,
+        "owner_started_at": "2026-04-13T00:57:00Z",
+        "error": None,
+    }
+    _write_payload(_status_path(data_dir, d), payload)
+    monkeypatch.setattr(rs, "_utcnow", lambda: now)
+    monkeypatch.setattr(
+        rs,
+        "_current_owner_identity",
+        lambda: {"server_instance_id": "srv-new", "pid": 93648, "owner_started_at": "2026-04-13T01:01:00Z"},
+    )
+    monkeypatch.setattr(rs, "_probe_pid", lambda pid: "missing")
+
+    out = rs.read_run_status(str(data_dir), d)
+
+    assert out is not None
+    assert out["running"] is False
+    assert out["current_step"] == "dedup"
+    assert out["error"] == "orphaned_run_cleared"
+    assert out["stale_cleared_at"] == "2026-04-13T01:02:00Z"
+
+
 def test_read_run_status_does_not_persist_stale_clear_side_effects(tmp_path: Path, monkeypatch) -> None:
     data_dir = tmp_path / "data"
     d = date(2026, 4, 13)

@@ -54,3 +54,12 @@ def test_build_startup_summary_is_secret_safe(tmp_path: Path, monkeypatch) -> No
     assert "llm_model=gemini-3-flash-preview" in summary
     assert "super-secret" not in summary
     assert "secret-api-key" not in summary
+
+
+def test_application_logging_suppresses_noisy_sdk_info_loggers() -> None:
+    backend_main._configure_application_logging()
+
+    assert logging.getLogger("httpx").level >= logging.WARNING
+    assert logging.getLogger("httpcore").level >= logging.WARNING
+    assert logging.getLogger("openai").level >= logging.WARNING
+    assert logging.getLogger("openai._base_client").level >= logging.WARNING

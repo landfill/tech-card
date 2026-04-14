@@ -53,6 +53,10 @@ def _configure_application_logging() -> None:
         app_logger = logging.getLogger(logger_name)
         app_logger.setLevel(logging.INFO)
         app_logger.propagate = True
+    for noisy_logger_name in ("httpx", "httpcore", "openai", "openai._base_client"):
+        noisy_logger = logging.getLogger(noisy_logger_name)
+        noisy_logger.setLevel(logging.WARNING)
+        noisy_logger.propagate = True
 
 
 def _configure_access_log_filter() -> None:
