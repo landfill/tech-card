@@ -1,0 +1,22 @@
+{
+  "running": true,
+  "run_id": "78dcf8c4d55e429a9004188e8bde7041",
+  "server_instance_id": "f7fb65e195f340deac4622138fb46b61",
+  "pid": 83656,
+  "owner_started_at": "2026-04-15T00:10:25Z",
+  "run_started_at": "2026-04-15T00:25:14Z",
+  "current_step": "publish",
+  "current_step_started_at": "2026-04-15T00:32:50Z",
+  "last_event_at": "2026-04-15T00:32:54Z",
+  "stalled": false,
+  "stall_seconds": 0,
+  "suspected_stale": false,
+  "stale_cleared_at": null,
+  "stall_reported_at": null,
+  "last_result": {
+    "sent": true,
+    "recipients": 1,
+    "error": null
+  },
+  "error": null
+}
