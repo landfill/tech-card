@@ -16,9 +16,9 @@ logger = logging.getLogger(__name__)
 GEMINI_IMAGE_MODEL = "gemini-3.1-flash-image-preview"
 
 
-def extract_theme(letter_md: str, skills_dir, llm_client, data_dir=None) -> str:
+def extract_theme(letter_md: str, skills_dir, llm_client) -> str:
     """레터에서 이미지용 한 줄 컨셉 추출."""
-    out = run_agent("card_theme", {"letter_md": letter_md}, skills_dir, llm_client, data_dir=data_dir)
+    out = run_agent("card_theme", {"letter_md": letter_md}, skills_dir, llm_client)
     return out.strip().strip('"').strip()
 
 
@@ -75,7 +75,7 @@ def generate_card_background(
         logger.info("event=integration_image outcome=missing_config date=%s", d.isoformat())
         return None
 
-    theme = extract_theme(letter_md, skills_dir, llm_client, data_dir=data_dir)
+    theme = extract_theme(letter_md, skills_dir, llm_client)
     if not theme:
         logger.info("event=integration_image outcome=empty_theme date=%s", d.isoformat())
         return None

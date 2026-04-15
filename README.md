@@ -150,10 +150,9 @@ data/
   weekly/YYYY-Www-cards.json 주간 카드뉴스
   feedback/YYYY-MM-DD.json  호별 피드백
   checkpoints/YYYY-MM-DD/   단계별 체크포인트 (재시도용)
-  prompt_versions/           진화된 프롬프트 버전
-  prompt_evolution_log/      진화 메타데이터 (diff, 피드백, 사유)
+  prompt_evolution_log/      진화 이력 (이전 프롬프트·diff·피드백·변경 사유)
 
-skills/                      에이전트 스킬 마크다운 (base 프롬프트, 수정 금지)
+skills/                      에이전트 스킬 마크다운 — 진화 시 직접 덮어씀 (git이 버전 관리)
 pipeline/                    파이프라인 엔진 (Python)
 backend/                     FastAPI 웹 API
 frontend/                    React+Vite 웹 UI
@@ -180,27 +179,64 @@ frontend/                    React+Vite 웹 UI
 - **소스 타입**: `twitter_cli` (검색어 기반), `rdt_cli` (검색 또는 서브레딧)
 - CLI 미설치 시 해당 소스만 스킵, 파이프라인은 정상 동작
 
-## 프롬프트 자가 진화
+## 피드백 & 프롬프트 자가 진화
 
-피드백이 축적되면 LLM이 기존 프롬프트를 분석하여 개선 버전을 자동 생성한다.
+UI에서 피드백을 제출하면 즉시 연관 에이전트의 프롬프트가 LLM으로 자동 개선된다. 개선된 프롬프트는 다음 파이프라인 실행부터 자동 적용되며 재기동이 필요 없다.
 
-- **진화 대상**: `analyze` (분류/영향도), `letter_generate` (뉴스레터 작성)
-- **트리거**: 관련 피드백 5건 이상 + 마지막 진화 후 3일 경과 시 파이프라인 시작 전 자동 실행
-- **안전장치**: 유사도 30% 미만 거부, 길이 5배 초과 거부, 필수 키워드 보존 검증, 3일 쿨다운
-- **롤백**: `POST /api/evolution/rollback` 또는 이전 버전 자동 복원
-- **원본 보존**: `skills/*.md`는 base로 보존, `data/prompt_versions/`에 진화 버전 관리
+### 피드백 → 진화 흐름
 
-### 피드백 유형 (7종)
+```
+UI 피드백 제출
+  └─ POST /api/feedback
+       ├─ data/feedback/YYYY-MM-DD.json 저장 (즉시 응답)
+       └─ 백그라운드: evolve_prompt(force=True)
+            └─ LLM이 현재 skills/{agent}.md + 피드백을 분석해 개선본 생성
+                 ├─ skills/{agent}.md 직접 덮어쓰기
+                 └─ data/prompt_evolution_log/{agent}/TIMESTAMP.json 저장 (이전 내용·diff 보관)
 
-| 유형 | 설명 | 영향 |
-|------|------|------|
-| wrong_source | 잘못된 대상 수집 | analyze, letter_generate |
-| stale | 오래된 정보 | analyze |
-| missing_trend | 누락된 트렌드 | analyze, letter_generate |
-| add_source | 추가할 소스 | sources.yaml 수동 편집 |
-| tone | 어조/톤 문제 | letter_generate |
-| structure | 구조/배치 문제 | letter_generate |
-| quality | 품질/정확도 문제 | letter_generate |
+다음 파이프라인 실행 시
+  └─ run_agent("letter_generate", ...)
+       └─ load_skill() → skills/letter_generate.md 읽음 (이미 개선된 버전)
+```
+
+### 피드백 유형 (7종) — ✦ 표시가 있는 항목은 프롬프트 자동 개선 대상
+
+| 유형 | 설명 | 자동 개선 대상 에이전트 |
+|------|------|------------------------|
+| `wrong_source` ✦ | 잘못된 대상 수집 | analyze, letter_generate |
+| `stale` ✦ | 오래된 정보 | analyze |
+| `missing_trend` ✦ | 누락된 트렌드 | analyze, letter_generate |
+| `add_source` | 추가할 소스 | **없음** — config/sources.yaml 직접 편집 필요 |
+| `tone` ✦ | 어조/톤 문제 | letter_generate |
+| `structure` ✦ | 구조/배치 문제 | letter_generate |
+| `quality` ✦ | 품질/정확도 문제 | letter_generate |
+
+### 에이전트별 진화 범위 (개선 가능한 것)
+
+| 에이전트 | 개선 가능한 내용 |
+|---------|----------------|
+| `analyze` | 카테고리 분류 기준, 카테고리명, 영향도 판단 기준, 항목 요약 방식 |
+| `letter_generate` | 섹션 구조·배치, 헤드라인 형식, 항목 작성 방식(서술형 길이·묶음), 어조·톤, 금지 사항 |
+
+### 진화하지 않는 범위 (자동 개선 불가)
+
+| 항목 | 이유 |
+|------|------|
+| **수집 소스** (`config/sources.yaml`) | `collect`는 진화 대상 에이전트 아님. 소스 추가·삭제는 yaml 직접 편집 |
+| **수집 로직** (`pipeline/collect.py`, `tools/`) | 코드이므로 LLM 진화 범위 밖 |
+| **중복 제거** (`dedup`) | 진화 대상 에이전트 아님 |
+| **요약 방식** (`summarize`) | 진화 대상 에이전트 아님 |
+| **산출물 JSON 스키마** | 필드명·구조 변경 금지 (하위 호환 안전장치) |
+| **출력 포맷** | analyze → JSON 배열, letter_generate → 마크다운으로 고정 |
+
+### 진화 안전장치
+
+- 유사도 30% 미만 거부 (원본과 너무 달라지면 반려)
+- 길이 5배 초과 거부
+- 필수 키워드 보존 검증 (`analyze`: JSON, `letter_generate`: 마크다운)
+- 쿨다운: 마지막 진화 후 3일 이내 파이프라인 자동 진화 스킵 (UI 즉시 제출은 항상 실행)
+- **롤백**: `POST /api/evolution/rollback` — 로그에 저장된 이전 프롬프트를 `skills/*.md`로 복원
+- **버전 관리**: `skills/*.md`를 직접 덮어쓰므로 git 커밋 히스토리가 버전 이력. `data/prompt_evolution_log/`에 변경 전 내용·diff·피드백 보관
 
 ## 메일 발송 (M365 SMTP)
 
@@ -229,7 +265,7 @@ SMTP_FROM=your-email@company.com    # 생략 시 SMTP_USER 사용
 파이프라인 완료 후 산출물(`data/` 하위)을 자동으로 git commit & push 한다.
 
 - **커밋 메시지**: `M/D` 형식 (예: `4/12`)
-- **대상**: letters, cards, index, weekly, checkpoints, feedback, prompt_versions
+- **대상**: letters, cards, index, weekly, checkpoints, feedback, prompt_evolution_log
 - **생략**: `--no-push` 옵션
 - push 실패 시 파이프라인 자체는 성공으로 처리
 

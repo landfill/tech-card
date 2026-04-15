@@ -195,7 +195,7 @@ def run_weekly_pipeline(
                 "top5": prev_meta.get("top5", []),
             }
 
-        raw = agents.run_agent("weekly_analyze", payload, skills_dir, llm_client, data_dir=data_dir)
+        raw = agents.run_agent("weekly_analyze", payload, skills_dir, llm_client)
         # JSON 파싱
         text = raw.strip()
         json_match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
@@ -229,7 +229,7 @@ def run_weekly_pipeline(
             "weekly_meta": analyze_cp,
             "daily_letters": letters_text[:15000],
         }
-        letter_md = agents.run_agent("weekly_generate", gen_payload, skills_dir, llm_client, data_dir=data_dir)
+        letter_md = agents.run_agent("weekly_generate", gen_payload, skills_dir, llm_client)
 
         letter_file = weekly_letter_path(data_dir, week_id)
         Path(letter_file).parent.mkdir(parents=True, exist_ok=True)
@@ -245,7 +245,7 @@ def run_weekly_pipeline(
         letter_file = weekly_letter_path(data_dir, week_id)
         letter_md = Path(letter_file).read_text(encoding="utf-8")
         card_payload = {"letter_md": letter_md, "date": week_id}
-        raw = agents.run_agent("card_generate", card_payload, skills_dir, llm_client, data_dir=data_dir)
+        raw = agents.run_agent("card_generate", card_payload, skills_dir, llm_client)
         text = raw.strip()
         json_match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
         if json_match:

@@ -14,7 +14,6 @@ from pipeline.storage import letter_path, recent_7d_dates, index_path, card_path
 from pipeline import agents
 from pipeline.card_generate import card_generate as run_card_generate, load_letter_for_date
 from pipeline.card_backgrounds import generate_card_background, update_card_json_bg
-from pipeline.prompt_evolution import evolve_prompt, EVOLUTION_TARGETS
 from pipeline.ops_logging import format_event
 
 logger = logging.getLogger(__name__)
@@ -73,7 +72,6 @@ def _run_analyze_chunk(
     chunk: list[dict],
     skills_dir: Path,
     llm_client,
-    data_dir: Path,
 ) -> list[dict]:
     """청크 하나에 대해 analyze 에이전트 실행. 반환: items 리스트."""
     out = agents.run_agent(
@@ -81,7 +79,6 @@ def _run_analyze_chunk(
         {"items": chunk},
         skills_dir,
         llm_client,
-        data_dir=str(data_dir),
     )
     try:
         parsed = json.loads(out)
@@ -147,7 +144,6 @@ def run_step(
                         chunk,
                         skills_dir,
                         llm_client,
-                        data_dir,
                     ): i
                     for i, chunk in enumerate(chunks)
                 }
@@ -175,7 +171,7 @@ def run_step(
         analyzed = (analyze_cp.get("items") if isinstance(analyze_cp, dict) else []) if analyze_cp else []
         summarize_cp = None if force else load_checkpoint(str(data_dir), d, "summarize")
         if summarize_cp is None:
-            sum_out = agents.run_agent("summarize", {"items": analyzed or collect_items}, skills_dir, llm_client, data_dir=str(data_dir))
+            sum_out = agents.run_agent("summarize", {"items": analyzed or collect_items}, skills_dir, llm_client)
             summarize_cp = {"raw": sum_out}
             save_checkpoint(str(data_dir), d, "summarize", summarize_cp)
         cb("completed", {})
@@ -208,7 +204,6 @@ def run_step(
             {"items": deduped, "date": date_str},
             skills_dir,
             llm_client,
-            data_dir=str(data_dir),
         )
         letter_file = letter_path(str(data_dir), d)
         Path(letter_file).parent.mkdir(parents=True, exist_ok=True)
@@ -226,7 +221,7 @@ def run_step(
     if step_id == "card_generate":
         cb("started", None)
         letter_md = load_letter_for_date(str(data_dir), d)
-        card_data = run_card_generate(letter_md, date_str, skills_dir, llm_client, data_dir=str(data_dir))
+        card_data = run_card_generate(letter_md, date_str, skills_dir, llm_client)
         card_file = card_path(str(data_dir), d)
         Path(card_file).parent.mkdir(parents=True, exist_ok=True)
         Path(card_file).write_text(
@@ -241,7 +236,7 @@ def run_step(
         cb("started", None)
         letter_md = load_letter_for_date(str(data_dir), d)
         bg_filename = generate_card_background(
-            letter_md, str(data_dir), d, skills_dir, llm_client, config_dir
+            letter_md, str(data_dir), d, skills_dir, llm_client, config_dir,
         )
         update_card_json_bg(str(data_dir), d, bg_filename)
         save_checkpoint(str(data_dir), d, "card_backgrounds", {"bgImage": bg_filename})
@@ -286,19 +281,6 @@ def run_pipeline(
             raise ValueError(f"Unknown from_step: {from_step}")
         idx = PIPELINE_STEPS.index(from_step)
         steps_to_run = PIPELINE_STEPS[idx:]
-
-    # 프롬프트 진화 체크 (파이프라인 실행 전 1회)
-    try:
-        for agent_name in EVOLUTION_TARGETS:
-            evolve_prompt(
-                agent_name=agent_name,
-                data_dir=str(data_dir),
-                skills_dir=skills_dir,
-                llm_client=llm_client,
-                anchor_date=d,
-            )
-    except Exception as e:
-        logger.warning("프롬프트 진화 체크 실패 (무시): %s", e)
 
     for step_id in steps_to_run:
         try:
