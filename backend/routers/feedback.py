@@ -1,5 +1,6 @@
 """피드백 제출 API."""
 import logging
+import threading
 from pathlib import Path
 
 from fastapi import APIRouter, BackgroundTasks
@@ -9,6 +10,9 @@ from backend.paths import get_config_dir, get_data_dir
 
 router = APIRouter()
 logger = logging.getLogger(__name__)
+
+# 동시 피드백에 의한 skills/*.md 동시 쓰기 방지
+_evolution_lock = threading.Lock()
 
 
 def _data_dir() -> Path:
@@ -44,7 +48,11 @@ def _trigger_evolution(feedback_type: str) -> None:
         if feedback_type not in target_types:
             continue
         try:
-            version = evolve_prompt(
+            if not _evolution_lock.acquire(blocking=False):
+                logger.info("진화 스킵 (%s): 다른 진화 진행 중", agent_name)
+                continue
+            try:
+                version = evolve_prompt(
                 agent_name=agent_name,
                 data_dir=str(data_dir),
                 skills_dir=skills_dir,
@@ -52,8 +60,10 @@ def _trigger_evolution(feedback_type: str) -> None:
                 anchor_date=date.today(),
                 force=True,
             )
-            if version is not None:
-                logger.info("피드백 진화 완료: %s v%03d", agent_name, version)
+                if version is not None:
+                    logger.info("피드백 진화 완료: skills/%s.md", agent_name)
+            finally:
+                _evolution_lock.release()
         except Exception as e:
             logger.warning("피드백 진화 실패 (%s): %s", agent_name, e)
 

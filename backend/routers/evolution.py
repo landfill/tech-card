@@ -105,7 +105,16 @@ def trigger_rollback(body: RollbackBody):
     skill_path = skills_dir / f"{body.agent_name}.md"
     skill_path.write_text(previous_prompt + "\n", encoding="utf-8")
 
+    # 롤백 이벤트를 로그에 기록
+    from pipeline.prompt_version_store import save_evolution_log
     rolled_back_at = latest.get("timestamp", "")
+    save_evolution_log(str(data_dir), body.agent_name, {
+        "event": "rollback",
+        "restored_from_timestamp": rolled_back_at,
+        "reason": body.reason,
+        "previous_prompt": skill_path.read_text(encoding="utf-8").strip(),
+    })
+
     return {
         "rolled_back": True,
         "agent_name": body.agent_name,

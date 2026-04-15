@@ -265,7 +265,7 @@ SMTP_FROM=your-email@company.com    # 생략 시 SMTP_USER 사용
 파이프라인 완료 후 산출물(`data/` 하위)을 자동으로 git commit & push 한다.
 
 - **커밋 메시지**: `M/D` 형식 (예: `4/12`)
-- **대상**: letters, cards, index, weekly, checkpoints, feedback, prompt_evolution_log, skills
+- **대상**: letters, cards, index, weekly, checkpoints, feedback, prompt_evolution_log
 - **생략**: `--no-push` 옵션
 - push 실패 시 파이프라인 자체는 성공으로 처리
 

@@ -15,13 +15,14 @@ def save_evolution_log(
     agent_name: str,
     log_entry: dict,
 ) -> str:
-    """진화 로그 저장. 반환: 로그 파일명 (TIMESTAMP.json)."""
+    """진화 로그 저장. 반환: 로그 파일명 (TIMESTAMP.json).
+    마이크로초 포함으로 같은 초 내 중복 저장 시 덮어쓰기 방지."""
     ldir = _log_dir(data_dir, agent_name)
     os.makedirs(ldir, exist_ok=True)
     ts = datetime.now(timezone.utc)
     log_entry["timestamp"] = ts.isoformat()
     log_entry["agent_name"] = agent_name
-    filename = ts.strftime("%Y-%m-%dT%H-%M-%S") + ".json"
+    filename = ts.strftime("%Y-%m-%dT%H-%M-%S-%f") + ".json"
     path = os.path.join(ldir, filename)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(log_entry, f, ensure_ascii=False, indent=2)
@@ -29,12 +30,12 @@ def save_evolution_log(
 
 
 def list_evolution_logs(data_dir: str, agent_name: str) -> list[dict]:
-    """해당 에이전트의 진화 로그 목록 반환. 최신순."""
+    """해당 에이전트의 진화 로그 목록 반환. 최신순 (timestamp 필드 기준)."""
     ldir = _log_dir(data_dir, agent_name)
     if not os.path.isdir(ldir):
         return []
     results = []
-    for name in sorted(os.listdir(ldir), reverse=True):
+    for name in os.listdir(ldir):
         if not name.endswith(".json"):
             continue
         try:
@@ -42,6 +43,7 @@ def list_evolution_logs(data_dir: str, agent_name: str) -> list[dict]:
                 results.append(json.load(f))
         except Exception:
             pass
+    results.sort(key=lambda x: x.get("timestamp", ""), reverse=True)
     return results
 
 
