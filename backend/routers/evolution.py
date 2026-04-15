@@ -1,11 +1,11 @@
 """프롬프트 진화 관리 API."""
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
-from backend.paths import get_data_dir
+from backend.paths import get_config_dir, get_data_dir
 
 router = APIRouter()
 
@@ -25,40 +25,26 @@ class RollbackBody(BaseModel):
     reason: str = ""
 
 
-@router.get("/versions/{agent_name}")
-def get_versions(agent_name: str):
-    """해당 에이전트의 프롬프트 버전 이력."""
-    from pipeline.prompt_version_store import list_versions
-    versions = list_versions(str(_data_dir()), agent_name)
-    return {"agent_name": agent_name, "versions": versions}
+@router.get("/logs/{agent_name}")
+def get_logs(agent_name: str):
+    """해당 에이전트의 진화 이력 목록 (최신순)."""
+    from pipeline.prompt_version_store import list_evolution_logs
+    logs = list_evolution_logs(str(_data_dir()), agent_name)
+    return {"agent_name": agent_name, "logs": logs}
 
 
 @router.get("/current/{agent_name}")
 def get_current_prompt(agent_name: str):
-    """현재 활성 프롬프트 내용 반환 (진화 버전 또는 base)."""
-    from pipeline.prompt_version_store import load_active_prompt, get_latest_version
-    data_dir = str(_data_dir())
-    version = get_latest_version(data_dir, agent_name)
-    prompt = load_active_prompt(data_dir, agent_name)
-    if prompt is None:
-        skills_dir = Path(_data_dir()).parent / "skills"
-        skill_path = skills_dir / f"{agent_name}.md"
-        if not skill_path.is_file():
-            raise HTTPException(status_code=404, detail=f"Agent {agent_name} not found")
-        prompt = skill_path.read_text(encoding="utf-8").strip()
-        return {"agent_name": agent_name, "version": "base", "prompt": prompt}
-    return {"agent_name": agent_name, "version": f"v{version:03d}", "prompt": prompt}
-
-
-@router.get("/diff/{agent_name}/{version}")
-def get_version_diff(agent_name: str, version: int):
-    """특정 버전의 diff 및 메타데이터."""
-    from pipeline.prompt_version_store import list_versions
-    versions = list_versions(str(_data_dir()), agent_name)
-    for v in versions:
-        if v.get("version") == version:
-            return v
-    raise HTTPException(status_code=404, detail=f"Version {version} not found")
+    """현재 활성 프롬프트 내용 반환 (skills/{agent}.md)."""
+    skills_dir = _data_dir().parent / "skills"
+    skill_path = skills_dir / f"{agent_name}.md"
+    if not skill_path.is_file():
+        raise HTTPException(status_code=404, detail=f"Agent {agent_name} not found")
+    prompt = skill_path.read_text(encoding="utf-8").strip()
+    from pipeline.prompt_version_store import get_latest_log
+    latest = get_latest_log(str(_data_dir()), agent_name)
+    evolved_at = latest.get("timestamp") if latest else None
+    return {"agent_name": agent_name, "prompt": prompt, "last_evolved_at": evolved_at}
 
 
 @router.post("/evolve")
@@ -74,7 +60,7 @@ def trigger_evolution(body: EvolveBody):
         )
 
     data_dir = _data_dir()
-    config_dir = data_dir.parent / "config"
+    config_dir = get_config_dir()
     skills_dir = data_dir.parent / "skills"
     llm_path = config_dir / "llm.yaml"
     if not llm_path.is_file():
@@ -86,7 +72,7 @@ def trigger_evolution(body: EvolveBody):
     except ValueError:
         anchor = date.today()
 
-    version = evolve_prompt(
+    result = evolve_prompt(
         agent_name=body.agent_name,
         data_dir=str(data_dir),
         skills_dir=skills_dir,
@@ -95,22 +81,34 @@ def trigger_evolution(body: EvolveBody):
         force=body.force,
     )
 
-    if version is None:
+    if result is None:
         return {"evolved": False, "reason": "진화 조건 미충족 또는 실패"}
-    return {"evolved": True, "version": version, "agent_name": body.agent_name}
+    return {"evolved": True, "agent_name": body.agent_name, "skill_path": f"skills/{body.agent_name}.md"}
 
 
 @router.post("/rollback")
 def trigger_rollback(body: RollbackBody):
-    """롤백 실행."""
-    from pipeline.prompt_version_store import rollback, get_latest_version
+    """가장 최근 진화 이전 상태로 skills/{agent}.md 복원."""
+    from pipeline.prompt_version_store import get_latest_log
 
-    data_dir = str(_data_dir())
-    current = get_latest_version(data_dir, body.agent_name)
-    if current is None:
-        raise HTTPException(status_code=400, detail="이미 base 상태입니다")
+    data_dir = _data_dir()
+    skills_dir = data_dir.parent / "skills"
+    latest = get_latest_log(str(data_dir), body.agent_name)
 
-    prev = rollback(data_dir, body.agent_name, body.reason)
-    if prev is None:
-        return {"rolled_back_from": f"v{current:03d}", "now": "base"}
-    return {"rolled_back_from": f"v{current:03d}", "now": f"v{prev:03d}"}
+    if latest is None:
+        raise HTTPException(status_code=400, detail="진화 이력이 없습니다. 롤백할 이전 상태가 없습니다.")
+
+    previous_prompt = latest.get("previous_prompt")
+    if not previous_prompt:
+        raise HTTPException(status_code=400, detail="이전 프롬프트 내용이 로그에 없습니다.")
+
+    skill_path = skills_dir / f"{body.agent_name}.md"
+    skill_path.write_text(previous_prompt + "\n", encoding="utf-8")
+
+    rolled_back_at = latest.get("timestamp", "")
+    return {
+        "rolled_back": True,
+        "agent_name": body.agent_name,
+        "restored_from": rolled_back_at,
+        "skill_path": f"skills/{body.agent_name}.md",
+    }

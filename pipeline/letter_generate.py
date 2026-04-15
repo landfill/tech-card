@@ -8,7 +8,6 @@ def letter_generate(
     analyzed_payload: dict | list,
     skills_dir: str | Path,
     llm_client,
-    data_dir: str | Path | None = None,
 ) -> str:
     """스킬 letter_generate + payload로 LLM 호출, 마크다운 본문 문자열 반환."""
-    return run_agent("letter_generate", analyzed_payload, skills_dir, llm_client, data_dir=data_dir)
+    return run_agent("letter_generate", analyzed_payload, skills_dir, llm_client)

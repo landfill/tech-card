@@ -302,14 +302,35 @@ function App() {
                     <section className="feedback">
                   <h3>이 호에 대한 피드백</h3>
                   <select value={feedbackType} onChange={e => setFeedbackType(e.target.value)}>
-                    <option value="wrong_source">잘못된 대상 수집</option>
-                    <option value="stale">오래된 정보</option>
-                    <option value="missing_trend">누락된 트렌드</option>
+                    <option value="wrong_source">잘못된 대상 수집 ✦</option>
+                    <option value="stale">오래된 정보 ✦</option>
+                    <option value="missing_trend">누락된 트렌드 ✦</option>
                     <option value="add_source">추가할 소스</option>
-                    <option value="tone">어조/톤 문제</option>
-                    <option value="structure">구조/배치 문제</option>
-                    <option value="quality">품질/정확도 문제</option>
+                    <option value="tone">어조/톤 문제 ✦</option>
+                    <option value="structure">구조/배치 문제 ✦</option>
+                    <option value="quality">품질/정확도 문제 ✦</option>
                   </select>
+                  {feedbackType === 'wrong_source' && (
+                    <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) · 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                  )}
+                  {feedbackType === 'stale' && (
+                    <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) 프롬프트를 자동 개선합니다.</p>
+                  )}
+                  {feedbackType === 'missing_trend' && (
+                    <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) · 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                  )}
+                  {feedbackType === 'add_source' && (
+                    <p className="feedback-evolution-hint feedback-evolution-hint--manual">수집 소스는 프롬프트 자동 개선 대상이 아닙니다. 관리자가 config/sources.yaml을 직접 편집해야 합니다.</p>
+                  )}
+                  {feedbackType === 'tone' && (
+                    <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                  )}
+                  {feedbackType === 'structure' && (
+                    <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                  )}
+                  {feedbackType === 'quality' && (
+                    <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                  )}
                   <textarea
                     value={feedbackContent}
                     onChange={e => setFeedbackContent(e.target.value)}

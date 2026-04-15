@@ -1,4 +1,4 @@
-"""프롬프트 진화 엔진. 피드백 기반으로 프롬프트를 자동 개선."""
+"""프롬프트 진화 엔진. 피드백 기반으로 skills/{agent}.md를 직접 개선."""
 import difflib
 import logging
 import re
@@ -9,12 +9,7 @@ from typing import Optional
 
 from pipeline.agents import load_skill
 from pipeline.feedback_store import load_feedback_since
-from pipeline.prompt_version_store import (
-    get_latest_version,
-    list_versions,
-    load_active_prompt,
-    save_evolved_prompt,
-)
+from pipeline.prompt_version_store import save_evolution_log, get_latest_log
 
 logger = logging.getLogger(__name__)
 
@@ -103,14 +98,13 @@ def should_evolve(
     if len(relevant) < MIN_FEEDBACK_FOR_EVOLUTION:
         return False, f"피드백 부족 ({len(relevant)}/{MIN_FEEDBACK_FOR_EVOLUTION})"
 
-    # 쿨다운 체크
-    versions = list_versions(data_dir, agent_name)
-    if versions:
-        latest = versions[0]
-        created = latest.get("created_at", "")
-        if created:
+    # 쿨다운 체크 (최근 로그 기준)
+    latest = get_latest_log(data_dir, agent_name)
+    if latest:
+        ts = latest.get("timestamp", "")
+        if ts:
             try:
-                last_dt = datetime.fromisoformat(created.replace("Z", "+00:00")).date()
+                last_dt = datetime.fromisoformat(ts.replace("Z", "+00:00")).date()
                 days_since = (anchor_date - last_dt).days
                 if days_since < EVOLUTION_COOLDOWN_DAYS:
                     return False, f"쿨다운 중 ({days_since}/{EVOLUTION_COOLDOWN_DAYS}일)"
@@ -129,22 +123,19 @@ def evolve_prompt(
     llm_client,
     anchor_date: date,
     force: bool = False,
-) -> Optional[int]:
-    """프롬프트 진화 실행. 반환: 새 버전 번호 (진화 미발생 시 None)."""
+) -> Optional[bool]:
+    """프롬프트 진화 실행. skills/{agent}.md를 직접 개선하고 로그 저장.
+    반환: True(성공) / None(스킵·실패)."""
     if not force:
         should, reason = should_evolve(data_dir, agent_name, anchor_date)
         if not should:
             logger.info("진화 스킵 (%s): %s", agent_name, reason)
             return None
 
-    # 1. 현재 프롬프트 로드
-    active = load_active_prompt(data_dir, agent_name)
-    if active is None:
-        current_prompt = load_skill(skills_dir, agent_name)
-        base_version = "base"
-    else:
-        current_prompt = active
-        base_version = f"v{get_latest_version(data_dir, agent_name):03d}"
+    skills_dir = Path(skills_dir)
+
+    # 1. 현재 프롬프트 로드 (skills/*.md)
+    current_prompt = load_skill(skills_dir, agent_name)
 
     # 2. 관련 피드백 수집
     target_types = EVOLUTION_TARGETS.get(agent_name, [])
@@ -178,23 +169,26 @@ def evolve_prompt(
         logger.error("진화 실패 (%s): 검증 실패", agent_name)
         return None
 
-    # 5. diff 생성 및 저장
+    # 5. diff 생성
     diff_preview = _generate_diff(current_prompt, evolved_prompt)
 
-    evolution_log = {
-        "agent_name": agent_name,
-        "base_version": base_version,
+    # 6. skills/{agent}.md 직접 덮어쓰기
+    skill_path = skills_dir / f"{agent_name}.md"
+    skill_path.write_text(evolved_prompt + "\n", encoding="utf-8")
+
+    # 7. 변경 이력 로그 저장 (이전 내용 보관)
+    log_entry = {
         "feedback_count": len(relevant),
         "feedback_summary": feedback_summary,
         "feedback_types": dict(type_counts),
         "feedback_items": relevant[:30],
         "change_summary": change_summary or "변경 사항 요약 없음",
         "diff_preview": diff_preview,
+        "previous_prompt": current_prompt,
     }
-
-    version = save_evolved_prompt(data_dir, agent_name, evolved_prompt, evolution_log)
-    logger.info("프롬프트 진화 완료: %s v%03d", agent_name, version)
-    return version
+    save_evolution_log(data_dir, agent_name, log_entry)
+    logger.info("프롬프트 진화 완료: skills/%s.md 업데이트", agent_name)
+    return True
 
 
 def _extract_evolved_prompt(raw: str) -> Optional[str]:
@@ -247,8 +241,8 @@ def _generate_diff(original: str, evolved: str) -> str:
     diff = difflib.unified_diff(
         original.splitlines(keepends=True),
         evolved.splitlines(keepends=True),
-        fromfile="previous",
-        tofile="evolved",
+        fromfile="before",
+        tofile="after",
         lineterm="",
     )
     return "\n".join(diff)[:3000]

@@ -14,7 +14,6 @@ COMMIT_PATHS = [
     "data/weekly",
     "data/checkpoints",
     "data/feedback",
-    "data/prompt_versions",
     "data/prompt_evolution_log",
 ]
 

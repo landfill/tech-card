@@ -80,7 +80,7 @@ def main():
         )
         for agent_name in targets:
             print(f"Evolving prompt: {agent_name}...")
-            version = evolve_prompt(
+            result = evolve_prompt(
                 agent_name=agent_name,
                 data_dir=args.data_dir,
                 skills_dir=args.skills_dir,
@@ -88,10 +88,10 @@ def main():
                 anchor_date=anchor,
                 force=True,
             )
-            if version:
-                print(f"  -> v{version:03d} created")
+            if result:
+                print(f"  -> skills/{agent_name}.md 업데이트 완료")
             else:
-                print(f"  -> failed or skipped")
+                print(f"  -> 실패 또는 스킵")
         sys.exit(0)
 
     try:
