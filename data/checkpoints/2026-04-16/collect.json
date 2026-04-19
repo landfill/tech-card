@@ -1,0 +1,50 @@
+{
+  "date": "2026-04-16",
+  "items": [
+    {
+      "source_id": "github-blog-ai",
+      "title": "How GitHub uses eBPF to improve deployment safety",
+      "url": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
+      "summary": "<p>Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. </p>\n<p>The post <a href=\"https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/\">How GitHub uses eBPF to improve deployment safety</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-04-16T16:00:00+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Codex for (almost) everything",
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+      "published": "2026-04-16T10:00:00+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Introducing GPT-Rosalind for life sciences research",
+      "url": "https://openai.com/index/introducing-gpt-rosalind",
+      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+      "published": "2026-04-16T01:00:00+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Accelerating the cyber defense ecosystem that protects us all",
+      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+      "summary": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+      "published": "2026-04-16T00:00:00+00:00"
+    }
+  ],
+  "sources_run": [
+    "reddit-claudeai",
+    "reddit-cursor",
+    "reddit-ml",
+    "geeknews-hada",
+    "github-blog-ai",
+    "hn-newest",
+    "openai-blog",
+    "hn-agentic",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
+    "x-github-copilot",
+    "x-agentic-coding",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}

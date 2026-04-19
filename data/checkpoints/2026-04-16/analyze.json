@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "title": "How GitHub uses eBPF to improve deployment safety",
+      "summary": "<p>Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. </p>\n<p>The post <a href=\"https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/\">How GitHub uses eBPF to improve deployment safety</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "url": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "Codex for (almost) everything",
+      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Introducing GPT-Rosalind for life sciences research",
+      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+      "url": "https://openai.com/index/introducing-gpt-rosalind",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "high"
+    },
+    {
+      "title": "Accelerating the cyber defense ecosystem that protects us all",
+      "summary": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "high"
+    }
+  ],
+  "chunks": 1
+}
