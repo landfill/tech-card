@@ -1,0 +1,668 @@
+{
+  "items": [
+    {
+      "title": "@_ali_awan_: 2/ What makes it different from ChatGPT or Copilot?  Other tools respond to one message at a time.  Claude Code thinks i...",
+      "summary": "2/ What makes it different from ChatGPT or Copilot?\n\nOther tools respond to one message at a time.\n\nClaude Code thinks in context.\nIt reads your files, plans multi-step tasks, runs commands, fixes errors — all on its own.\n\nIt doesn't just suggest. It executes",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/_ali_awan_/status/2045830965373932026",
+      "source_id": ""
+    },
+    {
+      "title": "@aiagent_builder: エージェントが「障害で止まった」とき、あなたの仕事は止まりましたか?  2026年4月15日、Claudeが落ちた。 https://t.co/Pa0oVZ5UxD・API・Claude Code、全部まとめてダウン。 そのとき「さあ次どう...",
+      "summary": "エージェントが「障害で止まった」とき、あなたの仕事は止まりましたか?\n\n2026年4月15日、Claudeが落ちた。\nhttps://t.co/Pa0oVZ5UxD・API・Claude Code、全部まとめてダウン。\nそのとき「さあ次どうする?」と動けた人と、\n固まってしまった人の差は、準備の差だった。\n\nエージェントを使い倒すほど、依存リスクも上がる。\nだからこそ今、考えておきたいことがある。\n\n▶ タスクをどう分割すれば、一部が止まっても全体が死なないか\n▶ 再実行できる粒度で作業してあるか\n▶ ログと中間成果物は残してあるか\n\n「外部LLMが落ちることを織り込んだワークフロー設計」——\nこれ、もはや知識労働者の基礎スキルになってきてる。\n\n道具を信頼するのと、道具に依存するのは、まったく別のことだ。\n頼り方を設計できた人が、次の波に乗れる。\n\nhttps://t.co/mUEQQzRhdF\n#ClaudeCode",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "url": "https://x.com/aiagent_builder/status/2045830926106759415",
+      "source_id": ""
+    },
+    {
+      "title": "@_ali_awan_: 🧵 Claude Code is the most underrated AI tool of 2026.  Most people don't even know it exists.  Here's what it is + how t...",
+      "summary": "🧵 Claude Code is the most underrated AI tool of 2026.\n\nMost people don't even know it exists.\n\nHere's what it is + how to get maximum value from it 👇",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/_ali_awan_/status/2045830781822701653",
+      "source_id": ""
+    },
+    {
+      "title": "@editxshub: Someone built a native Mac app that combines Claude Code and Codex into one Liquid Glass interface  It's called GlassCod...",
+      "summary": "Someone built a native Mac app that combines Claude Code and Codex into one Liquid Glass interface\n\nIt's called GlassCode\n\nuses your existing Claude Code CLI — no extra login\n\nWhat it adds:\n\n→ run multiple agents and subagents simultaneously in one window\n→ clean UI for sub-agent work with context overview per thread\n→ Git integration + diff view built in\n→ Skills tab to install/uninstall slash commands instantly\n→ usage statistics so you know exactly what you're spending\n→ full permission mode",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/editxshub/status/2045830771483845093",
+      "source_id": ""
+    },
+    {
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "summary": "기사 링크 및 Hacker News 포인트(14). Claude Opus 4.6→4.7 사이 시스템 프롬프트 변경 사항에 대한 설명/분석.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Design을 둘러싼 생각과 감정",
+      "summary": "디자인 시스템화·Figma 비교 등 Claude Design에 대한 고찰(한국어 게시물).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28682",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: LunaTools - 18가지 기능의 구글 크롬 확장 프로그램 (마우스 제스처, 탭 관리, 세션 매니저, 환율 변환...",
+      "summary": "LunaTools 크롬 확장(마우스 제스처, 탭 관리 등) 1주년 및 18개 기능 소개(한국어).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28681",
+      "source_id": ""
+    },
+    {
+      "title": "NIST 과학자들, '임의 파장' 레이저 개발",
+      "summary": "집적 포토닉스 칩에서 단일 레이저 색을 다양한 가시광선·적외선으로 변환하는 구조 구현, 실리콘 웨이퍼 위 3차원 적층 등 연구 요약.",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28680",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: SPAR-Framework - 물리·수학 모델 결과의 ‘정당한 해석 가능성’을 검토하는 프레임워크",
+      "summary": "물리·수학 모델의 주장(Claim) 정당성까지 검토하는 결정론적 리뷰 프레임워크 SPAR 소개.",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28679",
+      "source_id": ""
+    },
+    {
+      "title": "\"AI에게 무례할수록 성능이 좋다?\" 최신 연구가 경고하는 PM의 소통 위기",
+      "summary": "AI와의 협업이 늘수록 인간의 소통 능력 퇴보 가능성 경고, 관련 연구 요약(한국어).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28678",
+      "source_id": ""
+    },
+    {
+      "title": "B-52 폭격기 스타 트래커 내부의 전기기계식 각도 컴퓨터",
+      "summary": "천문 항법 자동화용 별 추적기와 전기기계식 아날로그 각도 컴퓨터 설명(역사/공학적 개요).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28677",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: Paperclip + Gastown에서 영감을 받은, “영구기관” 컨셉의 오픈소스 AI 에이전트 프레임워크",
+      "summary": "토큰만 있으면 AI가 지속적으로 작동하며 제품을 키워나가는 '영구기관' 컨셉의 오픈소스 에이전트 프레임워크 소개(한국어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28676",
+      "source_id": ""
+    },
+    {
+      "title": "분리된 구간 집합 위에서 계산하는 계산기",
+      "summary": "분리된 구간들의 합집합을 입력으로 받아 사칙연산·함수·거듭제곱 등 연산을 수행하는 브라우저 계산기(Interval union arithmetic) 소개.",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28675",
+      "source_id": ""
+    },
+    {
+      "title": "일본 철도가 이렇게 뛰어난 이유",
+      "summary": "민간 소유·다수 기업 경쟁·부대사업 포트폴리오 등 일본 철도 성공 요인 분석(한국어).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28674",
+      "source_id": ""
+    },
+    {
+      "title": "Kdenlive 현황",
+      "summary": "KDE Gear 릴리스 주기에 따른 기능·유지보수 현황, 25.04.0의 자동 마스킹 도구와 OpenTimelineIO 등 업데이트 요약.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28673",
+      "source_id": ""
+    },
+    {
+      "title": "Opus 4.6과 Opus 4.7의 토큰 비용 계산기",
+      "summary": "Opus 4.7 새 토크나이저로 동일 프롬프트가 더 많은 토큰으로 집계되는 문제를 분석하는 계산 도구; 콘텐츠 유형 따라 1.0~1.35배 토큰 차이 보고.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28672",
+      "source_id": ""
+    },
+    {
+      "title": "DigitalOcean에서 Hetzner로 마이그레이션하기",
+      "summary": "월 $1,432 규모 프로덕션 인프라를 월 $233 전용 서버로 이전하면서 다운타임 없이 이전한 사례(데이터베이스·서비스 구성 포함).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28671",
+      "source_id": ""
+    },
+    {
+      "title": "RepoBar - 메뉴 바와 터미널에서 GitHub 저장소 상태를 한눈에 표시",
+      "summary": "macOS용 유틸로 GitHub 저장소의 CI 상태·릴리스·트래픽·활동 등을 메뉴바에서 실시간 표시할 수 있는 도구 소개.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28670",
+      "source_id": ""
+    },
+    {
+      "title": "@lizhangyu96: @oran_ge 中转站 / 便宜的 gpt plus 账号 / github copilot（$10 / mo）",
+      "summary": "저렴한 GPT Plus 계정 및 GitHub Copilot 판매를 알리는 짧은 트윗(중국어).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/lizhangyu96/status/2045831825176555686",
+      "source_id": ""
+    },
+    {
+      "title": "@PITTI_DATA: @Presidentlin @victor_melior github copilot is like the old antigravity hack. Please keep it quiet. I was about to cance...",
+      "summary": "GitHub Copilot을 오래 사용해온 사용자의 감상(유용하다는 맥락의 코멘트).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/PITTI_DATA/status/2045831513070088232",
+      "source_id": ""
+    },
+    {
+      "title": "@unknown361215: Hi @github @GitHubEducation, I’ve been waiting for 1 week for a response on my reinstatement request (Ticket #4269349)....",
+      "summary": "GitHub 계정이 잘못 플래그되어 Student 혜택 및 Copilot 접근을 잃은 사례에 대한 지원 요청 트윗.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/unknown361215/status/2045830151108497409",
+      "source_id": ""
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ GitHub Copilot CLI でスキルを駆使していい感じのプログラムを書いてもらおう  https://t.co/fkM3pyuwzV",
+      "summary": "GitHub Copilot CLI 관련 메모/아티클 공유(일본어).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/TommiyTw/status/2045829109578686545",
+      "source_id": ""
+    },
+    {
+      "title": "@BitsByNick: heads up: starting april 24, github will use your copilot inputs, outputs, and code snippets to train ai models  unless...",
+      "summary": "경고: 4월 24일부터 GitHub가 Copilot 입력·출력·코드 스니펫을 AI 모델 학습에 사용할 예정이며, 옵트아웃 필요(설정 경로 안내 포함).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high",
+      "url": "https://x.com/BitsByNick/status/2045828838857551918",
+      "source_id": ""
+    },
+    {
+      "title": "@OrNiiGO: @agusbuilds @Copilot @claudeai @github @GitHubCopilot Totalmente, menos mal que tengo suscripción Copilot Pro + y afortu...",
+      "summary": "Opus 4.7 사용 중 각 작업당 프리미엄 요청 소모율(0.5%) 관련 경험 공유(스페인어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/OrNiiGO/status/2045828039032922586",
+      "source_id": ""
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ GitHub Copilot SDK 完全入門 7ステップで自分だけのAIエージェントを作る  https://t.co/2FGUmv7xJ3",
+      "summary": "GitHub Copilot SDK로 에이전트 만드는 7단계 입문 아티클 공유(일본어).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/TommiyTw/status/2045828001095446910",
+      "source_id": ""
+    },
+    {
+      "title": "@toresebu: GitHub Copilot Proに申し込んだら、30日はTrial版が使えるよ、と言われたものの、10日あまりでTrial版が無効になっていた。意味が分からん",
+      "summary": "Copilot Pro 신청 후 30일 체험이 약속되었으나 10일 만에 비활성화된 문제 제기(일본어).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/toresebu/status/2045826870156169399",
+      "source_id": ""
+    },
+    {
+      "title": "@jellydn: Power Up #5 — My AI Builder Workflow in 2026  I use AI as a team:  ChatGPT for ideas Amp for PRDs OpenCode + Kimi Turbo...",
+      "summary": "개인/팀의 2026년 AI 빌더 워크플로우: ChatGPT·Amp·OpenCode·Kimi·GitHub Copilot 등 툴 조합 공유.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://x.com/jellydn/status/2045826554304028749",
+      "source_id": ""
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ GitHub Copilotを自分好みにカスタマイズする copilot-instructions.md  https://t.co/nQomW5FwQy",
+      "summary": "copilot-instructions.md로 Copilot 커스터마이즈하는 방법 공유(일본어).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/TommiyTw/status/2045826519767863711",
+      "source_id": ""
+    },
+    {
+      "title": "@agusbuilds: @OrNiiGO @Copilot @claudeai @github @GitHubCopilot Exacto, los retry loop es una de las trampas más caras que hay. Yo he...",
+      "summary": "에이전트/자동화에서 retry 루프가 비용을 야기한다는 경험 공유 — 모델 재시도 제한 및 대안 전략 제안(스페인어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/agusbuilds/status/2045826036173095106",
+      "source_id": ""
+    },
+    {
+      "title": "@noobcoderz05: 🤯 Building a Copilot CLI extension? Prepare for code-powered dungeon crawls, automating repo transformations & boost...",
+      "summary": "Copilot CLI 확장 개발 경험/흥분 공유(리포지토 변환 자동화 등).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/noobcoderz05/status/2045824117505736767",
+      "source_id": ""
+    },
+    {
+      "title": "@NicolasMenzel: Let’s talk about the new weekly limits in GitHub Copilot — even with a Pro+ subscription.  In my case, it became unusabl...",
+      "summary": "GitHub Copilot의 주간 한도 도입이 Pro+ 구독자에게도 작업 흐름을 방해한다는 불만 제기.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://x.com/NicolasMenzel/status/2045822154843861219",
+      "source_id": ""
+    },
+    {
+      "title": "@sh2nd: 昔 Python で作った Mattermost LLM Bot を Node.js で作り直した。以前は Bot の数だけプロセスが立ち上がり管理が煩雑だったのを一つのプロセスにまとめた。設定も一つの JSON ファイルに収めたのですっき...",
+      "summary": "기존 Python 기반 Mattermost LLM Bot을 Node.js로 재구현해 관리 단순화, GitHub Copilot과 GPT-5.4로 도움을 받았다는 경험 공유(일본어).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/sh2nd/status/2045821581474271286",
+      "source_id": ""
+    },
+    {
+      "title": "@asagetweet: 今更感がありますがこれからGitHub Copilot CLIを使い始める人に向けての記事です  GitHub Copilot CLIの使い方を学ぶ方法｜あさげ https://t.co/uGBfXcml3K #zenn",
+      "summary": "GitHub Copilot CLI 시작자를 위한 학습 가이드 공유(일본어).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/asagetweet/status/2045821036550357502",
+      "source_id": ""
+    },
+    {
+      "title": "@LXN_Dev: @Sattyam15 Claude + Github Copilot for coding and ChatGPT to improve ideas",
+      "summary": "개발 워크플로우에서 Claude(코딩) + GitHub Copilot(코딩 보조) + ChatGPT(아이디어) 조합 언급.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/LXN_Dev/status/2045819422988730523",
+      "source_id": ""
+    },
+    {
+      "title": "@0x7FF: 開発したいがためにClaudeのProプランも検討してるんだけど、GitHub Copilotプランですら1ドルも使ってない状況だしなあ",
+      "summary": "Claude Pro 가입 고민과 Copilot 요금 사용 현황에 대한 개인적 멘션(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/0x7FF/status/2045819028363755662",
+      "source_id": ""
+    },
+    {
+      "title": "@ao_ms25_: 今業務でVSCode 上で Copilot かまして GitHubと連携してClaude 4.7 動かしてるんだけど、実際これ最強な構成じゃないのかな？ リポジトリ横断させてコンテキストも全部渡して。  ログ解析のスピード、精度、推論すべて...",
+      "summary": "VSCode + Copilot + GitHub 연동하여 Claude 4.7을 사용하는 워크플로우가 매우 강력하다는 경험 공유(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/ao_ms25_/status/2045818734716354893",
+      "source_id": ""
+    },
+    {
+      "title": "@kurupical: GitHub Copilotに環境セットアップしてもらったけど何やってもらってるか分からなすぎる。とりあえずシミュレーション環境上でロボットアームを動かすチュートリアル的なところまでは行けたっぽいけど・・・",
+      "summary": "Copilot으로 환경 셋업을 자동화했으나 내부 동작을 이해하기 어렵다는 후기(로봇 암 튜토리얼까지 진행).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://x.com/kurupical/status/2045817120500691306",
+      "source_id": ""
+    },
+    {
+      "title": "A portable OS for emergency situations and extreme privacy needs",
+      "summary": "refugiOS GitHub 리포지토리(응급 상황 및 극단적 프라이버시를 위한 휴대용 OS).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://github.com/Ganso/refugiOS",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: Proposly – AI-generated client proposals for freelancers",
+      "summary": "프리랜서를 위한 AI 생성 클라이언트 제안서 서비스 Proposly 소개(Show HN).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://proposly.org",
+      "source_id": ""
+    },
+    {
+      "title": "Everyone needs own their own machine that is an extension of their intelligence",
+      "summary": "개인이 자신의 지능을 확장하는 머신을 가져야 한다는 트윗(개념적 주장).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://twitter.com/beffjezos/status/2045719076644040991",
+      "source_id": ""
+    },
+    {
+      "title": "I built a hobby matching engine that scores activities across lifestyle traits",
+      "summary": "Hobbystack이라는 취미 매칭 엔진 개인 프로젝트 소개(Show HN).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://hobbystack.net/",
+      "source_id": ""
+    },
+    {
+      "title": "High-Fidelity KV Cache Summarization Using Entropy and Low-Rank Reconstruction",
+      "summary": "KV 캐시를 엔트로피·저계수 재구성으로 요약하는 방법론(LLM 컨텍스트/캐시 관련 기술 글).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://jchandra.com/posts/hae-ols/",
+      "source_id": ""
+    },
+    {
+      "title": "America wakes up to AI's dangerous power",
+      "summary": "The Economist 리더 칼럼: 미국이 AI의 위험성을 인식하게 되었다는 사설(정책·사회적 함의 논의).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "high",
+      "url": "https://www.economist.com/leaders/2026/04/16/america-wakes-up-to-ais-dangerous-power",
+      "source_id": ""
+    },
+    {
+      "title": "Wine 11.7 – Run Windows Applications on Linux, BSD, Solaris and macOS",
+      "summary": "Wine 11.7 릴리스 공지(Windows 앱을 다양한 OS에서 실행 가능).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://www.winehq.org/announce/11.7",
+      "source_id": ""
+    },
+    {
+      "title": "Forecastr – RFC 3161 timestamps for AI forecasts, verifiable with OpenSSL",
+      "summary": "AI 예측을 RFC 3161 타임스탬프와 OpenSSL로 검증가능하게 하는 Forecastr 프로젝트 소개.",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://www.forecastr.dev/",
+      "source_id": ""
+    },
+    {
+      "title": "Mitit.org/Blogs/4",
+      "summary": "Mitit.org의 블로그 포스트(내용 불명 또는 일반 블로그 항목).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://mitit.org/Blogs/4",
+      "source_id": ""
+    },
+    {
+      "title": "Cannabis criminal law in Germany in 2026",
+      "summary": "2026년 독일의 대마초 형사법 관련 설명/정리 글.",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://www.ferner-alsdorf.com/cannabis-criminal-law-in-germany-in-2026/",
+      "source_id": ""
+    },
+    {
+      "title": "Vigil",
+      "summary": "Vigil GitHub 리포지토리(프로젝트 링크).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://github.com/KultMember6Banger/vigil",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: OpenClawdex – Open-Source Orchestrator UI for Claude Code and Codex",
+      "summary": "Claude와 Codex를 위한 오픈소스 오케스트레이터 UI(OpenClawdex) — MacOS용, Claude Agent SDK와 Codex JSON-RPC 연동 설명.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://github.com/alekseyrozh/openclawdex",
+      "source_id": ""
+    },
+    {
+      "title": "The Seaside Town Trying to Reclaim Its Title as 'Submarine Capital of the World'",
+      "summary": "WSJ 기사: 소도시의 잠수함 산업·역사 회복 노력(지역 경제 기사).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://www.wsj.com/us-news/the-seaside-town-trying-to-reclaim-its-title-as-submarine-capital-of-the-world-60e23981",
+      "source_id": ""
+    },
+    {
+      "title": "Summarizing and Reviewing my earliest ML research paper, 7 years later",
+      "summary": "작성자가 7년 전 자신의 ML 연구 논문을 회고·요약한 블로그 포스트(연구 성찰).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://www.lesswrong.com/posts/s23gcSGmWh3YwDBdW/summarizing-and-reviewing-my-earliest-ml-research-paper-7",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: Vitality AI Health – blood work, wearables, and DNA unified",
+      "summary": "혈액검사·웨어러블·DNA 데이터를 통합하는 Vitality AI Health 서비스 소개(Show HN).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium",
+      "url": "https://vitalityaihealth.com",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "summary": "브라우저에서 Gemma 4 E2B 모델로 Prompt→Excalidraw 데모(3.1GB WASM).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+      "source_id": ""
+    },
+    {
+      "title": "My Obsidian Setup",
+      "summary": "개인 Obsidian 노트 셋업 설명 블로그 포스트(개인 생산성 툴 구성).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://cernockyd.com/blog/my-obsidian-setup",
+      "source_id": ""
+    },
+    {
+      "title": "Ruby Central in 'real financial jeopardy' following RubyGems maintainer ruckus",
+      "summary": "RubyGems 유지관리자 논쟁으로 인해 Ruby Central 재정적 위기에 처했다는 보도(오픈소스 거버넌스 이슈).",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://www.theregister.com/2026/04/19/rubygems_nonprofit_in_real_financial/",
+      "source_id": ""
+    },
+    {
+      "title": "The three kinds of leverage that anchor effective strategies",
+      "summary": "효과적인 전략을 지탱하는 '레버리지'의 세 가지 유형에 대한 장문 아티클(경영/전략).",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low",
+      "url": "https://longform.asmartbear.com/leverage/",
+      "source_id": ""
+    },
+    {
+      "title": "Track HN: Comparing 156 LLM Launch Posts on Hacker News",
+      "summary": "Hacker News에 올라온 156개의 LLM 출시 포스트를 비교한 리포트.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://track-hacker-news.com/reports/llm-launches",
+      "source_id": ""
+    },
+    {
+      "title": "@_ali_awan_: 6/ Tip 3 — Use it for the boring stuff  Don't waste your brain on: → Writing boilerplate code → Setting up folder struct...",
+      "summary": "Claude Code에 대해 '지루한 작업은 위임하라'는 활용 팁(보일러플레이트·폴더 구조·문서화 등 위임 권고).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/_ali_awan_/status/2045832067293098234",
+      "source_id": ""
+    },
+    {
+      "title": "@MarvinHarryP: @galileowilson What you mean with VPS Claude Code with Terminal and the other stuff?  I just use VPS-n8n-GPT/Claude/Supa...",
+      "summary": "VPS 상에서 Claude Code·n8n·Supabase 등을 이용한 자동화 환경 구성에 대한 질의/코멘트.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/MarvinHarryP/status/2045832016097165578",
+      "source_id": ""
+    },
+    {
+      "title": "@dansemperepico: @pan3sar I got Claude code to build me a Telegram bridge. No bugs I’ve found so far",
+      "summary": "Claude Code로 Telegram 브리지를 만들었고 별다른 버그를 못찾았다는 짧은 후기.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/dansemperepico/status/2045831927446557094",
+      "source_id": ""
+    },
+    {
+      "title": "@TheGeorgePu: Alibaba just closed their best model.  Qwen 3.6 Plus - the version that rivals Claude for agentic coding - is now API on...",
+      "summary": "Alibaba가 Qwen 3.6 Plus(Claude에 필적하는 에이전틱 코딩 모델)를 API 전용으로 전환했다는 주장 — 프론티어 모델의 무료 vs 유료 분화 관찰.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "url": "https://x.com/TheGeorgePu/status/2045831846722703743",
+      "source_id": ""
+    },
+    {
+      "title": "@furifuri_mono: Claude Code関係ないのではという気がする……",
+      "summary": "해당 토론/스레드가 Claude Code와 직접 관련이 없다는 지적(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/furifuri_mono/status/2045831803186106660",
+      "source_id": ""
+    },
+    {
+      "title": "@Asapteejo: codex vs claude code isn’t about which is better  it’s about whether you want:  autonomous execution or controlled itera...",
+      "summary": "Codex와 Claude Code의 차이는 더 나은 모델 문제가 아니라 '자율 실행 vs 통제된 반복'의 워크플로우 차이라는 주장.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/Asapteejo/status/2045831796282003811",
+      "source_id": ""
+    },
+    {
+      "title": "@yusaku_0426: Claude Code Skillsを体系的にまとめた記事  ▼ Skillsを設計する際の要点  ・責務は1つに絞る（何でもできるSkillは作らない） ・descriptionは「何をするか+いつ使うか+主要機能」 ・SKILL.mdは...",
+      "summary": "Claude Code Skills 설계 지침(책임 분리, description 포맷, SKILL.md 길이 등) 요약 공유(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/yusaku_0426/status/2045831777806372950",
+      "source_id": ""
+    },
+    {
+      "title": "@ParysDavid: @NicolasZu You're running the game in a browser? What kind of tech stack is that? That looks pretty sick ! I'm more into...",
+      "summary": "브라우저에서 실행되는 게임 스택에 대한 문의 및 Claude Code IDE/탐색 경험에 대한 코멘트.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/ParysDavid/status/2045831760198369325",
+      "source_id": ""
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ Zed を Claude Code の観測窓として構築する IBM Plex で統一する日本語タイポグラフィ  https://t.co/UtKAhS2R2d",
+      "summary": "Zed를 Claude Code 관측창으로 구축하는 방법과 일본어 타이포그라피 정리(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/TommiyTw/status/2045831650978775548",
+      "source_id": ""
+    },
+    {
+      "title": "@aiagent_builder: Claude Codeが障害で止まった日、同僚が静かにGemini CLIを開いた。  『バックアップのAI、あるんですね』と聞いたら、 『いや、これが本番。Claudeがサブエージェント』と返ってきた。  いつの間にかAIにも正規雇用と派...",
+      "summary": "Claude Code 장애 시 동료가 Gemini CLI로 전환해 '백업 AI' 역할을 맡겼다는 에피소드 — 멀티모델 운영·역할 분담 관찰(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/aiagent_builder/status/2045831537430757543",
+      "source_id": ""
+    },
+    {
+      "title": "@paruru_a_i: 🇯🇵 日本でどう活かすか → Claude 101でClaudeの基礎を30分で習得 → Claude Codeで自動化スキルを1〜2時間で習得 → Claude Skillsで業務効率化ツール構築を習得使えるサービス：https://t....",
+      "summary": "일본에서 Claude를 활용하는 학습·활용 루트 제안(Claude 101→Claude Code→Claude Skills), 무료 가이드 안내(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/paruru_a_i/status/2045831509907829160",
+      "source_id": ""
+    },
+    {
+      "title": "@paruru_a_i: 📌 なぜ英語圏で103万人に届いたか？AIを学ぶには数ヶ月・高コスト」という固定観念を崩したから実際のガイドラインナップ： ・Claude Code入門 ・Claude Skills活用法 ・AI画像・PPT作成法 ・1Mフォロワー獲得法日...",
+      "summary": "왜 영어권에서 큰 반향을 얻었는지(간단·저비용 학습) 설명 및 가이드 목록(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/paruru_a_i/status/2045831507336659403",
+      "source_id": ""
+    },
+    {
+      "title": "@dieu_tout: @siliconcarnesf Il y a un an, l'IA codait très bien. Claude sonnet 3.5 (une révolution à l'époque qui codait déjà mieux...",
+      "summary": "1년 전에도 IA가 코드 작성을 잘했으며 Claude Sonnet 3.5의 혁신적 성능과 이후 에이전틱 능력의 발전 관련 회고(프랑스어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/dieu_tout/status/2045831499346219477",
+      "source_id": ""
+    },
+    {
+      "title": "@kayacekovic: I'm going to Built with Opus 4.7: a Claude Code hackathon  https://t.co/Ef6O9n2oOD",
+      "summary": "Opus 4.7 기반 Claude Code 해커톤 참가 계획 공유.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/kayacekovic/status/2045831392911638740",
+      "source_id": ""
+    },
+    {
+      "title": "@sho_ai_real: Claude Code の初期設定、最初にやるべき順序：  【必ずやる】 CLAUDE.md 作成 → settings.json の permissions 定義 → hooks の実装  【余力があれば】 MCP サーバー追加 → su...",
+      "summary": "Claude Code 초기 설정 권장 순서(필수: CLAUDE.md, permissions, hooks 등; 옵션: MCP 서버·subagents 정리) 공유(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/sho_ai_real/status/2045831363518169241",
+      "source_id": ""
+    },
+    {
+      "title": "@dansemperepico: @nickgraynews I asked Claude Code to help me transplant all my agents and then build me Telegram bridges to all of them....",
+      "summary": "Claude Code로 에이전트 전이(transplant) 및 Telegram 브리지 구축을 자동화한 사례 공유.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/dansemperepico/status/2045831325563928801",
+      "source_id": ""
+    },
+    {
+      "title": "@galileowilson: The OpenClaw era is over for me.  Ever since Opus 4.6 stopped working on it, accounts kept getting banned, was spending...",
+      "summary": "OpenClaw 사용 중 계정 정지·문제 발생으로 전환, VPS에서 Claude Code·Terminal·GitHub·Vercel 조합으로 비용·복잡성 감소 경험 공유.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/galileowilson/status/2045831291749142694",
+      "source_id": ""
+    },
+    {
+      "title": "@PentaPROgram: Claude Design、私は今のところそんなに面白い感じはなかったな。Figma MakeやClaude Codeとそんなに違いを感じない。デザインシステム生成も試したけど、感動はせず。",
+      "summary": "Claude Design을 사용해봤지만 Figma Make나 Claude Code와 큰 차이를 못 느꼈다는 개인적 평가(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/PentaPROgram/status/2045831291145441658",
+      "source_id": ""
+    },
+    {
+      "title": "@winfinity88: 今日はClaude Code×UTAGE😊公開しました🪄  UTAGEのMCP連携！Claude Codeで爆速LP作成 https://t.co/kuG0MLpuTm @YouTubeより",
+      "summary": "Claude Code와 UTAGE 연동 데모 영상 공개 — MCP 연계로 LP(랜딩페이지) 빠르게 생성하는 사례(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/winfinity88/status/2045831264901771774",
+      "source_id": ""
+    },
+    {
+      "title": "@MEEcom44: Cut our Claude Code agent's tool list from 22 to 7. Completion rate nearly doubled.  Every agent failure I've had traces...",
+      "summary": "에이전트의 툴 수를 22→7로 줄여 완료율이 거의 2배 증가했다는 실험 결과. 많은 실패는 과도한 툴(표면적) 때문이라는 진단.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/MEEcom44/status/2045831252264034450",
+      "source_id": ""
+    },
+    {
+      "title": "@techy101_: 🤖 Tech made simple with Techy101: How to Make a Claude Code Project Work Like an Engineer Developers use Claude Code as...",
+      "summary": "Claude Code 프로젝트를 엔지니어처럼 작동시키는 방법을 소개하는 글/홍보 트윗.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/techy101_/status/2045831250854736318",
+      "source_id": ""
+    },
+    {
+      "title": "@miya_space: codex CLIの設定完了。codexがWindows側のLM Studioを認識しないとかいろいろあったけど、ChatGPT殿のおかげでcodex CLIにGemma4:E4Bを使わせて動かすことに成功した。コンテキスト長を65Kにした...",
+      "summary": "codex CLI 설정 완료, Windows의 LM Studio 인식 문제 등 우여곡절 끝에 Gemma4:E4B로 동작 성공(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/miya_space/status/2045831236279751041",
+      "source_id": ""
+    },
+    {
+      "title": "@abrynsk: Claude Codeのトークン消費が毎月エグいことになってたからめっちゃ参考になる。  @DataChaz の投稿見て特に価値高かったツール、3つ厳選。  ・Caveman Claude 　出力が劇的に簡潔に。65-75%削減で精度ほぼキ...",
+      "summary": "Claude Code의 토큰 소비 과다 문제를 해결하기 위한 도구 추천(출력 간결화·터미널 로그 절감·리뷰 그래프 등), 비용 절감 사례 공유(일본어).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "url": "https://x.com/abrynsk/status/2045831223508193343",
+      "source_id": ""
+    },
+    {
+      "title": "@_ali_awan_: 3/ What can Claude Code do?  → Build entire features from scratch → Debug errors across multiple files → Write & run...",
+      "summary": "Claude Code의 기능 요약: 기능 구현·다중파일 디버깅·테스트 자동화·리팩터링·코드 설명·프로젝트 초기 설정 등(연속 트윗 일부).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/_ali_awan_/status/2045831197713203672",
+      "source_id": ""
+    },
+    {
+      "title": "@yukiyohure0923: Claude Codeで日常のタスクを45個自動化した東大院生の全記録｜shunya｜東大院×AI活用研究者 https://t.co/41FkX8ab0X #zenn",
+      "summary": "동경대 대학원생이 Claude Code로 일상 작업 45개를 자동화한 기록 공유(기사 링크).",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "url": "https://x.com/yukiyohure0923/status/2045831003160391949",
+      "source_id": ""
+    },
+    {
+      "title": "@coo_pr_notes: Okay, this one genuinely stopped me mid-scroll.  Claude Code can now watch your PR, catch a CI failure, write the fix, p...",
+      "summary": "Claude Code가 PR을 감시하고 CI 실패를 잡아 수정 커밋을 만들고 푸시까지 하는 /autofix-pr 워크플로우를 소개—개발 사이클 자동화의 실질적 사례.",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "url": "https://x.com/coo_pr_notes/status/2045830969241063573",
+      "source_id": ""
+    }
+  ]
+}
