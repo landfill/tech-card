@@ -8,6 +8,7 @@ from fastapi.responses import PlainTextResponse
 from pydantic import BaseModel
 
 from backend.paths import get_data_dir, get_config_dir
+from pipeline.checkpoint import load_checkpoint
 from pipeline.storage import weekly_card_path, weekly_letter_path, weekly_meta_path
 
 router = APIRouter()
@@ -21,6 +22,44 @@ def _weekly_dir() -> Path:
     return _data_dir() / "weekly"
 
 
+def _week_start_date(week_id: str) -> date | None:
+    try:
+        year_str, week_str = week_id.split("-W", 1)
+        return date.fromisocalendar(int(year_str), int(week_str), 1)
+    except ValueError:
+        return None
+
+
+def _build_weekly_status_response(week_id: str) -> dict:
+    data_dir = _data_dir()
+    letter_path = Path(weekly_letter_path(str(data_dir), week_id))
+    meta_path = Path(weekly_meta_path(str(data_dir), week_id))
+    cards_path = Path(weekly_card_path(str(data_dir), week_id))
+    letter_ready = letter_path.is_file()
+    meta_ready = meta_path.is_file()
+    cards_ready = cards_path.is_file()
+    exists = letter_ready and meta_ready
+
+    publish_result = None
+    week_start = _week_start_date(week_id)
+    if week_start is not None:
+        publish_result = load_checkpoint(str(data_dir), week_start, f"weekly_{week_id}_publish")
+
+    status = "completed" if exists else "running"
+    return {
+        "week_id": week_id,
+        "exists": exists,
+        "status": status,
+        "letter_ready": letter_ready,
+        "letter_updated_at": letter_path.stat().st_mtime if letter_ready else None,
+        "meta_ready": meta_ready,
+        "meta_updated_at": meta_path.stat().st_mtime if meta_ready else None,
+        "cards_ready": cards_ready,
+        "cards_updated_at": cards_path.stat().st_mtime if cards_ready else None,
+        "publish_result": publish_result,
+    }
+
+
 @router.get("")
 def list_weekly():
     """주간 레터 목록. 예: ["2026-W15", "2026-W14", ...]"""
@@ -31,6 +70,12 @@ def list_weekly():
     for f in d.glob("*.md"):
         weeks.add(f.stem)  # 2026-W15
     return sorted(weeks, reverse=True)
+
+
+@router.get("/{week_id}/status")
+def get_weekly_status(week_id: str):
+    """주간 실행 상태. 생성 산출물과 publish 체크포인트를 함께 반환."""
+    return _build_weekly_status_response(week_id)
 
 
 @router.get("/{week_id}", response_class=PlainTextResponse)
@@ -100,6 +145,7 @@ def post_run_weekly(body: WeeklyRunBody, background_tasks: BackgroundTasks):
             raise HTTPException(status_code=400, detail="Invalid date")
     else:
         anchor = date.today() - timedelta(days=1)
+    started_at = datetime.now().astimezone().isoformat()
     background_tasks.add_task(_run_weekly_task, anchor, body.force)
     from pipeline.storage import get_week_id
-    return {"message": "started", "week_id": get_week_id(anchor)}
+    return {"message": "started", "week_id": get_week_id(anchor), "started_at": started_at}

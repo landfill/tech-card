@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
 
 const API = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
+const WEEKLY_POLL_INTERVAL_MS = 1500
+const WEEKLY_POLL_MAX_ATTEMPTS = 80
 
 interface TrendItem {
   topic: string
@@ -28,6 +30,25 @@ interface WeeklyMeta {
   daily_counts: Record<string, number>
 }
 
+interface WeeklyRunResponse {
+  message: string
+  week_id: string
+  started_at: string
+}
+
+interface WeeklyStatus {
+  week_id: string
+  exists: boolean
+  status: 'running' | 'completed'
+  letter_ready: boolean
+  letter_updated_at: number | null
+  meta_ready: boolean
+  meta_updated_at: number | null
+  cards_ready: boolean
+  cards_updated_at: number | null
+  publish_result: { sent: boolean; recipients: number; error: string | null } | null
+}
+
 const WEEKDAYS = ['월', '화', '수', '목', '금', '토', '일']
 
 const directionLabel: Record<string, string> = {
@@ -50,16 +71,17 @@ export default function WeeklyPage() {
   const [letter, setLetter] = useState<string>('')
   const [detailView, setDetailView] = useState<'letter' | 'trend'>('trend')
   const [running, setRunning] = useState(false)
+  const [reloadNonce, setReloadNonce] = useState(0)
 
   useEffect(() => {
-    fetch(`${API}/api/weekly`).then(r => r.json()).then(setWeeks).catch(() => {})
+    void fetchWeeks().then(setWeeks).catch(() => setWeeks([]))
   }, [])
 
   useEffect(() => {
     if (!selected) return
     fetch(`${API}/api/weekly/${selected}`).then(r => r.text()).then(setLetter).catch(() => setLetter(''))
     fetch(`${API}/api/weekly/${selected}/meta`).then(r => r.json()).then(setMeta).catch(() => setMeta(null))
-  }, [selected])
+  }, [selected, reloadNonce])
 
   useEffect(() => {
     if (weeks.length > 0 && !selected) setSelected(weeks[0])
@@ -70,13 +92,25 @@ export default function WeeklyPage() {
   const runWeekly = async () => {
     setRunning(true)
     try {
-      await fetch(`${API}/api/weekly/run`, {
+      const response = await fetch(`${API}/api/weekly/run`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ force: false }),
+        body: JSON.stringify({ force: true }),
       })
-    } catch { /* */ }
-    setRunning(false)
+      if (!response.ok) throw new Error(`weekly_run_failed:${response.status}`)
+
+      const result = await response.json() as WeeklyRunResponse
+      await waitForWeeklyArtifacts(result.week_id, result.started_at)
+
+      const nextWeeks = await fetchWeeks()
+      setWeeks(nextWeeks)
+      setSelected(result.week_id)
+      setReloadNonce((value) => value + 1)
+    } catch {
+      // Leave current week view intact when the run request fails or times out.
+    } finally {
+      setRunning(false)
+    }
   }
 
   const weekDates = meta?.date_range
@@ -186,6 +220,41 @@ export default function WeeklyPage() {
       {!selected && weeks.length === 0 && <p className="weekly-empty">아직 생성된 주간 리뷰가 없습니다. '주간 레터 생성' 버튼을 누르세요.</p>}
     </div>
   )
+}
+
+async function fetchWeeks(): Promise<string[]> {
+  const response = await fetch(`${API}/api/weekly`)
+  if (!response.ok) throw new Error(`weekly_list_failed:${response.status}`)
+  return response.json() as Promise<string[]>
+}
+
+async function waitForWeeklyArtifacts(weekId: string, startedAt: string): Promise<WeeklyStatus> {
+  const startedAtMs = new Date(startedAt).getTime()
+  for (let attempt = 0; attempt < WEEKLY_POLL_MAX_ATTEMPTS; attempt += 1) {
+    const response = await fetch(`${API}/api/weekly/${weekId}/status`)
+    if (response.ok) {
+      const status = await response.json() as WeeklyStatus
+      const letterUpdated = status.letter_updated_at ?? 0
+      const metaUpdated = status.meta_updated_at ?? 0
+      if (
+        status.exists &&
+        status.letter_ready &&
+        status.meta_ready &&
+        letterUpdated * 1000 >= startedAtMs &&
+        metaUpdated * 1000 >= startedAtMs
+      ) {
+        return status
+      }
+    }
+    await delay(WEEKLY_POLL_INTERVAL_MS)
+  }
+  throw new Error(`weekly_timeout:${weekId}`)
+}
+
+function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => {
+    window.setTimeout(resolve, ms)
+  })
 }
 
 function _getWeekDaysFromRange(start: string, end: string): string[] {
