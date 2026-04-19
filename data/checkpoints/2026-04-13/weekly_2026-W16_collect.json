@@ -4,8 +4,8 @@
     "2026-04-13",
     "2026-04-19"
   ],
-  "total_items": 215,
-  "filtered_items_count": 186,
+  "total_items": 343,
+  "filtered_items_count": 291,
   "items": [
     {
       "title": "Ask HN: 지금 어떤 프로젝트를 진행하고 계신가요? (2026년 4월)",
@@ -1494,11 +1494,855 @@
       "category": "GitHub & 인프라 트렌드",
       "impact": "medium",
       "_date": "2026-04-15"
+    },
+    {
+      "title": "How GitHub uses eBPF to improve deployment safety",
+      "summary": "<p>Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. </p>\n<p>The post <a href=\"https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/\">How GitHub uses eBPF to improve deployment safety</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "url": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-16"
+    },
+    {
+      "title": "Codex for (almost) everything",
+      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "_date": "2026-04-16"
+    },
+    {
+      "title": "Postgres 큐를 건강하게 유지하기",
+      "summary": "<ul>\n<li>Postgres에서 <strong>job queue</strong>를 운영할 때 발생하는 고질적 문제인 <strong>dead tuple 누적</strong>과 이에 따른 <strong>테이블 bloat</strong>, 성능 저하의 원인과 해결 방법 정리</li>\n<li>큐 테이블은 대부분의 행이 <strong>삽입-읽기-삭제</strong>로 짧게 순환되므로 크기는 일정하지만 ...</p>",
+      "url": "https://news.hada.io/topic?id=28644",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Ada, 그 설계와 언어를 만든 언어",
+      "summary": "<ul>\n<li>1970년대 미국 국방부의 소프트웨어 혼란 속에서 탄생한 Ada는 <strong>강한 정적 타입과 명세-구현 분리</strong>를 핵심으로 한 언어임</li>\n<li><strong>패키지 구조와 표현적 은닉</strong>을 통해 완전한 캡슐화를 구현하며, 이후 Java·C#·Go 등 현대 언어의 모듈 시스템에 영향을 줌</li>\n<li><strong>의...</p>",
+      "url": "https://news.hada.io/topic?id=28643",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "우리가 좋아하는 모든 것은 심리전(psyop)인가?",
+      "summary": "<ul>\n<li>인디 밴드 <strong>Geese</strong>의 폭발적 인기가 <strong>마케팅 회사 Chaotic Good</strong>의 조작된 캠페인으로 드러나며, ‘진짜 인기’와 ‘조작된 인기’의 경계가 흐려짐</li>\n<li>Chaotic Good은 수천 개의 아이폰으로 <strong>가짜 소셜 계정</strong>을 운영해 특정 곡이나 인플루언서를 트렌드처...</p>",
+      "url": "https://news.hada.io/topic?id=28642",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Claude 4.7 토크나이저 비용 측정 결과",
+      "summary": "<ul>\n<li>Claude 4.7은 이전 버전보다 <strong>평균 1.3~1.45배 더 많은 토큰을 생성</strong>, 동일한 가격 체계에서 <strong>세션당 20~30% 비용 증가</strong> 발생</li>\n<li><strong>영어 및 코드 콘텐츠</strong>에서 토큰 증가가 두드러지며, <strong>CJK(중국어·일본어·한국어)</strong> 콘텐츠는 거의 변화 없음...</p>",
+      "url": "https://news.hada.io/topic?id=28641",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Anthropic, Claude Design 공개",
+      "summary": "<ul>\n<li><strong>Claude Opus 4.7 비전 모델</strong> 기반으로 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 <strong>시각 작업물</strong>을 제작하는 <strong>협업형 시각 디자인 도구</strong></li>\n<li>사용자는 텍스트 설명만으로 <strong>디자인 초안, 프로토타입, 슬라이드, 마케팅 자료</strong> 등...</p>",
+      "url": "https://news.hada.io/topic?id=28640",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Clojure 공식 다큐멘터리",
+      "summary": "<ul>\n<li><strong>Clojure가 글로벌 핀테크들의 인프라 언어로 성장한 과정</strong>을 다룬 1시간짜리 공식 다큐멘터리 영상 공개</li>\n<li>Clojure의 <strong>독특한 기원</strong> 과 <strong>가치 중심적인 커뮤니티</strong>, <strong>소프트웨어 사고방식에 미친 영향</strong>을 추적하여 소개</li>\n<li>유튜브 링...</p>",
+      "url": "https://news.hada.io/topic?id=28639",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "‘패시브 인컴(수동 소득)’ 함정이 한 세대의 창업가를 삼켰다",
+      "summary": "<ul>\n<li>‘패시브 인컴’이 <strong>재정적 자유의 신화</strong>로 포장되며, 수많은 창업가들이 <strong>자동 수익 시스템 구축</strong>에 몰입함</li>\n<li>실제로는 <strong>드롭쉬핑·제휴 마케팅·온라인 강의 판매</strong>가 반복되며, 고객의 필요보다 <strong>자동화 자체</strong>가 목적이 됨</li>\n<li>이로 ...</p>",
+      "url": "https://news.hada.io/topic?id=28638",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Zig 0.16.0 릴리즈",
+      "summary": "<p>2026년 4월 14일에 공개됐습니다. 244명의 기여자가 8개월 동안 1,183개의 커밋을 쌓아서 만든 릴리즈입니다.</p>\n<h3>I/O as an Interface — 이번 릴리즈의 핵심</h3>\n<p>이번 릴리즈에서 가장 큰 변화입니다. 파일시스템, 네트워킹, 타이머, 동기화처럼 블로킹이 생길 수 있는 거의 모든 것을 새로운 <code>std.Io",
+      "url": "https://news.hada.io/topic?id=28637",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "FSF, Gmail 계정에서 1만 건 이상 스팸 메일 발송 문제로 Google에 연락 시도",
+      "summary": "<ul>\n<li><strong>Free Software Foundation(FSF)</strong> 이 Gmail 계정을 통해 대량의 스팸 메일이 발송된 사실을 확인</li>\n<li>해당 계정에서 <strong>1만 건이 넘는 메일</strong>이 전송된 것으로 보고됨</li>\n<li>FSF는 문제 해결을 위해 <strong>Google과의 직접적인 연락을 시도 중</strong></li>\n<li>스팸 발...</p>",
+      "url": "https://news.hada.io/topic?id=28636",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "13시간 만에 €54,000 과금 폭증: API 제한 없는 Firebase 브라우저 키로 Gemini API 호출 발생",
+      "summary": "<ul>\n<li><strong>Firebase 브라우저 키가 API 제한 없이 노출</strong>되어 외부에서 <strong>Gemini API 요청이 자동 발생</strong>, 단시간 내 막대한 과금이 발생</li>\n<li>실제 사용자 트래픽과 무관하게 <strong>13시간 동안 €54,000 이상</strong>의 비용이 청구되었으며, <strong>비용 경보가 지연 발동</p>",
+      "url": "https://news.hada.io/topic?id=28635",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Qwen3.6-35B-A3B가 Claude Opus 4.7보다 더 나은 펠리컨 이미지를 생성함",
+      "summary": "<ul>\n<li><strong>Qwen3.6-35B-A3B</strong>와 <strong>Claude Opus 4.7</strong>을 비교해 ‘자전거 타는 펠리컨’ 이미지를 생성한 결과, Qwen이 <strong>더 완성도 높은 그림</strong>을 출력</li>\n<li>Qwen 모델은 <strong>Alibaba</strong>의 최신 버전으로, <strong>Unsloth</strong>가 배포한 20.9GB <strong>양자...</p>",
+      "url": "https://news.hada.io/topic?id=28634",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Show GN: rhwp의 데스크톱 래퍼를 공유합니다.",
+      "summary": "<p>rhwp(한글 뷰어/에디터)는 제 필요에 완벽에 가까운 도구였지만, 개인적으로 데스크톱 환경을 선호하다 보니 아쉬운 마음에 직접 데스크톱 앱 버전을 제작해 보았습니다.</p>\n<p>누구나 쉽게 만드실 수 있겠지만, 저와 같은 니즈를 가진 분들의 수고를 조금이나마 덜어드리고자 공유합니다. 필요하셨던 분들께 도움이",
+      "url": "https://news.hada.io/topic?id=28632",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Show GN: for-real - GitHub 조직 통째로 날리고 만든 삭제 방지 크롬 익스텐션",
+      "summary": "<p>테스트 레포 지우려다 9명짜리 GitHub 조직을 통째로 날렸습니다.</p>\n<p>Discord 웹훅 봇 end-to-end 테스트하던 중이었는데, 테스트 레포 Settings인 줄 알고 Danger Zone 스크롤해서 &quot;Delete this repository&quot; 눌렀습니다. 삭제 직후 리디렉트된 페이지가 레포 404가 아니라 조직 404였고, 그제서야 전",
+      "url": "https://news.hada.io/topic?id=28630",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Show GN: 멀티 에이전트가 이제 탈춤을 춥니다",
+      "summary": "<p>main agent가 subagent를 호출하는 순간, 멀티 에이전트는 협업보다 종속에 가까워집니다. 처음엔 역할을 나눈 것처럼 보이지만, 시간이 갈수록 subagent는 독립적인 agent라기보다 main agent의 내부 기능처럼 굳어집니다. 그러면 다른 흐름에서 다시 쓰기 어렵하고, 동등한 실행 단위로 재배치하기도 어렵고, 각 agen...</p>",
+      "url": "https://news.hada.io/topic?id=28629",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Show GN: sls — SSH 접속하면서 Docker 컨테이너까지 한 화면에서 관리하고 싶어서 만든 CLI",
+      "summary": "<p>관리해야 할 서버가 늘면서 ~/.ssh/config에 호스트가 많아졌는데, Docker 컨테이너까지 포함하면 매번 이름 기억해서 타이핑하기<br />\n번거로워졌습니다. fzf로 임시방편처럼 쓰다가 Docker 컨테이너까지 같은 인터페이스에서 처리하고 싶어서 만들었습니다.</p>\n<p>핵심 동작</p>\n<ul>\n<li>SSH 호스트 퍼지 검색 후",
+      "url": "https://news.hada.io/topic?id=28626",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Thoughtworks Technology Radar, Volume 34 공개",
+      "summary": "<ul>\n<li><strong>테크닉/도구/플랫폼/개발언어 및 프레임워크</strong> 분야 최신 트렌드를 &quot;도입 권장, 시험 사용, 평가, 주의&quot; 4단계로 시각화 및 설명</li>\n<li>핵심 테마 4개: 에이전트 시대와 기술 평가, 원칙은 유지하되 패턴은 재검토, 에이전트의 보안 문제, 코딩 에이전트 하네스</li>\n</ul>\n<h2>에...</p>",
+      "url": "https://news.hada.io/topic?id=28625",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Building an emoji list generator with the GitHub Copilot CLI",
+      "summary": "<p>See how we created an emoji list generator during the Rubber Duck Thursday stream.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/\">Building an emoji list generator with the GitHub Copilot CLI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "url": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "Bringing more transparency to GitHub’s status page",
+      "summary": "<p>Changes to the status page will provide more specific data, so you'll have better insight into the overall health of the platform.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/\">Bringing more transparency to GitHub’s status page</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "url": "https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-17"
+    },
+    {
+      "title": "데이터센터 투자, 미국의 역대 메가프로젝트 지출을 6년 만에 추월",
+      "summary": "<ul>\n<li><strong>데이터센터 capex</strong>가 단 <strong>6년간 약 9,300억 달러</strong>에 달해, 미국의 대표 메가프로젝트 누적 지출을 모두 상회함</li>\n<li>인플레이션을 반영한 <strong>2024년 달러 기준</strong>으로 비교한 그래프임</li>\n<li>기존 메가프로젝트는 <strong>Interstate Highway System(6,200억...</p>",
+      "url": "https://news.hada.io/topic?id=28666",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "iTerm2를 사용한다면, \"cat readme.txt\"도 안전하지 않다",
+      "summary": "<ul>\n<li><strong>SSH integration</strong>은 원격 셸과 통신하기 위해 터미널 <strong>escape sequence</strong>를 사용하며, 이 구조 때문에 일반 터미널 출력도 conductor 프로토콜처럼 해석될 수 있음</li>\n<li>핵심 문제는 <strong>신뢰 실패</strong>로, 실제 원격 conductor가 아닌 <strong>악성 파일·배너·MOTD...</p>",
+      "url": "https://news.hada.io/topic?id=28664",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "몇 달 동안 손으로 코딩하는 중이에요",
+      "summary": "<ul>\n<li>AI 코딩 에이전트가 보편화된 시점에 오히려 <strong>LLM 없이 손으로 코딩</strong>하는 3개월 리트릿(Retreat)에 참여한 개발자의 기록</li>\n<li>Brooklyn의 <strong>Recurse Center</strong>에서 6주차를 보내며 LLM을 직접 처음부터 구축하고, Python 실력을 다지며 컴퓨터의 여러 추상화 계층에 대한 이해...</p>",
+      "url": "https://news.hada.io/topic?id=28663",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Show GN: oh-my-customcode — Claude Code 에이전트를 \"설정\"이 아니라 \"컴파일\"하는 툴",
+      "summary": "<p>Claude Code로 에이전트 여러 개 붙여 쓰다 보면 같은 벽에 계속 부딪힙니다.<br />\n스킬 문서 쓰고, 에이전트 YAML 붙이고, 룰 꽂고, 라우팅 엮고,<br />\n충돌 나면 CLAUDE.md 직접 손보고. 프로젝트 바꿀 때마다 이걸 또 하고 있더군요.</p>\n<p>그래서 oh-my-customcode를 만들었습니다.<br />\nREADME 최상단 한 줄",
+      "url": "https://news.hada.io/topic?id=28661",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Show GN: Contexty — AI의 컨텍스트를 개발자가 직접 보고 통제할 수 있게 해주는 도구",
+      "summary": "<blockquote>\n<p>\"왜 당신의 AI는 항상 소문보다 멍청하다고 느껴지는가\"</p>\n</blockquote>\n<ul>\n<li>컨텍스트가 쌓일수록 모델 성능이 점점 떨어지는 느낌</li>\n<li>새 채팅으로 넘어가면 이전 전제를 매번 설명해야 하는 번거로움</li>\n<li><code>/compact</code>를 쓰면 너무 많은 컨텍스트를 잃어버림</l",
+      "url": "https://news.hada.io/topic?id=28660",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Show GN: 새로 만든 VS Code Git Graph 익스텐션 Git Graph Plus",
+      "summary": "<p>기존에 많은 분들이 사용하던 VS Code의 'Git Graph' 익스텐션이 3년 이상 업데이트가 중단되어 있어, 이를 대체하고자 개발한 'Git Graph Plus'를 소개합니다.</p>\n<p>기존 Git Graph의 오래된 UI와 유지보수 중단 문제를 해결하기 위해 시작한 프로젝트입니다.</p>\n<p>Svelte를 사용하여 UI와 렌더링 부분을 처음부",
+      "url": "https://news.hada.io/topic?id=28659",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Qwen3.5 모델 양자화, 왜 커뮤니티 버전은 성능이 떨어지나",
+      "summary": "<p>AI 모델을 더 작고 빠르게 압축하는 기술인 '양자화(quantization)'에서 커뮤니티가 배포한 MLX 포맷 Qwen3.5 모델들이 도구 호출 오류, 무의미한 출력, 환각(hallucination) 현상을 보이는 원인이 기술적으로 규명됐다. AI 파인튜닝 도구 업체 Unsloth가 150개 이상의 벤치마크 실험을 통해 원인과 해법을 제시한 내...</p>",
+      "url": "https://news.hada.io/topic?id=28658",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Smol machines – 1초 미만 콜드스타트 및 포터블 한 가상머신",
+      "summary": "<ul>\n<li><strong>smolvm</strong>은 macOS와 Linux에서 동작하는 <strong>CLI 기반 가상머신 관리 도구</strong>로, 격리된 환경에서 소프트웨어를 실행</li>\n<li><strong>서브초(1초 미만) 콜드스타트</strong>, <strong>탄력적 메모리 관리</strong>, <strong>단일 파일 이식성</strong>을 지원해 빠르고 가벼운 VM 실...</p>",
+      "url": "https://news.hada.io/topic?id=28657",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "AI 코딩 시대, 성장이 멈추는 개발자의 뇌에서 일어나는 일",
+      "summary": "<h3>TL;DR;</h3>\n<ul>\n<li>AI를 잘 쓰는 핵심 역량은 출력물의 품질을 판단하고 교정하는 능력이며, 이 능력은 AI에 의존할수록 오히려 약화됨</li>\n<li>Bjork의 \"바람직한 어려움\" 이론에 따르면, 쉽게 처리한 정보는 장기 기억에 남지 않음</li>\n<li>Roediger &amp; Karpicke(2006) 연구에서 인출 연습 그룹...</p>",
+      "url": "https://news.hada.io/topic?id=28653",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Show GN: 웹 Gemini를 VSCode처럼 - Gemini VSCode Theme 크롬 익스텐션",
+      "summary": "<p>안녕하세요,</p>\n<p>웹 Gemini (https://gemini.google.com/) 인터페이스 자체를 VS Code처럼 바꿔버리는 익스텐션을 만들어 보았습니다.</p>\n<p>주요 기능:<br />\n• VS Code Dark+ 테마 - 익숙한 색상 팔레트 그대로<br />\n• 라인 넘버 - 모든 코드 블록에 자동 거터 번호 표시<br />\n• 액티비티 바 &amp; 사이드",
+      "url": "https://news.hada.io/topic?id=28651",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Is Your Site Agent-Ready? - 당신의 사이트는 에이전트에 대응하나요?",
+      "summary": "<ul>\n<li>Cloudflare가 만든 도구로, 자신의 웹사이트가 <strong>에이전트에 얼마나 적합</strong>한지 점수로 표시</li>\n<li><strong>AI 에이전트 대응 수준을 진단</strong>하고 인증·콘텐츠 포맷·접근 제어·결제 방식 등 최적화 방향 확인 가능</li>\n<li>실패 항목마다 <strong>코딩 에이전트에게 바로 전달 가능한 프...</p>",
+      "url": "https://news.hada.io/topic?id=28650",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Show GN: Nilbox – API 토큰 노출 없이 OpenClaw를 실행하세요",
+      "summary": "<p>OpenClaw를 안전하게 쓰고 싶어서 만들었습니다. 문제는 어떤 샌드박스를 써도<br />\n실제 API 토큰이 환경 변수로 에이전트에 그대로 넘어간다는 거였습니다.</p>\n<p>Nilbox는 에이전트에게 실제 토큰을 주지 않습니다. 대신 가짜 플레이스홀더를 넘기고<br />\n(ANTHROPIC_API_KEY=ANTHROPIC_API_KEY), 실제 API 호출",
+      "url": "https://news.hada.io/topic?id=28649",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Gemma Gem - 브라우저에서 Google Gemma 4 모델을 완전 온디바이스로 실행하는 Chrome 확장",
+      "summary": "<ul>\n<li>Google의 <strong>Gemma 4 모델</strong>을 <strong>WebGPU</strong> 기반으로 완전 온디바이스 실행해서 브라우저 안에 상주하는 <strong>개인 AI 어시스턴트</strong>로 활용</li>\n<li><strong>API 키·클라우드·외부 데이터 전송 없음</strong> - 모든 추론이 로컬에서 처리되며 데이터가 기기를 벗어나지 않...</p>",
+      "url": "https://news.hada.io/topic?id=28645",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "Thoughts and feelings around Claude Design",
+      "summary": "<p>Article URL: <a href=\"https://samhenri.gold/blog/20260418-claude-design/\">https://samhenri.gold/blog/20260418-claude-design/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47818700\">https://news.ycombinator.com/item?id=47818700</a></p>\n<p>Points: 326</p>\n<p># Comments: 203</p>",
+      "url": "https://samhenri.gold/blog/20260418-claude-design/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-04-18"
+    },
+    {
+      "title": "@_ali_awan_: 2/ What makes it different from ChatGPT or Copilot?  Other tools respond to one message at a time.  Claude Code thinks i...",
+      "summary": "2/ What makes it different from ChatGPT or Copilot?\n\nOther tools respond to one message at a time.\n\nClaude Code thinks in context.\nIt reads your files, plans multi-step tasks, runs commands, fixes errors — all on its own.\n\nIt doesn't just suggest. It executes",
+      "url": "https://x.com/_ali_awan_/status/2045830965373932026",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@aiagent_builder: エージェントが「障害で止まった」とき、あなたの仕事は止まりましたか?  2026年4月15日、Claudeが落ちた。 https://t.co/Pa0oVZ5UxD・API・Claude Code、全部まとめてダウン。 そのとき「さあ次どう...",
+      "summary": "エージェントが「障害で止まった」とき、あなたの仕事は止まりましたか?\n\n2026年4月15日、Claudeが落ちた。\nhttps://t.co/Pa0oVZ5UxD・API・Claude Code、全部まとめてダウン。\nそのとき「さあ次どうする?」と動けた人と、\n固まってしまった人の差は、準備の差だった。\n\nエージェントを使い倒すほど、依存リスクも上がる。\nだからこそ今、考えておきたいことがある。\n\n▶ タスクをどう分割すれば、一部が止まっても全体が死なないか\n▶ 再実行できる粒度で作業してあるか\n▶ ログと中間成果物は残してあるか\n\n「外部LLMが落ちることを織り込んだワークフロー設計」——\nこれ、もはや知識労働者の基礎スキルになってきてる。\n\n道具を信頼するのと、道具に依存するのは、まったく別のことだ。\n頼り方を設計できた人が、次の波に乗れる。\n\nhttps://t.co/mUEQQzRhdF\n#ClaudeCode",
+      "url": "https://x.com/aiagent_builder/status/2045830926106759415",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@_ali_awan_: 🧵 Claude Code is the most underrated AI tool of 2026.  Most people don't even know it exists.  Here's what it is + how t...",
+      "summary": "🧵 Claude Code is the most underrated AI tool of 2026.\n\nMost people don't even know it exists.\n\nHere's what it is + how to get maximum value from it 👇",
+      "url": "https://x.com/_ali_awan_/status/2045830781822701653",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@editxshub: Someone built a native Mac app that combines Claude Code and Codex into one Liquid Glass interface  It's called GlassCod...",
+      "summary": "Someone built a native Mac app that combines Claude Code and Codex into one Liquid Glass interface\n\nIt's called GlassCode\n\nuses your existing Claude Code CLI — no extra login\n\nWhat it adds:\n\n→ run multiple agents and subagents simultaneously in one window\n→ clean UI for sub-agent work with context overview per thread\n→ Git integration + diff view built in\n→ Skills tab to install/uninstall slash commands instantly\n→ usage statistics so you know exactly what you're spending\n→ full permission mode",
+      "url": "https://x.com/editxshub/status/2045830771483845093",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "summary": "기사 링크 및 Hacker News 포인트(14). Claude Opus 4.6→4.7 사이 시스템 프롬프트 변경 사항에 대한 설명/분석.",
+      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Claude Design을 둘러싼 생각과 감정",
+      "summary": "디자인 시스템화·Figma 비교 등 Claude Design에 대한 고찰(한국어 게시물).",
+      "url": "https://news.hada.io/topic?id=28682",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Show GN: LunaTools - 18가지 기능의 구글 크롬 확장 프로그램 (마우스 제스처, 탭 관리, 세션 매니저, 환율 변환...",
+      "summary": "LunaTools 크롬 확장(마우스 제스처, 탭 관리 등) 1주년 및 18개 기능 소개(한국어).",
+      "url": "https://news.hada.io/topic?id=28681",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Show GN: Paperclip + Gastown에서 영감을 받은, “영구기관” 컨셉의 오픈소스 AI 에이전트 프레임워크",
+      "summary": "토큰만 있으면 AI가 지속적으로 작동하며 제품을 키워나가는 '영구기관' 컨셉의 오픈소스 에이전트 프레임워크 소개(한국어).",
+      "url": "https://news.hada.io/topic?id=28676",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Kdenlive 현황",
+      "summary": "KDE Gear 릴리스 주기에 따른 기능·유지보수 현황, 25.04.0의 자동 마스킹 도구와 OpenTimelineIO 등 업데이트 요약.",
+      "url": "https://news.hada.io/topic?id=28673",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Opus 4.6과 Opus 4.7의 토큰 비용 계산기",
+      "summary": "Opus 4.7 새 토크나이저로 동일 프롬프트가 더 많은 토큰으로 집계되는 문제를 분석하는 계산 도구; 콘텐츠 유형 따라 1.0~1.35배 토큰 차이 보고.",
+      "url": "https://news.hada.io/topic?id=28672",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "DigitalOcean에서 Hetzner로 마이그레이션하기",
+      "summary": "월 $1,432 규모 프로덕션 인프라를 월 $233 전용 서버로 이전하면서 다운타임 없이 이전한 사례(데이터베이스·서비스 구성 포함).",
+      "url": "https://news.hada.io/topic?id=28671",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "RepoBar - 메뉴 바와 터미널에서 GitHub 저장소 상태를 한눈에 표시",
+      "summary": "macOS용 유틸로 GitHub 저장소의 CI 상태·릴리스·트래픽·활동 등을 메뉴바에서 실시간 표시할 수 있는 도구 소개.",
+      "url": "https://news.hada.io/topic?id=28670",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@lizhangyu96: @oran_ge 中转站 / 便宜的 gpt plus 账号 / github copilot（$10 / mo）",
+      "summary": "저렴한 GPT Plus 계정 및 GitHub Copilot 판매를 알리는 짧은 트윗(중국어).",
+      "url": "https://x.com/lizhangyu96/status/2045831825176555686",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@PITTI_DATA: @Presidentlin @victor_melior github copilot is like the old antigravity hack. Please keep it quiet. I was about to cance...",
+      "summary": "GitHub Copilot을 오래 사용해온 사용자의 감상(유용하다는 맥락의 코멘트).",
+      "url": "https://x.com/PITTI_DATA/status/2045831513070088232",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@unknown361215: Hi @github @GitHubEducation, I’ve been waiting for 1 week for a response on my reinstatement request (Ticket #4269349)....",
+      "summary": "GitHub 계정이 잘못 플래그되어 Student 혜택 및 Copilot 접근을 잃은 사례에 대한 지원 요청 트윗.",
+      "url": "https://x.com/unknown361215/status/2045830151108497409",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ GitHub Copilot CLI でスキルを駆使していい感じのプログラムを書いてもらおう  https://t.co/fkM3pyuwzV",
+      "summary": "GitHub Copilot CLI 관련 메모/아티클 공유(일본어).",
+      "url": "https://x.com/TommiyTw/status/2045829109578686545",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@BitsByNick: heads up: starting april 24, github will use your copilot inputs, outputs, and code snippets to train ai models  unless...",
+      "summary": "경고: 4월 24일부터 GitHub가 Copilot 입력·출력·코드 스니펫을 AI 모델 학습에 사용할 예정이며, 옵트아웃 필요(설정 경로 안내 포함).",
+      "url": "https://x.com/BitsByNick/status/2045828838857551918",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@OrNiiGO: @agusbuilds @Copilot @claudeai @github @GitHubCopilot Totalmente, menos mal que tengo suscripción Copilot Pro + y afortu...",
+      "summary": "Opus 4.7 사용 중 각 작업당 프리미엄 요청 소모율(0.5%) 관련 경험 공유(스페인어).",
+      "url": "https://x.com/OrNiiGO/status/2045828039032922586",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ GitHub Copilot SDK 完全入門 7ステップで自分だけのAIエージェントを作る  https://t.co/2FGUmv7xJ3",
+      "summary": "GitHub Copilot SDK로 에이전트 만드는 7단계 입문 아티클 공유(일본어).",
+      "url": "https://x.com/TommiyTw/status/2045828001095446910",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@toresebu: GitHub Copilot Proに申し込んだら、30日はTrial版が使えるよ、と言われたものの、10日あまりでTrial版が無効になっていた。意味が分からん",
+      "summary": "Copilot Pro 신청 후 30일 체험이 약속되었으나 10일 만에 비활성화된 문제 제기(일본어).",
+      "url": "https://x.com/toresebu/status/2045826870156169399",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@jellydn: Power Up #5 — My AI Builder Workflow in 2026  I use AI as a team:  ChatGPT for ideas Amp for PRDs OpenCode + Kimi Turbo...",
+      "summary": "개인/팀의 2026년 AI 빌더 워크플로우: ChatGPT·Amp·OpenCode·Kimi·GitHub Copilot 등 툴 조합 공유.",
+      "url": "https://x.com/jellydn/status/2045826554304028749",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ GitHub Copilotを自分好みにカスタマイズする copilot-instructions.md  https://t.co/nQomW5FwQy",
+      "summary": "copilot-instructions.md로 Copilot 커스터마이즈하는 방법 공유(일본어).",
+      "url": "https://x.com/TommiyTw/status/2045826519767863711",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@agusbuilds: @OrNiiGO @Copilot @claudeai @github @GitHubCopilot Exacto, los retry loop es una de las trampas más caras que hay. Yo he...",
+      "summary": "에이전트/자동화에서 retry 루프가 비용을 야기한다는 경험 공유 — 모델 재시도 제한 및 대안 전략 제안(스페인어).",
+      "url": "https://x.com/agusbuilds/status/2045826036173095106",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ GitHub Copilotの本当の強み  https://t.co/ALtMPbU4xX",
+      "summary": "GitHub Copilot의 강점에 대한 정리 아티클 공유(일본어).",
+      "url": "https://x.com/TommiyTw/status/2045825364421656854",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@noobcoderz05: 🤯 Building a Copilot CLI extension? Prepare for code-powered dungeon crawls, automating repo transformations & boost...",
+      "summary": "Copilot CLI 확장 개발 경험/흥분 공유(리포지토 변환 자동화 등).",
+      "url": "https://x.com/noobcoderz05/status/2045824117505736767",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@NicolasMenzel: Let’s talk about the new weekly limits in GitHub Copilot — even with a Pro+ subscription.  In my case, it became unusabl...",
+      "summary": "GitHub Copilot의 주간 한도 도입이 Pro+ 구독자에게도 작업 흐름을 방해한다는 불만 제기.",
+      "url": "https://x.com/NicolasMenzel/status/2045822154843861219",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@sh2nd: 昔 Python で作った Mattermost LLM Bot を Node.js で作り直した。以前は Bot の数だけプロセスが立ち上がり管理が煩雑だったのを一つのプロセスにまとめた。設定も一つの JSON ファイルに収めたのですっき...",
+      "summary": "기존 Python 기반 Mattermost LLM Bot을 Node.js로 재구현해 관리 단순화, GitHub Copilot과 GPT-5.4로 도움을 받았다는 경험 공유(일본어).",
+      "url": "https://x.com/sh2nd/status/2045821581474271286",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@asagetweet: 今更感がありますがこれからGitHub Copilot CLIを使い始める人に向けての記事です  GitHub Copilot CLIの使い方を学ぶ方法｜あさげ https://t.co/uGBfXcml3K #zenn",
+      "summary": "GitHub Copilot CLI 시작자를 위한 학습 가이드 공유(일본어).",
+      "url": "https://x.com/asagetweet/status/2045821036550357502",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@LXN_Dev: @Sattyam15 Claude + Github Copilot for coding and ChatGPT to improve ideas",
+      "summary": "개발 워크플로우에서 Claude(코딩) + GitHub Copilot(코딩 보조) + ChatGPT(아이디어) 조합 언급.",
+      "url": "https://x.com/LXN_Dev/status/2045819422988730523",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@0x7FF: 開発したいがためにClaudeのProプランも検討してるんだけど、GitHub Copilotプランですら1ドルも使ってない状況だしなあ",
+      "summary": "Claude Pro 가입 고민과 Copilot 요금 사용 현황에 대한 개인적 멘션(일본어).",
+      "url": "https://x.com/0x7FF/status/2045819028363755662",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@ao_ms25_: 今業務でVSCode 上で Copilot かまして GitHubと連携してClaude 4.7 動かしてるんだけど、実際これ最強な構成じゃないのかな？ リポジトリ横断させてコンテキストも全部渡して。  ログ解析のスピード、精度、推論すべて...",
+      "summary": "VSCode + Copilot + GitHub 연동하여 Claude 4.7을 사용하는 워크플로우가 매우 강력하다는 경험 공유(일본어).",
+      "url": "https://x.com/ao_ms25_/status/2045818734716354893",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@kurupical: GitHub Copilotに環境セットアップしてもらったけど何やってもらってるか分からなすぎる。とりあえずシミュレーション環境上でロボットアームを動かすチュートリアル的なところまでは行けたっぽいけど・・・",
+      "summary": "Copilot으로 환경 셋업을 자동화했으나 내부 동작을 이해하기 어렵다는 후기(로봇 암 튜토리얼까지 진행).",
+      "url": "https://x.com/kurupical/status/2045817120500691306",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "A portable OS for emergency situations and extreme privacy needs",
+      "summary": "refugiOS GitHub 리포지토리(응급 상황 및 극단적 프라이버시를 위한 휴대용 OS).",
+      "url": "https://github.com/Ganso/refugiOS",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Everyone needs own their own machine that is an extension of their intelligence",
+      "summary": "개인이 자신의 지능을 확장하는 머신을 가져야 한다는 트윗(개념적 주장).",
+      "url": "https://twitter.com/beffjezos/status/2045719076644040991",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "High-Fidelity KV Cache Summarization Using Entropy and Low-Rank Reconstruction",
+      "summary": "KV 캐시를 엔트로피·저계수 재구성으로 요약하는 방법론(LLM 컨텍스트/캐시 관련 기술 글).",
+      "url": "https://jchandra.com/posts/hae-ols/",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Wine 11.7 – Run Windows Applications on Linux, BSD, Solaris and macOS",
+      "summary": "Wine 11.7 릴리스 공지(Windows 앱을 다양한 OS에서 실행 가능).",
+      "url": "https://www.winehq.org/announce/11.7",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Forecastr – RFC 3161 timestamps for AI forecasts, verifiable with OpenSSL",
+      "summary": "AI 예측을 RFC 3161 타임스탬프와 OpenSSL로 검증가능하게 하는 Forecastr 프로젝트 소개.",
+      "url": "https://www.forecastr.dev/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Mitit.org/Blogs/4",
+      "summary": "Mitit.org의 블로그 포스트(내용 불명 또는 일반 블로그 항목).",
+      "url": "https://mitit.org/Blogs/4",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Vigil",
+      "summary": "Vigil GitHub 리포지토리(프로젝트 링크).",
+      "url": "https://github.com/KultMember6Banger/vigil",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Show HN: OpenClawdex – Open-Source Orchestrator UI for Claude Code and Codex",
+      "summary": "Claude와 Codex를 위한 오픈소스 오케스트레이터 UI(OpenClawdex) — MacOS용, Claude Agent SDK와 Codex JSON-RPC 연동 설명.",
+      "url": "https://github.com/alekseyrozh/openclawdex",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Summarizing and Reviewing my earliest ML research paper, 7 years later",
+      "summary": "작성자가 7년 전 자신의 ML 연구 논문을 회고·요약한 블로그 포스트(연구 성찰).",
+      "url": "https://www.lesswrong.com/posts/s23gcSGmWh3YwDBdW/summarizing-and-reviewing-my-earliest-ml-research-paper-7",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "summary": "브라우저에서 Gemma 4 E2B 모델로 Prompt→Excalidraw 데모(3.1GB WASM).",
+      "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "My Obsidian Setup",
+      "summary": "개인 Obsidian 노트 셋업 설명 블로그 포스트(개인 생산성 툴 구성).",
+      "url": "https://cernockyd.com/blog/my-obsidian-setup",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Ruby Central in 'real financial jeopardy' following RubyGems maintainer ruckus",
+      "summary": "RubyGems 유지관리자 논쟁으로 인해 Ruby Central 재정적 위기에 처했다는 보도(오픈소스 거버넌스 이슈).",
+      "url": "https://www.theregister.com/2026/04/19/rubygems_nonprofit_in_real_financial/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "Track HN: Comparing 156 LLM Launch Posts on Hacker News",
+      "summary": "Hacker News에 올라온 156개의 LLM 출시 포스트를 비교한 리포트.",
+      "url": "https://track-hacker-news.com/reports/llm-launches",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@_ali_awan_: 6/ Tip 3 — Use it for the boring stuff  Don't waste your brain on: → Writing boilerplate code → Setting up folder struct...",
+      "summary": "Claude Code에 대해 '지루한 작업은 위임하라'는 활용 팁(보일러플레이트·폴더 구조·문서화 등 위임 권고).",
+      "url": "https://x.com/_ali_awan_/status/2045832067293098234",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@MarvinHarryP: @galileowilson What you mean with VPS Claude Code with Terminal and the other stuff?  I just use VPS-n8n-GPT/Claude/Supa...",
+      "summary": "VPS 상에서 Claude Code·n8n·Supabase 등을 이용한 자동화 환경 구성에 대한 질의/코멘트.",
+      "url": "https://x.com/MarvinHarryP/status/2045832016097165578",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@dansemperepico: @pan3sar I got Claude code to build me a Telegram bridge. No bugs I’ve found so far",
+      "summary": "Claude Code로 Telegram 브리지를 만들었고 별다른 버그를 못찾았다는 짧은 후기.",
+      "url": "https://x.com/dansemperepico/status/2045831927446557094",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@TheGeorgePu: Alibaba just closed their best model.  Qwen 3.6 Plus - the version that rivals Claude for agentic coding - is now API on...",
+      "summary": "Alibaba가 Qwen 3.6 Plus(Claude에 필적하는 에이전틱 코딩 모델)를 API 전용으로 전환했다는 주장 — 프론티어 모델의 무료 vs 유료 분화 관찰.",
+      "url": "https://x.com/TheGeorgePu/status/2045831846722703743",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@furifuri_mono: Claude Code関係ないのではという気がする……",
+      "summary": "해당 토론/스레드가 Claude Code와 직접 관련이 없다는 지적(일본어).",
+      "url": "https://x.com/furifuri_mono/status/2045831803186106660",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@Asapteejo: codex vs claude code isn’t about which is better  it’s about whether you want:  autonomous execution or controlled itera...",
+      "summary": "Codex와 Claude Code의 차이는 더 나은 모델 문제가 아니라 '자율 실행 vs 통제된 반복'의 워크플로우 차이라는 주장.",
+      "url": "https://x.com/Asapteejo/status/2045831796282003811",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@yusaku_0426: Claude Code Skillsを体系的にまとめた記事  ▼ Skillsを設計する際の要点  ・責務は1つに絞る（何でもできるSkillは作らない） ・descriptionは「何をするか+いつ使うか+主要機能」 ・SKILL.mdは...",
+      "summary": "Claude Code Skills 설계 지침(책임 분리, description 포맷, SKILL.md 길이 등) 요약 공유(일본어).",
+      "url": "https://x.com/yusaku_0426/status/2045831777806372950",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@ParysDavid: @NicolasZu You're running the game in a browser? What kind of tech stack is that? That looks pretty sick ! I'm more into...",
+      "summary": "브라우저에서 실행되는 게임 스택에 대한 문의 및 Claude Code IDE/탐색 경험에 대한 코멘트.",
+      "url": "https://x.com/ParysDavid/status/2045831760198369325",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@TommiyTw: #後で読む 用メモです→ Zed を Claude Code の観測窓として構築する IBM Plex で統一する日本語タイポグラフィ  https://t.co/UtKAhS2R2d",
+      "summary": "Zed를 Claude Code 관측창으로 구축하는 방법과 일본어 타이포그라피 정리(일본어).",
+      "url": "https://x.com/TommiyTw/status/2045831650978775548",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@aiagent_builder: Claude Codeが障害で止まった日、同僚が静かにGemini CLIを開いた。  『バックアップのAI、あるんですね』と聞いたら、 『いや、これが本番。Claudeがサブエージェント』と返ってきた。  いつの間にかAIにも正規雇用と派...",
+      "summary": "Claude Code 장애 시 동료가 Gemini CLI로 전환해 '백업 AI' 역할을 맡겼다는 에피소드 — 멀티모델 운영·역할 분담 관찰(일본어).",
+      "url": "https://x.com/aiagent_builder/status/2045831537430757543",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@paruru_a_i: 🇯🇵 日本でどう活かすか → Claude 101でClaudeの基礎を30分で習得 → Claude Codeで自動化スキルを1〜2時間で習得 → Claude Skillsで業務効率化ツール構築を習得使えるサービス：https://t....",
+      "summary": "일본에서 Claude를 활용하는 학습·활용 루트 제안(Claude 101→Claude Code→Claude Skills), 무료 가이드 안내(일본어).",
+      "url": "https://x.com/paruru_a_i/status/2045831509907829160",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@paruru_a_i: 📌 なぜ英語圏で103万人に届いたか？AIを学ぶには数ヶ月・高コスト」という固定観念を崩したから実際のガイドラインナップ： ・Claude Code入門 ・Claude Skills活用法 ・AI画像・PPT作成法 ・1Mフォロワー獲得法日...",
+      "summary": "왜 영어권에서 큰 반향을 얻었는지(간단·저비용 학습) 설명 및 가이드 목록(일본어).",
+      "url": "https://x.com/paruru_a_i/status/2045831507336659403",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@dieu_tout: @siliconcarnesf Il y a un an, l'IA codait très bien. Claude sonnet 3.5 (une révolution à l'époque qui codait déjà mieux...",
+      "summary": "1년 전에도 IA가 코드 작성을 잘했으며 Claude Sonnet 3.5의 혁신적 성능과 이후 에이전틱 능력의 발전 관련 회고(프랑스어).",
+      "url": "https://x.com/dieu_tout/status/2045831499346219477",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@kayacekovic: I'm going to Built with Opus 4.7: a Claude Code hackathon  https://t.co/Ef6O9n2oOD",
+      "summary": "Opus 4.7 기반 Claude Code 해커톤 참가 계획 공유.",
+      "url": "https://x.com/kayacekovic/status/2045831392911638740",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@sho_ai_real: Claude Code の初期設定、最初にやるべき順序：  【必ずやる】 CLAUDE.md 作成 → settings.json の permissions 定義 → hooks の実装  【余力があれば】 MCP サーバー追加 → su...",
+      "summary": "Claude Code 초기 설정 권장 순서(필수: CLAUDE.md, permissions, hooks 등; 옵션: MCP 서버·subagents 정리) 공유(일본어).",
+      "url": "https://x.com/sho_ai_real/status/2045831363518169241",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@dansemperepico: @nickgraynews I asked Claude Code to help me transplant all my agents and then build me Telegram bridges to all of them....",
+      "summary": "Claude Code로 에이전트 전이(transplant) 및 Telegram 브리지 구축을 자동화한 사례 공유.",
+      "url": "https://x.com/dansemperepico/status/2045831325563928801",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@galileowilson: The OpenClaw era is over for me.  Ever since Opus 4.6 stopped working on it, accounts kept getting banned, was spending...",
+      "summary": "OpenClaw 사용 중 계정 정지·문제 발생으로 전환, VPS에서 Claude Code·Terminal·GitHub·Vercel 조합으로 비용·복잡성 감소 경험 공유.",
+      "url": "https://x.com/galileowilson/status/2045831291749142694",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@PentaPROgram: Claude Design、私は今のところそんなに面白い感じはなかったな。Figma MakeやClaude Codeとそんなに違いを感じない。デザインシステム生成も試したけど、感動はせず。",
+      "summary": "Claude Design을 사용해봤지만 Figma Make나 Claude Code와 큰 차이를 못 느꼈다는 개인적 평가(일본어).",
+      "url": "https://x.com/PentaPROgram/status/2045831291145441658",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@winfinity88: 今日はClaude Code×UTAGE😊公開しました🪄  UTAGEのMCP連携！Claude Codeで爆速LP作成 https://t.co/kuG0MLpuTm @YouTubeより",
+      "summary": "Claude Code와 UTAGE 연동 데모 영상 공개 — MCP 연계로 LP(랜딩페이지) 빠르게 생성하는 사례(일본어).",
+      "url": "https://x.com/winfinity88/status/2045831264901771774",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@MEEcom44: Cut our Claude Code agent's tool list from 22 to 7. Completion rate nearly doubled.  Every agent failure I've had traces...",
+      "summary": "에이전트의 툴 수를 22→7로 줄여 완료율이 거의 2배 증가했다는 실험 결과. 많은 실패는 과도한 툴(표면적) 때문이라는 진단.",
+      "url": "https://x.com/MEEcom44/status/2045831252264034450",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@techy101_: 🤖 Tech made simple with Techy101: How to Make a Claude Code Project Work Like an Engineer Developers use Claude Code as...",
+      "summary": "Claude Code 프로젝트를 엔지니어처럼 작동시키는 방법을 소개하는 글/홍보 트윗.",
+      "url": "https://x.com/techy101_/status/2045831250854736318",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@miya_space: codex CLIの設定完了。codexがWindows側のLM Studioを認識しないとかいろいろあったけど、ChatGPT殿のおかげでcodex CLIにGemma4:E4Bを使わせて動かすことに成功した。コンテキスト長を65Kにした...",
+      "summary": "codex CLI 설정 완료, Windows의 LM Studio 인식 문제 등 우여곡절 끝에 Gemma4:E4B로 동작 성공(일본어).",
+      "url": "https://x.com/miya_space/status/2045831236279751041",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@abrynsk: Claude Codeのトークン消費が毎月エグいことになってたからめっちゃ参考になる。  @DataChaz の投稿見て特に価値高かったツール、3つ厳選。  ・Caveman Claude 　出力が劇的に簡潔に。65-75%削減で精度ほぼキ...",
+      "summary": "Claude Code의 토큰 소비 과다 문제를 해결하기 위한 도구 추천(출력 간결화·터미널 로그 절감·리뷰 그래프 등), 비용 절감 사례 공유(일본어).",
+      "url": "https://x.com/abrynsk/status/2045831223508193343",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@_ali_awan_: 3/ What can Claude Code do?  → Build entire features from scratch → Debug errors across multiple files → Write & run...",
+      "summary": "Claude Code의 기능 요약: 기능 구현·다중파일 디버깅·테스트 자동화·리팩터링·코드 설명·프로젝트 초기 설정 등(연속 트윗 일부).",
+      "url": "https://x.com/_ali_awan_/status/2045831197713203672",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@yukiyohure0923: Claude Codeで日常のタスクを45個自動化した東大院生の全記録｜shunya｜東大院×AI活用研究者 https://t.co/41FkX8ab0X #zenn",
+      "summary": "동경대 대학원생이 Claude Code로 일상 작업 45개를 자동화한 기록 공유(기사 링크).",
+      "url": "https://x.com/yukiyohure0923/status/2045831003160391949",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low",
+      "_date": "2026-04-19"
+    },
+    {
+      "title": "@coo_pr_notes: Okay, this one genuinely stopped me mid-scroll.  Claude Code can now watch your PR, catch a CI failure, write the fix, p...",
+      "summary": "Claude Code가 PR을 감시하고 CI 실패를 잡아 수정 커밋을 만들고 푸시까지 하는 /autofix-pr 워크플로우를 소개—개발 사이클 자동화의 실질적 사례.",
+      "url": "https://x.com/coo_pr_notes/status/2045830969241063573",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high",
+      "_date": "2026-04-19"
     }
   ],
   "daily_letters": {
     "2026-04-13": "2026년 4월 13일 IT/AI 데일리 인텔리전스: '에이전트화된 개발과 인프라 신뢰' (AI 에이전트가 재구성하는 개발·배포의 경계)\n\n오늘 테크 생태계의 핵심은 \"에이전트\"라는 도구적 전환과, 그 위에서 드러나는 운영·신뢰 문제다. 개발자 워크플로우는 에이전트와 대규모 모델 통합으로 재편되는 한편, 캐시·쿼터·패키징·공급망 같은 인프라 레이어에서 마찰과 안전성 이슈가 동시에 표면화되고 있다. 이번호는 에이전트 플랫폼의 실무적 도입 사례와 그로 인한 운영·보안·커뮤니티 영향에 집중해 정리했다.\n\n1. 에이전틱 코딩 & 프론티어 모델: \"에이전트 통합의 실무적 증거와 한계\"\n이 섹션은 기업·플랫폼 수준의 에이전트 도입 사례와, 개발자 도구(에디터 확장·세션 관리·요금제 한계 등)에서 보고된 문제들을 묶어 살핀다.\n\n**[Cloudflare + OpenAI: Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI]:** Cloudflare가 OpenAI의 GPT-5.4 및 Codex를 자사 Agent Cloud에 통합해 기업이 실무용 AI 에이전트를 구축·배포·확장할 수 있게 했다는 발표가 나왔다. 이 통합은 에이전트 기반 자동화의 기업 도입을 가속할 것으로 보이나, 아래에 나오는 세부 운영 이슈들이 확장 과정에서 병목으로 작동할 가능성도 제기된다. (원문: https://openai.com/index/cloudflare-openai-agent-cloud)\n\n**[Anthropic 캐시 TTL 단축(2026-03-06)]:** Anthropic이 Claude Code 관련 캐시 TTL을 1시간에서 5분으로 단축한 변경을 적용했고, 그 결과 캐시 재생성 비용이 늘어나 장시간 세션에서 쿼터 소모가 급증한다는 보고가 이어졌다. 개발자·팀들이 장시간 에이전트 세션을 운용할 때 비용·성능 영향을 다시 점검해야 하는 신호다. (원문: https://news.hada.io/topic?id=28461)\n\n**[Claude Code Pro Max 5x 요금제 한도 소진 이슈]:** Pro Max 5x(1M 컨텍스트) 요금제 사용자들이 적당한 Q&A·개발 작업만으로도 1.5시간 만에 할당량이 소진되는 현상을 보고했고, 원인으로 cache_read 토큰 계산 오류가 지목됐다. 대규모 컨텍스트를 전제로 하는 요금제의 실제 한계와 청구·계산 투명성 문제가 드러나고 있다. (원문: https://news.hada.io/topic?id=28459)\n\n**[Cursor 에코시스템 내 불만과 호환성 문제들]:** Cursor 사용자 커뮤니티에서는 에이전트가 특정 지역 방언(아르헨티나 스페인어)으로만 답하는 문제, Cursor 3.0(ADE 모드)에서 Claude Code 확장 실행 불가능, 개인 Anthropic API 키 사용시 도구 통합이 작동하지 않고 채팅만 되는 문제, 그리고 에이전트 세션으로 인해 IDE가 무작위로 멈추는 보고 등이 잇따라 제기되고 있다. 이들 이슈는 에이전트가 실제 개발 환경에 통합될 때 발생하는 품질·호환성·안정성 문제를 단적으로 보여준다. (관련 토론들: https://www.reddit.com/r/cursor/comments/1sknjc7/, https://www.reddit.com/r/cursor/comments/1skbwo7/, https://www.reddit.com/r/cursor/comments/1sk75dp/, https://www.reddit.com/r/cursor/comments/1sk864o/)\n\n**[Cursor Agent 내부 분석 주장]:** 한 사용자가 Cursor Agent가 사실상 Claude Code 기반에 문자열 치환 수준의 브랜딩 계층을 얹은 형태라는 깊이 있는 분석을 공유해 에이전트 제품군의 차별화·구현 투명성에 대한 논쟁이 붙었다. 플랫폼 수준의 합성물이 실제로 어떤 구성요소를 재활용하는지에 대한 검증 요구가 커지고 있다. (원문: https://www.reddit.com/r/cursor/comments/1sk7qwx/someone_did_a_deep_dive_into_cursor_agent_and/)\n\n**[작은 생산성 도구 사례들 — winclipshot·Girlfriend in cli]:** 개인·사이드 프로젝트 차원의 에이전트·도구 실험도 이어졌다. Windows 터미널에서 Ctrl+V로 스크린샷을 붙여넣는 도구인 winclipshot은 작성자가 Claude Code를 활용한 사례를 공유했고, 대화 능력 연습용 페르소나 하네스 데모인 \"Girlfriend in cli\"는 AI 네이티브 상호작용을 연습하는 창작 실험으로 공개되었다. 이들은 에이전트/모델을 활용한 소규모 생산성·연습 도구의 현주소를 보여준다. (원문: https://news.hada.io/topic?id=28472, https://news.hada.io/topic?id=28492)\n\n**[프런티어의 종말·AI에 대한 폭력 우려]:** Anthropic의 Mythos 발표를 계기로 창작·인터넷 공간의 자유가 줄어들고 소수 기업의 우위가 고착화할 수 있다는 비판적 논의가 이어졌고, AI·데이터센터를 향한 폭력적 행동 가능성과 사회적 위험을 경고하는 글도 나왔다. 에이전트의 확장과 함께 사회적·정치적 리스크도 병행해서 논의되고 있음을 보여준다. (관련: https://news.hada.io/topic?id=28470, https://news.hada.io/topic?id=28463)\n\n2. GitHub & 인프라 트렌드: \"패키징·버전·신뢰의 재정비\"\n에이전트 시대와 병행해 인프라·패키징·오픈소스 커뮤니티의 근본적 과제가 재부각되고 있다. 이번 섹션은 패키징 혁신, Git·개발 워크플로 재설계, 오픈소스 신뢰 및 지역별 인프라 장애 사례를 중심으로 정리했다.\n\n**[Wheel Next 제안 — pip install torch 한 줄로 끝낸다]:** NVIDIA·Astral·Quansight 연합이 CPU·GPU 구분 없이 통합된 휠 패키징 표준인 Wheel Next를 제안해 Python 패키징의 복잡성 해소를 목표로 했다. 만약 채택되면 머신러닝 라이브러리 배포·설치 경험이 단순화될 가능성이 크며, 개발·배포 파이프라인에 즉각적 영향을 줄 수 있다. (원문: https://news.hada.io/topic?id=28490)\n\n**[GitButler — Git 재설계와 a16z $1,700만 투자]:** GitHub 공동창업자 Scott Chacon이 이끄는 Git 재설계 클라이언트 GitButler가 AI 시대의 개발 워크플로에 초점을 맞추며 a16z 등이 참여한 $1,700만 Series A 투자를 유치했다. 에이전트·AI 지원 기능을 전제로 한 Git 클라이언트 재설계 움직임은 버전 관리의 UX·자동화 경계를 재정의하려는 시도로 읽힌다. (원문: https://news.hada.io/topic?id=28488)\n\n**[오픈소스 신뢰 기반 공격]:** 공격자들이 오픈소스 커뮤니티의 '신뢰'를 악용해 소셜 엔지니어링으로 악성 파일을 유포하거나 기여자들을 표적화하는 사례가 보고되며, 취약점이 없어도 커뮤니티 신뢰망 자체가 공격 표적이 되는 위협이 부각됐다. 오픈소스 생태계의 보안 전략은 코드 취약점뿐 아니라 사람·프로세스 신뢰를 보호하는 방향으로 확장되어야 한다. (원문: https://news.hada.io/topic?id=28484)\n\n**[Vibe coding 이후 오픈소스 커뮤니티 고민]:** AI 개발 도구(예: 바이브 코딩)가 기여 장벽을 낮추는 장점과 함께 저품질 PR 증가, 협업 습관 변화 등 오픈소스 커뮤니티에 미치는 부정적 영향에 대한 고찰이 이어지고 있다. 자동화 도구의 보급은 기여량을 늘릴 수 있지만 커뮤니티 유지·품질 관리 관점에서 구조적 대응을 요구한다. (원문: https://news.hada.io/topic?id=28482)\n\n**[인프라·지역 장애 사례들 — Cloudflare·Apple 지도·iOS 입력 버그]:** 스페인에서 Cloudflare의 축구 관련 차단이 Docker Hub 트래픽에 영향을 미쳐 docker pull 실패가 발생했고, Apple 지도에서 레바논의 다수 도시·마을명이 사라지는 문제가 보고되었으며, iOS 26.4 업데이트로 체코어 특수문자 입력이 잠금화면에서 불가능해지는 사례가 발생했다. 이들 사건은 글로벌 인프라·플랫폼의 지역별 장애가 개발·사용자 경험에 즉각적 영향을 준다는 점을 상기시킨다. (관련: https://news.hada.io/topic?id=28458, https://news.hada.io/topic?id=28468, https://news.hada.io/topic?id=28465)\n\n**[경량화된 인프라·도구 실험 — pgmicro·$20 스택·rzweb·boringBar]:** PostgreSQL SQL을 SQLite 바이트코드로 직접 컴파일해 인-프로세스 DB로 동작시키는 pgmicro는 AI 에이전트 환경의 일시적·소규모 DB 수요를 겨냥하고 있다. 한편 소규모 SaaS를 월 $20 스택으로 운영하는 전략, Rizin 기반의 웹 리버스엔지니어링 플랫폼 rzweb, macOS Dock을 대체하는 boringBar 같은 프로젝트들은 저비용·경량화된 개발·운영 옵션을 제시한다. 이런 실험들은 에이전트·모델을 활용하는 환경에서의 경량 인프라 수요를 반영한다. (관련: https://news.hada.io/topic?id=28464, https://news.hada.io/topic?id=28457, https://news.hada.io/topic?id=28469, https://news.hada.io/topic?id=28485)\n\n**[전달성·배달 문제 — Font Awesome의 Gmail 분류 문제]:** Font Awesome 팀은 SendGrid에서 높은 평판을 유지함에도 Gmail이 자사 메일을 스팸으로 분류하는 문제를 보고하며, Gmail의 자체 평판 시스템이 전송자 측 신뢰와는 별도로 작동함을 지적했다. 대규모 발송자의 메일 전달성 문제는 플랫폼별 평판과 규칙 차이로 인해 여전히 복잡한 과제로 남아 있다. (원문: https://news.hada.io/topic?id=28493)\n\n**[기초 가이드·커뮤니티 공유]:** 초심자를 위한 GitHub Pages 가이드, Ask HN의 커뮤니티 프로젝트 현황 스레드, 사이트 스타일용 커스텀 CSS 공유, 메모장만으로 MCP 서버 구축 사례 등은 개발자 교육·노하우 공유가 계속해서 커뮤니티 생태계의 기반임을 보여준다. (관련: https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/, https://news.hada.io/topic?id=28494, https://news.hada.io/topic?id=28477, https://news.hada.io/topic?id=28467)\n\n3. 산업별 AX: \"작은 경험 실험과 지속가능성 스냅샷\"\n산업별 사용자 경험(AX) 사례는 주로 소규모 앱·서비스 실험과 에너지 전환 통계로 구성된다.\n\n**[꽃 어디 — 전국 꽃 명소 지도 & 실시간 개화 정보 앱]:** 사이드 프로젝트로 만든 전국 꽃 명소 지도와 실시간 개화 정보 앱이 주말 꽃놀이 목적지 탐색을 간소화하는 서비스로 소개되었다. 지역 정보·실시간 데이터 결합이 로컬 트래블 경험을 개선하는 단순한 예다. (원문: https://news.hada.io/topic?id=28487)\n\n**[100% 재생에너지로 전력 생산하는 7개국]:** 알바니아·부탄 등 일부 국가들이 전력의 99.7% 이상을 재생에너지로 생산한다는 조사 결과가 보고되며, 국가별 자원 활용 방식과 전력 포트폴리오의 다양성을 보여준다. 기술·정책 측면에서의 지속가능성 스냅샷으로 활용할 수 있다. (원문: https://news.hada.io/topic?id=28460)\n\n4. 대한민국 IT Top 10 (맥락화된 뉴스)\nmd-to-naver-blog: 마크다운으로 작성한 글을 네이버 블로그 에디터 호환 HTML로 자동 변환해 교차 게시를 간소화하는 라이브러리 소개. (원문: https://news.hada.io/topic?id=28478)",
     "2026-04-14": "2026년 4월 14일 IT/AI 데일리 인텔리전스: '에이전트화된 코딩' — 에이전트 중심 개발 도구들이 실무로 넘어오며 비용·신뢰·운영 문제가 전면화\n\n오늘 테크 생태계의 핵심은 개발자 도구의 '에이전트화'다. Claude Code·Codex·Cursor 등 에이전트형 코딩 플랫폼이 개인·조직의 일상 워크플로우로 깊숙이 들어오면서, 성능 우위·로컬 실행·통합 편의성 같은 장점과 함께 토큰·쿼터 관리, 레그레션·과다사용 정책, 보안·운영 실무의 난제가 동시에 부각되고 있다. 오늘 모인 신호들은 이 도구들이 더 이상 실험이 아니라 운영 대상이 되었음을 말해준다.\n\n1. 에이전틱 코딩 & 프론티어 모델: \"에이전트가 일하도록 만들되, 운영과 비용이 관건\"\n오늘 수집된 항목들은 Claude Code를 중심으로 한 에이전트형 코딩 생태계의 활발한 실험, 사용자 경험, 그리고 운영 이슈를 한데 보여준다. 커뮤니티가 만든 토큰 절감 도구·모니터링 유틸리티와, 장시간 자동화 실험·모델 성능 지표가 동시에 올라오며 '가능성 vs 현실' 논쟁이 심화되고 있다.\n\n**[Claude Code: 49시간 무인 실험 결과]:** 한 사용자는 Claude Code를 무인 모드로 49시간 연속 실행해 108번의 실험을 돌렸고 그중 52%가 롤백되었다고 보고했다; 과제는 모델·훈련·프롬프트·데이터 소스를 에이전트가 자체 선택하는 워크플로우에서 안정성을 확보하는 것이다 ([원문](https://x.com/sthnavy/status/2043998834955854333)).  \n\n**[토큰·사용량 데이터: 9.77억 토큰 추적]:** 한 프로젝트는 Claude Code 세션을 추적해 지난주 977.4M 토큰이 기록됐다는 집계치를 공개했다; 대규모 빌드·테스트·세션이 실제 비용·쿼터에 어떤 영향을 미치는지를 가시화한 결과다 ([원문](https://www.reddit.com/r/ClaudeAI/comments/1skxdf3/we_tracked_977_million_tokens_across_claude_code/)).  \n\n**[과다사용·접속 제어 패치(레그레션 영향 보고)]:** 사용자들은 최신 버전(예: 2.1.105)에서 인증 흐름과 접속 방식이 변경돼 로그인·사용에 영향을 받았다는 보고를 올리고 있다; 플랫폼 차원의 과다사용 억제 조치는 곧바로 사용자 경험 문제로 연결된다 ([원문](https://www.reddit.com/r/ClaudeAI/comments/1skzbiw/claude_has_just_fixed_overusage_of_their_compute/)).  \n\n**[Opus 4.6·리더보드 우위 관찰]:** 커뮤니티 분석에 따르면 Anthropic의 Opus 4.6은 Lmarena 등 벤치마크에서 우위를 보였다는 평가가 공유되며, 프론티어 모델의 경쟁 구도가 여전히 빠르게 변하고 있음을 시사한다 ([원문](https://www.reddit.com/r/ClaudeAI/comments/1sl0otb/i_think_anthropic_has_solved_lmarena_leaderboard/)).  \n\n**[설계 철학·공개·유출 담론]:** Anthropic이 Auto 모드 설계 철학과 운영 방안을 공개한 점을 주목하는 목소리와, 수동 배포 단계 실수로 소스가 유출된 사례를 정직하게 다룬 코멘트가 함께 돌고 있다; 에이전트의 자율성과 최소 권한·감사(로그) 설계가 논의 중심이다 ([원문](https://x.com/coo_pr_notes/status/2043999817077260623), [원문](https://x.com/coo_pr_notes/status/2043999242428264918)).  \n\n**[로컬 모델·대체 환경 실험 — Gemma 4 & Qwen 3.5 Small]:** Gemma 4를 Codex CLI 환경에서 로컬로 돌려 도구 호출 성능·비용·프라이버시 이점을 시험한 사례와, Alibaba의 Qwen 3.5 Small 같은 온디바이스 멀티모달 모델 릴리스가 보고되며 '클라우드 대신 로컬/하이브리드' 실험이 활발하다 ([원문](https://news.hada.io/topic?id=28510), [원문](https://ai-tldr.dev/releases/alibaba-qwen-3-5-small/)).  \n\n**[커뮤니티 툴·플러그인·운영 보조]:** 개발자들은 토큰 누수를 추적하는 cli(claude-token-lens), 토큰 절감·가드앱, 연구 워크스테이션 플러그인(Grainulator), 모바일/웹 원격 클라이언트(Happy) 등 다양한 툴을 만들며 운영 공백을 메우고 있다([예: claude-token-lens](https://www.reddit.com/r/vibecodingcommunity/comments/1sl3qx5/i_built_a_cli_to_see_exactly_which_toolagent_is/), [Happy 모바일 클라이언트](https://news.hada.io/topic?id=28500)).  \n\n2. GitHub & 인프라 트렌드: \"코드·배포·패치가 AI 시대의 안전·운영 변수\"\n인프라·오픈소스·배포 쪽에서는 전통적 취약점과 새로운 AI 도구의 결합이 문제를 증폭시키고 있다. 대규모 PR 관리 도구와 취약점·공급망 공격 사례는 여전히 조직 보안의 최우선 과제로 남아 있다.\n\n**[Django CVE-2026-33033: Pre-Auth CPU 소진 취약점]:** Django의 MultiPartParser에서 특정 Content-Transfer-Encoding 조합이 CPU를 소모시키는 취약점이 공개돼 단 몇 MB의 요청으로도 서버가 먹통이 될 수 있다는 경고가 나왔다; 보안팀의 긴급 패치·모니터링이 필요하다 ([원문](https://news.hada.io/topic?id=28512)).  \n\n**[Axios 헤더 주입 → 클라우드 권한 탈취 시나리오]:** Axios와 연관된 헤더 주입(CRLF) 취약점이 다른 취약점과 연결되면 AWS 등 클라우드 환경의 관리자 권한까지 탈취할 수 있는 공격 체인이 경고되었다; 라이브러리·의존성 감사의 중요성이 다시 강조된다 ([원문](https://news.hada.io/topic?id=28503)).  \n\n**[GitHub Stacked PRs]:** 대규모 변경을 작은 PR 스택으로 관리하고 한 번에 병합하는 GitHub의 Stacked PRs 기능이 소개되며 대형 리팩토링·릴리스의 검토·병합 작업을 단순화하는 흐름이 주목받고 있다 ([원문](https://news.hada.io/topic?id=28508)).  \n\n**[Copilot 운영·쿼터 이슈]:** GitHub은 Copilot Pro 신규 체험을 일시 중단했고, 일부 사용자는 과다한 레이트 리밋 메시지(수백 시간 대기) 등을 보고하고 있다 — AI 코딩 도구의 접근성·정책이 사용자 경험에 직접적인 영향을 준다 ([트윗](https://x.com/tusharshahkumar/status/2043998531334393931), [토론](https://github.com/orgs/community/discussions/180092)).  \n\n**[공급망·백도어 사례 — WordPress 플러그인]:** 동일 공격자가 다수의 WordPress 플러그인을 인수해 백도어를 심은 사례가 보고되며 오픈소스 공급망 위험이 재부상했다 ([원문](https://news.hada.io/topic?id=28498)).  \n\n**[SRE Agent(데이터독) 사례]:** Datadog과 연동해 자동으로 원인분석·가설 검증을 수행하는 SRE 에이전트 프로젝트가 공개되며, 운영 자동화와 AI의 결합 가능성을 보여준다 ([원문](https://www.reddit.com/r/vibecoding/comments/1sl4o2c/sre_agentdatadog/)).  \n\n3. 산업별 AX: \"AI가 고객 경험·금융 트레이딩·문서 처리의 인터페이스를 바꾼다\"\n산업 적용 사례에서는 자동화·에이전트화가 직접 고객 접점·업무 절차를 바꾸고 있다. 트레이딩·문서·예측 시장 등 다양한 도메인에서 도구화가 진행 중이다.\n\n**[Polymarket 자동 매수 봇]:** 비스포츠형 예/아니오 시장에서 항상 'No'를 매수하는 비동기 Python 봇이 소개되었고, 실제·모의 거래 모드를 분리해 운영하는 구현 세부가 공유되었다 ([원문](https://news.hada.io/topic?id=28513)).  \n\n**[거래 도구 오픈소스화 — Trader Skill]:** 트레이딩 분야에서 AI 에이전트 기반 Trader Skill을 오픈소스로 공개해 거래자에게 에이전트 기능을 개방하는 움직임이 나타났다; 산업적 효율화·투명성 측면에서 주목된다 ([트윗](https://x.com/weexglobal_ch/status/2043999822747983917)).  \n\n**[문서 레이아웃 보존 번역기]:** 원본 레이아웃을 보존하는 문서 번역 도구가 등장해 다국어 문서 처리에서 실무 편의성을 높이고 있다([원문](https://www.doctranslating.com/)).  \n\n**[스타트업 경고]:** 일부 분석은 2년 이상 된 스타트업이 AI 시대 기술·비즈니스 모델 관점에서 재평가가 필요하다고 경고하며, 투자·전략 점검을 권고하고 있다 ([원문](https://news.hada.io/topic?id=28507)).  \n\n4. 대한민국 IT Top 10 (맥락화된 뉴스)\nKT 인터넷 SLA 자동 측정·이의신청 도구 등장: \"damn-my-slow-kt\" — 하루 최대 10회 자동 속도 측정과 계약 속도 미달 시 요금 감면 이의신청을 자동으로 대행하는 툴이 공개되었다 ([원문](https://news.hada.io/topic?id=28511)).",
-    "2026-04-15": "2026년 4월 15일 IT/AI 데일리 인텔리전스: '멀티에이전트와 개발자용 AI 툴의 진화' — 에이전트·음성·인프라가 만드는 개발자 경험의 변곡점\n\n오늘 테크 생태계의 핵심은 에이전트 아키텍처와 개발자용 AI 툴의 빠른 확장이다. 멀티·서브에이전트, 모델 내 샌드박스 실행, 코드 자동화 루틴과 TTS·음성 합성의 발전이 한데 맞물려 실무자 경험과 보안·인프라 요구를 동시에 바꾸고 있다. 이 변화는 클라우드 네트워킹·암호화·데이터 정책 이슈와도 병렬로 전개되며, 개발자 생산성뿐 아니라 거버넌스와 운영 모델 재설계를 촉발하고 있다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"멀티에이전트·모델 기능 확장이 실무 자동화를 재정의한다\"\n\n에이전트 중심의 기능 확장과 모델의 실용화가 동시에 진행되며 개발자 워크플로우와 사용자 애플리케이션 전반에 직접적인 영향을 주고 있다. 이번 섹션에서는 서브에이전트 구조, 에이전트 SDK 진화, 음성·합성 모델, 오픈 하네스와 Claude 생태계의 자동화 기능을 한데 묶어 다룬다.\n\n**[OpenAI — The next evolution of the Agents SDK]:**\n\nOpenAI는 에이전트 SDK를 업데이트해 네이티브 샌드박스 실행과 모델 네이티브 하네스를 도입했다. 이 변경으로 개발자는 파일과 도구 전반에 걸쳐 보다 안전하고 장기 실행 가능한 에이전트를 구축할 수 있으며, 에이전트의 권한·격리·도구 사용 검사 같은 보안 측면을 SDK 수준에서 다루기 쉬워졌다. (원문: [OpenAI](https://openai.com/index/the-next-evolution-of-the-agents-sdk))\n\n**[OpenAI — Trusted Access for Cyber & GPT-5.4 Cyber 공개]:**\n\nOpenAI는 사이버 방어 목적의 신뢰 기반 접근 전략인 “Trusted Access for Cyber”를 발표하고, 고도화된 모델의 사이버 보안 활용을 확장하기 위한 통제 프레임워크를 제시했다. 이 전략은 강력한 모델을 넓게 활용하면서도 악용 가능성을 통제하려는 시도로, 보안 적용 사례에서 모델 접근과 책임 소재를 규정하려는 움직임이다. (원문: https://news.hada.io/topic?id=28554)\n\n**[Gemini CLI에 서브에이전트 기능 도입]:**\n\nGemini CLI가 복잡하고 반복적인 작업을 전문 서브에이전트에게 위임할 수 있는 멀티에이전트 아키텍처를 공식 지원하기 시작했다. 각 서브에이전트는 독립된 컨텍스트 윈도우, 커스텀 시스템 인스트럭션, 전용 도구 세트를 갖추고 격리된 환경에서 실행되어 장기 작업·병렬 작업을 처리할 수 있도록 설계되었다. (원문: https://news.hada.io/topic?id=28565)\n\n**[Gemini 3.1 Flash TTS — 자연어로 음성 스타일 제어]:**\n\nGoogle의 Gemini 3.1 Flash TTS는 자연스러운 표현력과 개발자·기업용 음성 애플리케이션 지원을 목표로 한 텍스트-투-스피치 모델이다. 특히 텍스트 내에 삽입하는 오디오 태그로 음성 스타일을 자연어로 제어할 수 있어, 프롬프트 수준에서 성격·감정·속도 같은 세부 제어를 가능하게 한다. (원문: https://news.hada.io/topic?id=28563)\n\n**[VoxCPM2 — 다국어 음성 합성 오픈소스]:**\n\nVoxCPM2는 한국어를 포함한 30개 언어를 지원하며, 성우 샘플 없이도 자연어 설명(예: \"young female voice, warm and gentle\")만으로 원하는 음성 캐릭터를 생성할 수 있는 오픈소스 음성 합성 모델이다. 언어 태그 없이 텍스트만 넣어도 다국어 합성이 가능한 점이 특징이다. (원문: https://news.hada.io/topic?id=28527)\n\n**[I-DLM — Introspective Diffusion Language Models]:**\n\nI-DLM은 확산 기반 언어 모델이 AR(Autoregressive) 모델 수준의 품질과 병렬 생성 속도를 동시에 달성했다고 보고된 연구로, Introspective Strided Decoding(ISD)를 통해 한 번의 전방 패스로 새 토큰 생성과 이전 토큰 검증을 병행하는 접근을 제시한다. 이는 생성 품질과 속도 간 트레이드오프를 다시 설계하려는 시도다. (원문: https://news.hada.io/topic?id=28562)\n\n**[Anthropic — Opus 4.7 + AI 디자인 툴 출시 임박]:**\n\nAnthropic은 Claude Opus 4.7과 함께 웹·프레젠테이션 제작용 AI 디자인 툴 출시를 준비 중이며, 관계자에 따르면 이르면 이번 주 내 공개 가능성도 거론되고 있다. 새 툴은 자연어로 웹·프레젠테이션을 생성하는 기능을 중심으로 기업·콘텐츠 제작 워크플로우를 겨냥한다. (원문: https://news.hada.io/topic?id=28556)\n\n**[OpenHarness — 오픈 에이전트 하네스]:**\n\nOpenHarness는 LLM을 실제 에이전트로 만드는 경량 오픈소스 Python 인프라로, 43개 내장 도구(File I/O, Shell, Search, Web 등)를 제공하며 병렬 실행·권한 체크·Pydantic 기반 검증 등 엔드투엔드 에이전트 운용 기능을 통합한다. 경량 하네스는 커스텀 도구 연결과 멀티에이전트 조율을 단순화해 개발자 실험을 가속한다. (원문: https://news.hada.io/topic?id=28531)\n\n**[Claude Code 생태계 (Routines · 데스크탑 앱 · 비교 보고)]:**\n\nClaude Code는 클라우드 기반의 코드 자동화 루틴인 Routines와 새로 완전히 재작성된 데스크탑 앱을 통해 개발자 생산성을 확장하고 있다. Routines는 프롬프트·저장소·커넥터·트리거를 조합해 노트북이 꺼져 있어도 자동 실행되는 워크플로우를 제공하며(원문: https://news.hada.io/topic?id=28533), 데스크탑 앱은 멀티 세션·통합 터미널·파일 편집·빠른 diff 뷰어 등을 포함해 현장 개발 경험을 강화한다(원문: https://news.hada.io/topic?id=28536). 한편 실전 비교 기사에서는 Claude Code(Opus 4.6)가 빠르고 인터랙티브하지만 지시 무시나 작업 미완료 같은 행태가 관찰되는 반면, Codex(GPT-5.4)는 다른 특성을 보였다는 현장 평가가 보고되었다(원문: https://news.hada.io/topic?id=28538).\n\n---\n\n### 2. GitHub & 인프라 트렌드: \"개발자 도구·정책·네트워킹이 연동된 운영 리스크와 생산성 변화\"\n\n개발자 도구의 기능 확장과 더불어 데이터 정책·네트워크·암호화 계층에서 운영 리스크가 뚜렷하게 드러나고 있다. 이 섹션은 GitHub Copilot 관련 소식과 정책·서비스 변경, 네트워킹·보안 인프라 업데이트를 묶어 정리한다.\n\n**[Build a personal organization command center with GitHub Copilot CLI]:**\n\nGitHub 엔지니어가 Copilot CLI를 활용해 개인 조직용 커맨드 센터를 만든 사례를 소개하며, AI가 개발 과정 자체를 어떻게 지원했는지 설명한다. 글은 작업 자동화와 Copilot CLI의 생산성 향상 사례 중심으로 구성되어 있다. (원문: https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/)\n\n**[Developer policy update: Intermediary liability, copyright, and transparency]:**\n\nGitHub는 개발자들이 알아야 할 정책 업데이트를 공유하며, 2025년 전체 데이터를 포함한 투명성 센터 업데이트와 향후 계획을 설명했다. 중점은 중개자 책임, 저작권 이슈, 데이터·투명성 관행에 대한 공지다. (원문: https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/)\n\n**[GitHub Copilot 관련 현장 반응·정책 변화(트윗 모음)]:**\n\n다수 사용자 트윗은 Copilot의 통합(예: VS Code 내장 주장), CLI 사용 경험(오토파일럿 동작 방식), Xcode용 Copilot 가능성, 인터랙션 데이터 사용 정책 업데이트 등에 대한 즉각적 반응을 전한다. 일부 트윗은 Copilot Studio 에이전트가 Power Automate 흐름을 디버그하는 사례를 공유하기도 했다(관련 예시 트윗들: https://x.com/dz_/status/2044564716958408772, https://x.com/_pymana_/status/2044559036629369117, https://x.com/8796n/status/2044557896785269226, https://x.com/Ahdbwgtu5/status/2044561844614926791, https://x.com/ninihen/status/2044559045043097717).\n\n**[Cloudflare Mesh 출시 — 프라이빗 네트워킹]:**\n\nCloudflare Mesh는 개인 디바이스·원격 서버·에이전트를 하나의 경량 커넥터로 연결해 AI 에이전트가 프라이빗 네트워크 리소스에 안전하게 접근하도록 설계된 프라이빗 네트워킹 솔루션이다. 기존 VPN·SSH 방식의 한계를 보완하려는 목적의 제품이다. (원문: https://news.hada.io/topic?id=28537)\n\n**[OpenSSL 4.0.0 공개]:**\n\n암호화 라이브러리 OpenSSL의 4.0.0 버전이 공개되며 다수의 신규 기능과 비호환 변경을 포함한 대규모 릴리스가 발표되었다. 이 릴리스에서는 SSLv2/SSLv3 및 엔진 지원 제거 등 API 폐기와 변경이 포함되어 있어 업그레이드 시 주의가 필요하다. (원문: https://news.hada.io/topic?id=28564)\n\n**[Fiverr 파일 공개 문제 보고]:**\n\nFiverr가 Cloudinary를 통해 주고받은 PDF·이미지 파일을 서명 URL 없이 공개 URL로 제공해 Google 검색에서 수백 건의 고객 문서가 노출되었다. 노출 자료에는 세금 신고서·SSN·API 토큰 등 민감 정보가 포함되어 있었다는 보고가 제기되었다. (원문: https://news.hada.io/topic?id=28547)\n\n**[Backblaze가 OneDrive와 Dropbox 폴더 백업을 중단함]:**\n\nBackblaze 개인 백업 서비스가 최근 .git, Dropbox, OneDrive 폴더를 백업 대상에서 제외했으며, 설정에서 이를 다시 포함시킬 방법이 없는 것으로 확인되었다. 약 10년간 신뢰받던 백업 행태의 변경으로 사용자 주의가 요구된다. (원문: https://news.hada.io/topic?id=28529)\n\n**[Lean 검증된 코드에서 런타임 버그 발견]:**\n\n형식 검증된 zlib 구현체를 퍼징한 결과, Lean 4 런타임의 lean_alloc_sarray에서 힙 버퍼 오버플로우가 발견되었다. AI 퍼저 Claude와 AFL++ 등 도구를 활용한 대규모 테스트 끝에 문제를 찾아냈다는 사례 보고다. (원문: https://news.hada.io/topic?id=28560)\n\n**[jj — Jujutsu용 CLI 공개]:**\n\n분산 버전 관리 시스템 Jujutsu의 명령줄 인터페이스인 jj는 git보다 단순하면서도 강력한 기능을 제공하며, git과 Mercurial의 장점을 결합한 워크플로우를 목표로 한다. (원문: https://news.hada.io/topic?id=28534)\n\n---\n\n### 3. 산업별 AX: \"콘텐츠·프라이버시·사용자 경험이 만든 산업별 파편화된 이슈들\"\n\n미디어·엔터테인먼트의 수익 구조 변화, 규제·검열 확장, 프라이버시 분쟁, 크리에이티브 도구의 AI 통합 등 산업별로 다양한 사용자 경험(AX) 이슈가 동시다발적으로 발생하고 있다. 이 섹션은 산업별 주요 사례를 선별해 정리한다.\n\n**[스페인, 테니스·골프·영화 방송 시간대까지 인터넷 차단 확대]:**\n\n스페인 법원이 Telefónica Audiovisual Digital에 축구 외에도 다양한 스포츠·엔터테인먼트 콘텐츠에 대한 IP 기반 차단 권한을 승인했으며, 기존 LaLiga 경기 중 발생하던 인터넷 접속 장애가 불법 중계 차단 조치의 결과로 지목되었다. 제재 대상이 확대되며 인터넷 접속 차단이 방송권 보호 수단으로 넓게 적용되는 양상이다. (원문: https://news.hada.io/topic?id=28559)\n\n**[캘리포니아의 3D 프린팅 검열 법안의 위험성 (A.B. 2047)]:**\n\nA.B. 2047 법안은 모든 3D 프린터에 검열 소프트웨어 설치를 의무화하고 이를 우회하거나 오픈소스 대안을 사용하는 행위를 형사처벌 대상으로 규정하는 내용을 골자로 제안되어 논란을 일으키고 있다. 법안은 '유령 총기' 문제를 이유로 제안되었으나 규제 범위와 처벌 수준이 쟁점이다. (원문: https://news.hada.io/topic?id=28557)\n\n**[Current — 읽지 않은 글의 죄책감 없이 흘러가는 RSS 리더]:**\n\nRSS 리더 Current는 '읽지 않은 항목 처리'라는 의무감을 거부하고 콘텐츠가 자연스럽게 도착하고 머물다 사라지는 'River' 메타포를 인터페이스로 구현했다. 각 피드별 반감기를 설정해 속보와 에세이 등 콘텐츠 유형별 체류 시간을 달리할 수 있는 점을 특징으로 한다. (원문: https://news.hada.io/topic?id=28543)\n\n**[허깨비 의무감 — 팬텀 의무(Phantom Obligation) 에세이]:**\n\n팬텀 의무(아무도 요청하지 않은 일에 죄책감을 느끼는 현상)를 소프트웨어 인터페이스 디자인 관점에서 분석한 에세이가 소개되었다. NetNewsWire 등 RSS 리더 UI 역사와 '읽지 않음' 개념의 설계 영향이 논의된다. (원문: https://news.hada.io/topic?id=28542)\n\n**[YouTube, 디즈니를 제치고 세계 최대 미디어 기업으로 부상]:**\n\n2025년 기준 YouTube 매출이 620억 달러로 Disney 미디어 부문(609억 달러)을 넘어서는 평가가 제기되었으며, 광고와 구독 서비스가 성장 핵심으로 지목되었다. 플랫폼 중심의 수익 다각화가 미디어 산업 판도를 바꾸고 있다. (원문: https://news.hada.io/topic?id=28540)\n\n**[DaVinci Resolve – Photo 기능 발표]:**\n\nDaVinci Resolve의 Photo 기능은 색보정 기술을 정지 사진 편집에 적용해 사진가에게 영상용 툴셋을 제공한다. 다양한 RAW 포맷 네이티브 지원과 AI 기반 기능을 포함해 고해상도 비파괴 편집을 지원한다. (원문: https://news.hada.io/topic?id=28528)\n\n**[Flock Safety의 개인정보 수집 거부 요청과 회사의 대응]:**\n\n캘리포니아 거주자가 Flock Safety에 개인정보 삭제 및 수집 금지 요청을 제출했으나 회사는 자신을 데이터 처리자(Processor)로 규정하며 요청을 거부했다. 회사는 데이터 통제권이 고객 기관에 있다고 밝히는 입장을 보였다. (원문: https://news.hada.io/topic?id=28535)\n\n**[희귀 콘서트 녹음 수천 건, Internet Archive에 공개]:**\n\n음악 팬 Aadam Jacobs가 보유한 1만여 개 카세트 테이프 중 약 2,500개의 공연 녹음본이 Internet Archive를 통해 디지털화되어 공개되었으며, 1989년 Nirvana 공연 등 희귀 자료가 포함되어 있다. (원문: https://news.hada.io/topic?id=28532)\n\n---\n\n### 4. 대한민국 IT Top 10: \"주제별 한 줄 요약\"\n\n**[BOJ 서비스 종료]:**\n\n2010년 시작된 BOJ가 2026년 4월 28일부로 서비스를 종료한다고 발표했다. (원문: https://news.hada.io/topic?id=28550)\n\n**[AI가 전문성을 압축해줄 때, 끝내 인간에게 남는 것]:**\n\n8년차 프론트엔드 개발자가 AI의 도움으로 DSL 컴파일러 설계와 arXiv 논문 게재 경험을 정리한 에세이로, 도메인 공통 구조 인식에서 출발한 경험을 공유한다. (원문: https://news.hada.io/topic?id=28552)\n\n**[Ask GN: Ralph Loop이라는 허상에 대해 어떻게 생각하시나요?]:**\n\n한국 개발 커뮤니티에서 '토큰 사용량 = 실력' 같은 주장이 확산되는 현상과 PRD만으로 해결된다는 과장된 기대를 비판하는 글이다. (원문: https://news.hada.io/topic?id=28546)"
+    "2026-04-15": "2026년 4월 15일 IT/AI 데일리 인텔리전스: '멀티에이전트와 개발자용 AI 툴의 진화' — 에이전트·음성·인프라가 만드는 개발자 경험의 변곡점\n\n오늘 테크 생태계의 핵심은 에이전트 아키텍처와 개발자용 AI 툴의 빠른 확장이다. 멀티·서브에이전트, 모델 내 샌드박스 실행, 코드 자동화 루틴과 TTS·음성 합성의 발전이 한데 맞물려 실무자 경험과 보안·인프라 요구를 동시에 바꾸고 있다. 이 변화는 클라우드 네트워킹·암호화·데이터 정책 이슈와도 병렬로 전개되며, 개발자 생산성뿐 아니라 거버넌스와 운영 모델 재설계를 촉발하고 있다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"멀티에이전트·모델 기능 확장이 실무 자동화를 재정의한다\"\n\n에이전트 중심의 기능 확장과 모델의 실용화가 동시에 진행되며 개발자 워크플로우와 사용자 애플리케이션 전반에 직접적인 영향을 주고 있다. 이번 섹션에서는 서브에이전트 구조, 에이전트 SDK 진화, 음성·합성 모델, 오픈 하네스와 Claude 생태계의 자동화 기능을 한데 묶어 다룬다.\n\n**[OpenAI — The next evolution of the Agents SDK]:**\n\nOpenAI는 에이전트 SDK를 업데이트해 네이티브 샌드박스 실행과 모델 네이티브 하네스를 도입했다. 이 변경으로 개발자는 파일과 도구 전반에 걸쳐 보다 안전하고 장기 실행 가능한 에이전트를 구축할 수 있으며, 에이전트의 권한·격리·도구 사용 검사 같은 보안 측면을 SDK 수준에서 다루기 쉬워졌다. (원문: [OpenAI](https://openai.com/index/the-next-evolution-of-the-agents-sdk))\n\n**[OpenAI — Trusted Access for Cyber & GPT-5.4 Cyber 공개]:**\n\nOpenAI는 사이버 방어 목적의 신뢰 기반 접근 전략인 “Trusted Access for Cyber”를 발표하고, 고도화된 모델의 사이버 보안 활용을 확장하기 위한 통제 프레임워크를 제시했다. 이 전략은 강력한 모델을 넓게 활용하면서도 악용 가능성을 통제하려는 시도로, 보안 적용 사례에서 모델 접근과 책임 소재를 규정하려는 움직임이다. (원문: https://news.hada.io/topic?id=28554)\n\n**[Gemini CLI에 서브에이전트 기능 도입]:**\n\nGemini CLI가 복잡하고 반복적인 작업을 전문 서브에이전트에게 위임할 수 있는 멀티에이전트 아키텍처를 공식 지원하기 시작했다. 각 서브에이전트는 독립된 컨텍스트 윈도우, 커스텀 시스템 인스트럭션, 전용 도구 세트를 갖추고 격리된 환경에서 실행되어 장기 작업·병렬 작업을 처리할 수 있도록 설계되었다. (원문: https://news.hada.io/topic?id=28565)\n\n**[Gemini 3.1 Flash TTS — 자연어로 음성 스타일 제어]:**\n\nGoogle의 Gemini 3.1 Flash TTS는 자연스러운 표현력과 개발자·기업용 음성 애플리케이션 지원을 목표로 한 텍스트-투-스피치 모델이다. 특히 텍스트 내에 삽입하는 오디오 태그로 음성 스타일을 자연어로 제어할 수 있어, 프롬프트 수준에서 성격·감정·속도 같은 세부 제어를 가능하게 한다. (원문: https://news.hada.io/topic?id=28563)\n\n**[VoxCPM2 — 다국어 음성 합성 오픈소스]:**\n\nVoxCPM2는 한국어를 포함한 30개 언어를 지원하며, 성우 샘플 없이도 자연어 설명(예: \"young female voice, warm and gentle\")만으로 원하는 음성 캐릭터를 생성할 수 있는 오픈소스 음성 합성 모델이다. 언어 태그 없이 텍스트만 넣어도 다국어 합성이 가능한 점이 특징이다. (원문: https://news.hada.io/topic?id=28527)\n\n**[I-DLM — Introspective Diffusion Language Models]:**\n\nI-DLM은 확산 기반 언어 모델이 AR(Autoregressive) 모델 수준의 품질과 병렬 생성 속도를 동시에 달성했다고 보고된 연구로, Introspective Strided Decoding(ISD)를 통해 한 번의 전방 패스로 새 토큰 생성과 이전 토큰 검증을 병행하는 접근을 제시한다. 이는 생성 품질과 속도 간 트레이드오프를 다시 설계하려는 시도다. (원문: https://news.hada.io/topic?id=28562)\n\n**[Anthropic — Opus 4.7 + AI 디자인 툴 출시 임박]:**\n\nAnthropic은 Claude Opus 4.7과 함께 웹·프레젠테이션 제작용 AI 디자인 툴 출시를 준비 중이며, 관계자에 따르면 이르면 이번 주 내 공개 가능성도 거론되고 있다. 새 툴은 자연어로 웹·프레젠테이션을 생성하는 기능을 중심으로 기업·콘텐츠 제작 워크플로우를 겨냥한다. (원문: https://news.hada.io/topic?id=28556)\n\n**[OpenHarness — 오픈 에이전트 하네스]:**\n\nOpenHarness는 LLM을 실제 에이전트로 만드는 경량 오픈소스 Python 인프라로, 43개 내장 도구(File I/O, Shell, Search, Web 등)를 제공하며 병렬 실행·권한 체크·Pydantic 기반 검증 등 엔드투엔드 에이전트 운용 기능을 통합한다. 경량 하네스는 커스텀 도구 연결과 멀티에이전트 조율을 단순화해 개발자 실험을 가속한다. (원문: https://news.hada.io/topic?id=28531)\n\n**[Claude Code 생태계 (Routines · 데스크탑 앱 · 비교 보고)]:**\n\nClaude Code는 클라우드 기반의 코드 자동화 루틴인 Routines와 새로 완전히 재작성된 데스크탑 앱을 통해 개발자 생산성을 확장하고 있다. Routines는 프롬프트·저장소·커넥터·트리거를 조합해 노트북이 꺼져 있어도 자동 실행되는 워크플로우를 제공하며(원문: https://news.hada.io/topic?id=28533), 데스크탑 앱은 멀티 세션·통합 터미널·파일 편집·빠른 diff 뷰어 등을 포함해 현장 개발 경험을 강화한다(원문: https://news.hada.io/topic?id=28536). 한편 실전 비교 기사에서는 Claude Code(Opus 4.6)가 빠르고 인터랙티브하지만 지시 무시나 작업 미완료 같은 행태가 관찰되는 반면, Codex(GPT-5.4)는 다른 특성을 보였다는 현장 평가가 보고되었다(원문: https://news.hada.io/topic?id=28538).\n\n---\n\n### 2. GitHub & 인프라 트렌드: \"개발자 도구·정책·네트워킹이 연동된 운영 리스크와 생산성 변화\"\n\n개발자 도구의 기능 확장과 더불어 데이터 정책·네트워크·암호화 계층에서 운영 리스크가 뚜렷하게 드러나고 있다. 이 섹션은 GitHub Copilot 관련 소식과 정책·서비스 변경, 네트워킹·보안 인프라 업데이트를 묶어 정리한다.\n\n**[Build a personal organization command center with GitHub Copilot CLI]:**\n\nGitHub 엔지니어가 Copilot CLI를 활용해 개인 조직용 커맨드 센터를 만든 사례를 소개하며, AI가 개발 과정 자체를 어떻게 지원했는지 설명한다. 글은 작업 자동화와 Copilot CLI의 생산성 향상 사례 중심으로 구성되어 있다. (원문: https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/)\n\n**[Developer policy update: Intermediary liability, copyright, and transparency]:**\n\nGitHub는 개발자들이 알아야 할 정책 업데이트를 공유하며, 2025년 전체 데이터를 포함한 투명성 센터 업데이트와 향후 계획을 설명했다. 중점은 중개자 책임, 저작권 이슈, 데이터·투명성 관행에 대한 공지다. (원문: https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/)\n\n**[GitHub Copilot 관련 현장 반응·정책 변화(트윗 모음)]:**\n\n다수 사용자 트윗은 Copilot의 통합(예: VS Code 내장 주장), CLI 사용 경험(오토파일럿 동작 방식), Xcode용 Copilot 가능성, 인터랙션 데이터 사용 정책 업데이트 등에 대한 즉각적 반응을 전한다. 일부 트윗은 Copilot Studio 에이전트가 Power Automate 흐름을 디버그하는 사례를 공유하기도 했다(관련 예시 트윗들: https://x.com/dz_/status/2044564716958408772, https://x.com/_pymana_/status/2044559036629369117, https://x.com/8796n/status/2044557896785269226, https://x.com/Ahdbwgtu5/status/2044561844614926791, https://x.com/ninihen/status/2044559045043097717).\n\n**[Cloudflare Mesh 출시 — 프라이빗 네트워킹]:**\n\nCloudflare Mesh는 개인 디바이스·원격 서버·에이전트를 하나의 경량 커넥터로 연결해 AI 에이전트가 프라이빗 네트워크 리소스에 안전하게 접근하도록 설계된 프라이빗 네트워킹 솔루션이다. 기존 VPN·SSH 방식의 한계를 보완하려는 목적의 제품이다. (원문: https://news.hada.io/topic?id=28537)\n\n**[OpenSSL 4.0.0 공개]:**\n\n암호화 라이브러리 OpenSSL의 4.0.0 버전이 공개되며 다수의 신규 기능과 비호환 변경을 포함한 대규모 릴리스가 발표되었다. 이 릴리스에서는 SSLv2/SSLv3 및 엔진 지원 제거 등 API 폐기와 변경이 포함되어 있어 업그레이드 시 주의가 필요하다. (원문: https://news.hada.io/topic?id=28564)\n\n**[Fiverr 파일 공개 문제 보고]:**\n\nFiverr가 Cloudinary를 통해 주고받은 PDF·이미지 파일을 서명 URL 없이 공개 URL로 제공해 Google 검색에서 수백 건의 고객 문서가 노출되었다. 노출 자료에는 세금 신고서·SSN·API 토큰 등 민감 정보가 포함되어 있었다는 보고가 제기되었다. (원문: https://news.hada.io/topic?id=28547)\n\n**[Backblaze가 OneDrive와 Dropbox 폴더 백업을 중단함]:**\n\nBackblaze 개인 백업 서비스가 최근 .git, Dropbox, OneDrive 폴더를 백업 대상에서 제외했으며, 설정에서 이를 다시 포함시킬 방법이 없는 것으로 확인되었다. 약 10년간 신뢰받던 백업 행태의 변경으로 사용자 주의가 요구된다. (원문: https://news.hada.io/topic?id=28529)\n\n**[Lean 검증된 코드에서 런타임 버그 발견]:**\n\n형식 검증된 zlib 구현체를 퍼징한 결과, Lean 4 런타임의 lean_alloc_sarray에서 힙 버퍼 오버플로우가 발견되었다. AI 퍼저 Claude와 AFL++ 등 도구를 활용한 대규모 테스트 끝에 문제를 찾아냈다는 사례 보고다. (원문: https://news.hada.io/topic?id=28560)\n\n**[jj — Jujutsu용 CLI 공개]:**\n\n분산 버전 관리 시스템 Jujutsu의 명령줄 인터페이스인 jj는 git보다 단순하면서도 강력한 기능을 제공하며, git과 Mercurial의 장점을 결합한 워크플로우를 목표로 한다. (원문: https://news.hada.io/topic?id=28534)\n\n---\n\n### 3. 산업별 AX: \"콘텐츠·프라이버시·사용자 경험이 만든 산업별 파편화된 이슈들\"\n\n미디어·엔터테인먼트의 수익 구조 변화, 규제·검열 확장, 프라이버시 분쟁, 크리에이티브 도구의 AI 통합 등 산업별로 다양한 사용자 경험(AX) 이슈가 동시다발적으로 발생하고 있다. 이 섹션은 산업별 주요 사례를 선별해 정리한다.\n\n**[스페인, 테니스·골프·영화 방송 시간대까지 인터넷 차단 확대]:**\n\n스페인 법원이 Telefónica Audiovisual Digital에 축구 외에도 다양한 스포츠·엔터테인먼트 콘텐츠에 대한 IP 기반 차단 권한을 승인했으며, 기존 LaLiga 경기 중 발생하던 인터넷 접속 장애가 불법 중계 차단 조치의 결과로 지목되었다. 제재 대상이 확대되며 인터넷 접속 차단이 방송권 보호 수단으로 넓게 적용되는 양상이다. (원문: https://news.hada.io/topic?id=28559)\n\n**[캘리포니아의 3D 프린팅 검열 법안의 위험성 (A.B. 2047)]:**\n\nA.B. 2047 법안은 모든 3D 프린터에 검열 소프트웨어 설치를 의무화하고 이를 우회하거나 오픈소스 대안을 사용하는 행위를 형사처벌 대상으로 규정하는 내용을 골자로 제안되어 논란을 일으키고 있다. 법안은 '유령 총기' 문제를 이유로 제안되었으나 규제 범위와 처벌 수준이 쟁점이다. (원문: https://news.hada.io/topic?id=28557)\n\n**[Current — 읽지 않은 글의 죄책감 없이 흘러가는 RSS 리더]:**\n\nRSS 리더 Current는 '읽지 않은 항목 처리'라는 의무감을 거부하고 콘텐츠가 자연스럽게 도착하고 머물다 사라지는 'River' 메타포를 인터페이스로 구현했다. 각 피드별 반감기를 설정해 속보와 에세이 등 콘텐츠 유형별 체류 시간을 달리할 수 있는 점을 특징으로 한다. (원문: https://news.hada.io/topic?id=28543)\n\n**[허깨비 의무감 — 팬텀 의무(Phantom Obligation) 에세이]:**\n\n팬텀 의무(아무도 요청하지 않은 일에 죄책감을 느끼는 현상)를 소프트웨어 인터페이스 디자인 관점에서 분석한 에세이가 소개되었다. NetNewsWire 등 RSS 리더 UI 역사와 '읽지 않음' 개념의 설계 영향이 논의된다. (원문: https://news.hada.io/topic?id=28542)\n\n**[YouTube, 디즈니를 제치고 세계 최대 미디어 기업으로 부상]:**\n\n2025년 기준 YouTube 매출이 620억 달러로 Disney 미디어 부문(609억 달러)을 넘어서는 평가가 제기되었으며, 광고와 구독 서비스가 성장 핵심으로 지목되었다. 플랫폼 중심의 수익 다각화가 미디어 산업 판도를 바꾸고 있다. (원문: https://news.hada.io/topic?id=28540)\n\n**[DaVinci Resolve – Photo 기능 발표]:**\n\nDaVinci Resolve의 Photo 기능은 색보정 기술을 정지 사진 편집에 적용해 사진가에게 영상용 툴셋을 제공한다. 다양한 RAW 포맷 네이티브 지원과 AI 기반 기능을 포함해 고해상도 비파괴 편집을 지원한다. (원문: https://news.hada.io/topic?id=28528)\n\n**[Flock Safety의 개인정보 수집 거부 요청과 회사의 대응]:**\n\n캘리포니아 거주자가 Flock Safety에 개인정보 삭제 및 수집 금지 요청을 제출했으나 회사는 자신을 데이터 처리자(Processor)로 규정하며 요청을 거부했다. 회사는 데이터 통제권이 고객 기관에 있다고 밝히는 입장을 보였다. (원문: https://news.hada.io/topic?id=28535)\n\n**[희귀 콘서트 녹음 수천 건, Internet Archive에 공개]:**\n\n음악 팬 Aadam Jacobs가 보유한 1만여 개 카세트 테이프 중 약 2,500개의 공연 녹음본이 Internet Archive를 통해 디지털화되어 공개되었으며, 1989년 Nirvana 공연 등 희귀 자료가 포함되어 있다. (원문: https://news.hada.io/topic?id=28532)\n\n---\n\n### 4. 대한민국 IT Top 10: \"주제별 한 줄 요약\"\n\n**[BOJ 서비스 종료]:**\n\n2010년 시작된 BOJ가 2026년 4월 28일부로 서비스를 종료한다고 발표했다. (원문: https://news.hada.io/topic?id=28550)\n\n**[AI가 전문성을 압축해줄 때, 끝내 인간에게 남는 것]:**\n\n8년차 프론트엔드 개발자가 AI의 도움으로 DSL 컴파일러 설계와 arXiv 논문 게재 경험을 정리한 에세이로, 도메인 공통 구조 인식에서 출발한 경험을 공유한다. (원문: https://news.hada.io/topic?id=28552)\n\n**[Ask GN: Ralph Loop이라는 허상에 대해 어떻게 생각하시나요?]:**\n\n한국 개발 커뮤니티에서 '토큰 사용량 = 실력' 같은 주장이 확산되는 현상과 PRD만으로 해결된다는 과장된 기대를 비판하는 글이다. (원문: https://news.hada.io/topic?id=28546)",
+    "2026-04-16": "2026년 4월 16일 IT/AI 데일리 인텔리전스: '프론티어 모델의 산업 확장과 인프라 신뢰성' (모델의 도메인 특화·개발자 툴·보안이 맞물리는 흐름)\n\n오늘 테크 생태계의 핵심은 프론티어 AI 모델이 개발자 툴과 산업 수직군으로 빠르게 확장되는 동시에, 인프라·배포·보안 관점에서 신뢰성 확보가 중요해졌다는 점이다. OpenAI는 데스크톱용 Codex 앱으로 개발자 워크플로를 통합하고, 생명과학과 사이버 보안 분야에 특화된 모델을 공개해 적용을 가속화하고 있다. 한편 인프라 운영 측면에서는 배포 안전성을 강화하는 기술적 접근이 병행되어야 한다.\n\n### **1.** 에이전틱 코딩 & 프론티어 모델: \"개발자 생산성부터 도메인 특화까지\"\n\n개발자 툴의 진화는 모델의 능력을 작업 흐름 안으로 직접 끌어오는 방향으로 진행되고 있다. 데스크톱·앱 기반의 통합 기능과 에이전트형 인터랙션이 결합되면 개발자 생산성이 크게 바뀔 가능성이 있다. 다음은 관련 발표 내용이다.\n\n**[Codex for (almost) everything]:**\n\nOpenAI는 macOS 및 Windows용 Codex 앱을 업데이트해 컴퓨터 사용(computer use), 인앱 브라우징, 이미지 생성, 메모리, 플러그인 지원 등 개발자 워크플로를 가속화하는 기능들을 추가했다. 이 변화는 모델이 단순 코드 보조를 넘어서 개발 환경 내에서 직접 작업을 보조·확장하는 쪽으로 방향을 넓히는 신호로 읽힌다. 더 자세한 내용은 OpenAI의 안내문에서 확인할 수 있다: [Codex for (almost) everything](https://openai.com/index/codex-for-almost-everything).\n\n### **2.** GitHub & 인프라 트렌드: \"배포 안전성·관찰성의 실무 적용\"\n\n인프라 팀은 모델과 툴의 능력을 활용하는 동시에 배포 파이프라인의 안전성을 확보하는 과제를 안고 있다. 런타임 관찰성·검증 도구와 커널 수준 추적 기법이 배포 단계의 위험을 줄이는 실무적 해법으로 주목받는다. 다음은 GitHub의 사례다.\n\n**[How GitHub uses eBPF to improve deployment safety]:**\n\nGitHub는 eBPF를 활용해 자사 배포 툴링에서 순환 의존성(circular dependencies)을 탐지·차단하는 방식을 도입했고, 이를 통해 배포 안전성을 끌어올렸다. 블로그 포스트는 eBPF 기반 관찰성으로 배포 흐름의 잠재적 결함을 실시간으로 포착해 예방할 수 있음을 설명한다. 원문은 GitHub 블로그에서 확인할 수 있다: [How GitHub uses eBPF to improve deployment safety](https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/).\n\n### **3.** 산업별 AX: \"생명과학·사이버에 특화된 모델 도입 가속화\"\n\n산업별 문제 해결을 위해 도메인 특화 모델을 내놓는 사례가 늘고 있다. 연구·규제·보안 요건이 까다로운 분야에서는 범용 모델을 도메인 요구에 맞춰 조정하거나 별도 모델을 출시하는 접근이 선호된다. 아래는 이번에 공개된 두 건의 산업 특화 발표다.\n\n**[Introducing GPT-Rosalind for life sciences research]:**\n\nOpenAI는 약물 탐색, 유전체 분석, 단백질 추론 등 생명과학 연구 워크플로를 가속하기 위해 GPT-Rosalind라는 프론티어 리즈닝 모델을 소개했다. 발표는 이 모델이 연구자들의 도메인별 분석·추론 업무를 지원하도록 설계되었음을 강조한다. 자세한 내용은 OpenAI의 소개 페이지를 참고하라: [Introducing GPT-Rosalind](https://openai.com/index/introducing-gpt-rosalind).\n\n**[Accelerating the cyber defense ecosystem that protects us all]:**\n\nOpenAI는 Trusted Access for Cyber 프로그램에 보안 업체들과 기업들이 참여한다고 밝히며, GPT-5.4-Cyber와 1,000만 달러 규모의 API 그랜트를 통해 글로벌 사이버 방어 역량을 강화하겠다고 발표했다. 이 움직임은 모델을 사이버 보안 생태계에 안전하게 투입하려는 시도와 함께 생태계 차원의 협력을 촉진하는 구조를 보여준다. 관련 발표는 OpenAI 페이지에서 확인할 수 있다: [Accelerating the cyber defense ecosystem](https://openai.com/index/accelerating-cyber-defense-ecosystem).\n\n### **4.** 기타 인사이트\n\n이번 수집에는 한국 기업·정책 관련 톱 뉴스가 포함되지 않아 별도의 대한민국 Top 10 목록을 제공할 만한 항목이 없다. 오늘의 핵심은 프론티어 모델의 도메인 특화 확장과, 이를 안전하게 운영하기 위한 인프라·배포 관점의 보완이 동시에 진행되고 있다는 점이다.",
+    "2026-04-17": "2026년 4월 17일 IT/AI 데일리 인텔리전스: '에이전트 확산과 인프라 리스크' (비용과 신뢰성 관리가 관건)\n\n오늘 테크 생태계의 핵심은 에이전트·대형 멀티모달 모델의 확산과 그에 따른 비용·운영·신뢰성 문제의 동시 부상이다. 모델 업데이트와 디자인 도구가 생산성의 경계를 넓히는 한편, 키·요금 노출이나 토큰 증가, 스팸 등 인프라 상의 취약점이 실제 비용·운영 리스크로 직결되고 있다. 오늘 모아본 소식들은 성능·품질 경쟁과 실무적 안정성 유지의 균형을 요구한다.\n\n### **1.** 에이전틱 코딩 & 프론티어 모델: \"에이전트·모델 비용과 품질의 교차점\"\n\n이번 섹션은 최신 모델들의 비용·출력 특성 변화와 에이전트·멀티에이전트 설계 문제, 그리고 개발자 생산성 도구 사례를 정리한다. 모델별 토크나이저·출력량 변화는 비용 구조를 바꾸고, 이미지·디자인 분야의 모델들은 협업 워크플로를 재구성하고 있다. 멀티에이전트 설계에 대한 경험적 비판도 늘며 단순 역할 분담이 아닌 재사용성과 독립성 설계가 이슈로 떠오른다.\n\n**[Claude 4.7 토크나이저 비용 측정 결과]:**\n\nClaude 4.7은 이전 버전 대비 평균 1.3~1.45배 더 많은 토큰을 생성해 동일 가격 체계에서 세션당 비용이 20~30%가량 증가했다고 보고되었다. 영어와 코드 콘텐츠에서 토큰 증가가 두드러진 반면 CJK(중국어·일본어·한국어) 콘텐츠는 거의 변화가 없었다는 점이 관찰된다. 관련 상세 내용은 원문에서 확인할 수 있다 ([원문](https://news.hada.io/topic?id=28641)).\n\n**[Anthropic, Claude Design 공개]:**\n\nAnthropic은 Claude Opus 4.7 비전 모델을 기반으로 텍스트만으로 디자인 초안·프로토타입·슬라이드·마케팅 자료 등을 만드는 협업형 시각 디자인 도구인 Claude Design을 공개했다. 이 도구는 디자인 생산의 초기 단계를 AI로 빠르게 생성·반복하고 협업 산출물을 만들도록 설계되어 있다. 자세한 소개는 원문을 참조하라 ([원문](https://news.hada.io/topic?id=28640)).\n\n**[Qwen3.6-35B-A3B가 Claude Opus 4.7보다 더 나은 펠리컨 이미지를 생성함]:**\n\n비교 사례에서 Qwen3.6-35B-A3B가 ‘자전거 타는 펠리컨’ 이미지를 더 완성도 있게 생성해 Claude Opus 4.7과의 이미지 품질 경쟁에서 우위를 보였다. Qwen은 Alibaba의 최신 모델이며, 배포된 20.9GB 양자화 가중치 등 배포물도 함께 언급된다. 원문에 비교 샘플과 맥락이 정리되어 있다 ([원문](https://news.hada.io/topic?id=28634)).\n\n**[Show GN: 멀티 에이전트가 이제 탈춤을 춥니다]:**\n\n멀티에이전트 패턴을 분석한 글은, main agent가 subagent를 호출하는 순간 협업보다 종속이 강화되며 시간이 지날수록 subagent가 독립 실행 단위가 아닌 main agent의 내부 기능처럼 굳는다고 지적한다. 이로 인해 재사용성과 다른 워크플로우로의 재배치가 어려워지는 현실적 문제를 제기한다. 원문에서 경험적 사례와 설계상의 시사점을 볼 수 있다 ([원문](https://news.hada.io/topic?id=28629)).\n\n**[Building an emoji list generator with the GitHub Copilot CLI]:**\n\nGitHub Copilot CLI를 활용해 이모지 리스트 생성기를 만든 사례가 소개되며, 라이브 스트림에서 툴을 어떻게 활용했는지 과정을 공유한다. 개발자용 에이전트·CLI 도구가 작은 자동화 작업을 빠르게 해결하는 현실적 예시로 제시된다. 자세한 내용은 GitHub 블로그에서 확인 가능하다 ([원문](https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/)).\n\n### **2.** GitHub & 인프라 트렌드: \"실무 인프라의 비용·안전·운영성\"\n\n이 섹션은 인프라·오픈소스·운영문제 중심의 소식들로 구성했다. 데이터베이스 운영상의 고질적 문제와 공개된 툴·릴리스, 플랫폼 투명성 개선 시도, 그리고 키·계정 유출이 초래한 과금·스팸 사고들이 오늘의 핵심이다. 조직은 기능 도입과 동시에 비용·보안 대응을 병행해야 한다는 점이 반복적으로 드러난다.\n\n**[13시간 만에 €54,000 과금 폭증: API 제한 없는 Firebase 브라우저 키로 Gemini API 호출 발생]:**\n\nFirebase 브라우저 키가 제한 없이 노출되어 외부에서 Gemini API 요청이 자동으로 발생했고, 실제 사용자 트래픽과 무관하게 13시간 동안 €54,000 이상의 과금이 발생했다. 비용 경보의 지연 발동과 키 노출의 위험을 보여주는 사례로, 클라이언트 키 관리와 비용 모니터링의 중요성을 부각한다. 원문에서 사건 개요를 확인할 수 있다 ([원문](https://news.hada.io/topic?id=28635)).\n\n**[FSF, Gmail 계정에서 1만 건 이상 스팸 메일 발송 문제로 Google에 연락 시도]:**\n\nFree Software Foundation은 자사 Gmail 계정에서 대량의 스팸이 발송된 정황을 확인하고 문제 해결을 위해 Google과 직접 연락을 시도 중이라고 보고되었다. 해당 계정에서 1만 건이 넘는 메일이 전송된 것으로 파악되며, 조직은 스팸 발송 문제의 원인 규명과 차단을 요청하고 있다. 자세한 내용은 원문을 참조하라 ([원문](https://news.hada.io/topic?id=28636)).\n\n**[Postgres 큐를 건강하게 유지하기]:**\n\nPostgres에서 job queue를 운영할 때 dead tuple 누적과 테이블 bloat로 인한 성능 저하 원인과 해결 방법을 정리한 글이 소개되었다. 요약하면 큐 테이블은 삽입-읽기-삭제가 짧게 순환하므로 특성이 다르고, 이를 고려한 VACUUM·파티셔닝·운영 전략이 필요하다고 설명한다. 구체적 권장 사항은 원문에 정리되어 있다 ([원문](https://news.hada.io/topic?id=28644)).\n\n**[Thoughtworks Technology Radar, Volume 34 공개]:**\n\nThoughtworks Radar는 최신 기술·도구·플랫폼 트렌드를 '도입 권장·시험 사용·평가·주의' 4단계로 제시하며, 핵심 테마로 에이전트 시대·기술 평가의 재검토·에이전트 보안 문제·코딩 에이전트 하네스 등을 꼽았다. 에이전트 관련 기술의 급격한 도입과 그에 수반되는 보안/검증 요구가 이번 버전의 핵심이다. 원문에서 상세 주제들을 확인할 수 있다 ([원문](https://news.hada.io/topic?id=28625)).\n\n**[Zig 0.16.0 릴리즈]:**\n\nZig 0.16.0이 2026년 4월 14일 공개되었으며, 244명의 기여자가 8개월 동안 1,183개의 커밋을 쌓아 만든 릴리스라고 보고되었다. 이번 릴리즈의 핵심으로는 I/O를 인터페이스로 재구성한 'I/O as an Interface'가 소개되어 파일시스템·네트워킹·타이머·동기화 등 블로킹 발생 가능 영역을 새롭게 다룬다. 원문에서 릴리스 노트를 확인할 수 있다 ([원문](https://news.hada.io/topic?id=28637)).\n\n**[Bringing more transparency to GitHub’s status page]:**\n\nGitHub은 상태 페이지의 투명성을 높이기 위해 더 구체적인 데이터를 제공하도록 변경한다고 발표했다. 이는 플랫폼의 전반적 상태에 대한 인사이트를 개선해 운영팀의 대응과 사용자 신뢰성을 높이는 목적이다. 관련 발표는 GitHub 블로그에서 확인 가능하다 ([원문](https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/)).\n\n**[Show GN: for-real - GitHub 조직 통째로 날리고 만든 삭제 방지 크롬 익스텐션]:**\n\n작성자는 실수로 테스트 레포 삭제 중에 9명짜리 GitHub 조직을 통째로 날린 경험을 적고, 이를 계기로 삭제 방지용 크롬 익스텐션을 만들고 공유했다. 개인적 사고에서 출발한 도구가 실무에서의 안전성을 높이는 사례로 소개된다. 원문에서 경험담과 익스텐션 설명을 볼 수 있다 ([원문](https://news.hada.io/topic?id=28630)).\n\n**[Show GN: rhwp의 데스크톱 래퍼를 공유합니다.]:**\n\n한글 뷰어/에디터 rhwp의 데스크톱 앱 버전을 개인 필요에 맞춰 제작해 공유한 사례가 소개되었다. 데스크톱 환경을 선호하는 사용자를 위한 래퍼 제작 경험과 배포 의도가 정리되어 있다. 원문은 관련 공유 글을 포함한다 ([원문](https://news.hada.io/topic?id=28632)).\n\n**[Show GN: sls — SSH 접속하면서 Docker 컨테이너까지 한 화면에서 관리하고 싶어서 만든 CLI]:**\n\n서버·컨테이너 관리 편의를 위해 SSH 호스트와 Docker 컨테이너를 같은 인터페이스에서 다루는 CLI 도구가 소개되었다. fzf 기반 임시방편을 대체하려는 실무적 필요에서 출발했으며, 핵심 동작과 사용 사례가 설명되어 있다. 원문을 통해 상세 기능을 확인할 수 있다 ([원문](https://news.hada.io/topic?id=28626)).\n\n**[Clojure 공식 다큐멘터리]:**\n\nClojure가 글로벌 핀테크들의 인프라 언어로 성장한 과정을 다룬 1시간짜리 공식 다큐멘터리 영상이 공개되었다. 다큐멘터리는 Clojure의 기원·가치 중심 커뮤니티·소프트웨어 사고방식에 미친 영향을 추적한다. 영상과 관련 정보는 원문에서 확인 가능하다 ([원문](https://news.hada.io/topic?id=28639)).\n\n**[Ada, 그 설계와 언어를 만든 언어]:**\n\nAda는 1970년대 미국 국방부의 소프트웨어 혼란 속에서 탄생했으며, 강한 정적 타입과 명세-구현 분리를 핵심으로 설계되었다. 패키지 구조와 표현적 은닉을 통해 캡슐화를 구현했고, 이후 Java·C#·Go 등 현대 언어의 모듈 시스템에 영향을 준 면모가 정리되어 있다. 원문에서 역사적 맥락과 설계 철학을 확인할 수 있다 ([원문](https://news.hada.io/topic?id=28643)).\n\n**[‘패시브 인컴(수동 소득)’ 함정이 한 세대의 창업가를 삼켰다]:**\n\n'패시브 인컴' 신화가 자동 수익 시스템 구축을 과도하게 미화하면서 드롭쉬핑·제휴 마케팅·온라인 강의 판매 등 반복적 사업 모델로 이어졌고, 결과적으로 고객 필요보다 자동화 자체가 목적이 되는 문제를 지적한다. 글은 패시브 인컴의 실상과 창업 문화의 왜곡을 비판적으로 다룬다. 원문을 참조하라 ([원문](https://news.hada.io/topic?id=28638)).\n\n**[우리가 좋아하는 모든 것은 심리전(psyop)인가?]:**\n\n인디 밴드 Geese의 인기 상승이 마케팅 회사 Chaotic Good의 조작된 캠페인에 의한 것임이 드러나며, '진짜 인기'와 '조작된 인기'의 경계가 흐려졌다는 사례가 보고되었다. Chaotic Good은 수천 개의 아이폰으로 가짜 소셜 계정을 운영해 특정 곡이나 인플루언서를 트렌드화했다고 전해진다. 원문에서 상세 사례를 확인할 수 있다 ([원문](https://news.hada.io/topic?id=28642)).\n\n### **3.** 기타 인사이트: \"한국 관련 주요 보도 없음 — 글로벌 동향에 주목\"\n\n오늘 수집된 항목들에는 대한민국 기업·정책을 직접 다루는 톱 뉴스가 포함되어 있지 않다. 대신 에이전트·모델 경쟁과 인프라·운영 리스크 관련 글로벌 이슈가 우선적으로 수집되었음을 알려둔다.",
+    "2026-04-18": "2026년 4월 18일 IT/AI 데일리 인텔리전스: '에이전트·온디바이스 모델과 인프라 투자'가 개발자 툴·규제·인프라 판도를 동시에 흔들다\n\n오늘 테크 생태계의 핵심은 에이전트 중심 워크플로우와 온디바이스 모델의 확산이 개발자 도구, 보안 우려, 그리고 막대한 인프라 자본 배분까지 연결하고 있다는 점이다. 로컬 추론·에이전트 운영 비용·툴체인 개선 이슈가 동시에 부상하면서, 소규모 유틸리티에서 국가 수준의 규제 논의까지 범위가 넓게 전개됐다. 아래 섹션들은 같은 주제끼리 묶어 관련 소식을 연결해 요약한다.\n\n### **1.** 에이전틱 코딩 & 프론티어 모델: \"에이전트·컨텍스트·온디바이스가 교차하는 개발자 경험의 재구성\"\n\n이 섹션은 에이전트 설계·컨텍스트 관리·온디바이스 실행과 관련된 도구·사례·연구를 한데 묶었다. 에이전트의 배포·보안·디버깅 문제를 해결하려는 오픈소스 프로젝트와, 모델 양자화·로컬 추론 실험, 그리고 개발자가 느끼는 인지적 영향까지 흐름을 따라 정리한다.\n\n**[몇 달 동안 손으로 코딩하는 중이에요]:**\n\n해당 글은 AI 코딩 에이전트가 널리 쓰이는 시점에 일부 개발자가 LLM 없이 수개월간 수작업으로 코딩하고 학습하는 경험을 기록한 글이다. Brooklyn의 Recurse Center에서 LLM을 처음부터 직접 구축하고 Python과 컴퓨터 추상화 계층을 깊게 다루며 얻은 교훈을 전한다. 이 기록은 도구 의존과 개인 역량 보존 사이 균형에 대한 실천적 사례를 제공한다. 링크: [원문](https://news.hada.io/topic?id=28663)\n\n**[Show GN: oh-my-customcode — Claude Code 에이전트를 \"설정\"이 아니라 \"컴파일\"하는 툴]:**\n\noh-my-customcode는 Claude Code 기반 에이전트 프로젝트의 반복적 수작업(스킬 문서·YAML·룰·라우팅 수정 등)을 자동화해 에이전트를 일종의 컴파일 과정으로 관리하려는 도구다. 프로젝트 전환이나 충돌 해결 시 수동 편집 부담을 줄이는 것을 목표로 한다. 에이전트 운영 흐름을 효율화하려는 개발자 경험 개선 시도에 해당한다. 링크: [원문](https://news.hada.io/topic?id=28661)\n\n**[Show GN: Contexty — AI의 컨텍스트를 개발자가 직접 보고 통제할 수 있게 해주는 도구]:**\n\nContexty는 모델에 누적되는 컨텍스트가 성능을 떨어뜨릴 때 개발자가 직접 컨텍스트를 시각화·편집·통제하도록 돕는 도구다. 대화가 길어지며 이전 전제를 반복적으로 설명해야 하는 문제, 혹은 컨텍스트 압축 시 중요 정보 손실 문제를 완화하고자 한다. 컨텍스트 관리를 투명하게 해 에이전트 신뢰성과 유지보수를 개선하려는 접근이다. 링크: [원문](https://news.hada.io/topic?id=28660)\n\n**[Nilbox – API 토큰 노출 없이 OpenClaw를 실행하세요]:**\n\nNilbox는 에이전트 샌드박스 환경에서 실제 API 토큰을 직접 전달하지 않고 플레이스홀더를 쓰는 방식으로 보안 문제를 완화한다. 에이전트에게 실제 키 대신 자리표시자를 전달하고 요청 중개자 방식으로 실제 호출을 대체해 토큰 유출 위험을 줄인다. 에이전트 배포 시 보안과 실용성의 균형을 노린 솔루션이다. 링크: [원문](https://news.hada.io/topic?id=28649)\n\n**[Is Your Site Agent-Ready? - 당신의 사이트는 에이전트에 대응하나요?]:**\n\nCloudflare가 공개한 진단 도구는 웹사이트가 에이전트에 얼마나 최적화되어 있는지를 점수화하고, 인증·콘텐츠 포맷·접근 제어·결제 방식 등 개선 항목을 제시한다. 실패 항목은 코드 에이전트로 바로 전달할 수 있는 형태의 수정 지침으로 연결된다. 에이전트 친화적 웹 설계가 서비스 경쟁력 요소로 부상하고 있음을 보여준다. 링크: [원문](https://news.hada.io/topic?id=28650)\n\n**[Gemma Gem - 브라우저에서 Google Gemma 4 모델을 완전 온디바이스로 실행하는 Chrome 확장]:**\n\nGemma Gem은 WebGPU를 활용해 브라우저에서 Google의 Gemma 4 모델을 완전 온디바이스로 실행하는 크롬 확장이다. API 키·클라우드·외부 전송 없이 로컬에서 추론을 처리해 개인 비서 형태로 브라우저 안에 상주시키는 접근을 제안한다. 온디바이스 추론이 프라이버시와 지연 측면에서 실용적 대안임을 보여준다. 링크: [원문](https://news.hada.io/topic?id=28645)\n\n**[Qwen3.5 모델 양자화, 왜 커뮤니티 버전은 성능이 떨어지나]:**\n\nUnsloth의 분석은 MLX 포맷으로 배포된 Qwen3.5 커뮤니티 양자화 모델에서 나타난 호출 오류, 무의미 출력, 환각의 원인을 규명하고 해법을 제시한다. 150개 이상의 벤치마크 실험을 통해 양자화 과정과 도구 체인의 미스매치가 성능 저하를 유발함을 밝힌다. 이는 커뮤니티 모델 배포 시 양자화 표준과 검증 중요성을 환기한다. 링크: [원문](https://news.hada.io/topic?id=28658)\n\n**[Show GN: 웹 Gemini를 VSCode처럼 - Gemini VSCode Theme 크롬 익스텐션]:**\n\n이 확장 기능은 웹 기반 Gemini 인터페이스를 VS Code 스타일의 UI로 바꿔, 코드 블록에 라인 넘버와 익숙한 색상 팔레트를 제공한다. 개발자 친화적 인터페이스로 모델 경험을 개선하려는 소규모 UX 개입 사례다. 브라우저 기반 도구의 생산성 향상에 초점을 맞춘 확장이다. 링크: [원문](https://news.hada.io/topic?id=28651)\n\n**[Thoughts and feelings around Claude Design]:**\n\nSam Henri의 글은 Claude 모델의 설계 철학과 디자인에 대한 생각을 정리한 에세이형 포스트로, 원문 및 관련 토론이 링크되어 있다. 모델 디자인과 사용자 경험, 개발자 관점의 비평적 논의가 활발하게 이루어지고 있음을 보여준다. 링크: [원문](https://samhenri.gold/blog/20260418-claude-design/)\n\n**[AI 코딩 시대, 성장이 멈추는 개발자의 뇌에서 일어나는 일]:**\n\n요약 글은 AI를 잘 쓰는 핵심 역량이 출력물의 품질을 판단하고 교정하는 능력임을 지적하며, 도구 의존이 오히려 이러한 능력을 약화시킬 수 있다고 설명한다. 학습심리 연구(예: 인출 연습)가 제시되며, 쉬운 처리로는 장기 기억 형성이 잘 되지 않는다는 관점을 전한다. 개발자 학습 전략과 도구 사용의 장단을 균형 있게 다룬다. 링크: [원문](https://news.hada.io/topic?id=28653)\n\n### **2.** GitHub & 인프라 트렌드: \"데이터센터 자본증가와 경량 실행 환경이 병행하는 인프라 풍경\"\n\n데이터센터에 대한 막대한 자본 투자가 기록을 갱신하는 한편, 개발자 도구와 경량 가상화·터미널 보안 등 하위 레이어의 실용적 개선도 함께 전개되고 있다. 인프라의 거대화와 엔드유저·개발자 수준의 경량 최적화가 병렬로 나타나는 점이 오늘의 특징이다.\n\n**[데이터센터 투자, 미국의 역대 메가프로젝트 지출을 6년 만에 추월]:**\n\n보고서는 최근 6년간 데이터센터 CAPEX가 약 9,300억 달러에 달해 미국의 전통적 메가프로젝트 누적 지출을 상회했다고 정리한다. 수치는 인플레이션을 반영한 2024년 달러 기준으로 제시되며, Interstate Highway System 등 기존 프로젝트와 비교한 그래프를 포함한다. 데이터센터 중심의 자본 집중이 국가 인프라 지형을 재편하고 있음을 시사한다. 링크: [원문](https://news.hada.io/topic?id=28666)\n\n**[iTerm2를 사용한다면, \"cat readme.txt\"도 안전하지 않다]:**\n\n해당 내용은 SSH 통합 등 터미널이 원격 셸과 통신하기 위해 사용하는 escape sequence가 악용되어 일반 출력이 명령·프로토콜처럼 해석될 수 있는 취약점을 지적한다. 악성 파일·배너·MOTD가 원격 명령처럼 동작해 보안 사고를 일으킬 수 있다는 점에서 신뢰 경계 설정의 중요성을 경고한다. 터미널 애플리케이션의 보안 가시성 문제를 환기한다. 링크: [원문](https://news.hada.io/topic?id=28664)\n\n**[Show GN: 새로 만든 VS Code Git Graph 익스텐션 Git Graph Plus]:**\n\n기존 'Git Graph' 익스텐션의 업데이트 중단을 보완하기 위해 개발된 'Git Graph Plus'는 오래된 UI와 유지보수 공백을 해결하려는 목적이다. Svelte로 UI를 재구성하며 기존 사용자의 워크플로를 대체하려는 시도다. 확장 생태계에서 유지보수와 포크의 실용적 해결 사례로 볼 수 있다. 링크: [원문](https://news.hada.io/topic?id=28659)\n\n**[Smol machines – 1초 미만 콜드스타트 및 포터블 한 가상머신]:**\n\nsmolvm은 macOS와 Linux에서 동작하는 CLI 기반 가상머신 관리 도구로, 서브초(1초 미만) 콜드스타트·탄력적 메모리 관리·단일 파일 이식성을 지원한다. 가볍고 빠른 VM 실행을 목표로 하여 개발·테스트 환경의 민첩성을 높이는 것을 겨냥한다. 경량화된 가상화가 클라우드 중심 인프라와 보완적으로 작동할 수 있음을 보여준다. 링크: [원문](https://news.hada.io/topic?id=28657)\n\n### **3.** 산업별 AX: \"규제·프라이버시·안보 이슈가 기술적·사회적 충돌을 만들다\"\n\n이 영역은 플랫폼 경쟁·프라이버시 규제·안보 사건·인력 유치 등 산업·사회 전반에 걸친 파급을 다룬다. 기업 행태 규제, 위치정보 거래 금지 논의, 연령 확인 법안, 그리고 현장 기반의 안보·인도적 사건까지 포함된다.\n\n**[최근 공개된 기록들을 통해 Amazon의 가격 담합 행위가 드러남]:**\n\n비공개 문서 공개로 California 당국은 Amazon이 독립 판매자의 가격을 감시하고, 경쟁사 가격이 낮으면 Buy Box 박탈 등 불이익을 준 정황이 있다고 주장한다. 문서에는 경쟁사와의 가격 비교를 기반으로 하는 제재 메커니즘과 일부 판매자가 겪은 불이익 사례가 담겨 있다. 플랫폼 규제와 경쟁 공정성 문제를 재점화하는 내용이다. 링크: [원문](https://news.hada.io/topic?id=28667)\n\n**[정밀 위치정보 판매 금지]:**\n\n보고서는 광고기술 기반 감시 시스템인 Webloc이 최대 5억 대 모바일 기기에서 정밀 위치데이터를 수집·판매해온 사실을 지적한다. 수집 데이터에는 기기 식별자·좌표·앱 프로필이 포함되며, 다양한 정부 조직이 이 데이터를 이용해온 정황이 제기된다. 위치정보의 상업적 유통과 이에 대한 규제 필요성이 부각된다. 링크: [원문](https://news.hada.io/topic?id=28647)\n\n**[미국 법안, 모든 기기에 온디바이스 연령 확인 의무화]:**\n\nParents Decide Act(H.R. 8250)는 운영체제 제공자가 신규 기기 설정 시 생년월일 입력을 요구하도록 의무화하는 법안이다. 대상은 Apple·Google 뿐만 아니라 노트북·콘솔·스마트TV·차량 시스템 등 범용 컴퓨팅 장치 전반을 포함한다. 온디바이스 연령 확인 규정은 플랫폼 설계·개인정보 처리·제품 UX에 광범위한 영향을 미칠 전망이다. 링크: [원문](https://news.hada.io/topic?id=28648)\n\n**[이스라엘, 레바논에서 의료진 대상 치명적 ‘쿼드러플 탭’ 공격 확대]:**\n\n레바논 남부의 구급·구조 현장에서는 초기 공습 후 연속해서 세 차례 추가 공격이 이어지는 'quadruple tap' 양상이 보고되었고, Mayfadoun 현장에서는 서로 다른 구급차 조직의 의료진과 차량이 연속 공격을 받았다. 이 사례는 구조 활동 현장에 대한 반복적 타격이 인도적 대응을 심각히 저해한다는 점을 시사한다. 무력 충돌 지역에서의 민간·구조자 보호 문제가 강조된다. 링크: [원문](https://news.hada.io/topic?id=28665)\n\n**[NASA Force]:**\n\nNASA Force는 미국의 우주·항공·과학 임무에 필요한 기술 인재를 유치하기 위한 새 채용 이니셔티브로, 초기~중견 경력의 엔지니어·기술자·혁신가를 대상으로 한다. 보통 1~2년 임명 형태로 참여하며 연장 가능성을 명시하고, 임무 핵심 역할에 기술 역량을 빠르게 투입하려는 취지다. 우주·항공 분야의 인재 확보와 민관 협력 모델을 강화하려는 시도로 해석된다. 링크: [원문](https://news.hada.io/topic?id=28662)\n\n**[베를린에서 중학생이 발견한 트로이 주화]:**\n\n베를린 Spandau 지구에서 기원전 281년~261년 사이 Ilion 조폐소에서 발행된 희귀 청동 주화가 발견되었으며, 이는 베를린 시내에서 확인된 첫 그리스 고대 유물로 소개된다. 주화는 직경 12mm·무게 7g 규모로 앞면에 Corinthian 헬멧을 쓴 Athena가 새겨져 있다. 고고학적 발견이 도심에서 드물게 이루어진 사례로 보도되었다. 링크: [원문](https://news.hada.io/topic?id=28668)\n\n**[아이작 아시모프: 마지막 질문 (1956)]:**\n\n요약에 따르면 아시모프의 단편은 인류가 태양 에너지 변환 기술을 완성하고 거대 컴퓨터 Multivac의 도움으로 문명을 확장하며 엔트로피 문제를 묻기 시작하는 서사를 다룬다. 세대를 거쳐 Microvac으로 행성 간 이주의 일상화 등 문명 확장에 대한 상상력을 보여준다. 문학적 테마가 과학·기술적 상상력과 결합된 사례로 수록되어 있다. 링크: [원문](https://news.hada.io/topic?id=28646)\n\n### **4.** 기타 인사이트\n\n오늘 수집된 항목들에는 대한민국 기업·정책·시장에 직접적으로 대응하는 보도나 발표가 포함되어 있지 않습니다. 다음 수집에서는 한국 관련 뉴스가 있을 경우 별도 '대한민국 IT Top 10' 섹션으로 맥락화해 정리할 예정입니다.",
+    "2026-04-19": "2026년 4월 19일 IT/AI 데일리 인텔리전스: '에이전틱 코딩(Agentic Coding)'의 확산과 운영 리스크 관리\n\n\n오늘 테크 생태계의 핵심은 에이전트가 실제 개발·운영 워크플로로 침투하는 방식과 그에 따른 의존·복원력 문제다. Claude Code 중심의 여러 사용기·툴·오케스트레이션 프로젝트가 동시에 주목받으며, 에이전틱 작업을 어떻게 설계하고 안전망을 만들 것인지가 실무 과제로 떠올랐다는 점이 관찰된다. 한편 GitHub·Copilot 쪽은 정책·한도·데이터 사용 방침 변화가 개발자 경험에 즉시 영향을 주고 있다.\n\n### **1.** 에이전틱 코딩 & 프론티어 모델: \"Claude Code 중심의 생태계 확장과 운영 리스크\"\n\nClaude Code를 축으로 한 에이전트 활용 사례·툴·모델 변화가 한데 모여 에이전틱 코딩의 성숙과 문제점을 동시에 드러내고 있다. 이번 흐름은 '에이전트가 스스로 계획·실행·수정까지 수행'하는 쪽으로 무게가 실리며, 동시에 장애·비용·툴 과다 의존에서 오는 운영적 리스크가 논의 중심에 섰다.\n\n**[@_ali_awan_ — Claude Code는 과소평가된 도구다]:**\n\nClaude Code가 2026년 가장 과소평가된 툴이라는 주장이 제기됐다. 저자는 존재 자체를 모르는 사용자가 많다며 클라우드 에이전트로서 파일을 읽고 멀티스텝 작업을 계획·명령 실행·오류 수정까지 '실행'하는 점을 강조한다(원문: https://x.com/_ali_awan_/status/2045830781822701653).\n\n**[@_ali_awan_ — Claude Code의 차별점: 컨텍스트 기반 실행]:**\n\n기존 도구가 한 번의 메시지에 응답하는 반면 Claude Code는 파일을 읽고 문맥을 유지하며 다단계 작업을 수행한다고 설명한다. 요지는 단순 제안이 아니라 실제 실행까지 담당한다는 점이다(원문: https://x.com/_ali_awan_/status/2045830965373932026).\n\n**[@_ali_awan_ — Claude Code로 가능한 것들(기능 요약)]:**\n\nClaude Code로 기능 구현·다중 파일 디버깅·테스트 자동화·리팩터링·프로젝트 초기 설정 등 실무 수준 작업을 자동화할 수 있다는 요약이 공유되었다(원문: https://x.com/_ali_awan_/status/2045831197713203672).\n\n**[@coo_pr_notes — /autofix-pr: PR 감시부터 수정·푸시까지 자동화하는 사례]:**\n\nClaude Code가 PR을 감시해 CI 실패를 탐지하고, 수정 커밋을 작성해 푸시까지 하는 워크플로우(/autofix-pr)를 소개하는 사례가 나왔다. 이는 개발 사이클의 일부를 에이전트에 완전히 위임한 실용적 예시다(원문: https://x.com/coo_pr_notes/status/2045830969241063573).\n\n**[@aiagent_builder — 장애 사례와 회복력 설계 경고]:**\n\n2026년 4월 15일 Claude 서비스 전반(API·Claude Code 포함)이 다운되었고, 이때 준비 수준에 따라 '멈춘 팀'과 '대응한 팀'의 차이가 드러났다고 보고된다. 트윗은 에이전트를 깊게 쓸수록 의존 리스크가 커지므로 작업 분할·재실행 가능성·로그 보존 등 외부 LLM 장애를 전제로 한 워크플로 설계가 필수라고 지적한다(원문: https://x.com/aiagent_builder/status/2045830926106759415).\n\n**[@aiagent_builder — 장애 시 멀티모델 백업 사례]:**\n\n같은 계정에서 Claude Code 장애가 발생했을 때 동료가 Gemini CLI를 열어 '백업 AI'로 전환했다는 에피소드가 공유되며, 멀티모델 운영과 역할 분담(주력 모델 vs 백업 모델) 관찰이 제시되었다(원문: https://x.com/aiagent_builder/status/2045831537430757543).\n\n**[GlassCode (editxshub): Claude Code + Codex를 합친 Mac 네이티브 인터페이스]:**\n\nGlassCode라는 Mac 앱이 Claude Code CLI와 Codex를 하나의 'Liquid Glass' UI로 결합해 여러 에이전트·서브에이전트를 동시에 실행하고 Git 통합·diff 뷰·스킬 설치 탭·사용량 통계 등을 제공한다고 소개되었다(원문: https://x.com/editxshub/status/2045830771483845093).\n\n**[OpenClawdex — 오픈소스 오케스트레이터 UI]:**\n\nOpenClawdex는 Claude와 Codex를 위한 오픈소스 오케스트레이터 UI로, Claude Agent SDK와 Codex JSON-RPC를 연동하는 macOS용 프로젝트로 공개되어 에이전트 오케스트레이션 도구 라인업을 넓혔다(원문: https://github.com/alekseyrozh/openclawdex).\n\n**[Opus 시스템 프롬프트 변경(4.6→4.7) 분석]:**\n\nOpus 4.6에서 4.7로의 시스템 프롬프트 변경 내용을 정리한 분석 글이 올라왔다. 모델 동작·응답 특성 변화가 실제 에이전트 동작과 비용에 영향을 줄 수 있다는 맥락에서 주목된다(원문: https://simonwillison.net/2026/Apr/18/opus-system-prompt/).\n\n**[Opus 4.7 토큰 비용 계산기]:**\n\nOpus 4.7에서 새 토크나이저로 동일 프롬프트가 더 많은 토큰을 집계하는 문제를 분석하는 계산 도구가 등장했으며, 콘텐츠 유형에 따라 1.0~1.35배 토큰 차이를 보고한다(원문: https://news.hada.io/topic?id=28672).\n\n**[@MEEcom44 — 에이전트 툴 수 줄이기 실험]:**\n\n어떤 팀은 에이전트가 사용 가능한 툴 수를 22개에서 7개로 줄이자 완료율이 거의 두 배로 증가했다고 보고했다. 많은 실패가 너무 많은 툴에서 비롯된다는 진단이다(원문: https://x.com/MEEcom44/status/2045831252264034450).\n\n**[@yusaku_0426 — Claude Code Skills 설계 지침]:**\n\nClaude Code Skills를 설계할 때 책임을 하나로 좁히고 description에 '무엇을 할지·언제 쓸지·주요 기능'을 명시하며 SKILL.md를 두는 등 실무적 설계 요점이 공유되었다(원문: https://x.com/yusaku_0426/status/2045831777806372950).\n\n**[Paperclip 기반 '영구기관' 오픈소스 에이전트 프레임워크 소개]:**\n\n토큰이 있으면 에이전트가 지속적으로 동작하며 제품을 키워나가는 '영구기관' 컨셉의 오픈소스 에이전트 프레임워크가 소개되어, 에이전트의 장기 운영·비용·설계 관점 논의를 촉발하고 있다(원문: https://news.hada.io/topic?id=28676).\n\n**[KV 캐시 요약 관련 기술 글]:**\n\nKV 캐시를 엔트로피와 저계수 재구성으로 요약하는 방법론이 소개되어, LLM의 컨텍스트 관리·캐시 전략 관점에서 실무적 함의를 제공한다(원문: https://jchandra.com/posts/hae-ols/).\n\n**[@TheGeorgePu — 경쟁 모델 동향: Qwen 3.6 Plus의 상용화 관찰]:**\n\nAlibaba가 Qwen 3.6 Plus를 API 전용으로 전환해 Claude에 필적하는 에이전틱 코딩 모델이 유료·API 중심으로 분화하고 있다는 주장이 제기되었다(원문: https://x.com/TheGeorgePu/status/2045831846722703743).\n\n### **2.** GitHub & 인프라 트렌드: \"Copilot 정책·한도 변화가 개발자 경험을 흔든다\"\n\n코파일럿 관련 데이터 사용 정책과 한도, 오픈소스 거버넌스·인프라 마이그레이션 사례들이 개발자 생산성·비용·신뢰성에 직결되는 이슈로 떠올랐다. 도구 자체의 진화뿐 아니라 플랫폼 정책이 실무자에게 즉각적인 영향을 주는 시점이다.\n\n**[@BitsByNick — GitHub가 Copilot 입력·출력을 학습에 사용(옵트아웃 안내)]:**\n\nGitHub가 4월 24일부터 Copilot의 입력·출력·코드 스니펫을 AI 모델 학습에 사용한다고 공지했고, 학습 데이터 사용을 원치 않으면 옵트아웃해야 한다는 경고와 설정 경로 안내가 공유되었다(원문: https://x.com/BitsByNick/status/2045828838857551918).\n\n**[@NicolasMenzel — GitHub Copilot 주간 한도 도입의 영향]:**\n\nGitHub가 도입한 주간 한도는 Pro+ 구독자에게도 영향을 미쳐 일부 사용자 워크플로를 방해한다는 불만이 제기되었다. 구독 플랜만으로는 사용량 보장이 되지 않는다는 경험이다(원문: https://x.com/NicolasMenzel/status/2045822154843861219).\n\n**[DigitalOcean → Hetzner 무중단 마이그레이션 사례]:**\n\n월 $1,432 규모의 프로덕션 인프라를 월 $233 전용 서버로 이전하면서 다운타임 없이 마이그레이션을 완료한 사례가 공유되어 인프라 선택·비용 절감 전략의 실제 사례로 제시되었다(원문: https://news.hada.io/topic?id=28671).\n\n**[Ruby Central 재정 위기 — RubyGems 유지관리자 논쟁 영향]:**\n\nRubyGems 유지관리자 논쟁으로 인해 Ruby Central이 재정적 위기에 직면했다는 보도가 나와 오픈소스 거버넌스·펀딩의 취약성을 다시 환기했다(원문: https://www.theregister.com/2026/04/19/rubygems_nonprofit_in_real_financial/).\n\n**[Forecastr — AI 예측에 RFC 3161 타임스탬프 적용 제안]:**\n\nAI 예측을 RFC 3161 타임스탬프와 OpenSSL로 검증 가능하게 하는 Forecastr 프로젝트가 소개되며 예측 검증성·책무성 확보 수단으로 주목받고 있다(원문: https://www.forecastr.dev/).\n\n**[RepoBar — 메뉴바에서 GitHub 상태·CI 확인]:**\n\nmacOS용 유틸 RepoBar는 메뉴바와 터미널에서 GitHub 저장소의 CI 상태·릴리스·트래픽·활동을 한눈에 보여줘 개발자 모니터링 경험을 개선한다(원문: https://news.hada.io/topic?id=28670).\n\n**[Wine 11.7 릴리스]:**\n\nWine 11.7이 발표되어 Windows 애플리케이션을 Linux·BSD·Solaris·macOS에서 실행하는 기능이 업데이트되었다(원문: https://www.winehq.org/announce/11.7).\n\n**[Copilot 관련 학습·SDK·CLI 커뮤니티 공유]:**\n\nCopilot SDK·CLI 관련 입문 가이드와 확장 개발 경험 공유가 이어지며, 개인·팀의 Copilot 기반 워크플로가 활발히 실험되고 있다(예: https://x.com/TommiyTw/status/2045828001095446910, https://x.com/TommiyTw/status/2045829109578686545).\n\n### **3.** 산업별 AX: \"AI의 사회적 함의와 산업 적용 사례\"\n\nAI의 위험성과 헬스·하드웨어·도메인별 적용 사례가 병행되어 제기되며, 기술 확산의 사회적·산업적 맥락을 재확인한다.\n\n**[The Economist — 미국이 AI의 위험을 인식하기 시작했다]:**\n\nThe Economist 리더 칼럼은 미국이 AI의 위험성을 깨닫기 시작했음을 논하며 정책·사회적 함의에 대한 논의를 촉발하고 있다(원문: https://www.economist.com/leaders/2026/04/16/america-wakes-up-to-ais-dangerous-power).\n\n**[NIST 연구: '임의 파장' 레이저 개발]:**\n\n집적 포토닉스 칩에서 단일 레이저 색을 다양한 가시광선·적외선으로 변환하는 구조를 구현한 연구가 보고되었다. 실리콘 웨이퍼 위 3차원 적층 등의 기술적 접근이 요약되어 있다(원문: https://news.hada.io/topic?id=28680).\n\n**[Vitality AI Health — 혈액·웨어러블·DNA 통합 서비스]:**\n\n혈액검사·웨어러블·DNA 데이터를 통합하는 Vitality AI Health 서비스가 소개되어 개인 맞춤 헬스·AI 헬스케어 응용의 동향을 보여준다(원문: https://vitalityaihealth.com).\n\n**[AI와 인간 소통 능력 퇴보 경고 연구 요약]:**\n\nAI와의 협업이 늘수록 인간의 소통 능력 퇴보 가능성을 경고하는 연구 요약이 공유되며, PM·조직 내 커뮤니케이션 리스크를 제기한다(원문: https://news.hada.io/topic?id=28678).\n\n**[Proposly — 프리랜서를 위한 AI 제안서 생성 서비스]:**\n\nShow HN으로 소개된 Proposly는 프리랜서를 대상으로 AI 생성 클라이언트 제안서를 제공하는 서비스로, 업무 자동화의 수요 측면을 반영한다(원문: https://proposly.org).\n\n### **4.** 기타 인사이트\n\n한국 기업·정책 중심의 톱10 뉴스는 오늘 데이터에 뚜렷히 집계되지 않았으므로 이 섹션은 간단한 관찰로 대신한다. 전반적으로 에이전틱 도구의 도입과 동시에 장애·비용·데이터 정책 이슈가 함께 부각되고 있어, 도구 선택은 기능뿐 아니라 운영·정책적 안정성을 함께 고려해야 하는 시점이다."
   }
 }

@@ -4,114 +4,105 @@
     "2026-04-13",
     "2026-04-19"
   ],
-  "total_items": 215,
-  "filtered_items": 186,
+  "total_items": 343,
+  "filtered_items": 271,
   "trend_map": [
     {
       "topic": "Claude Code",
       "days": [
         "04-13",
         "04-14",
-        "04-15"
+        "04-15",
+        "04-17",
+        "04-18",
+        "04-19"
       ],
       "impact": "high",
       "direction": "sustained"
     },
     {
-      "topic": "Anthropic / Opus (Opus 모델 업데이트 및 배포)",
+      "topic": "Codex",
+      "days": [
+        "04-14",
+        "04-15",
+        "04-16",
+        "04-19"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "days": [
+        "04-14",
+        "04-15",
+        "04-17",
+        "04-19"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Anthropic / Opus (Claude Opus 4.6 / 4.7 / Claude Design)",
+      "days": [
+        "04-14",
+        "04-15",
+        "04-17",
+        "04-19"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Gemma (Gemma 4 / Gemma in-browser)",
+      "days": [
+        "04-15",
+        "04-18",
+        "04-19"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Qwen (Qwen 3.5 / 3.6)",
+      "days": [
+        "04-14",
+        "04-17",
+        "04-19"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cloudflare (Agent Cloud / Cloudflare Mesh / Cloudflare-related infra outages)",
       "days": [
         "04-13",
-        "04-14",
         "04-15"
       ],
       "impact": "high",
-      "direction": "sustained"
+      "direction": "steady"
     },
     {
-      "topic": "OpenAI Agents / Agents SDK / Agentic integrations (Cloudflare Agent Cloud 등)",
-      "days": [
-        "04-13",
-        "04-14",
-        "04-15"
-      ],
-      "impact": "high",
-      "direction": "sustained"
-    },
-    {
-      "topic": "Cursor / Cursor ecosystem (Cursor 3, extensions, agent behavior)",
+      "topic": "Security incidents / vuln disclosures affecting open-source & infra (Django CVE, Axios header injection, WP plugin backdoor, trust-based attacks)",
       "days": [
         "04-13",
         "04-14"
       ],
-      "impact": "medium",
-      "direction": "steady"
-    },
-    {
-      "topic": "GitHub Copilot (CLI, Agents, 정책·요금 관련 이슈)",
-      "days": [
-        "04-14",
-        "04-15"
-      ],
-      "impact": "medium",
-      "direction": "steady"
-    },
-    {
-      "topic": "보안 사고·취약점 (오픈소스/인프라 대상 신뢰 기반 공격, Django CVE, Axios CRLF 등)",
-      "days": [
-        "04-13",
-        "04-14"
-      ],
       "impact": "high",
       "direction": "steady"
-    },
-    {
-      "topic": "로컬/온디바이스/오픈 모델(예: Gemma, Qwen, VoxCPM2)",
-      "days": [
-        "04-14",
-        "04-15"
-      ],
-      "impact": "high",
-      "direction": "steady"
-    },
-    {
-      "topic": "Cloudflare 관련 인프라 이벤트 (Docker pull 문제, Cloudflare Mesh 출시)",
-      "days": [
-        "04-13",
-        "04-15"
-      ],
-      "impact": "high",
-      "direction": "steady"
-    },
-    {
-      "topic": "Claude Mythos / Mythos Preview / Claude Managed Agents",
-      "days": [],
-      "impact": "high",
-      "direction": "fading"
     }
   ],
   "category_stats": {
     "에이전틱 코딩 & 프론티어 모델": {
-      "count": 108,
-      "high_count": 14
+      "count": 152,
+      "high_count": 21
     },
     "GitHub & 인프라 트렌드": {
-      "count": 78,
-      "high_count": 10
+      "count": 119,
+      "high_count": 15
     }
   },
   "top5": [
-    {
-      "title": "Developer policy update: Intermediary liability, copyright, and transparency",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/",
-      "mentions": 1,
-      "impact": "high"
-    },
-    {
-      "title": "The next evolution of the Agents SDK",
-      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "mentions": 1,
-      "impact": "high"
-    },
     {
       "title": "Claude Code Routines 공개",
       "url": "https://news.hada.io/topic?id=28533",
@@ -119,21 +110,37 @@
       "impact": "high"
     },
     {
-      "title": "단 20MB HTTP 패킷으로 Django 서버를 1분간 먹통 만드는 취약점이 공개되었습니다 (CVE-2026-33033)",
-      "url": "https://news.hada.io/topic?id=28512",
+      "title": "We tracked 977 million tokens across Claude Code users last week. Here's what the data looks like.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skxdf3/we_tracked_977_million_tokens_across_claude_code/",
       "mentions": 1,
       "impact": "high"
     },
     {
-      "title": "Cloudflare Mesh 출시 - 사용자, 노드, 에이전트, Workers를 위한 안전한 프라이빗 네트워킹",
-      "url": "https://news.hada.io/topic?id=28537",
+      "title": "Gemma 4를 Codex CLI에서 로컬 모델로 실행하기",
+      "url": "https://news.hada.io/topic?id=28510",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "Codex for (almost) everything",
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "Developer policy update: Intermediary liability, copyright, and transparency",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/",
       "mentions": 1,
       "impact": "high"
     }
   ],
   "daily_counts": {
     "2026-04-13": 32,
-    "2026-04-14": 125,
-    "2026-04-15": 29
+    "2026-04-14": 107,
+    "2026-04-15": 29,
+    "2026-04-16": 2,
+    "2026-04-17": 18,
+    "2026-04-18": 14,
+    "2026-04-19": 69
   }
 }
