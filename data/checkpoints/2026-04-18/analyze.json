@@ -1,0 +1,159 @@
+{
+  "items": [
+    {
+      "title": "베를린에서 중학생이 발견한 트로이 주화",
+      "summary": "<ul>\n<li><strong>기원전 281년~261년</strong> 사이 Ilion 조폐소에서 발행된 희귀 청동 주화가 Berlin의 Spandau 지구에서 발견됐으며, 베를린 시내에서 확인된 <strong>첫 그리스 고대 유물</strong></li>\n<li>직경 <strong>12mm</strong>, 무게 <strong>7g</strong> 규모로, 앞면에는 Corinthian helmet를 쓴 Athena...</p>",
+      "url": "https://news.hada.io/topic?id=28668",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "최근 공개된 기록들을 통해 Amazon의 가격 담합 행위가 드러남",
+      "summary": "<ul>\n<li>비공개 해제된 문서에는 Amazon이 <strong>독립 판매자 가격</strong>을 감시하고, 경쟁사 사이트 가격이 더 낮아질 경우 불이익을 줬다는 <strong>California 당국 주장</strong> 포함</li>\n<li>경쟁사 가격이 Amazon보다 낮으면 <strong>Buy Box 박탈</strong> 같은 핵심 기능 제한이 이뤄졌고, 일부 판매자는...</p>",
+      "url": "https://news.hada.io/topic?id=28667",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "데이터센터 투자, 미국의 역대 메가프로젝트 지출을 6년 만에 추월",
+      "summary": "<ul>\n<li><strong>데이터센터 capex</strong>가 단 <strong>6년간 약 9,300억 달러</strong>에 달해, 미국의 대표 메가프로젝트 누적 지출을 모두 상회함</li>\n<li>인플레이션을 반영한 <strong>2024년 달러 기준</strong>으로 비교한 그래프임</li>\n<li>기존 메가프로젝트는 <strong>Interstate Highway System(6,200억...</p>",
+      "url": "https://news.hada.io/topic?id=28666",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "이스라엘, 레바논에서 의료진 대상 치명적 ‘쿼드러플 탭’ 공격 확대",
+      "summary": "<ul>\n<li>구조 인력이 모인 뒤 다시 타격하는 <strong>double-tap</strong>을 넘어, 초기 공습 뒤 세 차례 추가 공격이 이어진 <strong>quadruple tap</strong> 양상이 레바논 남부 구급 현장에서 발생</li>\n<li>Mayfadoun 구조 현장에서는 서로 다른 구급차 조직 소속 의료진과 차량이 연속 공격을 받았고, <strong>구급...</p>",
+      "url": "https://news.hada.io/topic?id=28665",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "iTerm2를 사용한다면, \"cat readme.txt\"도 안전하지 않다",
+      "summary": "<ul>\n<li><strong>SSH integration</strong>은 원격 셸과 통신하기 위해 터미널 <strong>escape sequence</strong>를 사용하며, 이 구조 때문에 일반 터미널 출력도 conductor 프로토콜처럼 해석될 수 있음</li>\n<li>핵심 문제는 <strong>신뢰 실패</strong>로, 실제 원격 conductor가 아닌 <strong>악성 파일·배너·MOTD...</p>",
+      "url": "https://news.hada.io/topic?id=28664",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "몇 달 동안 손으로 코딩하는 중이에요",
+      "summary": "<ul>\n<li>AI 코딩 에이전트가 보편화된 시점에 오히려 <strong>LLM 없이 손으로 코딩</strong>하는 3개월 리트릿(Retreat)에 참여한 개발자의 기록</li>\n<li>Brooklyn의 <strong>Recurse Center</strong>에서 6주차를 보내며 LLM을 직접 처음부터 구축하고, Python 실력을 다지며 컴퓨터의 여러 추상화 계층에 대한 이해...</p>",
+      "url": "https://news.hada.io/topic?id=28663",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "NASA Force",
+      "summary": "<ul>\n<li>미국의 <strong>우주비행·항공·과학 임무 핵심 역할</strong>에 기술 인재를 유치하는 <strong>새 채용 이니셔티브</strong></li>\n<li>초기~중견 경력의 <strong>엔지니어·기술자·혁신가</strong>를 대상으로 하며, 보통 <strong>1~2년 기간 임명</strong> 형태로 참여하고 연장 가능성 명시</li>\n<li>실제 임무...</p>",
+      "url": "https://news.hada.io/topic?id=28662",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: oh-my-customcode — Claude Code 에이전트를 \"설정\"이 아니라 \"컴파일\"하는 툴",
+      "summary": "<p>Claude Code로 에이전트 여러 개 붙여 쓰다 보면 같은 벽에 계속 부딪힙니다.<br />\n스킬 문서 쓰고, 에이전트 YAML 붙이고, 룰 꽂고, 라우팅 엮고,<br />\n충돌 나면 CLAUDE.md 직접 손보고. 프로젝트 바꿀 때마다 이걸 또 하고 있더군요.</p>\n<p>그래서 oh-my-customcode를 만들었습니다.<br />\nREADME 최상단 한 줄",
+      "url": "https://news.hada.io/topic?id=28661",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Contexty — AI의 컨텍스트를 개발자가 직접 보고 통제할 수 있게 해주는 도구",
+      "summary": "<blockquote>\n<p>\"왜 당신의 AI는 항상 소문보다 멍청하다고 느껴지는가\"</p>\n</blockquote>\n<ul>\n<li>컨텍스트가 쌓일수록 모델 성능이 점점 떨어지는 느낌</li>\n<li>새 채팅으로 넘어가면 이전 전제를 매번 설명해야 하는 번거로움</li>\n<li><code>/compact</code>를 쓰면 너무 많은 컨텍스트를 잃어버림</l",
+      "url": "https://news.hada.io/topic?id=28660",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: 새로 만든 VS Code Git Graph 익스텐션 Git Graph Plus",
+      "summary": "<p>기존에 많은 분들이 사용하던 VS Code의 'Git Graph' 익스텐션이 3년 이상 업데이트가 중단되어 있어, 이를 대체하고자 개발한 'Git Graph Plus'를 소개합니다.</p>\n<p>기존 Git Graph의 오래된 UI와 유지보수 중단 문제를 해결하기 위해 시작한 프로젝트입니다.</p>\n<p>Svelte를 사용하여 UI와 렌더링 부분을 처음부",
+      "url": "https://news.hada.io/topic?id=28659",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Qwen3.5 모델 양자화, 왜 커뮤니티 버전은 성능이 떨어지나",
+      "summary": "<p>AI 모델을 더 작고 빠르게 압축하는 기술인 '양자화(quantization)'에서 커뮤니티가 배포한 MLX 포맷 Qwen3.5 모델들이 도구 호출 오류, 무의미한 출력, 환각(hallucination) 현상을 보이는 원인이 기술적으로 규명됐다. AI 파인튜닝 도구 업체 Unsloth가 150개 이상의 벤치마크 실험을 통해 원인과 해법을 제시한 내...</p>",
+      "url": "https://news.hada.io/topic?id=28658",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Smol machines – 1초 미만 콜드스타트 및 포터블 한 가상머신",
+      "summary": "<ul>\n<li><strong>smolvm</strong>은 macOS와 Linux에서 동작하는 <strong>CLI 기반 가상머신 관리 도구</strong>로, 격리된 환경에서 소프트웨어를 실행</li>\n<li><strong>서브초(1초 미만) 콜드스타트</strong>, <strong>탄력적 메모리 관리</strong>, <strong>단일 파일 이식성</strong>을 지원해 빠르고 가벼운 VM 실...</p>",
+      "url": "https://news.hada.io/topic?id=28657",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "달의 유독한 면 (2018)",
+      "summary": "<ul>\n<li>아폴로 우주비행사들은 달 표면에서 돌아온 뒤 <strong>화약 냄새가 나는 먼지</strong>로 인해 <strong>재채기와 코막힘</strong> 같은 증상을 겪음</li>\n<li>이 <strong>달 먼지</strong>는 규산염을 포함한 <strong>날카롭고 정전기적으로 대전된 입자</strong>로, 폐 깊숙이 침투해 <strong>염증과 세포 손...</p>",
+      "url": "https://news.hada.io/topic?id=28655",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "AI 코딩 시대, 성장이 멈추는 개발자의 뇌에서 일어나는 일",
+      "summary": "<h3>TL;DR;</h3>\n<ul>\n<li>AI를 잘 쓰는 핵심 역량은 출력물의 품질을 판단하고 교정하는 능력이며, 이 능력은 AI에 의존할수록 오히려 약화됨</li>\n<li>Bjork의 \"바람직한 어려움\" 이론에 따르면, 쉽게 처리한 정보는 장기 기억에 남지 않음</li>\n<li>Roediger &amp; Karpicke(2006) 연구에서 인출 연습 그룹...</p>",
+      "url": "https://news.hada.io/topic?id=28653",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: 웹 Gemini를 VSCode처럼 - Gemini VSCode Theme 크롬 익스텐션",
+      "summary": "<p>안녕하세요,</p>\n<p>웹 Gemini (https://gemini.google.com/) 인터페이스 자체를 VS Code처럼 바꿔버리는 익스텐션을 만들어 보았습니다.</p>\n<p>주요 기능:<br />\n• VS Code Dark+ 테마 - 익숙한 색상 팔레트 그대로<br />\n• 라인 넘버 - 모든 코드 블록에 자동 거터 번호 표시<br />\n• 액티비티 바 &amp; 사이드",
+      "url": "https://news.hada.io/topic?id=28651",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Is Your Site Agent-Ready? - 당신의 사이트는 에이전트에 대응하나요?",
+      "summary": "<ul>\n<li>Cloudflare가 만든 도구로, 자신의 웹사이트가 <strong>에이전트에 얼마나 적합</strong>한지 점수로 표시</li>\n<li><strong>AI 에이전트 대응 수준을 진단</strong>하고 인증·콘텐츠 포맷·접근 제어·결제 방식 등 최적화 방향 확인 가능</li>\n<li>실패 항목마다 <strong>코딩 에이전트에게 바로 전달 가능한 프...</p>",
+      "url": "https://news.hada.io/topic?id=28650",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Nilbox – API 토큰 노출 없이 OpenClaw를 실행하세요",
+      "summary": "<p>OpenClaw를 안전하게 쓰고 싶어서 만들었습니다. 문제는 어떤 샌드박스를 써도<br />\n실제 API 토큰이 환경 변수로 에이전트에 그대로 넘어간다는 거였습니다.</p>\n<p>Nilbox는 에이전트에게 실제 토큰을 주지 않습니다. 대신 가짜 플레이스홀더를 넘기고<br />\n(ANTHROPIC_API_KEY=ANTHROPIC_API_KEY), 실제 API 호출",
+      "url": "https://news.hada.io/topic?id=28649",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "미국 법안, 모든 기기에 온디바이스 연령 확인 의무화",
+      "summary": "<ul>\n<li><strong>Parents Decide Act(H.R. 8250)</strong> 는 모든 <strong>운영체제 제공자</strong>가 신규 기기 설정 시 사용자 <strong>생년월일 입력을 요구</strong>하도록 의무화함</li>\n<li><strong>Apple·Google</strong>뿐 아니라 <strong>노트북, 콘솔, 스마트 TV, 차량 시스템</strong> 등 모든 범용 컴퓨팅...</p>",
+      "url": "https://news.hada.io/topic?id=28648",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "정밀 위치정보 판매 금지",
+      "summary": "<ul>\n<li>미국 광고기술 기반 감시 시스템 <strong>Webloc</strong>이 전 세계 최대 5억 대의 모바일 기기에서 <strong>정밀 위치데이터</strong>를 수집·판매하고 있음</li>\n<li>이 데이터는 <strong>기기 식별자, 좌표, 앱 프로필</strong>을 포함하며, <strong>미국 경찰·군·연방기관</strong> 등 다양한 정부 조직이...</p>",
+      "url": "https://news.hada.io/topic?id=28647",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "아이작 아시모프: 마지막 질문 (1956)",
+      "summary": "<ul>\n<li>인류는 <strong>태양 에너지 변환 기술</strong>을 완성하고, 거대 컴퓨터 <strong>Multivac</strong>의 도움으로 문명을 확장하며 <strong>엔트로피를 되돌릴 수 있는가</strong>를 묻기 시작함</li>\n<li>세대를 거듭하며 인류는 <strong>Microvac</strong>을 통해 행성 간 이주를 일상화하고, 우주의 </p>",
+      "url": "https://news.hada.io/topic?id=28646",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Gemma Gem - 브라우저에서 Google Gemma 4 모델을 완전 온디바이스로 실행하는 Chrome 확장",
+      "summary": "<ul>\n<li>Google의 <strong>Gemma 4 모델</strong>을 <strong>WebGPU</strong> 기반으로 완전 온디바이스 실행해서 브라우저 안에 상주하는 <strong>개인 AI 어시스턴트</strong>로 활용</li>\n<li><strong>API 키·클라우드·외부 데이터 전송 없음</strong> - 모든 추론이 로컬에서 처리되며 데이터가 기기를 벗어나지 않...</p>",
+      "url": "https://news.hada.io/topic?id=28645",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Thoughts and feelings around Claude Design",
+      "summary": "<p>Article URL: <a href=\"https://samhenri.gold/blog/20260418-claude-design/\">https://samhenri.gold/blog/20260418-claude-design/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47818700\">https://news.ycombinator.com/item?id=47818700</a></p>\n<p>Points: 326</p>\n<p># Comments: 203</p>",
+      "url": "https://samhenri.gold/blog/20260418-claude-design/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}
