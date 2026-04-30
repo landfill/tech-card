@@ -45,28 +45,43 @@ uv tool install rdt-cli         # Reddit 검색 (실패 시 JSON API 자동 fall
 | `.venv/bin/python -m pipeline --weekly --date 2026-04-12` | **특정 날짜가 포함된 주** 주간 레터 생성 |
 | `.venv/bin/python -m pipeline --config-dir config --data-dir data --skills-dir skills` | 설정/데이터/스킬 경로 지정 |
 
-### 2. 백엔드 API (레터 목록·피드백·파이프라인 제어)
+### 2. 백엔드 API
 
 ```bash
+# 공개 사용자 API
 .venv/bin/uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+
+# 관리자 내부 API
+.venv/bin/uvicorn backend.admin_app:app --reload --host 0.0.0.0 --port 8001
 ```
 
-- 발송 내역: `GET /api/letters`, `GET /api/letters/{date}`
-- 피드백: `POST /api/feedback`, `GET /api/feedback/types`
-- **파이프라인**: `GET /api/pipeline/status?date=`, `POST /api/pipeline/run`, `POST /api/pipeline/run-step`
-- **주간 레터**: `GET /api/weekly`, `GET /api/weekly/{week_id}`, `GET /api/weekly/{week_id}/meta`, `POST /api/weekly/run`
-- **프롬프트 진화**: `GET /api/evolution/versions/{agent}`, `GET /api/evolution/current/{agent}`, `POST /api/evolution/evolve`, `POST /api/evolution/rollback`
+- 공개 사용자 API:
+  - `GET /api/letters`, `GET /api/letters/by-weekday`, `GET /api/letters/{date}`, `GET /api/letters/{date}/info`
+  - `GET /api/weekly`, `GET /api/weekly/{week_id}`, `GET /api/weekly/{week_id}/meta`, `GET /api/weekly/{week_id}/cards`
+  - `GET /api/feedback/types`, `POST /api/feedback`
+- 관리자 내부 API:
+  - `DELETE /api/letters/{date}`
+  - `GET /api/pipeline/status`, `POST /api/pipeline/run`, `POST /api/pipeline/run-step`
+  - `GET /api/weekly/{week_id}/status`, `POST /api/weekly/run`
+  - `GET /api/evolution/logs/{agent}`, `GET /api/evolution/current/{agent}`, `POST /api/evolution/evolve`, `POST /api/evolution/rollback`
 
 ### 3. 프론트엔드 (웹 UI)
 
 ```bash
-cd frontend && npm install && npm run dev
+cd frontend && npm install
+
+# 공개 사용자 프론트
+npm run dev:public
+
+# 관리자 내부 프론트
+npm run dev:admin
 ```
 
-- 프론트: **http://localhost:5173**
-- API 연동: 기본값은 `scripts/run-dev.sh` 가 `BACKEND_PORT` 에 맞춰 자동 주입. 수동 고정이 필요하면 `frontend/.env` 에 `VITE_API_BASE=http://localhost:8000` 설정
-- **파이프라인 탭**: 날짜 선택 → 전체 실행 / 단계만·단계부터 실행, 진행 상황 폴링
-- **주간 리뷰 탭**: 트렌드맵, 카테고리 비중, Top5, 주간 레터 본문
+- 공개 프론트: **http://localhost:5173/index.public.html**
+- 관리자 프론트: **http://localhost:5174/index.admin.html**
+- 공개 프론트는 조회 + 피드백만 제공한다.
+- 관리자 프론트는 파이프라인/주간 생성/삭제 같은 운영 기능을 제공한다.
+- admin 프론트는 `VITE_API_BASE`(public read API)와 `VITE_ADMIN_API_BASE`(admin ops API)를 분리해서 받을 수 있다.
 
 ### 4. 백엔드 + 프론트 한 번에 실행
 
@@ -76,19 +91,19 @@ cd frontend && npm install && npm run dev
 # 최초 1회: frontend 의존성 설치
 cd frontend && npm install && cd ..
 
-# 백엔드(8000) + 프론트(5173) 동시 실행. 종료: Ctrl+C
+# 공개 백엔드(8000) + 공개 프론트(5173) 동시 실행. 종료: Ctrl+C
 chmod +x scripts/run-dev.sh
 ./scripts/run-dev.sh
 ```
 
-- 백엔드: **http://localhost:8000**
-- 프론트: **http://localhost:5173**
+- 공개 백엔드: **http://localhost:8000**
+- 공개 프론트: **http://localhost:5173**
 - 포트 변경: `BACKEND_PORT=9000 ./scripts/run-dev.sh`
-  - 프론트 API 대상도 자동으로 `http://localhost:9000` 으로 맞춰짐
+  - 프론트 API 대상은 `/api` 프록시를 통해 공개 백엔드로 연결됨
 
 **방법 B: 터미널 두 개**
 
-| 터미널 1 (백엔드) | 터미널 2 (프론트) |
+| 터미널 1 (공개 백엔드) | 터미널 2 (공개 프론트) |
 |------------------|------------------|
 | `.venv/bin/uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000` | `cd frontend && npm run dev` |
 
@@ -188,11 +203,14 @@ UI에서 피드백을 제출하면 즉시 연관 에이전트의 프롬프트가
 ```
 UI 피드백 제출
   └─ POST /api/feedback
-       ├─ data/feedback/YYYY-MM-DD.json 저장 (즉시 응답)
-       └─ 백그라운드: evolve_prompt(force=True)
-            └─ LLM이 현재 skills/{agent}.md + 피드백을 분석해 개선본 생성
-                 ├─ skills/{agent}.md 직접 덮어쓰기
-                 └─ data/prompt_evolution_log/{agent}/TIMESTAMP.json 저장 (이전 내용·diff 보관)
+       └─ 동기 처리:
+            ├─ data/feedback/YYYY-MM-DD.json 저장
+            ├─ evolve_prompt(force=True) 즉시 실행
+            ├─ skills/{agent}.md 직접 덮어쓰기
+            └─ data/prompt_evolution_log/{agent}/TIMESTAMP.json 저장
+
+실패 시
+  └─ feedback 파일 + skills/{agent}.md + prompt_evolution_log 를 요청 전 상태로 롤백하고 non-200 반환
 
 다음 파이프라인 실행 시
   └─ run_agent("letter_generate", ...)

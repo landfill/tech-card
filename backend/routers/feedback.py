@@ -1,73 +1,22 @@
 """피드백 제출 API."""
-import logging
-import threading
-from pathlib import Path
+from datetime import date, datetime
 
-from fastapi import APIRouter, BackgroundTasks
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
-from backend.paths import get_config_dir, get_data_dir
+from backend.services.feedback import (
+    FeedbackEvolutionBusyError,
+    FeedbackTransactionError,
+    submit_feedback,
+)
 
 router = APIRouter()
-logger = logging.getLogger(__name__)
-
-# 동시 피드백에 의한 skills/*.md 동시 쓰기 방지
-_evolution_lock = threading.Lock()
-
-
-def _data_dir() -> Path:
-    return get_data_dir()
 
 
 class FeedbackCreate(BaseModel):
     issue_date: str
     type: str
     content: str
-
-
-def _trigger_evolution(feedback_type: str) -> None:
-    """피드백 타입과 연관된 에이전트를 즉시 진화 (force=True)."""
-    from datetime import date
-    from pipeline.prompt_evolution import EVOLUTION_TARGETS, evolve_prompt
-    from pipeline.llm.client import get_llm_client
-
-    data_dir = _data_dir()
-    skills_dir = data_dir.parent / "skills"
-    config_dir = get_config_dir()
-    llm_path = config_dir / "llm.yaml"
-    if not llm_path.is_file():
-        llm_path = config_dir / "llm.yaml.example"
-
-    try:
-        llm_client = get_llm_client(llm_path)
-    except Exception as e:
-        logger.warning("피드백 진화 스킵 — LLM 클라이언트 초기화 실패: %s", e)
-        return
-
-    for agent_name, target_types in EVOLUTION_TARGETS.items():
-        if feedback_type not in target_types:
-            continue
-        try:
-            if not _evolution_lock.acquire(blocking=False):
-                logger.info("진화 스킵 (%s): 다른 진화 진행 중", agent_name)
-                continue
-            try:
-                version = evolve_prompt(
-                agent_name=agent_name,
-                data_dir=str(data_dir),
-                skills_dir=skills_dir,
-                llm_client=llm_client,
-                anchor_date=date.today(),
-                force=True,
-            )
-                if version is not None:
-                    logger.info("피드백 진화 완료: skills/%s.md", agent_name)
-            finally:
-                _evolution_lock.release()
-        except Exception as e:
-            logger.warning("피드백 진화 실패 (%s): %s", agent_name, e)
-
-
 @router.get("/types")
 def get_feedback_types():
     """사용 가능한 피드백 유형 목록."""
@@ -76,15 +25,15 @@ def get_feedback_types():
 
 
 @router.post("")
-def create_feedback(body: FeedbackCreate, background_tasks: BackgroundTasks):
-    """피드백 한 건 저장 후 연관 에이전트 프롬프트를 백그라운드에서 즉시 진화."""
-    from pipeline.feedback_store import save_feedback
-    from datetime import datetime
+def create_feedback(body: FeedbackCreate):
+    """피드백 저장과 연관 프롬프트 진화를 동기적으로 완료한다."""
     try:
         d = datetime.strptime(body.issue_date, "%Y-%m-%d").date()
     except ValueError:
-        from datetime import date
         d = date.today()
-    save_feedback(str(_data_dir()), d, body.type, body.content)
-    background_tasks.add_task(_trigger_evolution, body.type)
-    return {"ok": True}
+    try:
+        return submit_feedback(issue_date=d, feedback_type=body.type, content=body.content)
+    except FeedbackEvolutionBusyError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    except FeedbackTransactionError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc

@@ -1,0 +1,313 @@
+{
+  "items": [
+    {
+      "title": "Lightwhale 3: Linux 서버를 다시 재미있게 만들기",
+      "summary": "\nDocker 컨테이너 전용으로 설계된 경량 Linux 서버 OS로, ISO 부팅 시 곧바로 Docker Engine 환경에 진입하고 코어를 불변·무상태로 유지하며 /etc, /var, /home과 Docker 데이터만 별도 쓰기로 처리하는 방식으로 서버 운영을 단순화함.",
+      "url": "https://news.hada.io/topic?id=28916",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "지식 노동의 시뮬라크르",
+      "summary": "\n지식 노동의 품질 검증이 어렵고 표면적 완성도 같은 대리 지표에 의존하는 경향을 지적하며, 작은 표면적 결함으로 결과를 과도하게 폐기하는 문제 등을 논의함.",
+      "url": "https://news.hada.io/topic?id=28915",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "1980년대 Commodore 64 게임의 Martin Galway 음악 소스 파일",
+      "summary": "\nCommodore 64 시절 게임 음악의 소스 파일을 공개해 당시 음악 플레이어의 내부 구현을 확인하고 재조립·수정·새 음악 생성에 활용할 수 있게 함(사용 시 크레딧 요구).",
+      "url": "https://news.hada.io/topic?id=28914",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Turbo Vision 2.0 - 현대적인 포트",
+      "summary": "\n고전 텍스트 UI 프레임워크를 UTF-8·확장 색상 등을 지원하는 공통 개발 기반으로 현대화해 Linux·Windows에서 소스 수준 호환성을 유지하며 재사용 가능하게 함.",
+      "url": "https://news.hada.io/topic?id=28913",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Google, Anthropic에 현금과 컴퓨트로 최대 400억 달러 투자",
+      "summary": "\nAI 컴퓨트 확보 경쟁이 심화되는 가운데 Google이 Anthropic에 현금과 인프라를 묶어 최대 400억 달러를 투자할 계획(초기 100억 달러 집행 포함), 업계 경쟁·생태계에 중대한 영향을 미칠 가능성이 크다.",
+      "url": "https://news.hada.io/topic?id=28912",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Niri 26.04: 스크롤형 타일링 Wayland 컴포지터",
+      "summary": "\n스크롤형 타일링 Wayland 컴포지터에 배경 흐림, 스크린캐스트, 렌더링 및 입력 처리 개선이 더해져 완성도가 올라감; ext-background-effect 지원 등으로 설정 없이도 흐림 효과 사용 가능.",
+      "url": "https://news.hada.io/topic?id=28911",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Karpathy 스타일 LLM 위키를 에이전트들이 직접 유지하는 시스템 - Markdown과 Git 기반",
+      "summary": "\n여러 AI 에이전트가 브라우저 UI와 역할별 팀 구성으로 가시적인 작업 흐름을 유지하며 협업하는 구조를 제안하고, 에이전트별 notebook과 팀 공용 wiki로 메모리를 분리해 관리하는 접근을 설명함.",
+      "url": "https://news.hada.io/topic?id=28910",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "AI 산업은 대중이 자신들을 혐오한다는 사실을 발견하고 있음",
+      "summary": "\nAI와 데이터센터를 둘러싼 반감이 심화되어 CEO 자택 공격, 데이터센터 관련 폭력 사건 등이 발생하고 있으며 전문가 낙관론과 대중 인식의 간극이 커지고 있음을 다룸.",
+      "url": "https://news.hada.io/topic?id=28909",
+      "category": "산업별 AX",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: Violit - Streamlit 대안으로 시작했던 파이썬 웹 프레임워크 대규모 업데이트 (ORM/Auth 내장)",
+      "summary": "\nStreamlit의 전체 재실행 병목을 해결하려고 만든 파이썬 웹 프레임워크 Violit이 ORM과 인증을 내장한 대규모 업데이트를 발표했으며 깃허브 스타가 증가한 오픈소스 프로젝트임.",
+      "url": "https://news.hada.io/topic?id=28908",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Clarc - 비개발자 동료들도 Claude Code 쓸 수 있게 만든 macOS 앱",
+      "summary": "\n비개발자도 터미널·CLI 설정 없이 Claude Code를 사용할 수 있게 해주는 macOS 앱을 소개하며, 개발자 외 사용자 접근성 개선에 초점을 둔 프로젝트임.",
+      "url": "https://news.hada.io/topic?id=28905",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "코딩 보조 도구로 끝내지 못할 프로젝트 되살리기",
+      "summary": "\n오래 묵은 개인 프로젝트를 마무리하는 데 코딩 보조 도구를 활용한 사례를 공유하며, OpenSubsonic API를 이용해 YouTube Music을 노출하는 shim 등을 다시 구현한 경험을 설명함.",
+      "url": "https://news.hada.io/topic?id=28904",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "USB 치트시트 (2022)",
+      "summary": "\nUSB 세대별 마케팅 이름과 규격 혼동(USB 3.0/3.1/3.2/Gen1 등)을 정리하고 세대별 신호 속도, MiB/s 환산, 필요한 선 수, 케이블 길이 등을 비교한 요약표를 제공함.",
+      "url": "https://news.hada.io/topic?id=28903",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "ChatGPT를 활용한 아마추어가 Erdős 문제를 풀다",
+      "summary": "\n오래된 수학 문제(primitive set의 Erdős sum 관련)가 GPT-5.4 Pro가 만든 해법으로 풀렸다고 보고되었으며, 한 번의 프롬프트로 얻은 해법이 공개된 사례를 다룸.",
+      "url": "https://news.hada.io/topic?id=28902",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "플레인 텍스트는 수십 년 동안 이어져 왔고 앞으로도 남을 것",
+      "summary": "\n모노스페이스 평문 기반 다이어그램·UI 설계 도구의 재발견과 텍스트 편집 인터페이스의 익숙함·파일 형식 이식성의 지속력에 대해 논의함.",
+      "url": "https://news.hada.io/topic?id=28900",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "grdpwasm - 웹 기반 RDP 클라이언트",
+      "summary": "\n브라우저만으로 플러그인 없이 Windows 원격 데스크톱에 접속할 수 있는 웹 기반 RDP 클라이언트로, Go WebAssembly를 사용하고 서버 측 WebSocket-to-TCP 프록시와 분리해 동작함.",
+      "url": "https://news.hada.io/topic?id=28899",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code 루틴이 내 재정을 지켜볼 수 있을까?",
+      "summary": "\n금융 계좌 데이터와 MCP 커넥터를 연결해 잔액·거래내역·투자·대출 정보를 바탕으로 반복적인 재무 점검을 자동화할 수 있음을 논의하고, 기존 Codex CLI 기반 방식의 한계(웹 로그인, 2FA 등)를 지적함.",
+      "url": "https://news.hada.io/topic?id=28898",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "CSS를 질의 언어로 보기",
+      "summary": "\nCSS의 선택자와 규칙이 집합을 고르고 속성을 적용하는 방식이 Datalog 같은 질의 언어와 구조적으로 닮아 있음을 설명하고, 선택자 결합과 집합 연산의 유사성을 분석함.",
+      "url": "https://news.hada.io/topic?id=28897",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "GPT-5.5 바이오 버그 바운티",
+      "summary": "\n생물학 안전장치를 점검하기 위해 GPT‑5.5를 대상으로 다섯 개의 바이오 안전 질문을 모두 통과시키는 범용 jailbreak 탐색 프로그램이 열렸으며, 범위는 Codex Desktop 전용 GPT‑5.5로 제한됨.",
+      "url": "https://news.hada.io/topic?id=28896",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Trump, 미국 국립과학재단(NSF) 감독 기구인 국가과학위원회 위원 24명 전원 해임",
+      "summary": "\n트럼프 대통령이 NSF를 감독하는 국가과학위원회(NSB) 위원 24명을 즉시 해임했으며, 과학계에서는 연구 기관 독립성 훼손 우려로 해석되고 있음(NSB는 NSF 예산·정책 자문 기구).",
+      "url": "https://news.hada.io/topic?id=28895",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "IBM Quantum 백엔드를 /dev/urandom으로 교체",
+      "summary": "\nIBM Quantum 백엔드를 os.urandom으로 바꾼 상태에서 개인키 복구가 재현되는 사례를 제시하며, 소스 코드의 작은 변경(59줄)으로도 보안·암호 구현에 중대한 영향이 날 수 있음을 보임.",
+      "url": "https://news.hada.io/topic?id=28894",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Firefox, Brave의 광고 차단 엔진 통합",
+      "summary": "\nBrave의 오픈소스 광고·추적 차단 엔진 adblock-rust가 Firefox 149에 포함되었으나 기본 비활성 상태이며, Rust로 작성된 엔진이 네트워크 차단·cosmetic filtering 등을 지원함.",
+      "url": "https://news.hada.io/topic?id=28893",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "새 10 GbE USB 어댑터는 더 시원하고, 더 작고, 더 저렴함",
+      "summary": "\nRTL8159 기반 10G USB 3.2 어댑터가 기존 Thunderbolt 10GbE보다 작고 저렴한 대안으로 부상했으며, 성능은 USB 포트 대역폭에 크게 좌우됨을 테스트 결과로 제시함.",
+      "url": "https://news.hada.io/topic?id=28892",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "mini-swe-agent - 100줄짜리 AI 에이전트로 GitHub 이슈 해결 및 커맨드라인 지원",
+      "summary": "\nPrinceton·Stanford 팀이 개발한 약 100줄의 초경량 AI 소프트웨어 엔지니어링 에이전트로, 큰 설정 없이 bash만 도구로 사용해 GitHub 이슈 해결과 CLI 지원을 목표로 함.",
+      "url": "https://news.hada.io/topic?id=28891",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Our principles",
+      "summary": "\nOpenAI의 사명과 업무를 이끄는 다섯 가지 원칙을 간단히 소개하는 페이지로, 회사의 가치·안전·공익 목표를 정리함.",
+      "url": "https://openai.com/index/our-principles",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Zero-Cost Transparent Semiotic Awareness for Frozen Language Models SRT-Adapter",
+      "summary": "\nFrozen language model에 투명한 의미 인식을 더하는 SRT-Adapter에 대한 소개 글로, 관련 연구·설계 아이디어와 원문 링크를 제공함.",
+      "url": "https://sublius.substack.com/p/srt-adapter-transparent-semiotic",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Former MIT president says the US is losing the innovation race to China",
+      "summary": "\n전 MIT 총장이 미국이 중국에 비해 혁신 경쟁에서 뒤처지고 있다는 견해를 밝힌 NPR 기사 링크(원문 제공).",
+      "url": "https://www.npr.org/2026/04/25/nx-s1-5772703/former-mit-president-says-the-us-is-losing-the-innovation-race-to-china",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Voice Modems",
+      "summary": "\n음성 모뎀에 관한 회고성 글 링크(원문 제공).",
+      "url": "https://computer.rip/2026-04-26-voice-modems.html",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Human AI Collaboration in LIterature",
+      "summary": "\n문학 분야에서의 인간·AI 협업 역사와 사례를 정리한 글 링크(원문 제공).",
+      "url": "https://indignified.com/history-of-human-ai-collaboration-in-literature/",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Generative design of novel bacteriophages with genome language models [pdf]",
+      "summary": "\n생체 설계 응용으로 genome language model을 사용해 새로운 박테리오파지를 설계하는 연구(preprint)로, 생성 모델의 생물학적 응용과 안전성 이슈를 내포함.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1.full.pdf",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Built a safety-first options automation tool for covered calls",
+      "summary": "\nPutHouse.com이라는 자동화된 커버드콜·현금담보풋 도구를 개발해 Alpaca 연동으로 보수적 규칙 기반 옵션 자동화를 제공하는 서비스 출시 및 설계 철학을 설명함.",
+      "url": "https://news.ycombinator.com/item?id=47915929",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Why cars charge 5x faster in China when the research is shared?",
+      "summary": "\n연구 공유가 중국의 전기차 충전 속도 개선에 미친 영향 등을 분석한 에세이 링크(원문 제공).",
+      "url": "https://cyrusradfar.com/thoughts/why-cars-charge-5x-faster-in-china/",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "America's Pandemic Car Bubble Is Now Trapping Buyers in Debt",
+      "summary": "\n팬데믹으로 인한 자동차 시장 변화가 소비자 부채 확대와 네거티브 이퀴티 문제를 야기하고 있다는 WSJ 기사 링크(원문 제공).",
+      "url": "https://www.wsj.com/business/autos/car-owners-debt-negative-equity-3cfcd031",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Our Principles",
+      "summary": "\nOpenAI의 원칙 페이지 링크(원문 제공).",
+      "url": "https://openai.com/index/our-principles/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "A New Idea to Save the Climate? Dam the Bering Strait.",
+      "summary": "\n기후 개입 방안으로 베링해협을 막는 아이디어를 소개하고 장단점·위험을 논의한 NYT 기사 링크(원문 제공).",
+      "url": "https://www.nytimes.com/2026/04/24/climate/amoc-bering-strait-dam.html",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Sabastian Sawe becomes first person to break two-hour marathon mark",
+      "summary": "\nSabastian Sawe가 마라톤 두 시간 기록을 깨고 세계 최초로 2시간 벽을 깼다는 스포츠 기사 링크(원문 제공).",
+      "url": "https://www.rte.ie/sport/athletics/2026/0426/1570275-sawe-becomes-first-man-to-break-two-hour-mark-in-marathon/",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Show HN: Nitrum – Rust Toolkit and CLI for AWS Nitro Enclaves",
+      "summary": "\nAWS Nitro Enclaves용 Rust 툴킷 및 CLI 프로젝트 GitHub 링크로, enclave 기반 보안 워크플로우를 도와주는 개발자 도구임.",
+      "url": "https://github.com/matzapata/nitrum",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I Learned to Stop Worrying and Love Coding with AI",
+      "summary": "\nAI와 함께 코딩하는 경험을 개인적 관점에서 정리한 에세이로, 코딩 보조 도구에 대한 심리·실무적 수용을 다룸.",
+      "url": "https://jeffield.net/blog/claude-strangelove-or-how-i-learned-to-stop-worrying-and-love-coding-with-ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "The Atari 1200XL – By Paul Lefebvre",
+      "summary": "\nAtari 1200XL 내부와 역사에 관한 회고 기사 링크(원문 제공).",
+      "url": "https://www.goto10retro.com/p/inside-the-atari-1200xl",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Did You Say \"Intellectual Property\"? It's a Seductive Mirage",
+      "summary": "\nGNU에서 지적 재산권 개념에 대해 비판적으로 접근하는 글로, IPR(지적재산권)에 대한 철학적·정책적 논의를 제공함(원문 링크).",
+      "url": "https://www.gnu.org/philosophy/not-ipr.html.en",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "FreeBSD Device Drivers Book",
+      "summary": "\nFreeBSD 디바이스 드라이버 작성법을 정리한 오픈소스 책(리포지토리 링크)으로 학습·참고용 자료임.",
+      "url": "https://github.com/ebrandi/FDD-book",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Jaeger adopts OpenTelemetry at its core to solve the AI agent observability gap",
+      "summary": "\nJaeger가 OpenTelemetry를 핵심으로 채택해 AI 에이전트 관측성의 공백을 메우려는 변화와 의도, 구현적 시사점을 설명함(원문 링크).",
+      "url": "https://thenewstack.io/jaeger-v2-ai-observability/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Intel reportedly says it boosted yields by selling what would normally be scrap",
+      "summary": "\nIntel이 생산 수율을 높이기 위해 통상적으로 폐기되는 저등급 칩을 판매해 수율 통계를 개선했다는 보도를 정리한 기사 링크(원문 제공).",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reportedly-says-it-boosted-yields-by-selling-what-would-normally-be-scrap-or-low-expectation-cpus-customers-more-willing-to-accept-lesser-chips-due-to-overwhelming-cpu-demand",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "The tortoise and the hare: will China beat the US in the race back to the moon?",
+      "summary": "\n중국과 미국의 달 재복귀 경쟁을 비교·분석한 기사로 각국의 전략·장애물·타임라인을 논의함(가디언 원문 링크).",
+      "url": "https://www.theguardian.com/science/2026/apr/26/china-us-space-race-moon",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: CheckThisOut – a filtered directory of side hustles and AI tools",
+      "summary": "\n사이드 허슬과 AI 도구를 분야별로 필터링해 모아둔 디렉터리 사이트로, 유용한 툴·서비스를 큐레이션해 제공함.",
+      "url": "https://checkthisout.com/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}

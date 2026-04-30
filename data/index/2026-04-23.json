@@ -1,0 +1,484 @@
+{
+  "items": [
+    {
+      "title": "Zed의 병렬 에이전트 기능 소개",
+      "summary": "\n<ul>\n<li>같은 창 안에서 <strong>여러 agent 스레드</strong>를 동시에 실행하고 조율할 수 있게 바뀌었고, 새 <strong>Threads Sidebar</strong>에서 각 스레드의 폴더·저장소 접근 범위를 제어하며 실행 상태를 한곳에서 볼 수 있게 됨</li>\n<li>스레드마다 <strong>서로 다른 agent</strong>를 선택해 조합할 수 있고...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28831",
+      "source_id": ""
+    },
+    {
+      "title": "GStack: Y Combinator CEO가 만든 AI 코딩 에이전트 프레임워크 유투브소개",
+      "summary": "\n<p>YC(Y Combinator) 대표이자 엔지니어 출신인 개리 탄(Garry Tan)이 자신의 AI 코딩 워크플로우를 오픈소스로 공개했습니다. GStack은 Claude Code를 단순한 코드 생성 도구가 아니라, 마치 CEO·디자이너·엔지니어·QA 담당자로 구성된 가상의 소프트웨어 팀처럼 작동하게 만드는 스킬 팩(skill pack)입니다. 공개 3주...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28830",
+      "source_id": ""
+    },
+    {
+      "title": "340만 개 태양광 패널",
+      "summary": "\n<ul>\n<li>미국 태양광 공간 데이터셋을 <strong>GeoPackage에서 Parquet로 변환</strong>해 옥상 배열, 배열, 패널을 함께 분석했고, 패널 레코드는 <strong>3,429,157개</strong>까지 집계됨</li>\n<li>옥상 배열은 <strong>5,822개</strong>, 배열은 <strong>18,980개</strong>로 정리됐으며, 좌표를 <code>EPSG:4326...</p>",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28829",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic의 Claude Code 장애 포스트모템: 2025년 4월 23일",
+      "summary": "\n<p>지난 한 달간 일부 사용자들이 Claude의 응답 품질이 저하되었다는 보고가 이어졌습니다. Anthropic은 이를 추적한 결과, Claude Code, Claude Agent SDK, Claude Cowork에 영향을 준 세 가지 서로 다른 변경 사항이 원인이었음을 확인했습니다. API 자체에는 영향이 없었으며, 2025년 4월 20일(v2.1.116) 기준으로 모...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28828",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 바이브코딩으로 바이브코딩하는 앱을 만들었습니다.",
+      "summary": "\n<p>바이브코딩으로 바이브코딩하는 앱을 만들어보았습니다.<br />\n터미널에이전트들을 ws를 통해 조작하는 형태라 API는 필요 없구요(지원예정도 없습니다)</p>\n<p>일종의 IDE입니다(하지만 직접 코드 작성은 하지 않습니다.) 거창하게 AOC(Agent Ochestration Client)라고 해봤습니다. 구독 서비스 2개 이상(로컬llm포함</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28826",
+      "source_id": ""
+    },
+    {
+      "title": "AI 디자인 패턴으로 Show HN 제출물 점수화",
+      "summary": "\n<ul>\n<li>최근 <strong>Show HN 제출 수 증가</strong>와 함께 비슷한 인상의 랜딩 페이지가 반복적으로 나타났고, 최신 Show HN <strong>500개 페이지</strong>를 기준으로 공통 패턴을 점수화함</li>\n<li>점수 기준은 <strong>폰트</strong>, <strong>색상</strong>, 레이아웃, CSS 패턴에 걸친 15개 항목이며, 가운데...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28825",
+      "source_id": ""
+    },
+    {
+      "title": "기술 부채, 인지 부채, 의도 부채",
+      "summary": "\n<ul>\n<li><strong>LLM이 코드를 대량 생산하는 환경</strong>에서는 코드 자체의 문제만이 아니라 팀의 공유 이해와 시스템 목표 기록까지 함께 약해지며, 이를 <strong>기술 부채·인지 부채·의도 부채</strong>의 세 층으로 나눠 다룰 필요가 커짐</li>\n<li><strong>Technical debt</strong>는 미래 변경 가능성을 제한...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28824",
+      "source_id": ""
+    },
+    {
+      "title": "Tell HN: AI 범벅인 세상에 진절머리가 남",
+      "summary": "\n<ul>\n<li><strong>Facebook 사용을 중단했던 피로감</strong>과 비슷한 수준으로, 이제는 AI 전반에도 강한 거부감이 커지고 있음</li>\n<li>현재는 <strong>AI 관련 요소 전체</strong>가 브라우저 단계에서 차단되길 바랄 정도의 상태에 가까움</li>\n</ul>\n...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28823",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 바이브 코딩으로 만든 잡다한 실무 도구 모음, Mytory Tools",
+      "summary": "\n<p>사무실에서 일하다 보면 PDF 변환, 이미지 리사이징, 배경 확장 같은 사소하지만 손이 많이 가는 요청을 자주 받게 됩니다. 커맨드라인을 사용할 수 없는 동료들에게 동료들에게 매번 프로그램 설치와 사용법을 설명하는 것이 비효율적이라는 생각이 들어, 브라우저에서 즉시 실행되는 도구 세트를 만들었습니다.</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28821",
+      "source_id": ""
+    },
+    {
+      "title": "Bitwarden CLI npm 패키지 하이재킹 – 개발자 인증정보 대규모 탈취 공격 발견",
+      "summary": "\n<p>JFrog 보안 연구팀이 npm의 <code>@bitwarden/cli</code> 2026.4.0 버전이 하이재킹된 것을 발견했다. 정상적인 Bitwarden 메타데이터와 브랜딩을 그대로 유지하면서, <code>preinstall</code> 스크립트와 <code>bw</code> 바이너리 진입점만 악성 로더(<code>bw_setup.js</code>)로 교체한 형태다.</p>\n<h3>동작 방식",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28819",
+      "source_id": ""
+    },
+    {
+      "title": "Google Agents CLI — 코딩 에이전트를 에이전트 빌더로 만드는 메타 도구",
+      "summary": "\n<p>Google이 Cloud Next에서 공개한 <code>agents-cli</code>는 Gemini CLI, Claude Code, Codex 같은 코딩 에이전트에게 Google Cloud 기반 AI 에이전트를 설계하고 배포하는 전문 역량을 주입하는 CLI 도구입니다. 에이전트 그 자체가 아니라, 에이전트를 <em>만드는 에이전트</em>의 실력을 끌어올리는 레이어에 해당...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28817",
+      "source_id": ""
+    },
+    {
+      "title": "Gemini Deep Research Agent API 공개",
+      "summary": "\n<p>구글이 Gemini Deep Research Agent를 API로 공개했습니다. Deep Research란 사용자가 던진 질문에 대해 AI가 스스로 검색 계획을 세우고, 여러 웹페이지를 탐색·비교·종합하여 출처가 달린 긴 호흡의 보고서를 자동 생성해주는 기능입니다. 기존에는 Google AI Studio 웹 UI에서만 쓸 수 있었는데, 이번에 Interacti...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28815",
+      "source_id": ""
+    },
+    {
+      "title": "과도한 편집은 모델이 필요한 범위를 넘어서 코드를 수정하는 현상",
+      "summary": "\n<ul>\n<li><strong>최소 수정</strong>만으로 해결되는 버그에서도 함수 전체 재작성, 보조 로직 추가, 시그니처 변경까지 일어나며 <strong>거대한 diff</strong>가 생기기 쉬움</li>\n<li>기존 구조를 유지하는 <strong>brown-field 작업</strong>에서는 테스트 통과만으로 충분하지 않고, 얼마나 적게 바꿨는지도 함께 ...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28814",
+      "source_id": ""
+    },
+    {
+      "title": "작은 화면용 5x5 픽셀 폰트",
+      "summary": "\n<ul>\n<li>모든 문자를 <strong>5픽셀 정사각형</strong> 안에 넣고 <strong>6x6 그리드</strong>에 안전하게 그릴 수 있게 맞춘 초소형 고정폭 폰트로, 작은 화면과 제한된 메모리 환경에 맞게 설계됨</li>\n<li><strong>5x5 크기</strong>는 4x4에서 부족했던 <code>E</code>, <code>M</code>, <code>W</code> 표현 문제...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28813",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: AI 에이전트를 위한 HTTP 자격 증명 프록시이자 시크릿 저장소",
+      "summary": "\nShow GN: AI 에이전트를 위한 HTTP 자격 증명 프록시이자 시크릿 저장소",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28812",
+      "source_id": ""
+    },
+    {
+      "title": "Google Cloud의 AI 에이전트 거버넌스 스택, \"에이전트를 엔지니어 조직처럼 관리하라\"",
+      "summary": "\n<p>Google Cloud가 Cloud Next 26에서 발표한 Gemini Enterprise Agent Platform의 거버넌스 스택은, AI 에이전트 보안 관리에 대한 체계적인 프레임워크를 제시합니다. 핵심 철학은 단순합니다. 에이전트 집단(fleet)을 엔지니어링 조직처럼 다루라는 것입니다. 신원을 부여하고, 접근 권한을 통제하고, 정책을 강제하고...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28810",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 코덱스 인증을 이용해 gpt images 2.0 모델을 사용하는 SDK & CLI",
+      "summary": "\n<p>코덱스를 통해서 GPT-images-2.0 (duct-tape) 모델을 cli, node.js, python SDK 형태로 호출할 수 있는 오픈소스 프로젝트입니다.<br />\n제가 해 봤는데 잘 되네요, SDK 사용 시 타임리밋 넉넉하게 두시고 병렬로 실행해보세요.<br />\n코덱스 내부를 분석해서 API 명세를 캐낸 후에 그것을 라이브러리로 말아 보았습니...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28809",
+      "source_id": ""
+    },
+    {
+      "title": "vLLM Recipes 개편 - 모델+하드웨어 조합별 설정을 딸각 한방으로",
+      "summary": "\n<p>recipes.vllm.ai가 대폭 개편되었습니다. vLLM 으로 &quot;모델 X를 하드웨어 Y에서 어떻게 돌리지?&quot;에 대한 답을 인터랙티브하게 얻을 수 있습니다.</p>\n<h3>주요 변경사항</h3>\n<p><strong>HuggingFace 미러 URL</strong> — <code>huggingface.co</code>를 <code>recipes.vllm.ai</code>로 바꾸면 해당 모델",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28808",
+      "source_id": ""
+    },
+    {
+      "title": "Apple, 경찰이 iPhone에서 삭제된 채팅 메시지를 추출하는 데 쓰던 버그 수정",
+      "summary": "\n<ul>\n<li>메시징 앱에서 <strong>삭제되었거나 자동 소멸된 메시지</strong>가 알림 캐시에 남아 포렌식 도구로 읽힐 수 있었고, Apple이 iPhone과 iPad용 <strong>소프트웨어 업데이트</strong>로 이를 수정함</li>\n<li>메시지 내용이 표시된 알림은 기기에 최대 한 달 동안 저장될 수 있었으며, Apple 보안 공지에는 삭...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28807",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: test-foundry – QEMU 기반 Windows VM 테스트 도구 (커널 드라이버 / UEFI 앱 테스트 지원)",
+      "summary": "\n<p>test-foundry는 QEMU 기반으로 Windows 게스트를 자동화 테스트하는 오픈소스 도구를 만들었습니다.</p>\n<p>강점은 일반 사용자 공간 앱보다 까다로운 영역인 kernel/filesystem driver와 UEFI Application 테스트를 VM 부팅 흐름 전반적으로 다룰 수 있다는 점입니다.<br />\n처음엔 Vagrant을 써보려고 하다가 한계에</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28805",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic-AWS, 10년 1000억 달러 규모 컴퓨트 파트너십 확대...최대 5GW 신규 용량 확보",
+      "summary": "\n<p>Claude의 매출 run-rate가 1년 새 90억 → 300억 달러로 뛰면서 피크 시간대 인프라가 포화된 상황에서 나온 계약.</p>\n<ul>\n<li>Anthropic과 AWS가 10년 장기 파트너십을 확장, 최대 5GW 규모의 신규 컴퓨트 용량을 Claude 학습·배포에 사용하기로 합의</li>\n<li>Anthropic은 향후 10년간 AWS에 1000억 달러 이상을</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28804",
+      "source_id": ""
+    },
+    {
+      "title": "우리는 사용자의 모든 비공개 Tor 신원을 연결하는 안정적인 Firefox 식별자를 발견했다",
+      "summary": "\n<ul>\n<li><code>indexedDB.databases()</code>의 <strong>반환 순서</strong>만으로 Firefox 기반 브라우저에서 프로세스 수명 동안 유지되는 <strong>안정적 식별자</strong> 생성 가능</li>\n<li>이 식별자는 origin 범위를 넘어서 공유되어, 관련 없는 사이트들도 같은 브라우저 런타임 안에서 동일한 값을 관측하며 ...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28801",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 카톡 답장 귀찮아서, 폰 안에서 돌아가는 AI 자동응답을 만들었습니다",
+      "summary": "\n<p>카톡 답장은 귀찮은데,<br />\nAI 자동응답을 붙이자니 대화 내용이 외부 서버로 나가는 건 찝찝했습니다.</p>\n<p>그래서 카톡 자동답장 도우미를 만들었습니다.</p>\n<p>카카오톡 알림을 읽고,<br />\n선택한 방에만 로컬 AI가 답장하는 Android 앱입니다.</p>\n<p>핵심은 “로컬”입니다.</p>\n<ul>\n<li>Gemma 4 로컬 모</p>",
+      "category": "대한민국 IT",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28800",
+      "source_id": ""
+    },
+    {
+      "title": "에이전트 시대를 위한 두 개의 칩: Google의 8세대 TPU",
+      "summary": "\n<ul>\n<li>Google이 10년 이상의 TPU 개발 역사를 집대성해 <strong>8세대 TPU 두 종</strong>을 발표했으며, 대규모 모델 훈련 전용 TPU 8t와 고속 추론 전용 TPU 8i로 각각 특화한 아키텍처를 채택</li>\n<li><strong>TPU 8t</strong>는 단일 슈퍼팟이 <strong>9,600칩, 121 ExaFlops</strong>까지 확장되며, 이전 세대 ...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28799",
+      "source_id": ""
+    },
+    {
+      "title": "GitHub CLI가 이제 가명 기반 텔레메트리를 수집함",
+      "summary": "\n<ul>\n<li><strong>가명 기반 텔레메트리</strong>를 GitHub CLI에서 전송하며, 목적은 기능 사용 가시성 확보와 제품 개선 지원</li>\n<li><strong>subcommand 채택 여부</strong>와 flags 사용 패턴을 바탕으로 작업 우선순위 결정, 사용자 요구 충족 여부 평가, discoverability와 design 재검토에 활용됨</li>\n<li></p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28798",
+      "source_id": ""
+    },
+    {
+      "title": "Qwen3.6-27B: 270억 dense 모델에서 플래그십급 코딩 성능",
+      "summary": "\n<ul>\n<li><strong>270억 파라미터 dense 멀티모달 모델</strong>로 공개, 하나의 통합 체크포인트에서 <strong>thinking·non-thinking 모드</strong>와 이미지·비디오 처리를 함께 지원</li>\n<li><strong>agentic coding 성능</strong>이 주요 코딩 벤치마크 전반에서 이전 세대 오픈소스 플래그십 <strong>Qwen3.5-397B...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28797",
+      "source_id": ""
+    },
+    {
+      "title": "Linux를 위한 Windows 9x 서브시스템",
+      "summary": "\n<ul>\n<li>Windows 9x 커널 안에서 <strong>최신 Linux 커널(6.19)</strong> 을 협력적으로 구동시켜 두 운영체제의 전체 기능을 동시에 활용 가능하게 하는 실험적 프로젝트</li>\n<li>WSL과 달리 하드웨어 가상화를 사용하지 않아서, 486에서도 실행가능</li>\n<li><strong>페이징, 메모리 보호, 선점형 스케줄링</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28796",
+      "source_id": ""
+    },
+    {
+      "title": "알버타 스타트업, 기술 없는 트랙터를 절반 가격에 판매",
+      "summary": "\n<ul>\n<li>대형 브랜드보다 약 <strong>절반 가격</strong>에 맞춘 트랙터는 1990년대식 <strong>remanufactured Cummins 디젤 엔진</strong>과 기계식 구성을 앞세워 복잡한 전자장비를 뺀 새 제품임</li>\n<li>모든 모델은 <strong>Bosch P-pump</strong> 기반의 기계식 연료 분사를 사용해 <strong>ECU</strong>나 독점...</p>",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28794",
+      "source_id": ""
+    },
+    {
+      "title": "kumo - Go로 작성된 경량 AWS 서비스 에뮬레이터",
+      "summary": "\n<ul>\n<li>로컬 개발 및 CI/CD 테스트에서 실제 AWS 없이도 빠르게 호환 환경을 구성 가능</li>\n<li><strong>단일 바이너리</strong>로 가볍게 테스트 환경을 꾸밀수 있고, Docker 기반 실행도 가능</li>\n<li><strong>인증 없이 동작</strong>해 자동화 파이프라인에서 AWS 자격 증명 준비 부담을 줄일 수 있음</li>\n<li>...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28793",
+      "source_id": ""
+    },
+    {
+      "title": "GPT-5.5 System Card",
+      "summary": "\n",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "source_id": ""
+    },
+    {
+      "title": "Introducing GPT-5.5",
+      "summary": "\nIntroducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "source_id": ""
+    },
+    {
+      "title": "What is Codex?",
+      "summary": "\nLearn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/academy/what-is-codex",
+      "source_id": ""
+    },
+    {
+      "title": "Automations",
+      "summary": "\nLearn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/academy/codex-automations",
+      "source_id": ""
+    },
+    {
+      "title": "Plugins and skills",
+      "summary": "\nLearn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "source_id": ""
+    },
+    {
+      "title": "Working with Codex",
+      "summary": "\nLearn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/academy/working-with-codex",
+      "source_id": ""
+    },
+    {
+      "title": "How to get started with Codex",
+      "summary": "\nLearn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "source_id": ""
+    },
+    {
+      "title": "Codex settings",
+      "summary": "\nLearn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://openai.com/academy/codex-settings",
+      "source_id": ""
+    },
+    {
+      "title": "Top 10 uses for Codex at work",
+      "summary": "\nExplore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "source_id": ""
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "summary": "\nExplore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "source_id": ""
+    },
+    {
+      "title": "It Ain't Broke: Why Software Fundamentals Matter More",
+      "summary": "\n<p>Article URL: <a href=\"https://www.youtube.com/watch?v=v4F1gFy-hqg\">https://www.youtube.com/watch?v=v4F1gFy-hqg</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883783\">https://news.ycombinator.com/item?id=47883783</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.youtube.com/watch?v=v4F1gFy-hqg",
+      "source_id": ""
+    },
+    {
+      "title": "Job Satisfaction Declines; Likelihood of Moving to a New Job Lowest Since 2021",
+      "summary": "\n<p>Article URL: <a href=\"https://www.newyorkfed.org/microeconomics/sce/labor\">https://www.newyorkfed.org/microeconomics/sce/labor</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883768\">https://news.ycombinator.com/item?id=47883768</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.newyorkfed.org/microeconomics/sce/labor",
+      "source_id": ""
+    },
+    {
+      "title": "A McDonald's cheeseburger is a better deal today than it was in 1948",
+      "summary": "\n<p>Article URL: <a href=\"https://www.wsj.com/opinion/in-defense-of-the-mcdonalds-cheeseburger-20d2f0ef\">https://www.wsj.com/opinion/in-defense-of-the-mcdonalds-cheeseburger-20d2f0ef</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883737\">https://news.ycombinator.com/item?id=47883737</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.wsj.com/opinion/in-defense-of-the-mcdonalds-cheeseburger-20d2f0ef",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: SQL Protocol – learn SQL by running real queries, with 1v1 PvP",
+      "summary": "\n<p>Article URL: <a href=\"https://sqlprotocol.com\">https://sqlprotocol.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883721\">https://news.ycombinator.com/item?id=47883721</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://sqlprotocol.com",
+      "source_id": ""
+    },
+    {
+      "title": "NixPaint – Paint with Lambda's",
+      "summary": "\n<p>Article URL: <a href=\"https://nixpaint.extranix.com\">https://nixpaint.extranix.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883707\">https://news.ycombinator.com/item?id=47883707</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://nixpaint.extranix.com",
+      "source_id": ""
+    },
+    {
+      "title": "HX Is the New UX: Designing for the Harness Experience",
+      "summary": "\n<p>Article URL: <a href=\"https://neurometric.substack.com/p/hx-is-the-new-ux-what-you-need-to\">https://neurometric.substack.com/p/hx-is-the-new-ux-what-you-need-to</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883694\">https://news.ycombinator.com/item?id=47883694</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://neurometric.substack.com/p/hx-is-the-new-ux-what-you-need-to",
+      "source_id": ""
+    },
+    {
+      "title": "The Switch 2s Best New Feature Is a Battery Power Hog but Still Worth It",
+      "summary": "\n<p>Article URL: <a href=\"https://kotaku.com/switch-2-handheld-boost-mode-battery-life-xenoblade-2000680392\">https://kotaku.com/switch-2-handheld-boost-mode-battery-life-xenoblade-2000680392</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883674\">https://news.ycombinator.com/item?id=47883674</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://kotaku.com/switch-2-handheld-boost-mode-battery-life-xenoblade-2000680392",
+      "source_id": ""
+    },
+    {
+      "title": "Wildest mlb play ever – 108mph line drive disappears into pitcher's shirt",
+      "summary": "\n<p>Article URL: <a href=\"https://www.msn.com/en-us/sports/mlb/this-might-be-the-wildest-mlb-play-you-ll-ever-see-108-mph-line-drive-disappears-into-pitcher-s-shirt/ar-AA21wk2V\">https://www.msn.com/en-us/sports/mlb/this-might-be-the-wildest-mlb-play-you-ll-ever-see-108-mph-line-drive-disappears-into-pitcher-s-shirt/ar-AA21wk2V</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883673\">https://news.ycombinator.com/item?id=47883673</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.msn.com/en-us/sports/mlb/this-might-be-the-wildest-mlb-play-you-ll-ever-see-108-mph-line-drive-disappears-into-pitcher-s-shirt/ar-AA21wk2V",
+      "source_id": ""
+    },
+    {
+      "title": "Why Everything's a Subscription – and Why That May Be Good for You",
+      "summary": "\n<p>Article URL: <a href=\"https://www.magiclasso.co/insights/why-everythings-a-subscription/\">https://www.magiclasso.co/insights/why-everythings-a-subscription/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883664\">https://news.ycombinator.com/item?id=47883664</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.magiclasso.co/insights/why-everythings-a-subscription/",
+      "source_id": ""
+    },
+    {
+      "title": "Bitwarden engineers who had the compromised Checkmarx VSCode extension got hit",
+      "summary": "\n<p>Article URL: <a href=\"https://old.reddit.com/r/selfhosted/comments/1stjtay/comment/ohvbj63/\">https://old.reddit.com/r/selfhosted/comments/1stjtay/comment/ohvbj63/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883652\">https://news.ycombinator.com/item?id=47883652/</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://old.reddit.com/r/selfhosted/comments/1stjtay/comment/ohvbj63/",
+      "source_id": ""
+    },
+    {
+      "title": "Microsoft Targets About 7% of Its U.S. Workers with Buyout Offer",
+      "summary": "\n<p>Article URL: <a href=\"https://www.nytimes.com/2026/04/23/business/microsoft-layoffs-artificial-intelligence.html\">https://www.nytimes.com/2026/04/23/business/microsoft-layoffs-artificial-intelligence.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883609\">https://news.ycombinator.com/item?id=47883609</a></p>\n<p>Points: 1</p>\n<p># Comments: 2</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.nytimes.com/2026/04/23/business/microsoft-layoffs-artificial-intelligence.html",
+      "source_id": ""
+    },
+    {
+      "title": "Ghost 6.0",
+      "summary": "\n<p>Article URL: <a href=\"https://ghost.org/6\">https://ghost.org/6</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883559\">https://news.ycombinator.com/item?id=47883559</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://ghost.org/6",
+      "source_id": ""
+    },
+    {
+      "title": "Dev targeted by sophisticated job scam",
+      "summary": "\n<p>Article URL: <a href=\"https://www.theregister.com/2026/04/23/job_scam_targeted_developer/\">https://www.theregister.com/2026/04/23/job_scam_targeted_developer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883534\">https://news.ycombinator.com/item?id=47883534</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.theregister.com/2026/04/23/job_scam_targeted_developer/",
+      "source_id": ""
+    },
+    {
+      "title": "Former MrBeast employee accuses YouTube giant of wrongful termination",
+      "summary": "\n<p>Article URL: <a href=\"https://courthousenews.com/former-mrbeast-employee-accuses-youtube-giant-of-wrongful-termination/\">https://courthousenews.com/former-mrbeast-employee-accuses-youtube-giant-of-wrongful-termination/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883531\">https://news.ycombinator.com/item?id=47883531</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://courthousenews.com/former-mrbeast-employee-accuses-youtube-giant-of-wrongful-termination/",
+      "source_id": ""
+    },
+    {
+      "title": "Community Votes to Deny Water to Nuclear Weapons Data Center",
+      "summary": "\n<p>Article URL: <a href=\"https://www.404media.co/community-votes-to-deny-water-to-nuclear-weapons-data-center/\">https://www.404media.co/community-votes-to-deny-water-to-nuclear-weapons-data-center/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883518\">https://news.ycombinator.com/item?id=47883518</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.404media.co/community-votes-to-deny-water-to-nuclear-weapons-data-center/",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: GeoValida – Spatial Intelligence reality check to find the best land",
+      "summary": "\n<p>Static maps miss how land actually evolves. I built a spatial AI engine to run a physical trajectory check on satellite time-series data. It finds best lots in region, flags hidden risks like unpermitted clearing, finds different regimes in the area, and uses all that to provide insight on land. Open beta includes 10 free credits (10km²). Ask for more directly in the platform with your intended use.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883493\">https://news.ycombinator.com/item?id=47883493</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://geovalida.com",
+      "source_id": ""
+    },
+    {
+      "title": "French police probe suspected weather device tampering after odd Polymarket bet",
+      "summary": "\n<p>Article URL: <a href=\"https://www.npr.org/2026/04/23/nx-s1-5797876/polymarket-paris-weather-bet\">https://www.npr.org/2026/04/23/nx-s1-5797876/polymarket-paris-weather-bet</a></p>\n<p>Comments URL: <a href=\"https://news.ycominator.com/item?id=47883474\">https://news.ycominator.com/item?id=47883474</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.npr.org/2026/04/23/nx-s1-5797876/polymarket-paris-weather-bet",
+      "source_id": ""
+    },
+    {
+      "title": "Stonebraker on Postgres, Disagreeing with Google, and Future Problems [video]",
+      "summary": "\n<p>Article URL: <a href=\"https://www.youtube.com/watch?v=YPObBOwIrHk\">https://www.youtube.com/watch?v=YPObBOwIrHk</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883452\">https://news.ycombinator.com/item?id=47883452</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.youtube.com/watch?v=YPObBOwIrHk",
+      "source_id": ""
+    },
+    {
+      "title": "Blackstone's Steve Schwarzman hits back against campaign against private credit",
+      "summary": "\n<p>Article URL: <a href=\"https://b17news.com/blackstones-steve-schwarzman-hits-back-against-intensively-negative-campaign-against-private-credit/\">https://b17news.com/blackstones-steve-schwarzman-hits-back-against-intensively-negative-campaign-against-private-credit/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883392\">https://news.ycombinator.com/item?id=47883392</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://b17news.com/blackstones-steve-schwarzman-hits-back-against-intensively-negative-campaign-against-private-credit/",
+      "source_id": ""
+    },
+    {
+      "title": "AI threats in the wild: The current state of prompt injections on the web",
+      "summary": "\n<p>Article URL: <a href=\"https://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html\">https://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883385\">https://news.ycombinator.com/item?id=47883385</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
+      "source_id": ""
+    },
+    {
+      "title": "An update on recent Claude Code quality reports",
+      "summary": "\n<p>Article URL: <a href=\"https://www.anthropic.com/engineering/april-23-postmortem\">https://www.anthropic.com/engineering/april-23-postmortem</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47878905\">https://news.ycombinator.com/item?id=47878905</a></p>\n<p>Points: 524</p>\n<p># Comments: 395</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "source_id": ""
+    }
+  ]
+}

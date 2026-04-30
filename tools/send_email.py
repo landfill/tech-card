@@ -4,6 +4,7 @@
 import json
 import logging
 import os
+import re
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -12,6 +13,9 @@ from pathlib import Path
 import markdown
 
 logger = logging.getLogger(__name__)
+
+URL_RE = re.compile(r"https?://[A-Za-z0-9\-._~:/?#\[\]@!$&'()*+,;=%]+")
+TRAILING_URL_PUNCTUATION = ".,!?;:"
 
 
 def _smtp_config() -> dict | None:
@@ -39,6 +43,45 @@ def load_subscribers(data_dir: str | Path) -> list[str]:
         return data if isinstance(data, list) else []
     except Exception:
         return []
+
+
+def _trim_url_match(raw_url: str) -> tuple[str, str]:
+    """Split a regex URL match into the actual URL and trailing prose punctuation."""
+    suffix = ""
+    while raw_url and raw_url[-1] in TRAILING_URL_PUNCTUATION:
+        suffix = raw_url[-1] + suffix
+        raw_url = raw_url[:-1]
+    while raw_url.endswith(")") and raw_url.count(")") > raw_url.count("("):
+        suffix = ")" + suffix
+        raw_url = raw_url[:-1]
+    return raw_url, suffix
+
+
+def _linkify_bare_urls(body_md: str) -> str:
+    """Convert bare URLs to explicit Markdown links before email HTML rendering."""
+    result = []
+    cursor = 0
+    for match in URL_RE.finditer(body_md):
+        start = match.start()
+        if start >= 1 and body_md[start - 1] == "<":
+            continue
+        if start >= 2 and body_md[start - 1] == "(" and body_md[start - 2] == "]":
+            continue
+
+        raw_url = match.group(0)
+        url, suffix = _trim_url_match(raw_url)
+        if not url:
+            continue
+
+        result.append(body_md[cursor:start])
+        result.append(f"[{url}]({url}){suffix}")
+        cursor = match.end()
+
+    if not result:
+        return body_md
+
+    result.append(body_md[cursor:])
+    return "".join(result)
 
 
 def _preprocess_letter_md(body_md: str) -> str:
@@ -75,8 +118,7 @@ def _preprocess_letter_md(body_md: str) -> str:
 
 def _md_to_html(body_md: str) -> str:
     """마크다운을 뉴스레터 HTML 메일 템플릿으로 변환. 인라인 스타일 적용."""
-    import re
-    preprocessed = _preprocess_letter_md(body_md)
+    preprocessed = _linkify_bare_urls(_preprocess_letter_md(body_md))
     html_body = markdown.markdown(preprocessed, extensions=["tables", "fenced_code"])
 
     # ── 인라인 스타일 치환 ──

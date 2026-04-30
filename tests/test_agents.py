@@ -7,6 +7,7 @@ from pathlib import Path
 import pytest
 
 from pipeline.agents import load_skill, run_agent
+from pipeline.letter_generate import validate_letter_links
 
 
 @pytest.fixture
@@ -50,3 +51,15 @@ def test_run_agent_logs_llm_success(skills_dir, caplog):
     messages = [record.getMessage() for record in caplog.records]
     assert any("event=llm_call_started" in message and "agent=analyze" in message for message in messages)
     assert any("event=llm_call_succeeded" in message and "agent=analyze" in message for message in messages)
+
+
+def test_validate_letter_links_rejects_unresolved_reference_text():
+    with pytest.raises(ValueError, match="원문 링크 참조"):
+        validate_letter_links("도구들이 다수 등장했다(각 항목의 원문 링크 참조).")
+
+
+def test_validate_letter_links_allows_inline_markdown_links():
+    validate_letter_links(
+        "[PullMD](https://www.reddit.com/r/ClaudeAI/comments/1sxzlh6/)와 "
+        "[VibeBench](https://vibebench.standardagents.ai/)가 등장했다."
+    )

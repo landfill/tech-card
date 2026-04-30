@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
+import { readApi } from './api'
 
 export type CardItem = {
   type: string
@@ -62,7 +62,7 @@ function CardNews({ date, cards, bgImage }: CardNewsProps) {
     else if (ratio > 0.65) goNext()
   }
 
-  const bgUrl = bgImage ? `${API}/api/letters/${date}/card-bg` : null
+  const bgUrl = bgImage ? readApi(`/api/letters/${date}/card-bg`) : null
 
   if (total === 0) {
     return (

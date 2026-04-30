@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
+import { adminApi } from './api'
 
 type StepStatus = 'pending' | 'running' | 'completed' | 'failed'
 
@@ -22,10 +22,9 @@ function PipelinePage({ initialDate }: { initialDate?: string }) {
   const [date, setDate] = useState(initialDate || new Date().toISOString().slice(0, 10))
   const [status, setStatus] = useState<PipelineStatus | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const [justStarted, setJustStarted] = useState(false)
 
   const fetchStatus = useCallback(() => {
-    fetch(`${API}/api/pipeline/status?date=${encodeURIComponent(date)}`)
+    fetch(adminApi(`/api/pipeline/status?date=${encodeURIComponent(date)}`))
       .then(r => r.json())
       .then(setStatus)
       .catch(() => setStatus(null))
@@ -36,20 +35,14 @@ function PipelinePage({ initialDate }: { initialDate?: string }) {
   }, [fetchStatus])
 
   useEffect(() => {
-    if (!status?.is_running && !justStarted) return
+    if (!status?.is_running) return
     const t = setInterval(fetchStatus, 2000)
     return () => clearInterval(t)
-  }, [status?.is_running, justStarted, fetchStatus])
-
-  useEffect(() => {
-    if (status && !status.is_running && justStarted) {
-      setJustStarted(false)
-    }
-  }, [status?.is_running, justStarted])
+  }, [status?.is_running, fetchStatus])
 
   const runFull = (force: boolean) => {
     setError(null)
-    fetch(`${API}/api/pipeline/run`, {
+    fetch(adminApi('/api/pipeline/run'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ date, force }),
@@ -60,7 +53,6 @@ function PipelinePage({ initialDate }: { initialDate?: string }) {
           return
         }
         if (!r.ok) throw new Error(r.statusText)
-        setJustStarted(true)
         fetchStatus()
       })
       .catch(e => setError(e.message || '실행 요청 실패'))
@@ -68,7 +60,7 @@ function PipelinePage({ initialDate }: { initialDate?: string }) {
 
   const runStep = (step: string, mode: 'only' | 'from') => {
     setError(null)
-    fetch(`${API}/api/pipeline/run-step`, {
+    fetch(adminApi('/api/pipeline/run-step'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ date, step, mode }),
@@ -79,7 +71,6 @@ function PipelinePage({ initialDate }: { initialDate?: string }) {
           return
         }
         if (!r.ok) throw new Error(r.statusText)
-        setJustStarted(true)
         fetchStatus()
       })
       .catch(e => setError(e.message || '실행 요청 실패'))

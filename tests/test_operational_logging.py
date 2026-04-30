@@ -6,6 +6,7 @@ from pathlib import Path
 import pytest
 
 from pipeline import card_backgrounds, publish
+from tools.send_email import _md_to_html
 
 
 @pytest.mark.parametrize(
@@ -55,3 +56,31 @@ def test_generate_card_background_logs_api_failure(tmp_path: Path, monkeypatch, 
 
     assert result is None
     assert any("event=integration_image outcome=failed" in record.getMessage() for record in caplog.records)
+
+
+def test_email_html_linkifies_bare_urls_without_korean_particles() -> None:
+    html = _md_to_html(
+        "\n".join(
+            [
+                "테스트 레터",
+                "",
+                "상태 페이지(https://status.claude.com/incidents/9l93x2ht4s5w)와 "
+                "전체 대화(https://pastebin.com/kihyu5yq)는 "
+                "프로젝트(https://github.com/trycua/cua)는 데모를 제공한다.",
+            ]
+        )
+    )
+
+    assert 'href="https://status.claude.com/incidents/9l93x2ht4s5w"' in html
+    assert 'href="https://pastebin.com/kihyu5yq"' in html
+    assert 'href="https://github.com/trycua/cua"' in html
+    assert 'href="https://status.claude.com/incidents/9l93x2ht4s5w)와"' not in html
+    assert 'href="https://pastebin.com/kihyu5yq)는"' not in html
+    assert 'href="https://github.com/trycua/cua)는"' not in html
+
+
+def test_email_html_preserves_existing_markdown_links() -> None:
+    html = _md_to_html("테스트 레터\n\n[상태](https://status.claude.com/incidents/9l93x2ht4s5w)와 확인")
+
+    assert html.count('href="https://status.claude.com/incidents/9l93x2ht4s5w"') == 1
+    assert "[상태](" not in html

@@ -12,6 +12,7 @@ from pipeline.checkpoint import clear_checkpoints_for_date, load_checkpoint
 from pipeline.storage import index_path, letter_path, card_path, card_bg_image_path
 
 router = APIRouter()
+admin_router = APIRouter()
 
 
 def _data_dir() -> Path:
@@ -173,7 +174,7 @@ def get_letter(date: str):
     return path.read_text(encoding="utf-8")
 
 
-@router.delete("/{date}", status_code=204)
+@admin_router.delete("/{date}", status_code=204)
 def delete_letter(date: str):
     """해당 날짜 파이프라인 생성물 및 해당 호 피드백 삭제: 레터, 인덱스, 체크포인트, 피드백."""
     from datetime import date as date_cls

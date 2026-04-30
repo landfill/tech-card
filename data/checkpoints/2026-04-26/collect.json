@@ -1,0 +1,330 @@
+{
+  "date": "2026-04-26",
+  "items": [
+    {
+      "source_id": "geeknews-hada",
+      "title": "Lightwhale 3: Linux 서버를 다시 재미있게 만들기",
+      "url": "https://news.hada.io/topic?id=28916",
+      "summary": "<ul>\n<li><strong>Docker 컨테이너 전용</strong>으로 설계된 Linux 서버 OS로, ISO만 부팅하면 곧바로 <strong>Docker Engine 환경</strong>에 들어가게 됨</li>\n<li>코어 시스템을 <strong>불변·무상태 구조</strong>로 두고 <code>/etc</code>, <code>/var</code>, <code>/home</code>과 Docker 데이터만 별도 쓰기 영...</p>",
+      "published": "2026-04-26T21:39:26+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "지식 노동의 시뮬라크르",
+      "url": "https://news.hada.io/topic?id=28915",
+      "summary": "<ul>\n<li><strong>지식 노동의 품질</strong>은 결과를 직접 다시 해보지 않으면 확인하기 어려워서, 실제 정확성보다 <strong>겉보기 완성도</strong> 같은 대리 지표에 의존하게 됨</li>\n<li>날짜 오류나 그래프 라벨 문제처럼 <strong>표면적 결함</strong>이 보이면 본문 결론과 무관해도 결과물 전체를 폐기하기 쉬...</p>",
+      "published": "2026-04-26T21:36:26+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "1980년대 Commodore 64 게임의 Martin Galway 음악 소스 파일",
+      "url": "https://news.hada.io/topic?id=28914",
+      "summary": "<ul>\n<li>1980년대 <strong>Commodore 64 게임 음악 소스 파일</strong>을 공개해 당시 음악 플레이어의 내부 구현과 작업 방식을 직접 확인할 수 있게 함</li>\n<li>소스 파일은 <strong>재조립, 수정, 새 음악 생성</strong>에 활용할 수 있으며, 사용할 때 Martin Galway 크레디트를 요구함</li>\n<li>음악과 프로그래밍...</p>",
+      "published": "2026-04-26T20:33:29+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Turbo Vision 2.0 - 현대적인 포트",
+      "url": "https://news.hada.io/topic?id=28913",
+      "summary": "<ul>\n<li>고전 <strong>텍스트 UI 프레임워크</strong>를 Linux와 Windows에서 다시 활용할 수 있게 옮기면서, <strong>UTF-8</strong>과 확장 색상까지 포함한 공통 개발 기반을 제공함</li>\n<li>기존 Turbo Vision 앱의 <strong>소스 코드 수준 호환성</strong>을 최대한 유지하면서도, <code>char</code> 기반 API를 ...</p>",
+      "published": "2026-04-26T19:47:31+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Google, Anthropic에 현금과 컴퓨트로 최대 400억 달러 투자",
+      "url": "https://news.hada.io/topic?id=28912",
+      "summary": "<ul>\n<li><strong>AI 컴퓨트 확보</strong>가 경쟁의 핵심 자원으로 커지는 가운데, Google은 Anthropic에 현금과 인프라를 묶어 <strong>최대 400억 달러</strong>를 투입할 계획임</li>\n<li>투자 구조는 우선 <strong>100억 달러</strong> 집행과 <strong>3,500억 달러 기업가치</strong> 책정을 포함하며, 나머지 300...</p>",
+      "published": "2026-04-26T19:44:31+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Niri 26.04: 스크롤형 타일링 Wayland 컴포지터",
+      "url": "https://news.hada.io/topic?id=28911",
+      "summary": "<ul>\n<li><strong>스크롤형 타일링 Wayland compositor</strong>에 배경 흐림, 스크린캐스트, 렌더링, 입력 처리 전반의 개선이 더해지며 완성도가 커짐</li>\n<li><strong>배경 흐림</strong>이 메인라인에 포함되어 <code>ext-background-effect</code>를 지원하는 창과 layer-shell 요소가 별도 niri 설정 없이도 흐림...</p>",
+      "published": "2026-04-26T17:56:04+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Karpathy 스타일 LLM 위키를 에이전트들이 직접 유지하는 시스템 - Markdown과 Git 기반",
+      "url": "https://news.hada.io/topic?id=28910",
+      "summary": "<ul>\n<li><strong>여러 AI 에이전트가 같은 오피스에서 협업</strong>하도록 구성됐고, 숨겨진 API 호출보다 브라우저 UI와 역할별 팀 구성을 통한 <strong>가시적인 작업 흐름</strong>을 앞세움</li>\n<li>메모리는 에이전트별 <strong>notebook</strong>과 팀 공용 <strong>wiki</strong>로 나뉘며, 원시 작업 맥락은 ...</p>",
+      "published": "2026-04-26T17:53:04+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "AI 산업은 대중이 자신들을 혐오한다는 사실을 발견하고 있음",
+      "url": "https://news.hada.io/topic?id=28909",
+      "summary": "<ul>\n<li><strong>정치적 동기의 폭력</strong>까지 나타날 만큼 AI와 데이터센터를 둘러싼 반감이 커졌고, AI 기업 CEO 자택 화염병 공격과 데이터센터 지지 시의원 자택 총격 사건이 함께 벌어짐</li>\n<li><strong>전문가 낙관론과 대중 인식</strong> 사이의 간극도 크게 벌어져서, 일자리와 경제에 대한 AI의 장기 효...</p>",
+      "published": "2026-04-26T17:50:03+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Streamlit 대안으로 시작했던 파이썬 웹 프레임워크 &#039;Violit&#039; 대규모 업데이트 (ORM/Auth 내장)",
+      "url": "https://news.hada.io/topic?id=28908",
+      "summary": "<p>안녕하세요.</p>\n<p>약 3달 전, Streamlit의 <strong>전체 재실행(Full Rerun)</strong> 병목 현상을 해결하고자, 취미로 만든 파이썬 웹 프레임워크 'Violit'을 긱뉴스에 소개했던 Engineer입니다.</p>\n<p>감사하게도 해외 커뮤니티와 이곳 긱뉴스에서 좋은 피드백을 주신 덕분에 최근 깃허브 스타 400개를 넘기게 되",
+      "published": "2026-04-26T16:34:46+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Clarc - 비개발자 동료들도 Claude Code 쓸 수 있게 만든 macOS 앱",
+      "url": "https://news.hada.io/topic?id=28905",
+      "summary": "<p>제 첫 오픈소스 프로젝트입니다. 비개발자 동료들이 Claude Code를 쓸 수 있게 해주고 싶었는데, 터미널이 벽이더군요. CLI 설치, GitHub SSH 키 설정, 어떤 작업이 실행될지 제대로 미리보지도 못한 채 매번 도구 호출을 승인하는 일 — 저한테는 아무 문제도 아니지만 그들에겐 전부 문제였습니다.</p>\n<p>그래서 C",
+      "published": "2026-04-26T13:26:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "코딩 보조 도구로 끝내지 못할 프로젝트 되살리기",
+      "url": "https://news.hada.io/topic?id=28904",
+      "summary": "<ul>\n<li>오래 묵은 <strong>개인 프로젝트</strong>는 새로 학습하기보다 구현을 끝내는 데 초점이 맞춰져 있어, <strong>코딩 보조 도구</strong>를 시험하기에 잘 맞았음</li>\n<li>YouTube Music을 <strong>OpenSubsonic API</strong>로 노출하는 shim을 다시 구현해, 서로 다른 Subsonic 클라이언트가 같은 방식으로...</p>",
+      "published": "2026-04-26T12:35:35+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "USB 치트시트 (2022)",
+      "url": "https://news.hada.io/topic?id=28903",
+      "summary": "<ul>\n<li><strong>USB 세대명과 마케팅 이름</strong>이 서로 엇갈려 같은 규격이 USB 3.0, 3.1, 3.2, Gen 1처럼 여러 이름으로 병기되며 혼동을 키움</li>\n<li>세대별 표에는 <strong>신호 속도</strong>, MiB/s 환산값, 필요한 선 수, 케이블 길이가 함께 정리되어 있어 USB 1.1부터 USB4 40Gbps까지 한눈에 비교 가능...</p>",
+      "published": "2026-04-26T08:34:04+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "ChatGPT를 활용한 아마추어가 Erdős 문제를 풀다",
+      "url": "https://news.hada.io/topic?id=28902",
+      "summary": "<ul>\n<li><strong>primitive set</strong>의 Erdős sum 최솟값이 1이고 원소들이 무한대로 갈수록 그 값에 가까워진다는 오래된 문제가, <strong>GPT-5.4 Pro</strong>가 만든 해법으로 풀린 것으로 받아들여짐</li>\n<li>해법은 Liam Price가 한 번의 프롬프트로 얻어 erdosproblems.com에 올린 결과물이며, 이후 Kevin ...</p>",
+      "published": "2026-04-26T07:33:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "플레인 텍스트는 수십 년 동안 이어져 왔고 앞으로도 남을 것",
+      "url": "https://news.hada.io/topic?id=28900",
+      "summary": "<ul>\n<li><strong>모노스페이스 평문</strong> 기반 다이어그램·UI 설계 도구가 다시 쓰이고 있으며, 텍스트 편집 인터페이스의 익숙함과 파일 형식의 <strong>이식성</strong>이 오래 지속될 힘을 줌</li>\n<li>Mockdown, Wiretext, Monodraw 같은 도구는 제한된 시각적 선택지를 유지하면서 <strong>저강도 다이어그램...</p>",
+      "published": "2026-04-26T03:33:31+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "grdpwasm - 웹 기반 RDP 클라이언트",
+      "url": "https://news.hada.io/topic?id=28899",
+      "summary": "<ul>\n<li>브라우저만으로 Windows 원격 데스크톱에 접속할 수 있는 <strong>웹 기반 RDP 클라이언트</strong>이며, 아무 <strong>plugin 없이</strong> 동작함</li>\n<li>브라우저의 <strong>Go WebAssembly</strong>와 서버 측 <strong>WebSocket-to-TCP 프록시</strong>를 분리해, 브라우저가 직접 열 수 없는 RDP TCP ...</p>",
+      "published": "2026-04-26T02:22:48+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Claude Code 루틴이 내 재정을 지켜볼 수 있을까?",
+      "url": "https://news.hada.io/topic?id=28898",
+      "summary": "<ul>\n<li><strong>금융 계좌 데이터와 MCP 커넥터</strong>를 연결하면 잔액, 거래내역, 투자, 대출 정보를 바탕으로 반복적인 재무 점검을 프롬프트만으로 자동화할 수 있음</li>\n<li>기존의 <strong>Codex CLI cron-job</strong> 방식은 웹 로그인, 브라우저 렌더링 문제, 2FA, passkey 제한 때문에 자주 깨졌고 계좌별...</p>",
+      "published": "2026-04-26T02:21:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "CSS를 질의 언어로 보기",
+      "url": "https://news.hada.io/topic?id=28897",
+      "summary": "<ul>\n<li><strong>선택자와 규칙</strong>으로 대상 집합을 고르고 속성을 적용하는 CSS의 구조는, 집합과 규칙으로 동작하는 Datalog와 형태적으로 닮아 있음</li>\n<li><code>div.awesome</code> 같은 선택자 결합은 <strong>교집합</strong>을 만들고, Datalog에서는 같은 변수를 반복하는 방식으로 비슷한 <strong>jo...</p>",
+      "published": "2026-04-26T02:17:16+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "GPT-5.5 바이오 버그 바운티",
+      "url": "https://news.hada.io/topic?id=28896",
+      "summary": "<ul>\n<li><strong>생물학 안전장치</strong>를 점검하기 위해 GPT‑5.5를 대상으로, 다섯 개의 바이오 안전 질문을 모두 통과시키는 <strong>범용 jailbreak</strong> 탐색 프로그램이 열림</li>\n<li>범위는 <strong>Codex Desktop 전용 GPT‑5.5</strong>로 제한되며, 새 채팅에서 moderation을 유도하지 않고 하나의 프...</p>",
+      "published": "2026-04-26T02:12:18+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Trump, 미국 국립과학재단(NSF) 감독 기구인 국가과학위원회 위원 24명 전원 해임",
+      "url": "https://news.hada.io/topic?id=28895",
+      "summary": "<ul>\n<li>트럼프 대통령이 미국 국립과학재단(NSF)을 감독하는 <strong>국가과학위원회(NSB)</strong> 위원 24명 전원을 즉시 해임했으며, 과학계에서는 76년 역사를 가진 연구 기관의 독립성을 훼손하려는 조치로 해석</li>\n<li>NSB는 행정부와 의회에 과학 정책을 자문하고, <strong>90억 달러 규모 NSF의 정책 수립과...</p>",
+      "published": "2026-04-26T01:33:06+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "IBM Quantum 백엔드를 /dev/urandom으로 교체",
+      "url": "https://news.hada.io/topic?id=28894",
+      "summary": "<ul>\n<li><strong>IBM Quantum 백엔드</strong>만 <code>os.urandom</code>으로 바꾼 상태에서도 회로 구성, 오라클, 추출 파이프라인, <code>d·G == Q</code> 검증기를 그대로 유지한 채 개인키 복구가 재현됨</li>\n<li>수정 범위는 <code>projecteleven.py</code>의 <strong>59줄 변경</strong>에 그치며, 백엔드 실행...</p>",
+      "published": "2026-04-26T00:48:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Firefox, Brave의 광고 차단 엔진 통합",
+      "url": "https://news.hada.io/topic?id=28893",
+      "summary": "<ul>\n<li><strong>Brave의 오픈소스 광고·추적기 차단 엔진</strong>인 adblock-rust가 Firefox 149에 포함됐으며, 현재는 기본적으로 비활성화되어 있음</li>\n<li>이 엔진은 <strong>Rust</strong>로 작성됐고 MPL-2.0 라이선스를 사용하며, 네트워크 요청 차단과 <strong>cosmetic filtering</strong>, uBlock Origin ...</p>",
+      "published": "2026-04-26T00:45:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "새 10 GbE USB 어댑터는 더 시원하고, 더 작고, 더 저렴함",
+      "url": "https://news.hada.io/topic?id=28892",
+      "summary": "<ul>\n<li><strong>RTL8159 기반 10G USB 3.2 어댑터</strong>는 기존 10 GbE Thunderbolt 어댑터보다 더 작고 저렴하며, RJ45 기반 10 Gbps 연결이 필요한 환경에서 유력한 선택지가 됨</li>\n<li>실제 성능은 <strong>USB 포트 대역폭</strong>에 크게 좌우됐고, 4대의 컴퓨터 테스트에서는 USB 3.2 Gen 2x2 20 Gbps 포트...</p>",
+      "published": "2026-04-26T00:42:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "mini-swe-agent - 100줄짜리 AI 에이전트로 GitHub 이슈 해결 및 커맨드라인 지원",
+      "url": "https://news.hada.io/topic?id=28891",
+      "summary": "<ul>\n<li>SWE-bench와 SWE-agent를 만든 Princeton·Stanford 팀이 개발한 <strong>최소주의 AI 코딩 에이전트</strong></li>\n<li><strong>약 100줄의 Python 코드</strong>로 구성된 초경량 AI 소프트웨어 엔지니어링 에이전트로, 거대한 설정 파일이나 모노레포 없이 동작</li>\n<li><strong>bash만 도구로 사용</p>",
+      "published": "2026-04-26T00:31:02+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Our principles",
+      "url": "https://openai.com/index/our-principles",
+      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "published": "2026-04-26T16:00:00+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Zero-Cost Transparent Semiotic Awareness for Frozen Language Models SRT-Adapter",
+      "url": "https://sublius.substack.com/p/srt-adapter-transparent-semiotic",
+      "summary": "<p>Article URL: <a href=\"https://sublius.substack.com/p/srt-adapter-transparent-semiotic\">https://sublius.substack.com/p/srt-adapter-transparent-semiotic</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47916138\">https://news.ycombinator.com/item?id=47916138</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:53:41+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Former MIT president says the US is losing the innovation race to China",
+      "url": "https://www.npr.org/2026/04/25/nx-s1-5772703/former-mit-president-says-the-us-is-losing-the-innovation-race-to-china",
+      "summary": "<p>Article URL: <a href=\"https://www.npr.org/2026/04/25/nx-s1-5772703/former-mit-president-says-the-us-is-losing-the-innovation-race-to-china\">https://www.npr.org/2026/04/25/nx-s1-5772703/former-mit-president-says-the-us-is-losing-the-innovation-race-to-china</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47916104\">https://news.ycombinator.com/item?id=47916104</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:48:53+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Voice Modems",
+      "url": "https://computer.rip/2026-04-26-voice-modems.html",
+      "summary": "<p>Article URL: <a href=\"https://computer.rip/2026-04-26-voice-modems.html\">https://computer.rip/2026-04-26-voice-modems.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47916103\">https://news.ycombinator.com/item?id=47916103</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:48:30+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Human AI Collaboration in LIterature",
+      "url": "https://indignified.com/history-of-human-ai-collaboration-in-literature/",
+      "summary": "<p>Article URL: <a href=\"https://indignified.com/history-of-human-ai-collaboration-in-literature/\">https://indignified.com/history-of-human-ai-collaboration-in-literature/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47916083\">https://news.ycombinator.com/item?id=47916083</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:46:05+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Generative design of novel bacteriophages with genome language models [pdf]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1.full.pdf",
+      "summary": "<p>Article URL: <a href=\"https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1.full.pdf\">https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1.full.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915997\">https://news.ycombinator.com/item?id=47915997</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:34:42+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Built a safety-first options automation tool for covered calls",
+      "url": "https://news.ycombinator.com/item?id=47915929",
+      "summary": "<p>I built PutHouse.com, a safety-first, automated options trading tool for investors who want to generate income from stocks they already own.<p>It focuses on systematic covered calls and cash-secured puts to apply risk management and repeatable rules so it can survive bad markets and keep compounding over time. Traders blow up because they oversize, chase premium, override exits, or take trades they should have skipped. PutHouse avoids those mistakes.<p>What it does\nPutHouse connects to a brokerage account through Alpaca (a YC company, $320m total funding) and automatically looks for covered call and cash-secured put opportunities.<p>Before entering any trade, it checks things like:\n- 0.05 to 0.15 delta\n- 7 to 14 DTE\n- VIX index\n- Minimum VRP ratio of 1.10\n- Open interest\n- Bid/ask spread\n- IV at least 30%\n- Earnings and event risk\n- RSI\n- Position size\n- Existing underwater positions<p>If a trade does not pass the filters, it simply does nothing which is the same as buy and hold.<p>Strategy\nThis doesn’t do the wheel because I don’t want to get assigned. I want long-term stock growth to compound and the 1% options premium in the screenshot is an added income layer on top of the stock growth.<p>Exit rules include:\n- Take profits at 50%\n- Cut risk if delta reaches 0.30<p>Risk controls\nPutHouse caps cash-secured puts by account size, limits the number of contracts per symbol, and avoids covering too much of a stock position with calls.<p>It's assumed that losses (on options income) are inevitable. It’s the cost of doing business like an insurance business paying out claims. The point is to size trades so losses are survivable. The great part is you still hold the stock for compounding and upside.<p>Backtesting\nThe strategy has been backtested on market data going back to 2012 to stress test the rules across different volatility regimes and it showed a net profit. The backtest includes fees, spreads, and exit assumptions.<p>Why automation matters\nCovered calls and cash-secured puts are simple strategies that anyone can do manually. But automation consistently manages risk by removing second guessing, revenge trading, and anxiety. Plus, you save A LOT of time each day.<p>What makes it different\nMost brokerages optimize for engagement and give traders more information. PutHouse is optimized for profitable outcomes.<p>Notes\nThe product is live with users averaging around $50k in account size. I personally trade my $650k portfolio with it.<p>The options income is a layer on top of long-term stock ownership for reinvesting profits and compounding stock appreciation.<p>The default mode is conservative to stay safe-first because traders underestimate how fast small mistakes compound in the wrong direction. But I’ll add a toggle for users who want to trade with more risk or configure their own parameters.<p>Happy to answer questions, especially around anything you guys are skeptical about.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915929\">https://news.ycombinator.com/item?id=47915929</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:25:32+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Why cars charge 5x faster in China when the research is shared?",
+      "url": "https://cyrusradfar.com/thoughts/why-cars-charge-5x-faster-in-china/",
+      "summary": "<p>Article URL: <a href=\"https://cyrusradfar.com/thoughts/why-cars-charge-5x-faster-in-china/\">https://cyrusradfar.com/thoughts/why-cars-charge-5x-faster-in-china/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915879\">https://news.ycombinator.com/item?id=47915879</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:19:55+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "America's Pandemic Car Bubble Is Now Trapping Buyers in Debt",
+      "url": "https://www.wsj.com/business/autos/car-owners-debt-negative-equity-3cfcd031",
+      "summary": "<p>Article URL: <a href=\"https://www.wsj.com/business/autos/car-owners-debt-negative-equity-3cfcd031\">https://www.wsj.com/business/autos/car-owners-debt-negative-equity-3cfcd031</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915869\">https://news.ycombinator.com/item?id=47915869</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:18:52+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Our Principles",
+      "url": "https://openai.com/index/our-principles/",
+      "summary": "<p>Article URL: <a href=\"https://openai.com/index/our-principles/\">https://openai.com/index/our-principles/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915749\">https://news.ycombinator.com/item?id=47915749</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T23:04:25+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "A New Idea to Save the Climate? Dam the Bering Strait.",
+      "url": "https://www.nytimes.com/2026/04/24/climate/amoc-bering-strait-dam.html",
+      "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/04/24/climate/amoc-bering-strait-dam.html\">https://www.nytimes.com/2026/04/24/climate/amoc-bering-strait-dam.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915719\">https://news.ycombinator.com/item?id=47915719</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published": "2026-04-26T23:01:21+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Sabastian Sawe becomes first person to break two-hour marathon mark",
+      "url": "https://www.rte.ie/sport/athletics/2026/0426/1570275-sawe-becomes-first-man-to-break-two-hour-mark-in-marathon/",
+      "summary": "<p>Article URL: <a href=\"https://www.rte.ie/sport/athletics/2026/0426/1570275-sawe-becomes-first-man-to-break-two-hour-mark-in-marathon/\">https://www.rte.ie/sport/athletics/2026/0426/1570275-sawe-becomes-first-man-to-break-two-hour-mark-in-marathon/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915691\">https://news.ycombinator.com/item?id=47915691</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:58:35+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Nitrum – Rust Toolkit and CLI for AWS Nitro Enclaves",
+      "url": "https://github.com/matzapata/nitrum",
+      "summary": "<p>Article URL: <a href=\"https://github.com/matzapata/nitrum\">https://github.com/matzapata/nitrum</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915680\">https://news.ycombinator.com/item?id=47915680</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published": "2026-04-26T22:57:26+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "I Learned to Stop Worrying and Love Coding with AI",
+      "url": "https://jeffield.net/blog/claude-strangelove-or-how-i-learned-to-stop-worrying-and-love-coding-with-ai/",
+      "summary": "<p>Article URL: <a href=\"https://jeffield.net/blog/claude-strangelove-or-how-i-learned-to-stop-worrying-and-love-coding-with-ai/\">https://jeffield.net/blog/claude-strangelove-or-how-i-learned-to-stop-worrying-and-love-coding-with-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915677\">https://news.ycombinator.com/item?id=47915677</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:57:11+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "The Atari 1200XL – By Paul Lefebvre",
+      "url": "https://www.goto10retro.com/p/inside-the-atari-1200xl",
+      "summary": "<p>Article URL: <a href=\"https://www.goto10retro.com/p/inside-the-atari-1200xl\">https://www.goto10retro.com/p/inside-the-atari-1200xl</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915670\">https://news.ycombinator.com/item?id=47915670</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:56:45+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Did You Say \"Intellectual Property\"? It's a Seductive Mirage",
+      "url": "https://www.gnu.org/philosophy/not-ipr.html.en",
+      "summary": "<p>Article URL: <a href=\"https://www.gnu.org/philosophy/not-ipr.html.en\">https://www.gnu.org/philosophy/not-ipr.html.en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915637\">https://news.ycombinator.com/item?id=47915637</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:53:32+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "FreeBSD Device Drivers Book",
+      "url": "https://github.com/ebrandi/FDD-book",
+      "summary": "<p>Article URL: <a href=\"https://github.com/ebrandi/FDD-book\">https://github.com/ebrandi/FDD-book</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915632\">https://news.ycombinator.com/item?id=47915632</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:53:06+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Jaeger adopts OpenTelemetry at its core to solve the AI agent observability gap",
+      "url": "https://thenewstack.io/jaeger-v2-ai-observability/",
+      "summary": "<p>Article URL: <a href=\"https://thenewstack.io/jaeger-v2-ai-observability/\">https://thenewstack.io/jaeger-v2-ai-observability/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915620\">https://news.ycombinator.com/item?id=47915620</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:52:15+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Intel reportedly says it boosted yields by selling what would normally be scrap",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reportedly-says-it-boosted-yields-by-selling-what-would-normally-be-scrap-or-low-expectation-cpus-customers-more-willing-to-accept-lesser-chips-due-to-overwhelming-cpu-demand",
+      "summary": "<p>Article URL: <a href=\"https://www.tomshardware.com/pc-components/cpus/intel-reportedly-says-it-boosted-yields-by-selling-what-would-normally-be-scrap-or-low-expectation-cpus-customers-more-willing-to-accept-lesser-chips-due-to-overwhelming-cpu-demand\">https://www.tomshardware.com/pc-components/cpus/intel-reportedly-says-it-boosted-yields-by-selling-what-would-normally-be-scrap-or-low-expectation-cpus-customers-more-willing-to-accept-lesser-chips-due-to-overwhelming-cpu-demand</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915611\">https://news.ycombinator.com/item?id=47915611</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:51:01+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "The tortoise and the hare: will China beat the US in the race back to the moon?",
+      "url": "https://www.theguardian.com/science/2026/apr/26/china-us-space-race-moon",
+      "summary": "<p>Article URL: <a href=\"https://www.theguardian.com/science/2026/apr/26/china-us-space-race-moon\">https://www.theguardian.com/science/2026/apr/26/china-us-space-race-moon</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915587\">https://news.ycombinator.com/item?id=47915587</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:48:56+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: CheckThisOut – a filtered directory of side hustles and AI tools",
+      "url": "https://checkthisout.com/",
+      "summary": "<p>Article URL: <a href=\"https://checkthisout.com/\">https://checkthisout.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47915576\">https://news.ycombinator.com/item?id=47915576</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-04-26T22:47:12+00:00"
+    }
+  ],
+  "sources_run": [
+    "reddit-claudeai",
+    "reddit-cursor",
+    "reddit-ml",
+    "github-blog-ai",
+    "geeknews-hada",
+    "x-agentic-coding",
+    "x-github-copilot",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
+    "openai-blog",
+    "hn-newest",
+    "hn-agentic",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}

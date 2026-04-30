@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
+import { adminApi, readApi } from './api'
 const WEEKLY_POLL_INTERVAL_MS = 1500
 const WEEKLY_POLL_MAX_ATTEMPTS = 80
 
@@ -64,7 +64,11 @@ const impactBar: Record<string, string> = {
   low: '■',
 }
 
-export default function WeeklyPage() {
+interface WeeklyPageProps {
+  showAdminControls?: boolean
+}
+
+export default function WeeklyPage({ showAdminControls = false }: WeeklyPageProps) {
   const [weeks, setWeeks] = useState<string[]>([])
   const [selected, setSelected] = useState<string | null>(null)
   const [meta, setMeta] = useState<WeeklyMeta | null>(null)
@@ -79,8 +83,8 @@ export default function WeeklyPage() {
 
   useEffect(() => {
     if (!selected) return
-    fetch(`${API}/api/weekly/${selected}`).then(r => r.text()).then(setLetter).catch(() => setLetter(''))
-    fetch(`${API}/api/weekly/${selected}/meta`).then(r => r.json()).then(setMeta).catch(() => setMeta(null))
+    fetch(readApi(`/api/weekly/${selected}`)).then(r => r.text()).then(setLetter).catch(() => setLetter(''))
+    fetch(readApi(`/api/weekly/${selected}/meta`)).then(r => r.json()).then(setMeta).catch(() => setMeta(null))
   }, [selected, reloadNonce])
 
   useEffect(() => {
@@ -92,7 +96,7 @@ export default function WeeklyPage() {
   const runWeekly = async () => {
     setRunning(true)
     try {
-      const response = await fetch(`${API}/api/weekly/run`, {
+      const response = await fetch(adminApi('/api/weekly/run'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ force: true }),
@@ -123,9 +127,11 @@ export default function WeeklyPage() {
         <button disabled={idx <= 0} onClick={() => setSelected(weeks[idx - 1])}>◀</button>
         <span className="weekly-nav-label">{selected || '주간 리뷰 없음'}</span>
         <button disabled={idx < 0 || idx >= weeks.length - 1} onClick={() => setSelected(weeks[idx + 1])}>▶</button>
-        <button className="neo weekly-run-btn" onClick={runWeekly} disabled={running}>
-          {running ? '생성 중...' : '주간 레터 생성'}
-        </button>
+        {showAdminControls && (
+          <button className="neo weekly-run-btn" onClick={runWeekly} disabled={running}>
+            {running ? '생성 중...' : '주간 레터 생성'}
+          </button>
+        )}
       </div>
 
       {meta && (
@@ -217,13 +223,19 @@ export default function WeeklyPage() {
       )}
 
       {!meta && selected && <p className="weekly-empty">이 주차의 주간 리뷰가 아직 생성되지 않았습니다.</p>}
-      {!selected && weeks.length === 0 && <p className="weekly-empty">아직 생성된 주간 리뷰가 없습니다. '주간 레터 생성' 버튼을 누르세요.</p>}
+      {!selected && weeks.length === 0 && (
+        <p className="weekly-empty">
+          {showAdminControls
+            ? "아직 생성된 주간 리뷰가 없습니다. '주간 레터 생성' 버튼을 누르세요."
+            : '아직 생성된 주간 리뷰가 없습니다.'}
+        </p>
+      )}
     </div>
   )
 }
 
 async function fetchWeeks(): Promise<string[]> {
-  const response = await fetch(`${API}/api/weekly`)
+  const response = await fetch(readApi('/api/weekly'))
   if (!response.ok) throw new Error(`weekly_list_failed:${response.status}`)
   return response.json() as Promise<string[]>
 }
@@ -231,7 +243,7 @@ async function fetchWeeks(): Promise<string[]> {
 async function waitForWeeklyArtifacts(weekId: string, startedAt: string): Promise<WeeklyStatus> {
   const startedAtMs = new Date(startedAt).getTime()
   for (let attempt = 0; attempt < WEEKLY_POLL_MAX_ATTEMPTS; attempt += 1) {
-    const response = await fetch(`${API}/api/weekly/${weekId}/status`)
+    const response = await fetch(readApi(`/api/weekly/${weekId}/status`))
     if (response.ok) {
       const status = await response.json() as WeeklyStatus
       const letterUpdated = status.letter_updated_at ?? 0

@@ -1,17 +1,21 @@
 import { useState, useEffect, useCallback } from 'react'
+import type { ReactNode } from 'react'
 import ReactMarkdown from 'react-markdown'
-import PipelinePage from './PipelinePage'
 import CardNews from './CardNews'
+import { adminApi, readApi } from './api'
 import LettersCalendar from './LettersCalendar'
 import WeeklyPage from './WeeklyPage'
 import type { CardsData } from './CardNews'
 import './App.css'
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
-
 type View = 'letters' | 'weekly' | 'pipeline'
 
-function App() {
+type AppShellProps = {
+  adminMode?: boolean
+  renderPipeline?: (initialDate: string) => ReactNode
+}
+
+export function AppShell({ adminMode = false, renderPipeline }: AppShellProps) {
   const [view, setView] = useState<View>('letters')
   const [dates, setDates] = useState<string[]>([])
   const [selected, setSelected] = useState<string | null>(null)
@@ -41,20 +45,40 @@ function App() {
   }, [theme])
 
   const toggleTheme = useCallback(() => {
-    setTheme((t) => (t === 'light' ? 'dark' : 'light'))
+    setTheme((value) => (value === 'light' ? 'dark' : 'light'))
   }, [])
 
-  // 파이프라인으로 새 레터 생성 후에도 캘린더에 반영되도록, 발송 내역 탭으로 올 때마다 목록 갱신
-  useEffect(() => {
-    if (view !== 'letters') return
-    fetch(`${API}/api/letters`)
-      .then((r) => r.json())
-      .then(setDates)
-      .catch(() => setDates([]))
-  }, [view])
+  const applyDates = useCallback((nextDates: string[]) => {
+    setDates(nextDates)
+    setSelected((current) => {
+      if (nextDates.length === 0) return null
+      if (!current || !nextDates.includes(current)) return nextDates[0]
+      return current
+    })
+  }, [])
 
   useEffect(() => {
-    if (!selected) return
+    if (view !== 'letters') return
+    fetch(readApi('/api/letters'))
+      .then((response) => response.json())
+      .then(applyDates)
+      .catch(() => applyDates([]))
+  }, [applyDates, view])
+
+  const formatCreatedAt = (iso: string) => {
+    try {
+      const value = new Date(iso)
+      return value.toLocaleString('ko-KR', {
+        dateStyle: 'medium',
+        timeStyle: 'short',
+        hour12: false,
+      })
+    } catch {
+      return iso
+    }
+  }
+
+  const handleSelectDate = (nextDate: string) => {
     setContent('')
     setCreatedAt(null)
     setHasCards(null)
@@ -65,17 +89,22 @@ function App() {
     setCardsData(null)
     setCardsError(null)
     setCardsLoading(false)
+    setSelected(nextDate)
+  }
+
+  useEffect(() => {
+    if (!selected) return
     const forDate = selected
-    fetch(`${API}/api/letters/${selected}`)
-      .then(r => r.text())
+    fetch(readApi(`/api/letters/${selected}`))
+      .then((response) => response.text())
       .then((text) => {
         if (forDate === selected) setContent(text)
       })
       .catch(() => {
         if (forDate === selected) setContent('')
       })
-    fetch(`${API}/api/letters/${selected}/info`)
-      .then(r => r.json())
+    fetch(readApi(`/api/letters/${selected}/info`))
+      .then((response) => response.json())
       .then((data: { date?: string; created_at?: string; has_cards?: boolean; has_card_bg?: boolean; sources_used?: string[] }) => {
         if (forDate !== selected) return
         setCreatedAt(data.created_at ?? null)
@@ -93,22 +122,9 @@ function App() {
       })
   }, [selected])
 
-  const formatCreatedAt = (iso: string) => {
-    try {
-      const d = new Date(iso)
-      return d.toLocaleString('ko-KR', {
-        dateStyle: 'medium',
-        timeStyle: 'short',
-        hour12: false,
-      })
-    } catch {
-      return iso
-    }
-  }
-
   const sendFeedback = () => {
     if (!selected) return
-    fetch(`${API}/api/feedback`, {
+    fetch(readApi('/api/feedback'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -117,30 +133,33 @@ function App() {
         content: feedbackContent,
       }),
     })
-      .then(() => setFeedbackSent(true))
+      .then((response) => {
+        if (!response.ok) throw new Error('feedback_failed')
+        setFeedbackSent(true)
+      })
       .catch(() => {})
   }
 
   const deleteLetter = () => {
-    if (!selected) return
+    if (!selected || !adminMode) return
     if (!window.confirm(`${selected} 호를 삭제합니다. 레터·인덱스·체크포인트·피드백이 모두 삭제됩니다. 계속할까요?`)) return
     setDeleteError(null)
-    fetch(`${API}/api/letters/${selected}`, { method: 'DELETE' })
-      .then(r => {
-        if (r.status === 409) {
+    fetch(adminApi(`/api/letters/${selected}`), { method: 'DELETE' })
+      .then((response) => {
+        if (response.status === 409) {
           setDeleteError('파이프라인 실행 중에는 삭제할 수 없습니다.')
           return
         }
-        if (!r.ok) throw new Error(r.statusText)
+        if (!response.ok) throw new Error(response.statusText)
         setSelected(null)
         setContent('')
         setCreatedAt(null)
-        fetch(`${API}/api/letters`)
-          .then(res => res.json())
-          .then(setDates)
-          .catch(() => setDates([]))
+        fetch(readApi('/api/letters'))
+          .then((res) => res.json())
+          .then(applyDates)
+          .catch(() => applyDates([]))
       })
-      .catch(e => setDeleteError(e.message || '삭제 실패'))
+      .catch((error: Error) => setDeleteError(error.message || '삭제 실패'))
   }
 
   const defaultPipelineDate = dates.length > 0 ? dates[0] : new Date().toISOString().slice(0, 10)
@@ -160,51 +179,37 @@ function App() {
         </button>
       </header>
       <nav className="app-tabs">
-        <button
-          type="button"
-          className={view === 'letters' ? 'active' : ''}
-          onClick={() => setView('letters')}
-        >
+        <button type="button" className={view === 'letters' ? 'active' : ''} onClick={() => setView('letters')}>
           발송 내역
         </button>
-        <button
-          type="button"
-          className={view === 'weekly' ? 'active' : ''}
-          onClick={() => setView('weekly')}
-        >
+        <button type="button" className={view === 'weekly' ? 'active' : ''} onClick={() => setView('weekly')}>
           주간 리뷰
         </button>
-        <button
-          type="button"
-          className={view === 'pipeline' ? 'active' : ''}
-          onClick={() => setView('pipeline')}
-        >
-          파이프라인
-        </button>
+        {adminMode && (
+          <button type="button" className={view === 'pipeline' ? 'active' : ''} onClick={() => setView('pipeline')}>
+            파이프라인
+          </button>
+        )}
       </nav>
       {view === 'letters' && (
         <div className="letters-view">
           <aside className="letters-view-calendar">
-            <LettersCalendar
-              dates={dates}
-              selected={selected}
-              onSelectDate={setSelected}
-            />
+            <LettersCalendar dates={dates} selected={selected} onSelectDate={handleSelectDate} />
           </aside>
           <main className="letter-detail">
             {selected && (
               <>
                 <header className="letter-detail-header">
                   <h2 className="letter-detail-date">{selected}</h2>
-                  {createdAt && (
-                    <p className="letter-meta">문서 생성: {formatCreatedAt(createdAt)}</p>
-                  )}
+                  {createdAt && <p className="letter-meta">문서 생성: {formatCreatedAt(createdAt)}</p>}
                   {sourcesUsed.length > 0 && (
                     <div className="letter-sources">
                       수집 출처
                       <div className="letter-sources-list">
-                        {sourcesUsed.map((s, i) => (
-                          <span key={i} className="letter-source-chip">{s}</span>
+                        {sourcesUsed.map((source, index) => (
+                          <span key={index} className="letter-source-chip">
+                            {source}
+                          </span>
                         ))}
                       </div>
                     </div>
@@ -231,7 +236,9 @@ function App() {
                 </header>
                 {hasCards === false && (
                   <p className="letter-workflow-hint">
-                    이 호는 카드뉴스가 생성되지 않았습니다. 파이프라인 탭에서 해당 날짜를 선택한 뒤 &quot;이어서 실행&quot; 또는 &quot;카드 생성&quot; 단계부터 실행하세요.
+                    {adminMode
+                      ? '이 호는 카드뉴스가 생성되지 않았습니다. 파이프라인 탭에서 해당 날짜를 선택한 뒤 "이어서 실행" 또는 "카드 생성" 단계부터 실행하세요.'
+                      : '이 호는 카드뉴스가 아직 생성되지 않았습니다.'}
                   </p>
                 )}
                 <div className="letter-actions">
@@ -268,27 +275,31 @@ function App() {
                         }
                         setCardsLoading(true)
                         setCardsError(null)
-                        fetch(`${API}/api/letters/${selected}/cards`)
-                          .then((r) => {
-                            if (!r.ok) throw new Error(r.status === 404 ? '이 호는 카드뉴스가 없습니다.' : r.statusText)
-                            return r.json()
+                        fetch(readApi(`/api/letters/${selected}/cards`))
+                          .then((response) => {
+                            if (!response.ok) {
+                              throw new Error(response.status === 404 ? '이 호는 카드뉴스가 없습니다.' : response.statusText)
+                            }
+                            return response.json()
                           })
                           .then((data: CardsData) => {
                             setCardsData(data)
                             setLetterDetailView('cards')
                           })
-                          .catch((e) => setCardsError(e.message || '카드 로드 실패'))
+                          .catch((error: Error) => setCardsError(error.message || '카드 로드 실패'))
                           .finally(() => setCardsLoading(false))
                       }}
                     >
                       {cardsLoading ? '불러오는 중…' : '카드 보기'}
                     </button>
                   </div>
-                  <div className="letter-actions-delete-wrap">
-                    <button type="button" className="letter-btn-delete-danger neo" onClick={deleteLetter}>
-                      이 호 삭제
-                    </button>
-                  </div>
+                  {adminMode && (
+                    <div className="letter-actions-delete-wrap">
+                      <button type="button" className="letter-btn-delete-danger neo" onClick={deleteLetter}>
+                        이 호 삭제
+                      </button>
+                    </div>
+                  )}
                 </div>
                 {cardsError && <p className="letter-error">{cardsError}</p>}
                 {deleteError && <p className="letter-error">{deleteError}</p>}
@@ -300,71 +311,73 @@ function App() {
                       <ReactMarkdown>{content || '로딩 중...'}</ReactMarkdown>
                     </div>
                     <section className="feedback">
-                  <h3>이 호에 대한 피드백</h3>
-                  <select value={feedbackType} onChange={e => setFeedbackType(e.target.value)}>
-                    <option value="wrong_source">잘못된 대상 수집 ✦</option>
-                    <option value="stale">오래된 정보 ✦</option>
-                    <option value="missing_trend">누락된 트렌드 ✦</option>
-                    <option value="add_source">추가할 소스</option>
-                    <option value="tone">어조/톤 문제 ✦</option>
-                    <option value="structure">구조/배치 문제 ✦</option>
-                    <option value="quality">품질/정확도 문제 ✦</option>
-                  </select>
-                  {feedbackType === 'wrong_source' && (
-                    <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) · 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
-                  )}
-                  {feedbackType === 'stale' && (
-                    <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) 프롬프트를 자동 개선합니다.</p>
-                  )}
-                  {feedbackType === 'missing_trend' && (
-                    <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) · 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
-                  )}
-                  {feedbackType === 'add_source' && (
-                    <p className="feedback-evolution-hint feedback-evolution-hint--manual">수집 소스는 프롬프트 자동 개선 대상이 아닙니다. 관리자가 config/sources.yaml을 직접 편집해야 합니다.</p>
-                  )}
-                  {feedbackType === 'tone' && (
-                    <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
-                  )}
-                  {feedbackType === 'structure' && (
-                    <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
-                  )}
-                  {feedbackType === 'quality' && (
-                    <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
-                  )}
-                  <textarea
-                    value={feedbackContent}
-                    onChange={e => setFeedbackContent(e.target.value)}
-                    placeholder="내용"
-                    rows={3}
-                  />
-                  <button onClick={sendFeedback}>제출</button>
-                  {feedbackSent && <p className="success">제출되었습니다.</p>}
-                </section>
+                      <h3>이 호에 대한 피드백</h3>
+                      <select value={feedbackType} onChange={(event) => setFeedbackType(event.target.value)}>
+                        <option value="wrong_source">잘못된 대상 수집 ✦</option>
+                        <option value="stale">오래된 정보 ✦</option>
+                        <option value="missing_trend">누락된 트렌드 ✦</option>
+                        <option value="add_source">추가할 소스</option>
+                        <option value="tone">어조/톤 문제 ✦</option>
+                        <option value="structure">구조/배치 문제 ✦</option>
+                        <option value="quality">품질/정확도 문제 ✦</option>
+                      </select>
+                      {feedbackType === 'wrong_source' && (
+                        <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) · 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                      )}
+                      {feedbackType === 'stale' && (
+                        <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) 프롬프트를 자동 개선합니다.</p>
+                      )}
+                      {feedbackType === 'missing_trend' && (
+                        <p className="feedback-evolution-hint">✦ 제출 즉시 분석(analyze) · 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                      )}
+                      {feedbackType === 'add_source' && (
+                        <p className="feedback-evolution-hint feedback-evolution-hint--manual">수집 소스는 프롬프트 자동 개선 대상이 아닙니다. 관리자가 config/sources.yaml을 직접 편집해야 합니다.</p>
+                      )}
+                      {feedbackType === 'tone' && (
+                        <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                      )}
+                      {feedbackType === 'structure' && (
+                        <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                      )}
+                      {feedbackType === 'quality' && (
+                        <p className="feedback-evolution-hint">✦ 제출 즉시 레터 생성(letter_generate) 프롬프트를 자동 개선합니다.</p>
+                      )}
+                      <textarea
+                        value={feedbackContent}
+                        onChange={(event) => setFeedbackContent(event.target.value)}
+                        placeholder="내용"
+                        rows={3}
+                      />
+                      <button onClick={sendFeedback}>제출</button>
+                      {feedbackSent && <p className="success">제출되었습니다.</p>}
+                    </section>
                   </>
                 )}
               </>
             )}
             {!selected && dates.length === 0 && (
-              <p className="letter-empty">발송된 레터가 없습니다. 파이프라인 탭에서 수집·생성을 실행하세요.</p>
+              <p className="letter-empty">
+                {adminMode ? '발송된 레터가 없습니다. 파이프라인 탭에서 수집·생성을 실행하세요.' : '발송된 레터가 없습니다.'}
+              </p>
             )}
-            {!selected && dates.length > 0 && (
-              <p className="letter-hint">위 목록에서 날짜를 선택하면 해당 호를 볼 수 있습니다.</p>
-            )}
+            {!selected && dates.length > 0 && <p className="letter-hint">위 목록에서 날짜를 선택하면 해당 호를 볼 수 있습니다.</p>}
           </main>
         </div>
       )}
       {view === 'weekly' && (
         <main>
-          <WeeklyPage />
+          <WeeklyPage showAdminControls={adminMode} />
         </main>
       )}
-      {view === 'pipeline' && (
+      {adminMode && view === 'pipeline' && (
         <main>
-          <PipelinePage initialDate={defaultPipelineDate} />
+          {renderPipeline ? renderPipeline(defaultPipelineDate) : null}
         </main>
       )}
     </div>
   )
 }
 
-export default App
+export default function PublicApp() {
+  return <AppShell />
+}

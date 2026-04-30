@@ -1,0 +1,376 @@
+{
+  "items": [
+    {
+      "title": "VidStudio - 무료 온라인 비디오 크기 조정 및 편집기",
+      "summary": "\n<ul>\n<li>브라우저에서 파일 업로드 없이 처리되는 <strong>비디오 편집기</strong>로, <strong>멀티트랙 편집</strong>과 프레임 단위 탐색, 소스 모니터 기능 제공</li>\n<li><strong>FFmpeg WASM</strong>과 <strong>WebCodecs</strong> 기반 구성으로 모든 처리가 브라우저 내부에서 이루어짐</li>\n<li>비디오 크기 조...</p>",
+      "url": "https://news.hada.io/topic?id=28788",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "술 취한 글: 시니어 엔지니어로서 배운 것들 (2021)",
+      "summary": "\n<ul>\n<li><strong>경력 성장</strong>에는 회사 이동이 효과적이며, 직함보다 실제로 <strong>무엇을 했고 무엇을 이뤘는지</strong>가 더 중요함</li>\n<li>좋은 코드는 <strong>주니어도 이해할 수 있는 단순함</strong>을 갖고, 가장 좋은 코드는 불필요한 구현을 줄인 <strong>코드가 없는 형태</strong>에 가까움</p>",
+      "url": "https://news.hada.io/topic?id=28787",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Kimi 벤더 검증기 - 추론 제공자의 정확성 검증",
+      "summary": "\n<ul>\n<li>오픈소스 모델 배포 이후 서로 다른 인프라에서 발생하는 <strong>추론 구현 편차</strong>를 검증해, 모델 자체 한계와 엔지니어링 오류를 구분할 수 있게 한 공개소스 도구</li>\n<li>공식 API 기준으로 <strong>OCRBench 91.0</strong>, <strong>AIME2025 avg@32 98.4</strong>, <strong>MMMU Pro Vision 78....</p>",
+      "url": "https://news.hada.io/topic?id=28786",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Britannica11.org - 1911년 Encyclopædia Britannica의 구조화된 판본",
+      "summary": "\n<ul>\n<li><strong>1910–1911 Encyclopædia Britannica 11판</strong>의 디지털 판본으로, <strong>전체 검색</strong>과 상호 참조, 주석 기능 제공</li>\n<li>상단 탐색 항목으로 <strong>Articles</strong>, <strong>Contributors</strong>, <strong>Topics</strong>, <strong>Ancillary</strong> 구분 제공</li>\n<li>...</p>",
+      "url": "https://news.hada.io/topic?id=28785",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: \"오늘 한강 가야 하나...\" - 주식 보며 오리 날리는 오시오",
+      "summary": "\n<p>&quot;오늘 한강 가야 하나...&quot;</p>\n<p>주식 커뮤니티 밈에서 시작됐습니다.<br />\n근데 사람이 뛸 순 없잖아요. 그래서 오리가 대신 납니다.</p>\n<p>https://5sio.com</p>\n<p>📊 실시간 주식 차트 (S&amp;P500, 테슬라, 엔비디아, 마이크론 등)<br />\n🦆 오리 날리기 (당신 대신 뛰어내리는 오리)<br />\n💬 실�",
+      "url": "https://news.hada.io/topic?id=28784",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: 스와이프로 한/영 전환하는 커스텀 키보드앱 (iOS) - Glidekey",
+      "summary": "\n<h2>iOS용 커스텀 키보드앱을 만들어 보았습니다</h2>\n<p>키보드를 사용하면서 몇가지 아쉬움이 있었습니다.</p>\n<ul>\n<li>AI에게 질문을 하면서 물음표(?)를 많이 치는데, 한글자판내에 물음표 키가 있으면 좋겠다</li>\n<li>카톡대화중에 한참 텍스트를 입력하고 있는데 상대방이 보낸 말에 답하느라고 힘들게 입력했던",
+      "url": "https://news.hada.io/topic?id=28783",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Windows Server 2025는 ARM에서 더 잘 실행됨",
+      "summary": "\n<ul>\n<li>가상화된 <strong>Windows Server 2025</strong> 비교에서 ARM64 호스트 위 ARM64 게스트 구성이 안정적으로 동작했고, 서비스 시작과 관리 콘솔 실행, 실습 작업 처리에서도 더 빠른 체감 반응 확인</li>\n<li>두 VM은 <strong>메모리·가상 프로세서·역할 구성</strong>을 동일하게 맞췄고, 측정에서는 Snapdra...</p>",
+      "url": "https://news.hada.io/topic?id=28782",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "집에서 RAM 만들기 [비디오]",
+      "summary": "\n<ul>\n<li><strong>DRAM 셀</strong>을 가정용 장비와 직접 구성한 공정으로 제작해, 트랜지스터와 커패시터를 결합한 <strong>RAM 기본 구조</strong> 동작 확인</li>\n<li>실리콘 웨이퍼 절단, 산화막 형성, 포토리소그래피, 건식 식각, 인 도핑, 게이트 산화막 성장, 콘택트 컷, <strong>알루미늄 증착</strong>까지 반...</p>",
+      "url": "https://news.hada.io/topic?id=28781",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "아세트아미노펜 대 이부프로펜",
+      "summary": "\n<ul>\n<li><strong>ibuprofen</strong>은 <strong>COX 효소</strong> 억제로 염증과 통증을 낮추는 NSAID인 반면, acetaminophen은 정확한 작동 기전이 완전히 확인되지 않았고 중추신경계에서의 진통 작용이 중심으로 제시됨</li>\n<li>안전성 차이도 뚜렷하며, ibuprofen은 <strong>위장관·심혈관·신장 위험</strong>이 ...</p>",
+      "url": "https://news.hada.io/topic?id=28780",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Garry Tan의 \"Skillify\" — AI 에이전트의 실패를 영구적 구조 수정으로 바꾸는 방법론",
+      "summary": "\n<p>Y Combinator 대표 Garry Tan이 자신의 AI 에이전트 운용 경험을 바탕으로 제안한 &quot;Skillify&quot;라는 에이전트 품질 관리 방법론에 대한 글입니다. 1억 6천만 달러를 유치한 LangChain 같은 프레임워크가 테스트 도구는 제공하지만 &quot;무엇을 어떤 순서로 테스트할 것인가&quot;라는 워크플로는 부재하다는...</p>",
+      "url": "https://news.hada.io/topic?id=28777",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Bizketch — 5 AI 에이전트가 사업계획서를 써주는 서비스, Product Hunt 글로벌 런치",
+      "summary": "\n<p>작년부터 혼자 만들어 온 SaaS가 오늘 Product Hunt에 글로벌 런치했습니다.</p>\n<p>Product Hunt: https://www.producthunt.com/products/bizketch?launch=bizketch</p>\n<p>무엇을 만들었는가<br />\n키워드 하나를 입력하면 5개 AI 에이전트가 역할을 분담해 14개 섹션의 사업계획서를 자동 생성하는 서비스입니다....</p>",
+      "url": "https://news.hada.io/topic?id=28776",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Meta, AI 학습용으로 직원 마우스 움직임과 키 입력 수집 시작 예정",
+      "summary": "\n<ul>\n<li>Meta가 미국 직원 컴퓨터에 <strong>마우스 움직임, 클릭, 키 입력</strong>을 추적하는 소프트웨어를 설치해 AI 모델 학습 데이터로 활용하며, 업무용 앱과 웹사이트에서 <strong>화면 스냅샷</strong>도 주기적으로 캡처</li>\n<li><strong>Model Capability Initiative(MCI)</strong> 라 불리는 이 도구는 드...</p>",
+      "url": "https://news.hada.io/topic?id=28775",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "StackAdapt의 ChatGPT 광고 운영 방식이 유출됨",
+      "summary": "\n<ul>\n<li>OpenAI의 광고 파트너인 <strong>StackAdapt</strong>가 ChatGPT 내 광고 게재를 위한 제한적 파일럿 프로그램을 광고주들에게 제안 중이며, 사용자의 <strong>프롬프트 관련성(prompt relevance)</strong> 기반으로 광고를 노출하는 새로운 방식을 도입</li>\n<li>CPM(1,000회 노출당 비용)은 <strong>$15~$60...</p>",
+      "url": "https://news.hada.io/topic?id=28772",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "빠른 동적 언어 인터프리터를 만드는 방법",
+      "summary": "\n<ul>\n<li><strong>AST 직접 순회 인터프리터</strong>도 값 표현, 인라인 캐시, 객체 모델, watchpoint, 반복적인 세부 최적화만으로 큰 성능 향상 가능</li>\n<li>성능을 거의 고려하지 않은 Zef 베이스라인은 <strong>CPython 3.10보다 35배</strong>, Lua 5.4.7보다 80배, QuickJS-ng 0.14.0보다 23배 느렸지만, 21단계...</p>",
+      "url": "https://news.hada.io/topic?id=28771",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "GitHub Copilot 개인용 플랜 변경",
+      "summary": "\n<ul>\n<li><strong>에이전트형 워크플로우</strong> 확대로 장시간 실행되는 병렬 세션의 연산 수요가 커지면서, 개인용 플랜에 <strong>신규 가입 중단</strong>과 사용량 제한 강화, 모델 제공 범위 조정 적용</li>\n<li><strong>GitHub Copilot Pro, Pro+, Student 플랜</strong>의 신규 가입이 일시 중단되며, 개인용 ...</p>",
+      "url": "https://news.hada.io/topic?id=28770",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Tim Cook의 완벽한 타이밍",
+      "summary": "\n<ul>\n<li><strong>0에서 1 창조</strong>보다 이미 만들어진 체계를 확장하고 운영하는 데 강점을 보인 리더십 아래, Apple은 15년 동안 매출 303%, 이익 354%, 기업가치 1,251% 상승 기록</li>\n<li><strong>The Cook Doctrine</strong>은 위대한 제품 집중, 단순함 선호, 핵심 기술의 소유와 통제, 소수의 중요한 프로젝...</p>",
+      "url": "https://news.hada.io/topic?id=28769",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Vercel 침해: OAuth 공격이 플랫폼 환경 변수의 숨은 위험 노출",
+      "summary": "\n<ul>\n<li><strong>OAuth 공급망 침해</strong>가 Vercel 내부 시스템 접근으로 이어졌고, 제한된 일부 고객 프로젝트의 <strong>환경 변수 노출</strong> 발생</li>\n<li>시작점은 Context.ai 직원의 <strong>Lumma Stealer 감염</strong>이었고, 유출된 Google Workspace OAuth 토큰이 Vercel 직원 계정과 내부 시스템 접...</p>",
+      "url": "https://news.hada.io/topic?id=28768",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: Cursor의 Subagent 호출을 제어하는 VS Code 익스텐션",
+      "summary": "\n<p>Cursor를 많이들 사용하고 계실 텐데요. 저처럼 500 request 제한이 있는 예전 request 기반 요금제를 쓰시는 분들은 'Subagent(Composer)' 기능을 켰을 때, 몇 초 만에 수십 개의 request가 순식간에 사라지는 경험을 해보셨을 겁니다. 하루만에 200개 넘게 소진한적도 많습니다..</p>\n<p>Cursor 자체적으로는 이 Su",
+      "url": "https://news.hada.io/topic?id=28767",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "SpaceX, Cursor와 600억 달러 규모 계약 체결",
+      "summary": "\n<ul>\n<li>Elon Musk의 로켓·위성 기업 SpaceX가 AI 코드 작성 스타트업 <strong>Cursor</strong>를 최대 600억 달러에 <strong>인수할 수 있는</strong> 계약을 체결, 대규모 <strong>IPO 준비</strong>와 맞물려 주목</li>\n<li>이번 계약은 SpaceX에 올해 안에 Cursor를 600억 달러에 인수하거나, 협업 대가로 <strong>...</p>",
+      "url": "https://news.hada.io/topic?id=28766",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "SpaceX, AI 코딩 스타트업 Cursor를 600억 달러에 인수할 옵션 확보",
+      "summary": "\n<ul>\n<li>SpaceX가 AI 코드 생성 스타트업 Cursor와 전략적 파트너십을 체결하고, 올해 말 600억 달러에 인수하거나 협업 대가로 100억 달러를 지급하는 옵션을 확보했다고 X에 공식 발표</li>\n<li>“SpaceXAI와 Cursor는 세계 최고의 코딩 및 지식 업무 AI를 만들기 위해 긴밀히 협력 중”이라며, SpaceX의 100만 H100급...</p>",
+      "url": "https://news.hada.io/topic?id=28765",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code가 Pro 요금제에서 제거될 예정인가?",
+      "summary": "\n<ul>\n<li>Anthropic이 월 20달러 <strong>Pro 플랜</strong> 신규 가입자에게서 AI 코딩 도구 Claude Code 접근 권한을 제거한 것으로 확인되며, 기존 Pro 사용자는 현재까지 웹 앱을 통한 접근이 유지되는 상황</li>\n<li>지원 문서가 기존 &quot;<strong>Pro or Max Plan</strong>&quot;에서 &quot;Max Plan&quot;으로 ...</p>",
+      "url": "https://news.hada.io/topic?id=28764",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "ChatGPT Images 2.0 공개",
+      "summary": "\n<ul>\n<li>OpenAI가 <strong>이미지 생성 모델의 차세대 버전</strong>을 공개, 소개글 자체에 문자로 적지 않고 Images 2.0 이용해서 생성한 이미지에 넣은 텍스트로만 소개함</li>\n<li>복잡한 시각적 작업과 정밀한 텍스트 렌더링을 포함한 즉시 사용 가능한 결과물 생성에 초점을 맞춤</li>\n<li>최초의 <strong>사고(t...</p>",
+      "url": "https://news.hada.io/topic?id=28763",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic, 신규 Pro($20/월) 사용자에게 Claude Code 제공 중단?",
+      "summary": "\n<ul>\n<li>Anthropic이 월 $20짜리 <strong>Claude Pro 플랜 신규 가입자</strong>에게서 <strong>Claude Code 접근을 제외한 것으로 보인다는 보도</strong></li>\n<li>기존에는 Pro/Max 플랜에서 Claude Code 사용 가능하다는 안내가 있었지만, 현재 지원 문서 문구가 <strong>“Pro or Max” → “Max”</strong> 로 변...</p>",
+      "url": "https://news.hada.io/topic?id=28762",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic - OpenClaw : 다시 사용 가능해짐",
+      "summary": "\n<ul>\n<li>Anthropic 담당자가 <strong>OpenClaw 스타일의 Claude CLI 사용이 다시 허용</strong>된다고 통보함</li>\n<li><strong>Anthropic API 키</strong>와 <strong>Claude CLI 재사용</strong>을 함께 지원하며, 기존 Anthropic 토큰 프로필도 실행 시 계속 인정됨</li>\n<li><strong>Claude CLI 백엔드</strong>는 다...</p>",
+      "url": "https://news.hada.io/topic?id=28761",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "소프트웨어 공학의 법칙들",
+      "summary": "\n<ul>\n<li>소프트웨어 시스템, 팀, 의사결정에 영향을 미치는 <strong>56가지 원칙과 패턴</strong>을 한곳에 모은 컬렉션으로, 팀 운영부터 아키텍처, 품질, 설계, 의사결정까지 폭넓은 영역을 포괄</li>\n<li><strong>Conway의 법칙</strong>, Brooks의 법칙, Dunbar의 수 등 팀 관련 법칙들은 조직 구조가 시스템 설계와...</p>",
+      "url": "https://news.hada.io/topic?id=28760",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "Framework Laptop 13 Pro",
+      "summary": "\n<ul>\n<li><strong>Intel Core Ultra Series 3</strong>와 <strong>LPCAMM2 메모리</strong>, 햅틱 터치패드, CNC 알루미늄 섀시를 결합한 13형 노트북으로, 수리·업그레이드·커스터마이즈 구조 유지</li>\n<li><strong>20시간 배터리</strong>와 13.5형 <strong>2880x1920 터치스크린</strong> 제공, 사용 시나리오별로 웹...</p>",
+      "url": "https://news.hada.io/topic?id=28759",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Google LiteRT-LM - 엣지 디바이스용 고성능 LLM 추론 프레임워크",
+      "summary": "\n<ul>\n<li>구글이 만든 <strong>프로덕션 수준의 온디바이스 LLM 추론 엔진</strong>으로, Android·iOS·웹·데스크톱·IoT(Raspberry Pi) 등 엣지 환경 전반에서 대규모 언어 모델 실행 가능</li>\n<li>최신 <strong>Gemma 4 모델 지원</strong>도 추가, <strong>GPU·NPU 하드웨어 가속</strong>을 통해 엣지 디바이스에서도...</p>",
+      "url": "https://news.hada.io/topic?id=28758",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: Rust/Tauri로 개발한 완전 자동화 AI 소설 생성기 'NovelGen AI' (로컬 LLM/Google API지원)",
+      "summary": "\n<p>안녕하세요! 아이디어(시드) 하나만 던져주면 알아서 플롯을 짜고 챕터별로 소설을 완성해 주는 윈도우용 데스크탑 앱 NovelGen AI를 소개합니다.</p>\n<p>평소 챗봇과 대화하며 소설을 쓰는 과정에서 매번 프롬프트를 입력하고 흐름을 유지하는 것이 번거로워, 이 과정을 자동화해보고자 Rust와 Tauri를 기반으로 개발",
+      "url": "https://news.hada.io/topic?id=28757",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Making ChatGPT better for clinicians",
+      "summary": "\nOpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "summary": "\nA deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT",
+      "summary": "\nWorkspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Workspace agents",
+      "summary": "\nLearn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "url": "https://openai.com/academy/workspace-agents",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Introducing OpenAI Privacy Filter",
+      "summary": "\nOpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "high"
+    },
+    {
+      "title": "Wrist Assured: A Swatch Lover's Blog",
+      "summary": "\n<p>Article URL: <a href=\"https://wristassured.substack.com/\">https://wristassured.substack.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870741\">https://news.ycombinator.com/item?id=47870741</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://wristassured.substack.com/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Building Medichat.in",
+      "summary": "\n<p>Article URL: <a href=\"https://rittam.substack.com/p/building-medichatin\">https://rittam.substack.com/p/building-medichatin</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870740\">https://news.ycombinator.com/item?id=47870740</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://rittam.substack.com/p/building-medichatin",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "India has splurged billions on metro trains. But where are the commuters?",
+      "summary": "\n<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c4g833128vlo\">https://www.bbc.com/news/articles/c4g833128vlo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870734\">https://news.ycombinator.com/item?id=47870734</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://www.bbc.com/news/articles/c4g833128vlo",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "8000 profiles on the Portland Startups Slack",
+      "summary": "\n<p>Article URL: <a href=\"https://siliconflorist.com/2026/04/22/small-wins-8000-profiles-on-the-portland-startups-slack/\">https://siliconflorist.com/2026/04/22/small-wins-8000-profiles-on-the-portland-startups-slack/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870722\">https://news.ycombinator.com/item?id=47870722</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://siliconflorist.com/2026/04/22/small-wins-8000-profiles-on-the-portland-startups-slack/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "How Much Caffeine in Coffee Cup?",
+      "summary": "\n<p>Article URL: <a href=\"https://www.researchgate.net/publication/317824932_How_Much_Caffeine_in_Coffee_Cup_Effects_of_Processing_Operations_Extraction_Methods_and_Variables\">https://www.researchgate.net/publication/317824932_How_Much_Caffeine_in_Coffee_Cup_Effects_of_Processing_Operations_Extraction_Methods_and_Variables</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870721\">https://news.ycombinator.com/item?id=47870721</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "url": "https://www.researchgate.net/publication/317824932_How_Much_Caffeine_in_Coffee_Cup_Effects_of_Processing_Operations_Extraction_Methods_and_Variables",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Approximating Hyperbolic Tangent",
+      "summary": "\n<p>Article URL: <a href=\"https://jtomschroeder.com/blog/approximating-tanh/\">https://jtomschroeder.com/blog/approximating-tanh/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870709\">https://news.ycombinator.com/item?id=47870709</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "url": "https://jtomschroeder.com/blog/approximating-tanh/",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Ask HN: Is modern AI like glasses for the mind?",
+      "summary": "\n<p>And if so, wouldn't using modern AI make people's effective intelligence less varied between individuals than natural human intelligence?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870699\">https://news.ycombinator.com/item?id=47870699</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "url": "https://news.ycombinator.com/item?id=47870699",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Rediscovering the Handcart",
+      "summary": "\n<p>Article URL: <a href=\"https://solar.lowtechmagazine.com/2026/04/rediscovering-the-handcart/\">https://solar.lowtechmagazine.com/2026/04/rediscovering-the-handcart/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870694\">https://news.ycombinator.com/item?id=47870694</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://solar.lowtechmagazine.com/2026/04/rediscovering-the-handcart/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Electrostatics",
+      "summary": "\n<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Electrostatics\">https://en.wikipedia.org/wiki/Electrostatics</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870692\">https://news.ycombinator.com/item?id=47870692</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://en.wikipedia.org/wiki/Electrostatics",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Show HN: DeckWeaver – Create AI-powered Google Slides presentations in minutes",
+      "summary": "\n<p>As I frequently run bespoke training sessions and project-based workshops for clients, I create quite a lot of presentations and, naturally, to some extent rely on ChatGPT and similar tools to help me create the content.<p>However, as I use Google Slides (rather than a Markdown-based presentation tool), I faced the significant problem of having to manually import the content into Google Slides presentations via copy and paste, which was very time-consuming.<p>Hence, I built a solution called DeckWeaver that not only takes this tedious work off my hands, but also allows me to review generated content directly from within the application, which has the added benefit of fewer context switches and media breaks: <a href=\"https://usedeckweaver.com/\" rel=\"nofollow\">https://usedeckweaver.com/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870690\">https://news.ycombinator.com/item?id=47870690</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://usedeckweaver.com/login",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Ask HN: Favourite Assembly Instructions?",
+      "summary": "\n<p>One for the low-level gurus among  you: what is/are your favourite assembly-language instructions, accross the ages & instruction sets?<p>To get this started: for the good 'ol Z80, I'm torn between Decrement-and-Jump-if-Not-Zero (DJNZ), and Decimal Adjust Accumulator (DAA). Rarely used ComPare, Increment & Repeat (CPIR) could be another contender.<p>On RISC-V, I much like the Set-Less-Than (SLT..) instructions. Great for replacing conditional branches with branchless, sequential math.<p>Your favourites?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870685\">https://news.ycombinator.com/item?id=47870685</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://news.ycombinator.com/item?id=47870685",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Humanoid robots race past humans in Beijing half-marathon,showing rapid advances",
+      "summary": "\n<p>Article URL: <a href=\"https://www.reuters.com/sports/humanoid-robots-race-past-humans-beijing-half-marathon-showing-rapid-advances-2026-04-19/\">https://www.reuters.com/sports/humanoid-robots-race-past-humans-beijing-half-marathon-showing-rapid-advances-2026-04-19/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870654\">https://news.ycombinator.com/item?id=47870654</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://www.reuters.com/sports/humanoid-robots-race-past-humans-beijing-half-marathon-showing-rapid-advances-2026-04-19/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Musk Defrauded Tesla Customers",
+      "summary": "\n<p>Article URL: <a href=\"https://twitter.com/RealDanODowd/status/2047076407705264227\">https://twitter.com/RealDanODowd/status/2047076407705264227</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870611\">https://news.ycombinator.com/item?id=47870611</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "url": "https://twitter.com/RealDanODowd/status/2047076407705264227",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "How to Stop a Data Center in Your Backyard",
+      "summary": "\n<p>Article URL: <a href=\"https://lataco.com/stop-sgv-data-center-building\">https://lataco.com/stop-sgv-data-center-building</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870588\">https://news.ycombinator.com/item?id=47870588</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "url": "https://lataco.com/stop-sgv-data-center-building",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Show HN: Bro Skills – address the daily gaps your agents still struggle with",
+      "summary": "\n<p>Article URL: <a href=\"https://github.com/backnotprop/bro-skills\">https://github.com/backnotprop/bro-skills</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870583\">https://news.ycombinator.com/item?id=47870583</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://github.com/backnotprop/bro-skills",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "low"
+    },
+    {
+      "title": "Metrics SQL: A SQL-based semantic layer for humans and agents",
+      "summary": "\n<p>Article URL: <a href=\"https://www.rilldata.com/blog/introducing-metrics-sql-a-sql-based-semantic-layer-for-humans-and-agents\">https://www.rilldata.com/blog/introducing-metrics-sql-a-sql-based-semantic-layer-for-humans-and-agents</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870578\">https://news.ycombinator.com/item?id=47870578</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://www.rilldata.com/blog/introducing-metrics-sql-a-sql-based-semantic-layer-for-humans-and-agents",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Show HN: Ecstatic Dance Aggregator for worldwide wellness events",
+      "summary": "\n<p>I built something to try to map and bring together all of the ecstatic dance's around the world. If anyones been to an ecstatic dance it's a freeform movement and dance practice which helps you connect with yourself through a wave of music.<p>I'm an ecstatic dance DJ myself over in london and I make apps for a living. This is a little passion project of mine to try and map and bring into one space all of the events that take place each week around the world.<p>It's unlikely that events in your local town are mapped, but the aim is to make it as easy as possible for people to quickly add and map events so others can find them. The add button at the top is a translator of ticket pages where people list their events but the site is agnostic to wherever the event is.<p>I also spent time to go fully headless with everything running on cloudflare using the latest vinext they have been working on which is still in beta and I feel it's very snappy and responsive.<p>This is an example of something that was made fully possible with ai. I did it with a claude max subscription over around 2 months and 10M tokens.  Totally open to feedback!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870566\">https://news.ycombinator.com/item?id=47870566</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://ecstatic.events",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Mars or the Moon or A.I.? Elon Musk's Changing Goals for SpaceX",
+      "summary": "\n<p>Article URL: <a href=\"https://www.nytimes.com/2026/04/22/technology/elon-musk-spacex-ipo-goals.html\">https://www.nytimes.com/2026/04/22/technology/elon-musk-spacex-ipo-goals.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870565\">https://news.ycombinator.com/item?id=47870565</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "url": "https://www.nytimes.com/2026/04/22/technology/elon-musk-spacex-ipo-goals.html",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "A good AGENTS.md is a model upgrade. A bad one is worse than no docs at all",
+      "summary": "\n<p>Article URL: <a href=\"https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files\">https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870535\">https://news.ycombinator.com/item?id=47870535</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "url": "https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files",
+      "category": "에이전틱 코딩 & 프론티어 모델 (Claude Code, Cursor, Codex, Composer 등)",
+      "impact": "medium"
+    },
+    {
+      "title": "Islam Is Not the Cause of Honor Killings. It's Part of the Solution",
+      "summary": "\n<p>Article URL: <a href=\"https://yaqeeninstitute.org/read/paper/islam-is-not-the-cause-of-honor-killings-its-part-of-the-solution\">https://yaqeeninstitute.org/read/paper/islam-is-not-the-cause-of-honor-killings-its-part-of-the-solution</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870528\">https://news.ycombinator.com/item?id=47870528</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
+      "url": "https://yaqeeninstitute.org/read/paper/islam-is-not-the-cause-of-honor-killings-its-part-of-the-solution",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    }
+  ],
+  "chunks": 1
+}

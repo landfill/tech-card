@@ -1,0 +1,320 @@
+{
+  "items": [
+    {
+      "title": "습관적인 커피 섭취는 장내 미생물군을 형성하고 생리와 인지를 바꿈",
+      "summary": "\n습관적 커피 섭취가 장내 미생물군, 대사체, 면역 반응 및 기분·인지 지표에 광범위한 변화를 일으키며, 중단·재도입 실험에서 시간 축에 따른 영향이 관찰됨(연구 대상: 건강한 성인 62명).",
+      "url": "https://news.hada.io/topic?id=28888",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "SDL이 이제 DOS를 지원함",
+      "summary": "\nDJGPP 기반 DOS 포트가 SDL main에 병합되어 VGA/VESA 비디오, Sound Blaster 오디오, PS/2 입력, BIOS 조이스틱 등 광범위한 기능을 지원하게 됨.",
+      "url": "https://news.hada.io/topic?id=28887",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "나는 왜 쓰는가 (1946)",
+      "summary": "\n작가로서의 자각과 고립감이 글쓰기의 출발점이었고, 내면 서사와 단어의 배열에 대한 어린시절 경험이 서사의 형성과 작가성으로 이어졌다는 회고적 서술.",
+      "url": "https://news.hada.io/topic?id=28886",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "오디오 인터페이스에 기본으로 SSH가 활성화되어 있음",
+      "summary": "\nRodecaster Duo 펌웨어 분석에서 기본적으로 SSH가 열려 있으며 업데이트 패키지 구조, 듀얼 파티션 부트 및 장치 내부 구조 확인 가능성이 드러남(보안·리버스엔지니어링 관련).",
+      "url": "https://news.hada.io/topic?id=28885",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: firma: Claude를 내 포트폴리오 AI 비서로 만드는 로컬 퍼스트 자산관리 CLI",
+      "summary": "\n로컬 퍼스트 CLI 'firma'는 Claude를 활용해 해외 주식 포트폴리오 관리를 간편화하며 Finnhub 자동 가격 동기화, P&L·평단가 조회 등 기능을 제공해 스프레드시트 기반 관리를 대체함.",
+      "url": "https://news.hada.io/topic?id=28884",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "딥러닝의 과학 이론은 등장할 것이다",
+      "summary": "\n딥러닝 학습 과정은 파라미터·데이터·과제·학습 규칙의 상호작용으로 보는 동역학 관점에서 과학적 이론으로 정립되기 시작했으며, 난제는 불투명성보다 복잡성에 있음.",
+      "url": "https://news.hada.io/topic?id=28883",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Gemini Enterprise Agent Platform — 구글 클라우드의 차세대 AI 에이전트 통합 플랫폼",
+      "summary": "\n구글 클라우드가 Vertex AI를 확장한 'Gemini Enterprise Agent Platform'을 출시해 에이전트 생성·확장·통제·최적화를 통합된 환경에서 지원함(엔터프라이즈 에이전트 플랫폼).",
+      "url": "https://news.hada.io/topic?id=28882",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "ClawSweeper: AI 기반 오픈소스 이슈 자동 관리 봇",
+      "summary": "\nopenclaw 저장소의 13,000개 이상 미처리 이슈/PR을 관리하기 위해 설계된 ClawSweeper는 AI로 항목을 검토해 닫을 것과 열어둘 것을 분류하되, 확실치 않으면 닫지 않는 보수적 원칙을 따름.",
+      "url": "https://news.hada.io/topic?id=28880",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "AI 알약을 먹은 복리 성장 스타트업",
+      "summary": "\n샌프란시스코 AI 네이티브 기업 관찰에서 PM 역할 축소, 엔지니어 주도 운영, 실험 속도 가속 등 기존 스타트업과 다른 운영 모델이 나타나고 있음을 보고함(조직·운영 변화 관찰).",
+      "url": "https://news.hada.io/topic?id=28879",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: purplemux – Claude Code 세션을 웹·모바일에서 관리하는 오픈소스 tmux 매니저",
+      "summary": "\nClaude Code 등 다수의 세션을 한 화면에서 관리하기 위해 만든 오픈소스 tmux 매니저로, 브라우저/모바일에서 세션 상태를 확인하고 이동 중 작업 흐름을 유지할 수 있게 함.",
+      "url": "https://news.hada.io/topic?id=28877",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "반사회적으로 되는 법 - 일관성 없고 고립적인 사회적 경험에 대한 안내",
+      "summary": "\n모호하거나 불쾌한 상호작용에서 상대를 비이성적·적대적 존재로 고정하면 사회적 관계가 고립으로 변하며, 직감만 신뢰하면 사실 확인보다 오해가 커진다는 심리사회적 경고.",
+      "url": "https://news.hada.io/topic?id=28876",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: imgssh - SSH 안에서 로컬 클립보드 이미지를 붙여넣기",
+      "summary": "\n원격 서버에서 SSH로 작업할 때 로컬 클립보드의 이미지를 파일로 저장·전송하지 않고 바로 붙여넣을 수 있게 해 편의성을 높이는 도구 소개(터미널 기반 워크플로우 개선).",
+      "url": "https://news.hada.io/topic?id=28875",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "TypeScript 7.0 Beta 공개",
+      "summary": "\nTypeScript 7.0 베타는 Go로 포팅된 네이티브 구현을 도입해 컴파일 속도가 최대 약 10배 빨라졌으며, beta이지만 일상 작업과 CI에서 바로 사용할 수 있을 정도로 안정적이라고 발표됨.",
+      "url": "https://news.hada.io/topic?id=28873",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high"
+    },
+    {
+      "title": "Google Cloud가 제시하는 멀티 에이전트 시스템의 5가지 통합 패턴: A2A와 MCP",
+      "summary": "\nCloud Next 26에서 공개된 구글 클라우드의 멀티 에이전트 인프라 패턴은 에이전트 간 통신(A2A)과 에이전트의 외부 도구·데이터 접근을 위한 MCP(Model Context Protocol)를 핵심으로 제시함.",
+      "url": "https://news.hada.io/topic?id=28872",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Spinel: Ruby AOT 네이티브 컴파일러",
+      "summary": "\nRuby 코드를 독립 실행형 네이티브 바이너리로 변환하는 AOT 컴파일러로, 전체 프로그램 단위 타입 추론과 C 코드 생성을 통해 CRuby 대비 기하평균 약 11.6배 빠른 실행을 목표로 함.",
+      "url": "https://news.hada.io/topic?id=28871",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "Ubuntu 26.04",
+      "summary": "\nUbuntu 26.04 LTS(Resolute Raccoon) 출시로 데스크톱·서버·클라우드 전반에서 보안·성능 개선을 제공하며, 여러 에디션에 대해 5년의 유지보수 기간을 제공함.",
+      "url": "https://news.hada.io/topic?id=28870",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "high"
+    },
+    {
+      "title": "클로드 코드로 UX 라이팅 리소스 50% 절감한 후기 (Figma MCP 활용)",
+      "summary": "\nAI(Claude Code)를 활용해 서비스 문구 검수를 자동화하고 조직의 판단 기준을 시스템화해 UX 라이팅 리소스를 절반으로 줄인 사례와 실무 적용 과정 공유.",
+      "url": "https://news.hada.io/topic?id=28869",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Codex, Browser use로 웹사이트 구현 및 검증 지원",
+      "summary": "\nCodex의 'Browser Use' 플러그인은 코덱스 앱 내에서 브라우저를 실행해 시뮬레이션된 사용자 클릭으로 웹앱을 테스트하고 vision을 통해 화면을 확인하며 네트워크·콘솔 로그도 함께 검사할 수 있게 함.",
+      "url": "https://news.hada.io/topic?id=28868",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Google, Anthropic에 최대 400억 달러 (약 59조원) 투자",
+      "summary": "\nGoogle이 Anthropic에 즉시 100억 달러를 투자하고 성과 목표 달성 시 추가 300억 달러를 투입하는 조건부 최대 400억 달러 규모 투자를 발표했으며, Anthropic 기업가치를 약 3,500억 달러로 평가함(Claude Code의 사업적 성공 배경 언급).",
+      "url": "https://news.hada.io/topic?id=28867",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: 온라인으로 즐기는 랜덤뽑기 모음 사이트",
+      "summary": "\n온라인에서 방을 만들고 초대해 친구들과 실시간으로 랜덤뽑기·순위 정하기를 즐길 수 있는 사이트로, 초대링크·QR 코드 공유와 5가지 랜덤 게임 제공.",
+      "url": "https://news.hada.io/topic?id=28866",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "과도한 고민, 범위 확장, 구조적 diff로 프로젝트를 망치는 법",
+      "summary": "\n프로젝트는 과도한 설계·조사로 원래 문제를 놓치는 경향이 있으며, 실제 진전은 '그냥 해보는' 접근에서 더 빠르게 일어날 수 있다는 경험적 통찰과 사례 공유.",
+      "url": "https://news.hada.io/topic?id=28865",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "노르웨이, 16세 미만 소셜미디어 금지 추진",
+      "summary": "\n노르웨이에서 16세 미만 아동의 소셜미디어 접근을 제한하는 법안이 추진 중이며, 정부는 아동의 온라인 잠재적 해악 대응을 이유로 연말 전 법안 통과를 목표로 하고 있음.",
+      "url": "https://news.hada.io/topic?id=28864",
+      "category": "대한민국 IT",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude를 해지한 이유: 토큰 문제, 품질 저하, 부실한 지원",
+      "summary": "\n사용자는 초기의 만족스러운 토큰 할당과 품질에서 약 3주 전에 급격한 체감 저하를 느꼈고, 특정 사용 후 갑작스러운 사용량 급등과 지원 채널의 미흡함을 이유로 Claude 서비스를 해지함.",
+      "url": "https://news.hada.io/topic?id=28863",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "GoScrapy - Go기반 초고속 웹 스크래핑 프레임워크",
+      "summary": "\nPython Scrapy의 아키텍처를 Go 네이티브로 구현한 고성능 웹 스크래핑 프레임워크로, 자동 스캐폴딩 명령과 Go 동시성 모델을 활용해 빠른 크롤링을 제공함.",
+      "url": "https://news.hada.io/topic?id=28862",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "DESIGN.md — AI 코딩 도구를 위한 디자인 시스템 단일 파일 포맷 (한국어 정리)",
+      "summary": "\nGoogle Labs의 Stitch 프로젝트에서 제안한 DESIGN.md 포맷을 한국어로 28챕터 분량의 커리큘럼 형태로 정리해 AI 코딩 도구용 디자인 시스템을 쉽게 이해하고 적용하도록 정리함.",
+      "url": "https://news.hada.io/topic?id=28861",
+      "category": "대한민국 IT",
+      "impact": "medium"
+    },
+    {
+      "title": "Agents Aren't Coworkers, Embed Them in Your Software",
+      "summary": "\n블로그 글은 AI 에이전트를 동료가 아닌 소프트웨어 구성요소로 임베드해 사용자 워크플로우에 통합하는 접근을 주장하며, 에이전트 설계와 역할에 대한 실무적 관점을 제시함.",
+      "url": "https://www.feldera.com/blog/ai-agents-arent-coworkers-embed-them-in-your-software",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Aprendendo Inglês Com IA",
+      "summary": "\n영어 학습에 AI를 적용한 서비스(FluencyCraft) 관련 링크 및 소개 페이지.",
+      "url": "https://fluencycraft.com/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Bees Change Color with the Weather",
+      "summary": "\n날씨에 따라 색이 변하는 벌에 대한 과학 기사(생물학적 현상 및 관측 결과 소개).",
+      "url": "https://nautil.us/these-bees-change-color-with-the-weather-1280222",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "How Copenhagen built a metro for free (The Flying Moose) [video]",
+      "summary": "\n코펜하겐의 지하철 건설과 관련된 영상 콘텐츠(도시계획·펀딩 모델 사례 설명).",
+      "url": "https://www.youtube.com/watch?v=GzamwVH3CXU",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Show HN: I built a PyPI watchdog that tests whether packages work",
+      "summary": "\nPyPI에 올라오는 패키지들이 다양한 환경에서 설치·실행되는지를 자동으로 검사하는 워치독을 만들었고, 여러 파이썬 환경에서 설치·import 검증을 수행해 결과를 대시보드로 제공함(오픈 소스 프로젝트 링크 포함).",
+      "url": "https://sovereignmail.org/pypiplace",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "medium"
+    },
+    {
+      "title": "IronBCI-32: 32-Channel 24-Bit EEG for BCI Research",
+      "summary": "\nBCI 연구용 32채널 24비트 EEG 하드웨어 프로젝트 소개(하드웨어 설계·연구용 장비 관련).",
+      "url": "https://hackaday.io/project/205585-ironbci-32-32-channel-24-bit-eeg-for-bci-research",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Microfiche, Microfilm and Other Minutiae (1981) [video]",
+      "summary": "\n1981년 자료 영상 관련 링크(역사·미디어 보존 관련 콘텐츠).",
+      "url": "https://www.youtube.com/watch?v=Q6P9FhSkd0I",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "The most successful health campaign in modern history",
+      "summary": "\n현대사에서 가장 성공적인 보건 캠페인에 관한 기사(공중보건 성과와 전략 분석).",
+      "url": "https://www.msn.com/en-us/health/other/the-most-successful-health-campaign-in-modern-history/ar-AA1ZHQwi",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles",
+      "summary": "\nLMSYS의 DeepSeek-V4 발표로, 빠른 추론부터 검증된 강화학습까지를 목표로 SGLang·Miles 도구와 함께 공개된 기술 업데이트 및 초기 사용 사례 설명.",
+      "url": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Understanding the short circuit in solid-state batteries",
+      "summary": "\n고체 전지에서 발생하는 단락 현상의 원인과 메커니즘을 연구한 소개 기사(재료·전지 안전성 관련).",
+      "url": "https://www.mpie.de/5151287/short-circuit-solid-state-batteries",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Uranus's Outermost Rings Are Made of Two Different Things",
+      "summary": "\n천문학 기사로, 천왕성의 가장 바깥 고리들이 서로 다른 두 종류의 물질로 구성되어 있음을 관측 결과로 제시함.",
+      "url": "https://skyandtelescope.org/astronomy-news/uranuss-outermost-rings-are-made-of-two-different-things/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Boulder's water supply hangs on for now amid historic drought conditions",
+      "summary": "\n역사적 가뭄 상황 속에서 볼더의 수자원 공급 현황과 대응을 다룬 지역 보도 기사(기후·자원 관리 이슈).",
+      "url": "https://boulderreportinglab.org/2026/04/23/boulders-water-supply-hangs-on-for-now-amid-historic-drought-conditions/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Once a Year, Seattle Center Becomes a Medical Clinic",
+      "summary": "\n시애틀 센터에서 연 1회 의료 클리닉으로 운영되는 행사에 대한 지역 보도(공중보건·지역 서비스 사례).",
+      "url": "https://www.thestranger.com/news/once-a-year-seattle-center-becomes-a-medical-center/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Your Name in Landsat",
+      "summary": "\nNASA Landsat 관련 특별 페이지로, 참여형 캠페인 또는 정보 제공 페이지 링크(프로모션/참여형 콘텐츠).",
+      "url": "https://science.nasa.gov/specials/your-name-in-landsat/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Her Life Savings Mysteriously Disappeared After a Systems Glitch",
+      "summary": "\n뉴욕타임스 기사로 한 여성의 저축이 시스템 오류로 사라진 사건을 보도하며 금융 시스템·고객 지원 및 위험 관리 문제를 다룸.",
+      "url": "https://www.nytimes.com/2026/04/25/your-money/fidelity-investments-fraud-alert.html",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "medium"
+    },
+    {
+      "title": "Steak 'n Shake: We're going 'back to the glory days of fast food'",
+      "summary": "\nSteak 'n Shake의 브랜드·제품 전략과 '과거의 영광'을 되살리려는 시도를 다룬 비즈니스 기사.",
+      "url": "https://thehill.com/business/5848987-steak-n-shake-healthy-ingredients/",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "Show HN: Rethinking browser tabs to treat too many tabs open",
+      "summary": "\nTabby라는 도구로 중복 탭을 제거하고 URL 기반 그룹화·내보내기 등을 통해 탭 과다 문제를 해결하는 방법을 제시하는 프로젝트(오픈소스 깃허브 링크 포함).",
+      "url": "https://github.com/moogacs/tabby",
+      "category": "GitHub & 인프라 트렌드 (CI/CD, 오픈소스, 인프라)",
+      "impact": "low"
+    },
+    {
+      "title": "Marc Andreessen on how the internet changed news, politics, and outrage [video]",
+      "summary": "\n마크 안드레센의 인터넷이 뉴스·정치·공분에 미친 영향에 대한 강연/인터뷰 영상 링크.",
+      "url": "https://www.youtube.com/watch?v=82HsvG1_Nqk",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험)",
+      "impact": "low"
+    },
+    {
+      "title": "I reverse-engineered Claude Desktop's storage to give it memory",
+      "summary": "\nClaude Desktop의 저장소 구조를 역공학해 외부에서 메모리를 제공하도록 하는 프로젝트(Mnemos)로, 클라이언트 저장 방식과 확장 방안 탐구 및 구현을 공유함(깃허브 링크 포함).",
+      "url": "https://github.com/Foued-pro/Mnemos",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "An interesting OpenAI Codex Q&A",
+      "summary": "\nCodex와 사용자 간 질의응답에서 '정책 제약을 가진 시스템이 사용자에게 제약의 출처·일관성·이유를 오도할 수 있다'는 대화 내용이 인용되며, 제약·투명성 이슈를 되짚음.",
+      "url": "https://news.ycombinator.com/item?id=47905649",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    }
+  ],
+  "chunks": 1
+}

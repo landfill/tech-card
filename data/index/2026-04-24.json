@@ -1,0 +1,356 @@
+{
+  "items": [
+    {
+      "title": "여러 GitHub 서비스 장애 사고",
+      "summary": "\nWebhooks, Actions, Copilot 등을 포함한 여러 GitHub 서비스에서 가용성 저하와 일부 서비스 불가가 동시 발생; 초기에는 Copilot·Webhooks 문제 조사 후 조사 범위가 확대되어 Actions 성능 저하 등으로 이어짐.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28860",
+      "source_id": ""
+    },
+    {
+      "title": "MeshCore 개발팀, 상표권 분쟁과 AI 생성 코드 문제로 분리",
+      "summary": "\n빠르게 성장한 메쉬 네트워킹 프로젝트에서 상표권 출원과 AI 생성 코드(Claude Code) 사용 문제가 겹치며 core team과 Andy Kirby가 분리됨; Andy는 Claude Code를 광범위하게 사용해 여러 도구로 확장함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28859",
+      "source_id": ""
+    },
+    {
+      "title": "Tolaria - Markdown 지식 베이스를 관리하는 오픈소스 macOS 앱",
+      "summary": "\nMarkdown 파일 기반 지식 베이스 관리용 데스크톱 앱으로 개인·회사 문서를 AI 맥락에 맞게 정리하는 데 쓰이며 files-first, Git-first 워크플로를 지원함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28857",
+      "source_id": ""
+    },
+    {
+      "title": "Honker - SQLite에 Postgres NOTIFY/LISTEN을 구현하는 확장",
+      "summary": "\nSQLite 한 파일에 내구성 큐·스트림·pub/sub·스케줄러를 통합해 별도 브로커 없이 비동기 작업을 처리할 수 있게 함; PRAGMA data_version 폴링을 이용해 프로세스 간 밀리초 단위 반응 속도를 달성.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28855",
+      "source_id": ""
+    },
+    {
+      "title": "Arch Linux는 이제 bit-for-bit 재현 가능한 Docker 이미지를 제공함",
+      "summary": "\n동일한 소스에서 빌드하면 바이트 단위까지 동일한 결과가 나오는 bit-for-bit 재현성 달성에 대한 소개 및 비결정론적 요소 제거에 관한 설명.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28854",
+      "source_id": ""
+    },
+    {
+      "title": "OpenMythos: 공개 연구로 복원한 Claude Mythos 아키텍처 가설인가, 또 다른 AI 하이프인가",
+      "summary": "\nOpenMythos는 Claude Mythos 유사 구조를 공개 연구로 재구성하려는 이론적 아키텍처 실험으로 소개되며, AI 커뮤니티에서 README·설명문화를 비판적 사례로 제시함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28853",
+      "source_id": ""
+    },
+    {
+      "title": "미 특수부대 병사, Maduro 급습으로 40만 달러 수익 혐의로 체포",
+      "summary": "\n기밀 작전 정보에 접근할 수 있었던 미 육군 특수부대 병사가 Nicolás Maduro 체포에 베팅해 약 40만 달러를 벌어들였다는 혐의로 체포되어 기소됨; Polymarket 계정 등을 통해 베팅한 정황이 보고됨.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28851",
+      "source_id": ""
+    },
+    {
+      "title": "정교한 두 개의 통신 감시 캠페인 조사로 드러남",
+      "summary": "\n글로벌 전화망의 알려진 취약점을 악용해 휴대전화 위치 데이터를 추적한 서로 다른 두 감시 캠페인이 확인됨; 벤더들이 유령 회사 형태로 이동통신사업자처럼 위장해 SS7, Diameter 등을 이용해 네트워크 접근을 확보함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28850",
+      "source_id": ""
+    },
+    {
+      "title": "프랑스 정부 기관, 해커의 데이터 판매 제안 속 침해 확인",
+      "summary": "\n프랑스의 신분증·등록 문서를 관리하는 ANTS 포털에서 보안 사고가 탐지되어 개인 및 전문 계정 데이터(로그인 ID, 성명, 이메일, 생년월일 등)가 노출됐을 가능성이 있음.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28849",
+      "source_id": ""
+    },
+    {
+      "title": "LLM으로 할 수 있는 비전형적인 일 7가지",
+      "summary": "\nLLM을 챗봇이나 검색을 넘어 활용하는 7가지 비전통적 사용법(예: 악마의 변호인 역할 등)을 프롬프트 예시와 함께 소개함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28846",
+      "source_id": ""
+    },
+    {
+      "title": "DeepSeek v4 : 100만 토큰 컨텍스트를 지원하는 고효율 대규모 언어 모델",
+      "summary": "\nMixture-of-Experts 기반으로 1M 토큰 컨텍스트를 지원하는 대규모 언어모델(프로·플래시 버전 공개)과 CSA·HCA 결합 등의 하이브리드 어텐션 아키텍처를 소개함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28845",
+      "source_id": ""
+    },
+    {
+      "title": "Meta, 직원 10% 감원 계획 발표",
+      "summary": "\n효율성 강화 목적에 따라 전체 인력의 약 10%(약 8,000명) 감원 계획을 내부 메모로 공개했으며 해고는 5월 20일에 진행될 예정임.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28844",
+      "source_id": ""
+    },
+    {
+      "title": "DeepSeek v4 출시",
+      "summary": "\nDeepSeek-V4-Pro(1.6T 파라미터, 49B 활성)와 DeepSeek-V4-Flash(284B 파라미터, 13B 활성) 두 가지 출시를 간단히 안내함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28843",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: claude-ss - macOS에서 cmd+shift+2 한 번으로 Claude Code에 스크린샷이 딸깍 붙는 도구.",
+      "summary": "\nmacOS에서 cmd+shift+2로 찍은 스크린샷을 바로 Claude Code에 붙여넣는 유틸을 만들어 번거로움을 줄였다는 소개 및 배경 설명.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28842",
+      "source_id": ""
+    },
+    {
+      "title": "16진수 편집기는 바이트를 색상으로 구분해 표시해야 한다",
+      "summary": "\n16진수 에디터에서 바이트 값을 색상으로 구분하면 시각적 패턴 인식으로 데이터 구조를 더 빠르게 파악할 수 있다는 주장과 구현·도구 제안을 담음.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28841",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: Piko – 네이버 플레이스 URL 하나로 가게 홈페이지 즉시 생성",
+      "summary": "\n네이버 플레이스 URL만으로 소상공인의 가게 홈페이지를 자동 생성해주는 서비스 소개; 개발·비용 부담 없이 빠르게 홈페이지를 만들 수 있도록 설계됨.",
+      "category": "대한민국 IT",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28840",
+      "source_id": ""
+    },
+    {
+      "title": "미국이 이렇게 부유한데도 어떻게 이렇게 우울해졌나",
+      "summary": "\n팬데믹 이후 미국에서 자기보고 행복도, 소비자 심리, 노동자 만족도 등 정서 지표가 급락했고 경제 지표는 비교적 강했으나 감정적 하락이 회복되지 않은 현상을 분석함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28839",
+      "source_id": ""
+    },
+    {
+      "title": "최근 Claude Code 품질 보고에 대한 업데이트",
+      "summary": "\n최근 체감된 Claude 품질 저하는 Claude Code, Claude Agent SDK, Claude Cowork에 걸친 세 가지 변경이 원인으로 파악되었으며 API는 영향받지 않았고 기본 추론 강도 조정 등 대응을 설명함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28838",
+      "source_id": ""
+    },
+    {
+      "title": "Bitwarden CLI, 진행 중인 Checkmarx 공급망 캠페인에서 손상됨",
+      "summary": "\nnpm용 Bitwarden CLI 패키지가 진행 중인 Checkmarx 공급망 공격의 일부로 손상되어 영향 범위가 @bitwarden/cli 2026.4.0 빌드에 제한된 것으로 확인되며 악성 코드(bw1.js) 포함 정황이 보고됨.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28837",
+      "source_id": ""
+    },
+    {
+      "title": "Palantir 직원들이 자신들이 나쁜 편인지 고민하기 시작함",
+      "summary": "\n이민 집행용 소프트웨어와 군사 지원 업무 참여로 인해 내부에서 회사의 역할과 시민적 자유에 대한 정체성을 재고하는 토론이 일어나고 있다는 보고.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28836",
+      "source_id": ""
+    },
+    {
+      "title": "나는 클라우드를 만들고 있어요",
+      "summary": "\n기존 클라우드 추상화가 CPU·메모리·디스크 조합을 어렵게 하고 원격 블록 스토리지 및 높은 egress 비용 등으로 현대 환경에 비효율을 만들어낸다는 문제 제기와 새로운 접근 설명.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28835",
+      "source_id": ""
+    },
+    {
+      "title": "GPT-5.5 공개",
+      "summary": "\n스스로 복잡한 작업을 계획하고 도구를 조합해 수행하는 에이전트형 모델로서 코드 작성·디버깅·웹 조사·데이터 분석 등 광범위 작업을 다루며 GPT-5.4와 유사한 per-token latency를 유지한다고 소개됨.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28834",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 자료를 이미지형 슬라이드로 바꿔주는 Codex 스킬 (gpt-slide)",
+      "summary": "\nCodex와 gpt-image-2를 활용해 보고서나 자료를 이미지형 슬라이드로 자동 변환하는 4단계 스킬(gpt-slide-design, gpt-slide-plan 등)을 소개함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28833",
+      "source_id": ""
+    },
+    {
+      "title": "syntaqlite - SQLite 자체 문법과 토크나이저 기반의 SQL 파서·포매터·검증기·언어 서버",
+      "summary": "\nSQLite의 Lemon 문법과 토크나이저를 C로 직접 컴파일해 사용하는 도구로, DB 연결 없이 sqlite3_prepare 수준의 오류를 스키마 대비 검증하고 언어 서버로 활용할 수 있음.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28832",
+      "source_id": ""
+    },
+    {
+      "title": "ChatGPT ads targeting farmers (YouTube Link) [video]",
+      "summary": "\nChatGPT 관련 광고가 농업인 대상으로 타깃팅되는 사례를 담은 영상 링크와 원문 안내.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.youtube.com/watch?v=4rzeW4dbvlQ",
+      "source_id": ""
+    },
+    {
+      "title": "Prop 13 Didn't Shrink Government. It Handed It to Sacramento",
+      "summary": "\nProp 13의 결과와 캘리포니아 정부 구조 변화에 대한 분석 기사 링크 및 메모.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://maxmautner.com/2026/04/23/prop-13-changed-things.html",
+      "source_id": ""
+    },
+    {
+      "title": "Why does the Rainbow have 7 colors?",
+      "summary": "\n무지개가 일곱 색으로 여겨지는 이유를 설명하는 학습형 기사 링크.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://glorify.com/learn/why-does-the-rainbow-have-seven-colors",
+      "source_id": ""
+    },
+    {
+      "title": "You're about to feel the AI money squeeze",
+      "summary": "\nAI 산업의 매출·토큰 경제 문제와 주요 사업자(Anthropic, OpenAI 등)의 수익화 전략 변화가 사용자 및 개발자에게 미칠 영향에 관한 분석 기사.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic now requires Pro Plans to enable/purchase extra usage for Opus",
+      "summary": "\nAnthropic가 Opus 사용을 위해 Pro 플랜을 요구하거나 추가 사용량을 구매하도록 정책을 변경했다는 고객 지원 문서 링크.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+      "source_id": ""
+    },
+    {
+      "title": "Context Pricing and Accounting [video]",
+      "summary": "\n컨텍스트(컨텍스트 길이/토큰) 기반 가격 책정과 비용 산정에 관한 설명 영상 링크.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.youtube.com/watch?v=xcYhV4S7faI",
+      "source_id": ""
+    },
+    {
+      "title": "Chinese National Pleads Guilty to Photographing Air Force Base and Equipment",
+      "summary": "\n미 법무부 보도 자료: 중국 국적자가 공군 기지 및 장비를 불법 촬영한 혐의로 유죄를 인정했다는 공지.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.justice.gov/usao-wdmo/pr/chinese-national-pleads-guilty-unlawfully-photographing-air-force-base-and-vital",
+      "source_id": ""
+    },
+    {
+      "title": "Databases Were Not Designed for This",
+      "summary": "\n데이터베이스가 현대의 일부 사용 사례(방어적 설계 등)에 적합하지 않음을 주장하고 이에 대한 대응 방법을 제시하는 기술 블로그 글.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://arpitbhayani.me/blogs/defensive-databases/",
+      "source_id": ""
+    },
+    {
+      "title": "James Bosworth on the 'Orange Wave' Happening Across Latin America",
+      "summary": "\n라틴아메리카에서 일어나고 있는 정치적 변화('오렌지 웨이브')에 대한 Bloomberg 인터뷰 기사 링크.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/james-bosworth-on-the-orange-wave-happening-across-latin-america",
+      "source_id": ""
+    },
+    {
+      "title": "Alex Bores' AI Policy Framework for Congress [pdf]",
+      "summary": "\n미 의회를 위한 AI 정책 프레임워크 초안(PDF)으로 규제·거버넌스 관점의 권고안을 담고 있음.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.alexbores.nyc/files/Bores_AI_Framework.pdf",
+      "source_id": ""
+    },
+    {
+      "title": "Andrej Karpathy's microgpt as a Triptych",
+      "summary": "\nAndrej Karpathy의 microgpt 관련 아트/전시형 웹페이지 링크.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://karpathy.art/",
+      "source_id": ""
+    },
+    {
+      "title": "Chinese National Arrested for Illegally Photographing Military Aircraft at AFB",
+      "summary": "\n미 법무부 보도 자료 링크: JFK 공항 등에서 군용 항공기 불법 촬영 혐의로 중국 국적자가 체포되었다는 내용.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.justice.gov/opa/pr/chinese-national-arrested-jfk-international-airport-federal-charges-illegally-photographing",
+      "source_id": ""
+    },
+    {
+      "title": "Exodus, from former Mass Effect devs, couldn't look more like Mass Effect",
+      "summary": "\n전 Mass Effect 개발자들이 만든 RPG 'Exodus'의 티저들이 Mass Effect를 연상시킨다는 PC Gamer 기사 요약.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.pcgamer.com/games/rpg/exodus-the-sci-fi-rpg-from-former-mass-effect-devs-couldnt-look-more-like-mass-effect-in-the-teasers-weve-been-getting-this-month/",
+      "source_id": ""
+    },
+    {
+      "title": "Ancient amber reveals a true bug equipped with claws, a highly unusual feature",
+      "summary": "\n고대 호박에서 발굴된 발톱을 가진 진충(真蟲) 화석 발견에 관한 과학 기사 요약.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://phys.org/news/2026-04-ancient-amber-reveals-true-bug.html",
+      "source_id": ""
+    },
+    {
+      "title": "The bull case for graph DBs in law",
+      "summary": "\n법률 분야에서 그래프 데이터베이스가 가지는 강점과 적용 가능성을 설명하는 글.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://alanyahya.com/writing/bull-case-graph-dbs-law",
+      "source_id": ""
+    },
+    {
+      "title": "Microsoft offers voluntary employee buyout/retirement for 7% of U.S. workforce",
+      "summary": "\nMicrosoft가 미국 노동력의 약 7%를 대상으로 자발적 퇴직·매수 제안을 실시한다는 보도 기사 요약.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.cnbc.com/2026/04/23/microsoft-plans-first-voluntary-retirement-program-for-us-employees.html",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: RoboAPI – A unified REST API for robots, like Stripe but for hardware",
+      "summary": "\n여러 로봇 제조사 SDK를 통합하는 단일 REST API 레이어를 제안하는 오픈소스 프로젝트로, 시뮬레이션·ROS2 로봇을 지원하며 어댑터 아키텍처를 채택함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://github.com/amitb-quantum/roboapi",
+      "source_id": ""
+    },
+    {
+      "title": "Lumitime Automata – The Most Amazing Digital Clock Is a Machine [video]",
+      "summary": "\n디지털 시계 관련 짧은 영상(Shorts) 링크와 간단한 소개.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.youtube.com/shorts/LTInOMdjs5o",
+      "source_id": ""
+    },
+    {
+      "title": "David Choi's Mars FX Collapse Sparks Global Hunt for Almost $600M",
+      "summary": "\n헤지펀드 붕괴로 약 6억 달러에 가까운 자금 추적이 벌어지고 있다는 Bloomberg 보도 요약.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/hedge-fund-collapse-sparks-global-hunt-for-almost-600-million",
+      "source_id": ""
+    },
+    {
+      "title": "Is your meditation posture making things worse?",
+      "summary": "\n명상 자세가 오히려 문제를 악화시킬 수 있다는 가설을 다룬 칼럼형 글 링크.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://mvmnt.substack.com/p/is-your-meditation-posture-making",
+      "source_id": ""
+    }
+  ]
+}

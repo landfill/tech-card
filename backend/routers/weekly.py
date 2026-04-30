@@ -12,6 +12,7 @@ from pipeline.checkpoint import load_checkpoint
 from pipeline.storage import weekly_card_path, weekly_letter_path, weekly_meta_path
 
 router = APIRouter()
+admin_router = APIRouter()
 
 
 def _data_dir() -> Path:
@@ -72,7 +73,7 @@ def list_weekly():
     return sorted(weeks, reverse=True)
 
 
-@router.get("/{week_id}/status")
+@admin_router.get("/{week_id}/status")
 def get_weekly_status(week_id: str):
     """주간 실행 상태. 생성 산출물과 publish 체크포인트를 함께 반환."""
     return _build_weekly_status_response(week_id)
@@ -135,7 +136,7 @@ def _run_weekly_task(anchor_date: date, force: bool) -> None:
         pass
 
 
-@router.post("/run", status_code=202)
+@admin_router.post("/run", status_code=202)
 def post_run_weekly(body: WeeklyRunBody, background_tasks: BackgroundTasks):
     """주간 파이프라인 실행 (백그라운드)."""
     if body.date:

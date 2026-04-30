@@ -1,0 +1,169 @@
+{
+  "week": "2026-W17",
+  "date_range": [
+    "2026-04-20",
+    "2026-04-26"
+  ],
+  "total_items": 326,
+  "filtered_items": 257,
+  "trend_map": [
+    {
+      "topic": "Claude Code",
+      "days": [
+        "04-20",
+        "04-21",
+        "04-22",
+        "04-23",
+        "04-24",
+        "04-25",
+        "04-26"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Codex",
+      "days": [
+        "04-21",
+        "04-22",
+        "04-24",
+        "04-25"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Anthropic / Opus (Claude Opus / Anthropic announcements & partnerships)",
+      "days": [
+        "04-20",
+        "04-22",
+        "04-23",
+        "04-24",
+        "04-25",
+        "04-26"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "SpaceX / Cursor acquisition",
+      "days": [
+        "04-21",
+        "04-22"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "GPT-5.5 (introductions / system card / bio bug bounty)",
+      "days": [
+        "04-22",
+        "04-24",
+        "04-26"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Qwen (Qwen 3.6 variants)",
+      "days": [
+        "04-21",
+        "04-23"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "Security incidents & supply-chain (Vercel breach, Bitwarden / Checkmarx campaign)",
+      "days": [
+        "04-20",
+        "04-22",
+        "04-23",
+        "04-24"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GitHub Copilot (plan changes)",
+      "days": [
+        "04-20",
+        "04-22"
+      ],
+      "impact": "medium",
+      "direction": "steady"
+    },
+    {
+      "topic": "DeepSeek v4",
+      "days": [
+        "04-24",
+        "04-25"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "Gemma",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Cloudflare (agent cloud / related infra mentions)",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 130,
+      "high_count": 48
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 127,
+      "high_count": 36
+    }
+  },
+  "top5": [
+    {
+      "title": "SpaceX Says It Has Agreement to Acquire Cursor for $60B",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion",
+      "mentions": 5,
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic의 Claude Code 장애 포스트모템: 2025년 4월 23일",
+      "url": "https://news.hada.io/topic?id=28828",
+      "mentions": 7,
+      "impact": "high"
+    },
+    {
+      "title": "Google, Anthropic에 최대 400억 달러 투자",
+      "url": "https://news.hada.io/topic?id=28867",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "Introducing GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "Vercel, 내부 시스템 침해 발생했다고 밝혀",
+      "url": "https://news.hada.io/topic?id=28700",
+      "mentions": 3,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-04-20": 28,
+    "2026-04-21": 29,
+    "2026-04-22": 29,
+    "2026-04-23": 37,
+    "2026-04-24": 64,
+    "2026-04-25": 33,
+    "2026-04-26": 37
+  }
+}

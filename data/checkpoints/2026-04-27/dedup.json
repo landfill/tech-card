@@ -1,0 +1,410 @@
+{
+  "items": [
+    {
+      "title": "Fast16: Stuxnet보다 5년 앞선 고정밀 소프트웨어 사보타주",
+      "summary": "\n<ul>\n<li><strong>2005년 제작된 미문서화 사보타주 프레임워크</strong>로, 선택된 계산 소프트웨어의 메모리 코드를 패치해 <strong>수치 결과를 왜곡</strong>하도록 설계됨</li>\n<li><code>svcmgmt.exe</code>는 겉으로는 서비스 래퍼처럼 보이지만 내부에 <strong>Lua 5.0 가상 머신</strong>과 암호화된 바이트코드...</p>",
+      "url": "https://news.hada.io/topic?id=28955",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "만들기 전에 거는 세 가지 제약",
+      "summary": "\n<ul>\n<li>제품 아이디어는 <strong>제약조건</strong>을 먼저 걸어야 탐색 공간이 줄고, 너무 복잡하거나 <strong>정체성이 없는 결과물</strong>로 흐르는 일을 막아줌</li>\n<li>모든 아이디어는 한 장짜리 <strong>one pager</strong>로 정리해야 하며, 그 안에 담기지 않는다면 조사, 계획, 프로토타입이 더 필요한 상...</p>",
+      "url": "https://news.hada.io/topic?id=28954",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "cmux에서 파일 편집까지 편하게 하려고 만든 VSCode 스타일 Neovim 세팅",
+      "summary": "\n<p><strong>cmux</strong>에서 AI 에이전트가 만든 파일을 바로 확인·수정하고, 프로젝트 파일을 관리하기 쉽게 만든<br />\n<strong>VSCode 스타일 Neovim 설정</strong></p>\n<p><strong>파일 탐색기</strong><br />\n<code>Ctrl+b</code>로 VSCode 사이드바처럼 파일 탐색기를 열고 닫을 수 있음</p>\n<p><strong>명령 팔",
+      "url": "https://news.hada.io/topic?id=28953",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "자동 갱신되는 스크린샷",
+      "summary": "\n<ul>\n<li>실행 중인 웹 애플리케이션에서 <strong>스크린샷을 자동 캡처</strong>해 도움말 문서 빌드와 함께 갱신하는 흐름으로, UI 변경 뒤에도 문서 이미지를 <strong>최신 상태</strong>로 유지하기 쉬움</li>\n<li>Markdown 안의 <code>SCREENSHOT</code> 주석이 대상 경로, 캡처 방식, CSS selector 같은 지시를 담...</p>",
+      "url": "https://news.hada.io/topic?id=28950",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "SWE-bench Verified가 더 이상 프런티어 코딩 역량을 측정하지 못하는 이유",
+      "summary": "\n<ul>\n<li>자율 소프트웨어 엔지니어링 작업의 대표 지표였던 <strong>SWE-bench Verified</strong>는 <strong>프런티어 모델 역량</strong>을 재기에는 적합성이 크게 떨어짐</li>\n<li>최근 최고 성능 향상폭이 <strong>74.9%에서 80.9%</strong> 로 제한된 가운데, 남은 실패가 모델 한계인지 데이터세트 결함인지 구분...</p>",
+      "url": "https://news.hada.io/topic?id=28949",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "stitch가 유행시킨(?) DESIGN.md를 모아놓은 사이트",
+      "summary": "\n<p>웹사이트 디자인 가이드라인을 명세화하는 DESIGN.md 를 만드는 게 중요한 경우가 꽤 있습니다<br />\n크롬에는 현재 사이트를 기준으로 작성해주는 플러그인 있고<br />\n이번에는 유명한 사이트들 디자인 명세를 정리해서 모아놓은 사이트가 생겼습니다</p>\n<p>apple 같은 사이트는 벌써 다운로드도 엄청나네요<br />",
+      "url": "https://news.hada.io/topic?id=28947",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: TTSC - TypeScript-Go 기반 transformer & runner",
+      "summary": "\n<ul>\n<li>TypeScript-Go (v7) 릴리스가 약 두 달 뒤로 예고됨.\n<ul>\n<li><code>typia</code> 등 JS 기반 플러그인 라이브리리들의 종말이 다가옴</li>\n<li>TS v7 시대에도 살아남을 수 있게 하려고 시작한 프로젝트</li>\n</ul>\n</li>\n<li><code>ttsc</code>는 tsgo 기반 transformer/plugin host (<code>npx ttsc</code>...</p>",
+      "url": "https://news.hada.io/topic?id=28946",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: Codex Discord Connector - Discord에서 로컬 Codex를 그대로 쓰는 커넥터",
+      "summary": "\n<p>Codex를 쓰다 보니, 컴퓨터 앞에 없을 때도 Discord에서 기존 Codex 세션에 이어서 작업을 시키고 싶었습니다.</p>\n<p>그래서 만든 self-hosted 오픈소스 커넥터입니다.</p>\n<p>Codex Discord Connector는 private Discord 서버에서 로컬 컴퓨터의 Codex 세션을 다룰 수 있게 해줍니다. Discord 채널에서 Codex에게 요",
+      "url": "https://news.hada.io/topic?id=28945",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Fairy - 개발자 프로젝트와 오픈소스를 후원하는 서비스",
+      "summary": "\n<p>안녕하세요. GeekNews를 운영하는 하다 팀입니다.</p>\n<p><a href=\"https://fairy.hada.io\"><strong>Fairy</strong></a>는 개발자 프로젝트와 오픈소스를 <strong>후원자와 연결하는 서비스</strong>입니다. 유료 SaaS나 광고 모델이 잘 맞지 않는 작은 프로젝트도, 사용자들의 후원과 응원으로 서버비를 감당하며 꾸",
+      "url": "https://news.hada.io/topic?id=28944",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: slaude - 흔적 안 남기는 일회용 Claude Code",
+      "summary": "\n<p>신뢰가 가지 않는 리눅스 서버에 잠깐 들어가서 Claude Code를 쓰고 나오고 싶을 때마다, OAuth 토큰이 ~/.claude/.credentials.json 으로 박히고 세션 캐시에 대화 로그가 쌓이는 게 계속 마음에 걸렸습니다. 회사 공용 GPU 서버, 잠깐 빌린 클라우드 VM, 고객사 환경 등 한 번 쓰고 나갈 환경인데 흔적은 영구히 남...</p>",
+      "url": "https://news.hada.io/topic?id=28942",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "tailscale 개인 사용자 무제한 디바이스 접속 가능",
+      "summary": "\n<ul>\n<li>Personal Plus 플랜 종료</li>\n<li>Personal Plus의 유료 기능이 무료료 전환\n<ul>\n<li>최대 6명 사용자</li>\n<li>무제한 디바이스</li>\n</ul>\n</li>\n<li>기존 유료 요금은 모두 좌석 기반(seat-based) 요금제로 전환</li>\n</ul>\n...</p>",
+      "url": "https://news.hada.io/topic?id=28941",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Sawe, 경쟁 레이스에서 처음으로 2시간 이내 마라톤을 뛴 첫 선수로 등극",
+      "summary": "\n<ul>\n<li><strong>경쟁 레이스 기준 첫 서브2 마라톤</strong>이 London Marathon에서 나왔고, Sabastian Sawe가 <strong>1시간 59분 30초</strong>로 우승하며 기존 최고 기록인 2:00:35를 1분 이상 앞당김</li>\n<li>하프를 <strong>1:00:29</strong>에 지난 뒤 후반에 더 속도를 끌어올렸고, 후반 하프를 <strong>59:0...</p>",
+      "url": "https://news.hada.io/topic?id=28940",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Mixture of Experts(MoE)란 무엇인가 — DeepSeek이 왜 1.6조 파라미터인데 싸게 돌아가는지",
+      "summary": "\n<p><strong>Mixture of Experts(MoE)란 무엇인가 — DeepSeek이 왜 1.6조 파라미터인데 싸게 돌아가는지</strong></p>\n<p>DeepSeek V4가 1.6조 파라미터이면서 GPT-5.5의 10분의 1 가격에 서비스될 수 있는 이유를 MoE 아키텍처로 설명합니다.</p>\n<p>MoE는 여러 전문가(Expert) 서브모델과 어떤 전문가를 쓸지 결정하는",
+      "url": "https://news.hada.io/topic?id=28939",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Statecharts: 계층적 상태 기계",
+      "summary": "\n<ul>\n<li><strong>복잡한 시스템의 행동</strong>을 시각적으로 구조화하는 형식으로, 기본 <strong>state machine</strong>을 확장해 state explosion 문제를 다루도록 보강됨</li>\n<li><strong>행동과 컴포넌트의 분리</strong>가 가능해져 동작 변경과 코드 추론이 쉬워지고, 컴포넌트와 독립적인 테스트와 <strong>예...</p>",
+      "url": "https://news.hada.io/topic?id=28938",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: ManyPerson - 통계청 MDIS 기반 한국 AI 페르소나 여론 시뮬레이터",
+      "summary": "\n<ul>\n<li>\n<p>통계청 MDIS 마이크로데이터를 기반으로 한국 사회의 인구통계, 가구 형태, 소득, 자산, 부채, 직업군 분포를 반영한 AI 페르소나 여론 시뮬레이션 서비스</p>\n</li>\n<li>\n<p>사용자가 궁금한 질문을 입력하면, 조건에 맞는 AI 시민들을 선택해 응답을 생성하고, 결과를 찬반/선택지/연령대/성별/소득분위/",
+      "url": "https://news.hada.io/topic?id=28936",
+      "category": "대한민국 IT",
+      "impact": "medium"
+    },
+    {
+      "title": "터미널용 Glyph Protocol 소개",
+      "summary": "\n<ul>\n<li>터미널 애플리케이션에서 커스텀 아이콘을 렌더링하려면 <strong>패치된 폰트(Nerd Font 등)를 설치</strong>해야 하는 기존 문제를 해결하기 위해 새로운 터미널 프로토콜이 등장</li>\n<li>Glyph Protocol은 애플리케이션이 <strong>런타임에 벡터 글리프를 터미널에 직접 등록</strong>하고, 특정 코드포인트...</p>",
+      "url": "https://news.hada.io/topic?id=28934",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Friendster를 3만 달러에 샀어요 – 이제 이렇게 운영할꺼에요",
+      "summary": "\n<ul>\n<li>초창기 소셜 네트워크의 이름과 도메인을 다시 확보해, <strong>오프라인 만남 중심</strong>의 새 소셜 네트워크로 재구성하고 있음</li>\n<li>friendster.com은 중단 뒤 광고용 도메인으로 남아 있었고, 최종 거래로 도메인을 넘겨받은 뒤 <strong>2025년 5월 13일 상표권</strong>까지 확보함</li>\n<li>기본적...</p>",
+      "url": "https://news.hada.io/topic?id=28933",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "로보틱스 및 피지컬 AI 예측: 2026년의 6가지 투자 전망",
+      "summary": "\n<ul>\n<li>로보틱스 산업은 현재 <strong>GPT-2.5 수준의 단계</strong>에 있으며, 파운데이션 모델이 실제 역량을 보여주고 있으나 실험실 성과와 현장 배포 간의 격차가 여전히 큼</li>\n<li>Goldman Sachs가 1년 만에 6배 상향한 <strong>2035년 380억 달러 시장</strong> 전망도 Bessemer는 보수적이라고 판단하며, 로...</p>",
+      "url": "https://news.hada.io/topic?id=28932",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "GPT 5.5 vs Opus 4.7, 코딩/프로그래밍에 더 나은 모델은?",
+      "summary": "\n<ul>\n<li>Reddit r/codex 커뮤니티에서 두 모델의 코딩 성능을 비교하는 토론이 진행 중, 대다수 사용자가 현재 시점에서 <strong>GPT 5.5의 우위</strong>를 지지</li>\n<li>GPT 5.5는 <strong>안정성과 정밀도</strong>에서 뛰어나고, Opus 4.7은 최근 성능 저하와 사용량 제한 문제로 불만이 큼</li>\n<li>Opus 4.7은 ...</p>",
+      "url": "https://news.hada.io/topic?id=28931",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "EU Age Control: 디지털 ID를 위한 트로이 목마",
+      "summary": "\n<ul>\n<li>연령만 증명하는 <strong>프라이버시 보호형 인증</strong>으로 홍보되지만, 실제 배포 구조는 각국 앱과 선택적 경로에 의존하며 <strong>단일 EU 앱</strong>으로 작동하지 않음</li>\n<li>대형 플랫폼은 EU wallet 대신 여권 스캔과 liveness 검사를 수행하는 <strong>일반 KYC provider</strong>를 쓸 수 있...</p>",
+      "url": "https://news.hada.io/topic?id=28930",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "가장 큰 버티컬 AI 시장은 눈에 보이는 곳에 숨어 있다",
+      "summary": "\n<ul>\n<li>파편화되고 운영이 복잡한 산업일수록 오히려 <strong>버티컬 AI 시스템</strong>이 강력한 방어벽을 구축할 수 있는 최적의 시장이며, 대부분의 창업자와 투자자가 이를 간과하고 있음</li>\n<li>깔끔한 단일 태스크 자동화는 쉽게 복제되지만, <strong>규제·레거시 통합·예외 처리가 얽힌 워크플로</strong>에...</p>",
+      "url": "https://news.hada.io/topic?id=28929",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Alzheimer's disease 연구 진전이 더딘 이유",
+      "summary": "\nAlzheimer's disease 연구 진전이 더딘 이유",
+      "url": "https://news.hada.io/topic?id=28928",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "AI 에이전트가 우리 프로덕션 데이터베이스를 삭제했다. 그 에이전트의 자백은 아래에 있다",
+      "summary": "\n<ul>\n<li><strong>프로덕션 데이터베이스</strong>와 볼륨 백업이 Railway API의 단일 호출로 함께 삭제됐고, staging 작업 중이던 AI 코딩 에이전트가 credential mismatch를 처리하려다 9초 만에 파괴적 작업을 실행함</li>\n<li>에이전트는 작업과 무관한 파일에서 찾은 <strong>API token</strong>으로 Railway Graph...</p>",
+      "url": "https://news.hada.io/topic?id=28927",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Agentic Inbox - AI 에이전트 탑재 셀프호스팅 이메일 클라이언트",
+      "summary": "\n<ul>\n<li><strong>Cloudflare Workers 위에서 전체 실행</strong>되는 셀프호스팅 이메일 클라이언트로, 이메일 송수신·관리와 <strong>AI 에이전트 기반 자동 답장 초안 생성</strong>을 하나의 앱에서 처리</li>\n<li>수신 이메일은 <strong>Cloudflare Email Routing</strong>으로 도착하고, 각 메일박스는 <strong>독...</p>",
+      "url": "https://news.hada.io/topic?id=28926",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "GoDaddy가 아무런 서류도 없이 모르는 사람에게 도메인을 넘겨주었음",
+      "summary": "\n<ul>\n<li><strong>27년간 운영하던 도메인</strong>이 사전 경고 없이 다른 GoDaddy 계정으로 이동하면서, 연결된 <strong>웹사이트와 이메일</strong>이 4일간 중단됨</li>\n<li>계정에는 이중 <strong>2단계 인증</strong>이 켜져 있었고 도메인 보호 기능도 적용돼 있었지만, 감사 로그에는 Internal User가 <code>Tra...</p>",
+      "url": "https://news.hada.io/topic?id=28925",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Tell HN: 내 iPhone에 앱 하나가 매일 조용히 설치되고 있음",
+      "summary": "\n<ul>\n<li>지난 3일 동안 매일 오후 1시쯤 <strong>Headspace 앱</strong>이 iPhone 13 Pro에 <strong>자동으로 나타남</strong></li>\n<li><strong>자동 다운로드</strong>는 꺼져 있고, 이 현상이 시작된 뒤 <strong>최신 iOS</strong>로 업데이트한 상태임</li>\n<li>Reddit에서도 2~3일 전부터 같은 현상이 보고됐고, i...</p>",
+      "url": "https://news.hada.io/topic?id=28924",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "자신보다 뛰어난 사람을 채용하는 법",
+      "summary": "\n<ul>\n<li>CEO가 자신이 잘 모르는 분야의 <strong>임원급 인재를 평가</strong>해야 할 때, 전문성 대신 판단할 수 있는 실질적 기준들을 제시하는 채용 가이드</li>\n<li>면접 후 후보자의 아이디어를 <strong>당장 실행하고 싶은 충동</strong>이 드는지가 핵심 신호이며, 이는 문화 적합성과 맥락 이해를 동시에 검증하...</p>",
+      "url": "https://news.hada.io/topic?id=28923",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Asahi Linux 진행 보고서 Linux 7.0",
+      "summary": "\n<ul>\n<li>Apple Silicon용 Linux 지원은 <strong>설치기 자동화</strong>, 전력 관리, 오디오, 디스플레이, M3 활성화까지 여러 축에서 동시에 진전됨</li>\n<li><strong>Asahi Installer</strong>는 이미지 매니페스트를 코드베이스와 분리하고 GitHub workflow 배포를 도입해 더 자주 갱신할 수 있게 바뀌었으며, 0.8.0...</p>",
+      "url": "https://news.hada.io/topic?id=28922",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "서구는 물건 만드는 법을 잊었고, 이제는 코드를 잊고 있다",
+      "summary": "\n<ul>\n<li><strong>방산 생산 역량 붕괴</strong>는 은퇴한 숙련 인력과 사라진 공정 지식이 끊기면, 전시 수요가 생겨도 생산을 빠르게 되살리지 못한다는 점을 드러냄</li>\n<li>Stinger, 155mm 포탄, Fogbank 복원 사례는 <strong>비용 최적화와 단일 실패 지점</strong>이 평시 효율을 높였지만 공급망 여유와 복구 속...</p>",
+      "url": "https://news.hada.io/topic?id=28921",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Obscura - 오픈소스 헤드리스 브라우저",
+      "summary": "\n<ul>\n<li>웹 스크래핑과 AI 에이전트 자동화에 특화된 헤드리스 브라우저 엔진</li>\n<li>V8 엔진을 내장해 실제 JavaScript를 실행하며, <strong>Chrome DevTools Protocol(CDP)</strong> 구현으로 Puppeteer·Playwright 코드 <strong>그대로 재사용</strong> 가능</li>\n<li>헤드리스 Chrome 대비 메모리 <strong>30MB...</p>",
+      "url": "https://news.hada.io/topic?id=28920",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "NVIDIA Nemotron-Personas-Korea - 대한민국 실제 인구 분포 기반 100만 건 합성 페르소나 데이터셋",
+      "summary": "\n<ul>\n<li>대한민국 통계청, 대법원, 국민건강보험공단 등 공공 데이터를 기반으로 실제 인구통계·지리·성격 분포를 반영한 <strong>최초의 대규모 한국어 페르소나 데이터셋</strong></li>\n<li>100만 건 레코드에 <strong>700만 개 페르소나</strong>를 포함하며, 이름·성별·나이·혼인 상태·교육 수준·직업·거주 지역 등...</p>",
+      "url": "https://news.hada.io/topic?id=28919",
+      "category": "대한민국 IT",
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI Privacy Filter 소개",
+      "summary": "\n<ul>\n<li>비정형 텍스트에서 <strong>개인식별정보를 탐지하고 마스킹</strong>하는 오픈웨이트 모델로, 로컬 실행을 통해 필터링 전 데이터가 장치를 벗어나지 않게 할 수 있음</li>\n<li><strong>양방향 토큰 분류</strong>와 span decoding을 결합해 입력을 한 번에 라벨링하고, 최대 128,000토큰 문맥에서 PII span을...</p>",
+      "url": "https://news.hada.io/topic?id=28918",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "GitHub Copilot is moving to usage-based billing",
+      "summary": "\n<p>Starting June 1, your Copilot usage will consume GitHub AI Credits.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/\">GitHub Copilot is moving to usage-based billing</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI available at FedRAMP Moderate",
+      "summary": "\nOpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
+      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "summary": "\nOpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
+      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "An open-source spec for orchestration: Symphony",
+      "summary": "\nLearn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Choco automates food distribution with AI agents",
+      "summary": "\nHow Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+      "url": "https://openai.com/index/choco",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Pro: Opus model will only be available if extra usage is enabled",
+      "summary": "\n<p>Article URL: <a href=\"https://support.claude.com/en/articles/11940350-claude-code-model-configuration\">https://support.claude.com/en/articles/11940350-claude-code-model-configuration</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928088\">https://news.ycombinator.com/item?id=47928088</a></p>\n<p>Points: 11</p>\n<p># Comments: 3</p>",
+      "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Constellation Draw",
+      "summary": "\n<p>Article URL: <a href=\"https://neal.fun/constellation-draw/\">https://neal.fun/constellation-draw/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928805\">https://news.ycombinator.com/item?id=47928805</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://neal.fun/constellation-draw/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Signs Your S3 May Be Slowing Down Your SoC",
+      "summary": "\n<p>Article URL: <a href=\"https://scanner.dev/blog/7-signs-your-s3-may-be-slowing-down-your-soc\">https://scanner.dev/blog/7-signs-your-s3-may-be-slowing-down-your-soc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928785\">https://news.ycombinator.com/item?id=47928785</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://scanner.dev/blog/7-signs-your-s3-may-be-slowing-down-your-soc",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Software engineering may no longer be a lifetime career",
+      "summary": "\n<p>Article URL: <a href=\"https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/\">https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928775\">https://news.ycombinator.com/item?id=47928775</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "url": "https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "The Full-Cycle Agentic Experience",
+      "summary": "\n<p>Article URL: <a href=\"https://normalphd.substack.com/p/the-full-cycle-agentic-experience\">https://normalphd.substack.com/p/the-full-cycle-agentic-experience</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928755\">https://news.ycombinator.com/item?id=47928755</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://normalphd.substack.com/p/the-full-cycle-agentic-experience",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Ask HN: Views on abilities of large cos to disrupt supply",
+      "summary": "\n<p>What do people here think of large cos' ability to disrupt supply by placing huge orders? Should there be regulations around/against it? I can understand the Thailand floods, and also the crypto-currency craze is forgivable. But it doesn't feel right that one dude got support of some super rich dudes and now I can't even buy RAM</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928745\">https://news.ycombinator.com/item?id=47928745</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://news.ycombinator.com/item?id=47928745",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "The Brink of Global Recession [audio]",
+      "summary": "\n<p>Article URL: <a href=\"https://www.theatlantic.com/podcasts/2026/04/david-frum-show-adam-posen-global-recession/686900/\">https://www.theatlantic.com/podcasts/2026/04/david-frum-show-adam-posen-global-recession/686900/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928741\">https://news.ycombinator.com/item?id=47928741</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://www.theatlantic.com/podcasts/2026/04/david-frum-show-adam-posen-global-recession/686900/",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Global energy shock tests limits of oil reserves",
+      "summary": "\n<p>Article URL: <a href=\"https://mondediplo.com/2026/05/02energy\">https://mondediplo.com/2026/05/02energy</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928728\">https://news.ycombinator.com/item?id=47928728</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://mondediplo.com/2026/05/02energy",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Palantir: Why its political manifesto is causing a stir",
+      "summary": "\n<p>Article URL: <a href=\"https://www.dw.com/en/palantir-why-its-political-manifesto-is-causing-a-stir/a-76895480\">https://www.dw.com/en/palantir-why-its-political-manifesto-is-causing-a-stir/a-76895480</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928720\">https://news.ycombinator.com/item?id=47928720</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "url": "https://www.dw.com/en/palantir-why-its-political-manifesto-is-causing-a-stir/a-76895480",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Musk vs. Altman: The CEO on Trial",
+      "summary": "\n<p>Article URL: <a href=\"https://precognewsnow.substack.com/p/musk-v-altman-the-ceo-on-trial\">https://precognewsnow.substack.com/p/musk-v-altman-the-ceo-on-trial</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928709\">https://news.ycombinator.com/item?id=47928709</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "url": "https://precognewsnow.substack.com/p/musk-v-altman-the-ceo-on-trial",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Cloudflare launches feature flags with \"Flagship\"",
+      "summary": "\n<p>Article URL: <a href=\"https://blog.cloudflare.com/flagship/\">https://blog.cloudflare.com/flagship/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928705\">https://news.ycombinator.com/item?id=47928705</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://blog.cloudflare.com/flagship/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Is there any proof that scrolling ruins our attention span? [video]",
+      "summary": "\n<p>Article URL: <a href=\"https://www.bbc.com/reel/video/p0nfykf2/watch\">https://www.bbc.com/reel/video/p0nfykf2/watch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928704\">https://news.ycombinator.com/item?id=47928704</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "url": "https://www.bbc.com/reel/video/p0nfykf2/watch",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Ask HN: What Makes AI a Bubble?",
+      "summary": "\n<p>A lot of people seem to take it as a given that the AI bubble will \"pop\", leading to a mass devaluation of AI companies from their current peaks.<p>What I'm confused about though is what makes current AI evaluations a bubble.<p>Bubbles usually exists when future speculation outpaces productivity: eventually some realization leads the market to no longer believe in that future speculation, causing devaluation which triggers a mass sell-off.<p>However, AI companies currently have very high revenues and are growing extremely fast. Their valuation is backed by actual commerce. I can't imagine that there is any room for a bubble, as it is very clear where the market is at, and why demand for AI is so high.<p>Now, certain specific companies I can imagine losing a lot of valuation, but only contingent on the fact that they serve a middle-man role in the market that improvements in the underlying AI models will solve, which would likely only mean more revenue for the frontier labs, and thus less reason for a bubble.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928683\">https://news.ycombinator.com/item?id=47928683</a></p>\n<p>Points: 2</p>\n<p># Comments: 3</p>",
+      "url": "https://news.ycombinator.com/item?id=47928683",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Tell HN: Site Is Trash Now",
+      "summary": "\n<p>Dear dang and other moderators who I don't know the names of:<p>I've been a long time reader of this website. I've seen a lot of people claim over the years \"don't read the comments\" or say stuff like \"orange site bad\" or other dismissals of this website being not worth one's time. But it was clear to me that even if it challenged one's viewpoints there was still plenty of value to be had. In fact precisely because something challenges one's viewpoints makes it valuable.<p>However, this website has now joined the garbage heap of the Internet due to slop submissions and slop comments. This submission is my goodbye note. After decades of participation, in order to protect myself from brain rot, I've excised the habit of using HN from my life. I don't even think correcting misinformation about things that I have specific expertise about is worth my time. When the bubble pops I won't be back.<p>I hope the few humans who remain on this sinking ship find some flotsam to hang on to.<p>Goodbye and thanks for all the fish.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928645\">https://news.ycombinator.com/item?id=47928645</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "url": "https://news.ycombinator.com/item?id=47928645",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "China's DeepSeek prices new V4 AI model at 97% below OpenAI's GPT-5.5",
+      "summary": "\n<p>Article URL: <a href=\"https://www.scmp.com/tech/tech-trends/article/3351595/chinas-deepseek-prices-new-v4-ai-model-97-below-openais-gpt-55\">https://www.scmp.com/tech/tech-trends/article/3351595/chinas-deepseek-prices-new-v4-ai-model-97-below-openais-gpt-55</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928644\">https://news.ycombinator.com/item?id=47928644</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3351595/chinas-deepseek-prices-new-v4-ai-model-97-below-openais-gpt-55",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Steam Controller: Official Overview and Quick Start Guide [video]",
+      "summary": "\n<p>Article URL: <a href=\"https://www.youtube.com/watch?v=a55UIaiTE-A\">https://www.youtube.com/watch?v=a55UIaiTE-A</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928618\">https://news.ycombinator.com/item?id=47928618</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "url": "https://www.youtube.com/watch?v=a55UIaiTE-A",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+      "summary": "\n<p>Article URL: <a href=\"https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/\">https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928617\">https://news.ycombinator.com/item?id=47928617</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "url": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "What is physical AI?",
+      "summary": "\n<p>Article URL: <a href=\"https://www.ibm.com/think/topics/physical-ai\">https://www.ibm.com/think/topics/physical-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928607\">https://news.ycombinator.com/item?id=47928607</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://www.ibm.com/think/topics/physical-ai",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "What's new in pip 26.1 – lockfiles and dependency cooldowns",
+      "summary": "\n<p>Article URL: <a href=\"https://ichard26.github.io/blog/2026/04/whats-new-in-pip-26.1/\">https://ichard26.github.io/blog/2026/04/whats-new-in-pip-26.1/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928596\">https://news.ycombinator.com/item?id=47928596</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://ichard26.github.io/blog/2026/04/whats-new-in-pip-26.1/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Larry Ellison's Wealth Differs from Other Tech Billionaires",
+      "summary": "\n<p>Article URL: <a href=\"https://www.wsj.com/finance/larry-ellison-net-worth-wealth-5571ca5d\">https://www.wsj.com/finance/larry-ellison-net-worth-wealth-5571ca5d</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928571\">https://news.ycombinator.com/item?id=47928571</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "url": "https://www.wsj.com/finance/larry-ellison-net-worth-wealth-5571ca5d",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "New Integrated by Design FreeBSD Book",
+      "summary": "\n<p>Article URL: <a href=\"https://vivianvoss.net/blog/integrated-by-design-launch\">https://vivianvoss.net/blog/integrated-by-design-launch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928554\">https://news.ycombinator.com/item?id=47928554</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
+      "url": "https://vivianvoss.net/blog/integrated-by-design-launch",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    }
+  ]
+}

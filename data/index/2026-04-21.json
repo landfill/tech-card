@@ -1,0 +1,356 @@
+{
+  "items": [
+    {
+      "title": "감시를 기본값으로 받아들인 이유",
+      "summary": "\n<ul>\n<li><strong>웹 광고 자금 조달</strong>과 <strong>추적 기반 타기팅</strong>이 하나의 연쇄 논리로 묶이면서, 교차 사이트 추적이 별도 선택이 아니라 기본 전제로 정착함</li>\n<li><strong>DoubleClick DART</strong>와 <strong>third-party cookie</strong>가 여러 웹사이트에 걸친 동일 사용자 추적을 가능하...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28755",
+      "source_id": ""
+    },
+    {
+      "title": "Kindle은 다시 사지 않음이 맞는 선택지",
+      "summary": "\n<ul>\n<li><strong>2013년 이전 Kindle</strong>은 Kindle Store 접근과 재등록이 막히며, 정상 동작하던 기기도 <strong>소프트웨어 정책 변경</strong>만으로 활용 범위 축소</li>\n<li><strong>2026년 Kindle UI</strong>는 라이브러리보다 스토어와 추천 노출 비중이 크고, <strong>sideloaded 책</strong> 탐색 불편이...</p>",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28754",
+      "source_id": ""
+    },
+    {
+      "title": "Tesla가 자율주행 시험을 계속하기 위해 치명적 사고를 숨김",
+      "summary": "\n<ul>\n<li><strong>내부 유출 데이터</strong>에서 Tesla가 자율주행 기능과 관련된 수천 건의 중대 사고와 결함 보고를 알고도 공공도로 시험을 이어간 정황 드러남</li>\n<li><strong>급발진 불만 2400건 이상</strong>, <strong>Autopilot 관련 사고 1000건 초과</strong> 기록이 확인됐고, 다수 항목이 해결되지 않음으...</p>",
+      "category": "산업별 AX",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28753",
+      "source_id": ""
+    },
+    {
+      "title": "Deezer는 자사 플랫폼에 매일 업로드되는 곡의 44%가 AI 생성이라고 밝힘",
+      "summary": "\n<ul>\n<li>매일 업로드되는 신규 음악 가운데 <strong>AI 생성 트랙</strong> 비중이 <strong>44%</strong> 로 집계되며, 하루 기준 거의 7만5천 곡과 월 200만 곡 이상 규모로 유입됨</li>\n<li>플랫폼 내 <strong>AI 생성 음악 소비량</strong>은 전체 스트림의 1~3% 수준에 머물고, 해당 스트림의 <strong>85%</strong>...</p>",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28752",
+      "source_id": ""
+    },
+    {
+      "title": "AI 레지스탕스가 성장중",
+      "summary": "\nAI 레지스탕스가 성장중",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28750",
+      "source_id": ""
+    },
+    {
+      "title": "프로덕션 환경에서 바이브 코딩을 책임감 있게 하는 법 -  Vibe coding in prod | Code w/ Claude",
+      "summary": "\n<p>Anthropic의 코딩 에이전트 연구자 Eric이 바이브 코딩(AI에게 코드 작성을 전적으로 맡기는 방식)을 실제 서비스 환경에서 어떻게 안전하게 활용할 수 있는지를 다룬 발표입니다. 단순히 AI로 코드를 많이 생성하는 것과 바이브 코딩은 다르며, Andrej Karpathy의 정의처럼 &quot;코드가 존재한다는 사실 자체를 잊는...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28749",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: ESLint Markdown: ESLint로 마크다운 파일들을 린팅하세요",
+      "summary": "\n<p>ESLint로 마크다운 파일을 린팅할 수 있는 <code>eslint-markdown</code> 패키지를 발행했습니다.</p>\n<p><a href=\"https://eslint.org/blog/2024/10/eslint-json-markdown-support/\">2024년 10월 3일 ESLint가 마크다운 지원을 공식 발표</a>한 이후, 공식 API와 방향성에 맞춰 설계한 플러그인입니다.</p>\n<p>이 프",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28747",
+      "source_id": ""
+    },
+    {
+      "title": "Ask HN: 양면 시장의 콜드 스타트 ​​문제를 해결하는 방법은 무엇일까요?",
+      "summary": "\n<ul>\n<li>승객 대신 소포를 운반하는 P2P 크라우드배송 마켓플레이스를 만들고 있으며, 도시·국가 간 이동하는 여행자가 물건을 보내려는 사람의 짐을 대신 운반하는 구조임</li>\n<li>MVP 출시를 앞두고 운반할 소포가 없으면 여행자가 가입하지 않고, 이용 가능한 여행자가 없으면 발송 의뢰자가 등록하지 않는 전형적인...</p>",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28746",
+      "source_id": ""
+    },
+    {
+      "title": "Firefox용 WebUSB 확장",
+      "summary": "\n<ul>\n<li>Chrome에서만 지원되던 <strong>WebUSB API</strong>를 Firefox에서 사용할 수 있게 해주는 확장으로, <strong>Native Messaging</strong> 메커니즘을 통해 브라우저 외부 프로그램과 통신</li>\n<li>브라우저 확장(.xpi)과 <strong>네이티브 스텁</strong> 두 가지를 함께 설치해야 동작</li>\n<li>Chrome의 Web...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28745",
+      "source_id": ""
+    },
+    {
+      "title": "&#039;제미나이 인 크롬&#039;으로 더욱 스마트하고 편리해진 크롬이 한국에 출시됩니다",
+      "summary": "\n<ul>\n<li>구글이 2026년 4월 20일, <strong>'제미나이 인 크롬(Gemini in Chrome)'</strong> 을 포함한 크롬 최신 AI 기능을 한국에 공식 출시</li>\n<li>최신 AI 모델 <strong>제미나이 3.1</strong> 기반으로, 데스크톱 및 iOS 환경에 먼저 제공</li>\n</ul>\n<p><strong>탭 전환 없이 웹 콘텐츠 바로 활용:</strong></p>",
+      "category": "대한민국 IT",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28743",
+      "source_id": ""
+    },
+    {
+      "title": "ggsql - SQL을 위한 그래픽 문법",
+      "summary": "\n<ul>\n<li><strong>SQL 문법 기반 시각화 도구</strong>로, <code>VISUALIZE</code>, <code>DRAW</code>, <code>PLACE</code>, <code>SCALE</code>, <code>LABEL</code> 같은 절을 통해 데이터 조회와 그래프 구성을 한 흐름으로 결합</li>\n<li>열을 시각적 속성에 매핑하고 <strong>레이어 조합 방식</strong>으로 산점도...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28742",
+      "source_id": ""
+    },
+    {
+      "title": "사우나가 심박수에 미치는 효과",
+      "summary": "\n<ul>\n<li>고온·건조 환경 노출은 <strong>심혈관계 자극</strong>과 함께 사우나 중 심박수 상승을 일으키고, 같은 날 밤에는 <strong>최저 심박수 감소</strong>로 이어짐</li>\n<li>약 <strong>5만9천 건</strong>의 일일 기록과 <strong>256명 사용자</strong> 데이터를 비교한 결과, 사우나 사용일은 비사용일보다 활...</p>",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28741",
+      "source_id": ""
+    },
+    {
+      "title": "NSA가 블랙리스트에도 불구하고 Anthropic의 Mythos를 사용 중",
+      "summary": "\n<ul>\n<li><strong>Anthropic Mythos Preview</strong>가 NSA에서 사용 중이며, DoD 고위 당국자들이 Anthropic를 <strong>공급망 리스크</strong>로 규정한 뒤에도 활용이 이어짐</li>\n<li>DoD는 2월 Anthropic 차단과 함께 벤더들에도 같은 조치를 추진했지만, 군 내부에서는 해당 도구의 사용 범위가 더 넓게 이어짐...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28740",
+      "source_id": ""
+    },
+    {
+      "title": "Atlassian, 고객 데이터 AI 학습 활용을 기본값으로 전환",
+      "summary": "\n<ul>\n<li><strong>Jira</strong>, <strong>Confluence</strong> 등 Atlassian Cloud 제품의 고객 메타데이터와 앱 내 콘텐츠가 2026년 8월 17일부터 <strong>Rovo</strong>와 Rovo Dev 학습에 기본 활용 예정</li>\n<li>요금제별 기본값이 다르게 적용되며, Free·Standard·Premium에서는 <strong>메타데이터 기여</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28739",
+      "source_id": ""
+    },
+    {
+      "title": "Qwen3.6-Max-Preview: 에이전틱 코딩과 세계 지식이 강화된 차세대 모델",
+      "summary": "\n<ul>\n<li>Qwen3.6-Plus의 후속으로, 전작 대비 <strong>에이전트형 코딩</strong>과 더 강한 세계 지식 및 지시 이행 성능 향상</li>\n<li>6개 주요 코딩 벤치마크에서 <strong>최고 점수</strong>를 기록하며 코딩 에이전트 성능의 대폭 향상 확인</li>\n<li><strong>preserve_thinking</strong> 기능을 지원해 에이전틱 ...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28738",
+      "source_id": ""
+    },
+    {
+      "title": "마침내 InfoWars는 우리 것이 됐다",
+      "summary": "\n<ul>\n<li><strong>Global Tetrahedron</strong>가 <strong>InfoWars.com 통제 계획</strong> 완료를 밝히며, 지난 1년 반 동안 키워 온 더 크고 더 잔혹하며 시장 데이터에 더 맞춘 구상을 전면에 내세움</li>\n<li>새 InfoWars는 광고로 뒤덮인 <strong>무한한 가상 표면</strong> 위에 사기와 목적 없는 거짓말, 몇 초만...</p>",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28737",
+      "source_id": ""
+    },
+    {
+      "title": "Kimi K2.6 공개 - 오픈소스 코딩의 발전",
+      "summary": "\n<ul>\n<li><strong>장기 구간 코딩</strong>과 에이전트형 작업에서 성능을 끌어올린 모델로, 여러 언어와 프런트엔드·devops·성능 최적화 전반에서 <strong>일반화 성능</strong> 강화</li>\n<li>복잡한 엔지니어링 작업을 <strong>지속 실행형 코딩</strong>으로 처리하며, 수천 회 도구 호출과 12시간 이상 연속 실행을...</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28736",
+      "source_id": ""
+    },
+    {
+      "title": "2027년부터 EU에서 판매되는 모든 휴대전화에 교체 가능한 배터리 의무화",
+      "summary": "\n<ul>\n<li>2027년 2월 18일부터 EU에서 판매되는 <strong>스마트폰과 태블릿</strong>은 사용자가 <strong>전문 도구나 외부 도움 없이</strong> 배터리를 직접 제거·교체할 수 있도록 설계돼야 함</li>\n<li>배터리 분리에 필요한 도구는 <strong>시중에서 구할 수 있는 도구</strong>여야 하며, 특수 도구가 필요하면 기...</p>",
+      "category": "산업별 AX",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=28735",
+      "source_id": ""
+    },
+    {
+      "title": "John Ternus, Apple CEO로 선임",
+      "summary": "\n<ul>\n<li><strong>장기 승계 계획</strong>에 따라 Apple 이사회가 Tim Cook의 Executive Chairman 전환과 John Ternus의 <strong>CEO 선임</strong>을 만장일치로 승인했으며, 효력 발생일은 2026년 9월 1일</li>\n<li>John Ternus는 현재 <strong>Hardware Engineering 수석 부사장</strong>으로, 2001년부터 제품 디자...</p>",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=28734",
+      "source_id": ""
+    },
+    {
+      "title": "Cherri - 애플 단축어를 코드로 작성하는 프로그래밍 언어",
+      "summary": "\n<ul>\n<li><strong>Siri Shortcuts</strong>를 텍스트 코드로 작성하면 <strong>실행 가능한 Shortcut 파일로 직접 컴파일</strong>해주는 도메인 특화 언어</li>\n<li>단축어의 액션과 <strong>1대1 매핑</strong>으로, 컴파일 결과를 Shortcuts 앱에서 바로 디버깅 가능</li>\n<li>Go와 Ruby 문법에서 영감을 받았으며, C...</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=28732",
+      "source_id": ""
+    },
+    {
+      "title": "Scaling Codex to enterprises worldwide",
+      "summary": "\nOpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "source_id": ""
+    },
+    {
+      "title": "Drunk Post: Things I've Learned as a Senior Engineer",
+      "summary": "\n<p>Article URL: <a href=\"https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as\">https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856535\">https://news.ycombinator.com/item?id=47856535</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as",
+      "source_id": ""
+    },
+    {
+      "title": "Bloom filters: the niche trick behind a 16× faster API – Blog – incident.io",
+      "summary": "\n<p>Article URL: <a href=\"https://incident.io/blog/bloom-filters\">https://incident.io/blog/bloom-filters</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856525\">https://news.ycombinator.com/item?id=47856525</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://incident.io/blog/bloom-filters",
+      "source_id": ""
+    },
+    {
+      "title": "Enriching MMDB files with your own data using Go (2020)",
+      "summary": "\n<p>Article URL: <a href=\"https://blog.maxmind.com/enriching-mmdb-files-with-your-own-data-using-go/\">https://blog.maxmind.com/enriching-mmdb-files-with-your-own-data-using-go/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856481\">https://news.ycombinator.com/item?id=47856481</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://blog.maxmind.com/enriching-mmdb-files-with-your-own-data-using-go/",
+      "source_id": ""
+    },
+    {
+      "title": "Developing Theory about the Development of Theory [pdf]",
+      "summary": "\n<p>Article URL: <a href=\"https://mintzberg.org/sites/default/files/article/download/developing_theory_about_the_development_of_theory_jan_2014.pdf\">https://mintzberg.org/sites/default/files/article/download/developing_theory_about_the_development_of_theory_jan_2014.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856432\">https://news.ycombinator.com/item?id=47856432</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://mintzberg.org/sites/default/files/article/download/developing_theory_about_the_development_of_theory_jan_2014.pdf",
+      "source_id": ""
+    },
+    {
+      "title": "How Much Do GPU Clusters Cost?",
+      "summary": "\n<p>Article URL: <a href=\"https://newsletter.semianalysis.com/p/how-much-do-gpu-clusters-really-cost\">https://newsletter.semianalysis.com/p/how-much-do-gpu-clusters-really-cost</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856419\">https://news.ycombinator.com/item?id=47856419</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://newsletter.semianalysis.com/p/how-much-do-gpu-clusters-really-cost",
+      "source_id": ""
+    },
+    {
+      "title": "New Lazarus Apt Campaign: \"Mach-O Man\" macOS Malware Kit Hits Businesses",
+      "summary": "\n<p>Article URL: <a href=\"https://any.run/cybersecurity-blog/lazarus-macos-malware-mach-o-man/\">https://any.run/cybersecurity-blog/lazarus-macos-malware-mach-o-man/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856393\">https://news.ycombinator.com/item?id=47856393</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://any.run/cybersecurity-blog/lazarus-macos-malware-mach-o-man/",
+      "source_id": ""
+    },
+    {
+      "title": "Fuck you, pay me\" by mike monteiro",
+      "summary": "\n<p>Article URL: <a href=\"https://www.youtube.com/watch?v=jVkLVRt6c1U\">https://www.youtube.com/watch?v=jVkLVRt6c1U</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856387\">https://news.ycombinator.com/item?id=47856387</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.youtube.com/watch?v=jVkLVRt6c1U",
+      "source_id": ""
+    },
+    {
+      "title": "AI bot buying what agents can buy in 2026",
+      "summary": "\n<p>Article URL: <a href=\"https://dialtoneapp.com/2026/april/ai-bot-buying-report\">https://dialtoneapp.com/2026/april/ai-bot-buying-report</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856377\">https://news.ycombinator.com/item?id=47856377</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://dialtoneapp.com/2026/april/ai-bot-buying-report",
+      "source_id": ""
+    },
+    {
+      "title": "US Criminally Charges Southern Poverty Law Center, Blanche Says",
+      "summary": "\n<p>Article URL: <a href=\"https://www.reuters.com/world/us-criminally-charges-southern-poverty-law-center-blanche-says-2026-04-21/\">https://www.reuters.com/world/us-criminally-charges-southern-poverty-law-center-blanche-says-2026-04-21/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856336\">https://news.ycombinator.com/item?id=47856336</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://www.reuters.com/world/us-criminally-charges-southern-poverty-law-center-blanche-says-2026-04-21/",
+      "source_id": ""
+    },
+    {
+      "title": "Does your boss have AI brain?",
+      "summary": "\n<p>Article URL: <a href=\"https://www.milkkarten.net/p/boss-obsessed-ai-marketing\">https://www.milkkarten.net/p/boss-obsessed-ai-marketing</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856283\">https://news.ycombinator.com/item?id=47856283</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://www.milkkarten.net/p/boss-obsessed-ai-marketing",
+      "source_id": ""
+    },
+    {
+      "title": "Google Ads Keeps Marking My Site Compromised",
+      "summary": "\n<p>At first I thought I was compromised.  But virustotal and safe browsing is clean, my site is one big cloudflare worker.  No file uploads.  No ssh to ssh in.<p>And I think I know why.  Google has decided to mark all sites that deal with real estate property data as malicious by default.   Why do i think this?  Search hackernews and reddit.   Then look at people complaining.  Then look at the replies and find what the site is (reddit bans you if you link to your site, so... don't do this).<p>5 out of 6 are someone who has sourced property data and is reselling it as a searchable feed or panel.  Could be my low sample size.  But I doubt it.<p>Now, I'm not going to guess WHY google does this.  I'm assuming there just must be a lot of fraudulent property data sites out there.  But my google ad rep said \"he's never seen this before\".<p>Well, that makes sense.  Because they're all out of business.  Fast.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856280\">https://news.ycombinator.com/item?id=47856280</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.ycombinator.com/item?id=47856280",
+      "source_id": ""
+    },
+    {
+      "title": "Single-minded pursuit of profit can get firms in trouble. Same thing with AI",
+      "summary": "\n<p>Article URL: <a href=\"https://news.harvard.edu/gazette/story/2026/04/single-minded-pursuit-of-profit-can-get-firms-in-trouble-same-thing-with-ai/\">https://news.harvard.edu/gazette/story/2026/04/single-minded-pursuit-of-profit-can-get-firms-in-trouble-same-thing-with-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856270\">https://news.ycombinator.com/item?id=47856270</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://news.harvard.edu/gazette/story/2026/04/single-minded-pursuit-of-profit-can-get-firms-in-trouble-same-thing-with-ai/",
+      "source_id": ""
+    },
+    {
+      "title": "The Next Era of Software Architecture Is Data-First",
+      "summary": "\n<p>Article URL: <a href=\"https://aimdb.dev/blog/data-driven-design\">https://aimdb.dev/blog/data-driven-design</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856093\">https://news.ycombinator.com/item?id=47856093</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://aimdb.dev/blog/data-driven-design",
+      "source_id": ""
+    },
+    {
+      "title": "Ask HN: Are there any engineering orgs that use incentives?",
+      "summary": "\n<p>I came from a sales background, and we were constantly using incentives to improve output from the team... when I moved into software a decade ago I found that incentives programs were basically unused. That seems soooooo weird to me. Does anyone work for a company who will provide any incentives not included in standard compensation (salary, RSUs, bonus, etc)? What are the results like?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856082\">https://news.ycombinator.com/item?id=47856082</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.ycombinator.com/item?id=47856082",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code is no longer a part of the Pro plan",
+      "summary": "\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856073\">https://news.ycombinator.com/item?id=47856073</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.ycombinator.com/item?id=47856073",
+      "source_id": ""
+    },
+    {
+      "title": "SpaceX cuts a deal to maybe buy Cursor for $60B",
+      "summary": "\n<p>Article URL: <a href=\"https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition\">https://www.theverge.com/science/916427/spacex-cursor-potential-deal_acquisition</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856065\">https://news.ycombinator.com/item?id=47856065</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+      "source_id": ""
+    },
+    {
+      "title": "BYD Looking to Open 20 Dealerships in Canada This Year",
+      "summary": "\n<p>Article URL: <a href=\"https://gmauthority.com/blog/2026/04/byd-looking-to-open-20-dealerships-in-canada-this-year/\">https://gmauthority.com/blog/2026/04/byd-looking-to-open-20-dealerships-in-canada-this-year/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47856025\">https://news.ycombinator.com/item?id=47856025</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://gmauthority.com/blog/2026/04/byd-looking-to-open-20-dealerships-in-canada-this-year/",
+      "source_id": ""
+    },
+    {
+      "title": "Apple has an opportunity to rediscover humanity",
+      "summary": "\n<p>Article URL: <a href=\"https://www.theregister.com/2026/04/21/apple_ternus_rediscover_humanity/\">https://www.theregister.com/2026/04/21/apple_ternus_rediscover_humanity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855995\">https://news.ycombinator.com/item?id=47855995</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://www.theregister.com/2026/04/21/apple_ternus_rediscover_humanity/",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: Agent Brain Trust, customisable expert panels for AI agents",
+      "summary": "\n<p>Agent Brain Trust lets you summon a panel of real, named experts to critique your architecture, review your writing, pressure your product strategy, or debate your design patterns. 10 built-in trusts, an extensible roster, and a working turn-taking protocol that ensures nothing useful gets skipped. Guest experts are drafted via an MCP server that maps topics to real persona cards so the panel can reach into niche and novel territory without inventing expertise it does not have.<p>Wrote up the full thinking here: <a href=\"https://tinyurl.com/agent-brain-trust\" rel=\"nofollow\">https://tinyurl.com/agent-brain-trust</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855932\">https://news.ycombinator.com/item?id=47855932</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://github.com/bahulneel/agent-brain-trust",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: Linux installer .exe without pendrives (secure-boot compatible)",
+      "summary": "\n<p>It is fairly simple, but useful for non-power users: a statically-linked Qt app that gracefully edits Windows Boot Manager to do a reboot-once into GRUB, which in turn launches ZorinOS live/installer from disk loopback. I needed to make a custom initramfs with dislocker in it, and to squeeze it a little (default Windows EFI partition is not so big).<p>Currently my biggest issue is that systemd is unable to shut down gracefully when rootfs is mounted from such a deep loop stack. The other is that installing to full disk crashes right after it successfully damages the partition table. I think I could solve both by copying the ISO contents to ramdisk before systemd takes over (initramfs needs to stay slim as I mentioned before) - maybe opportunistically if there is enough RAM (3,5G is not so unreasonable to expect).<p>I decided to make it paid for now (maybe not eligible for show? if so, sorry, I've been mostly a HN reader so far), but I am still considering if my project brought more good by being free of charge. It is free as in GPL3+ though, so although I can politely ask you not to exercise it too hard until I turn Bad™, you (will) have several ways to obtain it without paying anyway.<p>The website itself (especially payments) is also an interesting story, I can share it too some day.<p>What do you think?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855927\">https://news.ycombinator.com/item?id=47855927</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.1clicklinux.org/",
+      "source_id": ""
+    },
+    {
+      "title": "SpaceX Says It Has Agreement to Acquire Cursor for $60B",
+      "summary": "\n<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion\">https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855616\">https://news.ycombinator.com/item?id=47855616</a></p>\n<p>Points: 102</p>\n<p># Comments: 39</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code no longer included in Pro tier",
+      "summary": "\n<p>Article URL: <a href=\"https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a\">https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855565\">https://news.ycombinator.com/item?id=47855565</a></p>\n<p>Points: 159</p>\n<p># Comments: 92</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
+      "source_id": ""
+    },
+    {
+      "title": "SpaceX strikes deal with Cursor for $60B",
+      "summary": "\n<p>Article URL: <a href=\"https://www.nytimes.com/2026/04/21/business/spacex-cursor-deal.html\">https://www.nytimes.com/2026/04/21/business/spacex-cursor-deal.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855448\">https://news.ycombinator.com/item?id=47855448</a></p>\n<p>Points: 96</p>\n<p># Comments: 69</p>",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.nytimes.com/2026/04/21/business/spacex-cursor-deal.html",
+      "source_id": ""
+    }
+  ]
+}

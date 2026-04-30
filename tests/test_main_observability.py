@@ -47,11 +47,13 @@ def test_build_startup_summary_is_secret_safe(tmp_path: Path, monkeypatch) -> No
     summary = backend_main.build_startup_summary()
 
     assert "server_started" in summary
+    assert "app_role=public" in summary
     assert str(data_dir) in summary
     assert str(config_dir) in summary
     assert "noisy_ui_access_logs_suppressed=/api/letters,/api/weekly,/api/pipeline/status" in summary
     assert "llm_provider=google" in summary
     assert "llm_model=gemini-3-flash-preview" in summary
+    assert "routes=/api/letters,/api/feedback,/api/weekly" in summary
     assert "super-secret" not in summary
     assert "secret-api-key" not in summary
 
