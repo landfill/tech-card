@@ -1,0 +1,748 @@
+{
+  "items": [
+    {
+      "title": "I got infected with a crypto-miner via misconfigured qBittorrent",
+      "summary": "\nqBittorrent 설정 오류로 인해 암호화폐 채굴 악성코드에 감염된 개인 사례를 정리한 블로그 글로, 감염 경로·대응 방법·보안 권고를 다룸.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://blog.vasi.li/well-i-got-hacked/",
+      "source_id": ""
+    },
+    {
+      "title": "What Software Engineers Can Learn from the Aviation Industry",
+      "summary": "\n항공업계의 절차·운영·안전 문화를 소프트웨어 엔지니어링, 특히 에이전틱(대리행동) 시스템 설계 관점에서 분석하고 교훈을 제시하는 에세이.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://mwalterskirchen.dev/blog/piloting-agentic-engineering/",
+      "source_id": ""
+    },
+    {
+      "title": "NASA's Curiosity and Perseverance rovers capture Mars panoramas [video]",
+      "summary": "\nCuriosity와 Perseverance 로버가 촬영한 화성 파노라마 영상·이미지를 소개하는 기사(시각 자료 중심).",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://www.space.com/astronomy/mars/nasas-curiosity-and-perseverance-rovers-capture-sweeping-mars-panoramas-video",
+      "source_id": ""
+    },
+    {
+      "title": "A Report on Burnout in Open Source Software Communities (2025) [pdf]",
+      "summary": "\n오픈소스 커뮤니티의 번아웃 실태를 다룬 2025년 보고서(PDF). 원인·영향·대응 권고 등을 포함한 자료로 커뮤니티·프로젝트 운영에 시사점이 있음.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://mirandaheath.website/static/oss_burnout_report_mh_25.pdf",
+      "source_id": ""
+    },
+    {
+      "title": "New v2 UALink specification aims to catch up to NVLink",
+      "summary": "\n새 V2 UALink 규격이 엔비디아의 NVLink와 경쟁·보완하려는 목적과 기술적 방향성을 소개하는 기사(인터커넥트 규격 동향).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.networkworld.com/article/4155357/new-v2-ualink-specification-aims-to-catch-up-to-nvlink.html",
+      "source_id": ""
+    },
+    {
+      "title": "Keep Android Open: Why Free Android Matters",
+      "summary": "\n안드로이드의 자유(오픈) 유지 필요성을 논의하는 포럼 글로, 오픈 소스·사용자 권리 관점의 주장과 배경을 다룸.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://tux.re/forum/viewtopic.php?t=203",
+      "source_id": ""
+    },
+    {
+      "title": "On Taste",
+      "summary": "\n개인 블로그의 에세이로 '취향'에 대한 사유와 관점을 전개하는 글.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://endler.dev/2026/taste/",
+      "source_id": ""
+    },
+    {
+      "title": "Palantir Workers Are Finally Noticing the Skulls on Their Caps",
+      "summary": "\nPalantir 직원들이 회사 모자에 있는 해골 문양을 문제 삼는 사례를 보도하는 기사로, 기업 문화·브랜딩 논란을 다룸.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.techdirt.com/2026/04/30/palantir-workers-are-finally-noticing-the-skulls-on-their-caps/",
+      "source_id": ""
+    },
+    {
+      "title": "WolfCOSE: Zero alloc, PQC, MISRA-C, FIPS 140-3 built with wolfCrypt",
+      "summary": "\nwolfCrypt를 기반으로 한 COSE(CBOR Object Signing and Encryption) 구현 프로젝트(GitHub). 제로 할당, 양자저항암호(PQC), MISRA-C, FIPS 140-3 등 임베디드/보안 요구사항을 목표로 함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/aidangarske/wolfCOSE",
+      "source_id": ""
+    },
+    {
+      "title": "AI Companies Can't Regulate Themselves. They Should Regulate Each Other",
+      "summary": "\nAI 기업들이 스스로 규제하기 어렵다는 점을 지적하고 업계 간 상호 규제·거버넌스 메커니즘 도입을 제안하는 논평 기사.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.lawfaremedia.org/article/ai-companies-can-t-regulate-themselves-they-should-regulate-each-other",
+      "source_id": ""
+    },
+    {
+      "title": "Pentagon officials broadly detail $55B drone plan under DAWG",
+      "summary": "\n미 국방부가 DAWG(드론 관련 계획) 하에 제시한 550억 달러 규모 무인기 투자 계획의 개요와 조달·전력 변화에 대한 보도.",
+      "category": "산업별 AX",
+      "impact": "high",
+      "url": "https://breakingdefense.com/2026/04/pentagon-officials-broadly-detail-55-billion-drone-plan-under-dawg/",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: News on the Go",
+      "summary": "\n걷거나 이동할 때 사용하려고 만든 WIP(작업중) 토이 프로젝트 형태의 뉴스 앱/서비스 소개.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://hncast.com/",
+      "source_id": ""
+    },
+    {
+      "title": "Industrial Policy for the Intelligence Age [pdf]",
+      "summary": "\n인공지능 시대를 위한 산업정책을 다룬 OpenAI 배포 리포트(PDF). 국가·산업 차원의 정책 제안과 전략적 시사점을 포함할 가능성이 높음.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf",
+      "source_id": ""
+    },
+    {
+      "title": "A Programmer's Guide to Common Lisp",
+      "summary": "\nCommon Lisp 입문·가이드 자료를 아카이브에 보관한 페이지로, 학습·참고용으로 이용 가능.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://archive.org/details/a-programmers-guide-to-common-lisp",
+      "source_id": ""
+    },
+    {
+      "title": "사람들이 꿈꾸는 동안 의사소통하고 기술을 연습할 수 있다는 연구 결과 발표",
+      "summary": "\n최근 수면 연구가 잠든 동안 기억·행동을 바꿀 수 있는지를 EEG 등으로 다시 검증하고 있다는 내용(장미 향으로 위치 기억 강화 등 과거 연구들과의 연결).",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29084",
+      "source_id": ""
+    },
+    {
+      "title": "F#으로 Game Boy 에뮬레이터를 만들었다",
+      "summary": "\nF#로 구현된 Game Boy 에뮬레이터 'Fame Boy'가 브라우저 재생과 GitHub 소스 등을 포함해 공개되었다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=29083",
+      "source_id": ""
+    },
+    {
+      "title": "Craig Venter가 사망했다",
+      "summary": "\nJ. Craig Venter 박사가 2026-04-29 San Diego에서 79세로 사망했다는 부고(JCVI 설립자 등 그의 업적과 배경 소개).",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29082",
+      "source_id": ""
+    },
+    {
+      "title": "LinkedIn이 브라우저 확장 프로그램을 스캔 중",
+      "summary": "\nLinkedIn이 chrome-extension:// 요청을 통해 브라우저 확장 설치 여부를 확인하고 있어 확장 관련 프라이버시·탐지 이슈가 제기된다는 보도.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29080",
+      "source_id": ""
+    },
+    {
+      "title": "Opus 4.7은 진짜 Kelsey를 안다",
+      "summary": "\nAnthropic의 Claude Opus 4.7이 미공개 초안 125단어만으로 최고 가능 작성자로 Kelsey Piper를 지목하는 등 작성자 추론 능력을 보였다는 사례(프라이버시·저자 추정 문제 제기).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29079",
+      "source_id": ""
+    },
+    {
+      "title": "Shai-Hulud 테마 악성코드가 PyTorch Lightning AI 학습 라이브러리에서 발견됨",
+      "summary": "\nPyPI 패키지 'lightning'의 2.6.2/2.6.3 버전이 공급망 공격에 악용되어 pip 설치만으로 난독화된 JS 페이로드가 자동 실행되는 사례가 보고됨(공급망 보안 심각 이슈).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29078",
+      "source_id": ""
+    },
+    {
+      "title": "정유소는 어떻게 작동하는가",
+      "summary": "\n원유의 증류·분해·개질·처리 과정을 통해 휘발유·디젤·제트 연료 등을 생산하는 정유 공정(상압 증류 등 핵심 단계 설명).",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=29077",
+      "source_id": ""
+    },
+    {
+      "title": "한국 개발자의 오픈소스 Ouroboros, Claude Plan Mode를 제치고 모델링·시뮬레이션 벤치마크 1위 기록",
+      "summary": "\n한국 개발자가 만든 오픈소스 프로젝트 Ouroboros가 'AI-assisted discrete-event simulation' 벤치마크에서 1위를 달성했고, 같은 Claude 환경에서 Claude의 plan mode보다 높은 성과를 냈다는 소식.",
+      "category": "대한민국 IT",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29076",
+      "source_id": ""
+    },
+    {
+      "title": "빅테크 실적 발표 주간, 시장이 빅테크에 던진 새 기준 “CapEx ≥ 매출 가시성”",
+      "summary": "\n시장 참가자들이 빅테크 실적을 평가하는 새로운 기준으로 'CapEx가 매출로 이어진다는 가시성'을 요구하고 있으며, 알파벳·MS는 합격, 메타는 부정적 평가를 받은 사례 등 시장 반응 분석.",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29075",
+      "source_id": ""
+    },
+    {
+      "title": "스페인 의회가 LaLiga의 대규모 IP 차단에 대응할 예정",
+      "summary": "\n스페인 하원 위원회가 LaLiga의 불법 복제 대응 과정에서 발생한 대규모 웹페이지 IP 차단 문제에 대응하는 비입법 발의를 승인하고, 무차별적 IP 차단을 막기 위한 법 개정 검토를 추진한다는 소식.",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=29073",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: AI Universal Translator — 로컬 LLM/Gemini 지원 데스크톱 번역·요약 앱",
+      "summary": "\nTauri2 + Rust + React + TypeScript로 만든 데스크톱 번역·요약 앱으로 파일 번역, 청크 분할, 요약 등 기능을 제공하고 로컬 LLM·Gemini 같은 백엔드를 지원한다는 소개.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29072",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: kbo-cli - 터미널에서 KBO 야구 라이브 스코어보드 보기",
+      "summary": "\nNaver Sports 비공식 게이트웨이를 폴링해 점수·이닝·카운트·주자·최근 플레이를 ANSI 그래픽으로 렌더링하는 터미널 기반 KBO 라이브 스코어보드 도구 소개.",
+      "category": "대한민국 IT",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=29071",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 도다리 AI번역기 (epub, pdf, txt) 업데이트 했습니다.",
+      "summary": "\n2년 전 인기 있었던 도다리AI 번역기의 업데이트 소식. Gemma4 기반으로 번역 품질이 크게 향상되었고 로컬에서 무제한 용량으로 동작하는 점을 강조.",
+      "category": "대한민국 IT",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29070",
+      "source_id": ""
+    },
+    {
+      "title": "이진 검색보다 빠르게 만들 수 있음",
+      "summary": "\n정렬된 배열 검색에서 최신 CPU의 SIMD 능력을 활용해 여러 값을 동시에 비교하면 이진 검색보다 빠른 탐색이 가능하다는 설명(예: SIMD Quad 방법).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29069",
+      "source_id": ""
+    },
+    {
+      "title": "Linux 커널 취약점은 배포판에 사전 알림이 가지 않는다",
+      "summary": "\n로컬 권한 상승 취약점 'CopyFail'이 심각한 결함으로 분류되었고, 이 취약점이 특정 커널 커밋에서 도입되었으나 배포판에 사전 고지가 가지 않는 점이 문제로 지적된 내용.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29067",
+      "source_id": ""
+    },
+    {
+      "title": "Mark Klein이 EFF에 Room 641A를 알린 방법 [도서 발췌]",
+      "summary": "\n전직 AT&T 기술자의 증언이 NSA의 인터넷 백본 복제·감시 주장에 대한 법적 증거 역할을 했던 사례와 9/11 이후 감시 권한 확장 관련 역사적 정황을 다룬 도서 발췌.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29066",
+      "source_id": ""
+    },
+    {
+      "title": "Ask GN: 생성형 AI나 챗봇을 사용할 때 피드백 누르시나요?",
+      "summary": "\n사용자 대상 설문성 질문: 챗봇·생성형 AI 사용 시 '좋아요/싫어요' 같은 피드백 버튼을 실제로 누르는지에 대한 커뮤니티 질의.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=29065",
+      "source_id": ""
+    },
+    {
+      "title": "내 차량의 모든 데이터 수집을 비활성화할 수 있나요?",
+      "summary": "\nRivian 차량의 연결성(데이터 수집)을 완전히 끄면 차량 외부로 데이터 전송을 차단할 수 있지만 내비게이션·운전자 보조·OTA 업데이트 등 기능 일부가 제한된다는 설명.",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29061",
+      "source_id": ""
+    },
+    {
+      "title": "AI가 디자인을 대신하는 시대, 왜 디자인 시스템이 더 중요해질까?",
+      "summary": "\nAI 기반 디자인 도구의 등장에도 불구하고 기계가 이해할 수 있는 정교한 디자인 시스템의 필요성이 오히려 커졌다는 관점의 분석(디자인 시스템 재정의).",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29060",
+      "source_id": ""
+    },
+    {
+      "title": "스마트 안경 사용자 성관계 영상을 본 노동자들이 일자리를 잃은 뒤 논란에 휩싸인 Meta",
+      "summary": "\n케냐의 콘텐츠 검토 노동자들이 Meta 스마트 안경 영상에서 사용자 사생활(화장실·성관계 등)을 보고 그 이후 계약 종료로 1,108명 해고가 예상되는 분쟁이 발생했다는 보도(콘텐츠 검토 노동·윤리 문제).",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29059",
+      "source_id": ""
+    },
+    {
+      "title": "Zig 프로젝트의 anti-AI 기여 정책에 대한 근거",
+      "summary": "\nZig 프로젝트가 이슈·PR·버그 트래커·번역에서 LLM 사용을 금지하는 강한 규칙을 운영하고 있다는 설명과 그 근거(영어 사용 권장·번역 방식 등)를 다룸.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29058",
+      "source_id": ""
+    },
+    {
+      "title": "벨기에, 원자력 발전소 해체 중단",
+      "summary": "\n벨기에 정부가 원전 운영 유지 및 공급 통제 강화를 위해 원전 해체 중단을 결정하고 ENGIE와 발전소 국유화 협상을 진행 중이라는 소식(7개 원자로 대상).",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29057",
+      "source_id": ""
+    },
+    {
+      "title": "고블린은 어디에서 왔나",
+      "summary": "\nChatGPT(특히 GPT-5.1 이후) 답변에서 'goblin/gremlin' 같은 비유 사용이 늘어난 현상을 관찰하고, 원인으로 성격 커스터마이징 학습에서의 은유적 표현 유입을 지목한 분석.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29056",
+      "source_id": ""
+    },
+    {
+      "title": "Vibe-Trading - 자연어 기반 트레이딩 전략 생성·백테스트·실행 AI 도구",
+      "summary": "\n자연어 입력만으로 트레이딩 전략 코드 생성·백테스트·내보내기까지 처리하는 AI 기반 멀티에이전트 플랫폼 소개(다중 데이터 소스 자동 폴백 등).",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29055",
+      "source_id": ""
+    },
+    {
+      "title": "claude.md files in apple’s support app.",
+      "summary": "\n(레딧) Apple 지원 앱에서 'claude.md' 파일들이 발견되었다는 이미지/스레드 게시물(증거 이미지 링크 포함).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0wch0/claudemd_files_in_apples_support_app/",
+      "source_id": ""
+    },
+    {
+      "title": "I accidentally burned ~$6,000 of Claude usage overnight with one command.",
+      "summary": "\n레딧 사용자가 /loop 명령을 방치해 overnight에 약 $6,000가 청구된 사례 분석: Claude API가 매 턴마다 전체 대화 히스토리를 전송하고 캐시 만료(약 5분)가 비용 폭증 원인이라는 설명과 비용 절감 팁(중지조건 추가, Sonnet 사용 등).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t11mmy/i_accidentally_burned_6000_of_claude_usage/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude is hilariously petty",
+      "summary": "\n(레딧) Claude 관련 유머/이미지 게시물.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0nh6v/claude_is_hilariously_petty/",
+      "source_id": ""
+    },
+    {
+      "title": "I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.",
+      "summary": "\n레딧 게시자(그래파이파이 제작자)가 graphify라는 Claude Code 스킬을 출시해 빠르게 확산된 경험을 공유(코드베이스를 지식 그래프로 만들어 Claude가 지속 메모리를 갖게 하는 방식 등).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t18eeh/i_built_graphify_26_days_450k_downloads_40k_stars/",
+      "source_id": ""
+    },
+    {
+      "title": "Opus 4.7",
+      "summary": "\n(레딧) Opus 4.7 관련 게시(이미지/짧은 공유).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0t47t/opus_47/",
+      "source_id": ""
+    },
+    {
+      "title": "I got tired of AI gaslighting across claude and gpt. pivoted the whole startup to fix it.",
+      "summary": "\n레딧 게시자가 AI의 'gaslighting' 문제를 해결하고자 스타트업을 캔버스 기반 협업 모드로 전환한 경험 공유(여러 모델이 다양한 각도에서 조사하고 토론하도록 하는 접근).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t144z1/i_got_tired_of_ai_gaslighting_across_claude_and/",
+      "source_id": ""
+    },
+    {
+      "title": "This guy can not be real",
+      "summary": "\n(레딧) 간단한 Claude 관련 유머/화면 캡처 게시물.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t11mtq/this_guy_can_not_be_real/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic just launched Claude Security in public beta AI that scans your codebase, validates its own findings, and proposes fixes. Here's what actually matters.",
+      "summary": "\nAnthropic의 Claude Security가 엔터프라이즈 베타로 공개되었으며, 점진적 차별화 요소로 'AI가 스스로 검증(adversarial self‑verification)을 거쳐 보고하는 설계'를 강조하는 분석(컨텍스트 이해·패치 제안 등).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t12l3t/anthropic_just_launched_claude_security_in_public/",
+      "source_id": ""
+    },
+    {
+      "title": "Cloud Skills Are Still Just Skills - How Anthropic no longer releases new skills, and gates them within the Cloud now with Ultraplan, Ultrareview, and Cloud Security.",
+      "summary": "\nAnthropic가 일부 스킬을 클라우드에 잠그는 방향으로 이동하고 있어 오픈 스킬과 폐쇄형 유료 스킬의 분리가 일어나고 있다는 논의(생태계·학습에 미치는 영향 분석).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0wlme/cloud_skills_are_still_just_skills_how_anthropic/",
+      "source_id": ""
+    },
+    {
+      "title": "Opus 4.7 is a genuine regression and I'm tired of pretending it isn't",
+      "summary": "\n장기간 Claude 사용자이자 유료 이용자가 Opus 4.7의 대화·행동이 4.6보다 퇴보했다고 주장하며 구체적 사례(과도한 메타 서술, 입장 불안정, 토크나이저 변동으로 인한 비용 증가 등)를 제시한 비판 글.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0ffze/opus_47_is_a_genuine_regression_and_im_tired_of/",
+      "source_id": ""
+    },
+    {
+      "title": "I built a \"Six Hats\" skill that runs structured debates inside AI conversations",
+      "summary": "\nSix Hats 기법을 모델 대화에 적용해 구조화된 토론을 강제하는 스킬을 만들었고 예시와 코드(깃허브)를 공유함(White/Red/Yellow/Black/Green/Blue 역할을 순차 실행 후 종합).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t16utb/i_built_a_six_hats_skill_that_runs_structured/",
+      "source_id": ""
+    },
+    {
+      "title": "IDK why the chat-apps don't have this thing!!",
+      "summary": "\nQuotePin이라는 인라인 주석 기능을 가진 AI 채팅 앱을 공개: 텍스트 선택→질문→응답을 메시지에 주석으로 붙여 채팅 흐름을 깨지 않게 하는 UX(다중 공급자 지원 포함).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t14jje/idk_why_the_chatapps_dont_have_this_thing/",
+      "source_id": ""
+    },
+    {
+      "title": "$200 max plan usage, using tokens",
+      "summary": "\nMax 요금제 사용자가 토큰 사용량 관찰과 비용 관리에 대해 초보 질문을 올린 게시물(어떻게 토큰을 많이 쓰는지 궁금하다는 내용).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1482q/200_max_plan_usage_using_tokens/",
+      "source_id": ""
+    },
+    {
+      "title": "How to make Claude less Verbose",
+      "summary": "\n간결한 답변을 얻기 위한 팁을 묻는 커뮤니티 질문(Claude 및 다른 AI들에게서 긴 설명을 줄이는 방법 문의).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t13u10/how_to_make_claude_less_verbose/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude code session history",
+      "summary": "\nClaude Code가 세션 .jsonl 파일을 기본으로 30일 후 삭제한다는 정보와 설정 변경(npx agentinit 등)으로 보존 기간을 늘리는 팁 공유.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1936m/claude_code_session_history/",
+      "source_id": ""
+    },
+    {
+      "title": "The tradeoff nobody talks about with context-aware AI",
+      "summary": "\n실무에서 유용하려면 AI가 작업 맥락을 알아야 하는데 이는 화면 녹화·이메일·파일 접근 등으로 이어져 프라이버시·위험과 유용성 사이의 트레이드오프가 발생한다는 토론글.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t104r1/the_tradeoff_nobody_talks_about_with_contextaware/",
+      "source_id": ""
+    },
+    {
+      "title": "every night after work I start something and it goes till 5 AM in the morning",
+      "summary": "\n레딧 사용자가 오픈소스 프로젝트 'resumex'를 공개: Claude Code 기반으로 이력서를 자동 생성·편집하는 도구(로컬 작동, MIT 라이선스) 소개.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1a137/every_night_after_work_i_start_something_and_it/",
+      "source_id": ""
+    },
+    {
+      "title": "Is the leap from 4.5 to 4.7 actually visible?",
+      "summary": "\nOpus/Sonnet 등 모델 버전 간 성능 차이를 체감하지 못한다는 사용자의 질문(특정 작업에서 4.5→4.7의 'aha' 모멘트가 보이는지 공유 요청).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t16g7t/is_the_leap_from_45_to_47_actually_visible/",
+      "source_id": ""
+    },
+    {
+      "title": "done but no file attached?",
+      "summary": "\n(레딧) 간단한 UI/버그 관련 이미지 게시물(파일 첨부 문제 언급).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0zixg/done_but_no_file_attached/",
+      "source_id": ""
+    },
+    {
+      "title": "Best way to move a long Claude project chat into a fresh chat without losing context?",
+      "summary": "\n긴 프로젝트 대화를 새 채팅으로 옮길 때 컨텍스트를 잃지 않는 효율적 워크플로(프로젝트/핸드오프 문서/요약/핀 등) 공유 요청.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0i3rp/best_way_to_move_a_long_claude_project_chat_into/",
+      "source_id": ""
+    },
+    {
+      "title": "Do you use Cursor Glass (Agents Window)?",
+      "summary": "\nCursor의 Glass(다중 에이전트 창) 사용 여부와 실제 IDE 대체 경험(내부 VS Code 버전 차이로 인한 성능 이슈 등)에 대한 토론.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t115p2/do_you_use_cursor_glass_agents_window/",
+      "source_id": ""
+    },
+    {
+      "title": "Articulation levels",
+      "summary": "\n(레딧/cursor) 짧은 이미지/공유 게시물(articulation levels 관련).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t0nls4/articulation_levels/",
+      "source_id": ""
+    },
+    {
+      "title": "What in the world is this 😭 (auto)",
+      "summary": "\n(레딧) Cursor에서 Composer와 claude-sonnet-4의 동시 표기가 보인다는 화면 캡처 관련 질문.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t10ipm/what_in_the_world_is_this_auto/",
+      "source_id": ""
+    },
+    {
+      "title": "Building products in public: how do you separate real signals from noise?",
+      "summary": "\nCursor/Claude Code 등으로 제품을 공개적으로 개발할 때 Reddit/HN/GitHub 피드백에서 '신호'와 '노이즈'를 구분하는 방법론과 의사결정 기준을 묻는 토론.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t0y7a8/building_products_in_public_how_do_you_separate/",
+      "source_id": ""
+    },
+    {
+      "title": "any body releasing composer 2 quality and speed degradation",
+      "summary": "\nComposer 2의 품질·속도 저하와 비용 증가를 체감한다는 사용자 불만 게시물.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t18533/any_body_releasing_composer_2_quality_and_speed/",
+      "source_id": ""
+    },
+    {
+      "title": "I'm feeling really stupid right now. How the heck do I check how much usage I have left on the free plan (both on the cursor.com dashboard and in the cursor application)?",
+      "summary": "\nCursor 무료 플랜에서 남은 사용량(토큰/요청 등)을 대시보드나 앱에서 확인하는 방법을 묻는 질문(대시보드 표기가 직관적이지 않다는 불만).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t17tis/im_feeling_really_stupid_right_now_how_the_heck/",
+      "source_id": ""
+    },
+    {
+      "title": "Does Cursor keep changing how Git commits are co-authored?",
+      "summary": "\nCursor의 Commit Attribution 설정이 바뀌며 커밋에 'cursoragent' 공동작성자 표기가 왔다갔다하는 경험을 공유하는 사용자 질문(정책/동작 변화 확인 요청).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t10sli/does_cursor_keep_changing_how_git_commits_are/",
+      "source_id": ""
+    },
+    {
+      "title": "you cant add your own llm model in cursor free plan ?",
+      "summary": "\nCursor 무료 플랜에서 사용자 지정 LLM(OpenRouter 등)을 추가하려고 할 때 Pro 요금제 요구로 막히는 문제 제기(기능 접근 제한 불만).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t0rgp4/you_cant_add_your_own_llm_model_in_cursor_free/",
+      "source_id": ""
+    },
+    {
+      "title": "How To Disable Sending Project Context With A Custom Command?",
+      "summary": "\nCursor의 커스텀 명령 실행 시 전체 프로젝트 컨텍스트가 전송되어 비용이 많이 발생하는 문제를 겪고 있으며, 이를 비활성화하는 방법을 묻는 기술적 질문.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t0wn1f/how_to_disable_sending_project_context_with_a/",
+      "source_id": ""
+    },
+    {
+      "title": "Is it worth it to switch to cursor from windsurf due to the usage limits now?",
+      "summary": "\nWindsurf의 요금·쿼타 변경 이후 Cursor로 이전할 가치가 있는지 경험 공유 요청(요금·제한 비교 문의).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t0w5af/is_it_worth_it_to_switch_to_cursor_from_windsurf/",
+      "source_id": ""
+    },
+    {
+      "title": "Cannot create profile",
+      "summary": "\nCursor에서 프로필 생성 시 서버 에러 503이 발생해 프로필 생성 불가(파일/깃허브 Gist 임포트 시 동일 오류 보고).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t0te51/cannot_create_profile/",
+      "source_id": ""
+    },
+    {
+      "title": "Is Cursor recommended for creating Stardew Valley mods?",
+      "summary": "\nStardew Valley 모드 제작에 Cursor 사용을 권장하는지 묻는 초보자 질문(도움·권장 여부 요청).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t105wl/is_cursor_recommended_for_creating_stardew_valley/",
+      "source_id": ""
+    },
+    {
+      "title": "I created a full UX / Design system for AI tools like Claude, Codex and Cursor.",
+      "summary": "\nAI 도구(Claude, Codex, Cursor 등)에 맞춘 UX 디자인 시스템을 공개하고 웹/깃허브 링크를 공유(공개·무료, 초기 반응 양호).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t0n6ge/i_created_a_full_ux_design_system_for_ai_tools/",
+      "source_id": ""
+    },
+    {
+      "title": "Is “vibe coder” a bad term?",
+      "summary": "\n(vibe coder)라는 용어의 적절성에 대한 짧은 토론/링크 포스팅.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t0lpgw/is_vibe_coder_a_bad_term/",
+      "source_id": ""
+    },
+    {
+      "title": "[D] Simple Questions Thread",
+      "summary": "\n(레딧 r/MachineLearning) 일반적인 머신러닝 질문을 모아 답변하는 정기 스레드(질문을 새 글로 올리지 말고 해당 스레드에).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0vvka/d_simple_questions_thread/",
+      "source_id": ""
+    },
+    {
+      "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "summary": "\n(레딧 r/MachineLearning) 채용·구직 정보를 공유하는 월간 스레드(템플릿 안내 포함).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0gle1/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+      "source_id": ""
+    },
+    {
+      "title": "ICML final decisions rant [D]",
+      "summary": "\nICML 합격/탈락 과정과 리뷰의 문제점을 토로하는 개인적 불만·분노 표출 스레드(대회 제출·검토 문화에 대한 비판).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t1393a/icml_final_decisions_rant_d/",
+      "source_id": ""
+    },
+    {
+      "title": "I spent years building a 103B-token Usenet corpus (1980–2013) and finally documented it [P]",
+      "summary": "\n1980–2013년 전체 Usenet을 수집·정제해 약 103.1B 토큰, 408M 게시물을 포함한 대규모 코퍼스를 구축하고 Hugging Face에 데이터 카드·샘플을 공개했다는 기술·데이터셋 발표.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t10xaf/i_spent_years_building_a_103btoken_usenet_corpus/",
+      "source_id": ""
+    },
+    {
+      "title": "Is it just me or is the Conference Lottery culture killing research? [D]",
+      "summary": "\n지도교수의 '학회 제출을 주말형 해킹' 방식과 과도한 제출 문화에 대한 연구자 불만(컨퍼런스 제출 문화 비판).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0mct7/is_it_just_me_or_is_the_conference_lottery/",
+      "source_id": ""
+    },
+    {
+      "title": "[ECCV 2026] Review Discussion [D]",
+      "summary": "\nECCV 리뷰 공개 시점을 앞두고 리뷰 결과를 논의하기 위한 스레드 예고(토론용 스레드).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0rtx3/eccv_2026_review_discussion_d/",
+      "source_id": ""
+    },
+    {
+      "title": "Why ML conference reviews sometimes feel like a “lottery“ [D]",
+      "summary": "\nML 학회 리뷰가 경계선에 있는 논문들에서 확률적으로 느껴진다는 설명과 그 원인(리뷰어 편차·시간·매칭 문제 등)을 분석한 의견글.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0y5pa/why_ml_conference_reviews_sometimes_feel_like_a/",
+      "source_id": ""
+    },
+    {
+      "title": "public reviews in conferences [D]",
+      "summary": "\nICLR처럼 리뷰를 공개하는 방식의 장단점 논의: 투명성·리뷰 품질 향상 등의 이점과 잠재적 단점 토의.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0shbq/public_reviews_in_conferences_d/",
+      "source_id": ""
+    },
+    {
+      "title": "Tube strikes make people healthier. The maths proves it [D]",
+      "summary": "\n파업이 런던에서 자전거 이용을 증가시켜 건강에 긍정적 영향을 준다는 인과추론 분석(블로그 링크 공유).",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t17syu/tube_strikes_make_people_healthier_the_maths/",
+      "source_id": ""
+    },
+    {
+      "title": "UAI Rebuttal [D]",
+      "summary": "\nUAI 제출 논문의 리벳틀(rebuttal) 이후 점수 변화 사례 공유(점수/신뢰도 변화 표).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t17kf3/uai_rebuttal_d/",
+      "source_id": ""
+    },
+    {
+      "title": "AI/ML Conferences [D]",
+      "summary": "\nA* 컨퍼런스 리뷰 시스템의 문제와 공정성 개선 방안에 대한 좌담적 불만 글(논의 요청).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/",
+      "source_id": ""
+    },
+    {
+      "title": "Why Is Table Extraction with VLM Models Still Challenging? [D]",
+      "summary": "\nPDF→Markdown 변환, 특히 경계선 없는 테이블·컬럼 많은 표 처리에서 VLM(비전-언어 모델)이 어려움을 겪는 이유와 오픈소스 대안 탐색(대부분 유료 솔루션만 성능 우수).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0txco/why_is_table_extraction_with_vlm_models_still/",
+      "source_id": ""
+    },
+    {
+      "title": "What benchmark would you build for “reply quality” in SDR generation? [D]",
+      "summary": "\nSDR(아웃바운드 이메일) 생성의 '답장 품질' 평가 지표 설계 문제 제기: 회신률·긍정/부정 회신·사실성·사전 편집량 등 여러 지표의 장단점 토론 요청.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0ov2h/what_benchmark_would_you_build_for_reply_quality/",
+      "source_id": ""
+    },
+    {
+      "title": "(How) could an ARC-3 solution be a threat? [D]",
+      "summary": "\nARC-AGI-3 벤치마크를 완전히 해결하는 시스템이 현실화될 경우 잠재적 위험(군사·사이버·조작 등)에 대한 가설적 논의 요청.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0wprd/how_could_an_arc3_solution_be_a_threat_d/",
+      "source_id": ""
+    },
+    {
+      "title": "Self-calibrating cross-camera homography for real-time ghost prediction in multi-camera person tracking[P]",
+      "summary": "\n멀티카메라 사람 추적에서 동시 검출된 발 지점을 이용해 카메라 간 호모그래피를 자동 재학습하여 실시간 예측을 개선하는 시스템과 구현(깃허브 링크·CI 포함) 공유. 제약사항(고각 카메라 등)도 명시.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t0k4i5/selfcalibrating_crosscamera_homography_for/",
+      "source_id": ""
+    },
+    {
+      "title": "U.S. to Withdraw 5k Troops from Germany, Pentagon Says",
+      "summary": "\n뉴욕타임스 기사 링크: 미군 병력 5,000명 독일 철수 계획 보도(정치·안보 관련 속보).",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://www.nytimes.com/2026/05/01/us/politics/us-troops-germany.html",
+      "source_id": ""
+    },
+    {
+      "title": "uget – stupid get-file-over-HTTP program/function",
+      "summary": "\nGitHub 프로젝트 'uget' 소개(간단한 HTTP 파일 다운로드 유틸리티).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://github.com/troglobit/uget",
+      "source_id": ""
+    },
+    {
+      "title": "Visual Studio 2026 still ships the form designer Alan Cooper drew in 1987",
+      "summary": "\n블로그 글: Visual Studio 2026이 여전히 오래된 WinForms 폼 디자이너를 탑재하고 있다는 비판적 관찰(레거시 유지 현상 지적).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://evilgeniuslabs.ca/blog/winforms-still-ships-in-visual-studio-2026",
+      "source_id": ""
+    },
+    {
+      "title": "Oregon's Non-Affiliated Surge and the Socialist Realignment Nobody Talks About",
+      "summary": "\n정치·사회 분석 기사 링크(오리건 무소속 증가 및 정치적 재배치 관련 에세이).",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://fullstack.ing/posts/the-flight-from-party-oregons-non-affiliated-surge-and-the-socialist-realignment-nobody-talks-about",
+      "source_id": ""
+    },
+    {
+      "title": "Humanity on the Page",
+      "summary": "\n'Writing Artificial Intelligence' 관련 잡지 기사 링크(인문학·AI 관련 에세이).",
+      "category": "산업별 AX",
+      "impact": "low",
+      "url": "https://www.commonwealmagazine.org/writing-artificial-intelligence-ai-rand-richards-cooper",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: TTS Studio: AI-Powered Text-to-Speech Tool",
+      "summary": "\nShow HN: AI 기반 텍스트-투-스피치 도구 'TTS Studio' 소개(데모 사이트 링크 포함).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://tts.haroun.dev/",
+      "source_id": ""
+    }
+  ]
+}
