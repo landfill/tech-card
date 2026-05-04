@@ -1,0 +1,167 @@
+{
+  "week": "2026-W18",
+  "date_range": [
+    "2026-04-27",
+    "2026-05-03"
+  ],
+  "total_items": 580,
+  "filtered_items": 493,
+  "trend_map": [
+    {
+      "topic": "Claude Code / Claude (Anthropic)",
+      "days": [
+        "04-27",
+        "04-28",
+        "04-29",
+        "04-30",
+        "05-01",
+        "05-02",
+        "05-03"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor (desktop / Composer / subagents / Cursor Camp)",
+      "days": [
+        "04-28",
+        "04-29",
+        "04-30",
+        "05-01",
+        "05-02"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GitHub Copilot (billing / integrations / co-authored commits)",
+      "days": [
+        "04-27",
+        "04-28",
+        "04-30",
+        "05-03"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "DeepSeek V4 / DeepClaude",
+      "days": [
+        "04-27",
+        "04-29",
+        "05-02",
+        "05-03"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Anthropic / Opus (model updates, partnerships, Anthropic product launches)",
+      "days": [
+        "04-27",
+        "04-28",
+        "04-29",
+        "04-30",
+        "05-01",
+        "05-02"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Warp open-source / agentic development environment",
+      "days": [
+        "04-28",
+        "04-29"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "Agent safety / runaway agents (data deletion, runaway spend, blast radius)",
+      "days": [
+        "04-27",
+        "04-28",
+        "04-30",
+        "05-01",
+        "05-02"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "MCP / Context-mode tools (token/context savings for agentic coding)",
+      "days": [
+        "04-28",
+        "04-30",
+        "05-02",
+        "05-03"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GitHub & infra security / availability incidents (CVE, outage reports, supply-chain)",
+      "days": [
+        "04-27",
+        "04-28",
+        "04-29",
+        "04-30",
+        "05-01"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 300,
+      "high_count": 75
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 193,
+      "high_count": 20
+    }
+  },
+  "top5": [
+    {
+      "title": "Claude.ai unavailable and elevated errors on the API",
+      "url": "https://status.claude.com/incidents/9l93x2ht4s5w",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "DeepSeek-V4 논문 읽기 요약 - 노정석",
+      "url": "https://news.hada.io/topic?id=28996",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "GitHub Copilot is moving to usage-based billing",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "mentions": 2,
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "url": "https://openai.com/index/openai-on-aws",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "Cursor & Claude deleted a company's entire database",
+      "url": "https://www.reddit.com/r/cursor/comments/1sxsp8i/cursor_claude_deleted_a_companys_entire_database/",
+      "mentions": 3,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-04-27": 42,
+    "2026-04-28": 100,
+    "2026-04-29": 77,
+    "2026-04-30": 91,
+    "2026-05-01": 78,
+    "2026-05-02": 67,
+    "2026-05-03": 38
+  }
+}
