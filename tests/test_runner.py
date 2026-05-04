@@ -78,26 +78,24 @@ def test_run_pipeline_logs_operator_sequence(config_dir, skills_dir, tmp_path, m
     caplog.set_level(logging.INFO, logger="pipeline.runner")
 
     with patch("pipeline.runner.generate_card_background", return_value=None):
-        with patch("pipeline.runner.evolve_prompt") as mock_evolve:
-            mock_evolve.return_value = None
-            with patch("pipeline.runner.run_collect") as mock_collect:
-                mock_collect.return_value = {"date": "2025-02-26", "items": [{"title": "A", "summary": "a", "url": "https://a.com"}], "sources_run": ["r"]}
-                with patch("pipeline.runner.load_checkpoint") as mock_load:
-                    def load_side_effect(data_dir, d, stage):
-                        if stage == "collect":
-                            return {"items": [{"title": "A", "summary": "a", "url": "https://a.com"}]}
-                        if stage == "dedup":
-                            return {"items": [{"title": "A", "summary": "a"}]}
-                        return None
-                    mock_load.side_effect = load_side_effect
-                    run_pipeline(
-                        "2025-02-26",
-                        str(config_dir),
-                        str(data_dir),
-                        str(skills_dir),
-                        mock_llm,
-                        force=True,
-                    )
+        with patch("pipeline.runner.run_collect") as mock_collect:
+            mock_collect.return_value = {"date": "2025-02-26", "items": [{"title": "A", "summary": "a", "url": "https://a.com"}], "sources_run": ["r"]}
+            with patch("pipeline.runner.load_checkpoint") as mock_load:
+                def load_side_effect(data_dir, d, stage):
+                    if stage == "collect":
+                        return {"items": [{"title": "A", "summary": "a", "url": "https://a.com"}]}
+                    if stage == "dedup":
+                        return {"items": [{"title": "A", "summary": "a"}]}
+                    return None
+                mock_load.side_effect = load_side_effect
+                run_pipeline(
+                    "2025-02-26",
+                    str(config_dir),
+                    str(data_dir),
+                    str(skills_dir),
+                    mock_llm,
+                    force=True,
+                )
 
     messages = [record.getMessage() for record in caplog.records]
     assert any("event=run_started" in message for message in messages)

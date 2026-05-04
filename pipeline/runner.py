@@ -10,6 +10,7 @@ from pipeline.checkpoint import load_checkpoint, save_checkpoint
 from pipeline.collect import run_collect
 from pipeline.dedup import dedup
 from pipeline.letter_generate import letter_generate
+from pipeline.relevance import filter_relevant_items
 from pipeline.storage import letter_path, recent_7d_dates, index_path, card_path
 from pipeline import agents
 from pipeline.card_generate import card_generate as run_card_generate, load_letter_for_date
@@ -154,6 +155,11 @@ def run_step(
                         analyzed.extend(fut.result())
                     except Exception as e:
                         logger.exception("Analyze chunk failed: %s", e)
+            before_filter = len(analyzed)
+            analyzed = filter_relevant_items(analyzed)
+            dropped = before_filter - len(analyzed)
+            if dropped:
+                logger.info(format_event("relevance_filter_applied", step="analyze", date=date_str, kept=len(analyzed), dropped=dropped))
             analyze_cp = {"items": analyzed, "chunks": num_chunks}
             save_checkpoint(str(data_dir), d, "analyze", analyze_cp)
         else:
@@ -184,7 +190,7 @@ def run_step(
         collect_cp = load_checkpoint(str(data_dir), d, "collect")
         collect_items = (collect_cp or {}).get("items") or []
         analyzed = (analyze_cp.get("items") if isinstance(analyze_cp, dict) else []) if analyze_cp else []
-        candidates = analyzed or [{"title": x.get("title"), "summary": x.get("summary")} for x in collect_items[:50]]
+        candidates = filter_relevant_items(analyzed) if analyzed else filter_relevant_items(collect_items[:50])
         deduped = dedup(
             candidates,
             recent,
@@ -192,6 +198,11 @@ def run_step(
             threshold=0.5,
             progress_callback=lambda detail: cb("progress", detail),
         )
+        before_filter = len(deduped)
+        deduped = filter_relevant_items(deduped)
+        dropped = before_filter - len(deduped)
+        if dropped:
+            logger.info(format_event("relevance_filter_applied", step="dedup", date=date_str, kept=len(deduped), dropped=dropped))
         save_checkpoint(str(data_dir), d, "dedup", {"items": deduped})
         cb("completed", {"items_count": len(deduped)})
         return {"items_count": len(deduped)}
@@ -199,7 +210,7 @@ def run_step(
     if step_id == "letter_generate":
         cb("started", None)
         dedup_cp = load_checkpoint(str(data_dir), d, "dedup")
-        deduped = (dedup_cp or {}).get("items") or []
+        deduped = filter_relevant_items((dedup_cp or {}).get("items") or [])
         letter_md = letter_generate(
             {"items": deduped, "date": date_str},
             skills_dir,

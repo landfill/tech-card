@@ -1,35 +1,11 @@
 {
   "items": [
     {
-      "title": "러시아가 Wikipedia를 오염시킨다",
-      "summary": "\nAtlantic Council은 러시아가 Wikipedia와 인기 AI 도구에 친크렘린 콘텐츠를 확장·맞춤화해 퍼뜨리고 제재 대상 매체 콘텐츠를 세탁해 전 세계 정보원을 크렘린 서사로 맞추려 한다고 분석함.",
-      "category": "산업별 AX",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29133",
-      "source_id": ""
-    },
-    {
       "title": "Tesla 소유자가 Tesla의 FSD 거짓말로 법정에서 1만 달러를 받았고 Tesla는 여전히 그와 싸우고 있음",
       "summary": "\n구매자가 FSD에 대해 10,000달러를 지불했으나 기대한 레벨5 자율주행에 도달하지 못했다며 승소(1만 달러)했으며 Tesla는 항소 등으로 계속 대응 중임 — 자율주행 제품 책임·마케팅 문제를 부각.",
       "category": "산업별 AX",
       "impact": "high",
       "url": "https://news.hada.io/topic?id=29132",
-      "source_id": ""
-    },
-    {
-      "title": "네안데르탈인은 12만5천 년 전 ‘지방 공장’을 운영했다 (2025)",
-      "summary": "\n독일 Neumark-Nord 2 유적에서 네안데르탈인이 대형 포유류 뼈를 분해해 가열·추출하는 방식으로 골지방을 생산한 증거를 발견했다는 고고학 보고.",
-      "category": "산업별 AX",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29131",
-      "source_id": ""
-    },
-    {
-      "title": "오픈소스가 공개 커뮤니티를 의미하지는 않는다",
-      "summary": "\n오픈소스는 배포 방식(HTML, tarball, 이메일 등)과 공개 커뮤니티의 유무가 항상 일치하지 않으며, pull request·issue 등 현대적 관행이 없더라도 오픈소스가 될 수 있다는 역사적·실무적 논점 제기.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29130",
       "source_id": ""
     },
     {
@@ -41,27 +17,11 @@
       "source_id": ""
     },
     {
-      "title": "Show GN: NUBO: 바뀐 이름, 여전한 커뮤니티 빌더 (TSBOARD 후속 프로젝트)",
-      "summary": "\nBun 런타임 기반의 게시판형 커뮤니티 빌더 TSBOARD 후속 프로젝트 NUBO 소개와 개발·피드백 경험 요약.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29128",
-      "source_id": ""
-    },
-    {
       "title": "Show GN: VibeFrame - 코딩 에이전트를 위한 스토리보드 기반 비디오 CLI",
       "summary": "\nCodex/Claude Code/Cursor 같은 코딩 에이전트로 비디오 작업을 실험하며, 상태가 UI에 묶인 기존 비디오 툴의 한계를 피해 코드 기반으로 프로젝트를 다루는 CLI 도구 VibeFrame을 소개.",
       "category": "에이전틱 코딩 & 프론티어 모델",
       "impact": "medium",
       "url": "https://news.hada.io/topic?id=29127",
-      "source_id": ""
-    },
-    {
-      "title": "Show GN: WAH: 헤더 파일 하나로 만든 WebAssembly 인터프리터",
-      "summary": "\n단일 C 헤더 파일로 구현된 WebAssembly 인터프리터를 공개했으며, WebAssembly 3.0 명세(예: GC 등)를 지원한다고 설명.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29126",
       "source_id": ""
     },
     {
@@ -73,83 +33,11 @@
       "source_id": ""
     },
     {
-      "title": "PEP 661 – 센티널 값, 5년 뒤 승인됨",
-      "summary": "\nPEP 661은 None과 구별되는 센티널 값을 만들기 위한 sentinel() 빌트인과 PySentinel_New() C API를 제안하며 기존 관용구(object() 사용)의 한계와 함수 시그니처 문서화 이점을 논함.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29123",
-      "source_id": ""
-    },
-    {
-      "title": "향후 12개월 안에 참석하고 싶은 컨퍼런스는 무엇인가요?",
-      "summary": "\n작성자가 최근 컨퍼런스 참석이 줄었음을 언급하고, 다시 꾸준히 참석해 전문성 개발과 커뮤니티 참여를 늘리려는 계획과 관심 대상 컨퍼런스에 관해 논의.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29122",
-      "source_id": ""
-    },
-    {
       "title": "신뢰의 웹을 구축해 LLM 스팸에 맞서기",
       "summary": "\nTangled 프로젝트는 사용자 간 보증(vouching) 기능을 도입해 LLM 기반 제출물 증가에 대한 신뢰 신호로 활용하고, 보증된 사용자에게 시각적 표시(초록 방패 등)를 제공하는 접근을 설명.",
       "category": "에이전틱 코딩 & 프론티어 모델",
       "impact": "medium",
       "url": "https://news.hada.io/topic?id=29121",
-      "source_id": ""
-    },
-    {
-      "title": "어떤 재미있는 웹사이트를 알고 있나요?",
-      "summary": "\n장난스럽고 기발한 웹사이트 추천을 묻는 게시물로, 기존의 고전적인 유머 사이트 목록(예: zombo.com 등)을 공유.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29120",
-      "source_id": ""
-    },
-    {
-      "title": "역 Sapir-Whorf와 프로그래밍 언어",
-      "summary": "\nInverse Sapir-Whorf 개념을 프로그래밍 언어에 적용해, 언어가 정보를 드러내도록 강제하는 방식과 그 결과가 사고·표현에 미치는 영향을 논의.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29119",
-      "source_id": ""
-    },
-    {
-      "title": "Bitwarden을 추천하지 않는다",
-      "summary": "\n수년간 자체 호스팅 경험을 바탕으로 Bitwarden의 무거운 서버 구성, 오픈소스 방향성 불투명성, 낮은 클라이언트 품질과 반복된 보안 이슈를 이유로 더 이상 추천하지 않음.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29118",
-      "source_id": ""
-    },
-    {
-      "title": "이번 달의 Ladybird – 2026년 4월",
-      "summary": "\nLadybird 브라우저 프로젝트가 4월에 35명 기여자, 333개 PR 병합, 후원금 수령(예: Human Rights Foundation $50k) 및 인라인 PDF 뷰어·GTK4 프런트엔드 등 새 기능을 소개.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29117",
-      "source_id": ""
-    },
-    {
-      "title": "DO_NOT_TRACK - 개인정보 보호를 위한 표준",
-      "summary": "\nCLI 도구·SDK·프레임워크마다 다른 텔레메트리 비활성화 방식을 환경 변수 하나로 통일하자고 제안하는 DO_NOT_TRACK 제안 소개(여러 도구 예시 포함).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29116",
-      "source_id": ""
-    },
-    {
-      "title": "Show GN: 만진법 프로젝트: 한·중·일 언어권을 위한 수 표기 제안",
-      "summary": "\n한·중·일에서 사용하는 만(萬) 단위 표기를 숫자 표기와 일치시키기 위해 만 단위 구분자로 밑줄(_) 사용을 제안하는 글.",
-      "category": "대한민국 IT",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29115",
-      "source_id": ""
-    },
-    {
-      "title": "왜 TMP와 TEMP 환경 변수가 둘 다 있을까? (2015)",
-      "summary": "\nWindows에 TMP와 TEMP 환경 변수가 공존하는 역사적 이유를 설명하고, 프로그램에 따라 어떤 변수를 사용하는지 등의 차이를 역사적으로 정리.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29114",
       "source_id": ""
     },
     {
@@ -161,35 +49,11 @@
       "source_id": ""
     },
     {
-      "title": "macOS VM은 얼마나 빠르고, 얼마나 작아질 수 있을까?",
-      "summary": "\nMac mini M4 Pro에서 macOS 26.4.1 VM의 성능을 측정한 결과, 5가상코어·16GB 구성에서도 단일코어 CPU와 GPU 성능이 호스트에 근접하는 것으로 나타났음(Geekbench 수치 포함).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29112",
-      "source_id": ""
-    },
-    {
       "title": "알고리듬 채용에서의 AI 자기선호: 실증 증거와 시사점",
       "summary": "\nLLM이 이력서 생성·평가에 사용될 때 모델이 자신이 생성한 이력서를 더 높게 평가하는 '자기선호' 현상을 실증적으로 보여주며 채용 편향·정책적 시사점을 논의(여러 모델과 2,245개 인간 이력서 데이터 사용).",
       "category": "산업별 AX",
       "impact": "high",
       "url": "https://news.hada.io/topic?id=29111",
-      "source_id": ""
-    },
-    {
-      "title": "NetHack 5.0.0 릴리스 노트",
-      "summary": "\nNetHack DevTeam이 2026년 5월 2일 NetHack 5.0.0을 릴리스했으며, 기존 저장 게임과 bones 파일이 호환되지 않는 점 등 주요 변경사항을 안내.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29110",
-      "source_id": ""
-    },
-    {
-      "title": "Ask.com이 종료됨",
-      "summary": "\nIAC가 검색 사업 재조정의 일환으로 Ask.com 등 검색 서비스를 중단하기로 결정했고, Ask.com이 25년 만인 2026년 5월 1일 공식 종료됨.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29109",
       "source_id": ""
     },
     {
@@ -201,51 +65,11 @@
       "source_id": ""
     },
     {
-      "title": "검은색 팬 버전을 출시하는 데 왜 이렇게 오래 걸리는가?",
-      "summary": "\nNoctua의 chromax.black 제품처럼 단순 도색이 아니라 색소·사출·금형 등 제조 공정과 소재 특성이 달라 별도 금형 제작과 검증이 필요하기 때문에 검은색 버전 개발이 오래 걸린다는 제조 관점 설명.",
-      "category": "산업별 AX",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29107",
-      "source_id": ""
-    },
-    {
       "title": "Context Mode - AI 코딩 에이전트의 컨텍스트 윈도우를 98% 절약하는 MCP 서버",
       "summary": "\nMCP가 도구 호출로 인한 원시 데이터를 샌드박스에 격리해 315KB를 5.4KB로 줄여 컨텍스트를 98% 절약하고 세션 지속 시간을 약 30분에서 3시간으로 연장하는 접근을 소개.",
       "category": "에이전틱 코딩 & 프론티어 모델",
       "impact": "high",
       "url": "https://news.hada.io/topic?id=29106",
-      "source_id": ""
-    },
-    {
-      "title": "dav2d - VideoLAN의 AV2 크로스 플랫폼 디코더",
-      "summary": "\nAV2 코덱을 위한 오픈소스 소프트웨어 디코더(dav1d 기반)를 개발 중이며, 하드웨어 디코더가 없는 플랫폼에서 소프트웨어 최고 속도 달성이 목표임.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://news.hada.io/topic?id=29105",
-      "source_id": ""
-    },
-    {
-      "title": "watchOS에서 지도를 완성하는 데 걸린 6년",
-      "summary": "\nPedometer++의 watchOS 지도 기능은 6년 이상 다듬어져 Pedometer++ 8로 중요한 발전점에 도달했으며, 초기 서버 생성 방식의 한계와 로컬 처리 접근 전환을 설명.",
-      "category": "산업별 AX",
-      "impact": "low",
-      "url": "https://news.hada.io/topic?id=29104",
-      "source_id": ""
-    },
-    {
-      "title": "Why I Created phpc.tv",
-      "summary": "\n작성자가 phpc.tv를 만든 이유를 설명하는 개인 블로그 글(기사 URL·댓글 URL·포인트 표기 포함).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://afilina.com/why-phpc-tv",
-      "source_id": ""
-    },
-    {
-      "title": "Can a quantum sensor detect your heartbeat from 60 km away? [video]",
-      "summary": "\n유튜브 비디오 링크: 양자 센서로 60km 거리에서 심박을 감지할 수 있는지 실험·설명하는 영상.",
-      "category": "산업별 AX",
-      "impact": "low",
-      "url": "https://www.youtube.com/watch?v=N3zU7sV4bJE",
       "source_id": ""
     },
     {
@@ -257,54 +81,6 @@
       "source_id": ""
     },
     {
-      "title": "ProteinView",
-      "summary": "\nGitHub 리포지토리: ProteinView 프로젝트 링크(바이오/시각화 관련 도구로 보임).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://github.com/001TMF/ProteinView",
-      "source_id": ""
-    },
-    {
-      "title": "How many e's are in strawberry?",
-      "summary": "\n블로그 게시물 링크: 'strawberry' 단어의 e 개수에 관한 개인적 글(가벼운 콘텐츠).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://smileplease.mataroa.blog/blog/how-many-e-are-in-strawberry/",
-      "source_id": ""
-    },
-    {
-      "title": "Let's Buy Spirit Air",
-      "summary": "\n웹사이트 링크: 'Let's Buy Spirit Air'라는 캠페인/프로젝트 페이지(세부 내용은 링크 참조).",
-      "category": "산업별 AX",
-      "impact": "low",
-      "url": "https://letsbuyspiritair.com/",
-      "source_id": ""
-    },
-    {
-      "title": "Vertical agrivoltaics in a temperate climate: Technical and social dimensions",
-      "summary": "\nScienceDirect 논문 링크: 온대 기후에서 수직형 농업-태양광 결합(agrivoltaics)의 기술적·사회적 측면을 다루는 학술 연구.",
-      "category": "산업별 AX",
-      "impact": "medium",
-      "url": "https://www.sciencedirect.com/science/article/pii/S2772427125001664",
-      "source_id": ""
-    },
-    {
-      "title": "GameStop Is Offering to Buy eBay for $56B, CEO Ryan Cohen Says",
-      "summary": "\nWSJ 기사 링크: GameStop이 eBay 인수를 제안했다는 보도(제안 규모 약 560억 달러, CEO Ryan Cohen 발언 포함).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://www.wsj.com/business/deals/gamestop-is-offering-to-buy-ebay-for-56-billion-ceo-ryan-cohen-says-fd330f5a",
-      "source_id": ""
-    },
-    {
-      "title": "Show HN: Special Days",
-      "summary": "\n웹앱 링크: 'Special Days'라는 프로젝트를 소개하는 Show HN 게시물(데모 사이트 링크 제공).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://special-days.pressbin.com/",
-      "source_id": ""
-    },
-    {
       "title": "Every American interacting with chatbot would need to upload a government ID",
       "summary": "\n리포트 링크: 미 상원 패널이 AI 연령·신원 검증 법안(GUARD Act)을 지지했다는 보도—챗봇 상호작용에 정부 발급 신분증 업로드를 요구할 수 있는 규제 제안 관련.",
       "category": "에이전틱 코딩 & 프론티어 모델",
@@ -313,83 +89,11 @@
       "source_id": ""
     },
     {
-      "title": "xAI (Grok) Text-to-Speech and Speech-to-Text Are Now Available in Puter.js",
-      "summary": "\nPuter 개발자 블로그: xAI(Grok)의 TTS·STT가 Puter.js에 통합되어 사용 가능해졌음을 알림(개발자용 통합 안내).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://developer.puter.com/blog/xai-tts-stt-in-puter-js/",
-      "source_id": ""
-    },
-    {
-      "title": "Modern Standby is draining your laptop's battery, and Microsoft won't fix it",
-      "summary": "\n기사 링크: Modern Standby(Windows의 절전 모드)가 노트북 배터리 소모를 촉진하며 Microsoft가 근본 해결을 하지 않고 있다는 문제 제기와 사례 설명.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://www.xda-developers.com/modern-standby-draining-windows-11-laptop-battery-microsoft-wont-fix-it/",
-      "source_id": ""
-    },
-    {
-      "title": "WASM interpreter fits in a QR code",
-      "summary": "\n블로그 글: 아주 작은 WASM 인터프리터를 제작해 QR 코드에 담을 수 있다는 기술적 데모 소개.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://purplesyringa.moe/blog/this-wasm-interpreter-fits-in-a-qr-code/",
-      "source_id": ""
-    },
-    {
-      "title": "Show HN: Three-step Reader an experimental App for speed reading books",
-      "summary": "\n세 단계 레이아웃으로 책을 빠르게 읽게 해주는 실험적 스피드리딩 앱 데모(구성 옵션·키보드 내비게이션·WPM 기반 자동 스크롤 등 기능 설명).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://vernetit.github.io/s4/",
-      "source_id": ""
-    },
-    {
-      "title": "The 'Hidden' Costs of Great Abstractions",
-      "summary": "\n블로그 에세이: 훌륭한 추상화가 초래하는 숨은 비용들을 기술·설계 관점에서 분석한 글(추상화의 장단점 비판적 고찰).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "medium",
-      "url": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
-      "source_id": ""
-    },
-    {
-      "title": "Want to Watch button missing for movie searches",
-      "summary": "\nGoogle 지원 포럼 스레드: 영화 검색 결과에서 'Want to Watch' 버튼이 사라졌다는 사용자 문의와 토론.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://support.google.com/websearch/thread/414738182/want-to-watch-button-missing-for-movie-searches?hl=en",
-      "source_id": ""
-    },
-    {
-      "title": "Three cruise ship passengers die in suspected hantavirus outbreak",
-      "summary": "\nReuters 보도: 대서양 크루즈선에서 3명의 승객이 사망하고 WHO가 한 건의 햇바이러스 확진을 보고했다는 긴급 보건 사건 보도.",
-      "category": "산업별 AX",
-      "impact": "high",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/three-passengers-dead-one-case-hantavirus-confirmed-atlantic-cruise-ship-who-2026-05-03/",
-      "source_id": ""
-    },
-    {
-      "title": "No Joke. Unification of (GR/Qt)",
-      "summary": "\n트위터 링크: GR/Qt 통합 관련 언급(원문 트윗 링크 제공).",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://twitter.com/CTibedo/status/2051071923849723947",
-      "source_id": ""
-    },
-    {
       "title": "H4ckf0r0day/obscura: The headless browser for AI agents and web scraping",
       "summary": "\nGitHub 리포지토리: AI 에이전트와 웹 스크래핑을 위한 헤드리스 브라우저 'obscura' 프로젝트(에이전트용 툴링으로 활용 가능).",
       "category": "에이전틱 코딩 & 프론티어 모델",
       "impact": "medium",
       "url": "https://github.com/h4ckf0r0day/obscura",
-      "source_id": ""
-    },
-    {
-      "title": "Show HN: Optical Design and Simulation in Matlab",
-      "summary": "\nMathWorks의 광학 설계·시뮬레이션 라이브러리 및 관련 도구(문서·REPL·데모)에 대한 소개와 에이전트가 API를 탐색할 가능성 언급.",
-      "category": "GitHub & 인프라 트렌드",
-      "impact": "low",
-      "url": "https://www.mathworks.com/help/images/optical-system-design-and-analysis.html",
       "source_id": ""
     },
     {
