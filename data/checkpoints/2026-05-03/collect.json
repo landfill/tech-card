@@ -1,0 +1,372 @@
+{
+  "date": "2026-05-03",
+  "items": [
+    {
+      "source_id": "geeknews-hada",
+      "title": "러시아가 Wikipedia를 오염시킨다",
+      "url": "https://news.hada.io/topic?id=29133",
+      "summary": "<ul>\n<li>Atlantic Council은 러시아가 Wikipedia 문서와 인기 <strong>AI 도구</strong>에 친크렘린 콘텐츠를 퍼뜨리는 영향 작전을 확장·개발·맞춤화했으며, 제재 대상 뉴스 매체 콘텐츠를 세탁해 전 세계 정보원을 <strong>크렘린 서사</strong>에 맞추려 한다고 봄</li>\n<li>Pravda 네트워크는 전 세계 80개 이상 국...</p>",
+      "published": "2026-05-03T21:35:44+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Tesla 소유자가 Tesla의 FSD 거짓말로 법정에서 1만 달러를 받았고 Tesla는 여전히 그와 싸우고 있음",
+      "url": "https://news.hada.io/topic?id=29132",
+      "summary": "<ul>\n<li>Ben Gawiser는 2021년 Tesla Model 3 구매 때 <strong>Full Self-Driving(FSD)</strong> 에 10,000달러를 지불했지만, 5년이 지나도 차량은 구매 당시 기대한 <strong>레벨 5 완전 자율주행</strong>에 도달하지 못함</li>\n<li>Gawiser는 FSD가 여전히 <strong>레벨 2</strong>에 머물고, 차량이 도로 한가운데...</p>",
+      "published": "2026-05-03T20:35:10+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "네안데르탈인은 12만5천 년 전 ‘지방 공장’을 운영했다 (2025)",
+      "url": "https://news.hada.io/topic?id=29131",
+      "summary": "<ul>\n<li>독일 중부 <strong>Neumark-Nord 2</strong>에서 네안데르탈인이 12만5천 년 전 큰 포유류 뼈를 수만 조각으로 부수고 물에 가열해 열량 높은 <strong>골지방</strong>을 추출한 증거가 나옴</li>\n<li>네안데르탈인은 사슴, 말, 오록스 등 최소 <strong>172마리</strong>의 큰 포유류 뼈를 한 장소에서 체계적으...</p>",
+      "published": "2026-05-03T18:33:45+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "오픈소스가 공개 커뮤니티를 의미하지는 않는다",
+      "url": "https://news.hada.io/topic?id=29130",
+      "summary": "<ul>\n<li>오픈소스 소프트웨어는 <strong>(D)VCS</strong> 이전에도 HTML 페이지, txt 파일, FTP의 tarball, 이메일 연락처만으로 배포될 수 있었고, 공개 커뮤니티가 없어도 오픈소스였음</li>\n<li>메일링 리스트나 IRC 채널이 있으면 운이 좋은 편이었지만, <strong>pull request</strong>, issue, wiki, core team, C...</p>",
+      "published": "2026-05-03T16:02:07+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "AI가 테스트를 지우고 &quot;All Tests Pass&quot;라고 이야기했다 - Typia를 TypeScript에서 Go로 포팅하다가 만...",
+      "url": "https://news.hada.io/topic?id=29129",
+      "summary": "<ul>\n<li>Typia를 TypeScript-Go 런칭에 맞추어 Go 언어로 포팅. 밤새 AI에게 맡겨놓음</li>\n<li>프롬프트에서 두 가지를 지시함.\n<ol>\n<li>TypeScript 코드를 Go 언어로 기계적으로 번역하고, 불가피한 경우에만 개입한다</li>\n<li>테스트 코드가 통과할 때까지 작업한다</li>\n</ol>\n</li>\n<li>첫 시도에서는 지시를 무...</p>",
+      "published": "2026-05-03T14:40:39+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: NUBO: 바뀐 이름, 여전한 커뮤니티 빌더 (TSBOARD 후속 프로젝트)",
+      "url": "https://news.hada.io/topic?id=29128",
+      "summary": "<p>약 2년 전에 긱뉴스에서 처음으로 <a href=\"https://news.hada.io/topic?id=14914\">TSBOARD</a>라는 커뮤니티 빌더를 소개한 적이 있었습니다.<br />\n당시에는 생소했던, 그러나 지금은 너무나도 유명해진 Bun 런타임 기반으로 동작하는 일종의 게시판 기반의 사이트 빌더였죠.<br />\n(감사하게도 피드백들을 많이 받...</p>",
+      "published": "2026-05-03T14:08:08+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: VibeFrame - 코딩 에이전트를 위한 스토리보드 기반 비디오 CLI",
+      "url": "https://news.hada.io/topic?id=29127",
+      "summary": "<p>안녕하세요.</p>\n<p>요즘 Codex / Claude Code / Cursor 같은 코딩 에이전트로 비디오 작업을 어디까지 할 수 있을지 실험하면서 VibeFrame이라는 CLI를 만들고 있습니다.</p>\n<p>기존 비디오 툴은 대부분 UI 안에 상태가 있어서 에이전트가 다루기 어렵다고 느꼈습니다. 그래서 비디오 프로젝트를 최대한 코드 프로젝",
+      "published": "2026-05-03T14:07:41+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: WAH: 헤더 파일 하나로 만든 WebAssembly 인터프리터",
+      "url": "https://news.hada.io/topic?id=29126",
+      "summary": "<p>오랜만에 C 라이브러리를 만들어 봤습니다. 말 그대로 C 헤더 파일 하나에 모든 것이 들어 있는 WebAssembly 인터프리터입니다. 물론 그냥 인터프리터만 달랑 있는 건 아니고,</p>\n<ul>\n<li>WebAssembly 3.0 명세를 100% 지원합니다. 네 GC니 뭐니 하는 것들 다 들어 있습니다.</li>\n<li>WebAssembly에는 결정론적 프",
+      "published": "2026-05-03T12:56:03+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: CTX: Claude Code 세션 간 메모리 — pip install 또는 /plugin install 로 설치",
+      "url": "https://news.hada.io/topic?id=29124",
+      "summary": "<p>Claude Code는 세션을 닫으면 모든 컨텍스트를 잃습니다. CTX는 이 문제를 Claude Code 훅으로 해결합니다.</p>\n<p><strong>동작 방식</strong>: UserPromptSubmit 이벤트에서 1ms 이내로 3가지 컨텍스트를 자동 주입합니다.</p>\n<ul>\n<li>G1: git log 기반 의사결정 타임라인 (어제 왜 그 결정을 했는지)</li>\n<li>G",
+      "published": "2026-05-03T11:34:39+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "PEP 661 – 센티널 값, 5년 뒤 승인됨",
+      "url": "https://news.hada.io/topic?id=29123",
+      "summary": "<ul>\n<li><strong>PEP 661</strong>은 <code>None</code>이 유효한 값인 상황에서 별도로 구별할 수 있는 센티널 값을 만들기 위해 Python 내장 호출 가능 객체 <code>sentinel()</code>과 C API <code>PySentinel_New()</code>를 제안함</li>\n<li>기존 <code>_sentinel = object()</code> 관용구는 함수 시그니처에서 ...</p>",
+      "published": "2026-05-03T11:30:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "향후 12개월 안에 참석하고 싶은 컨퍼런스는 무엇인가요?",
+      "url": "https://news.hada.io/topic?id=29122",
+      "summary": "<ul>\n<li>최근 몇 년간 <strong>컨퍼런스 참석</strong>이 줄었고, 마지막 참석은 <strong>ElixirConf 2023</strong>이었음</li>\n<li>다시 컨퍼런스에 꾸준히 참석하는 <strong>습관</strong>을 들이려 함</li>\n<li>컨퍼런스는 <strong>전문성 개발</strong>과 <strong>커뮤니티</strong> 측면에서 가치가 있음</li>\n</p>",
+      "published": "2026-05-03T11:27:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "신뢰의 웹을 구축해 LLM 스팸에 맞서기",
+      "url": "https://news.hada.io/topic?id=29121",
+      "summary": "<ul>\n<li>Tangled는 사용자가 상호작용한 다른 사용자를 보증하거나 비난할 수 있는 <strong><a href=\"https://github.com/mitchellh/vouch/\">vouching</a></strong> 기능을 기본 지원하며, LLM 기반 제출물 증가에 대응하는 신뢰 신호로 활용함</li>\n<li>보증된 사용자는 프로필 사진 옆에 <strong>초록색 방패 아이콘...</p>",
+      "published": "2026-05-03T11:24:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "어떤 재미있는 웹사이트를 알고 있나요?",
+      "url": "https://news.hada.io/topic?id=29120",
+      "summary": "<ul>\n<li>의미가 없어도 되는 <strong>재미</strong>와 <strong>기발함</strong>을 가진 장난스러운 웹사이트를 찾고 있음</li>\n<li>익숙한 고전 사이트에는 <a href=\"https://en.wikipedia.org/wiki/Zombo.com\">zombo.com</a>, <a href=\"https://www.penisland.net/\">penisland.net</a>, crouton.net이 있음</li>\n<li>...</p>",
+      "published": "2026-05-03T11:21:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "역 Sapir-Whorf와 프로그래밍 언어",
+      "url": "https://news.hada.io/topic?id=29119",
+      "summary": "<ul>\n<li><strong>Inverse Sapir-Whorf</strong>는 언어가 무엇을 생각하기 어렵게 만드는지가 아니라, 무엇을 말하지 않기 어렵게 만들고 어떤 정보를 드러내도록 강제하는지에 초점을 둠</li>\n<li>영어의 현재 시제, 성별 대명사, 프랑스어의 성별 명사, 터키어의 <strong>mış</strong> 과거형은 임시성, 성별, 정보 출...</p>",
+      "published": "2026-05-03T11:18:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Bitwarden을 추천하지 않는다",
+      "url": "https://news.hada.io/topic?id=29118",
+      "summary": "<ul>\n<li>수년간 자체 호스팅으로 사용해 본 결과 <strong>Bitwarden</strong>은 공식 서버의 무거움, 불투명해진 오픈소스 방향성, 낮은 클라이언트 품질, 반복된 보안 이슈 때문에 더 이상 추천하기 어려운 선택이 됨</li>\n<li>공식 Bitwarden server는 C# 백엔드와 MSSQL Express 중심의 무거운 구성인 반면, Rust 기...</p>",
+      "published": "2026-05-03T11:15:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "이번 달의 Ladybird – 2026년 4월",
+      "url": "https://news.hada.io/topic?id=29117",
+      "summary": "<ul>\n<li>Ladybird는 4월에 <strong>35명 기여자</strong>의 333개 PR을 병합했고, Human Rights Foundation의 50,000달러와 Jakub Stęplowski의 1,000달러 후원을 새로 받음</li>\n<li><strong>인라인 PDF 뷰어</strong>, 방문 기록 기반 주소창 자동완성, GTK4/libadwaita Linux 프런트엔드, <code>about:bookmarks</p>",
+      "published": "2026-05-03T10:39:17+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "DO_NOT_TRACK - 개인정보 보호를 위한 표준",
+      "url": "https://news.hada.io/topic?id=29116",
+      "summary": "<ul>\n<li><strong>DO_NOT_TRACK</strong>는 CLI 도구, SDK, 프레임워크마다 다른 텔레메트리 비활성화 방식을 하나의 환경 변수로 통일하자는 제안임</li>\n<li><code>.NET</code>, <code>AWS SAM CLI</code>, <code>Azure CLI</code>, <code>Gatsby</code>, <code>Go</code>, <code>Google Cloud SDK</code>, <code>Home...</p>",
+      "published": "2026-05-03T10:36:17+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 만진법 프로젝트: 한·중·일 언어권을 위한 수 표기 제안",
+      "url": "https://news.hada.io/topic?id=29115",
+      "summary": "<p>한국어·중국어·일본어는 만(萬) 단위로 수를 읽는데, 아라비아 숫자는 천 단위로 쉼표를 찍습니다. 1,234,567,890을 보고 “십이억 삼천사백오십육만 칠천팔백구십”을 바로 읽어내려면 매번 머릿속에서 자릿수를 다시 세야 합니다.</p>\n<p>그러므로, 만 단위 구분자로 밑줄(<code>_</code>)을 쓰자고 제안합니다....</p>",
+      "published": "2026-05-03T06:45:28+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "왜 TMP와 TEMP 환경 변수가 둘 다 있을까? (2015)",
+      "url": "https://news.hada.io/topic?id=29114",
+      "summary": "<ul>\n<li>Windows에는 임시 파일 위치를 나타내는 <strong><code>TMP</code></strong> 와 <strong><code>TEMP</code></strong> 가 모두 남아 있으며, 둘이 다를 때 어느 쪽이 쓰이는지는 프로그램 구현에 따라 달라짐</li>\n<li>CP/M에는 환경 변수가 없어서 임시 파일 위치를 프로그램별로 설정해야 했고, WordStar 같은...</p>",
+      "published": "2026-05-03T06:30:06+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "캘리포니아, 교통법규를 위반한 무인차에 티켓 발부 시작",
+      "url": "https://news.hada.io/topic?id=29113",
+      "summary": "<ul>\n<li>캘리포니아 <strong>DMV</strong>의 새 규정으로 경찰이 교통법규를 위반한 자율주행차의 <strong>제조사에 직접 통지</strong>할 수 있게 됨</li>\n<li>새 절차는 운전자가 없는 차량에 기존 방식으로 티켓을 발부하기 어려웠던 문제를 해결하기 위해, 경찰이 제조사에 “<strong>notice of AV noncompliance...</p>",
+      "published": "2026-05-03T01:43:44+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "macOS VM은 얼마나 빠르고, 얼마나 작아질 수 있을까?",
+      "url": "https://news.hada.io/topic?id=29112",
+      "summary": "<ul>\n<li><strong>Mac mini M4 Pro</strong>에서 macOS 26.4.1 VM을 다시 측정한 결과, 5개 가상 코어와 16GB vRAM 구성에서도 CPU 단일 코어와 GPU 성능이 호스트에 근접함</li>\n<li><a href=\"https://www.geekbench.com/\">Geekbench</a> 6.7.1 기준 <strong>단일 코어 CPU</strong>는 VM 3,855 / 호스트 3,948, </p>",
+      "published": "2026-05-03T01:25:19+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "알고리듬 채용에서의 AI 자기선호: 실증 증거와 시사점",
+      "url": "https://news.hada.io/topic?id=29111",
+      "summary": "<ul>\n<li>LLM이 이력서 생성과 평가 양쪽에 쓰이면서, 평가 모델이 자신이 만든 산출물을 더 높게 고르는 <strong>자기선호</strong>가 채용 선별의 새 편향으로 나타남</li>\n<li>연구는 생성형 AI 확산 전 수집된 <strong>인간 작성 이력서 2,245개</strong>를 바탕으로 GPT-4o, LLaMA 3.3-70B, DeepSeek-V3 등 여러 LL...</p>",
+      "published": "2026-05-03T00:54:51+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "NetHack 5.0.0 릴리스 노트",
+      "url": "https://news.hada.io/topic?id=29110",
+      "summary": "<blockquote>\n<p>NetHack은 Rogue와 Hack의 먼 후손이며 NetHack 3.6의 직접 후손인 던전 탐험 게임임</p>\n</blockquote>\n<ul>\n<li>기존 <strong>저장 게임</strong>과 <strong>bones 파일</strong>은 NetHack 5.0.0에서 작동하지 않음</li>\n<li>NetHack DevTeam이 <strong>2026년 5월 2일</strong> NetHack 5.0.0을 릴리",
+      "published": "2026-05-03T00:51:51+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Ask.com이 종료됨",
+      "url": "https://news.hada.io/topic?id=29109",
+      "summary": "<ul>\n<li><strong>IAC</strong>가 검색 사업 집중 방향을 조정하면서 <strong>Ask.com을 포함한 검색 사업 중단</strong>을 결정함</li>\n<li><strong>Ask.com</strong>은 전 세계 질문에 답해 온 지 <strong>25년</strong> 만인 2026년 5월 1일 공식 종료됨</li>\n<li>Ask.com을 수십 년간 구축하고 지원한 <strong>엔지니...</p>",
+      "published": "2026-05-03T00:48:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "VS Code가 사용 여부와 관계없이 커밋에 &#039;Co-Authored-by Copilot&#039;을 삽입",
+      "url": "https://news.hada.io/topic?id=29108",
+      "summary": "<ul>\n<li>PR #310226은 <code>git.addAICoAuthor</code> 기본값을 <code>off</code>에서 <code>all</code>로 바꾸고 <code>main</code>에 병합됐지만, 이후 회귀로 인정돼 1.119에서 수정 예정임</li>\n<li>핵심 변경은 AI 생성 코드 기여가 감지될 때 <code>Co-authored-by: Copilot</code> 트레일러를 기본으로 붙이는 ...</p>",
+      "published": "2026-05-03T00:45:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "검은색 팬 버전을 출시하는 데 왜 이렇게 오래 걸리는가?",
+      "url": "https://news.hada.io/topic?id=29107",
+      "summary": "<ul>\n<li>Noctua의 <a href=\"https://www.noctua.at/en/chromax\">chromax.black</a> 팬은 기존 모델을 단순히 검게 칠한 제품이 아니라, <strong>색소</strong>가 사출 성형과 소재 특성을 바꿔 별도 금형 제작과 검증이 필요함</li>\n<li><a href=\"https://www.noctua.at/en/products/nf-a12x25-pwm\">NF-A12x25</a>, <a></p>",
+      "published": "2026-05-03T00:42:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Context Mode - AI 코딩 에이전트의 컨텍스트 윈도우를 98% 절약하는 MCP 서버",
+      "url": "https://news.hada.io/topic?id=29106",
+      "summary": "<ul>\n<li>MCP 도구 호출이 컨텍스트 윈도우에 쏟아붓는 <strong>원시 데이터를 절약</strong>하고, 세션 지속 시간을 ~30분에서 ~3시간으로 연장</li>\n<li><strong>컨텍스트 절약</strong>: 원시 데이터를 <strong>샌드박스로 격리</strong>하여 315KB → 5.4KB로 <strong>98% 감소</strong></li>\n<li><strong>세션 연속...</p>",
+      "published": "2026-05-03T00:31:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "dav2d - VideoLAN의 AV2 크로스 플랫폼 디코더",
+      "url": "https://news.hada.io/topic?id=29105",
+      "summary": "<ul>\n<li><strong>AV2 코덱</strong>을 위한 오픈소스 소프트웨어 디코더로, 널리 사용되는 <strong>dav1d</strong>(AV1 디코더)를 기반으로 개발</li>\n<li><strong>대부분의 플랫폼</strong>에서 동작하고 AV2 하드웨어 디코더가 아직 존재하지 않는 상황에서 <strong>소프트웨어 최고 속도 달성</strong>이 핵심 목표...</p>",
+      "published": "2026-05-03T00:09:10+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "watchOS에서 지도를 완성하는 데 걸린 6년",
+      "url": "https://news.hada.io/topic?id=29104",
+      "summary": "<ul>\n<li>Pedometer++의 watchOS 지도 기능은 <strong>6년 이상</strong> Apple Watch에서 가능한 최선의 지도 경험을 목표로 다듬어졌고, <strong>Pedometer++ 8</strong> 출시로 중요한 도달점에 이름</li>\n<li>초기 시도는 서버에서 지도를 생성해 Apple Watch에 표시하는 방식이었지만, 운동 데이터를 매번 왕복 전송...</p>",
+      "published": "2026-05-03T00:07:51+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Why I Created phpc.tv",
+      "url": "https://afilina.com/why-phpc-tv",
+      "summary": "<p>Article URL: <a href=\"https://afilina.com/why-phpc-tv\">https://afilina.com/why-phpc-tv</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002890\">https://news.ycombinator.com/item?id=48002890</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:53:05+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Can a quantum sensor detect your heartbeat from 60 km away? [video]",
+      "url": "https://www.youtube.com/watch?v=N3zU7sV4bJE",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=N3zU7sV4bJE\">https://www.youtube.com/watch?v=N3zU7sV4bJE</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002839\">https://news.ycombinator.com/item?id=48002839</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "published": "2026-05-03T23:45:50+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Conclave – make LLMs debate each other before they respond",
+      "url": "https://adndvlp.github.io/conclave/",
+      "summary": "<p>Article URL: <a href=\"https://adndvlp.github.io/conclave/\">https://adndvlp.github.io/conclave/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002837\">https://news.ycombinator.com/item?id=48002837</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:45:45+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "ProteinView",
+      "url": "https://github.com/001TMF/ProteinView",
+      "summary": "<p>Article URL: <a href=\"https://github.com/001TMF/ProteinView\">https://github.com/001TMF/ProteinView</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002814\">https://news.ycombinator.com/item?id=48002814</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:42:39+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "How many e's are in strawberry?",
+      "url": "https://smileplease.mataroa.blog/blog/how-many-e-are-in-strawberry/",
+      "summary": "<p>Article URL: <a href=\"https://smileplease.mataroa.blog/blog/how-many-e-are-in-strawberry/\">https://smileplease.mataroa.blog/blog/how-many-e-are-in-strawberry/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002795\">https://news.ycombinator.com/item?id=48002795</a></p>\n<p>Points: 2</p>\n<p># Comments: 2</p>",
+      "published": "2026-05-03T23:39:44+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Let's Buy Spirit Air",
+      "url": "https://letsbuyspiritair.com/",
+      "summary": "<p>Article URL: <a href=\"https://letsbuyspiritair.com/\">https://letsbuyspiritair.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002777\">https://news.ycombinator.com/item?id=48002777</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:36:11+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Vertical agrivoltaics in a temperate climate: Technical and social dimensions",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772427125001664",
+      "summary": "<p>Article URL: <a href=\"https://www.sciencedirect.com/science/article/pii/S2772427125001664\">https://www.sciencedirect.com/science/article/pii/S2772427125001664</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002711\">https://news.ycombinator.com/item?id=48002711</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:27:07+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "GameStop Is Offering to Buy eBay for $56B, CEO Ryan Cohen Says",
+      "url": "https://www.wsj.com/business/deals/gamestop-is-offering-to-buy-ebay-for-56-billion-ceo-ryan-cohen-says-fd330f5a",
+      "summary": "<p>Article URL: <a href=\"https://www.wsj.com/business/deals/gamestop-is-offering-to-buy-ebay-for-56-billion-ceo-ryan-cohen-says-fd330f5a\">https://www.wsj.com/business/deals/gamestop-is-offering-to-buy-ebay-for-56-billion-ceo-ryan-cohen-says-fd330f5a</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002705\">https://news.ycombinator.com/item?id=48002705</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published": "2026-05-03T23:26:26+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Special Days",
+      "url": "https://special-days.pressbin.com/",
+      "summary": "<p>Article URL: <a href=\"https://special-days.pressbin.com/\">https://special-days.pressbin.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002696\">https://news.ycombinator.com/item?id=48002696</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:25:31+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Every American interacting with chatbot would need to upload a government ID",
+      "url": "https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill",
+      "summary": "<p>Article URL: <a href=\"https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill\">https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002681\">https://news.ycombinator.com/item?id=48002681</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:22:11+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "xAI (Grok) Text-to-Speech and Speech-to-Text Are Now Available in Puter.js",
+      "url": "https://developer.puter.com/blog/xai-tts-stt-in-puter-js/",
+      "summary": "<p>Article URL: <a href=\"https://developer.puter.com/blog/xai-tts-stt-in-puter-js/\">https://developer.puter.com/blog/xai-tts-stt-in-puter-js/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002663\">https://news.ycombinator.com/item?id=48002663</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:19:33+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Modern Standby is draining your laptop's battery, and Microsoft won't fix it",
+      "url": "https://www.xda-developers.com/modern-standby-draining-windows-11-laptop-battery-microsoft-wont-fix-it/",
+      "summary": "<p>Article URL: <a href=\"https://www.xda-developers.com/modern-standby-draining-windows-11-laptop-battery-microsoft-wont-fix-it/\">https://www.xda-developers.com/modern-standby-draining-windows-11-laptop-battery-microsoft-wont-fix-it/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002641\">https://news.ycombinator.com/item?id=48002641</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:17:01+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "WASM interpreter fits in a QR code",
+      "url": "https://purplesyringa.moe/blog/this-wasm-interpreter-fits-in-a-qr-code/",
+      "summary": "<p>Article URL: <a href=\"https://purplesyringa.moe/blog/this-wasm-interpreter-fits-in-a-qr-code/\">https://purplesyringa.moe/blog/this-wasm-interpreter-fits-in-a-qr-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002621\">https://news.ycombinator.com/item?id=48002621</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "published": "2026-05-03T23:13:45+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Three-step Reader an experimental App for speed reading books",
+      "url": "https://vernetit.github.io/s4/",
+      "summary": "<p>I built a small experimental speed-reader App that reformats books into a configurable three-step visual layout.<p>Instead of displaying text as normal paragraphs, it splits the text into blocks like this:<p>hello world\n      this is a test\n                line\n                line\n                line<p>The idea is to guide the eye through small chunks instead of long horizontal lines. The layout is configurable, for example 2 x 4 x 3, 3 x 5 x 2, etc.<p>It also has:<p>- keyboard navigation\n- WPM-based speed-reading autoscroll</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002616\">https://news.ycombinator.com/item?id=48002616</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:12:56+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "The 'Hidden' Costs of Great Abstractions",
+      "url": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
+      "summary": "<p>Article URL: <a href=\"https://jdgr.net/the-hidden-costs-of-great-abstractions\">https://jdgr.net/the-hidden-costs-of-great-abstractions</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002607\">https://news.ycombinator.com/item?id=48002607</a></p>\n<p>Points: 19</p>\n<p># Comments: 5</p>",
+      "published": "2026-05-03T23:12:02+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Want to Watch button missing for movie searches",
+      "url": "https://support.google.com/websearch/thread/414738182/want-to-watch-button-missing-for-movie-searches?hl=en",
+      "summary": "<p>Article URL: <a href=\"https://support.google.com/websearch/thread/414738182/want-to-watch-button-missing-for-movie-searches?hl=en\">https://support.google.com/websearch/thread/414738182/want-to-watch-button-missing-for-movie-searches?hl=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002601\">https://news.ycombinator.com/item?id=48002601</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:11:08+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Three cruise ship passengers die in suspected hantavirus outbreak",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/three-passengers-dead-one-case-hantavirus-confirmed-atlantic-cruise-ship-who-2026-05-03/",
+      "summary": "<p>Article URL: <a href=\"https://www.reuters.com/business/healthcare-pharmaceuticals/three-passengers-dead-one-case-hantavirus-confirmed-atlantic-cruise-ship-who-2026-05-03/\">https://www.reuters.com/business/healthcare-pharmaceuticals/three-passengers-dead-one-case-hantavirus-confirmed-atlantic-cruise-ship-who-2026-05-03/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002569\">https://news.ycombinator.com/item?id=48002569</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:08:24+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "No Joke. Unification of (GR/Qt)",
+      "url": "https://twitter.com/CTibedo/status/2051071923849723947",
+      "summary": "<p>Article URL: <a href=\"https://twitter.com/CTibedo/status/2051071923849723947\">https://twitter.com/CTibedo/status/2051071923849723947</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002557\">https://news.ycombinator.com/item?id=48002557</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published": "2026-05-03T23:07:16+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "H4ckf0r0day/obscura: The headless browser for AI agents and web scraping",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "summary": "<p>Article URL: <a href=\"https://github.com/h4ckf0r0day/obscura\">https://github.com/h4ckf0r0day/obscura</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002523\">https://news.ycombinator.com/item?id=48002523</a></p>\n<p>Points: 4</p>\n<p># Comments: 3</p>",
+      "published": "2026-05-03T23:03:05+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Optical Design and Simulation in Matlab",
+      "url": "https://www.mathworks.com/help/images/optical-system-design-and-analysis.html",
+      "summary": "<p>Hi HN,\nWe have been working an optical design and simulation library as a small start-up-ish team within MathWorks (makers of MATLAB and Simulink).<p>I have seen a few optics and MATLAB posts here, so figured this would be a good place to show case this.<p>A quick link to all the 'good stuff' is in a reddit post with pretty pictures and links:\n <a href=\"https://www.reddit.com/r/Optics/comments/1sy6z3h/optical_system_design_and_analysis_in_matlab/\" rel=\"nofollow\">https://www.reddit.com/r/Optics/comments/1sy6z3h/optical_sys...</a><p>Something that might align with the current trend of agentic dev: \n <a href=\"https://www.youtube.com/watch?v=bpxse2glA6E\" rel=\"nofollow\">https://www.youtube.com/watch?v=bpxse2glA6E</a>\nSince this just came out last week, LLM's have not yet seen it. But I had a hunch that our doc and REPL would allow an agent to explore and figure out the API easily. I was also hoping that the usual effort we put into our error/warnings messages would be more useful for an agent than a user :D (I lost count of how many times I glaze over red text and assume I know what went wrong!) - it got pretty far IMO!<p>Would love some feedback from domain experts! (Or anyone really :D).<p>If you already have MATLAB R2026a and the Image Processing Toolbox, download this free add-on:\n <a href=\"https://www.mathworks.com/help/matlab/matlab_env/get-add-ons.html\" rel=\"nofollow\">https://www.mathworks.com/help/matlab/matlab_env/get-add-ons...</a>\n (Search for \"Optical Design and Simulation\")\nIf not, you could kick the tires with a free 30-day trial - remember to download the Image Processing Toolbox too.\n <a href=\"https://matlab.mathworks.com/\" rel=\"nofollow\">https://matlab.mathworks.com/</a><p>Ashish</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002513\">https://news.ycombinator.com/item?id=48002513</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-03T23:01:15+00:00"
+    },
+    {
+      "source_id": "hn-agentic",
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "url": "https://github.com/aattaran/deepclaude",
+      "summary": "<p>Article URL: <a href=\"https://github.com/aattaran/deepclaude\">https://github.com/aattaran/deepclaude</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002136\">https://news.ycombinator.com/item?id=48002136</a></p>\n<p>Points: 89</p>\n<p># Comments: 41</p>",
+      "published": "2026-05-03T22:13:20+00:00"
+    }
+  ],
+  "sources_run": [
+    "reddit-claudeai",
+    "reddit-cursor",
+    "reddit-ml",
+    "github-blog-ai",
+    "geeknews-hada",
+    "x-agentic-coding",
+    "x-github-copilot",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
+    "openai-blog",
+    "hn-newest",
+    "hn-agentic",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}
