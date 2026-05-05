@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "title": "Running a Company with Agents",
+      "summary": "\nEssay/guide about operating a business that heavily uses autonomous AI agents — covers implications for workflows, org design, and running company functions via agents.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://cofounder.co",
+      "source_id": ""
+    },
+    {
+      "title": "An unbiased benchmark for how well agents can read your docs",
+      "summary": "\nPublic benchmark (DocsAlot) that evaluates how effectively autonomous agents/LLMs can ingest and act on documentation — useful for developer tooling and agent evaluation.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://docsalot.dev/benchmarks/docs",
+      "source_id": ""
+    },
+    {
+      "title": "에이전트 경제의 블루오션 기회",
+      "summary": "\n요약: 2026년 1분기를 기점으로 채팅 중심에서 자율 실행 에이전트 중심으로 전환이 진행 중이며, MCP와 A2A 프로토콜이 기존 SaaS의 UI 우위를 무력화하고 에이전트가 데이터·플로우를 직접 연결해 기업 소프트웨어·투자지형을 재편한다는 주장.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29171",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: Gemento: 작은 로컬 LLM의 긴 작업을 외부 상태·도구·역할·루프로 보강해보는 실험 하네스",
+      "summary": "\n요약: 작은 로컬 LLM이 긴 작업을 버티도록 외부 상태·도구·역할·루프로 보강하는 실험용 저장소(Gemento)를 공개했다는 소개—로컬 모델을 장기 작업에 쓰는 실험적 하네스에 초점.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29166",
+      "source_id": ""
+    },
+    {
+      "title": "Codex CLI 에 /goal 기능 추가",
+      "summary": "\n요약: Codex CLI 0.128.0에 목표 기반 자동 반복 실행 기능(/goal)이 추가되어, 설정한 목표가 완료될 때까지 에이전트가 스스로 평가·루프 반복하며 목표 달성을 시도하는 Ralph loop 개념을 적용함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29158",
+      "source_id": ""
+    },
+    {
+      "title": "Agentic Coding은 함정이다",
+      "summary": "\n요약: Agentic coding은 요구·계획을 사람이 만들고 여러 코딩 에이전트가 구현하는 방식이나, 생성·커밋된 코드와 사람 사이 거리를 벌려 숙련된 개발자의 아키텍처적 검토를 약화시킬 위험이 크다는 비판적 분석.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29155",
+      "source_id": ""
+    },
+    {
+      "title": "DeepClaude - DeepSeek V4 Pro로 Claude Code 에이전트 루프를 17배 저렴하게 사용",
+      "summary": "\n요약: DeepClaude는 Claude Code의 도구 루프·파일 편집·bash·git 흐름은 유지하면서 API 호출 대상만 DeepSeek V4 Pro·OpenRouter·Fireworks AI 등 Anthropic 호환 백엔드로 바꿔 비용을 크게 절감하는 접근을 소개함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29154",
+      "source_id": ""
+    },
+    {
+      "title": "Kimi K2.6가 코딩 챌린지에서 Claude, GPT-5.5, Gemini를 이김",
+      "summary": "\n요약: Moonshot AI의 오픈 가중치 모델 Kimi K2.6가 AI Coding Contest의 특정 챌린지에서 우승했으며 경쟁 모델(Claude, GPT-5.5 등)과의 대회 성과를 보고함—로컬/오픈 가중치 모델의 성능 주목.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29138",
+      "source_id": ""
+    },
+    {
+      "title": "GPT-5.5 vs GPT-5.4 vs Opus 4.7 - 실제 코딩 작업 56개 벤치마크 비교",
+      "summary": "\n요약: 두 오픈소스 저장소에서 추출한 56개 실제 코딩 작업을 대상으로 GPT-5.5, GPT-5.4, Opus 4.7의 패치 품질을 비교한 벤치마크를 공개—GPT-5.5가 테스트 통과율·인간 패치 동등성·코드 리뷰 통과율 등에서 우수한 결과를 보였음.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29140",
+      "source_id": ""
+    },
+    {
+      "title": "built a plugin so my parallel Claude Code sessions can message each other instead of me alt-tabbing",
+      "summary": "\n요약: 여러 Claude Code 세션을 동시에 쓸 때 창 전환·복사·붙여넣기 불편을 줄이기 위해 세션 간 메시징을 제공하는 오픈소스 플러그인 Relay(각 세션이 로컬 MCP 서버를 띄우고 허브가 라우팅)를 공개함(리포: github.com/innestic/claude-relay).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t3osat/built_a_plugin_so_my_parallel_claude_code/",
+      "source_id": ""
+    },
+    {
+      "title": "Your Claude Code agent is always working from stale context. I built it a fix it can rewind, replay, and stay ahead of every edit.",
+      "summary": "\n요약: 장기 Claude Code 세션의 문제(에이전트가 오래된 컨텍스트로 작동)를 해결하기 위해 Memtrace라는 도구를 소개—AST 기반 인덱싱, 하이브리드 검색, 비시간적(트랜잭션·유효시간) 스냅샷으로 ‘리와인드·리플레이’와 항상 최신 상태를 제공한다고 주장(리포/대기열: github.com/syncable-dev/memtrace-public).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t3du61/your_claude_code_agent_is_always_working_from/",
+      "source_id": ""
+    },
+    {
+      "title": "Built a tiny router so Cursor stops showing \"usage limit reached\" at 3pm. Sonnet auto-falls to Haiku, you keep working",
+      "summary": "\n요약: Cursor의 커스텀-OpenAI URL 기능을 이용해 라우터를 구성하면 고급 모델(예: Sonnet)이 429를 반환할 때 자동으로 더 작은 모델(예: Haiku)로 폴백시켜 사용 중단을 막는 방식의 실무적 우회책을 공유함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t3o3ol/built_a_tiny_router_so_cursor_stops_showing_usage/",
+      "source_id": ""
+    },
+    {
+      "title": "Local model for Cursor to build an Android App",
+      "summary": "\n요약: Android Studio용 에이전트가 불안정해 대체책을 찾는 글로, Cursor에서 로컬 모델(qwen 2.5 coder 등)으로 에이전트 작업을 대체할 수 있는지, 실성능·에이전트 편의성·설정 가이드를 묻는 사용자 질문과 로컬-LLM 가이드 링크 공유.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t3qxfh/local_model_for_cursor_to_build_an_android_app/",
+      "source_id": ""
+    },
+    {
+      "title": "Bug Report: Removed Connector Still Exposed as Live MCP Tools",
+      "summary": "\n요약: Cursor에서 제거했거나 비활성화한 커넥터가 로컬 캐시(~/.cursor/cache/cursor_apps_tools/)에 남아 세션에 도구로 노출되는 치명적 보안·출처 문제를 보고하며, 캐시 무효화·세션 활성 도구 패널 등 수정 조치 요청.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/cursor/comments/1t3iy0a/bug_report_removed_connector_still_exposed_as/",
+      "source_id": ""
+    },
+    {
+      "title": "Open-source diagnostic for Al misalignment. Model agnostic, industry agnostic",
+      "summary": "\n요약: 모델·산업에 구애받지 않는 오픈소스 AI 정렬 진단 도구(리포지토리)를 공개—정렬·안전성 평가를 위한 도구 체계로, 프론티어 모델 운영·검증과 연관되는 프로젝트.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://github.com/ifixai-ai/diagnostic",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: Codex 앱을 Windows ARM64에서 돌리기 위한 리패키징 스크립트를 만들었습니다",
+      "summary": "\n요약: Codex CLI를 Windows ARM64에서 잘 실행하기 위해 리패키징 스크립트를 만들고 Codex로 주 개발 코딩 에이전트를 옮기기 시작한 개인 경험과 설치·지원 팁을 공유함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://news.hada.io/topic?id=29156",
+      "source_id": ""
+    }
+  ]
+}
