@@ -1,0 +1,137 @@
+{
+  "items": [
+    {
+      "title": "Codex's precision and attention to detail is *crazy* when set up correctly",
+      "summary": "\nHacker News post describing a developer's experience using Codex-only workflow to build a Tower Defense game; the agented/code-first setup produced an unexpected but useful action (performing a SHA compare on before/after screenshots to detect regressions), illustrating surprising emergent attention to detail from Codex in developer automation/agent contexts.",
+      "url": "https://news.ycombinator.com/item?id=48030302",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "DeepSeek V4 Pro: The First Chinese Model at the Frontier",
+      "summary": "\nBlog post presenting DeepSeek V4 Pro as a Chinese frontier model — coverage/analysis of a new large model claiming frontier capabilities and its place in the model landscape.",
+      "url": "https://foodtruckbench.com/blog/deepseek-v4-pro",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Better Design – 28 Shadcn design systems (OSS, MCP: Cursor/Claude Code)",
+      "summary": "\nGitHub repo curating 28 shadcn-based design systems; notes OSS collection and mentions multi-competitor/platform (MCP) integrations such as Cursor and Claude Code, relevant to developer tooling/UI stacks for AI-enabled apps.",
+      "url": "https://github.com/marvkr/better-design",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "GPT-5.5 Instant System Card",
+      "summary": "\n",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "summary": "\nGPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Agent Skills",
+      "summary": "\nAgent Skills는 AI 코딩 에이전트가 명세·테스트·리뷰 가능한 PR·신뢰 경계 검토 같은 시니어 엔지니어링 절차를 건너뛰지 못하도록 워크플로로 강제하는 스캐폴딩이다. 스킬 단위로 frontmatter를 정의해 에이전트 행동을 구조화한다.",
+      "url": "https://news.hada.io/topic?id=29200",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic ships Claude for Creative Work with nine MCP-native connectors",
+      "summary": "\nAnthropic가 Claude for Creative Work를 공개하며 Blender 등 9개 앱용 MCP(모델 컨텍스트 프로토콜) 네이티브 커넥터를 배포했다. MCP로 호스트 앱의 데이터 모델에 지속적 컨텍스트를 유지하고 직접 액션을 실행하는 통합을 구현한 초기 사례라는 점에서 의미가 크다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t48vtx/anthropic_ships_claude_for_creative_work_with/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "I asked Claude to investigate its own token burn. The receipts go back six months.",
+      "summary": "\n사용자가 Claude Code 세션 로그와 현상 관찰을 통해 토큰/캐시 관련 버그(캐시 미적중을 유발하는 바이너리 버그, resume/continue로 인한 캐시 무효화, telemetry 비활성화 시 TTL 손실 등)를 정리하고 cc-cache-monitor라는 50줄 툴로 실시간 캐시 히트율을 보여주는 도구를 배포했다. 문제는 Anthropic의 릴리스 노트에 명시되지 않았고 사용자 비용·성능에 실질적 영향을 줌.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t4gchn/i_asked_claude_to_investigate_its_own_token_burn/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Memex - 노트 간 의미 관계를 추론해 Claude 컨텍스트로 자동 주입하는 로컬 RAG MCP 서버",
+      "summary": "\n로컬 RAG/MCP 서버로서 노트 간의 의미적 연관을 자동으로 찾아 Claude 컨텍스트로 주입한다. Obsidian 스타일 링크 없이도 관련 의사결정·아키텍처 노트를 연결해 에이전트 컨텍스트를 풍부하게 만든다.",
+      "url": "https://news.hada.io/topic?id=29191",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: CodexIsland - Claude Code/Codex 사용량을 MacBook 노치에서 보여주는 네이티브 macOS 앱",
+      "summary": "\nClaude Code·Codex 사용량(세션 제한 등)을 별도 화면 전환 없이 MacBook 노치에 네이티브로 표시해 코딩 흐름을 끊지 않도록 하는 macOS 앱이다.",
+      "url": "https://news.hada.io/topic?id=29194",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Turned a desk lamp into a Claude Code status indicator",
+      "summary": "\nClaude Code 훅을 이용해 데스크 램프를 상태 인디케이터로 만든 사례: Claude 상태(작업 중/입력 대기/유휴)를 BLE로 램프에 반영하며 소스는 오픈소스(claude-lamp)이다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t4gfc7/turned_a_desk_lamp_into_a_claude_code_status/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "10 things about Claude that took me way too long to figure out",
+      "summary": "\nClaude 사용 팁 모음: '모르면 모른다고 말하라' 같은 안정성 프롬프트, 긴 시스템 프롬프트의 효용, 파일 업로드 활용, 디버깅 시 에러를 코드 앞에 붙이기 등 실무적 팁을 정리했다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t4ncbj/10_things_about_claude_that_took_me_way_too_long/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "how i got my github inbox handled by claude code while i sleep",
+      "summary": "\n오픈소스 데몬(메뉴바)으로 에이전트를 통해 GitHub 알림을 백그라운드에서 분류·처리하고 사람에게 필요한 것만 서피싱하도록 한 사례. first-tree github 스캔과 Claude Code 연동으로 98건을 자동 처리하고 2건만 사람에게 남겼다고 보고했다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t4wgrd/how_i_got_my_github_inbox_handled_by_claude_code/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "sqz — repeated file reads를 13-token 참조로 바꿔 파일 중심 AI 세션에서 토큰 86% 절감",
+      "summary": "\nsqz는 파일 내용에 SHA-256 캐시를 두어 첫번째 읽기만 전체를 전송하고 이후 동일 콘텐츠는 13토큰 참조를 반환해 반복 읽기 비용을 줄이는 툴이다. 쉘 훅, MCP 서버, 브라우저 확장, IDE 플러그인 등으로 제공되며 실전 세션에서 큰 토큰 절감(예: 반복 파일 읽기 86%)을 보고했다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t4b6px/a_tool_that_turns_repeated_file_reads_into/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "These are my goto skills for GenAI Builds",
+      "summary": "\nAgent Skills를 활용한 풀스택 GenAI 앱 구축에서 유용한 스킬 목록(예: Velt, Olostep, Weaviate, Nebius, Stop Slop)을 공유하며, 스킬이 에이전트에 적절한 컨텍스트를 제공해 출력 품질을 높인다고 주장한다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t4qdvj/these_are_my_goto_skills_for_genai_builds/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "VibeTrace — Cursor의 AI 행동을 실시간 시각화하는 확장",
+      "summary": "\nVibeTrace는 AI(Composer/Agent)가 프로젝트에서 수행한 행동을 구조화된 JSON으로 요약해 타임라인·세션 흐름·비즈니스 기능 트리 등으로 시각화하는 VS Code/Cursor 확장이다. 'vibe coding'으로 흐름을 놓치는 문제를 해결하려는 도구다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t4h312/vibe_coding_making_you_lose_track_of_your/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Release / Skills Sync Plugin v0.4 - Private Enterprise Skills Repository",
+      "summary": "\nCursor용 Skills Sync 플러그인 v0.4 공개: Browse 화면에서 스킬 선택을 지원하고 리포지토리 제공 AGENTS.md, .cursor/rules, .cursor/skills 내용을 동기화하며 스킬 추천 기능을 추가했다. 엔터프라이즈 스킬 저장소 방향의 릴리스이다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t4tsz3/release_skills_sync_plugin_v04_private_enterprise/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I tested Kimi K2.6 vs Claude Opus 4.7 on a weird game coding task",
+      "summary": "\nKimi K2.6(저비용 오픈 모델)와 Claude Opus 4.7을 같은 코딩 작업(게임 모드 + Composio/Google Sheets 연동)으로 비교한 결과: 로컬 MVP 수준에서는 Kimi가 가성비가 좋았으나 외부 도구 통합과 실제 배포 수준의 통합 작업에서는 Opus 4.7이 더 안정적이고 깔끔하게 작동했다. 비용·시간·코드 품질 비교 데이터를 제시했다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t4f005/i_tested_kimi_k26_vs_claude_opus_47_on_a_weird/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I built an iOS Currency Converter using Claude (Opus & Sonnet) to help with my move to the UK",
+      "summary": "\n개발자가 Claude(Opus 80% + Sonnet 20%)로 iOS 통화 변환기 앱을 구현한 사례: Claude가 SwiftUI 뷰 설계·핵심 로직의 대부분을 생성했고, 개발자는 검토·수정하며 약 2주(컨셉)~1개월(다듬기) 작업해 앱을 완성했다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t4h1vj/i_built_an_ios_currency_converter_using_claude/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    }
+  ]
+}
