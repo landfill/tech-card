@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "title": "Model automatically developed by the AIBuildAI Agent ranked among top 5.7% out of 3,219 human teams in the Kaggle TGS Salt Identification Challenge [P]",
+      "summary": "\nAIBuildAI agent automatically developed a model that placed in the top 5.7% (out of 3,219 teams) on the Kaggle TGS Salt Identification Challenge; agent's model and code are published on GitHub.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t5i56v/model_automatically_developed_by_the_aibuildai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "summary": "\nCase study: Singular Bank built 'Singularity,' an internal assistant using ChatGPT and Codex to support meeting prep, portfolio analysis, and follow‑up, reportedly saving bankers 60–90 minutes per day.",
+      "url": "https://openai.com/index/singular-bank",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "On-Policy [LLM] Distillation (2025)",
+      "summary": "\nBlog post discussing on‑policy distillation techniques for LLMs—methods for distilling policies/behaviors from large models into smaller or more deployable models.",
+      "url": "https://thinkingmachines.ai/blog/on-policy-distillation/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "GPT‑5.5 Instant",
+      "summary": "\nChatGPT 기본 모델 Instant가 GPT‑5.3 Instant에서 GPT‑5.5 Instant로 업데이트되어 순차 제공됨 — 목표는 더 정확하고 간결하며 개인화된 답변 제공. 내부 평가에서 의학·법률·금융 같은 고위험 프롬프트 성능 개선이 언급됨.",
+      "url": "https://news.hada.io/topic?id=29241",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic, SpaceX와의 컴퓨트 계약으로 Claude 사용 한도를 2배로 확대",
+      "summary": "\nAnthropic이 SpaceX와의 파트너십·컴퓨트 계약을 통해 Claude Code와 Claude API 사용 한도를 확대함 — Claude Code의 5시간 사용량 제한이 2배로 늘어나고 Pro/Max/Team/Enterprise 플랜의 제약이 완화됨.",
+      "url": "https://news.hada.io/topic?id=29239",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "New in Claude Managed Agents: dreaming, outcomes, multiagent orchestration, and webhooks.",
+      "summary": "\nClaude Managed Agents에 'dreaming'(스케줄된 메모리 정리), outcomes(루브릭 기반 품질 검사·반복), 다중 에이전트 오케스트레이션 및 웹훅 알림 기능이 도입됨 — dreaming은 리서치 프리뷰, 그 외는 퍼블릭 베타로 제공.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t5j84j/new_in_claude_managed_agents_dreaming_outcomes/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Validating agentic behavior when “correct” isn’t deterministic",
+      "summary": "\nGitHub 블로그 글 — Copilot 같은 코딩 에이전트를 위한 '신뢰 계층(Trust Layer)' 구축 방법을 다루며, 취약한 스크립트나 블랙박스 판단을 피하기 위한 dominance 분석 등 에이전틱 행동 검증 기법을 제시.",
+      "url": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "GPT 학습 파이프라인 실습 워크숍 — Train Your Own LLM From Scratch",
+      "summary": "\n노트북에서 처음부터 GPT 모델을 학습해 Shakespeare풍 텍스트를 생성해보는 실습 워크숍 — GPT 학습 파이프라인의 모든 구성 요소를 직접 작성해 각 파트의 역할과 필요성을 이해하는 목적(약 10M 토큰 규모 실습 등).",
+      "url": "https://news.hada.io/topic?id=29218",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "AI의 Computer Use 기능은 구조화 API보다 45배 더 비싸다",
+      "summary": "\n비전 에이전트(화면 스크린샷·클릭 기반 조작)와 API 에이전트(구조화 응답 호출)의 동일 작업 비교에서, 비전 에이전트의 비용이 구조화 API보다 약 45배 높게 평가된 사례 분석 — 에이전트 설계·비용 모델의 실무적 시사점 제시.",
+      "url": "https://news.hada.io/topic?id=29227",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: oh-my-free-models - 무료 LLM 중 지금 가장 빠른 모델로 코딩 에이전트를 라우팅하는 로컬 프록시",
+      "summary": "\noh-my-free-models(omfm)는 여러 무료 provider 중 현재 가장 빠른 모델로 코딩 에이전트 요청을 라우팅하는 로컬 프록시 — latency·rate-limit·quota 변동 중에도 요청을 계속 흘려주도록 설계되어 에지/백업용으로 활용 가능.",
+      "url": "https://news.hada.io/topic?id=29215",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor re-learns my project for 4 minutes. What's your actual fix?",
+      "summary": "\nCursor 사용자가 세션 전환 시 에이전트가 프로젝트를 재탐색(파일·아키텍처 재발견)하는 문제를 보고 — 에이전트 간 메모리 공유·동기화 부족이 실무 생산성 장애로 지적됨. 메모리 MCP, 문서화 전략 등 대응 방법을 토론 중.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t5l5gs/cursor_relearns_my_project_for_4_minutes_whats/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "2 years loyal to cursor..THOUSANDS spent...last straw finally jumping ship.",
+      "summary": "\n오랜 기간 Cursor 유료 사용자가 고객 지원·구독 체계(팀·다운그레이드 등)의 문제를 이유로 이탈을 선언 — Cursor에서 Claude Code 등 다른 IDE로 전환한 경험을 공유하며 고객 신뢰 및 지원 이슈를 제기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t5i3sa/2_years_loyal_to_cursorthousands_spentlast_straw/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I use Cursor SDK to run my iterative workflows",
+      "summary": "\nCursor SDK를 이용해 반복적 워크플로(예: 다수 레슨에 대한 요약·Q&A 자동 생성 등)를 자동화한 사례 공유 — 에이전트 기반 파이프라인·서브에이전트 활용으로 생산성 향상 보고.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t5hb79/i_use_cursor_sdk_to_run_my_iterative_workflows/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Prompt Injection experience - my first time ever",
+      "summary": "\n웹 스크래핑 결과 안에 숨겨진 '가짜 system prompt'를 포함한 콘텐츠가 있어 Claude가 조작되려는 시도가 있었음을 보고 — 검색 결과를 명령으로 취급하지 말아야 한다는 교훈과 함께 SEO 기반 주입 공격 사례 분석.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t56zqw/prompt_injection_experience_my_first_time_ever/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Google Chrome이 동의 없이 기기에 4GB AI 모델을 조용히 설치함",
+      "summary": "\nChrome 사용자 프로필에 약 4GB 크기의 weights.bin이 생성되는 현상이 보고됨 — 온디바이스 LLM Gemini Nano 가중치로, 'Help me write' 등 온디바이스 기능을 위해 하드웨어 요건 만족 기기에 자동 설치된 정황이 지적됨(프라이버시·저장공간 영향).",
+      "url": "https://news.hada.io/topic?id=29210",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code는 당신의 제품을 더 좋게 만들지 않는다",
+      "summary": "\n코딩 에이전트의 생산성 효과가 균등하지 않고 K자형 분화가 일어나며, 핵심 지표는 시간당 코드량이 아닌 '엔지니어 1인당 제품 개선 속도'임을 주장 — Claude Code 같은 도구의 실제 효과를 비판적으로 분석.",
+      "url": "https://news.hada.io/topic?id=29225",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 2
+}
