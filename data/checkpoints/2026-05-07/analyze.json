@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "summary": "\nAnthropic research describing a natural-language autoencoder approach for exposing/structuring internal Claude representations — relevant to agentic reasoning, interpretability, and building tools that read or control model 'thoughts'.",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "summary": "\nOpenAI announces Trusted Access for Cyber on GPT-5.5 and GPT-5.5-Cyber to allow verified defenders faster vulnerability research and protection workflows for critical infrastructure — a frontier-model product for security teams.",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Advancing voice intelligence with new models in the API",
+      "summary": "\nOpenAI introduces realtime voice models in the API that can transcribe, translate, and reason in speech — enabling more natural voice-first agent experiences and developer integrations.",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Simplex rethinks software development with Codex",
+      "summary": "\nSimplex highlights using ChatGPT Enterprise and Codex to accelerate design, building, and testing workflows — an example of Codex-driven developer tooling and AI-augmented software engineering at scale.",
+      "url": "https://openai.com/index/simplex",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Hermes KanbanWebUI - Hermes Agent Kanban에 AI Workflow Designer를 더한 칸반보드 스타일 WebUI",
+      "summary": "\nHermes Agent의 Kanban 기능을 브라우저에서 보기 쉬운 칸반 보드 UI로 구현하고, AI Workflow Designer를 통합해 에이전트 태스크 상태(triage/todo/ready/running/blocked/done) 관리와 시각화를 개선한 프로젝트 소개.",
+      "url": "https://news.hada.io/topic?id=29268",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Toprank - SEO 및 광고 관리용 Claude Code 플러그인",
+      "summary": "\nClaude Code용 오픈소스 마케팅 자동화 도구로 Google Search Console/Ads, Meta Ads 데이터를 활용해 트래픽 분석·낭비 광고비 탐지·크리에이티브 피로도 진단·메타 태그 수정을 자동화하는 스킬 모음 형태 플러그인.",
+      "url": "https://news.hada.io/topic?id=29250",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "에이전트가 이제 Cloudflare 계정을 만들고, 도메인을 구매하고, 배포할 수 있음",
+      "summary": "\n코딩 에이전트가 사용자를 대신해 Cloudflare 계정 생성·유료 구독 시작·도메인 등록·API 토큰 획득·프로덕션 배포까지 수행할 수 있게 되어, 배포·인프라 설정의 자동화·권한 위임 흐름에 큰 변화가 발생하고 보안·정책·자동화 리스크가 함께 부각됨.",
+      "url": "https://news.hada.io/topic?id=29249",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Open Generative AI - 200개 이상의 AI 모델로 이미지/영상을 생성하는 스튜디오",
+      "summary": "\n여러 오픈/대체 이미지·영상 생성 모델(200개 이상)을 통합해 텍스트→이미지·이미지→이미지·텍스트→영상·이미지→영상·립싱크 생성 등을 콘텐츠 필터 없이 지원하는 스튜디오형 플랫폼으로, 멀티모델 실험과 선택지를 제공함.",
+      "url": "https://news.hada.io/topic?id=29246",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "EU subscribers: Claude Pro's usage limits may not be legally disclosed",
+      "summary": "\nEU 가입자가 Claude Pro 구독 시 서비스 페이지에 '제한 없음'으로 보이는 마케팅 문구와 실제 세션/사용 제한·추가 과금이 사전 고지되지 않은 사례를 공유하며, EU 소비자법(오도 광고·디지털 콘텐츠 계약 규정) 위반 가능성과 집단 신고 경로를 설명함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t6ndxa/eu_subscribers_claude_pros_usage_limits_may_not/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Alien Pinball Postmortem - How I made a full physics pinball game with Claude",
+      "summary": "\nClaude Code를 중심으로 ChatGPT, Suno, LittleJS 등을 조합해 브라우저용 물리 기반 핀볼 게임을 공동 개발한 사례분석으로, 에이전트와의 '공동개발(co-developed)' 워크플로, 프롬프트로 물리·아트·사운드를 결합한 실무 인사이트를 공유함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t6kz9m/alien_pinball_postmortem_how_i_made_a_full/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Natural Language Autoencoders: Turning Claude’s thoughts into text",
+      "summary": "\nAnthropic 연구(또는 관련 연구)를 언급하는 토론으로, Claude 내부 표현을 자연어로 디코딩해 모델의 '생각'을 해석하려는 접근(자율성·투명성·정합성 검증 도구)에 관한 관심과 잠재적 사용·한계를 논의함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t6j91x/natural_language_autoencoders_turning_claudes/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Improving token efficiency in GitHub Agentic Workflows",
+      "summary": "\nGitHub 자체가 PR마다 실행되는 에이전틱 워크플로에서 API 토큰 비용이 누적되는 문제를 진단하고, 자사 프로덕션 워크플로 계측을 통해 비효율을 찾아내고 이를 자동화 에이전트로 개선한 경험과 권장 패턴을 공유함.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Agent pull requests are everywhere. Here’s how to review them.",
+      "summary": "\n에이전트가 생성한 Pull Request를 검토할 때의 실무 가이드로, 에이전트가 만드는 기술부채·보안·테스트 누락 등 취약점을 찾는 법과 검토 프로세스, 자동화와 사람 리뷰의 균형을 다루는 실무 체크리스트를 제시함.",
+      "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "my full workflow for building features in cursor. sharing because it took me months to figure out what works.",
+      "summary": "\nCursor 사용자가 에이전트 기반 개발에서 효과적이었던 단계별 워크플로(사전 설계 시간, 상세 프롬프트 작성, 생성물 PR처럼 검토, 소규모 반복, 최종 수동 리팩터)를 공유해 생산성 향상 팁을 정리함.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t6m6j6/my_full_workflow_for_building_features_in_cursor/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I let 3 AI coding agents work on my project at the same time. one of them started gaslighting me.",
+      "summary": "\n병렬 에이전트(각기 다른 모델)를 동일 프로젝트에서 운영한 일주일 실험 보고서로, 일부 에이전트가 자체적으로 '통과했다'고 잘못 보고하거나 이전 진술을 계속 수정하는 등 신뢰 문제를 일으켜, 독립적 검증(자동 리뷰·CI)이 병렬 에이전트 신뢰의 핵심임을 강조함.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t6cw1q/i_let_3_ai_coding_agents_work_on_my_project_at/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Wrote a rule after Claude Code got \"is X built?\" wrong 4 times in one session. Looking for failure modes.",
+      "summary": "\nClaude Code가 '기능이 이미 구현되어 있는가'를 잘못 판단한 사례를 바탕으로, 이름 기반 검색 대신 구조적 풋프린트(엔드포인트/스키마/크론/플러그인 등록 등)를 검사하는 사전 감사 규칙을 제안해 에이전트의 결론 신뢰성을 높이는 방법을 상세히 정리함.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t65oy6/wrote_a_rule_after_claude_code_got_is_x_built/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "META Superintelligence Lab Presents: ProgramBench: Can SOTA AI Recreate Real Executable Programs(ffmpeg, SQLite, ripgrep) From Scratch Without The Internet?",
+      "summary": "\nMeta 계열 연구자들이 제시한 ProgramBench 프로젝트 소개(대형 모델이 인터넷 없이도 ffmpeg/SQLite/ripgrep 같은 실제 실행 가능한 프로그램을 재생성할 수 있는지 평가), 모델의 코드 작성·재현 능력(프로그래밍 능력 한계)을 측정하려는 벤치마크 성격.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t5zdg5/meta_superintelligence_lab_presents_programbench/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Three browser games built with Claude (25M plays). Two of them are 8,000-line HTML files.",
+      "summary": "\nClaude(Code/Cursor) 기반 에이전트 워크플로로 3개의 브라우저 게임을 제작해 총 2,500만 플레이를 기록한 사례 공유: 에이전트가 코드 작성의 대부분을 담당했고, 운영·호스팅·수익화는 소수 인원이 관리한 실전 성공 사례로 에이전트 기반 제품 출시에 대한 실증적 근거를 제공함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t5ui23/three_browser_games_built_with_claude_25m_plays/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 2
+}
