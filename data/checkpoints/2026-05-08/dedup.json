@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "title": "Running Codex safely at OpenAI",
+      "summary": "\nOpenAI describes operational practices for running Codex securely: sandboxing, approval workflows, network policies, and agent-native telemetry to enable safe and compliant deployment of coding agents.",
+      "url": "https://openai.com/index/running-codex-safely",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Show HN: [Video] Tribute to LLM releases in April 2026",
+      "summary": "\nYouTube video compiling and summarizing LLM releases from April 2026.",
+      "url": "https://www.youtube.com/watch?v=uu5ffMH_X9w",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Context-compiler: graph-based code retrieval for Claude Code",
+      "summary": "\nOpen-source GitHub project providing graph-based code retrieval / context compilation designed to improve code retrieval workflows for Claude Code.",
+      "url": "https://github.com/bytewise-ca/claude-context-compiler",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "DeepSeek Seeks Funding at $45B Valuation as China Backs Homegrown AI Rival",
+      "summary": "\nArticle reporting that DeepSeek is seeking outside funding at a reported $45B valuation, part of broader Chinese efforts to back large homegrown AI companies—a notable industry move in frontier AI competition.",
+      "url": "https://theaiinsider.tech/2026/05/08/deepseek-seeks-first-outside-funding-at-45b-valuation-as-china-backs-homegrown-ai-rival/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Teaching Claude Why",
+      "summary": "\nAnthropic research post ('Teaching Claude Why') presenting work on improving Claude's ability to explain or justify its outputs (research on model reasoning/explanation methods).",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Natural Language Autoencoders: Claude의 생각을 텍스트로 바꾸기",
+      "summary": "\nClaude 내부 활성값을 사람이 읽을 수 있는 자연어로 번역하는 NLA(Natural Language Autoencoders)를 소개. 동결된 타깃 모델에서 활성값을 추출하고 activation verbalizer가 이를 텍스트 설명으로 변환해 모델 내부 상태 해석을 시도하는 접근법으로, 모델 투명성·디버깅·에이전틱 행동 이해에 적용 가능성이 있음.",
+      "url": "https://news.hada.io/topic?id=29302",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Agents에는 더 많은 프롬프트가 아니라 제어 흐름이 필요하다",
+      "summary": "\n복잡한 작업을 안정적으로 처리하려면 단순한 프롬프트 체인보다 소프트웨어로 명시된 결정적 제어 흐름이 필요하다는 주장. 프롬프트만으로 ‘강제’ 동작을 기대하는 한계와, 에이전트 설계에서 제어 구조·에러 처리·검증 메커니즘을 소프트웨어적으로 넣어야 하는 실무적 시사점을 다룸.",
+      "url": "https://news.hada.io/topic?id=29296",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Hunk - AI 에이전트 코드 리뷰를 위한 터미널 Diff 뷰어",
+      "summary": "\n에이전트가 생성한 코드 변경사항을 터미널에서 리뷰할 수 있도록 인터랙티브 UI와 인라인 AI 주석을 제공하는 오픈소스 도구. OpenTUI·Pierre diffs 기반으로 터미널 중심의 코드리뷰 및 에이전트 출력 검토 워크플로를 개선하려는 시도임.",
+      "url": "https://news.hada.io/topic?id=29279",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Obsidian 우측 사이드바에서 Claude Code,Codex를 실행하는 Vault Terminal 플러그인을 만들었습니다",
+      "summary": "\nObsidian 사이드바에 실제 터미널을 띄워 Claude Code/Codex 같은 에이전트 CLI를 편하게 쓰기 위한 Vault Terminal 플러그인 개발 사례. PTY 동작·스크롤·특수 입력 처리 불편을 개선해 개인 작업 환경에서 에이전트 기반 코드 작업을 통합하는 접근.",
+      "url": "https://news.hada.io/topic?id=29285",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "OpenAI, GPT-5급 추론 능력을 가진 GPT-Realtime-2 시리즈 공개",
+      "summary": "\n실시간 음성 API에 추론·번역·전사 기능을 결합한 GPT-Realtime-2 시리즈를 발표. GPT-5급 추론 성능을 표방하는 최초의 음성 모델 계열로 도구 호출과 실시간 상호작용을 지원해 음성 기반 에이전트·콜센터·인터랙티브 애플리케이션 개발에 큰 영향 가능.",
+      "url": "https://news.hada.io/topic?id=29284",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI, Codex에 “Pet” 기능 추가",
+      "summary": "\nCodex(에이전트) 인터페이스에 작은 데스크톱 'pet' 형태로 에이전트 상태(작업 중/대기/완료)를 애니메이션으로 보여주는 UI 기능을 추가. 오버레이로 항상 표시 가능하고 /pet 명령으로 활성화, 커스텀 캐릭터 적용도 가능함 — 주로 UX·가시성 개선.",
+      "url": "https://news.hada.io/topic?id=29291",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "다크 마켓플레이스 - AI 에이전트가 거래를 대행하는 커머스의 미래",
+      "summary": "\nAI 에이전트가 상품 탐색·가격 협상·구매를 자율적으로 수행하는 '다크 마켓플레이스' 개념을 소개. Anthropic의 Project Deal 실험 결과를 바탕으로 B2B 커머스에서 에이전트가 거래 대행자로 기능할 때의 효율성·윤리·규모화 이슈를 논의함.",
+      "url": "https://news.hada.io/topic?id=29278",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "r/ClaudeAI mods seeking feedback on Claude workflow library project.",
+      "summary": "\nr/ClaudeAI 커뮤니티 운영진이 사용자 제출 기반의 Claude 워크플로 라이브러리 초기 릴리스를 공개하고 의견을 수집. 워크플로 인덱스와 검색 가능한 색인(ClaudeWorkflows.org)으로 커뮤니티 표준화·재사용 가능한 에이전트 워크플로를 모으려는 시도임.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t762vb/rclaudeai_mods_seeking_feedback_on_claude/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I built a Pokémon-styled multi-agent dashboard to manage all Claude Code sessions",
+      "summary": "\nClaude Code 세션을 멀티 에이전트 방식으로 관리하기 위한 오픈소스 대시보드(Pokegents)를 공개. 로컬 오케스트레이션 서버, 지속적 에이전트 아이덴티티, MCP 메시징, 세션 복제 등 멀티 에이전트 워크플로를 실무에서 운영하기 위한 도구들을 포함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t7m3j3/i_built_a_pok%C3%A9monstyled_multiagent_dashboard_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Provider Error - Anyone else experiencing this? (Cursor)",
+      "summary": "\nCursor 사용자가 'Provider Error' 서버 오류를 경험하고 있으며 에러 로그와 재현 정보를 공유. Cursor/Claude Code 연동 및 에이전트 백엔드 안정성 문제로, 개발자 생산성·도구 신뢰성에 즉각적 영향을 줄 수 있음.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t7omcw/provider_error_anyone_else_experiencing_this/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Compser 2 - do you find it useful? (Cursor/Composer 토론)",
+      "summary": "\n사용자들이 Composer 1 대비 Composer 2의 동작·메모리·모델 선택 문제를 토론. 에이전트 자동화 모드의 신뢰성·모델 제어 한계가 개발자 워크플로에 미치는 영향을 논의하는 커뮤니티 피드백 사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1t7nthl/compser_2_do_you_find_it_useful/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "When using Claude Code for agent-based coding, I’ve often noticed that the AI limits itself by claiming that a task could take a developer several weeks to complete, and therefore suggests solutions that are more like quick fixes. That’s complete nonsense, of course.",
+      "summary": "\nClaude Code(에이전트 기반 코딩) 사용자가 모델이 스스로 능력을 낮춰 잡아 반복적으로 '수주가 필요한 작업'이라고 말해 빠른 해결책만 제안하는 경험을 공유. 에이전트의 자기평가·계획 산출의 한계와 개발자 기대치 간 갭을 지적함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t77r81/when_using_claude_code_for_agentbased_coding_ive/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    }
+  ]
+}
