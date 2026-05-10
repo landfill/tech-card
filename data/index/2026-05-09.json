@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "title": "ToolOps: One Decorator Away from Production-Ready AI Agents",
+      "summary": "\nGitHub 저장소: 'ToolOps'는 프로덕션 준비가 가능한 AI 에이전트를 목표로 하는 도구/프레임워크로 보이며, 에이전트 운영(tooling) 관점의 오픈소스 프로젝트임.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/hedimanai-pro/toolops",
+      "source_id": ""
+    },
+    {
+      "title": "I built an AI to stress-test my thinking",
+      "summary": "\n개인 프로젝트 사이트: 작성자가 자신의 사고를 스트레스 테스트하기 위해 만든 AI(에이전트/보조 시스템) 관련 사례로 보임.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://mindmilker.com",
+      "source_id": ""
+    },
+    {
+      "title": "GPT-5.5 low vs medium vs high vs xhigh: 오픈소스 저장소의 실제 작업 26개에서 본 추론 곡선",
+      "summary": "\nGPT-5.5 Codex를 실제 오픈소스 작업 26개에 대해 low/medium/high/xhigh 추론 설정으로 비교한 결과. 테스트 통과율보다 코드 리뷰·의미적 동등성에서 설정별 차이가 더 크게 나타난다는 관찰과 각 설정별 성능 수치(예: xhigh가 더 많은 리뷰 통과)를 보고함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29316",
+      "source_id": ""
+    },
+    {
+      "title": "DeepSeek V4 paper full version is out, FP4 QAT details and stability tricks [D]",
+      "summary": "\nDeepSeek V4 전체 논문 공개: FP4 양자화-인식 훈련(FP4 QAT), MoE/라우팅 안정성 기법(anticipatory routing 등), SwiGLU 클램핑, 통합 생성-평가 보상 모델 등 실무적 최적화와 효율-정확도 트레이드오프를 상세히 다룸. 멀티에이전트·대규모 컨텍스트 비용 구조에 영향 줄 가능성 지적.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/",
+      "source_id": ""
+    },
+    {
+      "title": "Ring-2.6-1T launched with a free test window for coding-agent workflows",
+      "summary": "\nRing-2.6-1T(약 1조 파라미터) 출시 소식 — 'reasoning model for coding + agents'로 포지셔닝, Claude Code 호환성·Reasoning Effort 설정을 강조. 출시 후 제한 기간(5/15까지) 무료 개발자 액세스 창 제공으로 직접 테스트 가능하다는 안내.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/cursor/comments/1t8627j/ring261t_launched_with_a_free_test_window_for/",
+      "source_id": ""
+    },
+    {
+      "title": "Implementation Details of Codex /Goal",
+      "summary": "\nCodex/Goal 구현 관련 기술적 세부 정리(gist). Codex 계열과 연관된 내부 동작/설계 노트가 포함되어 있어 에이전틱 코딩·코드 모델 구현 이해에 도움이 됨.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://gist.github.com/patleeman/b1b5768393f9bf2f60865b1defeeb819",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: ccinv - Claude Code에 뭐가 깔려있는지 한눈에 보는 CLI",
+      "summary": "\nClaude Code의 commands, skills, agents, hooks, MCP, plugins 등을 한눈에 보여주는 CLI 도구 'ccinv' 소개 — Claude Code 기반 개발자 워크플로 가시성·디버깅에 유용한 유틸리티.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29321",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: LociTerm - AI 에이전트 SSH 세션이 계속 끊겨서 persistent 웹 터미널을 만들었습니다",
+      "summary": "\n노트북에서 Claude Code나 오픈코드를 돌릴 때 세션 끊김 문제를 해결하기 위해 만든 persistent 웹 터미널 LociTerm 소개 — SSH+tmux 대안으로 모바일/브라우저 기반에서도 에이전트와의 장기 작업을 유지하는 용도.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29323",
+      "source_id": ""
+    },
+    {
+      "title": "Camofox Browser - AI 에이전트를 위한 스텔스 헤드리스 브라우저",
+      "summary": "\nCamoufox(파이어폭스 포크) 기반의 'Camofox' 브라우저는 C++ 레벨에서 핑거프린트 스푸핑을 수행해 Cloudflare 등 봇 탐지를 우회하도록 설계됨 — Puppeteer/Playwright 대체 가능성을 주장하며 에이전트 기반 웹 상호작용·스크래핑 인프라에 직접 영향.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29310",
+      "source_id": ""
+    },
+    {
+      "title": "cursor's background agent actually works now",
+      "summary": "\nCursor 1.0 배경 에이전트 기능 사용 사례 보고 — 에이전트가 리팩터링·버그 수정·MCP 설정 등 자동으로 여러 커밋을 생성해 실제 개발 루프에서 생산성을 크게 개선했다는 사용자 경험 공유.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/cursor/comments/1t81b3a/cursors_background_agent_actually_works_now/",
+      "source_id": ""
+    },
+    {
+      "title": "Are AI coding tools becoming too proactive? 👀",
+      "summary": "\nAI 코딩 도구들이 단순 자동완성을 넘어서 코드베이스 전체를 예측해 수정 권고·적용하는 방향으로 진화 중이라는 토론 — 문맥 이동성/제어손실과 생산성 향상의 균형에 대한 개발자 커뮤니티 반응을 요약.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t8dbqa/are_ai_coding_tools_becoming_too_proactive/",
+      "source_id": ""
+    },
+    {
+      "title": "Cursor just rebuilt my entire app",
+      "summary": "\n사용자가 Cursor에 작은 수정만 요청했는데 에이전트가 전체 애플리케이션 구조를 재작성해 배포 가능한 수준의 개선을 수행했다는 사례 — 에이전틱 코딩 도구가 실제 코드베이스 변경을 광범위하게 수행하는 실무적 임팩트 예시.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t814tt/cursor_just_rebuilt_my_entire_app/",
+      "source_id": ""
+    },
+    {
+      "title": "The unreasonable effectiveness of HTML when using Claude Code",
+      "summary": "\nClaude Code로 작업할 때 HTML 포맷(마크업) 사용이 Markdown보다 실용적이라는 경험 공유 및 사례 링크(원문: Simon Willison) — 에이전트-코드 상호작용에서 입력/출력 포맷이 워크플로 성능에 미치는 영향.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t8aecu/the_unreasonable_effectiveness_of_html_when_using/",
+      "source_id": ""
+    }
+  ]
+}
