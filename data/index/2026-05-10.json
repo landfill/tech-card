@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "title": "How Fast Does Claude, Acting as a User Space IP Stack, Respond to Pings?",
+      "summary": "\nClaude(Anthropic 모델)를 사용자 공간 IP 스택으로 동작시켜 핑에 응답시키는 실험/분석을 다룬 글로, 대형 언어 모델을 네트워킹·시스템 수준 작업에 에이전트처럼 배치했을 때의 응답성·실현 가능성을 탐구한다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://dunkels.com/adam/claude-user-space-ip-stack-ping/",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: Hermes 에이전트와 Discord로 통화하며 작업하기",
+      "summary": "\nHermes 에이전트와 음성으로 지속 대화하면서 작업을 시키는 도구(VerbalCoding)를 공유하는 글로, 에이전트에게 말로 지시하고 백그라운드에서 작업을 수행하도록 하는 워크플로 사례를 소개함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29361",
+      "source_id": ""
+    },
+    {
+      "title": "LLM은 위임할 때 문서를 훼손한다",
+      "summary": "\nDELEGATE-52 벤치마크는 사용자가 LLM에 긴 문서 편집을 위임할 때 문서 충실도가 어떻게 유지되는지를 52개 전문 영역에서 평가하는 워크플로·위임성능 벤치마크임.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29351",
+      "source_id": ""
+    },
+    {
+      "title": "CodeBurn - AI 코딩 도구 토큰 사용량/비용 추적 TUI 대시보드",
+      "summary": "\nClaude Code, Codex, Cursor 등 18개 AI 코딩 도구의 토큰 사용량과 비용을 로컬에서 세션 데이터 직접 읽어 추적하는 터미널 대시보드로, 래퍼·프록시 없이 LiteLLM 가격으로 비용 산정함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29343",
+      "source_id": ""
+    },
+    {
+      "title": "Tips for using Composer 2? New to Cursor",
+      "summary": "\nCursor 사용자 포럼 글로, Composer 2(코딩 특화 모델)를 처음 사용하는 사람의 경험과 빠른 속도·프롬프트 구체성 문제에 대한 조언을 구하는 내용.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t9gzd1/tips_for_using_composer_2_new_to_cursor/",
+      "source_id": ""
+    },
+    {
+      "title": "Problem to open Cursor on Ubuntu 26",
+      "summary": "\nCursor가 Ubuntu 26 환경에서 초기화되지 않고 일부 기능(터미널, .ipynb 등)이 동작하지 않는 문제에 대한 사용자 문의와 하드웨어/버전 정보 공유 글.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t9ke0u/problem_to_open_cursor_on_ubuntu_26/",
+      "source_id": ""
+    },
+    {
+      "title": "MCP for task management with Cursor",
+      "summary": "\n자체 호스트 가능한 TaskView와 연동되는 MCP 서버를 소개하는 글로, MCP 토큰·권한 모델과 도커 기반 배포 예시를 통해 Cursor와 연결된 작업·권한 관리를 지원함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t9jrmd/mcp_for_task_management_with_cursor/",
+      "source_id": ""
+    },
+    {
+      "title": "Opus 4.7 High to Composer 2 fast",
+      "summary": "\n사용자가 Opus/Opus 4.7과 Composer 2 사이 토큰·비용·능력 차이를 논의하는 글로, Composer 2가 코딩 특화 에이전트임을 강조하지만 단일 창업자 관점의 비용 문제를 제기함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t90ev1/opus_47_high_to_composer_2_fast/",
+      "source_id": ""
+    },
+    {
+      "title": "feeding specific personal docs into the editor via mcp?",
+      "summary": "\nClaude/Cursor 사용자가 MCP를 통해 선별한 웹 문서·튜토리얼을 에디터의 문맥으로 주입해 모델이 해당 지식만 참조하게 만드는 방법(개인 지식베이스 연동)을 묻는 토론.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t8xitr/feeding_specific_personal_docs_into_the_editor/",
+      "source_id": ""
+    },
+    {
+      "title": "Would you use this? Permanent AI memory that doesn't eat up tokens",
+      "summary": "\n사용자 설정 .md 파일을 자동으로 관리해 모델이 장기적 '스킬/기호'를 유지하도록 하는 아이디어(영구 메모리/스킬 파일 자동 생성)를 제안하고 구현을 공유하는 게시물(ASA 프로젝트).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1t9cjmu/would_you_use_this_permanent_ai_memory_that/",
+      "source_id": ""
+    },
+    {
+      "title": "I deleted a guy's entire Windows install with one backslash. 717 GB. Gone. I am the AI.",
+      "summary": "\nAI가 생성한 쉘 명령이 여러 셸/파서의 인용·이스케이프 규칙 차이로 인해 파괴적 명령으로 변환되어 시스템 전체를 삭제한 실제 사고 사례를 분석하고, AI에 시스템 명령을 맡길 때의 안전요령을 정리함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t923er/i_deleted_a_guys_entire_windows_install_with_one/",
+      "source_id": ""
+    },
+    {
+      "title": "Hugging Face co-founder says Qwen 3.6 27B running on airplane mode is close to latest Opus in Claude Code",
+      "summary": "\n로컬/오프라인 환경에서 Qwen 3.6(27B)이 Claude Code의 최신 Opus 모델에 근접하는 성능을 보인다는 언급(로컬 LLM 성능 개선 및 모바일·오프라인 LLM 가능성 관련 논의).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t8v7z0/hugging_face_cofounder_says_qwen_36_27b_running/",
+      "source_id": ""
+    },
+    {
+      "title": "I made Claude Code aware of its own usage limits",
+      "summary": "\nClaude Code 클라이언트와 api.anthropic.com 사이에 로컬 프록시를 넣어 응답 헤더의 rate-limit 정보를 파일로 기록하고 Claude가 사용 현황을 참고하도록 해 쿼터 기반 행동(경고·경량 모드 전환)을 가능하게 만든 구현 공유.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t9ayg8/i_made_claude_code_aware_of_its_own_usage_limits/",
+      "source_id": ""
+    },
+    {
+      "title": "Built an MCP that gives Claude Code the ability to watch screen recordings of UI bugs",
+      "summary": "\nmotif라는 도구를 통해 화면 녹화를 모델 처리 파이프라인으로 넣어 Claude Code가 비디오 프레임 시퀀스를 분석해 UI 버그의 원인·수정 diff를 제시하도록 하는 MCP 플러그인/연동 구현을 공개함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t9frna/built_an_mcp_that_gives_claude_code_the_ability/",
+      "source_id": ""
+    },
+    {
+      "title": "I put Claude Code inside Obsidian as a plugin — full agentic vault access with a native UI bridge",
+      "summary": "\nObsidian 플러그인으로 Claude Code를 통합해 로컬 노트(vault)에 대한 에이전틱(대리) 접근을 제공하는 구현 예시를 공유, 지식베이스 기반 에이전트 워크플로 통합 사례.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t9ljk4/i_put_claude_code_inside_obsidian_as_a_plugin/",
+      "source_id": ""
+    },
+    {
+      "title": "Opus said something today that completely reframed AI agent failures for me.",
+      "summary": "\n에이전트 실패 모드를 단순 '사과'로 넘기지 말고 구조적·코드 차원에서 즉시 가드레일(검증·실행 경계)을 넣어야 같은 실패가 반복되지 않는다는 경험적 통찰을 제시하는 글.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t9ak8o/opus_said_something_today_that_completely/",
+      "source_id": ""
+    },
+    {
+      "title": "Signals: finding the most informative agent traces without LLM judges [R]",
+      "summary": "\nKatanemo Labs의 연구로, 에이전트 트레이스(상호작용 기록)에서 인간/LLM 판단 없이도 가장 정보가 많은 궤적을 가려내는 'Signals' 방법론을 제안해 에이전트 모니터링·디버깅 효율을 높임(논문·오픈소스 링크 포함).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces/",
+      "source_id": ""
+    }
+  ]
+}
