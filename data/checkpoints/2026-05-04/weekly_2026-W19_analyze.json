@@ -1,0 +1,168 @@
+{
+  "week": "2026-W19",
+  "date_range": [
+    "2026-05-04",
+    "2026-05-10"
+  ],
+  "total_items": 117,
+  "filtered_items": 115,
+  "trend_map": [
+    {
+      "topic": "Claude / Claude Code (Anthropic)",
+      "days": [
+        "05-04",
+        "05-05",
+        "05-06",
+        "05-07",
+        "05-08",
+        "05-09",
+        "05-10"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GPT-5.5 / OpenAI model updates",
+      "days": [
+        "05-05",
+        "05-06",
+        "05-07",
+        "05-08",
+        "05-09"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "DeepSeek / DeepClaude",
+      "days": [
+        "05-04",
+        "05-05",
+        "05-08",
+        "05-09"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Codex (CLI / features / safety)",
+      "days": [
+        "05-04",
+        "05-05",
+        "05-08",
+        "05-09"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor (desktop / Composer / background agents / plugins)",
+      "days": [
+        "05-04",
+        "05-05",
+        "05-06",
+        "05-07",
+        "05-08",
+        "05-09",
+        "05-10"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Agent safety / agentic behavior / long-running agents",
+      "days": [
+        "05-04",
+        "05-06",
+        "05-07",
+        "05-09",
+        "05-10"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "MCP / context-mode tools / token efficiency & persistent memory",
+      "days": [
+        "05-05",
+        "05-06",
+        "05-07",
+        "05-09",
+        "05-10"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Ring-2.6-1T (coding-agent test window)",
+      "days": [
+        "05-09"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Warp (open-source agentic dev environment)",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 63,
+      "high_count": 22
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 49,
+      "high_count": 9
+    }
+  },
+  "top5": [
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "mentions": 2,
+      "impact": "high"
+    },
+    {
+      "title": "New in Claude Managed Agents: dreaming, outcomes, multiagent orchestration, and webhooks.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t5j84j/new_in_claude_managed_agents_dreaming_outcomes/",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "DeepSeek V4 paper full version is out, FP4 QAT details and stability tricks",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "Signals: finding the most informative agent traces without LLM judges [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces/",
+      "mentions": 1,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-05-04": 17,
+    "2026-05-05": 19,
+    "2026-05-06": 15,
+    "2026-05-07": 18,
+    "2026-05-08": 13,
+    "2026-05-09": 13,
+    "2026-05-10": 17
+  }
+}

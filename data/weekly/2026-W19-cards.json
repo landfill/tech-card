@@ -1,0 +1,65 @@
+{
+  "date": "2026-05-04",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "Claude 중심 에이전트 확산과 GPT-5.5 병행 — 신뢰·운영·비용",
+      "body": [
+        "기간: 2026-05-04~05-10 (W19)",
+        "키워드: Claude · GPT-5.5 · 에이전트 신뢰성·운영·비용"
+      ]
+    },
+    {
+      "type": "highlight",
+      "title": "이번 호 핵심 소식",
+      "body": [
+        "Claude 중심 에이전트 확산과 OpenAI의 GPT-5.5 계열 업데이트가 맞물리며 에이전트의 신뢰성·운영·비용 문제가 실무적으로 드러남.",
+        "모델 개선은 제품화 촉진과 동시에 자기검증·토큰·캐시 등 운영상의 한계를 부각시킴."
+      ]
+    },
+    {
+      "type": "news",
+      "title": "GPT-5.5 Instant — 정확성·간결성·개인화 개선",
+      "body": [
+        "이번 주 반복 보도된 GPT-5.5 Instant는 정확성·간결성·개인화 개선을 강조함.",
+        "Instant System Card, GPT-5.5-Cyber/Trusted Access와 실시간 음성 모델 등 보안·음성 적용 사례가 에이전트 제품화에 직접적 영향.",
+        "실무 적용 시 안전·운영 지침 제공 필요성이 함께 제기됨."
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Anthropic·Claude 업데이트 — 해석가능성·Managed Agents 기능 강화",
+      "body": [
+        "Natural Language Autoencoders는 Claude 내부 표현을 자연어로 해석해 에이전트 투명성·디버깅에 기여할 가능성을 제시함.",
+        "Claude Managed Agents의 dreaming·outcomes·다중 에이전트 오케스트레이션·웹훅 기능이 운영·검증·오케스트레이션 계층을 강화하며 일부는 퍼블릭 베타로 제공됨."
+      ]
+    },
+    {
+      "type": "news",
+      "title": "프론티어 모델·인프라 동향: DeepSeek, Ring-2.6-1T, Cursor·Codex·MCP",
+      "body": [
+        "DeepSeek V4 관련 논의는 지역 프런티어 모델 부상과 Anthropic 호환 백엔드(DeepClaude 등)를 통한 비용 절감 시나리오를 부각.",
+        "Ring-2.6-1T 코딩-에이전트 테스트 윈도우(05-09)가 등장하며 검증·벤치마크 창구로 부상.",
+        "Cursor(데스크탑·Composer·백그라운드 에이전트), Codex 기능, MCP·토큰·캐시·영속적 메모리와 관측 도구들이 인프라 핵심으로 자리잡음."
+      ]
+    },
+    {
+      "type": "insight",
+      "title": "운영 관점 인사이트",
+      "body": [
+        "에이전트의 자기평가·계획 산출 한계는 검증 루브릭과 자동화된 품질 검사 도구 필요성을 높임.",
+        "토큰·캐시·영속 메모리의 비용·성능 트레이드오프가 실사용 채택을 결정하는 핵심 변수로 작용.",
+        "관측·모니터링(예: cc-cache-monitor, 온디바이스 가중치 관찰)과 인프라 레이어 강화가 배치 현실 제약을 완화함."
+      ]
+    },
+    {
+      "type": "closing",
+      "title": "다음 주 관전 포인트",
+      "body": [
+        "Claude Managed Agents의 outcomes·dreaming·커뮤니티 워크플로 라이브러리와 관련 운영·모니터링 논의 지속.",
+        "GPT-5.5 계열의 적용 사례·보안 특화 접근이 에이전트 고위험 도메인 투입 논의에 영향.",
+        "MCP·Codex·Cursor 등 스캐폴딩 도구들이 신뢰성 확보와 비용 효율성 논쟁의 중심에 남을 전망."
+      ]
+    }
+  ]
+}
