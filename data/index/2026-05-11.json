@@ -1,0 +1,156 @@
+{
+  "items": [
+    {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "summary": "\nOpenAI announces DeployCo, an enterprise deployment company to help organizations bring frontier AI into production and convert it into measurable business impact.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "source_id": ""
+    },
+    {
+      "title": "Thinking Machines: AI that can respond during the interaction",
+      "summary": "\nMedium post about a new interaction-model approach (\"Thinking Machines\") where AI can respond during ongoing interactions — discussion of interaction models and real-time agentic behaviour.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://medium.com/seeds-for-the-future/a-new-way-to-interact-with-ai-interaction-models-2941f1732558",
+      "source_id": ""
+    },
+    {
+      "title": "Mistral AI's NPM package was compromised",
+      "summary": "\nGitHub issue reporting that Mistral AI's client-ts NPM package was compromised (supply-chain/security incident affecting an AI model provider's package).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/mistralai/client-ts/issues/217",
+      "source_id": ""
+    },
+    {
+      "title": "What do you NOT like about Cursor / VSCode / Claude Code desktop / Codex / etc.?",
+      "summary": "\nHN thread soliciting pain points about Cursor, VSCode, Claude Code desktop, Codex and related tools — author building a cross-provider, agentic workstation and asking for issues/feature requests from developers.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.ycombinator.com/item?id=48102087",
+      "source_id": ""
+    },
+    {
+      "title": "Hermes Agent Background Computer Use on macOS via SkyLight Private SPIs",
+      "summary": "\nDocumentation page describing Hermes Agent's background computer-use feature on macOS that leverages SkyLight private SPIs.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/computer-use",
+      "source_id": ""
+    },
+    {
+      "title": "Why LLMs Make Learning to Code More Important, Not Less",
+      "summary": "\nEssay arguing that the rise of LLMs increases, rather than decreases, the importance of learning to code — relevance to developer workflows and agent-augmented coding.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://senthil.learntosolveit.com/posts/2026/05/10/why-llms-make-learning-to-code-more-important-not-less.html",
+      "source_id": ""
+    },
+    {
+      "title": "코드 작성에 쓰는 AI 코딩 에이전트는 유지보수 비용을 줄여야 함",
+      "summary": "\nAI 에이전트가 새 코드 생성 속도만 높여도 장기 생산성은 유지보수 비용에 의해 잠식될 수 있다는 분석. 일부 모델 사례에서 2.5년 후 유지보수가 전체 시간의 절반을 넘김 — 에이전틱 워크플로 설계 시 산출물의 유지성·검증·지속 비용 고려가 필요함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29399",
+      "source_id": ""
+    },
+    {
+      "title": "Open Design - Claude Design의 로컬 퍼스트 오픈소스 대체제",
+      "summary": "\n에이전트를 내장하지 않고 시스템 경로에 있는 코딩 에이전트(CLAUDE CODE, Codex 등) CLI를 자동 감지해 디자인 엔진으로 사용하는 로컬퍼스트 오픈소스 프로젝트. 31개 스킬 내장으로 웹 프로토타이핑·SaaS 템플릿 등 개발 워크플로를 에이전트들과 연계해 활용함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29376",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic, 금융 서비스에 특화된 AI 에이전트/스킬/커넥터 오픈소스 공개",
+      "summary": "\nAnthropic이 금융 서비스 워크플로 자동화 레퍼런스 레포를 공개. Claude Cowork 플러그인 또는 Managed Agents API로 동일 에이전트를 실행할 수 있고, 투자은행·리서치·자산관리 등 금융 분야를 커버하는 10종의 워크플로와 커넥터·스킬을 포함 — 금융권 에이전트 적용 사례·참고 구현 제공.",
+      "category": "산업별 AX (트래블, 금융, 제조 등 산업별 AI·경험. 단, 해당 산업의 AI/LLM/에이전트/자율시스템/자동화 적용이 명시된 항목만 포함)",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29372",
+      "source_id": ""
+    },
+    {
+      "title": "로컬 AI가 표준이 되어야 함",
+      "summary": "\n앱에서 클라우드 모델(API) 의존이 흔하지만 서버 장애·결제·개인정보 문제로 기능 의존성이 높아진다는 주장. 현대 기기의 온디바이스 연산 능력을 활용해 로컬 AI를 표준으로 삼아 가용성·프라이버시 리스크를 낮추자는 주장을 전개함 — 로컬 호스팅 모델·디바이스 인퍼런스 트렌드와 연계된 논의.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29369",
+      "source_id": ""
+    },
+    {
+      "title": "New in Claude Code: agent view.",
+      "summary": "\nClaude Code(클라이언트)에 Research Preview로 'agent view' 도입 — 여러 세션을 동시에 디스패치하고 각 세션의 상태(실행/차단/완료)를 한눈에 볼 수 있으며, 인라인으로 회신해 세션을 재개하거나 중단 없이 전환 가능. 유료 플랜 기능으로 개발자 생산성·멀티에이전트 워크플로 개선 목적.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tag1i9/new_in_claude_code_agent_view/",
+      "source_id": ""
+    },
+    {
+      "title": "8 Advanced Claude Code Tips I've Discovered After Heavy Daily Use (Cost saving, Context, Custom Commands)",
+      "summary": "\nCommunity 작성의 Claude Code 실무 팁 모음 — Git 워크플로 자동화, 멀티모달(이미지) CLI 사용법, 사용량 추적 도구, 수동/자동 컨텍스트 압축(/compact), 세션 재개, 로컬 규칙(.claude/CLAUDE.md)·커스텀 명령으로 반복 워크플로 자동화하는 방법 등 개발자 생산성·비용 절감 실전 요령을 정리.",
+      "category": "GitHub & 인프라 트렌드 (AI 개발자 도구·코딩 에이전트·Copilot·MCP·AI 워크플로와 직접 연결된 CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t9w9w2/8_advanced_claude_code_tips_ive_discovered_after/",
+      "source_id": ""
+    },
+    {
+      "title": "My pre-coding routine with Claude Code, 5 MCP servers before I write a single line",
+      "summary": "\n실무자가 공유한 Claude Code 기반의 '사전 코딩 루틴' — 세션 메모리(MCP) 로드, 코드베이스 그래프 인덱싱, 외부 검색(현행 관행 확인), 라이브러리 문서 로드 등 여러 MCP 서버를 조합해 모델이 올바른 컨텍스트로 코드 생성하도록 함. 에이전트 오케스트레이션을 둘러싼 실무적 인프라 패턴 제시.",
+      "category": "GitHub & 인프라 트렌드 (AI 개발자 도구·코딩 에이전트·Copilot·MCP·AI 워크플로와 직접 연결된 CI/CD, 오픈소스, 인프라)",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ta3a9x/my_precoding_routine_with_claude_code_5_mcp/",
+      "source_id": ""
+    },
+    {
+      "title": "Spec-driven agentic coding is quietly making us worse at the job of supervising agents",
+      "summary": "\nCursor 사용자의 경험 공유: 에이전트 중심 워크플로(사양 작성 + 에이전트가 코드 작성)를 장기간 운영하면 리뷰·감독 역량이 약화될 수 있다는 경고. 표면적 검토로는 놓치는 성능·비용·안전 이슈가 발생하며, 이를 보완하기 위한 주간 코드 작성·깊은 리뷰 등의 대책을 제안함 — 인간 감독 역량 유지의 필요성 강조.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1ta2ei2/specdriven_agentic_coding_is_quietly_making_us/",
+      "source_id": ""
+    },
+    {
+      "title": "FYI, you can save tokens by stacking AGENTS.md within subdirectories",
+      "summary": "\nCursor/Claude/Codex 등에서 하위 디렉터리에 AGENTS.md를 배치해 해당 폴더 단위로 점진적 컨텍스트를 노출하면 토큰 사용을 절감할 수 있다는 팁. 프로젝트별/서브폴더별 규칙을 합리적으로 분배해 모델 프롬프트 길이를 관리하는 실무 팁.",
+      "category": "GitHub & 인프라 트렌드 (AI 개발자 도구·코딩 에이전트·Copilot·MCP·AI 워크플로와 직접 연결된 CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1t9qtsm/fyi_you_can_save_tokens_by_stacking_agentsmd/",
+      "source_id": ""
+    },
+    {
+      "title": "Bugbot moving to usage based",
+      "summary": "\nCursor 관련 커뮤니티 게시: Bugbot(자동 코드 리뷰 서비스)가 사용량 기반 과금으로 전환 중이며, 리뷰당 $1.00–$1.50 수준의 가격이 논란이 됨 — 에이전트 기반 유료 서비스의 비용 구조·채택 장벽 관련 실사용자 반응.",
+      "category": "GitHub & 인프라 트렌드 (AI 개발자 도구·코딩 에이전트·Copilot·MCP·AI 워크플로와 직접 연결된 CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1tacu2m/bugbot_moving_to_usage_based/",
+      "source_id": ""
+    },
+    {
+      "title": "Did Cursor Secretly Remove My Rate Limit?",
+      "summary": "\nCursor 사용자가 예기치 않게 쿼터가 다시 생긴 사례 공유 — 대규모 토큰 소비 후에도 대시보드가 갑자기 사용량을 재계산하거나 보정한 듯 보인다는 보고로, 요금·쿼터 투명성에 대한 실무적 우려를 제기.",
+      "category": "GitHub & 인프라 트렌드 (AI 개발자 도구·코딩 에이전트·Copilot·MCP·AI 워크플로와 직접 연결된 CI/CD, 오픈소스, 인프라)",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1ta0281/did_cursor_secretly_remove_my_rate_limit/",
+      "source_id": ""
+    },
+    {
+      "title": "I built an app with Claude Code that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text.",
+      "summary": "\nClaude Code로 개발된 사례 공유: React Native + Node 기반의 앱(Frateca)으로 웹페이지·PDF·이미지 텍스트를 고품질 음성으로 변환. Claude Code를 써서 멀티플 플랫폼(모바일·웹) 제품을 구현한 실사례로 개발자 도구의 실전 적용 사례를 보여줌.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tad468/i_built_an_app_with_claude_code_that_converts_any/",
+      "source_id": ""
+    },
+    {
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "summary": "\nOpenAI Signals: 2026년 Q1에 ChatGPT 사용자층이 35세 이상에서 빠르게 성장하고 성별 분포가 균형화되는 등 채택층이 확장됐다는 분석 — 프론티어 모델의 대중화·엔터프라이즈/연령대 확산 추세를 보여주는 지표성 보고.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "source_id": ""
+    }
+  ]
+}
