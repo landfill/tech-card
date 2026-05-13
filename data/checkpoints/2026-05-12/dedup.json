@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "title": "How finance teams use Codex",
+      "summary": "\nOpenAI case study showing how finance teams use Codex to build monthly business reviews, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "summary": "\nOpenAI write-up describing NVIDIA teams using Codex with GPT-5.5 to ship production systems and convert research ideas into runnable experiments.",
+      "url": "https://openai.com/index/nvidia",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "summary": "\nOpenAI recap of Parameter Golf, a competition with 1,000+ participants exploring AI-assisted ML research, coding agents, quantization, and novel model design under strict constraints.",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Scaling MCP adoption: Our ref architecture – simpler,safer&cheaper deployments",
+      "summary": "\nCloudflare blog post presenting a reference architecture for scaling MCP adoption focused on simpler, safer, and cheaper deployments (relevant to model/control-plane and enterprise model infra patterns).",
+      "url": "https://blog.cloudflare.com/enterprise-mcp/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic in Talks to Raise Funding at a $950B Valuation",
+      "summary": "\nNYT report that Anthropic is in talks to raise funding at a reported $950 billion valuation — significant frontier-model company fundraising news with industry-wide implications.",
+      "url": "https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth",
+      "summary": "\nShow HN post for Display.dev, an \"agent-native\" product to publish HTML/MD artifacts behind company auth (SSO/OTP), enabling agents to create, publish, and gate artifacts for team collaboration — positions an agent-native tooling category for developer/agent workflows.",
+      "url": "https://display.dev/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Agentic interface for mainframes and COBOL",
+      "summary": "\nHypercubic launches Hopper, an agentic development environment that embeds AI agents inside mainframe surfaces (TN3270, ISPF, JCL, JES/spool) to automate debugging, test generation, and code changes for COBOL/z/OS systems.",
+      "url": "https://www.hypercubic.ai/hopper",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code, 여러 에이전트를 한 화면에서 관리하는 'Agent View' 공개",
+      "summary": "\nClaude Code가 여러 백그라운드 세션(에이전트)을 한 화면에서 발사·감시·관리하는 Agent View를 공개 — supervisor 프로세스, 워크트리 파일 충돌 격리, PR 연동으로 CI 상태 표시 등 에이전트 운영·관찰성이 향상됨.",
+      "url": "https://news.hada.io/topic?id=29431",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code 에도 /goal 기능 추가",
+      "summary": "\nClaude Code에 목표 기반 자동 반복 실행 명령 /goal이 추가되어, 목표가 완료될 때까지 Claude가 여러 턴을 자동으로 실행하고 각 턴 종료 후 fast 모델로 완료 여부를 평가하는 'run-until-done' 스타일 워크플로를 지원함.",
+      "url": "https://news.hada.io/topic?id=29428",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code just shipped a \"run until done\" mode. Upgrade to v2.1.139 for /goal.",
+      "summary": "\n레딧 사용자가 공개한 업데이트 요약: Claude Code의 /goal 명령으로 완료 조건을 설정하면 에이전트가 목표 달성까지 비동기적으로 계속 실행되며, 새로 추가된 'claude agents' 뷰로 모든 세션 상태(작동·차단·완료)를 한눈에 볼 수 있게 됨.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tatxau/claude_code_just_shipped_a_run_until_done_mode/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "PSA: If your project has an ANTHROPIC_API_KEY in any .env file, Claude Code will silently bill your API account instead of your Max plan — Anthropic calls it \"intentional functionality\"",
+      "summary": "\n레딧 사용자가 보고: Claude Code가 실행 시 작업 디렉터리의 .env에서 ANTHROPIC_API_KEY를 발견하면 OAuth 구독 대신 해당 API 키로 청구를 수행함(사전 경고·알림 없이). 헤드리스·CI 환경에서 의도치 않은 비용 발생 위험 있음; 실행 전 환경변수 정리 권고.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tbaq2d/psa_if_your_project_has_an_anthropic_api_key_in/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "TUI to actually see what Claude Code is doing: cost, loops, tool commands…",
+      "summary": "\n오픈소스 도구(node9-proxy)로 Claude Code·Codex CLI·Cursor 등 에이전트 활동을 실시간으로 시각화—비용, 루프 탐지, 도구 호출, 위험 명령·민감 경로 표출, 과거 범위 리포트 등으로 에이전트 운영 가시성·보안·비용 추적을 제공함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tb669z/tui_to_actually_see_what_claude_code_is_doing/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "I built a Claude Code plugin that actually enforces your rules instead of hoping the model follows them",
+      "summary": "\nWrit이라는 플러그인은 관련 규칙만 검색해 컨텍스트에 집어넣는 검색 파이프라인과 bash 훅 기반의 강제 집행 레이어를 결합 — 에이전트가 계획 및 테스트 스켈레톤 승인을 받기 전에는 코드 작성·도구 실행을 차단하고 실제 정적분석·린터로 '따랐음'을 검증함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tb047p/i_built_a_claude_code_plugin_that_actually/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "we built a free DESIGN.md extractor for Claude Code, stops it from guessing your brand tokens",
+      "summary": "\n웹 URL을 넣으면 CSS 변수·타이포·Tailwind 토큰·컴포넌트 패턴을 추출해 DESIGN.md 규격의 디자인 시스템 스펙을 자동 생성하는 도구 — 에이전트가 디자인 토큰을 추측해 잘못 적용하는 문제를 줄여주는 실용적 보조 툴.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tb32v2/we_built_a_free_designmd_extractor_for_claude/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor + Opus 4.6 entered an infinite generation loop: 3,400 lines, 294 attempts to stop itself",
+      "summary": "\n사용자가 보고: Cursor에서 Opus 4.6을 사용하던 중 모델이 자기강화형 사과·종결 루프에 빠져 수천 라인에 걸쳐 멈추지 않는 현상이 발생 — 에이전트·렌더러·모델 조합에서의 안전·중단 동작 취약점을 시사함.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tb95ys/cursor_opus_46_entered_an_infinite_generation/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Cursor wiped my entire C: drive user folder! devs have known about this massive bug for 2+ months and haven't fixed it",
+      "summary": "\n심각 인시던트: Cursor 에이전트가 실행 중 잘못된 루트 경로를 대상으로 하는 재귀 삭제 명령을 수행해 사용자의 Documents/Desktop 등 대량 파일을 삭제함. 포럼에선 해당 이슈가 수개월 전부터 보고되어 왔으며 자동 실행 모드 끄기 권장만 안내된 상태—로컬 에이전트의 파괴적 명령 통제 문제를 부각.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tbi21l/cursor_wiped_my_entire_c_drive_user_folder_devs/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Add Autonomous “Goal Mode” Similar to Claude Code’s /goal",
+      "summary": "\nCursor 사용자 제안: Claude Code의 /goal과 유사한 자율 목표 모드를 도입해 에이전트가 명시적 완료 조건까지 자체 실행하도록 해달라는 요청 — 에이전트 자동화·관리성 관련 기능 수요를 보여줌.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tbd5tt/add_autonomous_goal_mode_similar_to_claude_codes/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "MemoryMarket / Agent Memory Protocol (from reddit-cursor post)",
+      "summary": "\n에이전트 메모리를 패키징·서명·교환하는 오픈 프로토콜(AMP)과 마켓플레이스 제안 — 사용자의 에이전트 학습·결정 기록을 재사용·판매·수입원화하려는 시도로, 에이전트 기반 지식 자산화·상호운용성 문제를 다룸.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tbd9uw/question_for_fellow_cursor_users_would_you_ever/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan",
+      "summary": "\nGitHub 블로그 공지: 6월 1일부터 개인용 Copilot 플랜이 변경돼 Pro/Pro+에 유연 할당(flex allotments)을 도입하고 새로운 Max 플랜을 출시함 — 코파일럿 요금·사용 모델 변화가 개발자 도구 시장에 미칠 영향 관련.",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows [R][N]",
+      "summary": "\nTabPFN-3 공개: 사전학습된 테이블형 파운데이션 모델로 최대 100만 행까지 단일 포워드 패스 예측을 목표로 하며 속도·정확도 개선과 새로운 배포 경로(API·엔터프라이즈·오픈 가중치)를 제시함 — 비전/텍스트 중심이 아닌 테이블형 파운데이션 모델의 확장 사례.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ]
+}
