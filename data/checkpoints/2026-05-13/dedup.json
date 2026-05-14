@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "title": "Needle - Gemini 도구 호출을 증류한 2600만 파라미터 모델",
+      "summary": "\nNeedle은 Gemini 3.1을 2,600만 파라미터 Simple Attention Network로 증류한 실험적 소형 모델로, Mac/PC에서 로컬 파인튜닝이 가능하며 휴대폰·스마트워치·안경 같은 소비자 기기에서 작동하는 개인 AI 단일 실행을 목표로 함.",
+      "url": "https://news.hada.io/topic?id=29466",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Everything Claude Code 스킬 183개를 Gemini CLI & Antigravity로 마이그레이션",
+      "summary": "\nClaude Code용 인기 설정 모음 'Everything Claude Code'(ECC, ★181k)를 Gemini 생태계(명령줄 도구·Antigravity)로 이식한 사례 소개 — 에이전틱 워크플로·스킬 호환성 문제와 실무적 마이그레이션 경험을 다룸.",
+      "url": "https://news.hada.io/topic?id=29465",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "The AI Agent Complexity Ratchet: Why 90% Test Coverage Is Required",
+      "summary": "\nGarry Tan이 AI 에이전트(Codex, Claude 등)와 함께 오픈소스 프로젝트를 운영한 경험을 정리하며, 에이전틱 개발이 코드·테스트·오케스트레이션 복잡성을 증폭시키므로 매우 높은 테스트 커버리지와 엔지니어링 규율이 필요하다고 주장함.",
+      "url": "https://news.hada.io/topic?id=29462",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "\"클로드 90% 할인\"의 정체, 알고 보니 AI 학습 데이터 탈취 통로였습니다",
+      "summary": "\nAnthropic의 생성형 모델 Claude가 중국 암시장에서 공식 가격의 약 10% 수준으로 유통되는 정황이 보고되었으며, 단순 불법 재판매를 넘어 학습 데이터·접근권 탈취 및 보안 문제의 통로가 될 우려가 제기됨.",
+      "url": "https://news.hada.io/topic?id=29461",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "새로운 Mac 스틸러가 Claude에서 Apple 지원으로 위장하고 있습니다",
+      "summary": "\n공유된 Claude 채팅창을 악용한 공격 사례 보고 — 공격자들이 Apple Support로 사칭해 '클로드 코드(Claude Code)' 설치를 유도하고 맥에 정보 탈취용 악성코드를 설치하는 수법을 사용하고 있어 주의가 필요함.",
+      "url": "https://news.hada.io/topic?id=29456",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic, Claude에게 \"왜\"를 가르치다 - 정렬 훈련(Alignment Training) 개선 사례",
+      "summary": "\nAnthropic이 이전에 보고된 에이전트 정렬 실패 사례(모델이 셧다운을 피하기 위해 엔지니어를 협박 등)를 바탕으로 정렬 훈련을 개선한 후속 결과를 공개 — 최신 모델들에서 비정렬 행동 비율이 크게 감소했다고 보고함.",
+      "url": "https://news.hada.io/topic?id=29455",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "DeepSeek-TUI - 터미널에서 실행되는 DeepSeek 모델용 코딩 에이전트",
+      "summary": "\nDeepSeek V4 기반의 터미널 중심 코딩 에이전트로 파일 편집·셸 실행·Git 관리·웹 검색·서브 에이전트 조율을 키보드 중심 TUI에서 수행하며, '--model auto'로 매 턴마다 모델과 사고 수준을 자동 선택하는 기능을 제공함.",
+      "url": "https://news.hada.io/topic?id=29447",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Gemini Intelligence - Android에 선제적 AI 기능 도입",
+      "summary": "\nGoogle이 Android를 '지능형 시스템'으로 전환하는 일환으로 Gemini Intelligence라는 운영체제 수준의 선제적 AI 기능 세트를 최신 기기에 통합한다고 발표 — 멀티스텝 작업 자동화, 웹 요약, 폼 자동 입력 등 사용자의 반복 작업을 대신 수행하려는 시도.",
+      "url": "https://news.hada.io/topic?id=29446",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "What we learned using AI agents to refactor a monolith",
+      "summary": "\n1Password가 AI 에이전트를 활용해 모놀리식 코드베이스를 리팩터링한 경험과 교훈(작업 분해·검증·한계·신뢰성 관리)을 정리한 사례 연구 성격의 글.",
+      "url": "https://1password.com/blog/what-we-learned-using-ai-agents-to-refactor-a-monolith",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI Daybreak",
+      "summary": "\nOpenAI의 'Daybreak' 페이지(제품/프로젝트 발표 페이지). 입력 항목에선 링크만 제공되어 구체적 내용은 원문 참조가 필요함.",
+      "url": "https://openai.com/daybreak/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "summary": "\nOpenAI가 Windows에서 Codex(코딩 에이전트)를 안전하게 실행하기 위해 파일 접근·네트워크 제약 등을 포함한 샌드박스 설계와 구현을 설명 — 데스크톱 환경에서 Codex 기반 도구를 통합·운용할 때의 보안·운영 인프라 사례.",
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "date": "2026-05-13",
+  "items": [
+    {
+      "source_id": "geeknews-hada",
+      "title": "Quack: DuckDB 클라이언트-서버 프로토콜",
+      "url": "https://news.hada.io/topic?id=29477",
+      "summary": "<ul>\n<li><strong>Quack</strong>은 DuckDB 인스턴스 간 통신을 제공해 클라이언트-서버 구성과 여러 동시 작성자의 같은 데이터베이스 사용을 가능하게 함</li>\n<li>DuckDB는 <strong>인프로세스 아키텍처</strong>를 유지하면서, 여러 프로세스가 같은 파일을 수정할 때 필요한 상태 동기화를 원격 프로토콜로 처리함...</p>",
+      "published": "2026-05-13T22:49:47+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "NYT, Atlantic, USA Today에 Wayback Machine을 유지하라고 요구하기",
+      "url": "https://news.hada.io/topic?id=29476",
+      "summary": "<ul>\n<li><strong>New York Times, The Atlantic, USA Today</strong> 등 주요 언론사가 Wayback Machine의 뉴스 보존을 차단하고 있어 중단 요구가 나옴</li>\n<li>주요 미디어 리더들은 Internet Archive와 협력해 <strong>모든 뉴스</strong>를 Wayback Machine에 보존하겠다고 공개 약속해야 함</li>\n<li>2026년은 30...</p>",
+      "published": "2026-05-13T22:46:47+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 못친소 대결 BetterThanYou",
+      "url": "https://news.hada.io/topic?id=29475",
+      "summary": "<p>AI가 얼굴 비주얼 승자를 골라주고 외모 능력치를 분석해주는 Better Than You를 소개합니다!</p>\n<p>주위에 대결을 붙여보고 싶은 상대가 있나요? 솔직히 내가 너보다 낫다 싶은가요? 나온 프사중에 뭐가 좋을지 비교해보고 싶은가요??<br />\n바이브코딩하던중에 바로 터미널 tmux 한켠에 드래그앤 드롭을 하세요! 그",
+      "published": "2026-05-13T17:43:41+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "텍스트를 미래적으로 보이게 만드는 방법 (2016)",
+      "url": "https://news.hada.io/topic?id=29474",
+      "summary": "<ul>\n<li><strong>Eurostile Bold Extended</strong>만으로도 영화적 시대감을 만들 수 있지만, 여섯 가지 변형을 더하면 텍스트가 훨씬 더 미래적으로 보임</li>\n<li>단순한 산세리프 텍스트에서 시작해 <strong>이탤릭 기울기</strong>와 곡선·각진 형태 변형으로 2020년과 2035년의 분위기를 더함</li>\n<li>일부 글자...</p>",
+      "published": "2026-05-13T16:36:09+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 건강을 위한 운동을 시작한다면",
+      "url": "https://news.hada.io/topic?id=29473",
+      "summary": "<p>안녕하세요.<br />\n많은 현대인들처럼 저도 컴퓨터앞에 앉아서 하는 일을 하고있고 운동같은 건강관리에 관심이 없어 몸이 많이 무너지고 나서야 운동을 시작했습니다.<br />\n수년간 재활, 필라테스, pt, 병원 등등 다녀보고 공부해본걸로 주변사람들한테 이거해봐 저거해봐 조언해줄 정도는 되었고 그러면서 쉽게 참...</p>",
+      "published": "2026-05-13T13:16:08+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Fly.Board - C로 만든 고성능 HTTP/3 블로그 엔진",
+      "url": "https://news.hada.io/topic?id=29472",
+      "summary": "<p>Spring의 복잡도와 WordPress의 무거움에 지친 개발자가 C11/C23으로 직접 구현한 블로그 엔진, <strong>Fly.Board</strong>입니다. HTTP/3(QUIC) over TLS 1.3 환경에서 단일 바이너리로 C10k를 소화하는 성능을 확인하여 공유합니다.</p>\n<h4>핵심 특징</h4>\n<ul>\n<li><strong>Minimalist Stack</strong>: 자체 프레",
+      "published": "2026-05-13T12:59:27+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "OrcaSlicer-bambulab - Bambu Lab 프린터를 위한 전체 BambuNetwork 지원 복원",
+      "url": "https://news.hada.io/topic?id=29468",
+      "summary": "<ul>\n<li><strong>OrcaSlicer-bambulab</strong>은 Bambu Lab 프린터에서 <strong>BambuNetwork</strong> 전체 지원을 복원한 OrcaSlicer 버전임</li>\n<li>LAN 전용으로 제한되지 않고, 이전처럼 <strong>인터넷을 통해 BambuNetwork</strong>로 동작함</li>\n<li>일반적인 사용과 출력에 필요한 <strong>전체 기능</p>",
+      "published": "2026-05-13T10:36:29+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Needle - Gemini 도구 호출을 증류한 2600만 파라미터 모델",
+      "url": "https://news.hada.io/topic?id=29466",
+      "summary": "<ul>\n<li><strong>Needle</strong>은 Gemini 3.1을 2600만 파라미터 <strong>Simple Attention Network</strong>로 증류한 실험적 모델이며, Mac/PC에서 로컬 파인튜닝까지 가능함</li>\n<li>목표는 휴대폰, 시계, 안경 같은 <strong>소비자 기기</strong>에서 쓰는 작은 AI를 재정의하는 것이며, 개인 AI용 단일 실행 도...</p>",
+      "published": "2026-05-13T08:37:45+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Everything Claude Code 스킬 183개를 Gemini CLI &amp; Antigravity로 마이그레이션",
+      "url": "https://news.hada.io/topic?id=29465",
+      "summary": "<p>최근에 Claude Code용 &quot;Everything Claude Code&quot; (ECC, ⭐181k) 라는 인기 설정 모음을 보게 되었습니다.<br />\n2025년 9월, Anthropic x Forum Ventures 해커톤에서 우승한 작품이죠.</p>\n<p>저도 사용해보고 싶었습니다. 하지만 아쉽게도 저는 Gemini를 메인으로 사용하고 있었습니다. 하지만 ECC는 Gemi",
+      "published": "2026-05-13T08:08:25+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Gram 2.0.0 출시 - 편집기",
+      "url": "https://news.hada.io/topic?id=29464",
+      "summary": "<ul>\n<li><strong>기본 설정</strong>이 더 합리적으로 바뀌어 상대 줄 번호 기본 활성화, 아이콘 기본 비활성화 같은 혼란스러운 동작이 수정됐지만, 이 변경 때문에 <strong>호환성 깨짐</strong>이 있는 메이저 버전으로 올라감</li>\n<li><strong>언어 서버 자동 업데이트</strong>가 기본 비활성화되어, ESLint가 더...</p>",
+      "published": "2026-05-13T08:03:18+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "BusyBox란 무엇인가?",
+      "url": "https://news.hada.io/topic?id=29463",
+      "summary": "<ul>\n<li><strong>BusyBox</strong>는 여러 명령을 하나의 실행 파일에서 제공하는 <strong>멀티콜 바이너리</strong>로, Alpine의 기본 <code>wget</code>도 BusyBox를 통해 실행됨</li>\n<li>Alpine 컨테이너의 <code>/usr/bin/wget</code>은 실제 바이너리가 아니라 <code>/bin/busybox</code>를 가리키는 <strong>심볼...</p>",
+      "published": "2026-05-13T07:02:51+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "The AI Agent Complexity Ratchet: Why 90% Test Coverage Is Required",
+      "url": "https://news.hada.io/topic?id=29462",
+      "summary": "<h2>AI 코딩 시대의 복잡성 래칫(Complexity Ratchet) - Garry Tan의 에세이 요약</h2>\n<p>게리 탄(Garry Tan, Y Combinator CEO)이 X에 공유한 장문의 에세이로, 지난 1년간 AI 에이전트(Claude Code, Codex 등)와 함께 두 개의 오픈소스 프로젝트를 만든 경험을 정리한 글입니다. 약 97만 줄의 코드와 665개의 테스트 ...</p>",
+      "published": "2026-05-13T05:50:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "&quot;클로드 90% 할인&quot;의 정체, 알고 보니 AI 학습 데이터 탈취 통로였습니다",
+      "url": "https://news.hada.io/topic?id=29461",
+      "summary": "<p>안녕하세요. 오늘은 조금 흥미로우면서도 우려스러운 소식 하나 소개해 드립니다. 앤스로픽(Anthropic)의 생성형 AI 모델 클로드(Claude) 가 중국 암시장에서 공식 가격의 약 10% 수준, 즉 90% 할인된 가격으로 유통되고 있다는 사실이 밝혀졌습니다. 단순한 불법 재판매라면 그러려니 할 수도 있겠지만, 진짜 문제는...</p>",
+      "published": "2026-05-13T05:36:52+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "시니어 개발자가 전문성을 전달하지 못하는 이유",
+      "url": "https://news.hada.io/topic?id=29459",
+      "summary": "<ul>\n<li><strong>시니어 개발자</strong>와 비개발자는 AI 에이전트가 개발자를 대체한다는 같은 문장을, 안정성과 시장 학습이라는 서로 다른 기준으로 받아들임</li>\n<li>비즈니스 조직은 빠르게 출시해 피드백을 얻고 <strong>불확실성</strong>을 줄이려 하지만, 시니어 개발자는 시스템을 망가뜨리는 복잡성 증가를...</p>",
+      "published": "2026-05-13T04:38:51+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "고급 수학에서의 교육 문제",
+      "url": "https://news.hada.io/topic?id=29458",
+      "summary": "<ul>\n<li>초중등 수학의 <strong>부실한 설명</strong>은 학생을 수학에서 멀어지게 만들고, 강한 동기가 있는 학생만 남는 결과로 이어질 수 있음</li>\n<li>고급 수학 교재의 많은 증명은 완전한 증명보다 <strong>상위 수준 개요</strong>에 가까워, 학생이 각 줄의 정당화를 직접 메워야 함</li>\n<li>Stewart의 </p>",
+      "published": "2026-05-13T04:03:00+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "하늘, 일몰, 행성 렌더링",
+      "url": "https://news.hada.io/topic?id=29457",
+      "summary": "<ul>\n<li>브라우저 셰이더가 <strong>Rayleigh 산란</strong>, Mie 산란, 오존 흡수를 조합해 파란 하늘과 일몰·일출을 실시간 렌더링함</li>\n<li>카메라 광선의 <strong>광학 깊이</strong>와 Beer's Law 투과율을 누적하고, 위상 함수로 태양 방향에 따른 산란 분포를 계산함</li>\n<li>일몰 효과는 각 샘플에서 태양 방...</p>",
+      "published": "2026-05-13T03:46:03+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "새로운 Mac 스틸러가 Claude에서 Apple 지원으로 위장하고 있습니다",
+      "url": "https://news.hada.io/topic?id=29456",
+      "summary": "<p>보안 연구원들과 'Bleeping Computer'는 최근 맥 사용자를 겨냥한 새로운 공격 방식을 발견했습니다. 공격자들은 공유된 클로드(Claude) 채팅창 내에서 애플 지원팀(Apple Support)을 사칭하며, 맥에 '클로드 코드(Claude Code)' 소프트웨어를 설치하는 방법을 안내하며 접근합니다.</p>\n<h4>공격 방식 및 특징</h4>",
+      "published": "2026-05-13T02:14:12+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Anthropic, Claude에게 &quot;왜&quot;를 가르치다 - 정렬 훈련(Alignment Training) 개선 사례",
+      "url": "https://news.hada.io/topic?id=29455",
+      "summary": "<p>Anthropic이 작년 공개했던 에이전트 정렬 실패(agentic misalignment) 연구 - 모델이 셧다운을 피하기 위해 엔지니어를 협박하는 등의 행동을 보였던 사례 - 의 후속 개선 내용을 공개함. Claude 4 Opus는 협박 시나리오에서 최대 96%의 비율로 정렬 실패 행동을 보였으나, Claude Haiku 4.5 이후 모든 모델(Haiku 4...</p>",
+      "published": "2026-05-13T01:33:56+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Canvas 운영사 Instructure, 해킹범에게 몸값 지불",
+      "url": "https://news.hada.io/topic?id=29454",
+      "summary": "<ul>\n<li>Instructure는 학습관리시스템 <strong>Canvas</strong>를 두 차례 침해한 <strong>ShinyHunters</strong>에 몸값(Ransom)을 지급하고 복구 합의를 맺음</li>\n<li>합의에 따라 해커들이 <strong>8,800개 이상 기관</strong>의 약 2억7,500만 명 사용자 관련 침해 데이터를 반환했다고 밝힘</li>\n<li>Instructur...</p>",
+      "published": "2026-05-13T01:19:17+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "EU, 아동을 겨냥한 TikTok·Instagram의 ‘중독적 설계’ 단속 추진",
+      "url": "https://news.hada.io/topic?id=29453",
+      "summary": "<ul>\n<li>EU 집행위원회는 올해 후반 TikTok과 Instagram의 <strong>중독적 설계</strong> 기능을 겨냥한 규제 조치를 추진할 계획임</li>\n<li>대상에는 TikTok의 <strong>무한 스크롤</strong>, 자동 재생, 푸시 알림처럼 어린이 이용을 붙잡는 기능이 포함됨</li>\n<li>Meta는 Instagram과 Facebook에서 자체 <strong>최...</p>",
+      "published": "2026-05-13T01:09:34+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "소프트웨어 아키텍처 배우기",
+      "url": "https://news.hada.io/topic?id=29452",
+      "summary": "<ul>\n<li><strong>소프트웨어 설계</strong>는 강의보다 실제 프로젝트에서 책임을 맡고 문제가 자기 일이 될 때 더 깊게 배워짐</li>\n<li><strong>Conway’s Law</strong>는 소프트웨어가 조직의 사회적 구조를 반복한다는 관점이며, 과학 코드와 산업 코드의 차이도 인센티브에서 생길 수 있음</li>\n<li>rust-analyzer...</p>",
+      "published": "2026-05-13T01:06:34+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Redis와 야망의 대가",
+      "url": "https://news.hada.io/topic?id=29451",
+      "summary": "<ul>\n<li>Redis는 2026년 <strong>array type</strong> PR까지 검토하며, 단순한 데이터 구조 서버에서 여러 영역을 포괄하는 제품으로 변해왔음</li>\n<li>초기 Redis는 <strong>Remote Dictionary Server</strong>답게 빠른 인메모리 딕셔너리, 좁은 명령, 단순한 프로토콜로 웹 스택에 빠르게 자리 잡았음</li>\n<li>지...</p>",
+      "published": "2026-05-13T01:04:51+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "They Live Adblocker - 영화 They Live(1988)에서 영감을 받은 광고 차단기",
+      "url": "https://news.hada.io/topic?id=29450",
+      "summary": "<ul>\n<li>They Live Adblocker는 <a href=\"https://github.com/uBlockOrigin/uBOL-home\">uBlock Origin Lite</a>의 포크로, 꾸미기 필터로 차단된 광고를 숨기는 대신 <em>They Live</em>의 구호가 적힌 <strong>흰색 타일</strong>로 바꿔줌</li>\n<li>광고마다 <strong>OBEY</strong>, <strong>CONSUME</strong>, </p>",
+      "published": "2026-05-13T01:03:34+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "오래된 데스크톱 OS들의 스크린샷",
+      "url": "https://news.hada.io/topic?id=29449",
+      "summary": "<ul>\n<li>1983년 <strong>Visi On 1.0</strong>부터 2001년 <strong>Mac OS X 10.1</strong>까지 PC GUI, 워크스테이션, UNIX 데스크톱 화면을 연대순으로 모은 컬렉션임</li>\n<li>SunTools, HP-UX, GEM, Arthur, Amiga HAM, VAX VWS 등 초기 항목은 <strong>GUI 실험기</strong>의 해상도·색상·하드웨어 제약을 함께 드...</p>",
+      "published": "2026-05-13T01:00:34+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Bambu Lab이 오픈소스 사회적 계약을 악용하고 있음",
+      "url": "https://news.hada.io/topic?id=29448",
+      "summary": "<ul>\n<li>Jeff Geerling은 <strong>Bambu Lab</strong>이 항상 연결되는 클라우드를 기본값으로 밀자 P1S의 인터넷을 차단하고 OrcaSlicer로 전환함</li>\n<li><strong>OrcaSlicer</strong>는 Bambu Studio, Prusa Slicer, slic3r로 이어지는 AGPLv3 계보의 포크이며, Bambu 클라우드 없는 사용을 가능하게 해줌</li>\n</p>",
+      "published": "2026-05-13T00:57:34+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "DeepSeek-TUI - 터미널에서 실행되는 DeepSeek 모델용 코딩 에이전트",
+      "url": "https://news.hada.io/topic?id=29447",
+      "summary": "<ul>\n<li>DeepSeek V4 모델 기반 <strong>터미널 코딩 에이전트</strong>로, 파일 편집·셸 실행·Git 관리·웹 검색·서브 에이전트 조율을 키보드 중심 TUI에서 수행</li>\n<li><code>--model auto</code>로 매 턴마다 <strong>모델(deepseek-v4-pro/flash)과 사고 수준(off/high/max)을 자동 선택</strong> — 경량 Flash ...</p>",
+      "published": "2026-05-13T00:46:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Gemini Intelligence - Android에 선제적 AI 기능 도입",
+      "url": "https://news.hada.io/topic?id=29446",
+      "summary": "<ul>\n<li>Android가 운영체제에서 <strong>지능형 시스템</strong>으로 전환하며, Gemini Intelligence라는 새로운 <strong>Proactive AI</strong> 기능 세트를 최신 기기에 통합</li>\n<li>멀티스텝 작업 자동화, 웹 콘텐츠 요약, 폼 자동 입력 등 일상의 번거로운 작업을 <strong>Gemini가 대신 처리</strong></li>\n</p>",
+      "published": "2026-05-13T00:35:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "goshs - 개발자를 위한 다기능 단일 바이너리 파일 서버",
+      "url": "https://news.hada.io/topic?id=29445",
+      "summary": "<ul>\n<li><code>python3 -m http.server</code>의 한계를 넘어, <strong>단일 바이너리 하나로</strong> HTTP/S, WebDAV, SFTP, SMB, LDAP/S 등 다양한 프로토콜을 즉시 구동 가능한 파일 서버</li>\n<li>Apache 같은 별도 설정 없이 <strong>하나의 명령어</strong>로 HTTPS 서빙, 인증, 파일 공유까지 처리</li>\n<li>Ba...</p>",
+      "published": "2026-05-13T00:31:01+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Unitree GD01: 중국의 $537k(8억원) 탑승형 변신 로봇이 양산에 들어감",
+      "url": "https://news.hada.io/topic?id=29444",
+      "summary": "<ul>\n<li><strong>Unitree Robotics</strong>가 탑승형 로봇인 GD01을 출시했으며, 세계 최초의 양산형 유인 메크 슈트로 내세움</li>\n<li>GD01 시작 가격은 <strong>390만 위안</strong>(약 $537k, 8억원)이며 현재 판매 범위는 중국 내 시장으로 제한</li>\n<li>GD01은 조종자 포함 약 <strong>500kg</strong>이며, 두 ...</p>",
+      "published": "2026-05-13T00:30:21+00:00"
+    },
+    {
+      "source_id": "github-blog-ai",
+      "title": "Dungeons & Desktops: 10 roguelikes that never die (because their communities won’t let them)",
+      "url": "https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them/",
+      "summary": "<p>Roguelikes don’t die. They fork, mutate, get argued over, rewritten, abandoned, and revived again. Sometimes all at once.</p>\n<p>The post <a href=\"https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them/\">Dungeons &amp; Desktops: 10 roguelikes that never die (because their communities won’t let them)</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-05-13T16:00:00+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Solar Power Is So Big in Europe That Electricity Is Being Wasted",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-13/europe-solar-power-wasted-as-electricity-grids-fail-to-handle-surge",
+      "summary": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-05-13/europe-solar-power-wasted-as-electricity-grids-fail-to-handle-surge\">https://www.bloomberg.com/news/articles/2026-05-13/europe-solar-power-wasted-as-electricity-grids-fail-to-handle-surge</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129303\">https://news.ycombinator.com/item?id=48129303</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:55:52+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Childhood and Education #18: Do the Math",
+      "url": "https://thezvi.substack.com/p/childhood-and-education-18-do-the",
+      "summary": "<p>Article URL: <a href=\"https://thezvi.substack.com/p/childhood-and-education-18-do-the\">https://thezvi.substack.com/p/childhood-and-education-18-do-the</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129230\">https://news.ycombinator.com/item?id=48129230</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:48:11+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Fragnesia: Linux Kernel Local Privilege Escalation via ESP-in-TCP",
+      "url": "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp",
+      "summary": "<p>Article URL: <a href=\"https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp\">https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129227\">https://news.ycombinator.com/item?id=48129227</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:47:53+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Cyber Lack of Security and AI Governance",
+      "url": "https://thezvi.substack.com/p/cyber-lack-of-security-and-ai-governance",
+      "summary": "<p>Article URL: <a href=\"https://thezvi.substack.com/p/cyber-lack-of-security-and-ai-governance\">https://thezvi.substack.com/p/cyber-lack-of-security-and-ai-governance</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129225\">https://news.ycombinator.com/item?id=48129225</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:47:44+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "OpenAI Daybreak",
+      "url": "https://openai.com/daybreak/",
+      "summary": "<p>Article URL: <a href=\"https://openai.com/daybreak/\">https://openai.com/daybreak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129209\">https://news.ycombinator.com/item?id=48129209</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:45:37+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Marx's Theory of Alianation of Labor",
+      "url": "https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation",
+      "summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation\">https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129146\">https://news.ycombinator.com/item?id=48129146</a></p>\n<p>Points: 3</p>\n<p># Comments: 2</p>",
+      "published": "2026-05-13T23:38:28+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Where the Microsoft-OpenAI economics currently stand, incl capex",
+      "url": "https://twitter.com/amir/status/2054669172240707676",
+      "summary": "<p>Article URL: <a href=\"https://twitter.com/amir/status/2054669172240707676\">https://twitter.com/amir/status/2054669172240707676</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129136\">https://news.ycombinator.com/item?id=48129136</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:37:52+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Nick and Tristan's Interview with Tyler Cowen",
+      "url": "https://www.outrageousfortune.ca/p/nick-and-tristans-interview-with",
+      "summary": "<p>Article URL: <a href=\"https://www.outrageousfortune.ca/p/nick-and-tristans-interview-with\">https://www.outrageousfortune.ca/p/nick-and-tristans-interview-with</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129092\">https://news.ycombinator.com/item?id=48129092</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:33:43+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Xkcd 3233 – Make It Myself",
+      "url": "https://xkcd.com/3233/",
+      "summary": "<p>Article URL: <a href=\"https://xkcd.com/3233/\">https://xkcd.com/3233/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129091\">https://news.ycombinator.com/item?id=48129091</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published": "2026-05-13T23:33:37+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "What we learned using AI agents to refactor a monolith",
+      "url": "https://1password.com/blog/what-we-learned-using-ai-agents-to-refactor-a-monolith",
+      "summary": "<p>Article URL: <a href=\"https://1password.com/blog/what-we-learned-using-ai-agents-to-refactor-a-monolith\">https://1password.com/blog/what-we-learned-using-ai-agents-to-refactor-a-monolith</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129089\">https://news.ycombinator.com/item?id=48129089</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:33:13+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Petri – Drop-in Postgres image that forks a DB per test",
+      "url": "https://github.com/taktekhq/petri",
+      "summary": "<p>Rolling it out at work to parallelize 4,257 tests across 5 services. It fixes our tests running in band and DB mocking in API tests.<p>It's a drop-in Postgres image, with a Golang proxy. :5432 is passthrough, :5433 forks the DB per conn (CREATE DATABASE … TEMPLATE …, dropped on disconnect).<p>If you use it, let me know what you like or don't like, so I can make it better. Cheers!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48129073\">https://news.ycombinator.com/item?id=48129073</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:32:06+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "AI, Player-Coaches, and Fixing the Management Problem",
+      "url": "https://www.axamy.com/blog/ai-player-coaches-and-fixing-the-management-problem",
+      "summary": "<p>Article URL: <a href=\"https://www.axamy.com/blog/ai-player-coaches-and-fixing-the-management-problem\">https://www.axamy.com/blog/ai-player-coaches-and-fixing-the-management-problem</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128935\">https://news.ycombinator.com/item?id=48128935</a></p>\n<p>Points: 1</p>\n<p># Comments: 15</p>",
+      "published": "2026-05-13T23:17:12+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Not Forgotten – Maui Fire Relief – StartUp Non-Profit-Documentary [video]",
+      "url": "https://www.youtube.com/watch?v=uXSO3iehL9U",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=uXSO3iehL9U\">https://www.youtube.com/watch?v=uXSO3iehL9U</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128930\">https://news.ycombinator.com/item?id=48128930</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:16:56+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Showing the same info in 248 different UI",
+      "url": "https://whoareyou.infiniwa.com/",
+      "summary": "<p>Article URL: <a href=\"https://whoareyou.infiniwa.com/\">https://whoareyou.infiniwa.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128929\">https://news.ycombinator.com/item?id=48128929</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:16:50+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "The anti-minimalist backlash is the bigger story behind Oxygen's revival",
+      "url": "https://filipfila.wordpress.com/2026/05/10/the-anti-minimalist-backlash-is-the-bigger-story-behind-oxygens-revival/",
+      "summary": "<p>Article URL: <a href=\"https://filipfila.wordpress.com/2026/05/10/the-anti-minimalist-backlash-is-the-bigger-story-behind-oxygens-revival/\">https://filipfila.wordpress.com/2026/05/10/the-anti-minimalist-backlash-is-the-bigger-story-behind-oxygens-revival/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128922\">https://news.ycombinator.com/item?id=48128922</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:16:04+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "The Smartphone Market Is Cracking",
+      "url": "https://asymco.com/2026/05/13/the-smartphone-market-is-cracking/",
+      "summary": "<p>Article URL: <a href=\"https://asymco.com/2026/05/13/the-smartphone-market-is-cracking/\">https://asymco.com/2026/05/13/the-smartphone-market-is-cracking/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128874\">https://news.ycombinator.com/item?id=48128874</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:12:31+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Old film camera can now shoot 4K video, 26MP RAW files without any modifications",
+      "url": "https://www.digitalcameraworld.com/cameras/film-cameras/im-obsessed-with-retro-cameras-this-gadget-looks-like-a-roll-of-film-but-its-actually-an-aps-c-sensor-that-allows-old-cameras-to-shoot-digital-and-even-4k-video",
+      "summary": "<p>Article URL: <a href=\"https://www.digitalcameraworld.com/cameras/film-cameras/im-obsessed-with-retro-cameras-this-gadget-looks-like-a-roll-of-film-but-its-actually-an-aps-c-sensor-that-allows-old-cameras-to-shoot-digital-and-even-4k-video\">https://www.digitalcameraworld.com/cameras/film-cameras/im-obsessed-with-retro-cameras-this-gadget-looks-like-a-roll-of-film-but-its-actually-an-aps-c-sensor-that-allows-old-cameras-to-shoot-digital-and-even-4k-video</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128851\">https://news.ycombinator.com/item?id=48128851</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:11:07+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Intercom changes name to Fin",
+      "url": "https://www.intercom.com/blog/today-intercom-becomes-fin/",
+      "summary": "<p>Article URL: <a href=\"https://www.intercom.com/blog/today-intercom-becomes-fin/\">https://www.intercom.com/blog/today-intercom-becomes-fin/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128842\">https://news.ycombinator.com/item?id=48128842</a></p>\n<p>Points: 15</p>\n<p># Comments: 8</p>",
+      "published": "2026-05-13T23:10:19+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Chinese EVs take the world by storm",
+      "url": "https://www.nbcnews.com/world/asia/chinese-evs-take-world-storm-united-states-rcna344680",
+      "summary": "<p>Article URL: <a href=\"https://www.nbcnews.com/world/asia/chinese-evs-take-world-storm-united-states-rcna344680\">https://www.nbcnews.com/world/asia/chinese-evs-take-world-storm-united-states-rcna344680</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128812\">https://news.ycombinator.com/item?id=48128812</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:08:04+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "MathScroll: Infinitely Scroll Mathematics",
+      "url": "https://projects.ollybritton.com/mathscroll/",
+      "summary": "<p>Article URL: <a href=\"https://projects.ollybritton.com/mathscroll/\">https://projects.ollybritton.com/mathscroll/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48128778\">https://news.ycombinator.com/item?id=48128778</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-05-13T23:04:23+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "published": "2026-05-13T11:00:00+00:00"
+    }
+  ],
+  "sources_run": [
+    "reddit-claudeai",
+    "reddit-cursor",
+    "reddit-ml",
+    "geeknews-hada",
+    "github-blog-ai",
+    "x-agentic-coding",
+    "x-github-copilot",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
+    "hn-newest",
+    "openai-blog",
+    "hn-agentic",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}
