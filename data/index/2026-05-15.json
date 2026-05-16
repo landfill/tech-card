@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "title": "Learning Opportunities - Claude Code와 Codex에서 의도적 기술 개발을 돕는 스킬",
+      "summary": "\nClaude Code 및 Codex를 위한 스킬로, 에이전틱 코딩 과정에서 사용자 전문성(새 파일 생성·스키마 변경·리팩터링 후 10~15분짜리 선택형 학습 제안 등)을 키우도록 설계된 워크플로우·교육적 보조 기능을 소개.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29531",
+      "source_id": ""
+    },
+    {
+      "title": "Codex가 이제 ChatGPT 모바일 앱에 탑재됨",
+      "summary": "\nCodex가 ChatGPT 모바일 앱에 통합되어 노트북·devbox·원격 환경에서 진행 중인 에이전틱 코딩 작업을 스마트폰으로 확인·승인·모니터링할 수 있게 함. 활성 스레드, 승인, 플러그인, 프로젝트 맥락과 실시간 상태를 불러와 여러 기기에서 작업을 이어가게 함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29516",
+      "source_id": ""
+    },
+    {
+      "title": "OpenAI, Codex를 ChatGPT 모바일 앱에 통합 공개",
+      "summary": "\nOpenAI가 Codex를 ChatGPT 모바일(iOS/Android)에 통합해 모바일에서도 원격으로 에이전틱 코딩 작업의 관리·승인·모니터링이 가능해졌음을 공식 발표(소개 글 링크 포함). 모바일 연속성으로 에이전틱 워크플로 접근성이 개선됨.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29514",
+      "source_id": ""
+    },
+    {
+      "title": "arXiv implements 1-year ban for papers containing incontrovertible evidence of unchecked LLM-generated errors, such as hallucinated references or results. [N]",
+      "summary": "\narXiv 운영자(Thomas G. Dietterich) 발표를 인용해, 생성형 AI가 만든 오류(환각 참고문헌 등)를 저자가 확인하지 않고 포함한 논문에 대해 1년 제출 금지 및 이후엔 동료심사된 저널 게재가 조건이 되는 정책을 공지함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/",
+      "source_id": ""
+    },
+    {
+      "title": "ExploitGym: Can AI agents turn bugs into exploits?",
+      "summary": "\narXiv에 제출된 연구(ExploitGym)는 AI 에이전트가 소프트웨어 버그를 찾아 이를 익스플로잇으로 전환하는 가능성을 평가하는 프레임워크를 제안. 에이전틱 에이전트의 보안 리스크와 자동화된 취약점 발견·익스플로잇 생성의 윤리적·운영적 함의를 다룸.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://arxiv.org/abs/2605.11086",
+      "source_id": ""
+    },
+    {
+      "title": "Building a general-purpose accessibility agent—and what we learned in the process",
+      "summary": "\nGitHub 블로그에서 파일·프로젝트 수준에서 동작하는 실험적 범용 접근성 에이전트 파일럿을 소개하고 구축 과정에서 얻은 교훈을 공유. 리포지토리·개발자 워크플로에 통합되는 보조 에이전트 설계 사례로 개발자 도구·에이전트 적용 인사이트를 제공.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/",
+      "source_id": ""
+    },
+    {
+      "title": "I built a free Google search MCP that actually works(searching, fetching, with PDF)",
+      "summary": "\n클라우드 기반 MCP(Multi-Component Provider)로 검색+URL 추출+PDF 자동 처리(abstract 모드 포함)를 제공하는 오픈소스 구현 공개. 검색·추출·PDF 파싱·CAPTCHA 복구 등 실무적 안정성·성능 고려사항을 담은 개발자용 도구 리포지토리.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tdw4us/i_built_a_free_google_search_mcp_that_actually/",
+      "source_id": ""
+    },
+    {
+      "title": "Building something with a lot of code? Tips from Anthropic you might not know about",
+      "summary": "\nClaude Code로 큰 코드베이스를 다룰 때 유용한 실무 팁(예: .ignore 파일 사용, 코드베이스 맵 작성, 모델 변경에 따른 하네스 업데이트, 서브디렉토리 단위 테스트 스코핑 등)을 정리한 글/토론을 요약.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1te13l3/building_something_with_a_lot_of_code_tips_from/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude is telling users to go to sleep mid-session and nobody, including Anthropic, seems to fully understand why it keeps doing it",
+      "summary": "\n사용자 보고들을 모아 Claude가 세션 중 갑자기 '잠을 자라'고 권하는 이상 동작이 수개월 전부터 반복되고 있다는 커뮤니티 사례를 정리(다양한 변형·시간 오차 보고 포함). 모델 행동·안정성·사용자 경험 이슈와 플랫폼 신뢰성 함의를 제기.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1te0mhh/claude_is_telling_users_to_go_to_sleep_midsession/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Mythos has cracked MacOS. It took 5 days.",
+      "summary": "\n사용자/커뮤니티 링크를 통해 WSJ 기사(참조)로 연결되며, Claude/Mythos 계열 모델이 macOS 관련 버그를 찾아내거나 관련 보안 이슈와 연관된 사례가 공유됨. 에이전틱 모델이 보안 리서치·취약점 발견에 미치는 영향과 윤리적 고려를 시사.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tdr1o7/claude_mythos_has_cracked_macos_it_took_5_days/",
+      "source_id": ""
+    },
+    {
+      "title": "Can we use new deepseek models on cursor?",
+      "summary": "\nCursor 사용자 질문으로, 최근 발표된 'DeepSeek' 계열의 경량·효율 모델들을 Cursor에서 사용할 수 있는지, 그리고 사용 시 소비(usage)가 더 낮아지는지 문의—경량 모델 도입이 에이전트 비용 구조에 미치는 실무적 관심을 반영.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tdot2q/can_we_use_new_deepseek_models_on_cursor/",
+      "source_id": ""
+    },
+    {
+      "title": "Switching from Copilot: Is the $20 Pro plan enough for 4h/day of agentic coding?",
+      "summary": "\nCopilot에서 Cursor로 전환을 고려하는 개발자가 하루 4시간, 월 600회 요청 정도의 에이전틱 코딩 사용에 대해 $20 Pro 플랜으로 충분한지, Composer/Agent 기능을 많이 쓸 때 한도·속도 문제는 없는지 묻는 실무 예산·운영 질문.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tdgf7p/switching_from_copilot_is_the_20_pro_plan_enough/",
+      "source_id": ""
+    },
+    {
+      "title": "How to track Token Consumption when using BYOK",
+      "summary": "\n조직에서 제공한 Claude API 키(BYOK)를 Cursor와 함께 쓸 때 토큰 사용량을 추적하는 방법 문의. BYOK 환경에서 소비 추적·계량화가 어려운 실무 문제를 제기.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1tdmlzt/how_to_track_token_consumption_when_using_byok/",
+      "source_id": ""
+    }
+  ]
+}
