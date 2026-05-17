@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "title": "We built a zero-telemetry Native Rust AI engine. (Ghost Lock included)",
+      "summary": "\nGitHub repo for a native Rust AI engine that emphasizes zero-telemetry and privacy (includes a 'Ghost Lock' feature). Community-edition project aimed at local/private inference and developer adoption.",
+      "url": "https://github.com/jrabbass/-esai-community-edition",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Ane: CLI editor that uses LSPs to let agents explore/edit code with fewer tokens",
+      "summary": "\nGitHub project: a CLI editor that leverages Language Server Protocols to let code-editing agents explore and modify code while using fewer tokens—targeted at reducing token costs in agentic coding workflows.",
+      "url": "https://github.com/prettysmartdev/ane",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "프런티어 AI가 공개 CTF 형식을 깨뜨렸다",
+      "summary": "\n프런티어 AI가 공개 온라인 CTF의 쉬운·중간 문제를 자동화해 점수판이 인간 실력을 반영하지 못하게 됨 — 모델이 추론과 풀이 코드 작성까지 수행해 인간은 플래그 복사·붙여넣기만 남기는 수준에 도달함.",
+      "url": "https://news.hada.io/topic?id=29574",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "DeepSeek-V4-Flash로 LLM 조향(Steering)이 다시 흥미로워졌다",
+      "summary": "\nDwarfStar 4와 DeepSeek-V4-Flash 전용 llama.cpp 축소판으로 로컬 모델에서 'LLM 조향' 실험이 쉬워짐 — 조향은 특정 개념 활성화 차이를 벡터로 뽑아 추론 중 같은 층에 더해 행동을 바꾸는 방식임.",
+      "url": "https://news.hada.io/topic?id=29573",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude for Legal  - Anthropic의 법률 업무용 AI 플러그인 모음",
+      "summary": "\n법률 실무 전 영역(계약·소송·M&A·규제 등)을 겨냥한 Anthropic의 Claude 플러그인 스위트 — Claude Cowork·Claude Code·Managed Agents API 형태로 배포 가능하고 70개 이상의 Named Agent 포함, 법률 업무에 특화된 에이전트 애플리케이션 사례.",
+      "url": "https://news.hada.io/topic?id=29557",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "대규모 코드베이스에서 Claude Code가 작동하는 방식 : 모범 사례 및 시작점",
+      "summary": "\nClaude Code는 인덱스 업로드 없이 개발자 머신에서 파일 시스템 탐색·grep·참조 추적으로 라이브 코드베이스를 직접 읽음 — 성능은 모델뿐 아니라 CLAUDE.md, hooks, skills, plugins, MCP 서버로 구성된 하네스와 구축 순서에 좌우됨.",
+      "url": "https://news.hada.io/topic?id=29556",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: Claude Code / Codex CLI 의 무거운 코드 생성을 로컬 LLM 으로 위임하는 Plug-in (tunaLlama)",
+      "summary": "\n토큰 한도·비용 문제로 Claude Code/Codex의 긴 코드 생성 단계를 로컬 LLM으로 위임해 절감하는 위임 도구(tunaLlama)를 소개 — github 링크 포함, 로컬 대체를 통해 비용·토큰 관리에 초점.",
+      "url": "https://news.hada.io/topic?id=29554",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Github 19만스타에 빛나는 Claude Code 플러그인 Superpowers 사용기",
+      "summary": "\nClaude Code 플러그인 Superpowers(깃허브 스타 대규모)가 기획 없이 AI가 폭주하는 문제를 완화하기 위한 접근을 제시 — 사용 경험 중심으로 플러그인이 코딩 워크플로에 미치는 영향 논의.",
+      "url": "https://news.hada.io/topic?id=29552",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I tried to make Claude make me money on open-source bounties",
+      "summary": "\n(프로젝트 문서) Claude를 에이전트로 활용해 오픈소스 바운티를 자동으로 해결·수익화하려는 실험 기록 — 에이전틱 에이전트로 바운티-투입-제출 흐름을 자동화하려는 시도와 경험 공유.",
+      "url": "https://github.com/ztc00/algora-scout/blob/main/POST.md",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I replicated Anthropic's Generator-Evaluator harness to build a website through 12 adversarial AI iterations - here's the result and what I learned",
+      "summary": "\nAnthropic의 Generator↔Evaluator 반복(harness)을 로컬 도구로 재현해 12회 적대적 반복으로 웹사이트를 생성한 사례 — 각 에이전트는 파일로만 통신하고 Evaluator가 Playwright로 실제 동작 검증, 하네스가 결과 품질을 결정한다는 핵심 인사이트.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tf76wp/i_replicated_anthropics_generatorevaluator/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "gave Claude Code persistent memory and after 200 sessions it started swearing at me",
+      "summary": "\nClaude Code 세션 간 지속 메모리·반복적 반영(reflection) 시스템을 도입한 오픈소스 프로젝트 설명 — 세션 누적 학습으로 작업 프레임워크를 형성하고 협업적 동작이 개선되었다고 보고(사례·리포지토리 링크 포함).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1teuspg/gave_claude_code_persistent_memory_and_after_200/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor VS Codex - (Rate Limits)",
+      "summary": "\nCursor 사용자들이 요금제·온디맨드(광고) 사용 시의 rate limit·사용량 차이에 대해 토론 — heavy user 관점에서 토큰·요금제 선택이 개발 생산성에 미치는 실무적 영향 제기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tf6azx/cursor_vs_codex_rate_limits/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "My strategy for development testing in Cursoy",
+      "summary": "\nCursor가 생성한 코드를 대규모로 테스트하는 워크플로 소개 — 긴 프롬프트로 단계별 todo를 만들고 각 단계 요약과 테스트 러너(실제 API 호출·브라우저 내비게이션)를 활용해 에이전트 생성 코드의 E2E 검증을 자동화한 실무 팁 공유.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tf3w6q/my_strategy_for_development_testing_in_cursoy/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ]
+}
