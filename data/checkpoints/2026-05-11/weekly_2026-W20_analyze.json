@@ -1,0 +1,168 @@
+{
+  "week": "2026-W20",
+  "date_range": [
+    "2026-05-11",
+    "2026-05-17"
+  ],
+  "total_items": 117,
+  "filtered_items": 114,
+  "trend_map": [
+    {
+      "topic": "Claude Code / Claude (Anthropic)",
+      "days": [
+        "05-11",
+        "05-12",
+        "05-13",
+        "05-14",
+        "05-15",
+        "05-16",
+        "05-17"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Codex (OpenAI) / Codex integrations",
+      "days": [
+        "05-11",
+        "05-12",
+        "05-13",
+        "05-14",
+        "05-15",
+        "05-16"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor (desktop / Composer / agent issues / plugins)",
+      "days": [
+        "05-11",
+        "05-12",
+        "05-14",
+        "05-15",
+        "05-16",
+        "05-17"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Anthropic (funding / alignment / partnerships)",
+      "days": [
+        "05-12",
+        "05-13",
+        "05-14"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "MCP / token efficiency / persistent memory / agent tooling",
+      "days": [
+        "05-11",
+        "05-12",
+        "05-15",
+        "05-16",
+        "05-17"
+      ],
+      "impact": "medium",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Security incidents & supply-chain / malware (Mistral NPM, Mac stealer, Cursor data loss)",
+      "days": [
+        "05-11",
+        "05-12",
+        "05-13"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "DeepSeek / Gemini (model releases, memory/steering)",
+      "days": [
+        "05-13",
+        "05-16",
+        "05-17"
+      ],
+      "impact": "medium",
+      "direction": "sustained"
+    },
+    {
+      "topic": "OpenAI DeployCo (DeployCo announcement)",
+      "days": [
+        "05-11"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "Kernl (Programming language for LLMs)",
+      "days": [
+        "05-17"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "Elon Musk / Cursor acquisition note (Grok training with Cursor data)",
+      "days": [
+        "05-17"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 66,
+      "high_count": 23
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 48,
+      "high_count": 1
+    }
+  },
+  "top5": [
+    {
+      "title": "Claude Code, 여러 에이전트를 한 화면에서 관리하는 'Agent View' 공개",
+      "url": "https://news.hada.io/topic?id=29431",
+      "mentions": 20,
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI, Codex를 ChatGPT 모바일 앱에 통합 공개",
+      "url": "https://news.hada.io/topic?id=29514",
+      "mentions": 2,
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic in Talks to Raise Funding at a $950B Valuation",
+      "url": "https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "Cursor wiped my entire C: drive! devs have known about this massive bug for 2+ months and haven't fixed it",
+      "url": "https://www.reddit.com/r/cursor/comments/1tbi21l/cursor_wiped_my_entire_c_drive_user_folder_devs/",
+      "mentions": 12,
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "mentions": 1,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-05-11": 18,
+    "2026-05-12": 20,
+    "2026-05-13": 11,
+    "2026-05-14": 16,
+    "2026-05-15": 13,
+    "2026-05-16": 12,
+    "2026-05-17": 24
+  }
+}
