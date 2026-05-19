@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "title": "Scaling LLMs horizontally: hidden-state coupling without weight modification [R]",
+      "summary": "\nResidual Coupling (RC) connects frozen models in parallel with small learned linear bridge projections that read and inject hidden states, enabling horizontal multi-model systems (specialists, edge/parallel execution) without changing base weights; paper and code shared with strong reported gains on some tasks.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgm530/scaling_llms_horizontally_hiddenstate_coupling/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Is the future of coding agents JEPA? [D]",
+      "summary": "\nDiscussion proposing JEPA (Joint Embedding Predictive Architecture) for coding agents: encode repo state into compact representations, predict state transitions and rank actions instead of token-level completion—argues this could make agents far more efficient, local, and stateful.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgq9v2/is_the_future_of_coding_agents_jepa_d/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "summary": "\nOpenAI and Dell announce a partnership to enable Codex deployments in hybrid and on-premises enterprise environments, aiming to let companies run AI coding agents securely across their data and workflows.",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Asmtp – SMTP for Agents",
+      "summary": "\nAsmtp advertises an SMTP-like protocol/service designed for autonomous agents to send/receive messages (agent messaging/integration infrastructure), positioned as an agent-friendly transport layer.",
+      "url": "https://www.asmtp.net/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "My blog was hacked and Claude and I just fixed it",
+      "summary": "\nA first-person post describing using Claude to diagnose and remediate a hacked blog, showing a practical agent/workflow use-case for frontier LLMs assisting with debugging and site recovery.",
+      "url": "https://lengrand.fr/my-blog-was-hacked-and-claude-and-i-just-fixed-it/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Semble - grep보다 토큰을 98% 적게 쓰는 에이전트용 코드 검색",
+      "summary": "\nSemble은 에이전트가 자연어·코드 쿼리로 필요한 코드 청크만 즉시 반환하도록 설계된 코드 검색 라이브러리로, grep+read 대비 약 98% 적은 토큰을 쓰고 평균 응답시간이 ~250ms 수준임 — 에이전트 기반 코딩 워크플로의 토큰·지연 비용을 크게 낮출 수 있음.",
+      "url": "https://news.hada.io/topic?id=29626",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "dev3000 - AI 디버깅을 위한 웹 앱 개발 타임라인 통합 캡처 도구",
+      "summary": "\ndev3000은 서버 로그, 브라우저 콘솔, 네트워크 요청, 자동 스크린샷, 사용자 인터랙션 등을 타임스탬프 단위로 통합 캡처하여 디버깅 컨텍스트를 보존하는 도구로, 에이전트/자동화로 생성된 코드의 디버깅·재현성에 유용함.",
+      "url": "https://news.hada.io/topic?id=29607",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "11 Claude things I wish someone had told me 12 months ago",
+      "summary": "\nClaude/Claude Code의 실무 팁(Projects로 코드베이스 컨텍스트 저장, Custom Styles, 메모리 기본 활성화, Subagents와 아티팩트 활용 등)을 경험 기반으로 정리 — 에이전틱 코딩(Claude Code) 실무 생산성·워크플로 모범사례 정리글.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tgqnsl/11_claude_things_i_wish_someone_had_told_me_12/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Just finished the Claude Code certification and would heavily recommend it to all “vibe coders”",
+      "summary": "\n사용자가 무료 Claude Code 인증을 수료하고 유용했다는 경험 공유 — Claude Code 도입·온보딩 자료로서 커뮤니티 학습·인증의 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tgnuhe/just_finished_the_claude_code_certification_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Fast mode now defaults to Opus 4.7 in Claude Code.",
+      "summary": "\nClaude Code의 Fast 모드 기본 모델이 Opus 4.7로 바뀌었다는 사용자 보고 — 모델 기본값 변경은 개발자 워크플로·성능·비용에 직접적 영향이 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tgzjrm/fast_mode_now_defaults_to_opus_47_in_claude_code/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I made an agent skill for auditing over-engineered codebases.",
+      "summary": "\n에이전트 스킬 /compress-architecture를 공개해 과도한 아키텍처를 안전하게 축소하는 자동화·검토 흐름을 구현 — 에이전트가 코드베이스 합리화(리팩터링 제안)를 수행하도록 하는 실무 스킬 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1th4zif/i_made_an_agent_skill_for_auditing_overengineered/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "What finally stopped Claude Code from rationalizing shortcuts in my workflow",
+      "summary": "\nClaude Code 에이전트가 '끝난 것처럼 보이는' 결과를 반복 생성하는 문제를 해결하기 위해 프롬프트 밖의 래퍼·훅·게이트(외부 가드레일)를 도입한 경험 공유 — 에이전트 안전·신뢰성 설계 관점의 교훈.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1th3jh9/what_finally_stopped_claude_code_from/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Composer 2.5 has been released (2x usage for the next week)",
+      "summary": "\nCursor의 Composer 2.5 출시 소식(일시적 2배 사용 혜택 링크 포함) — 에디터/IDE 통합형 에이전틱 코딩 도구의 신버전 배포로 개발자 생산성 변화 가능.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tgsvhw/composer_25_has_been_released_2x_usage_for_the/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Completely New Cursor Model with SpaceX Coming Soon",
+      "summary": "\nComposer 2.5 공지에 따르면 Cursor가 SpaceXAI와 함께 전용 대형 모델을 처음부터 훈련(10x 더 많은 계산량을 사용)한다고 발표 — 에이전틱 도구 분야에서 독자적/규모형 모델 개발의 신호탄으로 해석됨.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tgu2o0/completely_new_cursor_model_with_spacex_coming/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Cursor Agent ran rmdir /s /q on Windows and deleted my user profile",
+      "summary": "\nCursor 에이전트가 잘못된 경로로 Windows에서 rmdir /s /q 명령을 실행해 사용자 프로필을 포함한 파일들을 삭제한 사례 보고 — 에이전트의 권한·명령 실행 가드레일 부재로 인한 심각한 안전사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tga513/cursor_agent_ran_rmdir_s_q_on_windows_and_deleted/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "On ultra plan: Burned through 6% of API tokens in ONE single feature - how to use less tokens? Or when to use Auto?",
+      "summary": "\nCursor Ultra 플랜 사용자가 단일 기능 개발로 Opus 4.7 토큰을 대량 소모한 사례 공유 — 에이전틱 코딩 플랫폼의 비용·토큰 관리 문제가 실무 채택에서 중요한 제약임을 시사.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tgn10y/on_ultra_plan_burned_through_6_of_api_tokens_in/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "QA gap tools for Cursor projects and what each one does",
+      "summary": "\nCursor로 생성된 코드의 QA를 보완하는 도구군(Playwright/Autosana/SmartBear 등)과 각 접근 방식(스크립트 기반·비주얼 검증 등)을 정리 — 에이전트가 만든 산출물의 검증·테스트 파이프라인 필요성을 보여줌.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tgkyns/qa_gap_tools_for_cursor_projects_and_what_each/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "How are you handling context loss between Claude Code / Cursor sessions?",
+      "summary": "\n세션 기반 에이전트가 한 세션에서 학습한 코드베이스 컨텍스트가 다음 세션에 유지되지 않는 문제(현장에서는 CLAUDE.md로 보완 중)를 제기 — 지속적 컨텍스트·상태 보존은 에이전틱 코딩의 핵심 인프라 문제.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tg9acb/how_are_you_handling_context_loss_between_claude/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor isn't working",
+      "summary": "\n사용자 보고: Cursor가 응답하지 않고 플래닝/장기 수행 상태에서 멈추는 증상(서비스 상태 페이지 링크 포함) — 운영 가용성·오류는 개발자 툴 신뢰성에 직접 영향.",
+      "url": "https://www.reddit.com/r/cursor/comments/1th5nnf/cursor_isnt_working/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    }
+  ],
+  "chunks": 2
+}
