@@ -41,7 +41,7 @@ uv tool install rdt-cli         # Reddit 검색 (실패 시 JSON API 자동 fall
 | `.venv/bin/python -m pipeline --no-push` | 파이프라인 실행 후 **git push 생략** |
 | `.venv/bin/python -m pipeline --evolve` | **프롬프트 진화만** 실행 (모든 대상) |
 | `.venv/bin/python -m pipeline --evolve analyze` | **특정 에이전트만** 프롬프트 진화 |
-| `.venv/bin/python -m pipeline --weekly` | **주간 통합 인사이트 레터** 생성 (직전 완료 주) |
+| `.venv/bin/python -m pipeline --weekly` | **주간 통합 인사이트 레터** 생성 (전일이 포함된 주, 운영 스케줄에서는 직전 완료 주) |
 | `.venv/bin/python -m pipeline --weekly --date 2026-04-12` | **특정 날짜가 포함된 주** 주간 레터 생성 |
 | `.venv/bin/python -m pipeline --config-dir config --data-dir data --skills-dir skills` | 설정/데이터/스킬 경로 지정 |
 
@@ -112,13 +112,59 @@ chmod +x scripts/run-dev.sh
 1. 위 **4번**으로 백엔드+프론트 실행 (스크립트 또는 터미널 2개)
 2. 브라우저 **http://localhost:5173** → **파이프라인** 탭 → 날짜 선택 후 **전체 실행** 또는 단계별 실행
 
-### 6. 일일 스케줄 (로컬)
+### 6. 운영 스케줄 (crontab)
+
+현행 운영 스케줄은 OS cron에서 관리한다. 프로젝트 루트로 이동한 뒤 가상환경의 Python을 절대경로로 실행하며, crontab 상단의 `TZ=Asia/Seoul`을 기준으로 자정 스케줄을 유지한다.
+
+| 주기 | cron | 실행 명령 | 처리 기준 | 로그 |
+|------|------|-----------|-----------|------|
+| 일간 레터 | `0 0 * * *` | `.venv/bin/python -m pipeline` | 실행일 기준 전일 1일치 수집·분석·발행 | `/tmp/tech-card-daily.log` |
+| 주간 레터 | `10 0 * * 1` | `.venv/bin/python -m pipeline --weekly` | 월요일 실행 시 전일(일요일)이 포함된 직전 월~일 주차 발행 | `/tmp/tech-card-weekly.log` |
+
+현재 운영 crontab 예시는 다음과 같다. 경로를 바꾸는 경우 `cd` 대상과 Python 절대경로를 함께 수정한다.
+
+```bash
+TZ=Asia/Seoul
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+0 0 * * * cd /home/surroundyou/dev/tech-card && /home/surroundyou/dev/tech-card/.venv/bin/python -m pipeline >> /tmp/tech-card-daily.log 2>&1
+10 0 * * 1 cd /home/surroundyou/dev/tech-card && /home/surroundyou/dev/tech-card/.venv/bin/python -m pipeline --weekly >> /tmp/tech-card-weekly.log 2>&1
+```
+
+설정 절차:
+
+1. 프로젝트 루트의 `.env`에 LLM/API/SMTP 환경변수를 설정하고 `config/llm.yaml`, `config/sources.yaml`, `config/images.yaml`, `data/subscribers.json`을 준비한다.
+2. `crontab -e`로 위 스케줄을 등록한다.
+3. `crontab -l`로 등록 결과를 확인한다.
+4. 수동 점검은 `.venv/bin/python -m pipeline --no-push`와 `.venv/bin/python -m pipeline --weekly --no-push`로 먼저 실행한다.
+5. 운영 로그는 `tail -f /tmp/tech-card-daily.log` 또는 `tail -f /tmp/tech-card-weekly.log`로 확인한다.
+
+로컬에서 cron 없이 장시간 테스트할 때는 APScheduler 기반 보조 스케줄러를 사용할 수 있다.
 
 ```bash
 .venv/bin/python scripts/scheduler.py
 ```
 
-- 매일 06:00 일간 파이프라인, 매주 월요일 07:00 주간 레터 자동 실행. 중단: `Ctrl+C`
+- 보조 스케줄러는 프로세스가 떠 있는 동안 매일 06:00 일간 파이프라인, 매주 월요일 07:00 주간 레터를 실행한다. 운영 crontab과 시간이 다르므로 운영 자동화 기준으로 사용하지 않는다.
+
+## 스케줄 실행 프로세스
+
+### 일간 레터
+
+1. cron이 매일 00:00 KST에 `.venv/bin/python -m pipeline`을 실행한다.
+2. 날짜를 지정하지 않았으므로 CLI가 실행일 기준 전일을 처리 날짜로 계산한다.
+3. `collect → analyze → summarize → dedup → letter_generate → card_generate → card_backgrounds → publish` 순서로 실행한다.
+4. `publish` 단계는 `data/subscribers.json` 수신자에게 M365 SMTP로 메일을 발송한다. SMTP 미설정 시 스텁 로그만 남기고 파이프라인은 계속 진행한다.
+5. `--no-push`가 없으면 `data/` 산출물을 자동 커밋하고 origin으로 push한다.
+
+### 주간 레터
+
+1. cron이 매주 월요일 00:10 KST에 `.venv/bin/python -m pipeline --weekly`를 실행한다.
+2. 날짜를 지정하지 않았으므로 CLI가 전일(일요일)을 anchor date로 사용하고, 해당 날짜가 포함된 월~일 주차를 생성한다.
+3. `weekly_collect → weekly_analyze → weekly_generate → weekly_card → weekly_publish` 순서로 실행한다.
+4. `weekly_collect`는 7일분 `analyze` 체크포인트를 우선 사용하고, 없으면 `data/index`를 fallback으로 사용한다.
+5. 주간 산출물은 `data/weekly/YYYY-Www.md`, `data/weekly/YYYY-Www-meta.json`, `data/weekly/YYYY-Www-cards.json`에 저장되고, 완료 후 자동 commit/push 대상에 포함된다.
 
 ## 파이프라인 단계
 
@@ -182,7 +228,7 @@ frontend/                    React+Vite 웹 UI
 - **범위**: 에이전틱 코딩, GitHub/인프라 2개 카테고리 집중 (산업별 AX, 대한민국 IT 필터링)
 - **구조**: 주간 트렌드맵(topic × 요일 매트릭스) → Top5 하이라이트 → 카테고리별 주간 정리 → 다음 주 주목 포인트
 - **파이프라인**: `weekly_collect → weekly_analyze → weekly_generate → weekly_card`
-- **트리거**: CLI `--weekly`, API `POST /api/weekly/run`, 스케줄러 매주 월요일 07:00
+- **트리거**: CLI `--weekly`, API `POST /api/weekly/run`, 운영 crontab 매주 월요일 00:10 KST
 - **UI**: 주간 리뷰 탭에서 트렌드맵 테이블, 카테고리 비중 바, Top5 확인 가능
 
 ## X/Twitter · Reddit 소셜 수집
