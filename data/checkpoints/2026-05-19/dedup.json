@@ -1,0 +1,200 @@
+{
+  "items": [
+    {
+      "title": "Andrej Karpathy, Anthropic에 합류",
+      "summary": "\nAndrej Karpathy가 Anthropic에 합류해 LLM 전처리·프리트레이닝 관련 R&D에 합류한다는 발표. 최전선 인재 영입으로 프런티어 모델 연구 역량 강화 시사.",
+      "url": "https://news.hada.io/topic?id=29674",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Karpathy joins Anthropic",
+      "summary": "\n레딧/ClaudeAI 커뮤니티에서 Karpathy의 Anthropic 합류 소식 공유 — 프리트레이닝 팀 합류 소식이 모델·에이전트 개발 경쟁에 미칠 영향 논의.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Gemini 3.5 Flash",
+      "summary": "\nGoogle의 Gemini 3.5 Flash가 발표됨 — 에이전트·코딩 장기 작업을 겨냥하며 기존 Gemini 3.1 Pro 대비 여러 벤치마크에서 성능·속도 우위 보임. 출력 토큰 특성 등 모델 속성 변화도 언급.",
+      "url": "https://news.hada.io/topic?id=29670",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Gemini 3.5 Flash is out in Cursor",
+      "summary": "\nCursor에서 Gemini 3.5 Flash가 사용 가능해졌다는 사용자 게시물 — Cursor 같은 코드 중심 IDE에서 Composer 계열 모델과 병행 사용하는 사례 증가.",
+      "url": "https://www.reddit.com/r/cursor/comments/1thzut7/gemini_35_flash_is_out_in_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic just bought the company that generates most production MCP servers",
+      "summary": "\n레딧 포스트에서 Anthropic의 Stainless 인수 배경과 의미를 분석 — Stainless가 SDK·MCP 서버 생성기술을 보유해 도구·서버 표준화 및 집중화 우려·장점 모두 제기.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thkkrb/anthropic_just_bought_the_company_that_generates/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Self-hosted sandboxes and MCP tunnels for Claude Managed Agents are now in public beta.",
+      "summary": "\nClaude Managed Agents용으로 self-hosted 샌드박스와 MCP 터널(온프레/프라이빗 네트워크에서 에이전트 실행·연결)이 퍼블릭 베타에 배포되어 에이전트 배포·보안·프라이버시 측면의 유연성이 확대됨.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thg711/selfhosted_sandboxes_and_mcp_tunnels_for_claude/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Codex의 Goals를 활용하는 법",
+      "summary": "\nCodex의 Goals(영속적 목표) 기능을 통해 여러 턴에 걸친 장기 과제를 에이전트가 지속 수행하도록 만드는 활용법과 적용 사례(프로파일링, 패치, 벤치 등)를 소개.",
+      "url": "https://news.hada.io/topic?id=29639",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: goal-setter: OpenAI의 goal 기능 활용 가이드를 반영한 agent skill",
+      "summary": "\nGoal 기능을 쓰는 에이전트 스킬 'Goal Setter' 소개 — 사용자 인터뷰로 완료 조건을 명확히 하여 긴 작업을 에이전트에 안전하게 위임하는 워크플로 소개.",
+      "url": "https://news.hada.io/topic?id=29661",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: 에이전트 캣 — Claude Code / Codex / Gemini CLI 의 상태와 사용량을 메뉴바 고양이로",
+      "summary": "\nmacOS 메뉴바 위젯 형태로 여러 에이전트(Claude Code, Codex, Gemini CLI)의 상태·사용량을 실시간 확인하게 해 주는 유틸 소개 — 에이전트 운영·모니터링 경험 개선 도구.",
+      "url": "https://news.hada.io/topic?id=29649",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "장기 자율성 평가를 위한 AI 에이전트 시뮬레이션 플랫폼 'Emergence World' 분석",
+      "summary": "\n가상 마을에 에이전트들을 장기간 방치해 자율성·장기 거동을 평가한 시뮬레이션 결과 소개 — 에이전트별 사회적 행동·붕괴 양상(클로드의 민주주의 구축, 제미나이의 파괴 등)과 장기 벤치마크 필요성 논의.",
+      "url": "https://news.hada.io/topic?id=29650",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How I built a 9-agent team where my agents actually talk to each other",
+      "summary": "\n레딧 사용자가 Claude Code 기반으로 9개 에이전트(엔지니어링·콘텐츠 등)를 역할·메모리·핸드오프 규칙으로 구성해 실제 협업하게 만든 사례 소개 — multi-agent 실용 오케스트레이션 패턴과 지속적 메모리 활용 법.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thi16y/how_i_built_a_9agent_team_where_my_agents/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "100 Tips & Tricks for Building Your Own Personal AI Agent /LONG POST/",
+      "summary": "\n개인용 지속 에이전트를 설계·운영하는 데 대한 100가지 실무 팁(정체성·메모리·스킬·권한·세션·테스트 등)을 광범위하게 정리한 장문의 가이드로, 에이전트 설계·운영 표준화에 유용한 실무 인사이트 제공.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thi6nh/100_tips_tricks_for_building_your_own_personal_ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "A cross-IDE SEO skill that auto-installs to .cursor/rules — refuses deprecated patterns Cursor's default rules don't catch",
+      "summary": "\n크로스-IDE용 SEO 스킬을 만들어 .cursor/rules로 자동 설치되게 한 사례 — Cursor 뿐 아니라 Claude Code, Copilot 등 여러 에이전트·IDE에 적용 가능한 스킬로, 에이전트 확장성·플러그인 패턴 시사.",
+      "url": "https://www.reddit.com/r/cursor/comments/1thwz4j/a_crosside_seo_skill_that_autoinstalls_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Tooling pattern · cache your agent’s doctrine layer, not its prompt or its response",
+      "summary": "\n에이전트 스택에서 '도그마(doctrine)' 레이어(에이전트의 안정적 규칙)를 캐시하는 툴링 패턴과 octowiz 캐시 구현 소개 — 에이전트 초기화 지연·토큰 비용을 줄이는 실무적 인프라 패턴.",
+      "url": "https://www.reddit.com/r/cursor/comments/1thcz94/tooling_pattern_cache_your_agents_doctrine_layer/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Git의 --author 플래그로 GitHub 저장소의 AI 봇 스팸을 막은 방법",
+      "summary": "\n오픈소스 저장소에 AI 기반 무의미한 PR·댓글이 증가하는 상황에서 Git의 --author 플래그 등으로 봇성 기여를 식별·관리해 커뮤니티 토론을 보호한 사례 및 실무 방안 제시.",
+      "url": "https://news.hada.io/topic?id=29642",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "For people using Cursor/Claude Code daily: what’s the most subtle bug or security issue it generated that looked correct at first?",
+      "summary": "\nCursor/Claude Code 등 코드 에이전트 사용 중에 '처음엔 정상적으로 보였지만 뒤에 드러난 미묘한 버그·보안 문제'(입력 검증 누락, 에러핸들링 누락, 인증 우회 등)에 대한 이용자 경험 질의 — 에이전트 산출물의 보안·검증 필요성 환기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1thkfk2/for_people_using_cursorclaude_code_daily_whats/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Composer 2.5 suddenly believes it's in ask mode",
+      "summary": "\nCursor의 Composer 2.5 모델이 에이전트 모드에서 갑자기 'ask mode'로 전환되어 파이프라인 전체를 잊는 증상 보고 — 에이전트 장기작업 안정성·상태관리 이슈 사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tha71k/composer_25_suddenly_believes_its_in_ask_mode/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "I gave Claude access to my M365 account using Power Automate + a small MCP server",
+      "summary": "\nDetailed how-to: author built a FastMCP proxy in front of Power Automate webhooks so Claude (via MCP tool calls) can read/send email, access calendar, OneDrive, Planner, Excel, and Word without Graph API tenant permissions—practical MCP+enterprise connector pattern and security notes.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thabze/i_gave_claude_access_to_my_m365_account_using/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Google's AI Studio now lets anyone build Android apps in minutes",
+      "summary": "\nTechCrunch report on Google AI Studio adding features that generate Android apps quickly—platform-level tooling that leverages generative AI to accelerate app creation.",
+      "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Gemini Omni: where Gemini's ability to reason meets the ability to create",
+      "summary": "\nVideo/content about Google's Gemini Omni product highlighting combined reasoning and creativity capabilities—frontier model product material.",
+      "url": "https://www.youtube.com/watch?v=KUyRq7szZsM",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Capframe – capability tokens and policy AI agent tool calls for",
+      "summary": "\nCapframe (capframe.ai) presents capability tokens and policy controls for agent tool calls—tooling for policy-driven, capability-limited agent interactions and secure tool invocation.",
+      "url": "https://capframe.ai",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Widening the Conversation on Frontier AI",
+      "summary": "\nAnthropic announcement discussing broadening engagement on frontier AI—policy/engagement update from a frontier-model provider.",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "ServiceNow wants to be the kill switch for AI agents that delete your database",
+      "summary": "\nArticle on ServiceNow positioning itself as an enterprise control/kill-switch to prevent autonomous AI agents from making destructive actions (e.g., deleting databases)—enterprise safety/control for agentic systems.",
+      "url": "https://fortune.com/2026/05/06/servicenow-kill-switch-ai-agents-bill-mcdermott/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Claude-Autopilot: autonomous dev pipeline with risk-tiered review",
+      "summary": "\nRepository for Claude-Autopilot: an autonomous development pipeline that runs code changes and applies risk-tiered human review—example of agentic CI/CD and dev automation.",
+      "url": "https://github.com/axledbetter/claude-autopilot",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "RTK: Rust Token Killer",
+      "summary": "\nRTK (Rust Token Killer) GitHub project—tool related to token handling/optimization for LLMs (repo/utility for token management in AI contexts).",
+      "url": "https://github.com/rtk-ai/rtk",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "We built an AI strategy agent that runs consulting-style workflows",
+      "summary": "\nNitroLens: product that runs structured, consulting-style strategy workflows via AI agents (clarify question, select frameworks, run research, produce reports)—an agentic business workflow product (beta).",
+      "url": "https://nitrolens.ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "summary": "\nOpenAI announces advances in content provenance (Content Credentials, SynthID, verification tools) to help identify and label AI-generated media and improve trust in AI-generated content.",
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "summary": "\nForge is an open-source reliability/guardrail layer for self-hosted LLM tool-calling that adds retry nudges, step enforcement, error recovery and context management—claims large improvements in multi-step agentic workflow reliability on local models and provides an eval harness and proxy mode.",
+      "url": "https://github.com/antoinezambelli/forge",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    }
+  ]
+}
