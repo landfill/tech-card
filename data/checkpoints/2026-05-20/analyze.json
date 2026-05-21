@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "title": "InferenceBench: A Benchmark for Open-Ended Inference Optimization by AI Agents",
+      "summary": "\nA new benchmark and site (InferenceBench) focused on measuring and driving progress in open-ended inference optimization by AI agents — relevant for evaluating agentic reasoning and multi-step inference performance.",
+      "url": "https://inferencebench.ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Tracking Capabilities for Safer Agents",
+      "summary": "\narXiv paper proposing methods to track capabilities of AI agents to improve safety monitoring and control; directly relevant to agent alignment and agentic system governance.",
+      "url": "https://arxiv.org/abs/2603.00991",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "JAM: DSP audio engine programmable via AI chat",
+      "summary": "\nA programmable DSP audio engine that can be controlled via AI chat interfaces — demonstrates agentic/LLM-driven programming of audio processing pipelines.",
+      "url": "https://jeffsaudiomachines.com/my-story",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "summary": "\nOpenAI reports a model solved (disproved) an 80-year-old conjecture in discrete geometry — a notable frontier-model result showing advanced mathematical reasoning capabilities.",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "summary": "\nCase study from OpenAI describing how Ramp uses Codex (with GPT-5.5) to speed up code review and provide substantive feedback in minutes, illustrating practical developer tooling and model-assisted engineering workflows.",
+      "url": "https://openai.com/index/ramp",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Gemini CLI는 2026년 6월 18일부터 작동을 중단할 예정",
+      "summary": "\nGoogle이 터미널용 Gemini CLI 기능을 멀티에이전트 흐름에 통합된 Antigravity CLI로 합치면서 기존 Gemini CLI의 지원·운영을 중단할 예정이라는 공지 — 수백만 사용자·오픈소스 기여자가 얽힌 CLI 생태계의 변화로 에이전트 개발·배포 워크플로에 영향.",
+      "url": "https://news.hada.io/topic?id=29711",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: Codex Relay - 모바일에서 코덱스 Terminal, Browser, Git, File Viewer, Markdown 탑재",
+      "summary": "\n100% 무료 오픈소스 기반 Codex Relay로, Codex/코덱스 원격을 모바일에서 터미널·브라우저·Git·파일 뷰어 등과 결합해 Codex/코드 에이전트 환경을 확장하는 프로젝트(레포지토리 링크 포함).",
+      "url": "https://news.hada.io/topic?id=29706",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Forge - 가드레일로 8B 모델을 에이전트 작업에서 53%에서 99%로 끌어올리는 도구",
+      "summary": "\nForge는 자체 호스팅 LLM의 도구 호출 신뢰성을 높이는 신뢰성 계층으로, rescue parsing(잘못된 도구 호출 복구), 재시도 유도, 필수 단계 강제 등으로 작은 로컬 모델이 다단계 에이전트 워크플로에서 안정적으로 동작하게 함 — 저비용·엣지 LLM 기반 에이전트 신뢰성 향상에 직접적 기여.",
+      "url": "https://news.hada.io/topic?id=29705",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Remove-AI-Watermarks - 이미지에서 AI 워터마크를 제거하는 CLI와 라이브러리",
+      "summary": "\nRemove-AI-Watermarks는 Google Gemini, ChatGPT/DALL·E, Stable Diffusion, Adobe Firefly, Midjourney 등에서 생성된 보이는/보이지 않는 워터마크와 AI 생성 메타데이터를 분석·제거하는 CLI 및 Python 라이브러리로, 생성물 출처 검증·우회와 관련된 실무·보안 이슈를 다룸.",
+      "url": "https://news.hada.io/topic?id=29702",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI, 검증 도구와 함께 AI 이미지에 Google의 SynthID 워터마크 도입",
+      "summary": "\nOpenAI가 C2PA 적합성·SynthID 워터마크·공개 검증 도구를 결합해 AI 생성 콘텐츠의 출처·검증 모델을 강화 — 생성물에 대한 다층 출처 증명과 변환 시 보존 문제(메타데이터 손상 등)를 함께 다루려는 움직임.",
+      "url": "https://news.hada.io/topic?id=29700",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Cursor Composer 2.5, Cursor 내 가장 많이 선택받는 모델로 등극 — 10x 사용량 보너스",
+      "summary": "\nCursor에서 Composer 2.5가 빠르게 채택되어 플랫폼 내 최다 선택 모델이 되었고, 출시 초기 사용자 대상으로 하루 10배 사용량 보너스가 제공되었다는 발표 — 자체 모델이 Anthropic/OpenAI 경쟁 모델을 제치고 개발자 코딩 워크플로에서 디폴트로 자리잡는 흐름 시사.",
+      "url": "https://news.hada.io/topic?id=29691",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Composer 2.5 is my new default. It is fast, accurate, and actually cheap",
+      "summary": "\n사용자 체험기: Composer 2.5를 데일리 디폴트로 전환하며 속도·정확성·비용 측면에서 기존 GPT/Opus 모델 대비 실용성이 높아졌다는 보고 — 모델 선택 비용 효율성 변화가 개발자 작업 패턴에 미치는 영향 관찰.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tijtom/composer_25_is_my_new_default_it_is_fast_accurate/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Mirage - AI 에이전트를 위한 통합 가상 파일시스템",
+      "summary": "\nMirage는 S3/Google Drive/Slack/Gmail/Redis 등 다양한 백엔드를 단일 파일시스템 트리로 마운트해 AI 에이전트가 일관된 Unix 스타일 인터페이스로 접근할 수 있게 함 — 에이전트가 서비스별 SDK나 MCP를 새로 배우지 않고도 데이터 파이프라인·서비스 간 파이프 연결을 쉽게 수행하도록 지원하는 인프라 도구.",
+      "url": "https://news.hada.io/topic?id=29681",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "I stumped Claude earlier and it had no choice but to seek wisdom from the Ancient One",
+      "summary": "\n(제목의 Reddit 이미지 포스트) 사용자-생성 짧은 사례·밈으로, Claude/Anthropic 생태계의 커뮤니티 활동과 사용자 경험을 반영 — 제품 채택과 커뮤니티 면모를 보여주는 소소한 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tiiau0/i_stumped_claude_earlier_and_it_had_no_choice_but/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I'm a software engineer with a decade of experience. I vibe code all of my side projects from my phone using Claude Code and don't read any of the code. It's so fun. Here are the rules I follow:",
+      "summary": "\n경험 공유 글: Claude Code 기반 'vibe coding' 워크플로(플랜 모드 강조, 테스트 생성, 단계 분할, git 자동 커밋 등)를 상세히 정리해 에이전트 중심 코딩 실무·테크닉과 위험·안전 수칙(테스트·백업 등)을 제시 — 실무 적용 사례로서 에이전틱 코딩 채택 인사이트 제공.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tj2i90/im_a_software_engineer_with_a_decade_of/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Andrej Karpathy, Anthropic 합류 — Claude pre-training 팀으로",
+      "summary": "\nAndrej Karpathy가 Anthropic에 합류해 Claude pre-training 팀에 참여함을 발표 — 프론티어 모델 연구·훈련 역량 강화 측면에서 주목되는 인력 이동으로, 향후 Claude 계열 모델 개발·성능에 영향 가능.",
+      "url": "https://news.hada.io/topic?id=29684",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "LLM의 지난 6개월을 5분 만에 보기",
+      "summary": "\n최근 6개월 LLM 생태계 요약: 코딩 에이전트 실용화, 노트북 실행 모델 약진, Claude Sonnet/GPT-5.1/Gemini/Claude Opus 등 프론티어 모델 경쟁 구도와 빠른 모델 교체·기능 진화 동향을 정리한 브리핑형 글.",
+      "url": "https://news.hada.io/topic?id=29682",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I built a skill that cuts Claude's output by up to 70% — without losing any technical accuracy",
+      "summary": "\n'crisp'라는 Claude용 스킬 소개: 불필요한 문구를 줄여 토큰 소모를 크게 낮추되, 파괴적/위험한 작업에는 자동으로 명확성 모드로 전환하는 설계로 안전성과 비용 효율을 동시에 개선 — 에이전트 상호작용·운영 비용 최적화용 실사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tiqoep/i_built_a_skill_that_cuts_claudes_output_by_up_to/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "CANTANTE: Optimizing Agentic Systems via Contrastive Credit Attribution [R]",
+      "summary": "\n연구 요약: LLM 기반 멀티에이전트 시스템의 구성·튜닝을 자동화하기 위한 'credit assignment' 해결책 CANTANTE 제안 — 서로 다른 에이전트 구성의 롤아웃을 비교해 에이전트별 기여도를 추정하고 로컬 옵티마이저에 피드백해 에이전트 프롬프트/구성 학습을 가능하게 함. 에이전틱 시스템 자동화·최적화 연구에 기여.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tij4st/cantante_optimizing_agentic_systems_via/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 2
+}
