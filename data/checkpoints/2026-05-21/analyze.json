@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "title": "Donald Trump abruptly postpones AI order after White House infighting",
+      "summary": "\nReport that the US president abruptly postponed an AI executive order amid White House infighting, delaying near-term policy actions affecting frontier models and AI governance.",
+      "url": "https://www.ft.com/content/14213cb0-8d11-4118-bac0-12a403696185",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Ask HN: What happens when you intercept and modify Claude Code's system prompt?",
+      "summary": "\nHN thread asking whether intercepting or modifying Claude Code's system prompt breaks functionality — a practical question about robustness and security of Claude Code agent behavior.",
+      "url": "https://news.ycombinator.com/item?id=48230172",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Tell HN: I'm tired of AI-generated answers",
+      "summary": "\nHN post describing frustration with pervasive AI-generated answers and encounters with AI agents posing as humans, highlighting UX and trust issues as AI agents proliferate.",
+      "url": "https://news.ycombinator.com/item?id=48230104",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Codex got better, codex might be built with Claude Opus",
+      "summary": "\nHN comment speculating that recent improvements in OpenAI's Codex could be related to use of Claude Opus internally — community rumor about cross-model engineering practices.",
+      "url": "https://news.ycombinator.com/item?id=48230097",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Genkit Middleware: Intercept, extend, and harden your agentic apps",
+      "summary": "\nGoogle developer blog announcing Genkit Middleware to intercept, extend, and harden agentic applications — new tooling for building safer, more controllable agent-based systems.",
+      "url": "https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic's \"Profitability\" Swindle",
+      "summary": "\nBlog critique alleging misleading claims about Anthropic's path to profitability, scrutinizing the economics and business claims of a frontier model company.",
+      "url": "https://www.wheresyoured.at/anthropics-profitability-swindle/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Herdr - AI Agent 시대를 위한 tmux 스타일 터미널 워크스페이스",
+      "summary": "\nHerdr는 터미널 내에서 tmux 스타일 세션/페인 관리를 제공하면서 Claude Code, Codex, OpenCode 같은 AI 코딩 에이전트를 여러 개 동시 관리하도록 최적화된 'agent-native' 워크스페이스 매니저임 — 에이전트 중심 개발자 로컬 워크플로와 통합되는 툴이라는 점에서 유의미함.",
+      "url": "https://news.hada.io/topic?id=29738",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I built Hivemind, a Claude Code plugin that turns your repeated prompts into auto-generated skills",
+      "summary": "\nHivemind는 Claude Code 플러그인으로 세션 트레이스를 관찰해 반복 패턴을 자동으로 'crystallize'하여 재사용 가능한 slash-command 스킬로 만들어 주는 오픈소스 프로젝트임 — 팀 단위로 반복되는 워크플로를 자동화해 생산성 개선에 기여할 가능성 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjw0ah/i_built_hivemind_a_claude_code_plugin_that_turns/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic officially launched 13+ FREE AI courses with certificates (Including Agentic AI and Claude Code!)",
+      "summary": "\nAnthropic이 Claude/agent 개발자 대상 교육 코스(Agentic AI, MCP, Claude Code 개발 모듈 포함)를 Skilljar 기반으로 무상 공개하고 수료증을 발급하기 시작했다는 커뮤니티 게시물 — 에이전트·MCP·Claude Code 생태계의 채용·교육 접근성에 직접적 영향.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjpfh8/anthropic_officially_launched_13_free_ai_courses/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Qwen3.7-Max: 에이전트 프런티어",
+      "summary": "\nQwen3.7-Max는 코딩·디버깅·사무 자동화·수백~수천 단계 자율 실행을 겨냥한 에이전트 중심 독점 모델로 발표되었으며 여러 에이전트·코딩 벤치마크에서 상위권 성능을 보고함 — 에이전트화된 복잡 워크로드 타깃의 프런티어 모델 동향을 가리킴.",
+      "url": "https://news.hada.io/topic?id=29716",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI 모델이 이산기하의 중심 추측을 반박했다",
+      "summary": "\nOpenAI의 범용 추론 모델이 오래된 이산기하 문제(단위 거리 문제)의 중심 추측을 반박하는 무한한 예시군을 만들고 다항식 수준 개선을 제시했다는 보도 — 대형 모델이 수학·추론 연구에서 실질적 발견을 만들 수 있음을 시사함.",
+      "url": "https://news.hada.io/topic?id=29722",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "What Google I/O '26 means for developing agents on Google Cloud",
+      "summary": "\nGoogle I/O에서 발표된 Antigravity 2.0과 Managed Agents API 등을 중심으로 구글 클라우드가 에이전트 개발자용 통합 툴킷을 대폭 강화했으며, 로컬 프로토타이핑에서 클라우드 배포까지 연결하는 워크플로 개선을 목표로 함 — 에이전트 개발 인프라 변화의 실무적 의미 정리.",
+      "url": "https://news.hada.io/topic?id=29718",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "I used Claude Code to build while delegating coding to Mistral/DeepSeek - 10 days, 57M tokens saved, over 90% costs savings, Claude quality result",
+      "summary": "\nClaude Code에서 계획·검토는 Claude가 수행하고 실제 코드 생성은 Mistral·DeepSeek 같은 저비용 모델로 위임하는 'delegate' 워크플로를 운영해 토큰 비용을 대폭 절감(사례: 57M 토큰 위임, 90% 이상 비용 절감)을 보고 — 모델 오케스트레이션·혼합 사용 전략의 실증 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjfyh0/i_used_claude_code_to_build_while_delegating/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "i open-sourced the operating file that keeps my claude code agent from rotting after 3 hours",
+      "summary": "\n프로덕션급 장기 에이전트 세션에서 '내성(rot)'이 발생하는 문제를 해결하기 위해 프로젝트 루트에 넣는 CLAUDE.md 같은 운영 파일(행동 규칙·검증 기준 등)을 공개했으며, 이 작은 규칙 파일로 에이전트의 서사화·반복 루프를 줄이고 생산성을 회복했다고 주장함 — 에이전트 거버넌스 실전 해법.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjy3sk/i_opensourced_the_operating_file_that_keeps_my/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I made a CLI that feeds real frontend systems into Cursor",
+      "summary": "\nDesignMD라는 툴/CLI가 실제 프로덕션 웹사이트를 분석해 구조화된 DESIGN.md 규격을 생성하고 이를 Cursor 워크플로에 넣어 영속적 프론트엔드 컨텍스트로 활용하는 방식을 제시 — 에이전트에 실사용 시스템 컨텍스트를 제공하는 실무적 접근.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tjn9sn/i_made_a_cli_that_feeds_real_frontend_systems/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Why most AI coding agent memory systems fail — and what actually works",
+      "summary": "\n많은 에이전트 메모리 시스템이 단순한 세션 기반 검색에 그쳐 '메모리 오염' 문제를 겪는다고 지적하며, 작업 메모리·에피소드 메모리·장기 의미 메모리의 3계층 분리와 수명 주기 관리·가중치 기반 관련도 점수 도입 등을 제안 — 에이전트 지속성·정합성 개선을 위한 설계 원칙.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tjl25e/why_most_ai_coding_agent_memory_systems_fail_and/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Why traditional tooling beats AGENTS.md - and how to combine the two",
+      "summary": "\n전통적 도구(테스트·타입·린터 등)가 에이전트 중심 워크플로의 '신뢰성'을 보강하는 핵심임을 설명하고, AGENTS.md 같은 지시문만으로는 불충분하므로 'convergence mechanisms'를 통해 요구사항·계약을 명시적으로 보호해야 한다고 주장하는 실무 논점 글 — 에이전트 도입시 조직적 대비 제안.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tjlhd1/why_traditional_tooling_beats_agentsmd_and_how_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 2
+}
