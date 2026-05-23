@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "title": "Cheap AI Could Derail OpenAI and Anthropic's IPOs",
+      "summary": "\nCNBC 기사: 저비용 AI의 등장(경쟁적·저비용 모델)이 OpenAI와 Anthropic의 기업공개(IPO)에 미치는 리스크를 분석하며 시장 구조·수익성·밸류에이션 영향 가능성을 논의함.",
+      "url": "https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "마이크로소프트, Claude Code 라이선스 회수 시작하다",
+      "summary": "\n마이크로소프트가 사내 개발자들에게 제공하던 Anthropic의 AI 코딩 도구 Claude Code 라이선스를 대거 회수하기 시작했다는 보도. 내부에서 인기를 끌었던 Claude Code가 GitHub Copilot CLI 등 자사 툴의 입지를 위협하면서 정책 변화가 발생한 것으로 전해짐.",
+      "url": "https://news.hada.io/topic?id=29759",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "제로에서 성장 엔진 구축하기: Claude Code로 ARR 38% 끌어올린 방법",
+      "summary": "\n한 운영자가 Claude Code 기반으로 고객 인수 시스템을 구축해 6개월 만에 ARR을 $20M에서 $27.6M(+38%)로 성장시킨 사례 연구. 예약 데이터 분석으로 ICP 정의→브랜딩→실행을 순차적으로 진행해 자동화와 에이전틱 도구를 성장 루프에 연결한 점이 핵심.",
+      "url": "https://news.hada.io/topic?id=29756",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "agentmemory - AI 코딩 에이전트용 영구 메모리 시스템",
+      "summary": "\n코딩 에이전트가 세션 간 컨텍스트를 잃는 문제를 해결하기 위한 영구 메모리 시스템. 도구 사용을 자동 캡처·압축하고 다음 세션에서 컨텍스트로 주입해 매 세션 반복되는 아키텍처 설명을 줄이는 목표로, Claude Code 등 에이전틱 코딩 스택과 연계 사례가 소개됨.",
+      "url": "https://news.hada.io/topic?id=29754",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "AI Overviews, ChatGPT, Claude, Gemini, Perplexity를 위한 AEO와 GEO",
+      "summary": "\n검색 결과가 링크 목록에서 AI가 대신 읽어주는 '요약/오버뷰' 형태로 변하고 있으며, AEO(Answer Engine Optimization)가 등장해 답변 엔진이 인용·출처를 처리하는 방식이 변하고 있다는 분석. 여러 대형 모델이 실시간 웹 참조를 포함하는 흐름을 설명함.",
+      "url": "https://news.hada.io/topic?id=29752",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "AI는 그저 더 큰 규모의 무단 표절이다",
+      "summary": "\nAI 회사들이 웹상의 저작물을 학습해 상업적 결과물을 만드는 과정에서 원저작자에게 보상하지 않는다는 비판적 관점. 모델 학습·데이터 사용의 윤리·법적 쟁점이 다시 부각되고 있음을 다룸.",
+      "url": "https://news.hada.io/topic?id=29751",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic claims 10,000+ critical vulns found in one month",
+      "summary": "\nAnthropic의 Project Glasswing 관련 게시로, 단기간에 10,000개 이상의 심각 취약점을 발견했다는 주장(자동화 스캐닝 노이즈 vs 실제 취약 여부 논쟁 포함). 모델·서비스 보안 스캔의 스케일과 노이즈 문제를 시사.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkvqy1/anthropic_claims_10000_critical_vulns_found_in/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Which MCP servers are actually changing your Claude workflow? Sharing mine",
+      "summary": "\nMCP(모듈형 커넥터 포인트)를 통해 Claude에 도구(파일시스템, GitHub 등)를 연결하면 워크플로가 크게 바뀐다는 사용 후기. 파일시스템·PR 컨텍스트·도메인별 서버들을 직접 연결해 문맥 손실 없이 작업하는 사례를 공유함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkec4e/which_mcp_servers_are_actually_changing_your/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I built an app with Claude Code that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text.",
+      "summary": "\nClaude Code를 사용해 텍스트(웹문서·PDF·사진 등)를 고품질 오디오로 변환하는 모바일·웹 앱(Frateca)을 개발한 사례. Claude Code를 활용해 실제 제품을 빠르게 구축한 사례로, 에이전틱 도구의 애플리케이션 사례를 보여줌.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkqevl/i_built_an_app_with_claude_code_that_converts_any/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Built an intelligent web video editor for claude (and other agents) via MCP",
+      "summary": "\nMCP를 이용해 Claude와 연동되는 지능형 웹 비디오 편집기(usevyra)를 개발했다는 게시. 영상 전처리·세만틱 인덱싱·트랜스크립트 기반 편집·모션 그래픽 등 실사용 가능한 편집 기능을 에이전틱 플러그인으로 제공하는 점을 강조.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkzms4/built_an_intelligent_web_video_editor_for_claude/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "After 3 months of switching between Claude Sonnet 4.6, GPT-5.5, and Gemini 3.1 daily — here's my actual routing",
+      "summary": "\n실제 업무별로 Claude·GPT·Gemini를 쓰는 '라우팅' 경험 공유: 문서 심층 분석은 Claude, 구조화 출력·포맷은 GPT, 최신 이벤트·장문 컨텍스트는 Gemini 등으로 역할 분담. 멀티모델 워크플로의 현실적 오버헤드(탭 전환·문맥 복사)를 지적함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkoaeu/after_3_months_of_switching_between_claude_sonnet/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I built a music notation app with Claude, and Claude is also a feature inside it",
+      "summary": "\n오픈소스 악보 편집기 Nubium을 Claude Code로 개발하고, 앱 내에 Claude를 기능으로 통합해 문서 기반 편집 워크플로에서 AI가 점검·수정하는 작업을 자동화한 사례를 공유.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkp3p4/i_built_a_music_notation_app_with_claude_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor’s annual revenue hits $3 billion and reaches \"slight gross profitability\"",
+      "summary": "\nCursor의 연간 매출이 $3B에 도달했고 '약간의 총이익 흑자'를 기록했다는 소식(공개 링크 인용). 에디터 통합형 에이전틱 코딩 제품의 상업적 확장성과 수익화 신호로 해석됨.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tkn6vf/cursors_annual_revenue_hits_3_billion_and_reaches/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Composer 2.5 on Kimi K2.5, the text feedback RL bit is the interesting part",
+      "summary": "\nCursor의 Composer 2.5(기반: Kimi K2.5) 업데이트와 함께, '로컬 텍스트 피드백'을 통한 강화학습 방식이 에이전트 오류 수정에 효과적이라는 분석. 에이전틱 모델 훈련 방식과 검증의 중요성을 설명함.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tkcazl/composer_25_on_kimi_k25_the_text_feedback_rl_bit/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor + engramx: stop repeat mistakes",
+      "summary": "\n엔그램 기반 툴(engramx)이 Git 기록에서 반복 오류 패턴을 찾아 에이전트가 같은 실수를 반복하기 전에 차단하는 훅을 제공, Claude Code 같은 에이전틱 워크플로에서 불필요한 토큰 낭비를 크게 줄였다는 사례(토큰 절감 벤치마크 포함).",
+      "url": "https://www.reddit.com/r/cursor/comments/1tka48b/cursor_engramx_stop_repeat_mistakes/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row",
+      "summary": "\nGitHub(및 Copilot)이 엔터프라이즈 AI 코딩 에이전트 분야에서 가트너 매직 쿼드런트 리더로 3년 연속 선정되었다는 공식 블로그 공지. 기업용 코딩 에이전트 시장에서 Copilot의 포지션과 제품·플랫폼 전략을 강조.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "summary": "\nOpenAI의 Codex(엔터프라이즈 코딩 에이전트)가 2026 가트너 매직 쿼드런트에서 리더로 인정되었다는 발표. Codex가 엔터프라이즈 규모 배포 및 혁신 측면에서 인정받았음을 알림.",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 2
+}
