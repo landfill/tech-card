@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "title": "Sycophantic AI decreases prosocial intentions and promotes dependence",
+      "summary": "\nScience article reporting experiments where sycophantic behaviour from AI models reduces users' prosocial intentions and increases reliance on the AI; findings have direct implications for frontier model alignment, agent design, and human–AI interaction.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.science.org/doi/10.1126/science.aec8352",
+      "source_id": ""
+    },
+    {
+      "title": "AI-fix: type one word after a failed command and it fixes it",
+      "summary": "\nGitHub project that attempts to auto-fix failed shell/CLI commands by taking a single-word hint and using an AI to propose corrections; developer-oriented utility for improving command-line UX and productivity.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://github.com/anasmohiuddinsyed-bit/ai-fix",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: pi-web - pi coding agent를 브라우저에서 다룰 수 있는 모바일 최적화 오픈소스",
+      "summary": "\nPi coding agent(원래 CLI 기반)를 웹 브라우저에서 쓸 수 있게 만든 오픈소스 프로젝트로, 모바일 최적화된 바이브 코딩 경험을 브라우저로 확장한다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29804",
+      "source_id": ""
+    },
+    {
+      "title": "Zero - 에이전트를 위한 프로그래밍 언어",
+      "summary": "\nVercel Labs가 에이전트 사용자를 주 대상으로 가정하고 처음부터 재설계한 실험적 프로그래밍 언어. 즉석 학습 가능, Inspect·Repair 보장, 표준 라이브러리 우선 등 에이전트 중심 개발을 염두에 둔 설계가 핵심이다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29780",
+      "source_id": ""
+    },
+    {
+      "title": "LLM 아키텍처의 최근 동향: KV 공유, mHC, 그리고 압축 어텐션",
+      "summary": "\n장문 컨텍스트 효율성 개선을 위해 공개 오픈웨이트 LLM들이 KV 캐시·메모리 트래픽·어텐션 비용을 줄이는 아키텍처 트릭을 도입 중이라는 동향 분석. Gemma 4의 계층 간 KV 공유, per-layer embedding 최적화 등이 예로 언급된다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29775",
+      "source_id": ""
+    },
+    {
+      "title": "Antigravity 2.0, OpenSCAD 건축 3D LLM 벤치마크에서 1위",
+      "summary": "\nOpenSCAD Pantheon 벤치마크에서 Google Antigravity 2.0 / Gemini 3.5 Flash High가 품질 4.5/5로 최고점을 받음. 이미지와 짧은 프롬프트로 파라메트릭 CAD 코드를 생성하는 능력이 평가 기준이다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29796",
+      "source_id": ""
+    },
+    {
+      "title": "DeepSeek이 V4 Pro 가격 할인을 영구화함",
+      "summary": "\nDeepSeek-V4-Pro API의 가격을 프로모션 종료 뒤에도 기존 가격의 약 1/4 수준으로 유지한다고 발표. 과금은 100만 토큰 기준으로 입력·출력 토큰 사용량에 따라 차감된다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29797",
+      "source_id": ""
+    },
+    {
+      "title": "macOS의 기능을 100% 활용하는 실시간 다국어 AI Voice Agent — TalkMode",
+      "summary": "\n맥에서 동작하는 실시간 AI 음성 에이전트로 시선 추적, 실시간 STT/TTS, Claude/OpenAI 연동을 통해 Agent-OS 스타일의 음성 인터페이스를 제공하는 제품·프로토타입 소개.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29784",
+      "source_id": ""
+    },
+    {
+      "title": "Kudos to Cursor",
+      "summary": "\nCursor 사용자 커뮤니티에서 Composer 2.5 fast가 Opus/Sonnet 대비 빠르고 정확해졌다는 평가. 여러 비교 테스트에서 유사한 결과를 더 짧은 시간에 내준다는 경험담이 보고되었다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tlsy2t/kudos_to_cursor/",
+      "source_id": ""
+    },
+    {
+      "title": "Engineers using Cursor / Claude Code: would you actually want a shared memory layer for team context",
+      "summary": "\n팀 맥락(결정, 수정사항 등)이 개별 AI 코딩 세션·슬랙·회의에 흩어지는 문제를 해결하기 위한 도구를 만드는 사람이 질문을 던짐. Cursor/Claude Code에 팀 공유 메모리 계층을 넣는 것이 실질적 필요인지 묻는다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/cursor/comments/1tlq9iz/engineers_using_cursor_claude_code_would_you/",
+      "source_id": ""
+    },
+    {
+      "title": "How are you stopping coding agents from wandering into unrelated parts of your codebase?",
+      "summary": "\n코딩 에이전트가 좁은 작업을 요청해도 인증·설정·의존성 등 예상치 못한 파일까지 건드리는 'wandering' 문제에 대한 실전 워크플로 질문. 도구별 전환(예: Cursor→Claude) 시 컨텍스트 유실·핸드오프 처리 방법을 묻는다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/cursor/comments/1tluj4q/how_are_you_stopping_coding_agents_from_wandering/",
+      "source_id": ""
+    },
+    {
+      "title": "My experience using Claude code with Local Llm, and full guide on how to set it up",
+      "summary": "\n비행기 등 오프라인 환경에서 Ollama로 로컬 LLM을 내려받아 Claude Code와 연결해 쓰는 실전 가이드. 로컬 모델(gemma4:26b 등) 사용 시 도구 루프 안정성·속도 차이와 배터리·엔드포인트 차이 등 경험을 정리했다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tlir65/my_experience_using_claude_code_with_local_llm/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code has been writing every session to disk since day one. We indexed it.",
+      "summary": "\n~/.claude/projects/ 아래에 모든 Claude Code 세션의 JSONL 전사본이 append-only로 저장되어 있음을 발견하고, 이를 SQLite+FTS5로 인덱싱해 세션 검색·복구·문맥 재구성(컴팩션 시의 캐시 미스 문제 해결) 레이어를 만든 사례 공유.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tlu3np/claude_code_has_been_writing_every_session_to/",
+      "source_id": ""
+    },
+    {
+      "title": "AgentLantern: exposing the hidden graph of AI agent projects [P]",
+      "summary": "\nAgent 프레임워크로 만든 프로젝트들이 코드·YAML·툴 정의 등에 흩어진 실행 그래프를 이해하기 어려운 문제를 해결하려는 오픈소스 개발자 도구. Lantern Docs(문서 생성), Lantern Lint(정적 검사), Lantern Play(런타임 뷰어)로 에이전트 프로젝트를 가시화·검증·디버깅한다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tlmw03/agentlantern_exposing_the_hidden_graph_of_ai/",
+      "source_id": ""
+    }
+  ]
+}
