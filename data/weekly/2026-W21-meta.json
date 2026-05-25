@@ -1,0 +1,182 @@
+{
+  "week": "2026-W21",
+  "date_range": [
+    "2026-05-18",
+    "2026-05-24"
+  ],
+  "total_items": 130,
+  "filtered_items": 129,
+  "trend_map": [
+    {
+      "topic": "Claude Code / Claude (Anthropic)",
+      "days": [
+        "05-18",
+        "05-19",
+        "05-20",
+        "05-21",
+        "05-22",
+        "05-23",
+        "05-24"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor (desktop / Composer / agent issues / plugins)",
+      "days": [
+        "05-18",
+        "05-19",
+        "05-20",
+        "05-21",
+        "05-22",
+        "05-23",
+        "05-24"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Anthropic (hiring / product / courses / partnerships)",
+      "days": [
+        "05-19",
+        "05-20",
+        "05-21",
+        "05-22",
+        "05-23",
+        "05-24"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Codex / OpenAI Codex integrations",
+      "days": [
+        "05-18",
+        "05-19",
+        "05-20",
+        "05-21"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "MCP / persistent memory / token efficiency / agent tooling",
+      "days": [
+        "05-18",
+        "05-19",
+        "05-22",
+        "05-24"
+      ],
+      "impact": "medium",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Composer 2.5 (Cursor)",
+      "days": [
+        "05-18",
+        "05-20",
+        "05-22"
+      ],
+      "impact": "medium",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Security & privacy incidents (agent data loss, session logging, vulnerabilities)",
+      "days": [
+        "05-18",
+        "05-22",
+        "05-23"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Forge / agent guardrails",
+      "days": [
+        "05-19",
+        "05-20"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "Microsoft rescinding / licensing actions for Claude Code",
+      "days": [
+        "05-22",
+        "05-23"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "Gemini (3.5 Flash / CLI)",
+      "days": [
+        "05-19",
+        "05-20"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "DeepSeek (products / pricing / Reasonix)",
+      "days": [
+        "05-21",
+        "05-23",
+        "05-24"
+      ],
+      "impact": "medium",
+      "direction": "sustained"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 77,
+      "high_count": 22
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 52,
+      "high_count": 15
+    }
+  },
+  "top5": [
+    {
+      "title": "Microsoft, Claude Code 라이선스 취소 시작",
+      "url": "https://news.hada.io/topic?id=29800",
+      "mentions": 2,
+      "impact": "high"
+    },
+    {
+      "title": "Andrej Karpathy, Anthropic에 합류",
+      "url": "https://news.hada.io/topic?id=29674",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "Stop Burning Tokens: 5.1x Faster Code Discovery With One Universal Plugin for AI Coding Agents",
+      "url": "https://www.reddit.com/r/cursor/comments/1tmgzlo/stop_burning_tokens_51x_faster_code_discovery/",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "What to know about the AI models that are jolting Washington",
+      "url": "https://www.politico.com/news/2026/05/24/anthropic-openai-mythos-what-to-know-00934668",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "Cursor’s annual revenue hits $3 billion and reaches \"slight gross profitability\"",
+      "url": "https://www.reddit.com/r/cursor/comments/1tkn6vf/cursors_annual_revenue_hits_3_billion_and_reaches/",
+      "mentions": 1,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-05-18": 19,
+    "2026-05-19": 28,
+    "2026-05-20": 19,
+    "2026-05-21": 17,
+    "2026-05-22": 17,
+    "2026-05-23": 15,
+    "2026-05-24": 14
+  }
+}

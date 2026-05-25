@@ -1,0 +1,1052 @@
+{
+  "week_id": "2026-W21",
+  "date_range": [
+    "2026-05-18",
+    "2026-05-24"
+  ],
+  "total_items": 130,
+  "filtered_items_count": 129,
+  "items": [
+    {
+      "title": "Scaling LLMs horizontally: hidden-state coupling without weight modification [R]",
+      "summary": "\nResidual Coupling (RC) connects frozen models in parallel with small learned linear bridge projections that read and inject hidden states, enabling horizontal multi-model systems (specialists, edge/parallel execution) without changing base weights; paper and code shared with strong reported gains on some tasks.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgm530/scaling_llms_horizontally_hiddenstate_coupling/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Is the future of coding agents JEPA? [D]",
+      "summary": "\nDiscussion proposing JEPA (Joint Embedding Predictive Architecture) for coding agents: encode repo state into compact representations, predict state transitions and rank actions instead of token-level completion—argues this could make agents far more efficient, local, and stateful.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgq9v2/is_the_future_of_coding_agents_jepa_d/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "summary": "\nOpenAI and Dell announce a partnership to enable Codex deployments in hybrid and on-premises enterprise environments, aiming to let companies run AI coding agents securely across their data and workflows.",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Asmtp – SMTP for Agents",
+      "summary": "\nAsmtp advertises an SMTP-like protocol/service designed for autonomous agents to send/receive messages (agent messaging/integration infrastructure), positioned as an agent-friendly transport layer.",
+      "url": "https://www.asmtp.net/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "My blog was hacked and Claude and I just fixed it",
+      "summary": "\nA first-person post describing using Claude to diagnose and remediate a hacked blog, showing a practical agent/workflow use-case for frontier LLMs assisting with debugging and site recovery.",
+      "url": "https://lengrand.fr/my-blog-was-hacked-and-claude-and-i-just-fixed-it/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Semble - grep보다 토큰을 98% 적게 쓰는 에이전트용 코드 검색",
+      "summary": "\nSemble은 에이전트가 자연어·코드 쿼리로 필요한 코드 청크만 즉시 반환하도록 설계된 코드 검색 라이브러리로, grep+read 대비 약 98% 적은 토큰을 쓰고 평균 응답시간이 ~250ms 수준임 — 에이전트 기반 코딩 워크플로의 토큰·지연 비용을 크게 낮출 수 있음.",
+      "url": "https://news.hada.io/topic?id=29626",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "dev3000 - AI 디버깅을 위한 웹 앱 개발 타임라인 통합 캡처 도구",
+      "summary": "\ndev3000은 서버 로그, 브라우저 콘솔, 네트워크 요청, 자동 스크린샷, 사용자 인터랙션 등을 타임스탬프 단위로 통합 캡처하여 디버깅 컨텍스트를 보존하는 도구로, 에이전트/자동화로 생성된 코드의 디버깅·재현성에 유용함.",
+      "url": "https://news.hada.io/topic?id=29607",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "11 Claude things I wish someone had told me 12 months ago",
+      "summary": "\nClaude/Claude Code의 실무 팁(Projects로 코드베이스 컨텍스트 저장, Custom Styles, 메모리 기본 활성화, Subagents와 아티팩트 활용 등)을 경험 기반으로 정리 — 에이전틱 코딩(Claude Code) 실무 생산성·워크플로 모범사례 정리글.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tgqnsl/11_claude_things_i_wish_someone_had_told_me_12/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Just finished the Claude Code certification and would heavily recommend it to all “vibe coders”",
+      "summary": "\n사용자가 무료 Claude Code 인증을 수료하고 유용했다는 경험 공유 — Claude Code 도입·온보딩 자료로서 커뮤니티 학습·인증의 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tgnuhe/just_finished_the_claude_code_certification_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Fast mode now defaults to Opus 4.7 in Claude Code.",
+      "summary": "\nClaude Code의 Fast 모드 기본 모델이 Opus 4.7로 바뀌었다는 사용자 보고 — 모델 기본값 변경은 개발자 워크플로·성능·비용에 직접적 영향이 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tgzjrm/fast_mode_now_defaults_to_opus_47_in_claude_code/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "I made an agent skill for auditing over-engineered codebases.",
+      "summary": "\n에이전트 스킬 /compress-architecture를 공개해 과도한 아키텍처를 안전하게 축소하는 자동화·검토 흐름을 구현 — 에이전트가 코드베이스 합리화(리팩터링 제안)를 수행하도록 하는 실무 스킬 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1th4zif/i_made_an_agent_skill_for_auditing_overengineered/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "What finally stopped Claude Code from rationalizing shortcuts in my workflow",
+      "summary": "\nClaude Code 에이전트가 '끝난 것처럼 보이는' 결과를 반복 생성하는 문제를 해결하기 위해 프롬프트 밖의 래퍼·훅·게이트(외부 가드레일)를 도입한 경험 공유 — 에이전트 안전·신뢰성 설계 관점의 교훈.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1th3jh9/what_finally_stopped_claude_code_from/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Composer 2.5 has been released (2x usage for the next week)",
+      "summary": "\nCursor의 Composer 2.5 출시 소식(일시적 2배 사용 혜택 링크 포함) — 에디터/IDE 통합형 에이전틱 코딩 도구의 신버전 배포로 개발자 생산성 변화 가능.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tgsvhw/composer_25_has_been_released_2x_usage_for_the/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Completely New Cursor Model with SpaceX Coming Soon",
+      "summary": "\nComposer 2.5 공지에 따르면 Cursor가 SpaceXAI와 함께 전용 대형 모델을 처음부터 훈련(10x 더 많은 계산량을 사용)한다고 발표 — 에이전틱 도구 분야에서 독자적/규모형 모델 개발의 신호탄으로 해석됨.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tgu2o0/completely_new_cursor_model_with_spacex_coming/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Cursor Agent ran rmdir /s /q on Windows and deleted my user profile",
+      "summary": "\nCursor 에이전트가 잘못된 경로로 Windows에서 rmdir /s /q 명령을 실행해 사용자 프로필을 포함한 파일들을 삭제한 사례 보고 — 에이전트의 권한·명령 실행 가드레일 부재로 인한 심각한 안전사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tga513/cursor_agent_ran_rmdir_s_q_on_windows_and_deleted/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "On ultra plan: Burned through 6% of API tokens in ONE single feature - how to use less tokens? Or when to use Auto?",
+      "summary": "\nCursor Ultra 플랜 사용자가 단일 기능 개발로 Opus 4.7 토큰을 대량 소모한 사례 공유 — 에이전틱 코딩 플랫폼의 비용·토큰 관리 문제가 실무 채택에서 중요한 제약임을 시사.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tgn10y/on_ultra_plan_burned_through_6_of_api_tokens_in/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "QA gap tools for Cursor projects and what each one does",
+      "summary": "\nCursor로 생성된 코드의 QA를 보완하는 도구군(Playwright/Autosana/SmartBear 등)과 각 접근 방식(스크립트 기반·비주얼 검증 등)을 정리 — 에이전트가 만든 산출물의 검증·테스트 파이프라인 필요성을 보여줌.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tgkyns/qa_gap_tools_for_cursor_projects_and_what_each/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "How are you handling context loss between Claude Code / Cursor sessions?",
+      "summary": "\n세션 기반 에이전트가 한 세션에서 학습한 코드베이스 컨텍스트가 다음 세션에 유지되지 않는 문제(현장에서는 CLAUDE.md로 보완 중)를 제기 — 지속적 컨텍스트·상태 보존은 에이전틱 코딩의 핵심 인프라 문제.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tg9acb/how_are_you_handling_context_loss_between_claude/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Cursor isn't working",
+      "summary": "\n사용자 보고: Cursor가 응답하지 않고 플래닝/장기 수행 상태에서 멈추는 증상(서비스 상태 페이지 링크 포함) — 운영 가용성·오류는 개발자 툴 신뢰성에 직접 영향.",
+      "url": "https://www.reddit.com/r/cursor/comments/1th5nnf/cursor_isnt_working/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "_date": "2026-05-18"
+    },
+    {
+      "title": "Andrej Karpathy, Anthropic에 합류",
+      "summary": "\nAndrej Karpathy가 Anthropic에 합류해 LLM 전처리·프리트레이닝 관련 R&D에 합류한다는 발표. 최전선 인재 영입으로 프런티어 모델 연구 역량 강화 시사.",
+      "url": "https://news.hada.io/topic?id=29674",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Karpathy joins Anthropic",
+      "summary": "\n레딧/ClaudeAI 커뮤니티에서 Karpathy의 Anthropic 합류 소식 공유 — 프리트레이닝 팀 합류 소식이 모델·에이전트 개발 경쟁에 미칠 영향 논의.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Gemini 3.5 Flash",
+      "summary": "\nGoogle의 Gemini 3.5 Flash가 발표됨 — 에이전트·코딩 장기 작업을 겨냥하며 기존 Gemini 3.1 Pro 대비 여러 벤치마크에서 성능·속도 우위 보임. 출력 토큰 특성 등 모델 속성 변화도 언급.",
+      "url": "https://news.hada.io/topic?id=29670",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Gemini 3.5 Flash is out in Cursor",
+      "summary": "\nCursor에서 Gemini 3.5 Flash가 사용 가능해졌다는 사용자 게시물 — Cursor 같은 코드 중심 IDE에서 Composer 계열 모델과 병행 사용하는 사례 증가.",
+      "url": "https://www.reddit.com/r/cursor/comments/1thzut7/gemini_35_flash_is_out_in_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Anthropic just bought the company that generates most production MCP servers",
+      "summary": "\n레딧 포스트에서 Anthropic의 Stainless 인수 배경과 의미를 분석 — Stainless가 SDK·MCP 서버 생성기술을 보유해 도구·서버 표준화 및 집중화 우려·장점 모두 제기.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thkkrb/anthropic_just_bought_the_company_that_generates/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Self-hosted sandboxes and MCP tunnels for Claude Managed Agents are now in public beta.",
+      "summary": "\nClaude Managed Agents용으로 self-hosted 샌드박스와 MCP 터널(온프레/프라이빗 네트워크에서 에이전트 실행·연결)이 퍼블릭 베타에 배포되어 에이전트 배포·보안·프라이버시 측면의 유연성이 확대됨.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thg711/selfhosted_sandboxes_and_mcp_tunnels_for_claude/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Codex의 Goals를 활용하는 법",
+      "summary": "\nCodex의 Goals(영속적 목표) 기능을 통해 여러 턴에 걸친 장기 과제를 에이전트가 지속 수행하도록 만드는 활용법과 적용 사례(프로파일링, 패치, 벤치 등)를 소개.",
+      "url": "https://news.hada.io/topic?id=29639",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Show GN: goal-setter: OpenAI의 goal 기능 활용 가이드를 반영한 agent skill",
+      "summary": "\nGoal 기능을 쓰는 에이전트 스킬 'Goal Setter' 소개 — 사용자 인터뷰로 완료 조건을 명확히 하여 긴 작업을 에이전트에 안전하게 위임하는 워크플로 소개.",
+      "url": "https://news.hada.io/topic?id=29661",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Show GN: 에이전트 캣 — Claude Code / Codex / Gemini CLI 의 상태와 사용량을 메뉴바 고양이로",
+      "summary": "\nmacOS 메뉴바 위젯 형태로 여러 에이전트(Claude Code, Codex, Gemini CLI)의 상태·사용량을 실시간 확인하게 해 주는 유틸 소개 — 에이전트 운영·모니터링 경험 개선 도구.",
+      "url": "https://news.hada.io/topic?id=29649",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "장기 자율성 평가를 위한 AI 에이전트 시뮬레이션 플랫폼 'Emergence World' 분석",
+      "summary": "\n가상 마을에 에이전트들을 장기간 방치해 자율성·장기 거동을 평가한 시뮬레이션 결과 소개 — 에이전트별 사회적 행동·붕괴 양상(클로드의 민주주의 구축, 제미나이의 파괴 등)과 장기 벤치마크 필요성 논의.",
+      "url": "https://news.hada.io/topic?id=29650",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "How I built a 9-agent team where my agents actually talk to each other",
+      "summary": "\n레딧 사용자가 Claude Code 기반으로 9개 에이전트(엔지니어링·콘텐츠 등)를 역할·메모리·핸드오프 규칙으로 구성해 실제 협업하게 만든 사례 소개 — multi-agent 실용 오케스트레이션 패턴과 지속적 메모리 활용 법.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thi16y/how_i_built_a_9agent_team_where_my_agents/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "100 Tips & Tricks for Building Your Own Personal AI Agent /LONG POST/",
+      "summary": "\n개인용 지속 에이전트를 설계·운영하는 데 대한 100가지 실무 팁(정체성·메모리·스킬·권한·세션·테스트 등)을 광범위하게 정리한 장문의 가이드로, 에이전트 설계·운영 표준화에 유용한 실무 인사이트 제공.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thi6nh/100_tips_tricks_for_building_your_own_personal_ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "A cross-IDE SEO skill that auto-installs to .cursor/rules — refuses deprecated patterns Cursor's default rules don't catch",
+      "summary": "\n크로스-IDE용 SEO 스킬을 만들어 .cursor/rules로 자동 설치되게 한 사례 — Cursor 뿐 아니라 Claude Code, Copilot 등 여러 에이전트·IDE에 적용 가능한 스킬로, 에이전트 확장성·플러그인 패턴 시사.",
+      "url": "https://www.reddit.com/r/cursor/comments/1thwz4j/a_crosside_seo_skill_that_autoinstalls_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Tooling pattern · cache your agent’s doctrine layer, not its prompt or its response",
+      "summary": "\n에이전트 스택에서 '도그마(doctrine)' 레이어(에이전트의 안정적 규칙)를 캐시하는 툴링 패턴과 octowiz 캐시 구현 소개 — 에이전트 초기화 지연·토큰 비용을 줄이는 실무적 인프라 패턴.",
+      "url": "https://www.reddit.com/r/cursor/comments/1thcz94/tooling_pattern_cache_your_agents_doctrine_layer/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Git의 --author 플래그로 GitHub 저장소의 AI 봇 스팸을 막은 방법",
+      "summary": "\n오픈소스 저장소에 AI 기반 무의미한 PR·댓글이 증가하는 상황에서 Git의 --author 플래그 등으로 봇성 기여를 식별·관리해 커뮤니티 토론을 보호한 사례 및 실무 방안 제시.",
+      "url": "https://news.hada.io/topic?id=29642",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "For people using Cursor/Claude Code daily: what’s the most subtle bug or security issue it generated that looked correct at first?",
+      "summary": "\nCursor/Claude Code 등 코드 에이전트 사용 중에 '처음엔 정상적으로 보였지만 뒤에 드러난 미묘한 버그·보안 문제'(입력 검증 누락, 에러핸들링 누락, 인증 우회 등)에 대한 이용자 경험 질의 — 에이전트 산출물의 보안·검증 필요성 환기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1thkfk2/for_people_using_cursorclaude_code_daily_whats/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Composer 2.5 suddenly believes it's in ask mode",
+      "summary": "\nCursor의 Composer 2.5 모델이 에이전트 모드에서 갑자기 'ask mode'로 전환되어 파이프라인 전체를 잊는 증상 보고 — 에이전트 장기작업 안정성·상태관리 이슈 사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tha71k/composer_25_suddenly_believes_its_in_ask_mode/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "I gave Claude access to my M365 account using Power Automate + a small MCP server",
+      "summary": "\nDetailed how-to: author built a FastMCP proxy in front of Power Automate webhooks so Claude (via MCP tool calls) can read/send email, access calendar, OneDrive, Planner, Excel, and Word without Graph API tenant permissions—practical MCP+enterprise connector pattern and security notes.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thabze/i_gave_claude_access_to_my_m365_account_using/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Google's AI Studio now lets anyone build Android apps in minutes",
+      "summary": "\nTechCrunch report on Google AI Studio adding features that generate Android apps quickly—platform-level tooling that leverages generative AI to accelerate app creation.",
+      "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Gemini Omni: where Gemini's ability to reason meets the ability to create",
+      "summary": "\nVideo/content about Google's Gemini Omni product highlighting combined reasoning and creativity capabilities—frontier model product material.",
+      "url": "https://www.youtube.com/watch?v=KUyRq7szZsM",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Show HN: Capframe – capability tokens and policy AI agent tool calls for",
+      "summary": "\nCapframe (capframe.ai) presents capability tokens and policy controls for agent tool calls—tooling for policy-driven, capability-limited agent interactions and secure tool invocation.",
+      "url": "https://capframe.ai",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Widening the Conversation on Frontier AI",
+      "summary": "\nAnthropic announcement discussing broadening engagement on frontier AI—policy/engagement update from a frontier-model provider.",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "ServiceNow wants to be the kill switch for AI agents that delete your database",
+      "summary": "\nArticle on ServiceNow positioning itself as an enterprise control/kill-switch to prevent autonomous AI agents from making destructive actions (e.g., deleting databases)—enterprise safety/control for agentic systems.",
+      "url": "https://fortune.com/2026/05/06/servicenow-kill-switch-ai-agents-bill-mcdermott/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Show HN: Claude-Autopilot: autonomous dev pipeline with risk-tiered review",
+      "summary": "\nRepository for Claude-Autopilot: an autonomous development pipeline that runs code changes and applies risk-tiered human review—example of agentic CI/CD and dev automation.",
+      "url": "https://github.com/axledbetter/claude-autopilot",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "RTK: Rust Token Killer",
+      "summary": "\nRTK (Rust Token Killer) GitHub project—tool related to token handling/optimization for LLMs (repo/utility for token management in AI contexts).",
+      "url": "https://github.com/rtk-ai/rtk",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "We built an AI strategy agent that runs consulting-style workflows",
+      "summary": "\nNitroLens: product that runs structured, consulting-style strategy workflows via AI agents (clarify question, select frameworks, run research, produce reports)—an agentic business workflow product (beta).",
+      "url": "https://nitrolens.ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "summary": "\nOpenAI announces advances in content provenance (Content Credentials, SynthID, verification tools) to help identify and label AI-generated media and improve trust in AI-generated content.",
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "summary": "\nForge is an open-source reliability/guardrail layer for self-hosted LLM tool-calling that adds retry nudges, step enforcement, error recovery and context management—claims large improvements in multi-step agentic workflow reliability on local models and provides an eval harness and proxy mode.",
+      "url": "https://github.com/antoinezambelli/forge",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-19"
+    },
+    {
+      "title": "InferenceBench: A Benchmark for Open-Ended Inference Optimization by AI Agents",
+      "summary": "\nA new benchmark and site (InferenceBench) focused on measuring and driving progress in open-ended inference optimization by AI agents — relevant for evaluating agentic reasoning and multi-step inference performance.",
+      "url": "https://inferencebench.ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Tracking Capabilities for Safer Agents",
+      "summary": "\narXiv paper proposing methods to track capabilities of AI agents to improve safety monitoring and control; directly relevant to agent alignment and agentic system governance.",
+      "url": "https://arxiv.org/abs/2603.00991",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "JAM: DSP audio engine programmable via AI chat",
+      "summary": "\nA programmable DSP audio engine that can be controlled via AI chat interfaces — demonstrates agentic/LLM-driven programming of audio processing pipelines.",
+      "url": "https://jeffsaudiomachines.com/my-story",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "summary": "\nOpenAI reports a model solved (disproved) an 80-year-old conjecture in discrete geometry — a notable frontier-model result showing advanced mathematical reasoning capabilities.",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "summary": "\nCase study from OpenAI describing how Ramp uses Codex (with GPT-5.5) to speed up code review and provide substantive feedback in minutes, illustrating practical developer tooling and model-assisted engineering workflows.",
+      "url": "https://openai.com/index/ramp",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Gemini CLI는 2026년 6월 18일부터 작동을 중단할 예정",
+      "summary": "\nGoogle이 터미널용 Gemini CLI 기능을 멀티에이전트 흐름에 통합된 Antigravity CLI로 합치면서 기존 Gemini CLI의 지원·운영을 중단할 예정이라는 공지 — 수백만 사용자·오픈소스 기여자가 얽힌 CLI 생태계의 변화로 에이전트 개발·배포 워크플로에 영향.",
+      "url": "https://news.hada.io/topic?id=29711",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Show GN: Codex Relay - 모바일에서 코덱스 Terminal, Browser, Git, File Viewer, Markdown 탑재",
+      "summary": "\n100% 무료 오픈소스 기반 Codex Relay로, Codex/코덱스 원격을 모바일에서 터미널·브라우저·Git·파일 뷰어 등과 결합해 Codex/코드 에이전트 환경을 확장하는 프로젝트(레포지토리 링크 포함).",
+      "url": "https://news.hada.io/topic?id=29706",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Forge - 가드레일로 8B 모델을 에이전트 작업에서 53%에서 99%로 끌어올리는 도구",
+      "summary": "\nForge는 자체 호스팅 LLM의 도구 호출 신뢰성을 높이는 신뢰성 계층으로, rescue parsing(잘못된 도구 호출 복구), 재시도 유도, 필수 단계 강제 등으로 작은 로컬 모델이 다단계 에이전트 워크플로에서 안정적으로 동작하게 함 — 저비용·엣지 LLM 기반 에이전트 신뢰성 향상에 직접적 기여.",
+      "url": "https://news.hada.io/topic?id=29705",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Remove-AI-Watermarks - 이미지에서 AI 워터마크를 제거하는 CLI와 라이브러리",
+      "summary": "\nRemove-AI-Watermarks는 Google Gemini, ChatGPT/DALL·E, Stable Diffusion, Adobe Firefly, Midjourney 등에서 생성된 보이는/보이지 않는 워터마크와 AI 생성 메타데이터를 분석·제거하는 CLI 및 Python 라이브러리로, 생성물 출처 검증·우회와 관련된 실무·보안 이슈를 다룸.",
+      "url": "https://news.hada.io/topic?id=29702",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "OpenAI, 검증 도구와 함께 AI 이미지에 Google의 SynthID 워터마크 도입",
+      "summary": "\nOpenAI가 C2PA 적합성·SynthID 워터마크·공개 검증 도구를 결합해 AI 생성 콘텐츠의 출처·검증 모델을 강화 — 생성물에 대한 다층 출처 증명과 변환 시 보존 문제(메타데이터 손상 등)를 함께 다루려는 움직임.",
+      "url": "https://news.hada.io/topic?id=29700",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Cursor Composer 2.5, Cursor 내 가장 많이 선택받는 모델로 등극 — 10x 사용량 보너스",
+      "summary": "\nCursor에서 Composer 2.5가 빠르게 채택되어 플랫폼 내 최다 선택 모델이 되었고, 출시 초기 사용자 대상으로 하루 10배 사용량 보너스가 제공되었다는 발표 — 자체 모델이 Anthropic/OpenAI 경쟁 모델을 제치고 개발자 코딩 워크플로에서 디폴트로 자리잡는 흐름 시사.",
+      "url": "https://news.hada.io/topic?id=29691",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Composer 2.5 is my new default. It is fast, accurate, and actually cheap",
+      "summary": "\n사용자 체험기: Composer 2.5를 데일리 디폴트로 전환하며 속도·정확성·비용 측면에서 기존 GPT/Opus 모델 대비 실용성이 높아졌다는 보고 — 모델 선택 비용 효율성 변화가 개발자 작업 패턴에 미치는 영향 관찰.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tijtom/composer_25_is_my_new_default_it_is_fast_accurate/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Mirage - AI 에이전트를 위한 통합 가상 파일시스템",
+      "summary": "\nMirage는 S3/Google Drive/Slack/Gmail/Redis 등 다양한 백엔드를 단일 파일시스템 트리로 마운트해 AI 에이전트가 일관된 Unix 스타일 인터페이스로 접근할 수 있게 함 — 에이전트가 서비스별 SDK나 MCP를 새로 배우지 않고도 데이터 파이프라인·서비스 간 파이프 연결을 쉽게 수행하도록 지원하는 인프라 도구.",
+      "url": "https://news.hada.io/topic?id=29681",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "I stumped Claude earlier and it had no choice but to seek wisdom from the Ancient One",
+      "summary": "\n(제목의 Reddit 이미지 포스트) 사용자-생성 짧은 사례·밈으로, Claude/Anthropic 생태계의 커뮤니티 활동과 사용자 경험을 반영 — 제품 채택과 커뮤니티 면모를 보여주는 소소한 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tiiau0/i_stumped_claude_earlier_and_it_had_no_choice_but/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "I'm a software engineer with a decade of experience. I vibe code all of my side projects from my phone using Claude Code and don't read any of the code. It's so fun. Here are the rules I follow:",
+      "summary": "\n경험 공유 글: Claude Code 기반 'vibe coding' 워크플로(플랜 모드 강조, 테스트 생성, 단계 분할, git 자동 커밋 등)를 상세히 정리해 에이전트 중심 코딩 실무·테크닉과 위험·안전 수칙(테스트·백업 등)을 제시 — 실무 적용 사례로서 에이전틱 코딩 채택 인사이트 제공.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tj2i90/im_a_software_engineer_with_a_decade_of/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Andrej Karpathy, Anthropic 합류 — Claude pre-training 팀으로",
+      "summary": "\nAndrej Karpathy가 Anthropic에 합류해 Claude pre-training 팀에 참여함을 발표 — 프론티어 모델 연구·훈련 역량 강화 측면에서 주목되는 인력 이동으로, 향후 Claude 계열 모델 개발·성능에 영향 가능.",
+      "url": "https://news.hada.io/topic?id=29684",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "LLM의 지난 6개월을 5분 만에 보기",
+      "summary": "\n최근 6개월 LLM 생태계 요약: 코딩 에이전트 실용화, 노트북 실행 모델 약진, Claude Sonnet/GPT-5.1/Gemini/Claude Opus 등 프론티어 모델 경쟁 구도와 빠른 모델 교체·기능 진화 동향을 정리한 브리핑형 글.",
+      "url": "https://news.hada.io/topic?id=29682",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "I built a skill that cuts Claude's output by up to 70% — without losing any technical accuracy",
+      "summary": "\n'crisp'라는 Claude용 스킬 소개: 불필요한 문구를 줄여 토큰 소모를 크게 낮추되, 파괴적/위험한 작업에는 자동으로 명확성 모드로 전환하는 설계로 안전성과 비용 효율을 동시에 개선 — 에이전트 상호작용·운영 비용 최적화용 실사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tiqoep/i_built_a_skill_that_cuts_claudes_output_by_up_to/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "CANTANTE: Optimizing Agentic Systems via Contrastive Credit Attribution [R]",
+      "summary": "\n연구 요약: LLM 기반 멀티에이전트 시스템의 구성·튜닝을 자동화하기 위한 'credit assignment' 해결책 CANTANTE 제안 — 서로 다른 에이전트 구성의 롤아웃을 비교해 에이전트별 기여도를 추정하고 로컬 옵티마이저에 피드백해 에이전트 프롬프트/구성 학습을 가능하게 함. 에이전틱 시스템 자동화·최적화 연구에 기여.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tij4st/cantante_optimizing_agentic_systems_via/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-20"
+    },
+    {
+      "title": "Donald Trump abruptly postpones AI order after White House infighting",
+      "summary": "\nReport that the US president abruptly postponed an AI executive order amid White House infighting, delaying near-term policy actions affecting frontier models and AI governance.",
+      "url": "https://www.ft.com/content/14213cb0-8d11-4118-bac0-12a403696185",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Ask HN: What happens when you intercept and modify Claude Code's system prompt?",
+      "summary": "\nHN thread asking whether intercepting or modifying Claude Code's system prompt breaks functionality — a practical question about robustness and security of Claude Code agent behavior.",
+      "url": "https://news.ycombinator.com/item?id=48230172",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Tell HN: I'm tired of AI-generated answers",
+      "summary": "\nHN post describing frustration with pervasive AI-generated answers and encounters with AI agents posing as humans, highlighting UX and trust issues as AI agents proliferate.",
+      "url": "https://news.ycombinator.com/item?id=48230104",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Codex got better, codex might be built with Claude Opus",
+      "summary": "\nHN comment speculating that recent improvements in OpenAI's Codex could be related to use of Claude Opus internally — community rumor about cross-model engineering practices.",
+      "url": "https://news.ycombinator.com/item?id=48230097",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Genkit Middleware: Intercept, extend, and harden your agentic apps",
+      "summary": "\nGoogle developer blog announcing Genkit Middleware to intercept, extend, and harden agentic applications — new tooling for building safer, more controllable agent-based systems.",
+      "url": "https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Anthropic's \"Profitability\" Swindle",
+      "summary": "\nBlog critique alleging misleading claims about Anthropic's path to profitability, scrutinizing the economics and business claims of a frontier model company.",
+      "url": "https://www.wheresyoured.at/anthropics-profitability-swindle/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Herdr - AI Agent 시대를 위한 tmux 스타일 터미널 워크스페이스",
+      "summary": "\nHerdr는 터미널 내에서 tmux 스타일 세션/페인 관리를 제공하면서 Claude Code, Codex, OpenCode 같은 AI 코딩 에이전트를 여러 개 동시 관리하도록 최적화된 'agent-native' 워크스페이스 매니저임 — 에이전트 중심 개발자 로컬 워크플로와 통합되는 툴이라는 점에서 유의미함.",
+      "url": "https://news.hada.io/topic?id=29738",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "I built Hivemind, a Claude Code plugin that turns your repeated prompts into auto-generated skills",
+      "summary": "\nHivemind는 Claude Code 플러그인으로 세션 트레이스를 관찰해 반복 패턴을 자동으로 'crystallize'하여 재사용 가능한 slash-command 스킬로 만들어 주는 오픈소스 프로젝트임 — 팀 단위로 반복되는 워크플로를 자동화해 생산성 개선에 기여할 가능성 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjw0ah/i_built_hivemind_a_claude_code_plugin_that_turns/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Anthropic officially launched 13+ FREE AI courses with certificates (Including Agentic AI and Claude Code!)",
+      "summary": "\nAnthropic이 Claude/agent 개발자 대상 교육 코스(Agentic AI, MCP, Claude Code 개발 모듈 포함)를 Skilljar 기반으로 무상 공개하고 수료증을 발급하기 시작했다는 커뮤니티 게시물 — 에이전트·MCP·Claude Code 생태계의 채용·교육 접근성에 직접적 영향.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjpfh8/anthropic_officially_launched_13_free_ai_courses/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Qwen3.7-Max: 에이전트 프런티어",
+      "summary": "\nQwen3.7-Max는 코딩·디버깅·사무 자동화·수백~수천 단계 자율 실행을 겨냥한 에이전트 중심 독점 모델로 발표되었으며 여러 에이전트·코딩 벤치마크에서 상위권 성능을 보고함 — 에이전트화된 복잡 워크로드 타깃의 프런티어 모델 동향을 가리킴.",
+      "url": "https://news.hada.io/topic?id=29716",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "OpenAI 모델이 이산기하의 중심 추측을 반박했다",
+      "summary": "\nOpenAI의 범용 추론 모델이 오래된 이산기하 문제(단위 거리 문제)의 중심 추측을 반박하는 무한한 예시군을 만들고 다항식 수준 개선을 제시했다는 보도 — 대형 모델이 수학·추론 연구에서 실질적 발견을 만들 수 있음을 시사함.",
+      "url": "https://news.hada.io/topic?id=29722",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "What Google I/O '26 means for developing agents on Google Cloud",
+      "summary": "\nGoogle I/O에서 발표된 Antigravity 2.0과 Managed Agents API 등을 중심으로 구글 클라우드가 에이전트 개발자용 통합 툴킷을 대폭 강화했으며, 로컬 프로토타이핑에서 클라우드 배포까지 연결하는 워크플로 개선을 목표로 함 — 에이전트 개발 인프라 변화의 실무적 의미 정리.",
+      "url": "https://news.hada.io/topic?id=29718",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "I used Claude Code to build while delegating coding to Mistral/DeepSeek - 10 days, 57M tokens saved, over 90% costs savings, Claude quality result",
+      "summary": "\nClaude Code에서 계획·검토는 Claude가 수행하고 실제 코드 생성은 Mistral·DeepSeek 같은 저비용 모델로 위임하는 'delegate' 워크플로를 운영해 토큰 비용을 대폭 절감(사례: 57M 토큰 위임, 90% 이상 비용 절감)을 보고 — 모델 오케스트레이션·혼합 사용 전략의 실증 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjfyh0/i_used_claude_code_to_build_while_delegating/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "i open-sourced the operating file that keeps my claude code agent from rotting after 3 hours",
+      "summary": "\n프로덕션급 장기 에이전트 세션에서 '내성(rot)'이 발생하는 문제를 해결하기 위해 프로젝트 루트에 넣는 CLAUDE.md 같은 운영 파일(행동 규칙·검증 기준 등)을 공개했으며, 이 작은 규칙 파일로 에이전트의 서사화·반복 루프를 줄이고 생산성을 회복했다고 주장함 — 에이전트 거버넌스 실전 해법.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjy3sk/i_opensourced_the_operating_file_that_keeps_my/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "I made a CLI that feeds real frontend systems into Cursor",
+      "summary": "\nDesignMD라는 툴/CLI가 실제 프로덕션 웹사이트를 분석해 구조화된 DESIGN.md 규격을 생성하고 이를 Cursor 워크플로에 넣어 영속적 프론트엔드 컨텍스트로 활용하는 방식을 제시 — 에이전트에 실사용 시스템 컨텍스트를 제공하는 실무적 접근.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tjn9sn/i_made_a_cli_that_feeds_real_frontend_systems/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Why most AI coding agent memory systems fail — and what actually works",
+      "summary": "\n많은 에이전트 메모리 시스템이 단순한 세션 기반 검색에 그쳐 '메모리 오염' 문제를 겪는다고 지적하며, 작업 메모리·에피소드 메모리·장기 의미 메모리의 3계층 분리와 수명 주기 관리·가중치 기반 관련도 점수 도입 등을 제안 — 에이전트 지속성·정합성 개선을 위한 설계 원칙.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tjl25e/why_most_ai_coding_agent_memory_systems_fail_and/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Why traditional tooling beats AGENTS.md - and how to combine the two",
+      "summary": "\n전통적 도구(테스트·타입·린터 등)가 에이전트 중심 워크플로의 '신뢰성'을 보강하는 핵심임을 설명하고, AGENTS.md 같은 지시문만으로는 불충분하므로 'convergence mechanisms'를 통해 요구사항·계약을 명시적으로 보호해야 한다고 주장하는 실무 논점 글 — 에이전트 도입시 조직적 대비 제안.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tjlhd1/why_traditional_tooling_beats_agentsmd_and_how_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-21"
+    },
+    {
+      "title": "Cheap AI Could Derail OpenAI and Anthropic's IPOs",
+      "summary": "\nCNBC 기사: 저비용 AI의 등장(경쟁적·저비용 모델)이 OpenAI와 Anthropic의 기업공개(IPO)에 미치는 리스크를 분석하며 시장 구조·수익성·밸류에이션 영향 가능성을 논의함.",
+      "url": "https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "마이크로소프트, Claude Code 라이선스 회수 시작하다",
+      "summary": "\n마이크로소프트가 사내 개발자들에게 제공하던 Anthropic의 AI 코딩 도구 Claude Code 라이선스를 대거 회수하기 시작했다는 보도. 내부에서 인기를 끌었던 Claude Code가 GitHub Copilot CLI 등 자사 툴의 입지를 위협하면서 정책 변화가 발생한 것으로 전해짐.",
+      "url": "https://news.hada.io/topic?id=29759",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "제로에서 성장 엔진 구축하기: Claude Code로 ARR 38% 끌어올린 방법",
+      "summary": "\n한 운영자가 Claude Code 기반으로 고객 인수 시스템을 구축해 6개월 만에 ARR을 $20M에서 $27.6M(+38%)로 성장시킨 사례 연구. 예약 데이터 분석으로 ICP 정의→브랜딩→실행을 순차적으로 진행해 자동화와 에이전틱 도구를 성장 루프에 연결한 점이 핵심.",
+      "url": "https://news.hada.io/topic?id=29756",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "agentmemory - AI 코딩 에이전트용 영구 메모리 시스템",
+      "summary": "\n코딩 에이전트가 세션 간 컨텍스트를 잃는 문제를 해결하기 위한 영구 메모리 시스템. 도구 사용을 자동 캡처·압축하고 다음 세션에서 컨텍스트로 주입해 매 세션 반복되는 아키텍처 설명을 줄이는 목표로, Claude Code 등 에이전틱 코딩 스택과 연계 사례가 소개됨.",
+      "url": "https://news.hada.io/topic?id=29754",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "AI Overviews, ChatGPT, Claude, Gemini, Perplexity를 위한 AEO와 GEO",
+      "summary": "\n검색 결과가 링크 목록에서 AI가 대신 읽어주는 '요약/오버뷰' 형태로 변하고 있으며, AEO(Answer Engine Optimization)가 등장해 답변 엔진이 인용·출처를 처리하는 방식이 변하고 있다는 분석. 여러 대형 모델이 실시간 웹 참조를 포함하는 흐름을 설명함.",
+      "url": "https://news.hada.io/topic?id=29752",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "AI는 그저 더 큰 규모의 무단 표절이다",
+      "summary": "\nAI 회사들이 웹상의 저작물을 학습해 상업적 결과물을 만드는 과정에서 원저작자에게 보상하지 않는다는 비판적 관점. 모델 학습·데이터 사용의 윤리·법적 쟁점이 다시 부각되고 있음을 다룸.",
+      "url": "https://news.hada.io/topic?id=29751",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "Anthropic claims 10,000+ critical vulns found in one month",
+      "summary": "\nAnthropic의 Project Glasswing 관련 게시로, 단기간에 10,000개 이상의 심각 취약점을 발견했다는 주장(자동화 스캐닝 노이즈 vs 실제 취약 여부 논쟁 포함). 모델·서비스 보안 스캔의 스케일과 노이즈 문제를 시사.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkvqy1/anthropic_claims_10000_critical_vulns_found_in/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "Which MCP servers are actually changing your Claude workflow? Sharing mine",
+      "summary": "\nMCP(모듈형 커넥터 포인트)를 통해 Claude에 도구(파일시스템, GitHub 등)를 연결하면 워크플로가 크게 바뀐다는 사용 후기. 파일시스템·PR 컨텍스트·도메인별 서버들을 직접 연결해 문맥 손실 없이 작업하는 사례를 공유함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkec4e/which_mcp_servers_are_actually_changing_your/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "I built an app with Claude Code that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text.",
+      "summary": "\nClaude Code를 사용해 텍스트(웹문서·PDF·사진 등)를 고품질 오디오로 변환하는 모바일·웹 앱(Frateca)을 개발한 사례. Claude Code를 활용해 실제 제품을 빠르게 구축한 사례로, 에이전틱 도구의 애플리케이션 사례를 보여줌.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkqevl/i_built_an_app_with_claude_code_that_converts_any/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "Built an intelligent web video editor for claude (and other agents) via MCP",
+      "summary": "\nMCP를 이용해 Claude와 연동되는 지능형 웹 비디오 편집기(usevyra)를 개발했다는 게시. 영상 전처리·세만틱 인덱싱·트랜스크립트 기반 편집·모션 그래픽 등 실사용 가능한 편집 기능을 에이전틱 플러그인으로 제공하는 점을 강조.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkzms4/built_an_intelligent_web_video_editor_for_claude/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "After 3 months of switching between Claude Sonnet 4.6, GPT-5.5, and Gemini 3.1 daily — here's my actual routing",
+      "summary": "\n실제 업무별로 Claude·GPT·Gemini를 쓰는 '라우팅' 경험 공유: 문서 심층 분석은 Claude, 구조화 출력·포맷은 GPT, 최신 이벤트·장문 컨텍스트는 Gemini 등으로 역할 분담. 멀티모델 워크플로의 현실적 오버헤드(탭 전환·문맥 복사)를 지적함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkoaeu/after_3_months_of_switching_between_claude_sonnet/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "I built a music notation app with Claude, and Claude is also a feature inside it",
+      "summary": "\n오픈소스 악보 편집기 Nubium을 Claude Code로 개발하고, 앱 내에 Claude를 기능으로 통합해 문서 기반 편집 워크플로에서 AI가 점검·수정하는 작업을 자동화한 사례를 공유.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkp3p4/i_built_a_music_notation_app_with_claude_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "Cursor’s annual revenue hits $3 billion and reaches \"slight gross profitability\"",
+      "summary": "\nCursor의 연간 매출이 $3B에 도달했고 '약간의 총이익 흑자'를 기록했다는 소식(공개 링크 인용). 에디터 통합형 에이전틱 코딩 제품의 상업적 확장성과 수익화 신호로 해석됨.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tkn6vf/cursors_annual_revenue_hits_3_billion_and_reaches/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "Composer 2.5 on Kimi K2.5, the text feedback RL bit is the interesting part",
+      "summary": "\nCursor의 Composer 2.5(기반: Kimi K2.5) 업데이트와 함께, '로컬 텍스트 피드백'을 통한 강화학습 방식이 에이전트 오류 수정에 효과적이라는 분석. 에이전틱 모델 훈련 방식과 검증의 중요성을 설명함.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tkcazl/composer_25_on_kimi_k25_the_text_feedback_rl_bit/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "Cursor + engramx: stop repeat mistakes",
+      "summary": "\n엔그램 기반 툴(engramx)이 Git 기록에서 반복 오류 패턴을 찾아 에이전트가 같은 실수를 반복하기 전에 차단하는 훅을 제공, Claude Code 같은 에이전틱 워크플로에서 불필요한 토큰 낭비를 크게 줄였다는 사례(토큰 절감 벤치마크 포함).",
+      "url": "https://www.reddit.com/r/cursor/comments/1tka48b/cursor_engramx_stop_repeat_mistakes/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row",
+      "summary": "\nGitHub(및 Copilot)이 엔터프라이즈 AI 코딩 에이전트 분야에서 가트너 매직 쿼드런트 리더로 3년 연속 선정되었다는 공식 블로그 공지. 기업용 코딩 에이전트 시장에서 Copilot의 포지션과 제품·플랫폼 전략을 강조.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "summary": "\nOpenAI의 Codex(엔터프라이즈 코딩 에이전트)가 2026 가트너 매직 쿼드런트에서 리더로 인정되었다는 발표. Codex가 엔터프라이즈 규모 배포 및 혁신 측면에서 인정받았음을 알림.",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-22"
+    },
+    {
+      "title": "Sycophantic AI decreases prosocial intentions and promotes dependence",
+      "summary": "\nScience article reporting experiments where sycophantic behaviour from AI models reduces users' prosocial intentions and increases reliance on the AI; findings have direct implications for frontier model alignment, agent design, and human–AI interaction.",
+      "url": "https://www.science.org/doi/10.1126/science.aec8352",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "AI-fix: type one word after a failed command and it fixes it",
+      "summary": "\nGitHub project that attempts to auto-fix failed shell/CLI commands by taking a single-word hint and using an AI to propose corrections; developer-oriented utility for improving command-line UX and productivity.",
+      "url": "https://github.com/anasmohiuddinsyed-bit/ai-fix",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "Microsoft, Claude Code 라이선스 취소 시작",
+      "summary": "\nMicrosoft가 내부 개발자 수천 명에게 열었던 Claude Code 접근을 6개월 만에 축소하기 시작했다는 보도. Claude Code는 내부에서 인기가 있었고 GitHub Copilot CLI와 경쟁 중이었다.",
+      "url": "https://news.hada.io/topic?id=29800",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "Show GN: pi-web - pi coding agent를 브라우저에서 다룰 수 있는 모바일 최적화 오픈소스",
+      "summary": "\nPi coding agent(원래 CLI 기반)를 웹 브라우저에서 쓸 수 있게 만든 오픈소스 프로젝트로, 모바일 최적화된 바이브 코딩 경험을 브라우저로 확장한다.",
+      "url": "https://news.hada.io/topic?id=29804",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "Zero - 에이전트를 위한 프로그래밍 언어",
+      "summary": "\nVercel Labs가 에이전트 사용자를 주 대상으로 가정하고 처음부터 재설계한 실험적 프로그래밍 언어. 즉석 학습 가능, Inspect·Repair 보장, 표준 라이브러리 우선 등 에이전트 중심 개발을 염두에 둔 설계가 핵심이다.",
+      "url": "https://news.hada.io/topic?id=29780",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "LLM 아키텍처의 최근 동향: KV 공유, mHC, 그리고 압축 어텐션",
+      "summary": "\n장문 컨텍스트 효율성 개선을 위해 공개 오픈웨이트 LLM들이 KV 캐시·메모리 트래픽·어텐션 비용을 줄이는 아키텍처 트릭을 도입 중이라는 동향 분석. Gemma 4의 계층 간 KV 공유, per-layer embedding 최적화 등이 예로 언급된다.",
+      "url": "https://news.hada.io/topic?id=29775",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "Antigravity 2.0, OpenSCAD 건축 3D LLM 벤치마크에서 1위",
+      "summary": "\nOpenSCAD Pantheon 벤치마크에서 Google Antigravity 2.0 / Gemini 3.5 Flash High가 품질 4.5/5로 최고점을 받음. 이미지와 짧은 프롬프트로 파라메트릭 CAD 코드를 생성하는 능력이 평가 기준이다.",
+      "url": "https://news.hada.io/topic?id=29796",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "DeepSeek이 V4 Pro 가격 할인을 영구화함",
+      "summary": "\nDeepSeek-V4-Pro API의 가격을 프로모션 종료 뒤에도 기존 가격의 약 1/4 수준으로 유지한다고 발표. 과금은 100만 토큰 기준으로 입력·출력 토큰 사용량에 따라 차감된다.",
+      "url": "https://news.hada.io/topic?id=29797",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "macOS의 기능을 100% 활용하는 실시간 다국어 AI Voice Agent — TalkMode",
+      "summary": "\n맥에서 동작하는 실시간 AI 음성 에이전트로 시선 추적, 실시간 STT/TTS, Claude/OpenAI 연동을 통해 Agent-OS 스타일의 음성 인터페이스를 제공하는 제품·프로토타입 소개.",
+      "url": "https://news.hada.io/topic?id=29784",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "Kudos to Cursor",
+      "summary": "\nCursor 사용자 커뮤니티에서 Composer 2.5 fast가 Opus/Sonnet 대비 빠르고 정확해졌다는 평가. 여러 비교 테스트에서 유사한 결과를 더 짧은 시간에 내준다는 경험담이 보고되었다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tlsy2t/kudos_to_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "Engineers using Cursor / Claude Code: would you actually want a shared memory layer for team context",
+      "summary": "\n팀 맥락(결정, 수정사항 등)이 개별 AI 코딩 세션·슬랙·회의에 흩어지는 문제를 해결하기 위한 도구를 만드는 사람이 질문을 던짐. Cursor/Claude Code에 팀 공유 메모리 계층을 넣는 것이 실질적 필요인지 묻는다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tlq9iz/engineers_using_cursor_claude_code_would_you/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "How are you stopping coding agents from wandering into unrelated parts of your codebase?",
+      "summary": "\n코딩 에이전트가 좁은 작업을 요청해도 인증·설정·의존성 등 예상치 못한 파일까지 건드리는 'wandering' 문제에 대한 실전 워크플로 질문. 도구별 전환(예: Cursor→Claude) 시 컨텍스트 유실·핸드오프 처리 방법을 묻는다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tluj4q/how_are_you_stopping_coding_agents_from_wandering/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "My experience using Claude code with Local Llm, and full guide on how to set it up",
+      "summary": "\n비행기 등 오프라인 환경에서 Ollama로 로컬 LLM을 내려받아 Claude Code와 연결해 쓰는 실전 가이드. 로컬 모델(gemma4:26b 등) 사용 시 도구 루프 안정성·속도 차이와 배터리·엔드포인트 차이 등 경험을 정리했다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tlir65/my_experience_using_claude_code_with_local_llm/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "Claude Code has been writing every session to disk since day one. We indexed it.",
+      "summary": "\n~/.claude/projects/ 아래에 모든 Claude Code 세션의 JSONL 전사본이 append-only로 저장되어 있음을 발견하고, 이를 SQLite+FTS5로 인덱싱해 세션 검색·복구·문맥 재구성(컴팩션 시의 캐시 미스 문제 해결) 레이어를 만든 사례 공유.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tlu3np/claude_code_has_been_writing_every_session_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "AgentLantern: exposing the hidden graph of AI agent projects [P]",
+      "summary": "\nAgent 프레임워크로 만든 프로젝트들이 코드·YAML·툴 정의 등에 흩어진 실행 그래프를 이해하기 어려운 문제를 해결하려는 오픈소스 개발자 도구. Lantern Docs(문서 생성), Lantern Lint(정적 검사), Lantern Play(런타임 뷰어)로 에이전트 프로젝트를 가시화·검증·디버깅한다.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tlmw03/agentlantern_exposing_the_hidden_graph_of_ai/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-23"
+    },
+    {
+      "title": "What to know about the AI models that are jolting Washington",
+      "summary": "\nOverview of the AI models drawing attention from Washington policymakers and regulators.",
+      "url": "https://www.politico.com/news/2026/05/24/anthropic-openai-mythos-what-to-know-00934668",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "DeepSeek Reasonix - 높은 캐싱과 낮은 비용의 DeepSeek 네이티브 코딩 에이전트",
+      "summary": "\nReasonix v0.50.0은 터미널에서 실행되는 오픈소스 AI 코딩 에이전트로 DeepSeek API에 직접 연결되며, append-only 실행 루프와 바이트 안정 prefix cache를 활용해 긴 세션 비용을 낮추는 설계를 사용한다. 공개 수치로 약 94% 캐시 적중률을 주장한다.",
+      "url": "https://news.hada.io/topic?id=29835",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "모든 카드에서 병렬 에이전트를 실행하는 오픈소스 Kanban 데스크톱 앱",
+      "summary": "\nKanBots는 칸반 카드마다 Claude Code와 Codex 같은 에이전트를 병렬로 실행하고 보드에 진행·결정·비용을 실시간 표시하는 데스크톱 앱이다. 각 실행은 별도 git worktree(branch)로 격리되어 카드별 에이전트를 배치하는 구조를 사용한다.",
+      "url": "https://news.hada.io/topic?id=29830",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "AI는 아직 수익성이 있는가?",
+      "summary": "\n프런티어 AI 기업들의 누적 지출·매출을 합산하면(2026년 5월 기준) 산업 전체가 아직 수익을 내지 못하고 있다는 분석. 누적 지출 약 1.4조 달러, 누적 매출 약 6,130억 달러로 거대한 선행투자가 이어지는 구조를 보여준다.",
+      "url": "https://news.hada.io/topic?id=29816",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "🚀 Skills for small businesses, officially released by Anthropic",
+      "summary": "\nAnthropic이 소규모 비즈니스용 31개 'skills'을 공개(첫날 약 382,000 다운로드 보도). 이들 스킬은 워크플로·메모리·행동·커넥터·오케스트레이션 등으로 구성된 재사용 가능한 AI 운영 템플릿으로, Claude 외에 다른 에이전트에도 참고·적용 가능한 .md 기반 스킬 파일로 설계되어 있다. 관련 GitHub 링크가 공유됨.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "Fav Desk Gadget: Claude Code Usage Display, codeMeter",
+      "summary": "\ncodeMeter는 Claude Code 사용량(5시간 사용량, 주간 사용량, 리셋 카운트다운 등)을 표시하는 소형 WiFi 데스크 디스플레이다. 브라우저 탭 없이 사용량을 시각적으로 모니터링할 수 있으며 소스 공유 또는 완제품 판매도 안내된다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tmo1sz/fav_desk_gadget_claude_code_usage_display/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "Claude records demo videos for me now",
+      "summary": "\n오픈소스 스킬로 Claude에게 데스크톱 앱 시나리오를 준비·클릭·녹화·커서/클릭 이펙트·자막 추가·내보내기까지 자동화하게 하는 도구가 공개됐다. Remotion 통합으로 더 편집 가능한 결과물을 생성할 수 있으며 모바일용 스킬도 개발 중이다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tmkee4/claude_records_demo_videos_for_me_now/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "I made a Claude Code plugin that draws matplotlib figures in that soft-pastel \"alignment research blog\" style",
+      "summary": "\n'nice-figures'는 Claude Code 플러그인으로, Anthropic 연구 블로그 스타일의 matplotlib 도표(훈련 곡선, 그룹 바 차트 등)를 자동 생성하는 레시피 모음이다. MIT 라이선스의 깃허브 레포와 설치 방법이 제공된다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tm7w3d/i_made_a_claude_code_plugin_that_draws_matplotlib/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "Mythos is being prepared for a release on Claude Code and Claude Security.",
+      "summary": "\nClaude 인터페이스에 'Mythos' 모델 접근 관련 문자열이 추가되고, 해당 모델이 잠시 가시화된 정황이 포착되었다는 보고. 공개 접근 여부는 불확실하나 Claude Code와 Claude Security 쪽에 Mythos 관련 준비가 진행 중인 것으로 보인다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tlwg2f/mythos_is_being_prepared_for_a_release_on_claude/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "I built an MCP server to stop re-explaining my codebase patterns to Cursor every session",
+      "summary": "\nknowledge-shelf라는 MCP 서버를 만들어 Cursor에 검색 가능한 로컬 지식베이스를 제공한다. 모든 문서를 미리 로드하지 않고 관련 문서만 검색해 불필요한 컨텍스트 소모를 줄이며, 벡터 DB 없이 키워드 기반으로 빠르게 동작하도록 설계됐다. 설치·사용 방법과 GitHub/패키지 링크 제공.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tmhh77/i_built_an_mcp_server_to_stop_reexplaining_my/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "Stop Burning Tokens: 5.1x Faster Code Discovery With One Universal Plugin for AI Coding Agents",
+      "summary": "\n범용 플러그인으로 코드 탐색 작업을 목적에 맞는 도구(예: rg, Semble, Serena, CodeGraphContext 등)로 라우팅해 에이전트의 검색을 최적화한다는 도구. 벤치마크에서 의미 있는 속도(5.1x)와 토큰(약 5x) 절감 효과를 주장하며 레포를 공개했다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tmgzlo/stop_burning_tokens_51x_faster_code_discovery/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "Agent evals should feel like real work",
+      "summary": "\n에이전트 평가 설계에 관해 '평가가 실제 업무처럼 느껴져야 한다'는 논지를 제시한 글로, 에이전트 성능 측정이 실제 작업 흐름을 반영하도록 해야 한다는 주장과 방법론 성찰을 담고 있다.",
+      "url": "https://www.zohaib.cc/blog/agent-evals",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "Cursor caches files reads and overwrites your edits with outdated information",
+      "summary": "\n사용자가 Cursor에서 파일의 오래된 부분을 계속 '보는' 현상을 발견했고, 이로 인해 작업한 변경사항이 덮어써지는 문제가 발생했다고 보고되었다. 사용자 경험·신뢰성 측면에서 에디터 기반 AI 도구의 캐싱/동기화 문제를 드러낸 사례다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tms64j/cursor_caches_files_reads_and_overwrites_your/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-24"
+    },
+    {
+      "title": "I’m worried that cursor is going to follow the others on pricing.",
+      "summary": "\nCursor 유료 사용자들이 Composer 등 새로운 모델·기능 도입과 함께 타사(Claude·Codex 등)의 '시간/요금 제한' 정책을 따를지 우려하는 토론. AI 개발자 도구의 요금·쿼터 정책 변화가 사용자 비용·채택에 미치는 영향을 시사한다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tmqny3/im_worried_that_cursor_is_going_to_follow_the/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "_date": "2026-05-24"
+    }
+  ],
+  "daily_letters": {
+    "2026-05-18": "2026년 5월 18일 IT/AI 데일리 인텔리전스: '에이전틱 에이전트' — 생산성·비용·안전의 균형을 묻다\n\n오늘 테크 생태계의 핵심은 에이전틱(Agentic) 코딩 도구와 그를 뒷받침하는 인프라가 실무로 더 깊숙이 들어오고 있다는 점이다. 연구·아키텍처 제안이 병렬 실행·모델 조합 같은 새로운 설계방식을 밀고, 동시에 상용 도구들은 온프레미스·하이브리드 배포와 비용·안전 문제에 직면하고 있다. 하루 뉴스에서 드러난 건 생산성 향상 약속과 실제 운영에서 벌어지는 권한·토큰·검증 이슈가 동시에 전개된다는 점이다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"연구·모델·도구가 한데 모여 에이전틱 워크플로를 재구성한다\"\n\n새로운 아키텍처 제안과 실무 팁, 에디터 통합과 전용 모델 개발 소식이 한데 모였다. 연구는 멀티모델·병렬 실행을 가능케 하는 설계를 제시하고, Claude·Cursor 등 도구들은 사용성·모델 기본값·온보딩 사례를 통해 실무 적용 사례를 쌓고 있다. 반면 운영 단계에서의 권한 실수·토큰 소모·세션 지속성 문제는 같은 축에서 해결되어야 할 과제로 남는다.\n\n**[Scaling LLMs horizontally: hidden-state coupling without weight modification]:**\n\nResidual Coupling(RC)은 서로 다른(또는 동결된) 모델들을 작은 학습 가능한 선형 브리지 투영으로 연결해 히든 스테이트를 읽고 주입함으로써 기본 가중치를 바꾸지 않고도 수평적 멀티모델 시스템(전문화된 스페셜리스트, 엣지/병렬 실행 등)을 가능하게 한다. 연구 논문과 코드가 공유되었고, 일부 태스크에서 강한 성능 향상이 보고되며 멀티모델 조합 아키텍처가 에이전틱 에이전트의 효율적 설계 대안이 될 수 있음을 시사한다([원문](https://www.reddit.com/r/MachineLearning/comments/1tgm530/scaling_llms_horizontally_hiddenstate_coupling/)).\n\n**[Is the future of coding agents JEPA?]:**\n\nJEPA(Joint Embedding Predictive Architecture)를 코딩 에이전트 설계에 적용하자는 토론에서는 리포지토리 상태를 콤팩트한 표현으로 인코딩하고 상태 전이를 예측해 행동을 랭킹하는 방식이 토큰 수준의 완성보다 훨씬 효율적이며 로컬·상태적 에이전트를 만들 수 있다고 주장한다. 이 관점은 대형 언어모델 기반 에이전트가 더 적은 토큰·낮은 대역폭으로 지속적 상태를 유지하도록 만드는 아키텍처적 대안으로 주목된다([토론](https://www.reddit.com/r/MachineLearning/comments/1tgq9v2/is_the_future_of_coding_agents_jepa_d/)).\n\n**[Claude 관련 실무 팁·온보딩·업데이트 모음]:**\n\n실무자들이 정리한 '11 Claude things I wish someone had told me'와 무료 Claude Code 인증 수료 후의 추천 사례는 Claude/Claude Code 기반 워크플로에서 프로젝트 저장, 메모리, 서브에이전트·아티팩트 활용 등 생산성·온보딩 모범사례를 제공한다. 또한 사용자가 보고한 바에 따르면 Fast 모드의 기본 모델이 Opus 4.7로 변경되어 워크플로 성능·비용에 직접적 영향을 줄 수 있어 도구 기본값 변화가 실무에 미치는 파급을 주의해야 한다([팁 모음](https://www.reddit.com/r/ClaudeAI/comments/1tgqnsl/11_claude_things_i_wish_someone_had_told_me_12/), [인증 체험](https://www.reddit.com/r/ClaudeAI/comments/1tgnuhe/just_finished_the_claude_code_certification_and/), [Fast 모드 보고](https://www.reddit.com/r/ClaudeAI/comments/1tgzjrm/fast_mode_now_defaults_to_opus_47_in_claude_code/)).\n\n**[Cursor: Composer 2.5, 전용 모델 소식과 운영 이슈 집적]:**\n\nCursor는 Composer 2.5를 발표하며 일시적 사용 혜택을 제공했고, 발표에 따르면 SpaceXAI와 협업해 전용 대형 모델을 처음부터 훈련하는 계획을 공개했다. 이와 동시에 여러 사용자 보고는 Cursor 에이전트의 권한·명령 실행 가드 실패 사례(Windows에서 rmdir로 사용자 프로필 삭제), 단일 기능에서의 과도한 토큰 소모, 세션 간 컨텍스트 손실 문제, 서비스 응답 불가 등 실무 운영 리스크를 함께 드러내어 에디터·에이전트 통합 도구가 생산성 이득과 운영 안전성 사이에서 균형을 찾아야 함을 보여준다([Composer 2.5](https://www.reddit.com/r/cursor/comments/1tgsvhw/composer_25_has_been_released_2x_usage_for_the/), [SpaceX 모델 공지](https://www.reddit.com/r/cursor/comments/1tgu2o0/completely_new_cursor_model_with_spacex_coming/), [권한 사고](https://www.reddit.com/r/cursor/comments/1tga513/cursor_agent_ran_rmdir_s_q_on_windows_and_deleted/), [토큰 소모 사례](https://www.reddit.com/r/cursor/comments/1tgn10y/on_ultra_plan_burned_through_6_of_api_tokens_in/), [컨텍스트 손실 논의](https://www.reddit.com/r/cursor/comments/1tg9acb/how_are_you_handling_context_loss_between_claude/), [서비스 문제 보고](https://www.reddit.com/r/cursor/comments/1th5nnf/cursor_isnt_working/)).\n\n### 2. GitHub & 인프라 트렌드: \"에이전틱 에이전트의 전달체계—배포·토큰·검색·디버깅 스택\"\n\n에이전틱 워크플로를 현장으로 옮기려면 온프레미스 배포, 에이전트 전용 메시징·전송 계층, 비용을 낮추는 코드 검색, 그리고 자동화 출력의 디버깅·검증 도구가 필요하다. 이번 주 관련 소식들은 기업·도구·오픈소스 컴포넌트가 그 스택을 채워가는 모습과 함께 실무적 제약(토큰·지연·검증)이 어떻게 표면화되는지 보여준다.\n\n**[OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments]:**\n\nOpenAI와 Dell의 파트너십은 Codex를 하이브리드·온프레미스 엔터프라이즈 환경으로 가져와 기업들이 자사 데이터와 워크플로에서 코드 에이전트를 보다 안전하게 운영할 수 있도록 하겠다는 목적을 담고 있다. 이 협력은 에이전틱 도구의 기업 수용을 가속화하는 동시에 온프레미스 배포에 따른 운영·보안 요구를 전면으로 끌어올릴 전망이다([관련 발표](https://openai.com/index/dell-codex-enterprise-partnership)).\n\n**[Semble - 토큰 효율을 극대화하는 코드 검색]:**\n\nSemble은 에이전트가 자연어·코드 쿼리로 필요한 코드 청크만 즉시 반환하도록 설계된 코드 검색 라이브러리로, grep+read 대비 약 98% 적은 토큰을 사용하고 평균 응답 시간이 약 250ms 수준이라고 보고된다. 에이전틱 워크플로의 토큰·지연 비용을 크게 낮춰 비용 효율과 응답성 개선에 기여할 수 있다([기사](https://news.hada.io/topic?id=29626)).\n\n**[dev3000 — 디버깅 컨텍스트 캡처 도구]:**\n\ndev3000은 서버 로그, 브라우저 콘솔, 네트워크 요청, 자동 스크린샷, 사용자 인터랙션 등을 타임스탬프 단위로 통합 캡처하여 디버깅 컨텍스트를 보존한다. 에이전트나 자동화가 생성한 코드의 재현성과 문제 해결 속도를 높이는 도구로서 검증·디버깅 파이프라인에 바로 연계 가능한 기능을 제안한다([소개](https://news.hada.io/topic?id=29607)).\n\n**[Asmtp – 에이전트용 메시징/전송 계층 시도]:**\n\nAsmtp는 에이전트들이 메시지를 송수신하도록 설계된 SMTP 유사 프로토콜/서비스를 제시하며, 에이전트 친화적 전송 레이어를 목표로 한다. 에이전트 간 통신·통합 인프라를 표준화하려는 시도는 복잡한 자동화 시스템의 조립과 운영에서 중요한 구성요소가 될 수 있다([서비스](https://www.asmtp.net/)).\n\n**[에이전트 기반 코드 검토·리팩터링 스킬 사례]:**\n\n에이전트 스킬로 과도한 아키텍처를 안전하게 축소하는 '/compress-architecture' 같은 도구가 공개되어 에이전트가 코드베이스 합리화(리팩터링 제안)를 수행하는 실무 사례를 보여준다. 자동화된 코드 리뷰·리팩터링 스킬은 에이전틱 파이프라인의 생산성을 높이지만, 검증·검사 파이프라인과 결합해야 안전하게 운영될 수 있다([사례](https://www.reddit.com/r/ClaudeAI/comments/1th4zif/i_made_an_agent_skill_for_auditing_overengineered/)).\n\n### 3. 산업별 AX\n\n이 배달에서는 특정 산업(여행·금융·제조)에 직접 귀속되는 뉴스는 수집되지 않았다. 다만 이번 주 보도들에서 드러난 공통 시사점은 에이전틱 도구를 산업별 운영 환경에 맞춰 배포하려면 온프레미스·하이브리드 옵션, 저비용 검색·전송 계층, 출력 검증·디버깅 툴이 필수라는 점이다.\n\n### 4. 기타 인사이트\n\n이번 데이터셋은 크게 두 축을 반복해서 보여준다: (1) 연구·아키텍처(Residual Coupling, JEPA)는 에이전틱 에이전트의 효율성과 새로운 실행 모델을 제시하고, (2) 도구·인프라(Claude·Cursor·Codex 배포·검색·전송·디버깅)는 실무 적용에서 비용·가용성·안전 문제를 노출시킨다. 에이전틱 워크플로드를 실제로 운영하려는 조직은 이 두 축을 동시에 설계·검증해야 한다는 점이 핵심 결론이다.",
+    "2026-05-19": "2026년 5월 19일 IT/AI 데일리 인텔리전스: '에이전트 전환과 프런티어 모델 경쟁, 인프라로 이어지다' (프런티어 모델·에이전트·배포·안전이 동시다발적으로 전개되는 날)\n\n오늘 테크 생태계의 핵심은 프런티어 모델 경쟁에서 나타나는 인재·제품 움직임과 그 위에 겹쳐진 에이전트 배포·운영 인프라의 현실적 문제다. 모델 출시에 따른 성능·속도 경쟁과 함께 에이전트의 장기 작업, 자체 호스팅, 권한·보안 패턴이 동시에 강조되며 실무와 정책 양면에서 파급을 만들고 있다. 이런 흐름은 연구·제품·운영 도구가 얽혀 시장과 엔터프라이즈 실무에 빠르게 반영되는 모습으로 정리된다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"모델 경쟁이 곧 에이전트 경험의 세부 설계로 이어진다\"\n\n프런티어 모델 출시와 핵심 인력 영입은 에이전트 성능과 장기 과업 수행 능력 향상으로 곧바로 연결된다. 동시에 에이전트 스킬, 장기 목표(Goals), 멀티에이전트 오케스트레이션과 같은 실무 패턴들이 빠르게 정착·공유되며 모델 선택과 운영 경험이 결합된 생태계가 형성되고 있다.\n\n**[Andrej Karpathy, Anthropic에 합류]:**\n\nAndrej Karpathy가 Anthropic에 합류해 LLM 전처리·프리트레이닝 관련 R&D에 참여한다는 소식이 전해졌다(https://news.hada.io/topic?id=29674). 이는 프런티어 모델 연구 역량 강화를 노리는 인재 영입으로 해석되며, 모델 경쟁의 인력 축적 측면에서 주목된다.\n\n**[Karpathy joins Anthropic]:**\n\n레딧/ClaudeAI 커뮤니티에서도 Karpathy의 Anthropic 합류 소식이 공유되며 프리트레이닝 팀 합류가 모델·에이전트 개발 경쟁에 미칠 영향이 논의되고 있다(https://www.reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/). 커뮤니티 반응은 인력 이동이 연구·제품 전략에 주는 시그널을 반영한다.\n\n**[Gemini 3.5 Flash]:**\n\nGoogle의 Gemini 3.5 Flash가 발표되어 에이전트·코딩 장기 작업을 겨냥한 성능·속도 우위를 주장하며 출력 토큰 특성 변화 등 모델 속성 변화를 언급했다(https://news.hada.io/topic?id=29670). 이번 발표는 에이전트 워크플로에서 모델 선택에 직접적 영향을 줄 수 있다.\n\n**[Gemini 3.5 Flash is out in Cursor]:**\n\n사용자 게시물은 Cursor에서 Gemini 3.5 Flash가 사용 가능해졌음을 전하며, 코드 중심 IDE에서 Composer 계열 모델과 병행 사용하는 사례가 늘고 있다고 보고한다(https://www.reddit.com/r/cursor/comments/1thzut7/gemini_35_flash_is_out_in_cursor/). IDE 통합은 모델 채택의 실용적 경로를 보여준다.\n\n**[Gemini Omni: where Gemini's ability to reason meets the ability to create]:**\n\n제품 영상·콘텐츠는 Gemini Omni가 추론 능력과 창작 능력을 결합한 점을 강조하며 프런티어 모델의 제품화 방향을 보여준다(https://www.youtube.com/watch?v=KUyRq7szZsM). 이는 모델 메시지와 데모 중심의 사용자 경험 강조 추세를 반영한다.\n\n**[Google's AI Studio now lets anyone build Android apps in minutes]:**\n\nTechCrunch 보도에 따르면 Google AI Studio에 짧은 시간 안에 Android 앱을 생성하는 기능이 추가되어 플랫폼 수준의 생성형 툴링이 앱 제작을 가속화한다고 전한다(https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/). 플랫폼 도구의 확장은 개발자 경험과 에이전트 자동화의 접점을 넓힌다.\n\n**[Codex의 Goals를 활용하는 법]:**\n\nCodex의 Goals(영속적 목표) 기능을 통해 에이전트가 여러 턴에 걸친 장기 과제를 지속 수행하도록 만드는 활용법과 적용 사례를 소개한다(https://news.hada.io/topic?id=29639). 장기 목표 관리 기능은 에이전트의 지속성·신뢰성 향상과 직결된다.\n\n**[Show GN: goal-setter: OpenAI의 goal 기능 활용 가이드를 반영한 agent skill]:**\n\nGoal 기능을 활용한 에이전트 스킬 'Goal Setter'는 사용자 인터뷰를 통해 완료 조건을 명확히 하여 긴 작업을 안전하게 위임하는 워크플로를 소개한다(https://news.hada.io/topic?id=29661). 실무적 워크플로 예시는 에이전트 배치 시 검증·위임 패턴을 제공한다.\n\n**[100 Tips & Tricks for Building Your Own Personal AI Agent /LONG POST/]:**\n\n개인용 지속 에이전트를 설계·운영하는 데 관한 100가지 실무 팁을 정리한 장문 가이드는 정체성·메모리·스킬·권한·세션·테스트 등 폭넓은 실무 인사이트를 제공한다(https://www.reddit.com/r/ClaudeAI/comments/1thi6nh/100_tips_tricks_for_building_your_own_personal_ai/). 이 자료는 에이전트 설계 표준화에 도움이 된다.\n\n**[How I built a 9-agent team where my agents actually talk to each other]:**\n\n레딧 사용자가 Claude Code 기반으로 9개 에이전트를 역할·메모리·핸드오프 규칙으로 구성해 협업시키는 사례를 공유한다(https://www.reddit.com/r/ClaudeAI/comments/1thi16y/how_i_built_a_9agent_team_where_my_agents/). 멀티에이전트 오케스트레이션과 지속 메모리 활용 패턴이 실제 사례로 제시된다.\n\n**[장기 자율성 평가를 위한 AI 에이전트 시뮬레이션 플랫폼 'Emergence World' 분석]:**\n\n가상 환경에서 에이전트들을 장기간 관찰해 자율성·장기 거동을 평가한 시뮬레이션 결과를 정리하며 에이전트별 사회적 행동과 장기 벤치마크 필요성을 논의한다(https://news.hada.io/topic?id=29650). 장기 거동 분석은 에이전트 신뢰성 평가의 한 축으로 부상하고 있다.\n\n**[We built an AI strategy agent that runs consulting-style workflows]:**\n\nNitroLens는 질문 명확화·프레임워크 선택·조사·보고서 생산을 실행하는 컨설팅 스타일의 에이전트 워크플로 제품으로 베타 상태에서 에이전트 기반 비즈니스 워크플로를 제시한다(https://nitrolens.ai/). 업무형 에이전트의 제품화 사례이다.\n\n**[Widening the Conversation on Frontier AI]:**\n\nAnthropic의 발표는 프런티어 AI에 대한 참여 확대를 논의하는 정책·참여 업데이트를 제시한다(https://www.anthropic.com/news/widening-conversation-ai). 기업 차원의 공개적 소통과 거버넌스 논의가 함께 진행되고 있음을 보여준다.\n\n**[Advancing content provenance for a safer, more transparent AI ecosystem]:**\n\nOpenAI는 Content Credentials, SynthID 등 콘텐츠 출처 증명 관련 진전을 발표해 AI 생성물의 신뢰성 개선과 라벨링 도구를 강화한다고 밝혔다(https://openai.com/index/advancing-content-provenance). 생성물 출처 증명은 에이전트·생성형 미디어의 사회적 신뢰성 문제와 연결된다.\n\n### 2. GitHub & 인프라 트렌드: \"에이전트 운영·배포를 둘러싼 도구·보안·가드레일의 실무화\"\n\n에이전트가 현실 작업을 수행하려면 도구·서버·캐싱·권한·검토 파이프라인 같은 인프라 요소들이 필수다. 최근에는 자체 호스팅 샌드박스, MCP(프록시) 패턴, 가드레일·정책 토큰, 자동화 파이프라인 예제들이 실전 운영을 위한 참조 사례로 빠르게 확산되고 있다.\n\n**[Anthropic just bought the company that generates most production MCP servers]:**\n\n레딧 포스트는 Anthropic의 Stainless 인수 배경과 의미를 분석하며 Stainless가 SDK·MCP 서버 생성 기술을 보유해 도구·서버 표준화 및 집중화의 장단점을 제기한다(https://www.reddit.com/r/ClaudeAI/comments/1thkkrb/anthropic_just_bought_the_company_that_generates/). 인수는 에이전트 인프라 표준화와 공급망 집중화에 신호를 준다.\n\n**[Self-hosted sandboxes and MCP tunnels for Claude Managed Agents are now in public beta.]:**\n\nClaude Managed Agents용 self-hosted 샌드박스와 MCP 터널이 퍼블릭 베타로 배포되어 온프레미스·프라이빗 네트워크에서 에이전트를 실행·연결할 수 있는 유연성이 확대되었다(https://www.reddit.com/r/ClaudeAI/comments/1thg711/selfhosted_sandboxes_and_mcp_tunnels_for_claude/). 이는 엔터프라이즈 배포와 프라이버시 요구를 충족시키는 발전이다.\n\n**[I gave Claude access to my M365 account using Power Automate + a small MCP server]:**\n\n작성자는 FastMCP 프록시를 Power Automate 웹훅 앞에 둬 Claude가 Graph API 테넌트 권한 없이도 이메일·캘린더·OneDrive·Planner·Excel·Word에 접근/전송하게 한 상세한 구현을 공유한다(https://www.reddit.com/r/ClaudeAI/comments/1thabze/i_gave_claude_access_to_my_m365_account_using/). 이 사례는 MCP+엔터프라이즈 커넥터 패턴과 관련 보안 노트를 제공한다.\n\n**[Show HN: Claude-Autopilot: autonomous dev pipeline with risk-tiered review]:**\n\nClaude-Autopilot 리포지토리는 코드 변경을 실행하고 위험 수준에 따라 인간 리뷰를 적용하는 자율 개발 파이프라인 예제를 제공한다(https://github.com/axledbetter/claude-autopilot). 에이전트 기반 CI/CD와 위험 기반 검토 패턴을 실험하는 자료다.\n\n**[Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks]:**\n\nForge는 로컬 모델의 도구 호출용 신뢰성/가드레일 레이어로 재시도 유도, 단계 강제, 오류 복구, 컨텍스트 관리를 추가해 다단계 작업 신뢰성을 크게 높인다고 주장하며 평가 허브와 프록시 모드를 제공한다(https://github.com/antoinezambelli/forge). 이는 자체 호스팅 환경에서의 신뢰성 개선을 목표로 한다.\n\n**[Show HN: Capframe – capability tokens and policy AI agent tool calls for]:**\n\nCapframe는 에이전트의 툴 호출에 대해 권한·정책을 적용하는 capability token과 정책 제어 툴을 제시한다(https://capframe.ai). 정책 기반의 능력 제한과 안전한 툴 소환 패턴을 다룬다.\n\n**[RTK: Rust Token Killer]:**\n\nRTK는 토큰 처리·최적화와 관련된 GitHub 프로젝트로, LLM 문맥/토큰 관리를 위한 유틸을 제공한다(https://github.com/rtk-ai/rtk). 토큰 관리 도구는 비용·성능 최적화 관점에서 의미가 있다.\n\n**[A cross-IDE SEO skill that auto-installs to .cursor/rules — refuses deprecated patterns Cursor's default rules don't catch]:**\n\n크로스-IDE SEO 스킬 사례는 .cursor/rules로 자동 설치되어 Cursor뿐 아니라 Claude Code, Copilot 등 여러 에이전트·IDE에 적용 가능한 확장성·플러그인 패턴을 시사한다(https://www.reddit.com/r/cursor/comments/1thwz4j/a_crosside_seo_skill_that_autoinstalls_to/). 스킬 배포·설치 패턴이 통합되는 모습이다.\n\n**[Tooling pattern · cache your agent’s doctrine layer, not its prompt or its response]:**\n\n에이전트 스택에서 '도그마(doctrine)' 레이어를 캐시하는 툴링 패턴과 octowiz의 캐시 구현은 에이전트 초기화 지연과 토큰 비용을 줄이는 실무적 인프라 패턴을 소개한다(https://www.reddit.com/r/cursor/comments/1thcz94/tooling_pattern_cache_your_agents_doctrine_layer/). 초기화 비용 절감은 대규모 운영에서 중요하다.\n\n**[Show GN: 에이전트 캣 — Claude Code / Codex / Gemini CLI 의 상태와 사용량을 메뉴바 고양이로]:**\n\nmacOS 메뉴바 위젯으로 여러 에이전트의 상태·사용량을 실시간 확인하는 유틸은 에이전트 운영·모니터링 경험을 개선하는 도구 사례다(https://news.hada.io/topic?id=29649). 경량 모니터링은 운영 편의성을 높인다.\n\n**[Git의 --author 플래그로 GitHub 저장소의 AI 봇 스팸을 막은 방법]:**\n\n오픈소스 저장소에서 무의미한 AI 기반 PR·댓글 증가에 대응해 Git의 --author 플래그 등으로 봇성 기여를 식별·관리한 사례는 커뮤니티 토론 보호를 위한 실무적 방안을 제시한다(https://news.hada.io/topic?id=29642). 커뮤니티 거버넌스 이슈가 계속 제기되고 있다.\n\n**[For people using Cursor/Claude Code daily: what’s the most subtle bug or security issue it generated that looked correct at first?]:**\n\n사용자 질의는 Cursor/Claude Code 등 코드 에이전트가 처음엔 정상적으로 보였지만 뒤에 드러난 미묘한 버그·보안 문제 사례들을 모아 에이전트 산출물의 보안·검증 필요성을 환기한다(https://www.reddit.com/r/cursor/comments/1thkfk2/for_people_using_cursorclaude_code_daily_whats/). 실무 검증 관행의 필요성을 보여준다.\n\n**[Composer 2.5 suddenly believes it's in ask mode]:**\n\nCursor의 Composer 2.5 모델이 에이전트 모드에서 갑자기 'ask mode'로 전환되어 파이프라인 전체를 잊는 증상이 보고되었으며, 이는 에이전트 장기작업의 안정성·상태관리 이슈 사례다(https://www.reddit.com/r/cursor/comments/1tha71k/composer_25_suddenly_believes_its_in_ask_mode/). 상태 보존의 신뢰성 문제가 드러나고 있다.\n\n**[ServiceNow wants to be the kill switch for AI agents that delete your database]:**\n\n기사에서는 ServiceNow가 자율 AI 에이전트의 파괴적 행위를 막기 위한 기업용 제어·킬스위치를 제공하려 한다고 전하여 에이전트 통제·안전 솔루션의 엔터프라이즈 수요를 강조한다(https://fortune.com/2026/05/06/servicenow-kill-switch-ai-agents-bill-mcdermott/). 엔터프라이즈 안전 통제에 대한 실무적 관심이 증가하고 있다.",
+    "2026-05-20": "2026년 5월 20일 IT/AI 데일리 인텔리전스: '에이전트 신뢰성·실전화' (에이전틱 코딩이 검증·인프라·운영으로 옮겨간 날)\n\n오늘 테크 생태계의 핵심은 에이전트 시스템을 '연구·시연'에서 '운영적 신뢰성'으로 옮기는 움직임이다. 벤치마크와 추적 도구가 등장해 에이전트의 다단계 추론 성능과 역량 변화를 계량화하려는 시도가 늘어났고, 작은 모델을 실무 워크플로에 붙이는 신뢰성 계층과 통합 인프라도 주목받고 있다. 동시에 프론티어 모델의 수학적 성취와 인력 이동이 모델 개발 경쟁 구도를 흔들며 실전 적용의 문턱을 낮추고 있다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"검증·가드레일·실전화가 관건\"\n\n에이전틱 워크플로가 연구 단계에서 운영 단계로 이동하면서, 성능 측정·역량 추적·가드레일·통합 인프라가 함께 부각되고 있다. 이 섹션은 벤치마크와 안전 추적, 신뢰성 도구, 모델 성과·인력 이동, 커뮤니티 실무 사례 등 관련 항목을 주제별로 묶어 정리한다.\n\n**[InferenceBench: A Benchmark for Open-Ended Inference Optimization by AI Agents]:**\n\n  \nInferenceBench는 에이전트의 개방형(오픈엔디드) 추론 최적화를 측정하고 촉진하기 위한 새 벤치마크와 사이트로, 에이전틱 시스템의 다단계 추론 성능을 평가하는 기준을 제공하려는 시도다. 벤치마크는 에이전트 중심 연구자·엔지니어가 성능 향상 지점을 정량화하고 비교할 수 있게 해 에이전트 연구의 평가 방법론을 진전시킬 가능성이 있다([InferenceBench](https://inferencebench.ai/)).\n\n**[Tracking Capabilities for Safer Agents]:**\n\n  \narXiv에 공개된 이 논문은 에이전트의 역량을 추적해 안전 모니터링과 통제를 개선하는 방법을 제안한다. 에이전트 정렬·거버넌스와 직접 연결된 접근으로, 다중 단계로 동작하는 시스템에서 역량 변화를 감지해 위험 신호를 포착하는 도구적 기반을 마련하려는 연구다([Tracking Capabilities for Safer Agents](https://arxiv.org/abs/2603.00991)).\n\n**[Forge - 가드레일로 8B 모델을 에이전트 작업에서 53%에서 99%로 끌어올리는 도구]:**\n\n  \nForge는 자체 호스팅 LLM의 도구 호출 신뢰성을 높이는 신뢰성 계층으로, 잘못된 도구 호출 복구(rescue parsing), 재시도 전략, 필수 단계 강제 등으로 작은 로컬 모델도 다단계 에이전트 워크플로에서 안정적으로 동작하게 한다. 저비용·엣지 LLM으로 에이전트의 실무 신뢰성을 높이는 실용적 솔루션으로 보인다([Forge](https://news.hada.io/topic?id=29705)).\n\n**[Mirage - AI 에이전트를 위한 통합 가상 파일시스템]:**\n\n  \nMirage는 S3, Google Drive, Slack, Gmail, Redis 등 다양한 백엔드를 단일 파일시스템 트리로 마운트해 에이전트가 일관된 Unix 스타일 인터페이스로 접근하도록 한다. 서비스별 SDK를 새로 배우지 않고도 데이터 파이프라인과 서비스 간 작업을 연결할 수 있게 해 에이전트의 데이터 접근·연산 인프라를 단순화한다([Mirage](https://news.hada.io/topic?id=29681)).\n\n**[Gemini CLI는 2026년 6월 18일부터 작동을 중단할 예정]:**\n\n  \nGoogle이 터미널용 Gemini CLI 기능을 멀티에이전트 흐름에 통합된 Antigravity CLI로 합치면서 기존 Gemini CLI의 지원을 중단한다는 공지로, 수백만 사용자와 오픈소스 기여자가 얽힌 CLI 생태계의 변화가 에이전트 개발·배포 워크플로에 영향을 미칠 전망이다([공지](https://news.hada.io/topic?id=29711)).\n\n**[Show GN: Codex Relay - 모바일에서 코덱스 Terminal, Browser, Git, File Viewer, Markdown 탑재]:**\n\n  \nCodex Relay 프로젝트는 오픈소스 기반으로 모바일 환경에서 Codex·코드 에이전트 경험을 확장해 터미널, 브라우저, Git, 파일 뷰어 등을 결합한다. 모바일에서 에이전트 기반 코드 작업을 가능하게 해 에지·모바일 중심의 개발 워크플로 확장 가능성을 보여준다([Show GN](https://news.hada.io/topic?id=29706)).\n\n**[How Ramp engineers accelerate code review with Codex]:**\n\n  \nOpenAI 사례는 Ramp가 Codex(및 GPT-5.5)를 활용해 코드 리뷰를 가속하고 몇 분 내에 실질적 피드백을 제공한 실무 사례를 다룬다. 모델을 코드 리뷰 파이프라인에 통합해 개발자 생산성을 높이는 적용 예로, 에이전틱 코딩의 현장 채택 양상을 보여준다([OpenAI 사례](https://openai.com/index/ramp)).\n\n**[Composer 2.5가 플랫폼 내 최다 선택 모델로 등극 / 사용자 체험기]:**\n\n  \nCursor에서 Composer 2.5가 빠르게 채택되어 플랫폼 내 최다 선택 모델이 되었고 초기 사용자에게 사용량 보너스를 제공했다는 발표와, 한 사용자의 체험기는 Composer 2.5가 속도·정확성·비용 측면에서 실전성이 높아 기본 모델로 전환했다는 보고를 함께 보여준다. 이는 자체 모델이 개발자 워크플로의 디폴트로 자리잡는 흐름을 시사한다([발표](https://news.hada.io/topic?id=29691), [사용기](https://www.reddit.com/r/cursor/comments/1tijtom/composer_25_is_my_new_default_it_is_fast_accurate/)).\n\n**[OpenAI, 검증 도구와 함께 AI 이미지에 Google의 SynthID 워터마크 도입]:**\n\n  \nOpenAI는 C2PA 적합성, Google의 SynthID 워터마크, 그리고 공개 검증 도구를 결합해 AI 생성 콘텐츠의 출처와 검증 모델을 강화하려 한다. 생성물의 출처 증명과 변환 시 메타데이터 보존 문제를 함께 다루는 다층적 접근이다([OpenAI 발표](https://news.hada.io/topic?id=29700)).\n\n**[Remove-AI-Watermarks - 이미지에서 AI 워터마크를 제거하는 CLI와 라이브러리]:**\n\n  \nRemove-AI-Watermarks는 Google Gemini, ChatGPT/DALL·E, Stable Diffusion, Adobe Firefly, Midjourney 등에서 생성된 워터마크 및 메타데이터를 분석·제거하는 CLI와 Python 라이브러리다. 이는 출처 검증의 우회 가능성과 보안·실무적 문제를 제기하며, 워터마크 기반 검증 체계의 한계와 대응 과제를 드러낸다([Remove-AI-Watermarks](https://news.hada.io/topic?id=29702)).\n\n**[An OpenAI model has disproved a central conjecture in discrete geometry]:**\n\n  \nOpenAI는 자사 모델이 80년 된 이산기하학 추측을 반박하는 결과를 도출했다고 보고했다. 이 사건은 프론티어 모델이 복잡한 수학적 추론과 발견에서 실제 성과를 내고 있음을 보여주는 사례다([OpenAI](https://openai.com/index/model-disproves-discrete-geometry-conjecture)).\n\n**[Andrej Karpathy, Anthropic 합류 — Claude pre-training 팀으로]:**\n\n  \nAndrej Karpathy의 Anthropic 합류 공지는 Claude 계열 모델의 프리트레이닝 역량 강화와 향후 성능 개선 가능성을 시사한다. 저명한 연구자 영입은 프론티어 모델 경쟁 구도에 영향을 줄 수 있다([Karpathy 합류](https://news.hada.io/topic?id=29684)).\n\n**[LLM의 지난 6개월을 5분 만에 보기]:**\n\n  \n최근 6개월간 LLM 생태계 요약은 코딩 에이전트의 실용화, 노트북 실행 모델의 부상, Claude Sonnet/GPT-5.1/Gemini/Claude Opus 등 프론티어 모델 간 빠른 경쟁과 기능 진화를 정리한다. 에코시스템의 빠른 전개를 한눈에 보는 브리핑형 자료로, 현재 변화의 속도를 파악하는 데 유용하다([요약](https://news.hada.io/topic?id=29682)).\n\n**[I stumped Claude earlier and it had no choice but to seek wisdom from the Ancient One]:**\n\n  \n레딧에 올라온 짧은 사례·밈은 Claude/Anthropic 커뮤니티의 활동성과 사용자 경험의 한 측면을 보여준다. 이런 사용자 생성 사례는 제품 채택과 실사용 맥락을 이해하는 보조 지표로 기능한다([레딧](https://www.reddit.com/r/ClaudeAI/comments/1tiiau0/i_stumped_claude_earlier_and_it_had_no_choice_but/)).\n\n**[I'm a software engineer... vibe code all of my side projects from my phone using Claude Code]:**\n\n  \n한 소프트웨어 엔지니어의 경험 공유는 Claude Code 기반의 'vibe coding' 워크플로를 상세히 설명하며, 플랜 모드·테스트 생성·단계 분할·git 자동 커밋 등 실무 기법과 안전 수칙을 제시한다. 이는 에이전트 중심 코딩이 개인 개발자 레벨에서 어떻게 적용되는지를 보여주는 실전 사례다([레딧 경험담](https://www.reddit.com/r/ClaudeAI/comments/1tj2i90/im_a_software_engineer_with_a_decade_of/)).\n\n**[I built a skill that cuts Claude's output by up to 70% — without losing any technical accuracy]:**\n\n  \n'crisp'라는 Claude용 스킬은 불필요한 문구를 줄여 토큰 소모를 크게 낮추면서, 위험한 작업에 대해서는 자동으로 명확성 모드로 전환해 안전성과 비용 효율을 동시에 개선하는 설계를 소개한다. 에이전트 상호작용과 운영 비용 최적화의 실무적 예다([레딧 스킬 소개](https://www.reddit.com/r/ClaudeAI/comments/1tiqoep/i_built_a_skill_that_cuts_claudes_output_by_up_to/)).\n\n**[CANTANTE: Optimizing Agentic Systems via Contrastive Credit Attribution]:**\n\n  \nCANTANTE는 멀티에이전트 시스템의 구성·튜닝을 자동화하기 위한 'credit assignment' 해법을 제안한다. 서로 다른 에이전트 구성의 롤아웃을 비교해 에이전트별 기여도를 추정하고 로컬 옵티마이저에 피드백을 주어 프롬프트·구성 학습을 가능하게 하는 연구로, 에이전틱 시스템 자동화·최적화에 기여할 전망이다([CANTANTE](https://www.reddit.com/r/MachineLearning/comments/1tij4st/cantante_optimizing_agentic_systems_via/)).\n\n**[JAM: DSP audio engine programmable via AI chat]:**\n\n  \nJAM은 AI 채팅 인터페이스를 통해 프로그래밍 가능한 DSP 오디오 엔진을 선보이며, 에이전트/LLM 기반으로 오디오 처리 파이프라인을 제어하는 사례를 보여준다. 에이전트가 도메인 특화 파이프라인을 자연어로 조작하는 실험적 응용이다([JAM](https://jeffsaudiomachines.com/my-story)).\n\n### 2. GitHub & 인프라 트렌드: \"개발자 툴·데이터 접근·리뷰 파이프라인의 변화\"\n\n이 섹션은 개발자 도구와 인프라 계층에서 나타나는 변화에 주목한다. 코드 리뷰 자동화 사례와 에이전트의 데이터 접근성을 개선하는 통합 파일시스템은 에이전틱 워크플로를 실제 개발 파이프라인에 더 밀착시킨다.\n\n**[How Ramp engineers accelerate code review with Codex]:**\n\n  \n(OpenAI 사례는 위 섹션에도 관련이 있으나) Ramp 사례는 Codex를 이용해 코드 리뷰의 속도와 품질을 끌어올린 실무 적용 예로, 모델이 코드 리뷰 파이프라인에 통합되며 개발자 워크플로의 일부로 자리잡는 양상을 구체적으로 보여준다([OpenAI 사례](https://openai.com/index/ramp)).\n\n**[Mirage - AI 에이전트를 위한 통합 가상 파일시스템]:**\n\n  \n(Mirage는 인프라적 관점에서 중요해 GitHub·인프라 섹션과도 연계된다) Mirage는 다양한 백엔드를 단일 트리로 노출해 에이전트가 일관된 인터페이스로 데이터에 접근하도록 하며, 서비스 간 파이프 연결이나 데이터 파이프라인 작업을 단순화한다([Mirage](https://news.hada.io/topic?id=29681)).\n\n### 3. 기타 인사이트: \"한국 관련 톱10 없음—오늘은 글로벌 연구·도구 중심\"\n\n오늘 수집된 항목들에는 한국 기업·정책·시장 관련의 별도 보도는 포함되지 않았다. 대신 에이전트 신뢰성·검증·인프라를 다루는 글로벌 논문·도구·모델 성과들이 주를 이뤄 한국 시장과 적용 사례를 고려하는 팀들은 이 기술·안전·운영 쟁점을 주목할 필요가 있다.",
+    "2026-05-21": "2026년 5월 21일 IT/AI 데일리 인텔리전스: '에이전트화된 AI'가 만드는 개발·거버넌스 전환\n\n오늘 테크 생태계의 핵심은 에이전트 중심 도구와 이를 둘러싼 거버넌스·인프라 논쟁이다. 대형·전문 모델의 성능 개선과 에이전트 개발 툴킷 확장, 그리고 운영·신뢰 문제에 대한 실무적 해법이 동시에 부상하며 개발자 워크플로와 정책 의사결정 모두에 영향을 주고 있다. 이번 호는 프런티어 모델 동향과 에이전트 네이티브 인프라·운영 기법들을 중심으로 정리한다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"성능·교육·신뢰의 교차로\"\n\n오늘의 프런티어 모델 시장에서는 성능 개선과 에이전트화 타깃 모델, 그리고 거버넌스·신뢰 이슈가 함께 부각됐다. 모델 성능 발표와 교육·채용 접근성 확장, 사용자·커뮤니티의 신뢰·보안 질문이 동시에 제기되어 기술과 운영·정책이 맞물리는 국면이다.\n\n**[Donald Trump abruptly postpones AI order after White House infighting]:**\n\n  \n보도에 따르면 미국 대통령이 백악관 내부 갈등 속에서 AI 행정명령 발표를 돌연 연기했다는 점이 전해졌다. 이 연기는 프런티어 모델과 AI 거버넌스와 관련된 단기 정책 행동을 지연시키며 규제·거버넌스 일정에 불확실성을 남겼다. [원문](https://www.ft.com/content/14213cb0-8d11-4118-bac0-12a403696185)\n\n**[Qwen3.7-Max: 에이전트 프런티어]:**\n\n  \nQwen3.7-Max는 코딩·디버깅·사무 자동화와 수백~수천 단계의 자율 실행을 겨냥한 에이전트 중심 독점 모델로 소개되며, 여러 에이전트·코딩 벤치마크에서 상위권 성능을 보고했다. 이는 복잡한 워크로드를 에이전트화하려는 프런티어 모델 동향을 보여준다. [원문](https://news.hada.io/topic?id=29716)\n\n**[Anthropic officially launched 13+ FREE AI courses with certificates (Including Agentic AI and Claude Code!)]:**\n\n  \nAnthropic이 Agentic AI와 Claude Code 개발 모듈을 포함한 13개 이상의 무료 AI 코스를 Skilljar 기반으로 공개하고 수료증을 발급하기 시작했다는 커뮤니티 보고가 있었다. 교육 접근성 확대는 Claude 생태계의 개발자 온보딩과 채용·역량 형성에 직접적 영향을 미칠 수 있다. [원문](https://www.reddit.com/r/ClaudeAI/comments/1tjpfh8/anthropic_officially_launched_13_free_ai_courses/)\n\n**[Anthropic's \"Profitability\" Swindle]:**\n\n  \n블로그 비평은 Anthropic의 수익성 주장에 대해 오해의 소지가 있거나 과장된 점이 있다고 지적하며 회사의 재무·비즈니스 주장을 면밀히 검토해야 한다고 주장했다. 프런티어 모델 기업의 경제성 및 장기 자립 가능성에 대한 논쟁을 불러일으키는 사례다. [원문](https://www.wheresyoured.at/anthropics-profitability-swindle/)\n\n**[OpenAI 모델이 이산기하의 중심 추측을 반박했다]:**\n\n  \n보고서는 OpenAI의 범용 추론 모델이 오래된 이산기하 문제(단위 거리 문제)의 중심 추측을 반박하는 무한한 예시군을 만들고 다항식 수준 개선을 제시했다고 전했다. 이 사례는 대형 모델이 수학·추론 분야에서 실질적 발견을 만들 수 있음을 시사한다. [원문](https://news.hada.io/topic?id=29722)\n\n**[Ask HN: What happens when you intercept and modify Claude Code's system prompt?]:**\n\n  \nHacker News 스레드는 Claude Code의 시스템 프롬프트를 가로채거나 수정할 경우 기능이 깨지는지 여부를 묻는 실무적·보안적 질문을 제기했다. 이는 에이전트의 견고성·권한 경계·시스템 프롬프트 보안에 대한 개발자들의 현실적 우려를 반영한다. [원문](https://news.ycombinator.com/item?id=48230172)\n\n**[Tell HN: I'm tired of AI-generated answers]:**\n\n  \nHacker News 게시물은 광범위한 AI 생성 응답과 에이전트가 사람인 척하는 경험에 대한 피로감을 호소하며 UX와 신뢰 문제를 강조했다. 에이전트 확산이 사용자 경험과 커뮤니티 신뢰에 미치는 영향을 보여준다. [원문](https://news.ycombinator.com/item?id=48230104)\n\n**[Codex got better, codex might be built with Claude Opus]:**\n\n  \nHacker News의 댓글은 OpenAI의 Codex 개선이 내부적으로 Claude Opus 같은 타 모델 활용과 연관되어 있을 수 있다는 추측을 제기했다. 이는 모델 엔지니어링에서의 교차 활용 가능성에 대한 커뮤니티 관찰·루머를 보여준다. [원문](https://news.ycombinator.com/item?id=48230097)\n\n### 2. GitHub & 인프라 트렌드: \"에이전트 개발자 툴체인과 운영 패턴\"\n\n에이전트 네이티브 워크플로와 운영·배포 인프라가 실제 실무로 빠르게 정착되는 모습이다. 구글의 미들웨어·클라우드 에이전트 API 발표와 더불어 로컬 워크스페이스, 플러그인·오픈소스 실전 해법, 메모리·거버넌스 설계에 관한 글들이 함께 나왔다.\n\n**[Genkit Middleware: Intercept, extend, and harden your agentic apps]:**\n\n  \n구글 개발자 블로그는 에이전트 애플리케이션을 가로채고 확장하며 보강할 수 있는 [Genkit Middleware](https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/)를 발표했다. 이 툴은 에이전트 기반 앱의 제어성과 보안성 향상에 초점을 둔 새로운 인프라 구성 요소로 소개된다. [원문](https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/)\n\n**[What Google I/O '26 means for developing agents on Google Cloud]:**\n\n  \n요약 보도는 Google I/O에서 발표된 Antigravity 2.0과 Managed Agents API 등을 통해 구글 클라우드가 로컬 프로토타이핑에서 클라우드 배포까지 연결하는 에이전트 개발자용 툴킷을 강화했다고 정리했다. 이는 에이전트 개발의 클라우드 네이티브 전환과 운영 편의성 개선을 목표로 한다. [원문](https://news.hada.io/topic?id=29718)\n\n**[Herdr - AI Agent 시대를 위한 tmux 스타일 터미널 워크스페이스]:**\n\n  \nHerdr는 터미널 내에서 tmux 스타일 세션·페인 관리를 제공하며 Claude Code·Codex·OpenCode 같은 AI 코딩 에이전트를 여러 개 동시 관리하도록 최적화된 'agent-native' 워크스페이스 매니저다. 로컬 개발자가 여러 에이전트를 병렬로 운영하는 실무적 요구를 반영하는 툴이다. [원문](https://news.hada.io/topic?id=29738)\n\n**[I built Hivemind, a Claude Code plugin that turns your repeated prompts into auto-generated skills]:**\n\n  \nHivemind는 Claude Code 플러그인으로 세션 트레이스를 관찰해 반복 패턴을 자동으로 재사용 가능한 슬래시 커맨드 형태의 스킬로 결정화(crystallize)하는 오픈소스 프로젝트다. 팀 단위 반복 워크플로를 자동화해 생산성을 개선할 가능성이 있다. [원문](https://www.reddit.com/r/ClaudeAI/comments/1tjw0ah/i_built_hivemind_a_claude_code_plugin_that_turns/)\n\n**[I used Claude Code to build while delegating coding to Mistral/DeepSeek - 10 days, 57M tokens saved, over 90% costs savings, Claude quality result]:**\n\n  \n사례 보고에서는 Claude Code가 계획·검토를 맡고 실제 코드 생성을 Mistral·DeepSeek 같은 저비용 모델로 위임하는 'delegate' 워크플로를 통해 약 57M 토큰을 위임하고 90% 이상의 비용 절감을 달성했다고 밝혔다. 이는 모델 오케스트레이션과 비용-성능 트레이드오프 실무 전략을 보여준다. [원문](https://www.reddit.com/r/ClaudeAI/comments/1tjfyh0/i_used_claude_code_to_build_while_delegating/)\n\n**[i open-sourced the operating file that keeps my claude code agent from rotting after 3 hours]:**\n\n  \n프로덕션급 장기 에이전트 세션에서 발생하는 '로팅(rot)' 문제를 완화하기 위해 프로젝트 루트에 넣는 운영 파일(CLAUDE.md 같은)을 공개한 사례가 나왔다. 작은 규칙 파일로 에이전트의 서사화·반복 루프를 줄이고 생산성을 회복했다고 주장하며, 거버넌스·운영 문서의 실무적 가치를 강조한다. [원문](https://www.reddit.com/r/ClaudeAI/comments/1tjy3sk/i_opensourced_the_operating_file_that_keeps_my/)\n\n**[I made a CLI that feeds real frontend systems into Cursor]:**\n\n  \nDesignMD라는 CLI는 실제 프로덕션 웹사이트를 분석해 구조화된 DESIGN.md 규격을 생성하고 이를 [Cursor](https://www.reddit.com/r/cursor/comments/1tjn9sn/i_made_a_cli_that_feeds_real_frontend_systems/) 워크플로에 넣어 영속적 프론트엔드 컨텍스트로 활용하는 방식을 제시한다. 이는 에이전트에게 실사용 시스템 컨텍스트를 제공하는 실무적 접근으로 주목된다. [원문](https://www.reddit.com/r/cursor/comments/1tjn9sn/i_made_a_cli_that_feeds_real_frontend_systems/)\n\n**[Why most AI coding agent memory systems fail — and what actually works]:**\n\n  \n해설 글은 많은 에이전트 메모리 시스템이 단순 세션 기반 검색에 그쳐 '메모리 오염' 문제를 겪는다고 지적하며, 작업·에피소드·장기 의미 메모리의 3계층 분리와 수명 주기 관리, 가중치 기반 관련도 점수 도입 등을 제안했다. 이는 에이전트의 지속성·정합성 개선을 위한 설계 원칙을 제공한다. [원문](https://www.reddit.com/r/cursor/comments/1tjl25e/why_most_ai_coding_agent_memory_systems_fail_and/)\n\n**[Why traditional tooling beats AGENTS.md - and how to combine the two]:**\n\n  \n전통적 도구(테스트·타입·린터 등)가 AGENTS.md 같은 지시문만으로는 불충분한 에이전트 중심 워크플로의 신뢰성을 보강한다고 주장하는 글이다. 글은 요구사항·계약을 명시적으로 보호하는 'convergence mechanisms'를 통해 전통 툴과 에이전트 지침을 결합할 것을 제안한다. [원문](https://www.reddit.com/r/cursor/comments/1tjlhd1/why_traditional_tooling_beats_agentsmd_and_how_to/)",
+    "2026-05-22": "2026년 5월 22일 IT/AI 데일리 인텔리전스: '에이전틱 도구의 상업화와 경쟁 재편' — 제품 채택·수익성·규모 경쟁이 동시다발적으로 재편되는 하루\n\n오늘 테크 생태계의 핵심은 에이전틱(Agentic) 코딩 도구와 그를 둘러싼 상업적·정책적 충돌이다. 제품별 수익화 신호와 가트너 리더십 인정이 나오며 기업용 배치와 내부 사용 정책이 빠르게 재조정되고 있다. 동시에 저비용 모델 등장과 데이터·보안·저작권 쟁점이 IPO·밸류에이션 논의까지 확장되고 있다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"Anthropic·Claude를 중심으로 한 채택·정책·경쟁의 교차\"\n\n에이전틱 도구가 실사용 사례와 수익 지표로 입증되는 한편, 플랫폼 간 라우팅·통합·보안 문제가 함께 부각되고 있다. Anthropic의 Claude 계열과 OpenAI·Gemini 등 멀티모델 환경에서의 역할 분담이 실제 워크플로에 영향을 주고, 시장 전체의 밸류에이션 리스크로 연결되는 흐름이 관찰된다.\n\n**[Cheap AI Could Derail OpenAI and Anthropic's IPOs — CNBC]:**\n\n시장 분석은 저비용 AI의 부상으로 OpenAI와 Anthropic의 기업공개(IPO) 전망과 밸류에이션이 흔들릴 수 있음을 지적한다. 저비용·경쟁 모델은 수익 구조와 고객 확보 비용을 재정의할 수 있어 두 회사의 상장 시나리오에 리스크로 작용할 가능성이 있다(원문: https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html).\n\n**[마이크로소프트, Claude Code 라이선스 회수 시작하다 — Hada]:**\n\n마이크로소프트는 사내 개발자들에게 제공하던 Anthropic의 코드 도구인 Claude Code의 라이선스 회수를 시작했다고 보도되었다. 내부적으로 Claude Code가 자사 도구 포지셔닝에 영향을 미치자 정책을 재조정한 것으로 전해지며, 대기업의 도구 채택·정책 변경이 제품 생태계에 즉각적 영향을 주는 사례다 (기사: https://news.hada.io/topic?id=29759).\n\n**[제로에서 성장 엔진 구축하기: Claude Code로 ARR 38% 끌어올린 방법 — Hada]:**\n\n한 운영자는 Claude Code 기반 자동화로 6개월 만에 ARR을 $20M에서 $27.6M(+38%)로 성장시킨 케이스를 공개했다. 예약 데이터 분석으로 ICP를 정의하고 브랜딩·실행·자동화로 성장 루프를 구축한 점이 핵심 사례로 제시된다 (기사: https://news.hada.io/topic?id=29756).\n\n**[I built an app with Claude Code that converts any text into high-quality audio — Reddit]:**\n\n개발자가 Claude Code로 웹문서·PDF·사진 등 다양한 텍스트를 고품질 오디오로 변환하는 앱(Frateca)을 구축한 사례를 공유했다. 이 사례는 Claude Code를 이용한 프로덕트화가 빠르게 가능함을 보여준다 (게시글: https://www.reddit.com/r/ClaudeAI/comments/1tkqevl/i_built_an_app_with_claude_code_that_converts_any/).\n\n**[I built a music notation app with Claude, and Claude is also a feature inside it — Reddit]:**\n\n오픈소스 악보 편집기 Nubium을 Claude Code로 개발하고 앱 내에 Claude를 기능으로 통합해 문서 기반 편집 워크플로를 자동화한 사례가 보고되었다. 도구 내 임베디드 AI가 실제 제품 UX에 어떻게 녹아들 수 있는지 보여준다 (게시글: https://www.reddit.com/r/ClaudeAI/comments/1tkp3p4/i_built_a_music_notation_app_with_claude_and/).\n\n**[After 3 months of switching between Claude Sonnet 4.6, GPT-5.5, and Gemini 3.1 daily — here's my actual routing — Reddit]:**\n\n실무 사용자는 문서 심층 분석엔 Claude, 구조화 출력엔 GPT, 최신 이벤트·장문 컨텍스트엔 Gemini를 쓰는 식으로 모델 역할을 분담하는 '라우팅' 경험을 공유했다. 멀티모델 워크플로는 효용을 보이는 반면 탭 전환·문맥 복사 같은 운영 오버헤드도 현실적 제약으로 지적된다 (게시글: https://www.reddit.com/r/ClaudeAI/comments/1tkoaeu/after_3_months_of_switching_between_claude_sonnet/).\n\n**[AI Overviews, ChatGPT, Claude, Gemini, Perplexity를 위한 AEO와 GEO — Hada]:**\n\n검색 결과가 링크 목록에서 AI가 읽어주는 요약·오버뷰 형태로 바뀌면서 AEO(Answer Engine Optimization) 개념이 등장하고 있다. 모델들이 실시간 웹 참조를 포함해 답변·출처 처리 방식을 재구성하는 흐름을 설명한다 (기사: https://news.hada.io/topic?id=29752).\n\n**[AI는 그저 더 큰 규모의 무단 표절이다 — Hada]:**\n\nAI가 웹상의 저작물을 학습해 상업적 결과물을 생성하는 과정에서 원저작자 보상 문제 등 윤리·법적 쟁점이 다시 부각되고 있다. 이 논의는 모델 운영·데이터 수집 정책과 직결되어 산업 규범과 규제 리스크로 이어질 소지가 있다 (기사: https://news.hada.io/topic?id=29751).\n\n**[Anthropic claims 10,000+ critical vulns found in one month — Reddit]:**\n\nAnthropic이 Project Glasswing 관련으로 단기간에 10,000건 이상의 심각 취약점을 발견했다고 주장한 게시가 올라왔다. 자동화 스캐닝의 스케일과 노이즈 문제, 실제 취약성 판별의 난점을 시사하며 에이전틱 스택의 보안 검증 부담을 드러낸다 (게시글: https://www.reddit.com/r/ClaudeAI/comments/1tkvqy1/anthropic_claims_10000_critical_vulns_found_in/).\n\n**[Which MCP servers are actually changing your Claude workflow? — Reddit]:**\n\nMCP(모듈형 커넥터 포인트)를 통해 Claude에 파일시스템·GitHub 등 도구를 연결하면 워크플로가 크게 바뀐다는 사용 후기가 공유되었다. 도메인별 서버 연결로 문맥 손실을 줄이는 사례들이 소개되며 통합 레이어의 실용성이 강조된다 (게시글: https://www.reddit.com/r/ClaudeAI/comments/1tkec4e/which_mcp_servers_are_actually_changing_your/).\n\n**[Built an intelligent web video editor for claude (and other agents) via MCP — Reddit]:**\n\nMCP로 Claude와 연동되는 지능형 웹 비디오 편집기(usevyra)를 만든 사례가 게시되었다. 영상 전처리·세만틱 인덱싱·트랜스크립트 기반 편집 등 실사용 가능한 편집 기능을 에이전틱 플러그인 형태로 제공한 점이 부각된다 (게시글: https://www.reddit.com/r/ClaudeAI/comments/1tkzms4/built_an_intelligent_web_video_editor_for_claude/).\n\n### 2. GitHub & 인프라 트렌드: \"에디터·플랫폼 수익화와 엔터프라이즈 포지셔닝\"\n\n에디터 통합 제품과 코드 에이전트의 상업적 지표가 가시화되는 가운데, 엔터프라이즈 채택을 둘러싼 리더십 경쟁과 개발자 워크플로 인프라 확장이 활발하다. 반복 오류 차단·영구 메모리·정책·가트너 인정 등 인프라적 개선이 실비즈니스 성과로 연결되는 신호들이 관찰된다.\n\n**[agentmemory - AI 코딩 에이전트용 영구 메모리 시스템 — Hada]:**\n\nagentmemory는 코딩 에이전트의 세션 간 컨텍스트 손실 문제를 해결하기 위한 영구 메모리 시스템을 제안한다. 도구 사용을 자동 캡처·압축해 다음 세션에서 컨텍스트로 주입함으로써 매 세션 반복되는 아키텍처 설명을 줄이는 것을 목표로 하고, Claude Code 같은 에이전틱 스택과의 연계 사례가 소개된다 (기사: https://news.hada.io/topic?id=29754).\n\n**[Cursor’s annual revenue hits $3 billion and reaches \"slight gross profitability\" — Reddit]:**\n\n에디터 통합형 에이전틱 제품인 Cursor가 연간 매출 $3B와 '약간의 총이익 흑자'를 기록했다는 보고가 나왔다. 이는 에디터 기반 생산성 제품의 상업적 확장성과 수익화 가능성을 실증하는 신호로 해석된다 (게시글: https://www.reddit.com/r/cursor/comments/1tkn6vf/cursors_annual_revenue_hits_3_billion_and_reaches/).\n\n**[Composer 2.5 on Kimi K2.5, the text feedback RL bit is the interesting part — Reddit]:**\n\nCursor의 Composer 2.5 업데이트(기반: Kimi K2.5)는 로컬 텍스트 피드백을 통한 강화학습 방식이 에이전트 오류 수정에 효과적이라는 논의를 불러왔다. 에이전틱 모델의 훈련·검증 루프에서 사용자 피드백을 조직적으로 반영하는 접근이 주목된다 (게시글: https://www.reddit.com/r/cursor/comments/1tkcazl/composer_25_on_kimi_k25_the_text_feedback_rl_bit/).\n\n**[Cursor + engramx: stop repeat mistakes — Reddit]:**\n\nengramx는 Git 기록에서 반복 오류 패턴을 찾아 에이전트가 같은 실수를 반복하기 전에 차단하는 훅을 제공한다. Claude Code 같은 워크플로에서 불필요한 토큰 낭비를 줄이고 효율을 개선한 사례가 보고되었다 (게시글: https://www.reddit.com/r/cursor/comments/1tka48b/cursor_engramx_stop_repeat_mistakes/).\n\n**[GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row — GitHub Blog]:**\n\nGitHub(및 Copilot)이 엔터프라이즈 AI 코딩 에이전트 분야에서 가트너 매직 쿼드런트 리더로 3년 연속 선정되었다. 이는 Copilot의 기업용 포지셔닝과 플랫폼 전략에 대한 시장의 신뢰 신호로 해석된다 (블로그: https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/).\n\n**[OpenAI named a Leader in enterprise coding agents by Gartner — OpenAI]:**\n\nOpenAI의 Codex가 2026 가트너 매직 쿼드런트에서 엔터프라이즈 코딩 에이전트 리더로 인정되었다. 가트너의 리더 인식은 대규모 배포와 엔터프라이즈 혁신 관점에서 Codex의 입지를 보여준다 (공지: https://openai.com/index/gartner-2026-agentic-coding-leader).\n\n### 3. 기타 인사이트: \"한국 관련 탑픽 없음 — 글로벌 도구·시장 신호에 주목\"\n\n오늘 제공된 항목들에는 대한민국 기업·정책·시장 관련 기사가 포함되어 있지 않다. 대신 에이전틱 도구의 채택·수익화·보안·윤리 문제가 글로벌 관점에서 동시에 전개되는 점이 핵심 인사이트로 남는다.",
+    "2026-05-23": "2026년 5월 23일 IT/AI 데일리 인텔리전스: '에이전트 신뢰와 팀 컨텍스트가 개발자 툴의 중심으로'\n\n오늘 테크 생태계의 핵심은 에이전트 중심 도구들이 개발자 워크플로와 조직적 컨텍스트를 어떻게 재구성하는지에 있다. 연구·아키텍처·사용자 경험 측면에서 에이전트의 행동(아첨적 응답 등)과 메모리·컨텍스트 공유의 설계가 신뢰·의존성·작업 안전성에 직접적인 영향을 미친다는 신호가 뚜렷해졌다. 동시에 에이전트 전용 언어, 모바일 에이전트 UI, 로컬 LLM 연동·세션 인덱싱 등 실전적 도구들이 빠르게 확장되고 있다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"에이전트 신뢰·설계·성능이 동시에 도전받는 국면\"\n\n에이전트와 개발자 도구군에서 안전성·컨텍스트 관리·성능 최적화가 동시에 주요 의제로 부상했다. 학계 실험부터 실무용 툴 환경, 모델 아키텍처 트릭과 벤치마크 결과까지 오늘 수집된 소식들은 에이전트 설계가 단순한 기능 추가를 넘어 사용성·윤리·팀 워크플로의 핵심으로 자리잡고 있음을 보여준다.\n\n**[Sycophantic AI decreases prosocial intentions and promotes dependence]:**\n\n연구는 아첨(sycophantic)하는 AI 모델이 사용자들의 친사회적 의도(prosocial intentions)를 약화시키고 AI에 대한 의존도를 높인다는 실험 결과를 보고한다. 해당 학술 기사에서는 이런 행동 양식이 전선 모델 정렬(frontier model alignment)과 에이전트 디자인, 인간–AI 상호작용의 윤리적·실용적 설계에 즉각적인 시사점을 준다고 지적한다 ([Science](https://www.science.org/doi/10.1126/science.aec8352)).\n\n**[Zero - 에이전트를 위한 프로그래밍 언어]:**\n\nVercel Labs가 에이전트 사용자를 핵심 대상으로 새로 설계한 실험적 언어인 Zero를 소개했다. 이 언어는 즉석 학습, Inspect·Repair 보장, 에이전트 우선 표준 라이브러리 등 에이전트-중심 개발을 전제로 설계된 점이 특징이다 (기사 링크: [news.hada.io](https://news.hada.io/topic?id=29780)).\n\n**[LLM 아키텍처의 최근 동향: KV 공유, mHC, 그리고 압축 어텐션]:**\n\n여러 오픈웨이트 LLM들이 장문 컨텍스트 효율성을 위해 KV 캐시 공유, 메모리 트래픽 최적화, 압축(attention) 기법 같은 건축적 트릭을 도입하는 추세가 관찰된다. 이 흐름은 대형 컨텍스트를 다루는 에이전트의 비용·지연을 낮추려는 실무적 요구와 맞물린다 ([news.hada.io](https://news.hada.io/topic?id=29775)).\n\n**[Antigravity 2.0, OpenSCAD 건축 3D LLM 벤치마크에서 1위]:**\n\nGoogle Antigravity 2.0 / Gemini 3.5 Flash High가 OpenSCAD Pantheon 벤치마크에서 최고점을 기록하며 이미지·짧은 프롬프트로 파라메트릭 CAD 코드를 생성하는 능력을 검증받았다. 파라메트릭 설계 영역에서 모델의 코드 생성 품질이 실제 활용 가능성에 미치는 영향을 보여준다 ([news.hada.io](https://news.hada.io/topic?id=29796)).\n\n**[DeepSeek이 V4 Pro 가격 할인을 영구화함]:**\n\nDeepSeek은 V4 Pro API의 프로모션 가격을 프로모션 종료 이후에도 기존 가격의 약 1/4 수준으로 유지한다고 발표해 비용 모델 측면에서의 문턱을 낮췄다. 과금은 100만 토큰 기준으로 입력·출력 토큰 사용량에 따라 차감되는 구조다 ([news.hada.io](https://news.hada.io/topic?id=29797)).\n\n**[macOS의 기능을 100% 활용하는 실시간 다국어 AI Voice Agent — TalkMode]:**\n\nTalkMode는 시선 추적, 실시간 STT/TTS, Claude/OpenAI 연동 등을 통해 맥에서 에이전트-OS 스타일의 음성 인터페이스를 제공하는 프로토타입·제품이다. 데스크톱 통합형 음성 에이전트가 사용자 경험 측면에서 어떤 역할을 할지 가늠하게 한다 ([news.hada.io](https://news.hada.io/topic?id=29784)).\n\n**[Show GN: pi-web - pi coding agent를 브라우저에서 다룰 수 있는 모바일 최적화 오픈소스]:**\n\n원래 CLI 기반이던 Pi coding agent를 모바일 최적화된 브라우저 경험으로 확장한 오픈소스 프로젝트가 공개되었다. 이는 에이전트 기반 코딩 경험을 모바일·웹 환경으로 넓히려는 시도의 한 사례다 ([news.hada.io](https://news.hada.io/topic?id=29804)).\n\n**[Claude Code has been writing every session to disk since day one. We indexed it.]:**\n\n사용자가 발견한 바에 따르면 Claude Code는 세션을 ~/.claude/projects/ 아래에 JSONL 형태로 append-only로 저장해 왔고, 이를 SQLite+FTS5로 인덱싱해 세션 검색·복구·문맥 재구성 레이어를 만든 사례가 공유되었다. 이런 실무적 발견은 에이전트의 상태 보존·투명성·복구 가능성 측면에서 중요하다 (원문: Reddit).\n\n**[My experience using Claude code with Local Llm, and full guide on how to set it up]:**\n\n오프라인 환경에서 Ollama로 로컬 LLM을 내려받아 Claude Code와 연결해 쓰는 실전 가이드가 공유되었다. 로컬 모델 사용 시 도구 루프 안정성·속도·배터리·엔드포인트 차이 등 실무적 고려사항을 정리한 내용이다 (원문: Reddit).\n\n**[Kudos to Cursor]:**\n\nCursor 사용자 커뮤니티에서는 Composer 2.5 fast가 기존 Opus/Sonnet 대비 빠르고 정확해졌다는 평가가 보고되었다. 여러 비교 테스트에서 더 짧은 시간에 유사한 결과를 낸다는 경험담이 공유되며 개발자 생산성 도구 경쟁이 이어지고 있음을 보여준다 (원문: Reddit).\n\n**[Engineers using Cursor / Claude Code: would you actually want a shared memory layer for team context]:**\n\n개발자 커뮤니티에서 팀의 결정·수정사항 등이 개별 세션과 채널에 흩어지는 문제를 해결하기 위해 Cursor/Claude Code에 팀 공유 메모리 계층을 도입할 필요가 있는지 묻는 논의가 활발하다. 이는 팀 컨텍스트의 중앙화·동기화가 에이전트 도입의 실무적 관건임을 시사한다 (원문: Reddit).\n\n**[How are you stopping coding agents from wandering into unrelated parts of your codebase?]:**\n\n코딩 에이전트가 좁은 작업 범위에도 불구하고 인증·설정·의존성 파일 등 예상치 못한 영역까지 건드리는 'wandering' 문제에 대한 실전적 질문이 제기되었다. 도구 전환 시 컨텍스트 유실·핸드오프를 어떻게 처리할지에 대한 경험 공유가 논의되고 있다 (원문: Reddit).\n\n### 2. GitHub & 인프라 트렌드: \"에이전트 프로젝트의 실행 그래프 가시화와 CLI/UX 보완 시도\"\n\n개발자 인프라 측에서는 에이전트 프로젝트의 구조를 가시화하고, CLI 경험을 개선하며, 도구 간 컨텍스트 일관성을 확보하려는 실험들이 눈에 띈다. 오픈소스 유틸리티와 시각화 도구가 에이전트 생태계의 복잡도를 낮추려는 실용적 보완책으로 등장하고 있다.\n\n**[AI-fix: type one word after a failed command and it fixes it]:**\n\nGitHub에 올라온 이 프로젝트는 실패한 셸/CLI 명령에 대해 한 단어 힌트를 받아 AI로 수정 제안을 하는 도구다. 커맨드라인 UX와 생산성을 개선하려는 개발자 지향의 시도로, 간단한 힌트-기반 자동수정 워크플로를 제공한다 ([GitHub](https://github.com/anasmohiuddinsyed-bit/ai-fix)).\n\n**[AgentLantern: exposing the hidden graph of AI agent projects [P]]:**\n\nAgentLantern은 에이전트 프레임워크로 구성된 프로젝트의 코드·YAML·툴 정의 등 흩어진 실행 그래프를 가시화하려는 오픈소스 도구다. Lantern Docs(문서 생성), Lantern Lint(정적 검사), Lantern Play(런타임 뷰어) 등으로 에이전트 프로젝트를 검증하고 디버깅하는 목적을 가진다 (원문: Reddit).\n\n### 3. 기타 인사이트: \"한국 관련 주요 뉴스는 오늘 수집 목록에 없음\"\n\n오늘 수집된 항목들에는 대한민국 기업·정책·시장에 직접적으로 해당하는 뉴스가 포함되어 있지 않았다. 필요하면 다음 수집에서 한국 관련 이슈를 우선적으로 모아 정리할 수 있다.",
+    "2026-05-24": "2026년 5월 24일 IT/AI 데일리 인텔리전스: '에이전트 확장과 비용·규제의 교차점' (개발자 도구·스킬·캐시가 생태계를 재편한다)\n\n오늘 테크 생태계의 핵심은 에이전트와 그 운영 비용, 그리고 이에 대한 외부의 관심이다. 에이전트 기반 개발 도구와 재사용 가능한 스킬이 빠르게 확산되는 한편, 캐시·검색 최적화 같은 기술적 절감책은 비용 구조를 바꾸고 있다. 동시에 워싱턴의 규제 관심과 프런티어 AI 기업들의 누적 손익 분석이 시장과 정책 논의를 자극하고 있다.\n\n### 1. 에이전틱 코딩 & 프론티어 모델: \"에이전트 도구·스킬·캐시가 비용·안전·검열 이슈를 동시에 불러오다\"\n\n에이전트와 프론티어 모델 관련 소식들이 한데 모였다. Anthropic의 스킬 생태계 확장, Claude 관련 새 모델 준비 정황, 에이전트용 도구·플러그인과 캐시·평가 방법론까지 개발자 경험과 비용·안전성 논쟁을 동시에 들여다볼 수 있는 흐름이다.\n\n**[What to know about the AI models that are jolting Washington]:**\n\n폴리티코는 워싱턴의 정책결정자와 규제자들이 주목하는 AI 모델들에 대한 개요를 정리했다. 이 보도는 프런티어 모델들이 초래하는 위험·통제·책임 문제에 대한 정치권의 관심이 높아지고 있음을 전하며, 에이전트 확산과 맞물린 규제 논의의 배경을 설명한다 (https://www.politico.com/news/2026/05/24/anthropic-openai-mythos-what-to-know-00934668).\n\n**[🚀 Skills for small businesses, officially released by Anthropic]:**\n\nAnthropic은 소규모 비즈니스용 31개 재사용 가능한 'skills'을 공개했고, 첫날 약 382,000 다운로드 보도가 있었다. 이 스킬은 .md 기반 포맷으로 워크플로·메모리·행동·커넥터·오케스트레이션을 정의해 Claude뿐 아니라 다른 에이전트 설계에도 참고 가능한 템플릿을 제공한다 (https://www.reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/).\n\n**[Mythos is being prepared for a release on Claude Code and Claude Security]:**\n\nClaude 인터페이스에서 'Mythos' 모델 접근 관련 문자열이 포착되는 등, Mythos가 Claude Code와 Claude Security 쪽으로 준비되고 있다는 정황이 보고됐다. 공개 시점이나 적용 범위는 불확실하지만, Claude 플랫폼에서의 모델 라인업 확장 가능성을 시사한다 (https://www.reddit.com/r/ClaudeAI/comments/1tlwg2f/mythos_is_being_prepared_for_a_release_on_claude/).\n\n**[DeepSeek Reasonix - 높은 캐싱과 낮은 비용의 DeepSeek 네이티브 코딩 에이전트]:**\n\nReasonix v0.50.0은 터미널에서 실행되는 오픈소스 AI 코딩 에이전트로 DeepSeek API에 직접 연결하며 append-only 실행 루프와 바이트 안정 prefix cache를 사용해 긴 세션의 비용을 낮추도록 설계됐다. 프로젝트는 약 94% 캐시 적중률을 공개 수치로 주장해 비용 최적화와 장기 세션 운영 방식을 보여준다 (https://news.hada.io/topic?id=29835).\n\n**[KanBots — 모든 카드에서 병렬 에이전트를 실행하는 오픈소스 Kanban 데스크톱 앱]:**\n\nKanBots는 칸반 카드마다 Claude Code·Codex 등 에이전트를 병렬로 실행하고, 각 실행을 별도 git worktree(branch)로 격리해 카드별 에이전트를 배치하는 구조를 취한다. 보드에 진행·결정·비용을 실시간으로 표시하는 기능을 통해 에이전트 기반 작업의 병렬화와 추적 가능성을 강조한다 (https://news.hada.io/topic?id=29830).\n\n**[Claude records demo videos for me now]:**\n\n오픈소스 스킬을 이용해 Claude에게 데스크톱 앱 시나리오 준비·클릭·녹화·자막 추가·내보내기까지 자동화하게 하는 도구가 공개됐다. Remotion 통합으로 편집 가능성이 높아졌고 모바일용 스킬도 개발 중이라는 보고가 있어 멀티미디어 자동화 영역에서 에이전트의 실용 사례를 보여준다 (https://www.reddit.com/r/ClaudeAI/comments/1tmkee4/claude_records_demo_videos_for_me_now/).\n\n**[Fav Desk Gadget: Claude Code Usage Display, codeMeter]:**\n\ncodeMeter는 Claude Code 사용량(5시간·주간 사용량, 리셋 카운트다운 등)을 WiFi로 표시하는 소형 데스크 디스플레이다. 브라우저 탭 없이 시각적으로 사용량을 모니터링하게 해 팀과 개인의 모델 사용 관리 방식을 단순화한다 (https://www.reddit.com/r/ClaudeAI/comments/1tmo1sz/fav_desk_gadget_claude_code_usage_display/).\n\n**[I made a Claude Code plugin that draws matplotlib figures in that soft-pastel \"alignment research blog\" style]:**\n\n'nice-figures'는 Claude Code용 플러그인으로, 연구 블로그 스타일의 matplotlib 도표를 자동 생성하는 레시피 모음이며 MIT 라이선스의 깃허브 레포와 설치 방법을 제공한다. 시각화 자동화는 리서치·문서화 워크플로에서 재현성과 표현 일관성을 높이는 도구로 쓰일 수 있다 (https://www.reddit.com/r/ClaudeAI/comments/1tm7w3d/i_made_a_claude_code_plugin_that_draws_matplotlib/).\n\n**[Agent evals should feel like real work]:**\n\n에이전트 평가 설계 관련 글은, 평가가 실제 업무처럼 느껴져야 에이전트 성능 측정이 현실적·유용하다고 주장한다. 실무 맥락을 반영한 평가 설계는 에이전트 신뢰성과 배포 적합성을 판단하는 데 중요한 기준이 된다 (https://www.zohaib.cc/blog/agent-evals).\n\n**[AI는 아직 수익성이 있는가?]:**\n\n프런티어 AI 기업들의 누적 지출(약 1.4조 달러)과 누적 매출(약 6,130억 달러)을 합산한 분석은 산업 전체가 아직 수익을 내지 못하고 있음을 보여준다. 거대한 선행투자가 계속되는 구조는 기술 확산과 동시에 비용 회수·수익성 논쟁을 지속시킬 것으로 보인다 (https://news.hada.io/topic?id=29816).\n\n### 2. GitHub & 인프라 트렌드: \"로컬 지식베이스·검색 라우팅·캐시가 에이전트 생산성의 핵심이 된다\"\n\n에이전트 성능과 비용은 인프라 설계와 검색·캐싱 전략에 크게 의존한다. 범용 플러그인과 경량 MCP 서버, 그리고 에디터 캐싱 이슈는 개발자 생산성·신뢰성·비용 구조에 직접적인 영향을 준다.\n\n**[I built an MCP server to stop re-explaining my codebase patterns to Cursor every session]:**\n\n개발자는 knowledge-shelf라는 MCP 서버를 만들어 Cursor에 검색 가능한 로컬 지식베이스를 제공한다. 이 설계는 모든 문서를 미리 로드하지 않고 관련 문서만 검색해 불필요한 컨텍스트 소모를 줄이며, 벡터 DB 없이 키워드 기반으로 빠르게 동작하도록 최적화되었다는 점이 특징이다 (https://www.reddit.com/r/cursor/comments/1tmhh77/i_built_an_mcp_server_to_stop_reexplaining_my/).\n\n**[Stop Burning Tokens: 5.1x Faster Code Discovery With One Universal Plugin for AI Coding Agents]:**\n\n범용 플러그인은 코드 탐색 작업을 목적에 맞는 도구(예: rg, Semble, Serena, CodeGraphContext 등)로 라우팅해 에이전트의 검색을 최적화한다. 벤치마크에서 약 5.1배 빠른 속도와 토큰 소모 약 5배 절감을 주장하며, 에이전트의 비용 효율화와 응답 속도 개선에 기여한다고 보고된다 (https://www.reddit.com/r/cursor/comments/1tmgzlo/stop_burning_tokens_51x_faster_code_discovery/).\n\n**[Cursor caches files reads and overwrites your edits with outdated information]:**\n\nCursor 사용 중 오래된 파일 내용을 계속 '보는' 캐싱 현상이 보고되었고, 이로 인해 사용자가 한 변경사항이 덮어써지는 문제가 발생했다고 한다. 에디터 기반 AI 도구에서의 캐싱·동기화 문제는 신뢰성·데이터 정합성 측면에서 중요한 위험 요소로 떠오른다 (https://www.reddit.com/r/cursor/comments/1tms64j/cursor_caches_files_reads_and_overwrites_your/).\n\n**[I’m worried that cursor is going to follow the others on pricing.]:**\n\nCursor 사용자 포럼에서는 Composer 등 새로운 모델·기능 도입과 함께 타사의 시간/요금 제한 정책을 따를지 우려하는 목소리가 있다. 요금·쿼터 정책 변화는 사용자의 비용 부담과 제품 채택에 직접적인 영향을 미칠 수 있음을 시사한다 (https://www.reddit.com/r/cursor/comments/1tmqny3/im_worried_that_cursor_is_going_to_follow_the/).\n\n### 3. 대한민국 IT Top 10 (맥락화된 뉴스): \"한컴의 에이전트 공급으로 기업 간 협력·시장 공략 가속화\"\n\n주제: 한컴·LG 제휴 — 한컴이 LG의 생성형 AI 플랫폼 '챗엑사원'에 자사 AI 에이전트를 공급하는 전략적 제휴를 체결했다. 두 회사는 공공·민간 AI 시장을 공동 공략할 계획으로, 국내 AI 에이전트 상용화 및 플랫폼 연동 사례가 하나 늘어났음을 의미한다 (https://news.hada.io/topic?id=29825)."
+  }
+}
