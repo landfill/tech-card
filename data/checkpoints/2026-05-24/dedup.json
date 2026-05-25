@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "title": "What to know about the AI models that are jolting Washington",
+      "summary": "\nOverview of the AI models drawing attention from Washington policymakers and regulators.",
+      "url": "https://www.politico.com/news/2026/05/24/anthropic-openai-mythos-what-to-know-00934668",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "DeepSeek Reasonix - 높은 캐싱과 낮은 비용의 DeepSeek 네이티브 코딩 에이전트",
+      "summary": "\nReasonix v0.50.0은 터미널에서 실행되는 오픈소스 AI 코딩 에이전트로 DeepSeek API에 직접 연결되며, append-only 실행 루프와 바이트 안정 prefix cache를 활용해 긴 세션 비용을 낮추는 설계를 사용한다. 공개 수치로 약 94% 캐시 적중률을 주장한다.",
+      "url": "https://news.hada.io/topic?id=29835",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "모든 카드에서 병렬 에이전트를 실행하는 오픈소스 Kanban 데스크톱 앱",
+      "summary": "\nKanBots는 칸반 카드마다 Claude Code와 Codex 같은 에이전트를 병렬로 실행하고 보드에 진행·결정·비용을 실시간 표시하는 데스크톱 앱이다. 각 실행은 별도 git worktree(branch)로 격리되어 카드별 에이전트를 배치하는 구조를 사용한다.",
+      "url": "https://news.hada.io/topic?id=29830",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "한컴, LG ‘챗엑사원’에 AI 에이전트 공급",
+      "summary": "\n한컴이 자체 개발한 AI 에이전트를 LG AI연구원의 생성형 AI 플랫폼 '챗엑사원'에 공급하는 전략적 제휴를 체결했다. 두 회사의 기술 결합으로 공공·민간 AI 시장을 함께 공략한다는 계획이다.",
+      "url": "https://news.hada.io/topic?id=29825",
+      "category": "대한민국 IT",
+      "impact": "medium"
+    },
+    {
+      "title": "AI는 아직 수익성이 있는가?",
+      "summary": "\n프런티어 AI 기업들의 누적 지출·매출을 합산하면(2026년 5월 기준) 산업 전체가 아직 수익을 내지 못하고 있다는 분석. 누적 지출 약 1.4조 달러, 누적 매출 약 6,130억 달러로 거대한 선행투자가 이어지는 구조를 보여준다.",
+      "url": "https://news.hada.io/topic?id=29816",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "🚀 Skills for small businesses, officially released by Anthropic",
+      "summary": "\nAnthropic이 소규모 비즈니스용 31개 'skills'을 공개(첫날 약 382,000 다운로드 보도). 이들 스킬은 워크플로·메모리·행동·커넥터·오케스트레이션 등으로 구성된 재사용 가능한 AI 운영 템플릿으로, Claude 외에 다른 에이전트에도 참고·적용 가능한 .md 기반 스킬 파일로 설계되어 있다. 관련 GitHub 링크가 공유됨.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Fav Desk Gadget: Claude Code Usage Display, codeMeter",
+      "summary": "\ncodeMeter는 Claude Code 사용량(5시간 사용량, 주간 사용량, 리셋 카운트다운 등)을 표시하는 소형 WiFi 데스크 디스플레이다. 브라우저 탭 없이 사용량을 시각적으로 모니터링할 수 있으며 소스 공유 또는 완제품 판매도 안내된다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tmo1sz/fav_desk_gadget_claude_code_usage_display/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Claude records demo videos for me now",
+      "summary": "\n오픈소스 스킬로 Claude에게 데스크톱 앱 시나리오를 준비·클릭·녹화·커서/클릭 이펙트·자막 추가·내보내기까지 자동화하게 하는 도구가 공개됐다. Remotion 통합으로 더 편집 가능한 결과물을 생성할 수 있으며 모바일용 스킬도 개발 중이다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tmkee4/claude_records_demo_videos_for_me_now/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I made a Claude Code plugin that draws matplotlib figures in that soft-pastel \"alignment research blog\" style",
+      "summary": "\n'nice-figures'는 Claude Code 플러그인으로, Anthropic 연구 블로그 스타일의 matplotlib 도표(훈련 곡선, 그룹 바 차트 등)를 자동 생성하는 레시피 모음이다. MIT 라이선스의 깃허브 레포와 설치 방법이 제공된다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tm7w3d/i_made_a_claude_code_plugin_that_draws_matplotlib/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Mythos is being prepared for a release on Claude Code and Claude Security.",
+      "summary": "\nClaude 인터페이스에 'Mythos' 모델 접근 관련 문자열이 추가되고, 해당 모델이 잠시 가시화된 정황이 포착되었다는 보고. 공개 접근 여부는 불확실하나 Claude Code와 Claude Security 쪽에 Mythos 관련 준비가 진행 중인 것으로 보인다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tlwg2f/mythos_is_being_prepared_for_a_release_on_claude/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "I built an MCP server to stop re-explaining my codebase patterns to Cursor every session",
+      "summary": "\nknowledge-shelf라는 MCP 서버를 만들어 Cursor에 검색 가능한 로컬 지식베이스를 제공한다. 모든 문서를 미리 로드하지 않고 관련 문서만 검색해 불필요한 컨텍스트 소모를 줄이며, 벡터 DB 없이 키워드 기반으로 빠르게 동작하도록 설계됐다. 설치·사용 방법과 GitHub/패키지 링크 제공.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tmhh77/i_built_an_mcp_server_to_stop_reexplaining_my/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Stop Burning Tokens: 5.1x Faster Code Discovery With One Universal Plugin for AI Coding Agents",
+      "summary": "\n범용 플러그인으로 코드 탐색 작업을 목적에 맞는 도구(예: rg, Semble, Serena, CodeGraphContext 등)로 라우팅해 에이전트의 검색을 최적화한다는 도구. 벤치마크에서 의미 있는 속도(5.1x)와 토큰(약 5x) 절감 효과를 주장하며 레포를 공개했다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tmgzlo/stop_burning_tokens_51x_faster_code_discovery/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Agent evals should feel like real work",
+      "summary": "\n에이전트 평가 설계에 관해 '평가가 실제 업무처럼 느껴져야 한다'는 논지를 제시한 글로, 에이전트 성능 측정이 실제 작업 흐름을 반영하도록 해야 한다는 주장과 방법론 성찰을 담고 있다.",
+      "url": "https://www.zohaib.cc/blog/agent-evals",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor caches files reads and overwrites your edits with outdated information",
+      "summary": "\n사용자가 Cursor에서 파일의 오래된 부분을 계속 '보는' 현상을 발견했고, 이로 인해 작업한 변경사항이 덮어써지는 문제가 발생했다고 보고되었다. 사용자 경험·신뢰성 측면에서 에디터 기반 AI 도구의 캐싱/동기화 문제를 드러낸 사례다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tms64j/cursor_caches_files_reads_and_overwrites_your/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I’m worried that cursor is going to follow the others on pricing.",
+      "summary": "\nCursor 유료 사용자들이 Composer 등 새로운 모델·기능 도입과 함께 타사(Claude·Codex 등)의 '시간/요금 제한' 정책을 따를지 우려하는 토론. AI 개발자 도구의 요금·쿼터 정책 변화가 사용자 비용·채택에 미치는 영향을 시사한다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tmqny3/im_worried_that_cursor_is_going_to_follow_the/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ]
+}
