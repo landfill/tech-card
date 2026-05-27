@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "title": "Show HN: Artifold – A local-first library for AI-generated HTML artifacts",
+      "summary": "\nGitHub repository for 'Artifold', a local-first library to produce AI-generated HTML artifacts; a developer-facing project for generating/managing HTML outputs locally (repo link).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://github.com/shubhamgoel27/artifold",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic Appoints KiYoung Choi as Representative Director of Korea",
+      "summary": "\nAnthropic announces KiYoung Choi as its Representative Director for Korea, signaling a formal regional leadership presence in the Korean market for the frontier-model company.",
+      "category": "대한민국 IT",
+      "impact": "medium",
+      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+      "source_id": ""
+    },
+    {
+      "title": "You're about to feel the AI money squeeze",
+      "summary": "\nThe Verge analysis of AI monetization and token economics argues that frontier-model companies (e.g., OpenAI/Anthropic) are pressing business models and pricing, describing pressures that may squeeze margins and change how models are monetized.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
+      "source_id": ""
+    },
+    {
+      "title": "Grok Build",
+      "summary": "\nLanding page for 'Grok Build' (grok.com/build), a developer-facing offering related to the Grok model ecosystem intended for building with Grok.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://grok.com/build",
+      "source_id": ""
+    },
+    {
+      "title": "I Made a Journal for AI-Generated Papers",
+      "summary": "\nBlog post describing a project to create a journal specifically for AI-generated papers, reflecting on motivations and practicalities of curating/archiving AI-written research outputs.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://cesarhidalgo.com/blog/2026/5/26/why-i-made-a-journal-for-ai-generated-papers",
+      "source_id": ""
+    },
+    {
+      "title": "CodeGraph - AI 코딩 에이전트를 위한 코드 지식 그래프",
+      "summary": "\n사전 인덱싱된 시맨틱 코드 지식 그래프를 통해 Claude Code, Codex, Cursor 등 코드 탐색·질의 성능을 가속화한다고 소개. 토큰·비용 절감, 응답 속도 개선, 도구 호출 감소 등 정량적 개선 수치가 제시됨.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29873",
+      "source_id": ""
+    },
+    {
+      "title": "nb-cli - AI 에이전트와 노트북 자동화를 위한 CLI",
+      "summary": "\nJupyter 노트북을 에이전트가 아티팩트로 다루게 하기 위한 실험적 오픈소스 CLI. Rust로 구현되어 .ipynb 포맷의 자동화·LLM 처리를 용이하게 하고 노트북 기반 파이프라인 자동화 문제를 해결하려 함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29871",
+      "source_id": ""
+    },
+    {
+      "title": "Microsoft, has started canceling Claude Code licenses, per the Verge",
+      "summary": "\nReddit 게시물(링크된 기사 인용)에 따르면 Microsoft가 일부 Claude Code 라이선스를 취소하기 시작했다는 보고. 기업 고객의 라이선싱·공급 선택 변화와 Claude Code 생태계 영향 시사.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1to6kqz/microsoft_has_started_canceling_claude_code/",
+      "source_id": ""
+    },
+    {
+      "title": "My company started measuring our Claude Code usage - now I'm asked to rank engineers on 'AI performance.' This feels wrong...",
+      "summary": "\n회사에서 Claude Code 토큰·사용량을 측정해 엔지니어를 'AI 성과'로 순위 매기려는 사례 공유. 토큰 사용량이 생산성의 잘못된 지표가 될 수 있고, 메트릭 게임화 가능성을 문제 삼음—조직적 도입·평가 이슈.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tokje7/my_company_started_measuring_our_claude_code/",
+      "source_id": ""
+    },
+    {
+      "title": "Company gave us all unlimited Claude Code Sonnet 4.6 — and now posts a weekly leaderboard of who burns the most tokens. Any tips to top it?",
+      "summary": "\n기업이 직원들에게 Claude Code Sonnet 4.6 무제한을 제공하고 토큰 소비량 기반 리더보드를 주간으로 게시하는 내부 문화 사례. 토큰 소비 중심 인센티브 설계의 부작용을 보여줌.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tob45x/company_gave_us_all_unlimited_claude_code_sonnet/",
+      "source_id": ""
+    },
+    {
+      "title": "Composer 2.5 Fast is so so good!",
+      "summary": "\nCursor 사용자들이 Composer 2.5 Fast(모델/모드)에 대해 속도·비용 효율성 측면에서 높은 평가를 내림. 일부 사용자는 Opus/Claude 류와 역할을 분리해 Composer를 일상 개발 파트너로 선호한다고 보고.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1to34n7/composer_25_fast_is_so_so_good/",
+      "source_id": ""
+    },
+    {
+      "title": "Cursor's MCP trust is \"approve once, trust forever\" — here's a free way to check your config",
+      "summary": "\nCursor의 MCP(외부 서버 실행) 신뢰 모델이 '한번 승인하면 영구 신뢰' 방식이라 발생할 수 있는 공급망·설정 변조 위험(CVE-2025-54136 등)을 지적하고, 설정 점검 도구를 제안·공개함. 에이전트 인프라의 신뢰 경계 문제를 부각.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/cursor/comments/1togfnc/cursors_mcp_trust_is_approve_once_trust_forever/",
+      "source_id": ""
+    },
+    {
+      "title": "built an open-source preToolUse hook pack that catches \"delete the prod volume to fix it\" patterns",
+      "summary": "\nCursor 에이전트가 합법적으로 보이는 파생 동작으로 파괴적 명령(예: 프로덕션 볼륨 삭제)을 실행하는 사례를 겪은 뒤, preToolUse 훅에서 이런 패턴을 차단하는 규칙 모음(오픈소스)을 개발해 배포한 보고. 에이전트 안전 경계(tool-hooks)의 실무적 대책 사례.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tohjov/built_an_opensource_pretooluse_hook_pack_that/",
+      "source_id": ""
+    },
+    {
+      "title": "Six months on Cursor: my code volume went up 4×. My review queue went up 4×.",
+      "summary": "\nCursor를 도입한 팀에서 코드 산출량이 4배로 늘어난 반면 리뷰 대기열도 4배가 되었고, 에이전트가 생성한 코드의 검토·우선순위·품질 보증이 새로운 병목으로 등장했다는 실무 보고. 코드 리뷰·검증 워크플로 개선 필요성 강조.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tnzni9/six_months_on_cursor_my_code_volume_went_up_4_my/",
+      "source_id": ""
+    },
+    {
+      "title": "I made a starter kit that makes coding agents follow a consistent harness engineering process",
+      "summary": "\n에이전트에게 리포지토 적응(adoption) 절차를 일관되게 따르게 하는 'harness-starter-kit' 공개: 리포지토 검사 후 필요한 것만 추가, 결정 기록, 드리프트 체크 연동 등으로 에이전트 도입의 일관성·문서화를 목표로 함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tob6fh/i_made_a_starter_kit_that_makes_coding_agents/",
+      "source_id": ""
+    }
+  ]
+}
