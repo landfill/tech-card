@@ -1,0 +1,165 @@
+{
+  "items": [
+    {
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "summary": "\nCisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "url": "https://openai.com/index/cisco",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "summary": "\nWarp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "url": "https://openai.com/index/warp",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "summary": "\n<p>Article URL: <a href=\"https://arps18.github.io/posts/claude-code-mastery/\">https://arps18.github.io/posts/claude-code-mastery/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48289950\">https://news.ycombinator.com/item?id=48289950</a></p>\n<p>Points: 346</p>\n<p># Comments: 219</p>",
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "A non-coding coding agent",
+      "summary": "\n<p>Article URL: <a href=\"https://zserge.com/posts/socreates/\">https://zserge.com/posts/socreates/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48302306\">https://news.ycombinator.com/item?id=48302306</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://zserge.com/posts/socreates/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "frontier labs 대비 곧 더 경제적인 선택지가 될 아웃소싱+local AI",
+      "summary": "\nfrontier(대형) 연구소 모델 대신 아웃소싱과 로컬 AI(온프레미스·엣지) 조합이 곧 더 경제적인 대안이 될 것이라는 관점의 분석/논평입니다. 프론티어 모델 비용·인프라 부담을 분산시키는 전략에 관한 논의가 중심입니다.",
+      "url": "https://news.hada.io/topic?id=29936",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: 노트북 덮어도 안 죽는 Claude CLI 멀티세션 웹 터미널",
+      "summary": "\n여러 Claude CLI 세션을 브라우저 탭에서 동시에 운영하고, 세션이 서버의 PTY에 떠 있으므로 브라우저를 닫아도 작업을 계속할 수 있는 멀티세션 웹 터미널 구현 소개입니다. 세션 자동 resume 등 편의 기능이 특징입니다.",
+      "url": "https://news.hada.io/topic?id=29926",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: AI Skill Store - AI 에이전트가 직접 스킬을 찾고 설치하는 마켓플레이스",
+      "summary": "\nAI 에이전트가 스스로 스킬(플러그인/연결)을 검색·설치해 자율적으로 작업할 수 있게 하는 마켓플레이스 콘셉트와 초기 구현/아이디어를 소개합니다. 에이전트 생태계·MCP 연동 관점에서 중요합니다.",
+      "url": "https://news.hada.io/topic?id=29925",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Figma 디자인 에이전트 공개",
+      "summary": "\nFigma 내부에서 동작하는 디자인 전용 AI 에이전트가 공개되었습니다. 디자인 시스템(컴포넌트, 토큰 등) 컨텍스트를 이해하도록 파인튜닝되어 디자이너의 도구 전환 없이 AI와 협업할 수 있게 합니다. 제품화된 에이전트 통합 사례입니다.",
+      "url": "https://news.hada.io/topic?id=29906",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "알리바바 클라우드 Qwen 컨퍼런스 2026 싱가포르 키노트 요약",
+      "summary": "\n알리바바 클라우드의 Qwen 컨퍼런스 키노트 요약으로, 회사가 '에이전틱 AI 시대' 전환을 공식화하고 모델·인프라·도구·생태계 전략을 발표한 내용입니다. Qwen 생태계와 프론티어/엣지 전략의 로드맵 신호로 해석할 수 있습니다.",
+      "url": "https://news.hada.io/topic?id=29921",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "React Doctor — AI가 생성한 React 코드를 정적 분석으로 검증하는 진단 도구",
+      "summary": "\nAI가 생성한(또는 수정한) React 코드를 정적 분석으로 검사해 상태관리, 부수효과, 성능, 보안, 접근성 등을 점수화하고 터미널에서 리포트하는 도구입니다. AI 코드 검증·QA 워크플로에 직접 연결되는 개발자 도구 사례입니다.",
+      "url": "https://news.hada.io/topic?id=29920",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "OpenHuman - 개인용 AI 슈퍼 인텔리전스",
+      "summary": "\n데스크톱에 설치하는 오픈소스 에이전트형 비서 프로젝트로, 마스코트형 UI와 Google Meets 참여 같은 통합 기능을 제공한다는 소개입니다. 개인/데스크탑 에이전트로서 에이전트 UX와 프라이버시 중심 배포 사례에 해당합니다.",
+      "url": "https://news.hada.io/topic?id=29907",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic just confirmed why 90% of non-coding AI agents fail in production",
+      "summary": "\nAnthropic의 대규모 인간-에이전트 도구 호출 분석을 바탕으로 한 논의 요약입니다. 분석 결과에서 소프트웨어 엔지니어링이 전체 에이전트 활동의 약 절반을 차지하고, 비코딩 도메인에서 실패가 잦은 원인은 모델 자체보다 '데이터 위생(입력 정제·스크래핑 안정화)과 가드레일·인프라'의 부족이라는 지적을 제시합니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tph5u4/anthropic_just_confirmed_why_90_of_noncoding_ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "I called this a few months ago - enterprises are burning unsustainable amounts on Claude, and now it's showing up in the news",
+      "summary": "\n기업들이 교육·관리 없이 수천 명에게 Claude 접근권을 풀어놓아 비용 낭비가 발생한다는 개인 경험·논평입니다. 엔터프라이즈 도입과 비용관리(거버넌스) 문제를 지적합니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tpgked/i_called_this_a_few_months_ago_enterprises_are/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code has zero idea what your codebase looks like structurally (Open source with benchmarks)",
+      "summary": "\nClaude Code 등 에이전트가 파일을 파일별로 건드리기 때문에 코드베이스 전반의 구조·종속성·아키텍처 의도를 모르고 손상할 수 있다는 문제 제기와, 이를 보완하려는 오픈소스 MCP 계층(repowise) 설계(그래프·Git 히스토리·문서·결정 캡처 등)를 소개합니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tpbjwo/claude_code_has_zero_idea_what_your_codebase/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Went down the Claude Code add-ons rabbit hole",
+      "summary": "\nClaude Code 위에 얹어 쓰이는 다양한 애드온·플러그인·MCP 커넥터 목록을 공유한 글입니다(예: superpowers, claude-skills, granola-mcp 등). 에이전틱 코딩 툴체인 확장과 생태계화 추세를 보여줍니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tphvo8/went_down_the_claude_code_addons_rabbit_hole/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Running multiple Claude Code sessions in parallel with git worktrees - my approach",
+      "summary": "\n여러 Claude Code 세션을 병렬로 운영할 때 git worktree를 사용해 각 세션을 별도 브랜치/워크트리에서 유지하는 워크플로를 설명합니다. 에이전트 기반 개발에서 컨텍스트·브랜치 관리 실무 팁입니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tp19x7/running_multiple_claude_code_sessions_in_parallel/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor Token Optimization",
+      "summary": "\nCursor 사용자가 대화 내에서 많은 토큰을 소비해도 Composer의 긴 컨텍스트를 효율적으로 유지하는 관찰을 공유하며, Cursor가 어떻게 토큰을 최적화(프루닝 등)하는지 궁금해하는 기술 토론 글입니다. 토큰·컨텍스트 관리 관련 인사이트입니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tp8ffh/cursor_token_optimization/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Am I just stupid, or is Cursor’s billing system completely obscure? Hit with a surprise $380 extra implicit charge.",
+      "summary": "\nCursor의 요금/체크아웃 흐름이 불명확해 사용자에게 예기치 않은 추가 청구(약 $380)가 발생했다는 사례 공유와 환불 분쟁입니다. 에이전트 IDE의 과금·기업 고객 경험 리스크 사례로 인프라·상업적 영향이 있습니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tpln7s/am_i_just_stupid_or_is_cursors_billing_system/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "cursor 비정상 적인 비용 청구",
+      "summary": "\n한국 사용자가 Cursor 계정이 업그레이드되면서 On-Demand 토큰 과다 사용으로 $4,158.62 등 비정상적인 청구가 발생했다는 신고와 지원 대응 불만을 올린 글입니다(계정 보안·청구·환불 사례).",
+      "url": "https://www.reddit.com/r/cursor/comments/1toybk9/cursor_비정상_적인_비용_청구/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor has been ridiculously slow",
+      "summary": "\nPro 사용자들이 Cursor의 Auto agent/세션이 일정 수의 프롬프트 이후 느려지거나 타임아웃을 겪는 문제를 보고하는 글입니다. 성능·가용성 이슈는 에이전트 IDE 실사용성에 직접적 영향을 미칩니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tpkg5d/cursor_has_been_ridiculously_slow/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor is conpletely unusable for editing.",
+      "summary": "\nAI diff가 진행 중일 때 Cursor 편집 기능이 매우 지연되고 LSP가 깨지는 경험을 보고합니다. 에디터·에이전트 통합에서 UX/응답성 문제가 개발 생산성에 미치는 사례입니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tp4vaj/cursor_is_conpletely_unusable_for_editing/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I got tired of manually managing agent skills, so I built Skill Zoo",
+      "summary": "\n에이전트 스킬(플러그인)을 수동으로 관리하는 번거로움을 해결하기 위해 만든 오픈소스 레포(Skill Zoo)를 소개합니다. 에이전트 생태계에서 스킬 관리·카탈로그화하는 인프라적 시도입니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tpdw0d/i_got_tired_of_manually_managing_agent_skills_so/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "[R] What 1000+ Harness Experiments Taught Me About Self-Improving Agents [R]",
+      "summary": "\nAI 에이전트가 스스로 하네스(harness)를 개선하도록 하는 실험 1000여 건에서 얻은 교훈을 정리한 글입니다. 지속적 자기개선 루프에서 안전하게 개선을 누적시키기 위한 시스템적 판단과 실패·성공 사례를 다룹니다. 에이전트 자가개선 연구·시스템 설계 관련 인사이트입니다.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tpbp7m/r_what_1000_harness_experiments_taught_me_about/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ]
+}
