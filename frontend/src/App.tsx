@@ -15,6 +15,12 @@ type AppShellProps = {
   renderPipeline?: (initialDate: string) => ReactNode
 }
 
+function formatIssueDate(dateKey: string) {
+  const [year, month, day] = dateKey.split('-').map(Number)
+  if (!year || !month || !day) return dateKey
+  return `${year}년 ${month}월 ${day}일`
+}
+
 export function AppShell({ adminMode = false, renderPipeline }: AppShellProps) {
   const [view, setView] = useState<View>('letters')
   const [dates, setDates] = useState<string[]>([])
@@ -163,11 +169,23 @@ export function AppShell({ adminMode = false, renderPipeline }: AppShellProps) {
   }
 
   const defaultPipelineDate = dates.length > 0 ? dates[0] : new Date().toISOString().slice(0, 10)
+  const issueTitle = selected ? `${formatIssueDate(selected)} AI/IT 데일리 인텔리전스` : '발송된 레터를 선택하세요'
+  const issueDateLabel = selected ?? (dates.length > 0 ? dates[0] : '대기 중')
+  const createdMeta = createdAt ? `생성 ${formatCreatedAt(createdAt)}` : selected ? '생성 정보 확인 중' : '생성 정보 없음'
 
   return (
     <div className="app">
       <header className="app-header">
-        <h1 className="app-title">데일리 인텔리전스 뉴스레터</h1>
+        <div className="brand-block">
+          <p className="eyebrow">5분 AI 뉴스 · Daily AI News Desk</p>
+          <div className="title-strip">
+            <h1 className="app-title">데일리 인텔리전스 뉴스레터</h1>
+            <p className="header-meta" aria-label="발송 및 생성 일자">
+              <span>발송일 <b>{issueDateLabel}</b></span>
+              <span>{createdMeta}</span>
+            </p>
+          </div>
+        </div>
         <button
           type="button"
           className="app-theme-toggle"
@@ -175,7 +193,7 @@ export function AppShell({ adminMode = false, renderPipeline }: AppShellProps) {
           title={theme === 'light' ? '다크 모드로 전환' : '라이트 모드로 전환'}
           aria-label={theme === 'light' ? '다크 모드로 전환' : '라이트 모드로 전환'}
         >
-          {theme === 'light' ? '🌙' : '☀️'}
+          {theme === 'light' ? '☾' : '☀'}
         </button>
       </header>
       <nav className="app-tabs">
@@ -193,46 +211,77 @@ export function AppShell({ adminMode = false, renderPipeline }: AppShellProps) {
       </nav>
       {view === 'letters' && (
         <div className="letters-view">
-          <aside className="letters-view-calendar">
-            <LettersCalendar dates={dates} selected={selected} onSelectDate={handleSelectDate} />
-          </aside>
           <main className="letter-detail">
             {selected && (
               <>
                 <header className="letter-detail-header">
-                  <h2 className="letter-detail-date">{selected}</h2>
-                  {createdAt && <p className="letter-meta">문서 생성: {formatCreatedAt(createdAt)}</p>}
-                  {sourcesUsed.length > 0 && (
-                    <div className="letter-sources">
-                      수집 출처
-                      <div className="letter-sources-list">
-                        {sourcesUsed.map((source, index) => (
-                          <span key={index} className="letter-source-chip">
-                            {source}
-                          </span>
-                        ))}
-                      </div>
+                  <div className="article-toolbar">
+                    <div className="article-copy">
+                      <p className="letter-detail-date">{selected}</p>
+                      <h2 className="article-title">{issueTitle}</h2>
+                      {createdAt && <p className="letter-meta">문서 생성: {formatCreatedAt(createdAt)}</p>}
                     </div>
-                  )}
-                  {hasCards !== null && (
-                    <div className="letter-workflow-status" role="status" aria-label="워크플로 완료 상태">
-                      <span className="letter-workflow-item letter-workflow-done">레터 생성됨</span>
-                      <span className="letter-workflow-sep">·</span>
-                      {hasCards ? (
-                        <>
-                          <span className="letter-workflow-item letter-workflow-done">카드뉴스 생성됨</span>
-                          <span className="letter-workflow-sep">·</span>
-                          {hasCardBg ? (
-                            <span className="letter-workflow-item letter-workflow-done">배경 이미지 생성됨</span>
-                          ) : (
-                            <span className="letter-workflow-item letter-workflow-partial">배경 이미지 미생성</span>
-                          )}
-                        </>
-                      ) : (
-                        <span className="letter-workflow-item letter-workflow-pending">카드뉴스 미생성</span>
+                    <div className="letter-actions">
+                      <div className="letter-actions-view" role="tablist" aria-label="레터 보기 방식">
+                        <button
+                          type="button"
+                          role="tab"
+                          aria-selected={letterDetailView === 'letter'}
+                          className={`letter-btn-view neo ${letterDetailView === 'letter' ? 'letter-btn-view--active' : ''}`}
+                          onClick={() => setLetterDetailView('letter')}
+                          title="마크다운 본문"
+                        >
+                          본문
+                        </button>
+                        <button
+                          type="button"
+                          role="tab"
+                          aria-selected={letterDetailView === 'cards' && Boolean(cardsData)}
+                          className={`letter-btn-view neo ${letterDetailView === 'cards' && cardsData ? 'letter-btn-view--active' : ''}`}
+                          disabled={!hasCards || cardsLoading}
+                          title={
+                            !hasCards
+                              ? '카드뉴스가 생성된 후 이용할 수 있습니다.'
+                              : cardsLoading
+                                ? '카드 불러오는 중'
+                                : '카드뉴스 슬라이드'
+                          }
+                          onClick={() => {
+                            if (!selected || !hasCards || cardsLoading) return
+                            if (cardsData) {
+                              setLetterDetailView('cards')
+                              setCardsError(null)
+                              return
+                            }
+                            setCardsLoading(true)
+                            setCardsError(null)
+                            fetch(readApi(`/api/letters/${selected}/cards`))
+                              .then((response) => {
+                                if (!response.ok) {
+                                  throw new Error(response.status === 404 ? '이 호는 카드뉴스가 없습니다.' : response.statusText)
+                                }
+                                return response.json()
+                              })
+                              .then((data: CardsData) => {
+                                setCardsData(data)
+                                setLetterDetailView('cards')
+                              })
+                              .catch((error: Error) => setCardsError(error.message || '카드 로드 실패'))
+                              .finally(() => setCardsLoading(false))
+                          }}
+                        >
+                          {cardsLoading ? '불러오는 중...' : '카드'}
+                        </button>
+                      </div>
+                      {adminMode && (
+                        <div className="letter-actions-delete-wrap">
+                          <button type="button" className="letter-btn-delete-danger neo" onClick={deleteLetter}>
+                            이 호 삭제
+                          </button>
+                        </div>
                       )}
                     </div>
-                  )}
+                  </div>
                 </header>
                 {hasCards === false && (
                   <p className="letter-workflow-hint">
@@ -241,66 +290,6 @@ export function AppShell({ adminMode = false, renderPipeline }: AppShellProps) {
                       : '이 호는 카드뉴스가 아직 생성되지 않았습니다.'}
                   </p>
                 )}
-                <div className="letter-actions">
-                  <div className="letter-actions-view" role="tablist" aria-label="레터 보기 방식">
-                    <button
-                      type="button"
-                      role="tab"
-                      aria-selected={letterDetailView === 'letter'}
-                      className={`letter-btn-view neo ${letterDetailView === 'letter' ? 'letter-btn-view--active' : ''}`}
-                      onClick={() => setLetterDetailView('letter')}
-                      title="마크다운 본문"
-                    >
-                      본문 보기
-                    </button>
-                    <button
-                      type="button"
-                      role="tab"
-                      aria-selected={letterDetailView === 'cards' && Boolean(cardsData)}
-                      className={`letter-btn-view neo ${letterDetailView === 'cards' && cardsData ? 'letter-btn-view--active' : ''}`}
-                      disabled={!hasCards || cardsLoading}
-                      title={
-                        !hasCards
-                          ? '카드뉴스가 생성된 후 이용할 수 있습니다.'
-                          : cardsLoading
-                            ? '카드 불러오는 중'
-                            : '카드뉴스 슬라이드'
-                      }
-                      onClick={() => {
-                        if (!selected || !hasCards || cardsLoading) return
-                        if (cardsData) {
-                          setLetterDetailView('cards')
-                          setCardsError(null)
-                          return
-                        }
-                        setCardsLoading(true)
-                        setCardsError(null)
-                        fetch(readApi(`/api/letters/${selected}/cards`))
-                          .then((response) => {
-                            if (!response.ok) {
-                              throw new Error(response.status === 404 ? '이 호는 카드뉴스가 없습니다.' : response.statusText)
-                            }
-                            return response.json()
-                          })
-                          .then((data: CardsData) => {
-                            setCardsData(data)
-                            setLetterDetailView('cards')
-                          })
-                          .catch((error: Error) => setCardsError(error.message || '카드 로드 실패'))
-                          .finally(() => setCardsLoading(false))
-                      }}
-                    >
-                      {cardsLoading ? '불러오는 중…' : '카드 보기'}
-                    </button>
-                  </div>
-                  {adminMode && (
-                    <div className="letter-actions-delete-wrap">
-                      <button type="button" className="letter-btn-delete-danger neo" onClick={deleteLetter}>
-                        이 호 삭제
-                      </button>
-                    </div>
-                  )}
-                </div>
                 {cardsError && <p className="letter-error">{cardsError}</p>}
                 {deleteError && <p className="letter-error">{deleteError}</p>}
                 {letterDetailView === 'cards' && cardsData ? (
@@ -362,6 +351,40 @@ export function AppShell({ adminMode = false, renderPipeline }: AppShellProps) {
             )}
             {!selected && dates.length > 0 && <p className="letter-hint">위 목록에서 날짜를 선택하면 해당 호를 볼 수 있습니다.</p>}
           </main>
+          <aside className="letters-view-calendar side-rail">
+            <LettersCalendar dates={dates} selected={selected} onSelectDate={handleSelectDate} />
+            <section className="source-card" aria-labelledby="source-title">
+              <p className="source-title" id="source-title">수집 출처</p>
+              <div className="letter-sources-list" aria-label="수집 출처">
+                {sourcesUsed.length > 0 ? (
+                  sourcesUsed.map((source, index) => (
+                    <span key={index} className="letter-source-chip">
+                      {source}
+                    </span>
+                  ))
+                ) : (
+                  <span className="letter-source-chip letter-source-chip--muted">출처 정보 없음</span>
+                )}
+              </div>
+              {hasCards !== null && (
+                <div className="letter-workflow-status" role="status" aria-label="워크플로 완료 상태">
+                  <span className="letter-workflow-item letter-workflow-done">레터 생성됨</span>
+                  {hasCards ? (
+                    <>
+                      <span className="letter-workflow-item letter-workflow-done">카드뉴스 생성됨</span>
+                      {hasCardBg ? (
+                        <span className="letter-workflow-item letter-workflow-done">배경 이미지 생성됨</span>
+                      ) : (
+                        <span className="letter-workflow-item letter-workflow-partial">배경 이미지 미생성</span>
+                      )}
+                    </>
+                  ) : (
+                    <span className="letter-workflow-item letter-workflow-pending">카드뉴스 미생성</span>
+                  )}
+                </div>
+              )}
+            </section>
+          </aside>
         </div>
       )}
       {view === 'weekly' && (
