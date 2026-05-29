@@ -171,7 +171,7 @@ export function AppShell({ adminMode = false, renderPipeline }: AppShellProps) {
   const defaultPipelineDate = dates.length > 0 ? dates[0] : new Date().toISOString().slice(0, 10)
   const issueTitle = selected ? `${formatIssueDate(selected)} AI/IT 데일리 인텔리전스` : '발송된 레터를 선택하세요'
   const issueDateLabel = selected ?? (dates.length > 0 ? dates[0] : '대기 중')
-  const createdMeta = createdAt ? `생성 ${formatCreatedAt(createdAt)}` : selected ? '생성 정보 확인 중' : '생성 정보 없음'
+  const createdMeta = createdAt ? `생성 ${formatCreatedAt(createdAt)}` : hasCards === null && selected ? '생성 정보 확인 중' : '생성 정보 없음'
 
   return (
     <div className="app">
