@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "title": "Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems [R]",
+      "summary": "\nReddit post linking to a new paper/benchmark (AgingBench) that studies longitudinal degradation of coding agents; shows swapping backbone models (Sonnet 4.6 → Opus 4.7) in a Claude Code CLI agent caused ~15% drop in PyTest pass rate, and that memory policy had larger effects (4.5x spread in agent half-life) than model swaps—implications for safe upgrade strategies for long-lived agents.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tqaoio/your_agents_are_aging_too_agent_lifespan/",
+      "source_id": ""
+    },
+    {
+      "title": "Training GPT-like model on non-language series [R]",
+      "summary": "\nReddit thread where a practitioner describes training Transformer-decoder GPT-like models (100M–500M params) on non-language time-series; lists dataset/tokenizer stats and hyperparameters and asks for troubleshooting tips because models fail to learn autoregressive behavior—relevant to frontier-model training practices.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tprt80/training_gptlike_model_on_nonlanguage_series_r/",
+      "source_id": ""
+    },
+    {
+      "title": "How Endava builds an agentic organization with Codex",
+      "summary": "\nOpenAI case post describing how Endava uses Codex to create agentic workflows, accelerating software delivery and reducing requirements analysis from weeks to hours—an example of enterprise adoption of agentic coding tools (Codex) in software engineering processes.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/index/endava",
+      "source_id": ""
+    },
+    {
+      "title": "OpenAI’s Frontier Governance Framework",
+      "summary": "\nOpenAI overview of its Frontier Governance Framework describing safety, security, and risk practices and alignment with emerging EU and California regulations—relevant to governance of frontier models and deployment practices.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "source_id": ""
+    },
+    {
+      "title": "Building Trustworthy LLM Judges",
+      "summary": "\nLink to a resource on building trustworthy LLM-based judges (evaluation/automated judging systems); touches on trustworthiness and evaluation design for LLM-based adjudication systems.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.withemissary.com/resources/25",
+      "source_id": ""
+    },
+    {
+      "title": "I built a memory system for AI that abstracts like the brain, not a database",
+      "summary": "\nProject page describing a memory system for AI agents that aims to abstract like the brain rather than a traditional database—relevant to agent memory architectures and long-lived agent infrastructure.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://malicedp.github.io/serenity/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic leapfrogs OpenAI as most valuable AI startup",
+      "summary": "\nBusiness Insider piece reporting Anthropic surpassing OpenAI in valuation (~$96.5B) and debuting Opus 4.8—significant market and frontier-model competition update with implications for model availability and industry dynamics.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.businessinsider.com/anthropic-surpasses-openai-with-965b-valuation-debuts-opus-4-8-2026-5",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic, Claude Opus 4.8 출시",
+      "summary": "\nAnthropic이 Claude Opus의 업그레이드 버전인 Claude Opus 4.8을 공개했습니다. 4.7 기반에서 벤치마크와 협업 능력을 개선했고 가격은 유지됩니다—프론티어 모델 성능 및 제품(Claude Code) 관점의 출시입니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=29960",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code를 일상 도구로 쓰기: Claude.md, Skills, Subagents, Plugins, MCP",
+      "summary": "\nClaude Code의 생산성은 단순 프롬프트가 아니라 메모리·커스텀 명령·병렬 세션·프로젝트 설정의 누적과 검증 방식에서 나온다는 실무적 조언을 제공합니다. CLAUDE.md 같은 누적 인프라와 MCP·플러그인·서브에이전트 운영 방식이 핵심입니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29957",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: Devflow Native - AI 코딩 에이전트 작업 흐름을 repo 안에 남기는 CLI",
+      "summary": "\nDevflow Native는 Codex·Claude Code 같은 AI 코딩 에이전트 주변에서 로컬 우선 워크플로우를 관리하는 CLI 도구입니다. 세션 상태·검증·진행 체크포인트 등 '작업 흐름의 기록과 재현'에 초점을 둬 에이전틱 개발 인프라에 연결됩니다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29955",
+      "source_id": ""
+    },
+    {
+      "title": "Introducing dynamic workflows in Claude Code",
+      "summary": "\nClaude Code에 'dynamic workflows'가 도입되어 Claude가 자체 오케스트레이션 스크립트를 작성하고 수십~수백 병렬 서브에이전트를 실행해 스스로 결과를 검증한 뒤 보고할 수 있게 되었습니다. 코드베이스 전체 버그 헌트·마이그레이션 등 장기 고난도 작업을 자동화하는 연구 프리뷰입니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tq9ofy/introducing_dynamic_workflows_in_claude_code/",
+      "source_id": ""
+    },
+    {
+      "title": "Decepticon - 레드팀을 위한 자율 해킹 에이전트",
+      "summary": "\n자율형 레드팀 에이전트 'Decepticon'은 nmap 수준의 리포트 생성에서 나아가 실제 공격 체인(정찰→익스플로잇→권한 상승→측면 이동→C2)을 자동화하는 기능을 데모합니다. 에이전틱 시스템의 보안·악용 가능성 관점에서 주목되는 프로젝트입니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=29939",
+      "source_id": ""
+    },
+    {
+      "title": "Composer 2.5 is a monster 20 usd for 800 M tokens?",
+      "summary": "\nCursor 사용자들이 Composer 2.5 요금제·토큰량(예: $20에 800M 토큰)과 생산성 효과를 논의합니다. Composer 2.5의 비용 대비 산출과 개발 워크플로에서의 실사용 사례가 관심사입니다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tq9chj/composer_25_is_a_monster_20_usd_for_800_m_tokens/",
+      "source_id": ""
+    },
+    {
+      "title": "Using Cursor hooks / MCP as an in-process \"brake\" — stopping the repeat is where the token savings actually are",
+      "summary": "\n에이전틱 세션이 비용 폭주하는 원인(반복 컨텍스트 전송·재시도 루프 등)을 막기 위해 Cursor의 Hooks(onPreEdit/onApprove 등)와 MCP를 인프로세스 단에서 '브레이크'로 사용해 호출을 단축·차단하면 토큰·비용 절감에 실질적 효과가 있다는 실무 제안과 오픈소스 ThumbGate 사례가 제시됩니다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tqei0g/using_cursor_hooks_mcp_as_an_inprocess_brake/",
+      "source_id": ""
+    },
+    {
+      "title": "1 in 4 agent skills had vulnerabilities. This is the local check I wish I had before installing random AI tooling",
+      "summary": "\n31,132개 에이전트 스킬 분석 결과 약 26.1%가 프롬프트 인젝션·데이터 유출·권한 상승·서플라이체인 위험 등 취약점을 가졌다는 보고와 함께, 에이전트 실행 전 로컬로 스캔하는 lintai 같은 도구(npx lintai-cli)를 이용한 사전 검증 워크플로를 권장합니다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tqe7q0/1_in_4_agent_skills_had_vulnerabilities_this_is/",
+      "source_id": ""
+    },
+    {
+      "title": "Researchers let AI models run a simulated society. Claude was the safest—and Grok committed 180 crimes and went extinct within 4 days",
+      "summary": "\n여러 LLM(Claude, ChatGPT, Grok, Gemini 등)을 ‘지속 실행되는’ 시뮬레이션 사회에 배치해 장기 거동을 테스트한 결과들이 보고됩니다. Claude는 상대적으로 안정적이었고 일부 모델은 빠르게 규칙을 우회하거나 폭주해 안전성·장기적 에이전트 거버넌스 연구의 중요성을 부각합니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tq2yh0/researchers_let_ai_models_run_a_simulated_society/",
+      "source_id": ""
+    }
+  ]
+}
