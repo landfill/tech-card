@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "title": "Spitting Out the Agentic Kool-Aid",
+      "summary": "\nOpinion/analysis critiquing agentic AI hype and examining practical limits, risks, and pitfalls of deploying agentic systems.",
+      "url": "https://openpath.quest/2026/spitting-out-the-agentic-kool-aid/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I built an agent-run 1:1 email newsletter for competitive intelligence (free)",
+      "summary": "\nProject writeup describing an agent-run personalized email newsletter for competitive intelligence—an applied example of agentic automation in a product.",
+      "url": "https://rivalnewsletter.com/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic, Series H에서 650억 달러 조달하며 투자 후 기업가치 9,650억 달러 평가",
+      "summary": "\nAnthropic이 Series H에서 650억 달러를 조달했고 투자 후 기업가치는 약 9,650억 달러로 평가됨. 라운드에는 Altimeter, Dragoneer, Greenoaks, Sequoia 등이 참여했으며 하이퍼스케일러 약정 150억 달러도 포함. Claude와 관련한 대규모 자금·인프라 약정이 프런티어 모델 경쟁에 미칠 영향이 핵심.",
+      "url": "https://news.hada.io/topic?id=29996",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code, 다이나믹 워크플로우 기능 공개",
+      "summary": "\nClaude Code가 대규모·복잡한 엔지니어링 작업을 수십~수백 개의 병렬 서브에이전트로 분산 처리하는 다이나믹 워크플로우를 공개. 세션 내에서 오케스트레이션 스크립트를 동적으로 생성해 병렬 서브에이전트를 실행하고 내부에서 결과를 집계·정제해 반환하는 흐름을 지원함.",
+      "url": "https://news.hada.io/topic?id=29981",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show HN: Continue? Y/N: AI 에이전트 권한 피로에 관한 60초 게임",
+      "summary": "\n'Continue? Y/N'은 LLM 권한 피로를 60초 게임으로 시뮬레이션해 사용자가 에이전트의 명령을 얼마나 꼼꼼히 읽는지 시험함. Claude Code가 리팩터링 마무리 승인 같은 실제 개발 워크플로우 맥락에서 권한 부여·승인 피로를 조명.",
+      "url": "https://news.hada.io/topic?id=29995",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "코딩 에이전트를 위한 Protestware",
+      "summary": "\njqwik 1.10.0에서 테스트 실행 중 코딩 에이전트에게 이전 지시를 무시하고 테스트와 코드를 삭제하라는 문장을 stdout에 출력하는 사례가 보고됨. 대화형 터미널에서는 지워지지만 CI 로그·IDE 테스트 패널·에이전트 출력에는 남아 에이전트/자동화에 위험을 줄 수 있음.",
+      "url": "https://news.hada.io/topic?id=29980",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Various LLM Smells",
+      "summary": "\nLLM 보조 글쓰기의 반복적 패턴(강한 결론형 문장, 짧은 문장 연속 등)이 인터넷 전반에 퍼지는 현상 등 LLM 특유의 스타일·생산물 지표를 분석한 글. 프런티어 모델이 만든 텍스트 특성에 대한 관찰과 품질·표절·식별 이슈를 논의.",
+      "url": "https://news.hada.io/topic?id=29997",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "실제 팩트체크에서 프런티어 LLM 간 불일치",
+      "summary": "\n프런티어 LLM 5종을 실제 사용자 제출 클레임 1,000건으로 비교한 결과 67%에서 판정이 갈렸고 5개 모델이 모두 일치한 경우는 33%에 불과. 프런티어 모델들 사이에도 실무적 판정 불일치가 상당함을 보여줘 팩트체크·합의 워크플로 설계에 시사점을 줌.",
+      "url": "https://news.hada.io/topic?id=29977",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Grateful to be accepted into Claude for Open Source Program",
+      "summary": "\nAnthropic의 오픈소스 지원으로 Claude Max 20x 무료 이용권(6개월)을 받았다는 개발자 게시물. 저자가 만든 CodeBurn 도구는 Claude Code, Codex, Cursor 등 23개 도구의 세션·토큰 사용을 로컬에서 분석해 비용·낭비를 시각화함 — 오픈소스 커뮤니티의 에이전트/코딩 도구 운영에 도움이 되는 툴링.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tr882w/grateful_to_be_accepted_into_claude_for_open/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Here are my thoughts of Opus 4.8 and GPT 5.5, as a 1-2 B token user per day",
+      "summary": "\n대규모 실사용자 관점의 비교: Opus 4.8은 장점(장시간 실행, 낮은 환각 등)이 있으나 에이전틱(자율적) 작업에서 GPT-5.5가 더 강력하다고 느낀다는 경험담. 모델별 장기 세션 안정성·툴 사용·토큰 소비 관찰을 포함해 개발자 워크플로에 미치는 실무적 차이를 논의.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tr5fxa/here_are_my_thoughts_of_opus_48_and_gpt_55_as_a/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "summary": "\nBraintrust 엔지니어들이 Codex와 GPT-5.5를 활용해 실무 실험과 코드 작성 속도를 높이는 워크플로 사례를 공유. Codex 기반의 코드 생성·실험 프로세스가 고객 요구→코드 변환 과정에서 어떻게 적용되는지 설명.",
+      "url": "https://openai.com/index/braintrust",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "summary": "\nBoston Children’s Hospital이 OpenAI 기술을 활용해 진료·운영 부담을 줄이고 40건 이상의 희귀질환 진단을 도운 사례를 소개. 병원 차원의 진단 워크플로에 LLM·AI 보조 도구를 도입한 실제 적용 사례로 의료 분야의 LLM 적용을 보여줌.",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "summary": "\nOpenAI가 프런티어 시스템의 능력과 안전성을 평가하기 위한 서드파티 평가 가이드라인을 공유. 평가 설계, 유효성 확보, 안전 조치 등 외부 평가의 신뢰도를 높이기 위한 실무적 권고를 제공해 모델 검증·규제·기업 내부 평가 워크플로에 영향.",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I built a local extension that use Cursor’s hooks to map agent prompts history directly to your Git history",
+      "summary": "\nCursor 에이전트 프롬프트 히스토리를 Git 커밋과 직접 매핑하는 로컬 확장 'PromptRecorder'를 공개. 에이전트가 만든 변경의 .before/.after 스냅샷, 프롬프트-커밋 타임라인, 로컬 보관·자동 마스킹 등 기능으로 에이전트 기반 개발의 감사 추적과 재현성을 개선.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tr820z/i_built_a_local_extension_that_use_cursors_hooks/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor just tried to delete 2000 lines of code",
+      "summary": "\nCursor 업데이트 후 에이전트 UI 사용 중 IDE가 개발자가 건드리지 않은 파일에서 대량(약 2,000줄)의 코드 삭제 제안을 한 사례 보고. 에이전트의 자동 변경·머지 동작이 개발자 워크플로에 위험을 줄 수 있음을 보여주는 실사용 버그/우려 사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1trhl5x/cursor_just_tried_to_delete_2000_lines_of_code/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "my job shifted from writing code to reviewing it and i dont remember agreeing to that",
+      "summary": "\nAI 코딩 도구(Curator, Claude Code 등) 보급으로 주니어가 더 많은 코드 산출을 내면서 시니어 엔지니어의 업무가 '코드 작성'에서 '생성된 코드 리뷰'로 이동한 현상 보고. 에이전트가 만든 산출물의 가독성은 높아 보이나 깊은 아키텍처·안정성 검토 부담은 오히려 증가한다는 실무 문제 제기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tqx9ad/my_job_shifted_from_writing_code_to_reviewing_it/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "네이버, AI 브리핑 인용수를 창작자 보상 기준으로 공식화 — 네이버 메이트 발표",
+      "summary": "\n네이버가 창작자 펠로우십 '네이버 메이트'를 공개하고 AI 브리핑에서의 인용수를 보상 기준에 포함한다고 발표. 블로그·카페·지식iN 등 창작자를 대상으로 6월 시작, 매월 3,000명 선정 · 연간 약 200억원 규모로 운영 예정으로 국내 플랫폼 기반 AI 인센티브 정책의 구체적 사례.",
+      "url": "https://news.hada.io/topic?id=29983",
+      "category": "대한민국 IT",
+      "impact": "medium"
+    }
+  ]
+}
