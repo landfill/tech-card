@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "title": "Show HN: HermesBench – workflow reliability evals for personal AI agents",
+      "summary": "\nHermesBench is a workflow-focused evaluation suite for personal AI agents, designed to measure end-to-end task reliability and provide metrics for agentic workflows.",
+      "url": "https://verkyyi.github.io/hermesbench/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code - 문서가 알려주지 않는 설정 가능한 모든 것",
+      "summary": "\nClaude Code 2.1.87에 문서화되지 않은 설정들이 많고, 개인·프로젝트별 .claude/ 파일로 Hooks, Skills, Agents를 분리해 적용할 수 있음. Hook은 stdout의 이벤트별 JSON 필드로 명령 수정·권한 결정·컨텍스트 주입 등을 처리하며, 에이전틱 워크플로 세부 제어에 대한 실무적 인사이트를 제공함.",
+      "url": "https://news.hada.io/topic?id=30030",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "MCP는 죽었나?",
+      "summary": "\nMCP(도구 연결을 위한 메타-플랫폼)는 LLM을 외부 도구에 연결하지만 개발 워크플로에서는 컨텍스트 비용, 운영 안정성, CLI/API 중복 등 실무적 제약으로 부담이 큼. Quandri 측정에서 다수 도구 정의가 거대한 토큰 비용을 초래하는 사례를 제시함.",
+      "url": "https://news.hada.io/topic?id=30028",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Mistral AI Now Summit 메모",
+      "summary": "\nMistral이 단순 모델 제공사를 넘어 컴퓨트·모델·플랫폼·컨설팅을 묶는 전체 AI 스택 기업을 지향하며 파리 40MW 데이터센터 등 온프레미스·맞춤 모델 실행을 강조. 새 모델과 인프라 로드맵으로 엔터프라이즈·프라이버시 민감한 고객 대상 차별화를 모색 중임.",
+      "url": "https://news.hada.io/topic?id=30021",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "SQLite는 에이전트가 작성한 코드를 받지 않음",
+      "summary": "\nSQLite의 AGENTS.md는 에이전트가 만든 풀 리퀘스트 수락 정책을 명확히 하며, 사전 합의나 퍼블릭 도메인 법적 서류 없이는 에이전트 생성 코드를 풀 리퀘스트로 받지 않겠다고 선언함. 오픈소스 기여·법적 책임·에이전틱 코드베이스 관리에 대한 선례를 남김.",
+      "url": "https://news.hada.io/topic?id=30002",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Feedback honeypot in Claude Code has evolved",
+      "summary": "\nAnthropic의 T&C와 피드백 수집 방식에 대한 사용자 불만을 다룸. Claude Code UI의 피드백/동의 프롬프트가 글로벌 옵트아웃 설정을 우회할 수 있는 '허니팟'처럼 작동할 수 있다는 우려가 제기되며, 세션 데이터의 훈련 사용 여부와 UI 설계의 투명성 이슈를 제기함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tsezf0/feedback_honeypot_in_claude_code_has_evolved/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude 4.8 catching itself hallucinating",
+      "summary": "\nOpus/Claude 4.8에서 모델이 스스로 '자기 허위생성(허위정보)'을 감지해 멈추고 그것을 보고하는 사례 관찰. 일부는 자기감시가 개선 신호로 보인다고 평가하지만, 같은 업데이트가 오류 발생률이나 작업 흐름에 미치는 영향에 대한 논의가 이어짐.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tsa2gk/claude_48_catching_itself_hallucinating/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "PMs interviewing in 2026, every final round is asking me to walk through my agentic coding setup",
+      "summary": "\n대규모 채용 인터뷰에서 'agentic coding' 셋업(예: Cursor + Claude Code, MCP, 프롬프트/워크플로 패턴)을 설명하라는 질문이 잦아졌다는 실무자 체험담. 제품관리자(PM) 레벨에서도 에이전틱 개발 경험이 면접 화제로 등장하는 채용·스킬 트렌드 시사.",
+      "url": "https://www.reddit.com/r/cursor/comments/1trxmwc/pms_interviewing_in_2026_every_final_round_is/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "How do I actually save tokens?",
+      "summary": "\nComposer/agentic 워크플로로 수백만 토큰을 단기간에 소모했다는 개발자 질문. 새 채팅을 여는 전략, 컨텍스트 유지 vs 비용, 코드베이스 전반을 읽히는 비용 등 실무적 토큰 절감·세션 설계 문제가 논의됨.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tscrye/how_do_i_actually_save_tokens/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Did Cursor’s composer just pushed Codex to allow opensource and deepseek?",
+      "summary": "\nComposer(2.5)와 Codex/DeepSeek 통합 관련 커뮤니티 관찰. Ollama·Codex-App 통합과 오픈소스 탐색 지원이 5월 중순에 공개된 이후 Composer의 기능 확장으로 이어졌다는 커뮤니티 보고—오픈소스 모델·검색 통합의 실무 반영 신호.",
+      "url": "https://www.reddit.com/r/cursor/comments/1trl8wc/did_cursors_composer_just_pushed_codex_to_allow/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor code review frustration! Need suggestions here",
+      "summary": "\nCursor(또는 Vibe)로 생성된 코드에 대해 Cursor 자체의 코드리뷰가 다수의 코멘트를 반복적으로 남기며 개발자가 리뷰-수정-재검토 루프에 갇히는 사례 보고. 에이전틱 자동 리뷰의 신뢰·감독 문제와 인간-에이전트 협업의 최적화 필요성 제기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1ts3810/cursor_code_review_frustration_need_suggestions/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I Built a tool to auto-generate .cursorignore files based on repo stack (open source)",
+      "summary": "\n레포 스택을 기반으로 .cursorignore 파일을 자동 생성해 Cursor의 불필요한 파일 인덱싱을 막는 오픈소스 스킬 공개. 에이전틱 도구의 입력 제한·컨텍스트 절감 실무 유틸리티 사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tsa88w/i_built_a_tool_to_autogenerate_cursorignore_files/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "My API usage goes down too fast. I am doing something wrong?",
+      "summary": "\nVS Code와 Cursor에서 동일 모델을 쓸 때 API 사용량(usage) 차이가 크게 나는 사례 제기: 같은 작업에 Cursor가 더 많은 사용률을 보고하는 문제. 모델 선택·클라이언트 구현·캐싱·계산 단위의 불일치로 인한 비용·측정 차이를 암시.",
+      "url": "https://www.reddit.com/r/cursor/comments/1trz93h/my_api_usage_goes_down_too_fast_i_am_doing/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Feedback / token-cost & safety community discussions around Opus/Claude and Composer",
+      "summary": "\n(묶음 요약) Opus/Claude 4.8과 Composer/Ultracode 관련 커뮤니티 이슈들이 집중됨: 토큰 과소비·에이전트 루프·자기검열·피드백(훈련 데이터 수집) UI, 실행 백엔드 오류, 상태·요금 모니터링 필요성 등 에이전틱·개발자 도구 실무의 핵심 리스크가 반복적으로 보고되고 있음.",
+      "url": "https://news.hada.io/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    }
+  ],
+  "chunks": 2
+}
