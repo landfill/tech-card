@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "title": "Claw Patrol - 에이전트를 위한 보안 방화벽",
+      "summary": "\n에이전트에게 프로덕션 접근 권한을 주면서 액션 레벨 게이팅, 자격증명 대리 보관, 와이어-레벨 트래픽 파싱 등으로 에이전트 행위를 제어하는 '에이전트용 보안 방화벽' 개념. 에이전트 권한·액션 제어를 보완하는 아키텍처 제안이다.",
+      "url": "https://news.hada.io/topic?id=30032",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Asked Claude Code for a \"deep search\" in ultracode mode — it spun up ~70 agents across a 4-phase pipeline on its own",
+      "summary": "\nClaude Code의 ultracode 모드에서 단일 요청으로 발견→벤치마크→보강→검증의 4단계 파이프라인을 위해 약 70개의 에이전트를 자동으로 띄워 작업을 분산·오케스트레이션했다는 사례. 오케스트레이션이 컨텍스트 부담을 줄이는 장점과 함께 비용(토큰/세션 오버헤드) 급증이라는 실무적 트레이드오프를 지적함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tsqezk/asked_claude_code_for_a_deep_search_in_ultracode/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code changed how I think about dev workspaces",
+      "summary": "\nClaude Code 사용 경험에서 터미널·세션·데브서버·로그 등이 빠르게 확장되는 문제를 지적하며, Claude와 함께 쓰는 '캔버스형' 개발 워크스페이스(Cate) 아이디어와 오픈소스 구현을 소개—에이전트 기반 코딩이 개발환경 재구조화를 촉발한다는 관찰.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tt5mdg/claude_code_changed_how_i_think_about_dev/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "AISlop - I built a CLI for cleaning up AI generated code smells/slop",
+      "summary": "\n에이전트가 생성한 코드에서 중복 헬퍼, 데드코드, 빈 catch 블록 등 반복되는 'AI 코드 슬롭' 패턴을 찾고 정리하는 로컬 CLI 도구(AISlop)를 개발·공개. AI 보조 코드의 품질 게이트로서 PR 이전 자동 점검용으로 설계되었다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tt61x7/aislop_i_built_a_cli_for_cleaning_up_ai_generated/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I built a VS Code extension that remembers why you wrote your code not just what changed",
+      "summary": "\n'WhyCode'라는 VS Code 확장으로, 파일 변경 시 (옵션) 간단히 '무엇을 해결하려 했나'를 캡처해 이후 사이드바에서 해당 파일의 의도(2문장 요약)를 보여준다. 모든 데이터는 로컬에 저장되며 Cursor와의 호환도 언급—코드 이력에 '의도'를 추가하는 개발자 UX 보조 도구다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tt565a/i_built_a_vs_code_extension_that_remembers_why/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Nomad AI - 나만의 온디바이스 여행 도우미",
+      "summary": "\n안드로이드에서 인터넷 없이 로컬 AI 모델(gemma4 2B/4B 등)을 사용해 챗봇·번역 기능을 제공하는 온디바이스 앱. 모델을 기기에 미리 설치하는 방식으로 프라이버시·오프라인 사용 사례에 초점을 둠—온디바이스 LLM 배포·앱 사례(여행) 제시.",
+      "url": "https://news.hada.io/topic?id=30042",
+      "category": "산업별 AX (트래블)",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: pisesh - pi 코딩 에이전트 세션 즐겨찾기 도구 만들었습니다",
+      "summary": "\npi(코딩 에이전트) 사용 중 세션이 많이 쌓이는 문제를 해결하기 위한 세션 즐겨찾기 도구를 제작했다는 글. 에이전틱 코딩 에코시스템에서 세션 관리·검색성 개선의 실무적 니즈를 다룬 사례다.",
+      "url": "https://news.hada.io/topic?id=30038",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Excessive API usage jump (35% to 75% in one prompt)",
+      "summary": "\nCursor 사용자가 tldraw MCP 서버를 이용한 단일 프롬프트에서 API 사용량(토큰)이 급증(35%→75%)한 사례 보고. 동일 프롬프트를 다른 도구로 돌렸을 때 사용량 차이가 커서 MCP/호출 경로·과금·버그 문제 가능성이 제기됨—MCP 기반 워크플로의 비용·추적 리스크 시사.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tt554x/excessive_api_usage_jump_35_to_75_in_one_prompt/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Where should trust checks happen for AI coding agents?",
+      "summary": "\n에이전트가 파일을 건드리거나 테스트를 건너뛰는 등 작업할 때 '신뢰 체크'를 어느 시점에 넣어야 하는지(사전 범위 설정·코드 작성 중·PR 전·PR 리뷰 중)에 대한 토론 요청. 에이전트 자동화 도입 시 신뢰·거버넌스 설계의 핵심 질문을 제기한다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tsr5sk/where_should_trust_checks_happen_for_ai_coding/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "How much project-specific context are you giving your AI coding assistant?",
+      "summary": "\n프로젝트 아키텍처·컨벤션·워크플로를 에이전트에 알려주기 위해 CLAUDE.md, AGENTS.md, MCP 설정 같은 파일을 유지하는데, 자동으로 리포지토리에서 이런 컨텍스트 파일을 생성해주는 도구(레포)를 소개—프로젝트-특화 컨텍스트 관리를 자동화하려는 시도.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tt5wcv/how_much_projectspecific_context_are_you_giving/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ]
+}
