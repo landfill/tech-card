@@ -1,0 +1,179 @@
+{
+  "week": "2026-W22",
+  "date_range": [
+    "2026-05-25",
+    "2026-05-31"
+  ],
+  "total_items": 106,
+  "filtered_items": 102,
+  "trend_map": [
+    {
+      "topic": "Claude Code / Claude (Anthropic)",
+      "days": [
+        "05-25",
+        "05-26",
+        "05-27",
+        "05-28",
+        "05-29",
+        "05-30",
+        "05-31"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Anthropic (Opus / funding / product news)",
+      "days": [
+        "05-27",
+        "05-28",
+        "05-29",
+        "05-30"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor (Composer / hooks / billing / token optimization / UX)",
+      "days": [
+        "05-25",
+        "05-26",
+        "05-27",
+        "05-28",
+        "05-29",
+        "05-30",
+        "05-31"
+      ],
+      "impact": "medium",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Codex / OpenAI Codex integrations",
+      "days": [
+        "05-25",
+        "05-27",
+        "05-29",
+        "05-30"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "MCP / persistent memory / trust / token-efficiency",
+      "days": [
+        "05-26",
+        "05-27",
+        "05-28",
+        "05-30",
+        "05-31"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Agent security & vulnerabilities (agent skills, protestware, agent firewalls)",
+      "days": [
+        "05-27",
+        "05-28",
+        "05-29",
+        "05-31"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Dynamic workflows (Claude Code feature / ultracode pipelines)",
+      "days": [
+        "05-28",
+        "05-29",
+        "05-31"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "SQLite rejects agent-written code",
+      "days": [
+        "05-30"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "React Doctor — AI-generated React 코드 정적 검증 도구",
+      "days": [
+        "05-27"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "Forge / agent guardrails",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Gemini (3.5 Flash / CLI)",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "DeepSeek (products / pricing / Reasonix)",
+      "days": [],
+      "impact": "medium",
+      "direction": "fading"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 53,
+      "high_count": 19
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 49,
+      "high_count": 7
+    }
+  },
+  "top5": [
+    {
+      "title": "Claude Code - 문서가 알려주지 않는 설정 가능한 모든 것",
+      "url": "https://news.hada.io/topic?id=30030",
+      "mentions": 18,
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic, Series H에서 650억 달러 조달하며 투자 후 기업가치 9,650억 달러 평가",
+      "url": "https://news.hada.io/topic?id=29996",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "Introducing dynamic workflows in Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tq9ofy/introducing_dynamic_workflows_in_claude_code/",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "url": "https://openai.com/index/cisco",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "SQLite는 에이전트가 작성한 코드를 받지 않음",
+      "url": "https://news.hada.io/topic?id=30002",
+      "mentions": 1,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-05-25": 11,
+    "2026-05-26": 14,
+    "2026-05-27": 23,
+    "2026-05-28": 16,
+    "2026-05-29": 15,
+    "2026-05-30": 14,
+    "2026-05-31": 9
+  }
+}
