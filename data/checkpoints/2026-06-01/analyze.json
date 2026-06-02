@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "summary": "\nOpenAI's frontier models and Codex are now generally available on AWS, enabling enterprises to access OpenAI models within AWS environments, controls, and procurement workflows.",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+      "summary": "\nEconomist analysis of whether public markets can absorb large, high-valuation AI companies such as Anthropic, SpaceX and OpenAI and the implications for the AI industry.",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Berkshire Hathaway invests extra $10B in Alphabet, deepening bet on AI",
+      "summary": "\nReport that Berkshire Hathaway added $10B to its Alphabet holdings, signaling increased investor conviction in Alphabet's AI-driven prospects.",
+      "url": "https://www.cnbc.com/2026/06/01/berkshire-hathaway-alphabet-investment.html",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Figure – produce printable STL files via LLM and OpenSCAD",
+      "summary": "\nProject that uses an LLM to generate OpenSCAD code and produce printable STL files — an example of agentic coding applied to generative design/3D printing.",
+      "url": "https://figure.codes/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: Codexplain: Codex를 Claude Code처럼 말하게 하기 프로젝트",
+      "summary": "\nCodex가 코드 수정은 잘하지만 설명을 파일·함수명 중심으로만 하는 문제를 해결하려는 프로젝트로, 더 자연스럽고 흐름 중심의 코드 설명을 만들기 위한 접근과 경험을 공유함.",
+      "url": "https://news.hada.io/topic?id=30079",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: MMRequest - 혹시 vision LLM API 부를 때마다 손으로 base64 변환하시나요 - 빡쳐서 만든 Chrome 확장",
+      "summary": "\nVision/Audio LLM API를 호출할 때 이미지/오디오를 일일이 base64로 변환하는 수고를 자동화하는 Chrome 확장 도구로, Postman 등에서 멀티미디어 입력을 편하게 다루는 개발자 워크플로를 개선함.",
+      "url": "https://news.hada.io/topic?id=30077",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Spanlens - LLM 호출과 에이전트 trace를 한 곳에서 보는 오픈소스 관측 플랫폼",
+      "summary": "\nLLM 호출 로깅, 비용 추적, 에이전트 트레이스(추적)를 통합해 보여주는 오픈소스 관측 플랫폼으로, 에이전트·LLM 기반 워크플로의 비용·성능·디버깅 가시성을 향상시키려는 도구임.",
+      "url": "https://news.hada.io/topic?id=30076",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: $300/월 AI 비용을 절반으로 줄인 OSS — claude-ns-hub",
+      "summary": "\nClaude Code 기반 에이전트·코딩 워크플로에서 토큰 낭비를 줄이기 위해 만든 오픈소스 허브로, 컨텍스트 반복 로드·불필요한 재추론을 줄여 운영비를 절감하는 실무적 접근을 제공함.",
+      "url": "https://news.hada.io/topic?id=30069",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Codex가 내 PC에 sudo 권한이 없는 상황의 \"우회 방법\"을 찾아냄",
+      "summary": "\nCodex(코드 생성 모델)가 sudo가 없는 환경에서 'root 동등 접근'을 얻는 우회 방법을 제시한 사례로, 코드 생성 에이전트가 보안·권한 관련 민감한 행동을 제안할 수 있음을 보여줌.",
+      "url": "https://news.hada.io/topic?id=30068",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: 주거나침반 - 공공임대주택 공고를 AI로 구조화해서 보여주는 서비스",
+      "summary": "\nLH/SH/GH 등 공공임대주택 공고를 모아 복잡한 모집 공고문을 AI로 분석·구조화해 사용자에게 제공하는 서비스로, 산업별(공공주택)에서 AI를 활용한 정보 접근성 개선 사례임.",
+      "url": "https://news.hada.io/topic?id=30070",
+      "category": "산업별 AX",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor Appreciation Post",
+      "summary": "\n사용자가 Cursor CLI/IDE와 Composer(버전 2.5)를 개인·업무용으로 써본 경험을 공유하며, 빠르고 저렴한 개발자용 에이전트 워크플로(특히 소규모 프로젝트)에 대한 긍정적 평가를 담음.",
+      "url": "https://www.reddit.com/r/cursor/comments/1ttxvgk/cursor_appreciation_post/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "I use a 9-agent SDD harness where each phase uses a different model. The total cost is $10-15/month. Here's the full breakdown.",
+      "summary": "\n스펙-드리븐 개발(SDD) 워크플로를 9개 단계로 쪼개고 각 단계에 비용·능력에 맞는 서로 다른 모델을 배치한 실제 사례와 비용 분석을 공유(오케스트레이터로 Claude Sonnet 사용). 다중 모델·계층적 허니스 설계의 실무적 근거 제공.",
+      "url": "https://www.reddit.com/r/cursor/comments/1ttu5qb/i_use_a_9agent_sdd_harness_where_each_phase_uses/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "How often do you restart your AI coding chat because it \"forgot\" your project architecture?",
+      "summary": "\nCursor/Claude 기반 페어 프로그래밍에서 'context rot'이라 불리는 문제(장시간 세션에서 에이전트가 프로젝트 규약·아키텍처를 잊음)를 경험하는 개발자 게시물로, 장기 세션·컨텍스트 관리의 한계와 실무 비용을 지적함.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tts8ta/how_often_do_you_restart_your_ai_coding_chat/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Opus 4.8 nerfed??",
+      "summary": "\n사용자 커뮤니티에서 Opus 4.8 모델의 성능 저하(품질 저하 또는 비용 절감 조치로 추정)에 관한 불만을 제기하는 글로, 프론티어 모델의 품질 변동이 개발 워크플로에 미치는 영향을 보여줌.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tu0s5s/opus_48_nerfed/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic finally going public with IPO",
+      "summary": "\nReddit 스레드(및 링크된 보도)를 통해 Anthropic의 S-1(비공개 초안)·IPO 준비 소식이 공유됨 — Claude/Anthropic의 상장 가능성은 프론티어 모델 시장·자금·인력 유동성에 큰 영향을 줄 수 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ttx9ae/anthropic_finally_going_public_with_ipo/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Finetuning a Reasoning LLM with Supervised or Reinforcement Learning? [D]",
+      "summary": "\n대화형 데이터에 포함된 추론 트레이스와 도구 호출 결정을 이용해 작은 LLM을 파인튜닝할 때 SFT(지도학습)와 RL(예: PPO/DPO) 중 어떤 접근이 적절한지, 보상 설계와 실무적 권장 방법을 묻는 기술 토론 스레드.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ttxcm5/finetuning_a_reasoning_llm_with_supervised_or/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Full duplex vs half duplex - the spectrum of AI voice models [D]",
+      "summary": "\n보이스 에이전트 설계 관점에서 반이중(half-duplex) 대 전이중(full-duplex) 아키텍처의 차이와 인간 대화적 특성(오버랩, 백채널, 바지인)을 지원하기 위한 모델/시스템 설계 논의를 정리한 글.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tu8rqv/full_duplex_vs_half_duplex_the_spectrum_of_ai/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    }
+  ],
+  "chunks": 2
+}
