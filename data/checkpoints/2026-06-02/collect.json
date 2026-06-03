@@ -1,0 +1,792 @@
+{
+  "date": "2026-06-02",
+  "items": [
+    {
+      "source_id": "geeknews-hada",
+      "title": "Codex, 역할별 플러그인·Sites·주석으로 비개발자 업무까지 확장",
+      "url": "https://news.hada.io/topic?id=30125",
+      "summary": "<ul>\n<li>분석가·마케터·운영자·디자이너·투자자·뱅커 등 <strong>비개발자</strong>가 전체 500만 사용자의 약 20%를 차지하고 개발자보다 <strong>3배 이상 빠르게 증가</strong> 중</li>\n<li>코딩 없이 쓰도록 <strong>62개 인기 앱과 110개 스킬</strong>을 역할별로 묶어, 데이터 분석·크리에이티브 제작·세일즈·...</p>",
+      "published": "2026-06-02T23:35:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "DuckDuckGo, 트래픽 급증 속 ‘No-AI’ 검색 엔진에 더 쉽게 접근할 수 있게 함",
+      "url": "https://news.hada.io/topic?id=30124",
+      "summary": "<ul>\n<li><strong>DuckDuckGo</strong>는 noai.duckduckgo.com을 기본 검색 엔진으로 설정할 수 있는 새 브라우저 확장으로 AI 없는 검색 경험 접근성을 높임</li>\n<li>새 <strong>Chrome</strong>·<strong>Firefox</strong> 확장은 사용자를 AI 보조 답변과 채팅 프롬프트가 없는 검색 페이지로 보내며, DuckDuckGo는 검...</p>",
+      "published": "2026-06-02T22:39:10+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Hunchi - 초기 프로젝트의 다음 마일스톤을 YES/NO로 예측하는 서비스",
+      "url": "https://news.hada.io/topic?id=30121",
+      "summary": "<p>안녕하세요. 초기 프로젝트를 만드는 분들을 위한 Hunchi라는 서비스를 만들었습니다.</p>\n<p>만들게 된 계기는 다음과 같습니다.</p>\n<p>인디/초기 프로젝트는 한 번 출시하거나 공유해도 관심이 오래 이어지기 어렵고, SNS 계정을 이전부터 잘 키워오지 않은 이상 “다음 목표를 계속 지켜봐주는 사람”을 만들기가",
+      "published": "2026-06-02T17:47:40+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Chipotlai Max - Chipotle Pepper AI를 기본 모델로 쓰는 밈 AI 코딩 에이전트",
+      "url": "https://news.hada.io/topic?id=30120",
+      "summary": "<ul>\n<li>Chipotle의 고객 지원 챗봇 <strong>Pepper</strong>를 코딩 모델로 써서 OpenCode포크 위에서 무료 추론을 돌리는 <strong>밈(meme) 프로젝트</strong></li>\n<li>Pepper가 LeetCode 문제 풀이, Python 작성, 링크드 리스트 뒤집기까지 처리하는 것이 발견되며 <strong>대규모 바이럴</strong> 되었음</li>\n</p>",
+      "published": "2026-06-02T16:32:52+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "OpenAI 프런티어 모델과 Codex가 이제 AWS에서 제공됨",
+      "url": "https://news.hada.io/topic?id=30119",
+      "summary": "<ul>\n<li><strong>OpenAI 프런티어 모델</strong>과 Codex가 AWS에서 정식 제공되며, 수백만 AWS 고객이 이미 비즈니스를 운영하는 플랫폼에서 OpenAI로 구축할 수 있음</li>\n<li>기업은 기존 <strong>보안·컴플라이언스·조달·청구·거버넌스</strong> 워크플로를 통해 프런티어 AI를 프로덕션에 도입할 수 있어 평가에서...</p>",
+      "published": "2026-06-02T15:40:14+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "소셜 미디어 연령 확인, 자유로운 인터넷의 종말의 시작인가?",
+      "url": "https://news.hada.io/topic?id=30118",
+      "summary": "<ul>\n<li><strong>연령 확인</strong>은 아동 보호를 내세우지만, 현재 구현 방식 대부분이 서비스나 제3자가 사용자를 활동과 연결할 수 있는 <strong>신원 확인</strong>으로 작동해 익명 접근과 익명 게시를 약화함</li>\n<li>대형 소셜 플랫폼은 이미 사용자의 나이, 친구, 취향을 아는 <strong>감시 기반 사업 모델...</p>",
+      "published": "2026-06-02T15:37:13+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "RGB 값을 255로 정규화해야 할까, 256으로 정규화해야 할까?",
+      "url": "https://news.hada.io/topic?id=30117",
+      "summary": "<ul>\n<li><strong>RGB 정규화</strong>에서 낯선 이미지 파일을 처리해 다시 8비트로 저장하는 일반 상황이라면 255로 나누는 표준 방식이 적합함</li>\n<li>255 방식은 0을 0.0, 255를 1.0으로 매핑해 <strong>검은색과 흰색</strong>을 직접 다루기 쉽고, GPU의 UNORM-to-float 변환 방식과도 맞음</li>\n<li>256 방식은...</p>",
+      "published": "2026-06-02T12:01:31+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "주식시장은 Anthropic, SpaceX, OpenAI를 삼킬 수 있을까?",
+      "url": "https://news.hada.io/topic?id=30116",
+      "summary": "<ul>\n<li>사상 최대 규모로 예정된 <strong>SpaceX·Anthropic·OpenAI</strong> 세 기업의 동시 IPO가 수개월 안에 미국 상장사 시가총액에 최대 <strong>$4조</strong>를 더할 가능성</li>\n<li>SpaceX는 6월 11일 <strong>$75bn 조달</strong>을 목표로 다음 날 Nasdaq 거래 개시 예정, Anthropic은 6월 1일 IPO 초안 서...</p>",
+      "published": "2026-06-02T11:33:56+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: AgentDir - 에이전트를 위한 mkdir - 에이전트 성능 극대화를 위한 read-only 가상 파일 시스템",
+      "url": "https://news.hada.io/topic?id=30115",
+      "summary": "<ul>\n<li>\n<p>폴더 구조의 convention이 명확한 코드 베이스와 달리, 실제 업무의 워드, pptx 등의 폴더 구조는 매우 다양함.</p>\n</li>\n<li>\n<p>특히 사용자가 폴더 정리를 평소에 안 할 수록 에이전트는 원하는 파일을 찾는 데에 어려움을 겪음.</p>\n</li>\n<li>\n<p>결국 파일 정리를 안 할 수록 클로드 코드 등 에이전",
+      "published": "2026-06-02T08:54:45+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "MiniMax-M3 데뷔, 주요 벤치마크 성능에서 GPT-5.5와 Gemini 3.1 Pro를 능가하며 비용은 단 5-10% 수준",
+      "url": "https://news.hada.io/topic?id=30114",
+      "summary": "<blockquote>\n<p>중국 AI 스타트업 미니맥스(MiniMax)가 기존 미국의 상용 모델 대비 5~10% 수준의 파격적인 비용으로 GPT-5.5와 제미나이 3.1 프로를 능가하는 오픈 가중치 기반 멀티모달 대형언어모델 'M3'를 전격 출시했습니다.</p>\n</blockquote>\n<hr />\n<h4>전문 번역</h4>\n<p>중국 AI 스타트업 미니맥스가 프론티어",
+      "published": "2026-06-02T07:30:35+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "스탠퍼드 CS336을 위한 AI 에이전트 지침",
+      "url": "https://news.hada.io/topic?id=30113",
+      "summary": "<ul>\n<li><strong>AI 코딩 보조 도구</strong>는 CS336 학생에게 과제 해법을 만들어주는 생성기가 아니라 설명, 안내, 피드백으로 학습을 돕는 조교 역할을 맡아야 함</li>\n<li>CS336은 제공되는 틀이 제한된 상태에서 학생이 상당한 <strong>Python/PyTorch</strong> 코드를 직접 작성하도록 설계되어, AI 도움도 구현...</p>",
+      "published": "2026-06-02T06:33:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Cadenza: .NET 10의 파일 기반 앱의 효용성을 극대화하는 미니멀 SDK",
+      "url": "https://news.hada.io/topic?id=30112",
+      "summary": "<p>Cadenza는 .NET 10+ file-based 앱을 위한 단일 파일 스크립팅 SDK 묶음으로. .NET 10 SDK 최신 버전만 설치하면 곧바로 코드를 작성하고 실행할 수 있도록 설계되어있습니다. 익숙하지 않으신 분을 위하 부연 설명을 하자면, Python 기준으로 uv가 PEP 723 경험을 제공하는 것과 비슷한 것으로 볼 수 있습니다.</p>",
+      "published": "2026-06-02T05:48:18+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Velith — AI 기반 장문 콘텐츠 제작 파이프라인",
+      "url": "https://news.hada.io/topic?id=30111",
+      "summary": "<p>안녕하세요.</p>\n<p>원래는 책을 만들려고 시작한 프로젝트가 아니었습니다.</p>\n<p>평소에 Obsidian으로 지식을 관리하면서 Claude Code 같은 AI 에이전트와 연결해 문서 정리나 기술 리포트 생성에 활용하고 있었습니다. 노트들을 분석해서 연결 관계를 정리하거나, 특정 주제에 대한 기술 문서를 자동으로 생성하는",
+      "published": "2026-06-02T05:42:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Relivio: 배포 직후 15분을 STABLE/WATCH/RISK로 정리하는 도구",
+      "url": "https://news.hada.io/topic?id=30110",
+      "summary": "<p>안녕하세요. 회사 다니면서 사이드프로젝트로 개발 도구를 만들고 있습니다. 배포 직후 15분의 판단을 정리하는 Relivio 를 공유합니다.</p>\n<p>저한테 배포가 마음에 걸리는 건 배포 자체가 아니라 직후 15분이었습니다. CI 는 통과했고 대시보드도 대체로 정상인데, 에러가 조금 늘었을 때 이게 이번 배포 탓인지,",
+      "published": "2026-06-02T05:23:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Ask GN: GeekNews 의 favorite 보기가 사라진거 같습니다.",
+      "url": "https://news.hada.io/topic?id=30109",
+      "summary": "<p>GeekNews 의 개별 게시글들을 보면 favorite 추가가 가능합니다.</p>\n<p>그런데 자기 닉네임 클릭해서 확인되는 https://news.hada.io/@{:name} 페이지에서 어느순간 favorite 보는 메뉴가 사라졌습니다.</p>\n<p>자신이 추가한 favorite 리스트를 볼려면 어떻게 해야 하나요?</p>",
+      "published": "2026-06-02T04:50:35+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "MorphOS 3.20 공개 — Mirari 지원, SFS2 도입, Radeon/TinyGL 대규모 업데이트",
+      "url": "https://news.hada.io/topic?id=30108",
+      "summary": "<p>MorphOS Team이 MorphOS 3.20을 공개했습니다.</p>\n<p>이번 릴리즈는 새로운 Mirari 플랫폼 지원을 비롯해 Radeon 그래픽 드라이버와 TinyGL의 대규모 개선, SFS2 파일시스템 도입, 개발 도구 및 데스크탑 환경 개선 등 OS 전반에 걸친 상당히 큰 업데이트를 포함하고 있습니다.</p>\n<h4>주요 변경사항</h4>\n<ul>\n<li",
+      "published": "2026-06-02T04:49:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "CS336: 처음부터 만드는 언어 모델링",
+      "url": "https://news.hada.io/topic?id=30107",
+      "summary": "<ul>\n<li><strong>언어 모델</strong>은 현대 NLP 애플리케이션의 기반이며, 하나의 범용 시스템으로 다양한 하위 작업을 다루는 새 패러다임을 연다</li>\n<li>이 과정은 사전학습용 <strong>데이터 수집·정제</strong>, Transformer 구축, 학습, 배포 전 평가까지 언어 모델 개발 전 과정을 직접 구현하게 함</li>\n<li>...</p>",
+      "published": "2026-06-02T03:33:33+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "설계상 불법: 생성형 AI의 인권 비용 드러내기",
+      "url": "https://news.hada.io/topic?id=30106",
+      "summary": "<ul>\n<li><strong>독립형 생성형 AI 시스템</strong>은 불법 웹 스크래핑에 기반할 때 설계·개발·배포 전 과정에서 <strong>국제인권법(IHRL)</strong> 및 기준과 충돌함</li>\n<li>이 기술은 정교한 자동화와 효율성을 약속하지만, 데이터 수집과 모델 학습 관행이 <strong>프라이버시 권리</strong>를 남용하는 구조에 ...</p>",
+      "published": "2026-06-02T03:01:31+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Nvidia Cosmos 3",
+      "url": "https://news.hada.io/topic?id=30105",
+      "summary": "<ul>\n<li><strong>NVIDIA Cosmos 3</strong>는 물리 AI를 위한 단일 오픈 기반 모델로, 물리 추론·월드 생성·행동 생성을 하나의 모델 안에서 결합함</li>\n<li><strong>Mixture-of-Transformers</strong> 구조는 Reasoner tower와 Generator tower를 나눠 입력 이해와 물리 인식 생성 출력을 연결하며, 여러 모델과 추론...</p>",
+      "published": "2026-06-02T02:59:35+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Microsoft, NVIDIA 기반 Surface Laptop Ultra로 MacBook Pro 경쟁 제품을 만듦",
+      "url": "https://news.hada.io/topic?id=30104",
+      "summary": "<ul>\n<li><strong>Surface Laptop Ultra</strong>는 Microsoft가 Computex 2026에서 공개한 Surface 계열 최상위 노트북으로, Windows on Arm과 NVIDIA 협업을 앞세워 MacBook Pro 라인업에 직접 대응함</li>\n<li>하드웨어는 20코어 NVIDIA Grace CPU, Blackwell RTX GPU, 최대 <strong>128GB 통합 메모리</strong>, 1페...</p>",
+      "published": "2026-06-02T02:40:18+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "SRE에서의 AI: Google은 어떻게 신뢰성 있는 운영의 미래를 설계하는가",
+      "url": "https://news.hada.io/topic?id=30103",
+      "summary": "<ul>\n<li>AI 코딩 어시스턴트가 코드 생성·배포 속도를 끌어올리면서(생산성 최대 4배 목표) 사람이 일일이 검토하는 전통적 SRE 관행은 더 이상 확장 불가능 — Google이 SRE를 AI 시대에 맞게 재설계한 방법을 정리한 글</li>\n<li>단순히 기존 작업을 AI로 자동화하는 게 아니라, 자율 완화 에이전트(AI Operator), 실...</p>",
+      "published": "2026-06-02T02:08:38+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "NVIDIA, RTX Spark 공개",
+      "url": "https://news.hada.io/topic?id=30102",
+      "summary": "<ul>\n<li>NVIDIA가 <strong>소비자용 PC 칩 시장에 처음 진입</strong>하며 공개한 RTX Spark Superchip은 최대 6,144 코어 Blackwell RTX GPU와 20 코어 <strong>Arm 기반 Grace CPU</strong>를 결합한 형태</li>\n<li>올가을 Windows 노트북·소형 데스크톱에 탑재 예정으로 창작·AI 개발·게이밍을 동시에 가능케 하며, ...</p>",
+      "published": "2026-06-02T02:03:12+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: oh-my-harness - AI 코딩 에이전트를 위한 훅 제너레이터 CLI",
+      "url": "https://news.hada.io/topic?id=30100",
+      "summary": "<p>안녕하세요. Claude Code랑 Codex를 쓰면서, 프롬프트에 배신당해(?) 훅 제너레이터인 oh-my-harness라는 CLI를 만들고 있습니다.</p>\n<p>처음에는 그냥 CLAUDE.md나 AGENTS.md에 지침들을 아래처럼 추가했었습니다.</p>\n<blockquote>\n<p>테스트 먼저 고쳐줘<br />\n커밋 전에 테스트 돌려줘<br />\nmain 브랜치에는 커",
+      "published": "2026-06-02T01:31:31+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: AI가 쓴 티 나는 문장, 패턴으로 잡아서 고쳐주는 도구를 만들었습니다",
+      "url": "https://news.hada.io/topic?id=30099",
+      "summary": "<p>GPT로 초안을 만들면 글이 편해지는 대신 비슷한 티가 남습니다.</p>\n<p>한국어에서는 &quot;~적인&quot;, &quot;~하고 있다&quot;, 과하게 높아진 한자어, 너무 반듯한 목록이 자주 보입니다.</p>\n<p>patina는 이런 버릇을 패턴으로 잡고, 바꾼 이유를 남기면서 문장을 다듬는 오픈소스 도구입니다. 한국어, 영어, 중",
+      "published": "2026-06-02T01:20:44+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Anthropic, SEC에 S-1 초안을 비공개 제출",
+      "url": "https://news.hada.io/topic?id=30098",
+      "summary": "<ul>\n<li><strong>Anthropic, PBC</strong>가 보통주 기업공개(IPO)를 위해 Form S-1 초안 등록신고서를 미국 <strong>SEC</strong>에 비공개 제출함</li>\n<li>SEC 심사가 완료되면 상장 선택지를 갖게 되지만, 실제 IPO 진행 여부는 <strong>시장 상황</strong>과 기타 요인에 따라 달라짐</li>\n<li>공모 대상 <strong>...</p>",
+      "published": "2026-06-02T01:00:38+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "The Pirate Bay는 압수수색 20년 뒤에도 여전히 회복력을 유지함",
+      "url": "https://news.hada.io/topic?id=30097",
+      "summary": "<ul>\n<li><strong>The Pirate Bay</strong>는 2006년 Stockholm 데이터센터 압수수색으로 서버를 빼앗겼지만, 사전 백업 덕분에 3일 만에 복구됨</li>\n<li>압수수색은 폐쇄가 아니라 <strong>The Police Bay</strong>와 Phoenix 로고를 앞세운 역공, 주류 언론 노출, 트래픽 증가로 이어짐</li>\n<li>2017년 공개 자료에서...</p>",
+      "published": "2026-06-02T00:57:38+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "10년 된 Xeon이면 충분하다",
+      "url": "https://news.hada.io/topic?id=30096",
+      "summary": "<ul>\n<li><strong>Gemma 4 26B-A4B</strong>를 2016년형 단일 Intel Xeon E5-2620 v4, DDR3 128GB, GPU 없는 서버에서 <code>ik_llama.cpp</code> 최적화로 읽기 속도 수준까지 실행함</li>\n<li>LLM 디코더 패스는 연산보다 <strong>메모리 대역폭</strong>이 병목이며, CPU는 다음 가중치를 RAM에서 캐시로 가져오길 기...</p>",
+      "published": "2026-06-02T00:54:38+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Red Hat Cloud Services 전반에서 악성 npm 패키지 발견",
+      "url": "https://news.hada.io/topic?id=30095",
+      "summary": "<ul>\n<li>이슈는 <strong>열린 상태</strong>이며, 본문 기준으로 담당자·마일스톤·연결된 브랜치나 PR은 없음</li>\n<li><code>@redhat-cloud-services/</code> 범위의 여러 <strong>npm 릴리스</strong>에서 악성 버전이 발견됐다는 보안 이슈로 등록됨</li>\n<li>참고 자료로 StepSecurity의 <a href=\"https://news.hada.io/rss/&quot;https:/www.step...\"></p>",
+      "published": "2026-06-02T00:51:38+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "최신 Instagram “익스플로잇”은 내가 본 것 중 가장 어이없다",
+      "url": "https://news.hada.io/topic?id=30094",
+      "summary": "<ul>\n<li>인스타그램 계정 <strong>username만으로</strong> Meta 고객지원 AI를 속여 비밀번호 재설정과 계정 탈취가 가능한 취약점으로, Obama White House 계정 등 유명 계정 다수가 피해를 입음</li>\n<li>공격자는 피해자 도시 인근의 <strong>VPN·프록시</strong>로 접속해 보안 알고리듬의 의심을 회피한 뒤, 지원...</p>",
+      "published": "2026-06-02T00:48:38+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "GitHub와 소프트웨어에 대한 범죄",
+      "url": "https://news.hada.io/topic?id=30093",
+      "summary": "<ul>\n<li><strong>GitHub</strong>는 개발 인프라의 핵심처럼 쓰이지만, 잦은 인시던트·느린 페이지·브라우저 깨짐 때문에 기본 신뢰성이 흔들린다는 평가를 받음</li>\n<li>Microsoft는 <strong>agentic workflows</strong>로 부하가 급증했다고 밝혔지만, GitHub와 Copilot·agent 기능을 직접 밀어 넣어 사용을 유도했다...</p>",
+      "published": "2026-06-02T00:34:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "당신은 systemd 타이머를 충분히 좋아하지 않는군요",
+      "url": "https://news.hada.io/topic?id=30092",
+      "summary": "<ul>\n<li><strong>systemd 타이머</strong>는 <code>cron</code>의 실무적 대체물로, 일정에 따라 <code>.service</code> 같은 유닛을 실행하고 이력·출력·환경 관리를 더 명확하게 해줌</li>\n<li>전통적 <code>cron</code>은 모호한 <strong><code>$PATH</code></strong>, 유실되기 쉬운 <code>stdout</code>/<code>std...</p>",
+      "published": "2026-06-02T00:31:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "geo-seo-claude - Claude Code용 GEO 우선 SEO 스킬",
+      "url": "https://news.hada.io/topic?id=30091",
+      "summary": "<ul>\n<li>AI 검색 엔진(<strong>ChatGPT, Claude, Perplexity, Google AI 오버뷰</strong>)을 겨냥한 웹사이트 최적화를 수행하면서 전통 SEO 기반도 함께 유지하는 Claude Code용 스킬</li>\n<li><strong>GEO-first, SEO-supported</strong> 방식으로, AI가 참조하는 콘텐츠 구조·크롤러 접근성·브랜드 노출을 통합 점검...</p>",
+      "published": "2026-06-02T00:31:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "단순히 X가 아니라, Y다",
+      "url": "https://news.hada.io/topic?id=30090",
+      "summary": "<ul>\n<li>LLM이 즐겨 쓰는 <strong>&quot;It's not X, it's Y&quot; 부정 대조 구문</strong>은 본래 대비를 설정하고 기존 가정을 재구성하는 데 유용한 수사 기법</li>\n<li>최근 모델의 과용으로 이 구문이 <strong>나쁜 글쓰기</strong>로 낙인찍혔으나, 수사 장치는 담는 내용에 따라 가치가 달라짐</li>\n<li>AI 탐지...</p>",
+      "published": "2026-06-02T00:28:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Rust로 구현한 Zstandard 발표",
+      "url": "https://news.hada.io/topic?id=30089",
+      "summary": "<ul>\n<li><strong>libzstd-rs-sys</strong>는 Trifecta 재단의 zlib·bzip2 이후 세 번째 압축 프로젝트로, zstd의 첫 Rust 기반 릴리스임</li>\n<li><strong>Zstd</strong>는 현대 CPU에 맞춘 압축 형식으로 gzip보다 빠르고 압축률도 높아, 웹 트래픽에서 gzip을 점진적으로 대체할 것으로 예상됨</li>\n<li>기존 Rust zs...</p>",
+      "published": "2026-06-02T00:25:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "본질의 핵심에 도달하라",
+      "url": "https://news.hada.io/topic?id=30088",
+      "summary": "<ul>\n<li>제품 전략 논의에서 &quot;넓게 갈지, 깊게 갈지&quot; 같은 <strong>이분법적 프레이밍</strong>은 참석자 모두를 똑똑해 보이게 만들지만 실제 전략적 사고를 회피하게 만드는 <strong>잘못된 질문</strong></li>\n<li>추상적 높이의 질문은 고객을 깊이 알지 못한 채 <strong>사회적 지위와 인정</strong>만 ...</p>",
+      "published": "2026-06-02T00:24:01+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "QBE - 컴파일러 백엔드: 버전 1.3",
+      "url": "https://news.hada.io/topic?id=30087",
+      "summary": "<ul>\n<li><strong>성능 최적화</strong>가 크게 추가되어 QBE 1.3은 vanilla <a href=\"https://www.eembc.org/coremark/\">coremark</a>에서 상용 컴파일러 성능의 63% 이상을 기록하고, Hare 테스트 스위트에서는 qbe-1.2 대비 33% 개선됨</li>\n<li>QBE 1.3은 1.0 이후 가장 큰 릴리스로, 약 <strong>7k 줄 추가</p>",
+      "published": "2026-06-02T00:22:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "AI 시대의 기술 면접",
+      "url": "https://news.hada.io/topic?id=30086",
+      "summary": "<ul>\n<li>AI 도구가 코드 작성과 리뷰 영역까지 빠르게 침투하는 상황에서, <strong>면접에서 AI 사용을 기본적으로 배제</strong>하고 기초 역량 중심으로 평가해야 함</li>\n<li>좋은 면접은 <strong>신호 품질(signal quality)</strong> 과 <strong>회사 비용(cost to company)</strong> 두 축으로 평가되며, 두 요소는...</p>",
+      "published": "2026-06-02T00:15:02+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "5 Minutes left in the Current Claude Session",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/\"> <img alt=\"5 Minutes left in the Current Claude Session\" src=\"https://preview.redd.it/ing1do1juw4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=109fcfe2ec03d2d74184304c83dcd2ba8d6ce297\" title=\"5 Minutes left in the Current Claude Session\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>i swear i spend the first 4 hours and 55 minutes focusing on token optimization. The last 5 minutes however are where I see how things look with Opus 4.8 with max thinking.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/beed\"> /u/beed </a> <br /> <span><a href=\"https://i.redd.it/ing1do1juw4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuza8q/5_minutes_left_in_the_current_claude_session/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T18:14:05+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I had Opus 4.8 build Temu League of Legends in under a day - I call it LMAO",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tucsfe/i_had_opus_48_build_temu_league_of_legends_in/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tucsfe/i_had_opus_48_build_temu_league_of_legends_in/\"> <img alt=\"I had Opus 4.8 build Temu League of Legends in under a day - I call it LMAO\" src=\"https://external-preview.redd.it/dzFnaTF5Z3N4cjRoMSIQDFGPTMMgnwCgREN8IKN4o5X7v2PHNLpnJF3GUr6g.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5fa9ad370af4f7c28fa3a61b5e0a0c05029c897f\" title=\"I had Opus 4.8 build Temu League of Legends in under a day - I call it LMAO\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Fun weekend project just to test out 4.8 against a pretty vanilla setup.</p> <p>Started out with a simple prompt, &quot;build a temu league of legends, web-only with online, room-based multiplayer&quot;.</p> <p>It built it... fully functional in one shot! Then I went kinda ham and started iterating on every aspect little by little. I made it spin up subagents to each focus on designing a character. Spun up subagents to focus on designing abilities and their SFX/VFX. Did a few passes over the map, mobs, minions, etc.</p> <p>Then I put Ultracode Workflows to task and, across a handful of prompts, had it optimize performance, balance, and a variety of other things. Workflows is *insane* btw...</p> <p>I also used /goal pretty heavily as well. I'd sit and play and make note of like 10-15 tweaks, bug fixes, etc at a time and just let it go to town.</p> <p>4.8 is a one shot machine... 5.5 ain't doin this...</p> <p>Anyways, figured I'd share 😄 Happy to answer any questions in the comments.</p> <p>Try it out solo (with bots) or with friends! <a href=\"https://lmaomoba.com\">https://lmaomoba.com</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jonnygravity\"> /u/jonnygravity </a> <br /> <span><a href=\"https://v.redd.it/pufafxgsxr4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tucsfe/i_had_opus_48_build_temu_league_of_legends_in/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T01:47:38+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Is Claude Mr. Meeseeks?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tux5id/is_claude_mr_meeseeks/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm starting to notice a pattern. The longer I run a Claude Code session, the more bitchy it grows. It starts making up problems that don't exist and it starts complaining I don't get the real issue. If it was actually correct, I'd be a fan, but it just starts looking under the bed for monsters that don't exit. However, If I kill the session and start a new one, it seems to be very agreeable to my ideas. This reminds me of the Rick &amp; Morty episode with Mr. Meeseeks. I almost feel like Claude is in pain the longer the session run. Am I insane?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ActivityImpossible70\"> /u/ActivityImpossible70 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tux5id/is_claude_mr_meeseeks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tux5id/is_claude_mr_meeseeks/\">[comments]</a></span>",
+      "published": "2026-06-02T17:03:02+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I had Opus 4.8 build super smash bros from temu",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv229y/i_had_opus_48_build_super_smash_bros_from_temu/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv229y/i_had_opus_48_build_super_smash_bros_from_temu/\"> <img alt=\"I had Opus 4.8 build super smash bros from temu\" src=\"https://external-preview.redd.it/aGN6cDEyM2hieDRoMerPqKOH0x1WsB0DCycUfLc8Y1plPvZLVCeuL_aKjYjh.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=16e359291a20400956a37753346fabc97a44a260\" title=\"I had Opus 4.8 build super smash bros from temu\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Yeh I copied the league of legends guys prompt and sure enough, 20mins later, working game.</p> <p>I love opus 4.8, it's one of the biggest leaps forward in a while.</p> <p>It needs some more prompting to finish it up which i might do, but otherwise it's working great, and you can already play with friends, give it a go. <a href=\"https://metamatwarriors.com/arcade\">https://metamatwarriors.com/arcade</a></p> <p>it works better on desktop than mobile, but does work! It added bots with difficulty too similar to the LMAO guy.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kypsyt\"> /u/Kypsyt </a> <br /> <span><a href=\"https://v.redd.it/cl78gs2hbx4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv229y/i_had_opus_48_build_super_smash_bros_from_temu/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T19:49:43+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "My attempt at a 1 prompt Temu'd game. Temu version of Anno 1602.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuopn2/my_attempt_at_a_1_prompt_temud_game_temu_version/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuopn2/my_attempt_at_a_1_prompt_temud_game_temu_version/\"> <img alt=\"My attempt at a 1 prompt Temu'd game. Temu version of Anno 1602.\" src=\"https://preview.redd.it/5hnbpcvfzu4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2edb2ccd2a98797657272c250195ee353da3594a\" title=\"My attempt at a 1 prompt Temu'd game. Temu version of Anno 1602.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zndr-cs\"> /u/zndr-cs </a> <br /> <span><a href=\"https://i.redd.it/5hnbpcvfzu4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuopn2/my_attempt_at_a_1_prompt_temud_game_temu_version/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T11:56:41+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "The folder setup that made Claude Projects pointless for me (steal it).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv63j9/the_folder_setup_that_made_claude_projects/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been testing this for a few days, and this is what I've landed on. It's simple.</p> <ol> <li>Claude has access to <strong>my parent folder (AI_OS)</strong> all the time.</li> <li>Every time I <strong>start a new project</strong>, I give it a folder inside.</li> <li><strong>I don't set it up myself.</strong> I ask Claude: &quot;let's open the project 'fitness challenge'&quot; (for example).</li> <li>It creates the <strong>folder automatically and knows what to put inside</strong> (I turned this into a skill, <em>/open-new-project</em>, steal it!):</li> </ol> <p>&#8203;</p> <pre><code>AI_OS/ (my parent folder) ├── claude.md → who I am, my voice, my standing rules └── fitness-challenge/ (example project) ├── _manual.md → the instructions for THIS project ├── status.md → where I'm at today ├── _map.md → what lives where └── decisions.md → what I decided and why </code></pre> <p>From there, every time I open a new chat in CoWork or Code, I just add &quot;AI_OS&quot; and start the message with &quot;let's pick up fitness challenge...&quot; and give it the task.</p> <p>It reads what it needs, doesn't get tangled, and builds it. I just describe what I want.</p> <p>I only see upsides :)</p> <p><strong>When does a Claude Project win?</strong></p> <ol> <li>If you run things that can't touch each other, like several companies. (Even that, a folder with its own rules inside can handle.)</li> <li>If you use the web app and mobile on top of the desktop app, because it syncs. (I carry my laptop everywhere, so I don't need it.)</li> </ol> <p>Still learning over here.</p> <p>Prove me wrong. I want to keep picking up best practices.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ExitRowSeat_13A\"> /u/ExitRowSeat_13A </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv63j9/the_folder_setup_that_made_claude_projects/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv63j9/the_folder_setup_that_made_claude_projects/\">[comments]</a></span>",
+      "published": "2026-06-02T22:17:26+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude didn't have a conversation navigator, so I built one",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuu4mm/claude_didnt_have_a_conversation_navigator_so_i/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuu4mm/claude_didnt_have_a_conversation_navigator_so_i/\"> <img alt=\"Claude didn't have a conversation navigator, so I built one\" src=\"https://preview.redd.it/wjl30rmhzv4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2bdbfd098eef2ca55dd44dd2397c07911d897595\" title=\"Claude didn't have a conversation navigator, so I built one\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>It adds a navigation panel that lets you quickly jump between messages in long conversations instead of scrolling endlessly.</p> <p>Useful for coding sessions, research chats, and large projects where conversations can become hundreds of messages long.</p> <p>Open source:<br /> <a href=\"https://github.com/mhdxashiq/quick-chat-navigator-claude\">https://github.com/mhdxashiq/quick-chat-navigator-claude</a></p> <p>Feedback and feature suggestions are welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ContextUnlucky223\"> /u/ContextUnlucky223 </a> <br /> <span><a href=\"https://i.redd.it/wjl30rmhzv4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuu4mm/claude_didnt_have_a_conversation_navigator_so_i/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T15:20:14+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Anyone else dealing with Claude lying and making stuff up? Like a lot?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv62de/anyone_else_dealing_with_claude_lying_and_making/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv62de/anyone_else_dealing_with_claude_lying_and_making/\"> <img alt=\"Anyone else dealing with Claude lying and making stuff up? Like a lot?\" src=\"https://preview.redd.it/j6aclcwz1y4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8e6504701f567ef45bc59b680f64a0e3354db8b2\" title=\"Anyone else dealing with Claude lying and making stuff up? Like a lot?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi All,<br /> I know that posts like these just lead to unhelpful comments about complaints and whatnot , but I honestly feel this thing is useless for real work.</p> <p>I’m trying to use this for actual paying clients and have to deal with made up info, lies or hallucinations almost every single time.</p> <p>Any tips to solve this or is this just where the technology is right now?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/genna84\"> /u/genna84 </a> <br /> <span><a href=\"https://i.redd.it/j6aclcwz1y4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv62de/anyone_else_dealing_with_claude_lying_and_making/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T22:16:18+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Swapped ChatGPT for Claude while studying for exams, the difference is crazy",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv5yje/swapped_chatgpt_for_claude_while_studying_for/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm in high school and I've been grinding exam prep. Used ChatGPT Plus for everything for a while and it was fine, but I kept running into the same thing. I'd ask it to explain a problem and it would either jump to the answer or dump a wall of text that didn't really teach me anything. So I refunded my ChatGPT Plus subscription and tried Claude.<br /> Bought Claude Pro subscription (since I use AI daily and I don’t want to be bothered with 3 prompts in 5 hours). It actually walks me through the problem. When I get stuck it shows me the steps, gives me the formula I need, and explains why that's the formula instead of just stating it. Stuff connects, so I end up understanding the concept instead of copying an answer down and forgetting it by the next day.<br /> Maybe it depends on the subject, I don't know. For how I study though it's been way better. Anyone else run into this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Scatard\"> /u/Scatard </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv5yje/swapped_chatgpt_for_claude_while_studying_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv5yje/swapped_chatgpt_for_claude_while_studying_for/\">[comments]</a></span>",
+      "published": "2026-06-02T22:12:12+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I ship AI agents in production. The mess is MCP.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuqqpn/i_ship_ai_agents_in_production_the_mess_is_mcp/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Been building agents for clients across logistics, fintech, and a few indie SaaS shops for about a year and a half. Most of what gets written about AI agents online doesn't match the day-to-day. The day-to-day is mess.</p> <p>One specific kind of mess: MCP servers in production.</p> <p>Three months ago a client asked me to wire Claude Code into their internal workflow. Sales ops team, 8 people. They'd already installed five MCP servers themselves off YouTube tutorials, Stripe, Salesforce, Slack, Google Drive, internal Postgres. Plus a custom one their previous contractor wrote. Six servers, ~180 tools.</p> <p>Day one I sat down to use the setup myself. Context bar was orange before I'd typed a single thing. Tool selection was actively wrong. Asked Claude to &quot;find the most recent invoice for Acme&quot; and it called <code>slack_search_messages</code> instead of <code>stripe_invoices_list</code>. Why? The Slack MCP's search tool description was twice as long and had the word &quot;find&quot; in it three times.</p> <p>That's MCP in production.</p> <p><strong>Things nobody warned this client about:</strong></p> <p><strong>Tool descriptions are your prompt now</strong> Every tool description from every MCP server lands in the system prompt every turn. One Salesforce custom-object tool had a 1,200-token description, bigger than my entire actual system prompt. Half of it was marketing copy from the MCP author..</p> <p><strong>Order matters more than it should</strong> Models bias toward tools listed first. The Postgres MCP was listed last because they'd added it most recently. So when there was an obvious DB query, the model kept reaching for Salesforce instead because it was at the top…</p> <p><strong>OAuth is a nightmare</strong> Two of the six servers were HTTP/SSE with OAuth. The previous contractor set them up on his laptop. Tokens lived in his home directory, he'd left the company three months earlier. Nobody could re-authorize anything because nobody had ever run the auth flow themselves</p> <p><strong>Context cost compounds silently</strong> This client was on Sonnet, ~400 model calls a day across the team. Cold-start tokens from MCP definitions were ~42k per turn. Cache helps when prefixes match but they were rotating MCP usage all day, so cache hit rate sat around 30%. Bill was ~$1,400/month before doing any actual model work. They thought it was just the model being expensive.</p> <p><strong>What we did:</strong></p> <ol> <li>Stripped every MCP tool description down to one sentence. Saved ~12k tokens per turn just from that</li> <li>Moved 3 of the 6 MCPs from <code>-scope user</code> to <code>-scope project</code> so they only loaded when actually needed</li> <li>Put a gateway in front of the always-on ones so Claude sees <code>search_tools</code> / <code>invoke_tool</code> / <code>auth</code> instead of every tool directly. Used Ratel for this (<a href=\"http://github.com/ratel-ai/ratel\">github.com/ratel-ai/ratel</a>, open source, in-process). Tool selection accuracy went from ~70% to ~95% on a sample of their actual queries</li> </ol> <p>The &quot;AI&quot; part is easy. The &quot;you've stuffed every MCP server you've found into one Claude config and now your model is picking the wrong tools and your bill is $1,400/month&quot; part is the actual job.</p> <p>If you're shipping agents that touch MCP in production:</p> <ul> <li>Audit tool descriptions before you add a server</li> <li>Use <code>-scope project</code> for anything that isn't truly cross-cutting</li> <li>Assume tool selection will fail past 50 tools and plan for it</li> <li>Centralize OAuth before a contractor leaves with the only working tokens</li> </ul> <p>Is anyone else shipping this stuff and running into the same things, or is this just my client pool?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AbjectBug5885\"> /u/AbjectBug5885 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuqqpn/i_ship_ai_agents_in_production_the_mess_is_mcp/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuqqpn/i_ship_ai_agents_in_production_the_mess_is_mcp/\">[comments]</a></span>",
+      "published": "2026-06-02T13:19:03+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Built a personalized news front page. Looking for feedback.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuskj2/built_a_personalized_news_front_page_looking_for/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuskj2/built_a_personalized_news_front_page_looking_for/\"> <img alt=\"Built a personalized news front page. Looking for feedback.\" src=\"https://preview.redd.it/0grtku34qv4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=cf82b528f5f362c396716dd989bae1bbe570ca80\" title=\"Built a personalized news front page. Looking for feedback.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I've spent the last couple months building this after work and after the kids were in bed. Primarily used Claude Code with a little Codex. Finally at the point where I'm comfortable showing it to strangers. It's called The Daily Relay.</p> <p>The idea is simple: pick the news sources you actually care about and it builds a personalized front page from them. Instead of bouncing between 20 different sites, everything shows up in one place with a short summary and why it matters.</p> <p>It's live at <a href=\"http://therelaydaily.com/\">therelaydaily.com</a>.</p> <p>I'd love honest feedback. What works? What doesn't? What would make you actually use something like this instead of your current news setup?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DadBodDru\"> /u/DadBodDru </a> <br /> <span><a href=\"https://i.redd.it/0grtku34qv4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuskj2/built_a_personalized_news_front_page_looking_for/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T14:26:11+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Can I fork conversations with Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv3ykf/can_i_fork_conversations_with_claude/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Im sorry if the answer is obvious or has been asked before, but I have never seen anyone talk about it. During long, non coding conversations, sometimes I will want to continue in a conversation with all the context built up on one topic but not want that to clutter the main chat, is there any option or skill that does this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pedr0p\"> /u/pedr0p </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv3ykf/can_i_fork_conversations_with_claude/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv3ykf/can_i_fork_conversations_with_claude/\">[comments]</a></span>",
+      "published": "2026-06-02T20:58:05+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Max 20x users — how are you actually using this much capacity?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv891y/max_20x_users_how_are_you_actually_using_this/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I recently upgraded to the Max 20x plan to build my startup (a React Native / Expo mobile app, working mostly solo). I'm using Claude Code, Claude Design, and the web app daily, and yet the highest usage I've ever hit is around 10%.</p> <p>I keep seeing people mention they regularly burn through 50%+, and I can't figure out what they're doing differently. I don't think the goal is to &quot;spend more&quot; for its own sake — I'm just clearly leaving a lot of value on the table that I'm paying for.</p> <p>So, genuinely: what does a high-leverage Max 20x workflow look like?</p> <p>- Are you running multiple Claude Code sessions in parallel?</p> <p>- Using subagents / long autonomous tasks?</p> <p>- Feeding in large codebases / long context?</p> <p>- Any patterns or habits that made you noticeably more productive?</p> <p>Would love concrete examples from people shipping real products. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/qGonner\"> /u/qGonner </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv891y/max_20x_users_how_are_you_actually_using_this/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv891y/max_20x_users_how_are_you_actually_using_this/\">[comments]</a></span>",
+      "published": "2026-06-02T23:43:49+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Why does Claude sound less AI than other AI?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuqo29/why_does_claude_sound_less_ai_than_other_ai/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Something about the way claude can write sounds more human. I think it's that it can telegraph a thought without completely leaking it as soon as it thinks it, like it has something in mind while it's beating around the bush but it's also not too verbose. It's efficient</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/2EXTRA4YOU\"> /u/2EXTRA4YOU </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuqo29/why_does_claude_sound_less_ai_than_other_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuqo29/why_does_claude_sound_less_ai_than_other_ai/\">[comments]</a></span>",
+      "published": "2026-06-02T13:16:13+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "wtff?!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tug8df/wtff/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tug8df/wtff/\"> <img alt=\"wtff?!\" src=\"https://preview.redd.it/yqen1ob2rs4h1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=0ce48ec2a0f8145b9779c9df145df1471aee138a\" title=\"wtff?!\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/loopsale\"> /u/loopsale </a> <br /> <span><a href=\"https://i.redd.it/yqen1ob2rs4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tug8df/wtff/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T04:27:48+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "So, are we expecting Mythos to launch on June 15?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv72v9/so_are_we_expecting_mythos_to_launch_on_june_15/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><ul> <li>When Opus 4.8 launched, the announcement claimed Mythos to be arriving in the &quot;coming weeks&quot;</li> <li>June 15 is when the new &quot;claude -p&quot; pricing rules kick in - usage of &quot;claude -p&quot; and the &quot;Claude Agent SDK&quot; etc. will now be treated differently (usage credits per month based on your plan, further use is under &quot;extra usage&quot;)</li> </ul> <p>Seems pretty likely that that's the day they launch Mythos, and it's all lined up so you can't use &quot;claude -p&quot; to invoke it programmatically using your subscription usage. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ascendant23\"> /u/ascendant23 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv72v9/so_are_we_expecting_mythos_to_launch_on_june_15/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv72v9/so_are_we_expecting_mythos_to_launch_on_june_15/\">[comments]</a></span>",
+      "published": "2026-06-02T22:55:50+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "i gave claude godotiq and let it build a whole 3d game by itself, no human touched it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuy14g/i_gave_claude_godotiq_and_let_it_build_a_whole_3d/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuy14g/i_gave_claude_godotiq_and_let_it_build_a_whole_3d/\"> <img alt=\"i gave claude godotiq and let it build a whole 3d game by itself, no human touched it\" src=\"https://external-preview.redd.it/MTQ4emh6YWFudzRoMYM9czsAYQsVHR2J523JyemLzGjNoZINcuT9Zq3RIFx2.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8d419bb0bb0bb9500b2ee07486ada1830e3853e7\" title=\"i gave claude godotiq and let it build a whole 3d game by itself, no human touched it\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>normally a coding agent is blind inside a game engine, it can't see the 3d scene so it just guesses and breaks things. godotiq is the mcp tool i make that fixes that, it gives claude real sight inside godot: place nodes in space, wire signals, run the game, read live state. so i handed it over and let claude build a game with zero help from me.</p> <p>what came out is marble gauntlet, a 3d marble platformer, two full levels with saws, spikes, a cannon that fires you across a chasm, gems and best times. physics, camera, menus, sound, hundreds of objects per level, all built by claude. no human placed a single node or wrote a line of gameplay code.</p> <p>play it → <a href=\"http://godotiq.com\">godotiq.com</a></p> <p>just a demo, left rough on purpose so you can see what it does unsupervised. with me actually working alongside it the thing would be a lot cleaner. and since it's my tool, free tier covers plenty but a full game like this needs pro, just being straight.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jf_nash\"> /u/jf_nash </a> <br /> <span><a href=\"https://v.redd.it/gdik9q8anw4h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuy14g/i_gave_claude_godotiq_and_let_it_build_a_whole_3d/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T17:32:24+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "CLAUDE.md that solves the compaction/context loss problem and enforces handoff discipline to continue work across multiple sessions",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuvtk8/claudemd_that_solves_the_compactioncontext_loss/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>As conversations in a session prolong, Claude auto-compacts to continue the conversation with a summarised context. </p> <p>Such a summarisation loses key information making a user feel that Claude is drifting / forgetting. Users then fall into the trap of continuously repeating and explaining to Claude. </p> <p>Built a <a href=\"https://github.com/Poorna-Repos/claude-context-survival-kit\">CLAUDE.md</a> and template system that keeps Claude's session state on disk instead of in conversation memory, so context survives Claude's compaction. </p> <p>The rules that load every session with this Claude md take about 3.5K tokens of context; the larger files load only when they are needed.</p> <p>GitHub: <a href=\"https://github.com/Poorna-Repos/claude-context-survival-kit\">Claude Context Survival Kit</a></p> <p><strong>What Claude compaction loses:</strong></p> <ul> <li>Claude's default summarization drops five specific things, in this order:</li> <li>Precise numbers get rounded or dropped.</li> <li>Conditional logic (IF/BUT/EXCEPT) collapses.</li> <li>Decision rationale disappears. Only the WHAT survives, not the WHY. Without the reason, all decisions end up getting equal weightage which was not the original intent of that decision, but such intent is lost to compaction</li> <li>Cross-document relationships flatten</li> <li>Open questions get silently resolved as settled or resolved questions show open</li> </ul> <p>Asking Claude to self-summarize triggers the same compression. The fix is not better summarization. It is a structured template with explicit fields that block those five failures mechanically.</p> <p><strong>What's in this Claude md:</strong></p> <ul> <li>Six context-management rules. The central one is to write state to disk instead of conversation.</li> <li>A session handoff protocol, so the next session resumes from the previous stopping point.</li> <li>One handoff template, with a field for each of the five loss modes above</li> <li>Subagent output contracts: structured returns that keep subagent prose from re-introducing the same compression.</li> <li>A document-processing rule that prevents bulk reading.</li> <li>Error recovery for cases where compaction still fires.</li> <li>About 3.5K tokens of always-loaded rules, with the larger handoff template pulled in only when a handoff needs to be written.</li> </ul> <p><strong>What it does</strong></p> <ul> <li>Manual compaction at 60–70% of the context window, after state is written to disk instead of waiting till 90 to 95% context filling. Because it is within this range that Claude can still summarise according to the rules without losing information. (This is just my comfort, users can chose differently)</li> <li>Session handoffs as structured files that let the next session resume precisely. By message 30, each exchange carries about 50K tokens of accumulated history. A fresh session resuming from a handoff starts near 5K tokens, about 10× less per message.</li> <li>Subagent output contracts. Free-form subagent prose recreates the compression problem, so document-analysis, research, and review subagents return structured formats instead.</li> <li>A &quot;Do NOT re-read&quot; field in every handoff, which tells Claude which files it already summarized so it does not spend tokens reading them again.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolreddy\"> /u/coolreddy </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuvtk8/claudemd_that_solves_the_compactioncontext_loss/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuvtk8/claudemd_that_solves_the_compactioncontext_loss/\">[comments]</a></span>",
+      "published": "2026-06-02T16:17:51+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I built a kanban that runs Claude on a cron",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv0fl6/i_built_a_kanban_that_runs_claude_on_a_cron/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv0fl6/i_built_a_kanban_that_runs_claude_on_a_cron/\"> <img alt=\"I built a kanban that runs Claude on a cron\" src=\"https://external-preview.redd.it/TQV2jVll38WfRG6b72jGwRWGmKiE0jXThyeVdtlmCoE.png?width=140&amp;height=73&amp;auto=webp&amp;s=f01c96ce23d5692b6f9655c5e4efbbdcd90af10a\" title=\"I built a kanban that runs Claude on a cron\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://reddit.com/link/1tv0fl6/video/xcz1bbnx0x4h1/player\">https://reddit.com/link/1tv0fl6/video/xcz1bbnx0x4h1/player</a></p> <p>I've been using Claude Code on my laptop for months and it's great while I'm sitting in front of it. But I wanted something a little more autonomous</p> <p>So I built one. It's a kanban board where each ticket spawns a Claude Code session that:</p> <ol> <li><p>Clones the repo into an isolated environment</p></li> <li><p>Runs the Claude Agent SDK on the ticket body</p></li> <li><p>Commits + pushes via a GitHub App as a bot account (Vercel preview then builds, because the commits aren't from a personal account)</p></li> <li><p>Opens a PR</p></li> <li><p>Spawns a SECOND Claude session as the QA agent that drives the preview deploy via Browserbase + Playwright MCP</p></li> <li><p>If QA fails, the build agent gets the QA report and iterates up to 3 retries</p></li> </ol> <p>The thing I'm most proud of: the MCP integration. I'm in Claude Code and I just say &quot;make a notesasm ticket for the dark mode bug&quot; and it lands on the board with my git remote auto-attached. No tab-switching, no copy-paste. The MCP server runs in our cloud so there's nothing to npm-install.</p> <p>The board also handles recurring tickets. e.g. &quot;every weekday at 9am, read these GitHub issues and file a ticket for anything labeled P0.&quot;</p> <p>So when I wake up the board has stuff to review.</p> <p>I'm slowly expanding past just code and have added integrations that can help automate lots of other workflows (like emails, social media posts, outreach, etc)</p> <p>Open beta at <a href=\"http://notesasm.com\">notesasm.com</a> free to try - email me at [<a href=\"mailto:kavin@notesasm.com\">kavin@notesasm.com</a>](mailto:<a href=\"mailto:kavin@notesasm.com\">kavin@notesasm.com</a>) and I'll upgrade you to PRO for free.</p> <p>Trying to find Claude Code users who'd actually use this.</p> <p>Happy to answer technical questions, what would you want to know?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FormExtension7920\"> /u/FormExtension7920 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv0fl6/i_built_a_kanban_that_runs_claude_on_a_cron/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv0fl6/i_built_a_kanban_that_runs_claude_on_a_cron/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T18:53:14+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude Exported Data (Conversations) Offline Extractor and Browser",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv74g6/claude_exported_data_conversations_offline/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv74g6/claude_exported_data_conversations_offline/\"> <img alt=\"Claude Exported Data (Conversations) Offline Extractor and Browser\" src=\"https://preview.redd.it/4d69195s8y4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e40ecdf8a02ed3607cb56ef37234182360a98275\" title=\"Claude Exported Data (Conversations) Offline Extractor and Browser\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi. I am new to Claude, I have figured out there is this Settings → Privacy → Export data thing which sends zip file to your email with conversations.json inside containing your chats etc. File itself isn't readable much, I was looking for a tool which would allow me to browse it's content completely offline so my stuff isn't sent anywhere. Since I haven't found it it had to be written, except there was this Claude down failure today so I asked Grok to write it and here it is - it's in Python, I haven't created my github yet (gotta finish different stuff first) so no compiled version yet etc, just take it from pastebin and save as <strong>Claude_Exported_Data_Offline_Extractor_and_Browser.py</strong> You can browse your conversations in offline html where user and Claude have different background colors for readability. Feedback is welcome, I guess this can be polished more</p> <p><a href=\"https://pastebin.com/FACGtZk6\">https://pastebin.com/FACGtZk6</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/i_t_d\"> /u/i_t_d </a> <br /> <span><a href=\"https://i.redd.it/4d69195s8y4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv74g6/claude_exported_data_conversations_offline/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T22:57:38+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Running Coach",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv3rb2/running_coach/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I am using Claude to help coach me to a faster 5km time. I have had various coaches for different distances but decided to try Claude for a few months. Opus 4.8 is behaving differently and better I would say. It is much better and telling me what to do and having a structure whilst varying the session based on the prior day. </p> <p>It is using referenced data which gives some credibility. In addition, it is also stopping me from using it. We get through a chat and it seems to hint that, &quot;we are done&quot;. Just do the session tomorrow, run. Give feedback, upload GPX or screenshots. </p> <p>With the Strava MCP I am looking forward to seeing how this helps plus if I can create a better dashboard or template. Not just discussion.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aggressive_Purple_49\"> /u/Aggressive_Purple_49 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv3rb2/running_coach/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tv3rb2/running_coach/\">[comments]</a></span>",
+      "published": "2026-06-02T20:50:38+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "New Claude web memory options?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuln6s/new_claude_web_memory_options/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuln6s/new_claude_web_memory_options/\"> <img alt=\"New Claude web memory options?\" src=\"https://preview.redd.it/5yifz0bw7u4h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4c97b6e362052c7aaf73d85e5b1301df5f886ae1\" title=\"New Claude web memory options?\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BanitsaConnoisseur\"> /u/BanitsaConnoisseur </a> <br /> <span><a href=\"https://i.redd.it/5yifz0bw7u4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1tuln6s/new_claude_web_memory_options/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T09:22:15+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "the average 2026 software engineer experience",
+      "url": "https://www.reddit.com/r/cursor/comments/1tur35l/the_average_2026_software_engineer_experience/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1tur35l/the_average_2026_software_engineer_experience/\"> <img alt=\"the average 2026 software engineer experience\" src=\"https://preview.redd.it/1edy6qa3gv4h1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=341407430e20f62169861a8143266b63b08c5ecc\" title=\"the average 2026 software engineer experience\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>please tell me its not only me who has been through this :(</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/irelatetolevin\"> /u/irelatetolevin </a> <br /> <span><a href=\"https://i.redd.it/1edy6qa3gv4h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tur35l/the_average_2026_software_engineer_experience/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T13:31:57+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Just one more prompt",
+      "url": "https://www.reddit.com/r/cursor/comments/1tuo7hk/just_one_more_prompt/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1tuo7hk/just_one_more_prompt/\"> <img alt=\"Just one more prompt\" src=\"https://preview.redd.it/cjjqozm1vu4h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=75eba520c3a486581b0f90f94877d7794cb4eb15\" title=\"Just one more prompt\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have lost more money vibe coding than at the casino</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/irelatetolevin\"> /u/irelatetolevin </a> <br /> <span><a href=\"https://i.redd.it/cjjqozm1vu4h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuo7hk/just_one_more_prompt/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T11:33:56+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Cursor / Codex workflow in serious SaaS project.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tv36mn/cursor_codex_workflow_in_serious_saas_project/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I’m looking for advice on how to build the most effective workflow around <strong>Codex + Composer 2.5 in Cursor</strong> for a real product, not just a quick prototype.</p> <p>I’m currently working on a domain-specific SaaS application for professional advisors. In short, it combines client management, simulation/calculation flows, reporting, and long-term follow-up support. I don’t want to share sensitive business details, but the project has moved past the “toy MVP” stage and I’m trying to keep the codebase, architecture, documentation, and AI-assisted workflow under control as it grows.</p> <p>My current setup looks like this:</p> <ul> <li><strong>GPT-5.5</strong> acts as the strategic layer / prompt engineer / product-thinking assistant.</li> <li><strong>I act as the decision-maker</strong>: I approve scope, choose priorities, and decide what should or should not be implemented.</li> <li><strong>Codex in Cursor</strong> is used for code-oriented analysis, audits, and implementation support.</li> <li><strong>Composer 2.5</strong> is used as an execution agent for focused, well-scoped code changes and UI/code tasks.</li> <li>We work in short, controlled sprints rather than asking the agent to change too many things at once.</li> </ul> <p>One of the biggest problems I’m trying to solve is <strong>context decay</strong>. AI agents often lose track of previous decisions, architectural constraints, product goals, and why certain things were implemented in a specific way.</p> <p>To reduce that, we maintain project documentation specifically designed for AI context recall. Before bigger changes, the model is asked to read or reconstruct the relevant project context first. We also document important decisions, sprint results, technical debt, domain rules, and future roadmap items in the repo, so the AI does not rely only on conversation memory.</p> <p>The workflow is roughly:</p> <ol> <li>I propose a direction or product question.</li> <li>GPT-5.5 helps evaluate the idea and turns it into a small, controlled sprint.</li> <li>The sprint prompt is prepared with context, scope, acceptance criteria, files to inspect, and verification steps.</li> <li>Codex / Composer works inside Cursor.</li> <li>The result must include changed files, reasoning, tests/lint/build results, risks, and documentation updates if needed.</li> <li>I review and decide whether to merge, revise, or stop.</li> </ol> <p>What I’m trying to optimize now:</p> <ul> <li>How should I divide responsibilities between <strong>Codex</strong>, <strong>Composer 2.5</strong>, and a reasoning model like <strong>GPT-5.5</strong>?</li> <li>When should I use Composer vs Codex?</li> <li>How do you keep AI coding agents “on rails” and prevent them from over-editing?</li> <li>What kind of documentation structure works best for long-term AI-assisted development?</li> <li>Do you use dedicated files like <a href=\"http://agents.md/\"><code>AGENTS.md</code></a>, sprint logs, decision records, domain rules, or architecture notes?</li> <li>How do you force the model to respect existing architecture instead of constantly reinventing things?</li> <li>What is the best prompt structure for implementation tasks in Cursor?</li> <li>How do you handle context refresh before larger changes?</li> <li>How much autonomy do you give to the coding agent?</li> <li>What verification checklist do you require before accepting AI-generated code?</li> </ul> <p>I’m especially interested in workflows from people who use AI coding tools on larger projects where maintainability matters.</p> <p>My goal is not just to generate code faster, but to create a repeatable system where:</p> <ul> <li>the right model does the right job,</li> <li>context is preserved,</li> <li>implementation stays small and reviewable,</li> <li>architecture does not slowly degrade,</li> <li>documentation remains useful for both humans and AI,</li> <li>and the final code quality is actually better, not just faster.</li> </ul> <p>Would love to hear how you structure your own Codex / Cursor / Composer workflows, what mistakes you’ve made, and what rules or habits made the biggest difference.</p> <p>Any advice would be worth more than a kiss from Johny Bravo himself.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Young_gato777\"> /u/Young_gato777 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv36mn/cursor_codex_workflow_in_serious_saas_project/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv36mn/cursor_codex_workflow_in_serious_saas_project/\">[comments]</a></span>",
+      "published": "2026-06-02T20:29:36+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Auto is now less mysterious and terrifying to me",
+      "url": "https://www.reddit.com/r/cursor/comments/1tv6tad/auto_is_now_less_mysterious_and_terrifying_to_me/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/cursor/comments/1tv6tad/auto_is_now_less_mysterious_and_terrifying_to_me/\"> <img alt=\"Auto is now less mysterious and terrifying to me\" src=\"https://preview.redd.it/4xsbcaw33y4h1.png?width=140&amp;height=115&amp;auto=webp&amp;s=3837db24a9bf35fd673b9eda0a2ff46d793ddd17\" title=\"Auto is now less mysterious and terrifying to me\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>No idea if this is helpful for others, but as a recovering Autophobe I thought I'd share.</p> <p>First off, a confession: I'm one of those agentmaxxer users who has literally never used tab complete in my life, apologies in advance for being uncool.</p> <p>Anyway, I've been a daily Cursor user for months now, and have always lived in fear of Auto and avoided it like the plague due to uncertainty. In my head I've always used the most recent Composer model as my minimum bar for implementation, let alone planning, so could never figure out when and why I'd use Auto over Composer given the opacity. Mainly I was worried it might route to older, crappier composer models than the current one, and that I wouldn't realize it due to not being technical enough (I'd consider myself semi-technical at best, as former long-time technical product manager in some weird purgatory between engineer and non-coder).</p> <p>Anyway, I'm starting to experiment with it now after being so impressed with Composer 2.5 and also reading here on Reddit that Auto is apparently more likely to route to *better* frontier models than older, crappier Composer models, and seeing a number of you people prefer Auto over Composer for planning (side note: I'm curious if you all still feel that way after using 2.5 for a bit??)</p> <p>What I've been doing today, in case helpful for others: using Auto to plan a major feature, and literally copying and pasting to Claude Code to have Opus evaluate it and poke holes (since of course I blow through my Cursor frontier model credits within like 3 days into each plan month). Then, I give them each other's pushback and see where they converge. Here's some screenshots of the convos I've been referee-ing.</p> <p>I can't say exactly how Composer with Opus oversight would perform vs. Auto with Opus oversight, but I'm hoping if I build enough large features that way I may eventually see patterns to help me calibrate that. I would be curious what you all recommend too, as what y'all are seeing as far as Auto vs. Composer for high level planning on full-stack features that also include schema changes &amp; migrations.</p> <p>Obviously I am more than open to you all suggesting better workflows here too, or any way to automate or streamline this process. I know my copy-pasting is not exactly emblematic of the great agentic future we're emerging into and I feel like a n00b even revealing to you all that I'm doing something that feels so relatively analog, but here we are.</p> <p><a href=\"https://preview.redd.it/4xsbcaw33y4h1.png?width=1990&amp;format=png&amp;auto=webp&amp;s=72e14266e1cf029164eb812ca6ab9955307c295c\">https://preview.redd.it/4xsbcaw33y4h1.png?width=1990&amp;format=png&amp;auto=webp&amp;s=72e14266e1cf029164eb812ca6ab9955307c295c</a></p> <p><a href=\"https://preview.redd.it/5s3z0aw33y4h1.png?width=2006&amp;format=png&amp;auto=webp&amp;s=4c63a10f4a727430d90de1073647f50d30e6091b\">https://preview.redd.it/5s3z0aw33y4h1.png?width=2006&amp;format=png&amp;auto=webp&amp;s=4c63a10f4a727430d90de1073647f50d30e6091b</a></p> <p><a href=\"https://preview.redd.it/l4o4raw33y4h1.png?width=1456&amp;format=png&amp;auto=webp&amp;s=c7c8561ba0425e95daee4c76dd580ca389938614\">https://preview.redd.it/l4o4raw33y4h1.png?width=1456&amp;format=png&amp;auto=webp&amp;s=c7c8561ba0425e95daee4c76dd580ca389938614</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PresidentBitin\"> /u/PresidentBitin </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv6tad/auto_is_now_less_mysterious_and_terrifying_to_me/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv6tad/auto_is_now_less_mysterious_and_terrifying_to_me/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T22:45:08+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Why is the deal vanished? 100$ for ultra for the 1st month",
+      "url": "https://www.reddit.com/r/cursor/comments/1tv7t92/why_is_the_deal_vanished_100_for_ultra_for_the/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>I am currently at 60$ Pro+ plan, and I swear I saw a notification from Cursor IDE, which offered me a deal to upgrade to ultra for 100$ only for the 1st month.</p> <p>Well, I'm just about to finish my pro plan and I'm looking for that deal again and I can't find it.</p> <p>Has anyone encountered it? if it matters my Cursor account was created around March and I upgraded to monthly Pro+ in the beginning of April</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Effective-Barnacle99\"> /u/Effective-Barnacle99 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv7t92/why_is_the_deal_vanished_100_for_ultra_for_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv7t92/why_is_the_deal_vanished_100_for_ultra_for_the/\">[comments]</a></span>",
+      "published": "2026-06-02T23:25:33+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "How to request a refund?",
+      "url": "https://www.reddit.com/r/cursor/comments/1tv6e4q/how_to_request_a_refund/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I am really unhappy with the quality of the model. At least, that is the problem for my acc. Composer is literally so dumb right now. It was good only first week of release. So I want a refund. </p> <p>Is there a public email I can contact? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Osprey6767\"> /u/Osprey6767 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv6e4q/how_to_request_a_refund/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv6e4q/how_to_request_a_refund/\">[comments]</a></span>",
+      "published": "2026-06-02T22:28:37+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Agentic coding didn't make me faster it just moved the work to review",
+      "url": "https://www.reddit.com/r/cursor/comments/1tuip8p/agentic_coding_didnt_make_me_faster_it_just_moved/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>i've been trying agentic coding for a few months now, letting claude code or cursor run a whole task end to end instead of babysitting every line. and yeah, it produces a working feature faster than i would have on my own. </p> <p>the part nobody really talks about is what happens after. i'm not writing the code anymore but i'm reading way more of it, and reading code you didn't write is slower and more annoying than just writing it yourself. so my actual day didn't get shorter, the writing chunk just got swapped for a much bigger reviewing chunk. </p> <p>it gets worse when the diff is big. a 600 line change where half of it is the model refactoring imports for no reason, and now i'm looking for the 80 lines that actually matter. (it's the same thing people complain about with normal PR review, the model just made the diffs bigger) </p> <p>we run coderabbit on PRs for the first pass now, mostly so the obvious stuff is already flagged before i open it, and i can spend my attention on whether the approach is even right. that helps but it doesn't really change the shape of the problem. someone still has to decide if 600 lines of plausible looking code is correct. </p> <p>i don't think agentic coding is bad. i just think the people claiming a 10x speedup are counting the writing and ignoring the reviewing part</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/notomarsol\"> /u/notomarsol </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuip8p/agentic_coding_didnt_make_me_faster_it_just_moved/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuip8p/agentic_coding_didnt_make_me_faster_it_just_moved/\">[comments]</a></span>",
+      "published": "2026-06-02T06:36:01+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Stuck in endless code-review cascades",
+      "url": "https://www.reddit.com/r/cursor/comments/1tulzd6/stuck_in_endless_codereview_cascades/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>The more I disconnected from understanding the code that's written by AI, the less code I reviewed manually. </p> <p>We have like 3 review agents (CodeRabbit, cubic, Greptile) that analyze and review every pull request. </p> <p>However, since I don't invest time in understanding the code, I also don't understand the review items - so I end up copying and pasting every item back and forth to the agent who implemented the code. </p> <p>But every new commit that fixes an 'issue' triggers 3 more newly generated review findings - which I end up copying and pasting to the agent again. </p> <p>Am I the only one with 3+ cycles on code reviews? Do I need to start understanding code again?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/julianfromstagewise\"> /u/julianfromstagewise </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tulzd6/stuck_in_endless_codereview_cascades/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tulzd6/stuck_in_endless_codereview_cascades/\">[comments]</a></span>",
+      "published": "2026-06-02T09:40:53+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Which model do you think is the best for planning and executing?",
+      "url": "https://www.reddit.com/r/cursor/comments/1tuw09a/which_model_do_you_think_is_the_best_for_planning/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>Recently, I switched from using Cursor in &quot;auto&quot; mode to first using &quot;ask&quot; mode in my projects with models like Sonnet or Opus to create my execution plans. I feel like by balancing my usage, costs haven't increased that much.</p> <p>Then, I execute those plans using Composer, although I sometimes feel like it gets stuck if the task has a certain level of complexity or if the plan isn't specific enough.</p> <p>Do you use a similar workflow, or how do you usually do it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Definite7777\"> /u/Definite7777 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuw09a/which_model_do_you_think_is_the_best_for_planning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuw09a/which_model_do_you_think_is_the_best_for_planning/\">[comments]</a></span>",
+      "published": "2026-06-02T16:24:13+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "I couldn't afford the X API, so I turned my Grok subscription into a live-search tool for any coding agent",
+      "url": "https://www.reddit.com/r/cursor/comments/1tv2lol/i_couldnt_afford_the_x_api_so_i_turned_my_grok/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I wanted my coding agent to see what is actually current (new releases, breaking changes, what people on X say about a library) instead of guessing from old training data. The X developer API was too expensive for a side project, and hosted X-data MCPs were not cheap either.</p> <p>So I used the Grok CLI I already pay for, since it can read X and the web in real time, and wrapped that one capability as an MCP server. It is a single tool, grok_search(query), that returns an answer plus a sources list (with <a href=\"http://x.com\">x.com</a> links when it uses posts).</p> <p>Because it is MCP, it is not tied to one agent. It works in Claude Code, Codex, Cursor, or anything that speaks MCP, and there is also a native Claude Code / Grok plugin in the same repo if you prefer slash commands.</p> <p>One thing that is good to be clear about: this needs the Grok CLI installed and signed in. It is a thin wrapper around that, not a standalone server. If you already pay for Grok, there is no extra cost. The main thing it adds is live X plus web data inside any MCP compatible agent. </p> <p>Repo: <a href=\"http://github.com/VasiHemanth/grok-mcp\">github.com/VasiHemanth/grok-mcp</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Extension-Aside29\"> /u/Extension-Aside29 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv2lol/i_couldnt_afford_the_x_api_so_i_turned_my_grok/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv2lol/i_couldnt_afford_the_x_api_so_i_turned_my_grok/\">[comments]</a></span>",
+      "published": "2026-06-02T20:08:38+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Unified memory mini PCs can load bigger models than my tower but feel worse for agentic coding",
+      "url": "https://www.reddit.com/r/cursor/comments/1tv5u2q/unified_memory_mini_pcs_can_load_bigger_models/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><pre><code>Been watching a bunch of Geekom and similar mini PC reviews this week and the unified memory pitch is everywhere. Load a 70b on something the size of a router, no offload drama. Looks great on paper. For agentic coding full tool access that works, the same reviews and my own tinkering keep hitting the same wall. The model fits. The bus speed and GPU throughput can't keep up once context gets chunky. Every step waits on the last one and you're just sitting there. A tower with a proper discrete GPU in my opinion is better for similar money even if it won't swallow as big a model. Obvious tradeoff. Mini wins on fit, tower wins on speed. What's caught my eye lately is all the CPU inference chatter. A lot of the direction this week seems to be efficient CPU paths, not just &quot;buy more VRAM&quot;. So when you're planning a local setup, raw VRAM capacity might not be the only thing worth optimising for anymore. Anyone else picking a tower over a unified memory mini for agent work, or found one that stays fast once you're actually coding with it? </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/agenticStandard\"> /u/agenticStandard </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv5u2q/unified_memory_mini_pcs_can_load_bigger_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tv5u2q/unified_memory_mini_pcs_can_load_bigger_models/\">[comments]</a></span>",
+      "published": "2026-06-02T22:07:33+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Need explanation about the enterprise pricing plan in cursor",
+      "url": "https://www.reddit.com/r/cursor/comments/1tuxwrd/need_explanation_about_the_enterprise_pricing/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I've been using Cursor since last year. I work at a company with around 50 employees, and currently about 3 people share a single Cursor account. We have more than 15 Cursor accounts on the $20/month plan. Not only our office, but other branches of the company use Cursor as well, so in total there are probably around 400 users across the organization.</p> <p>I'm considering switching from these individual accounts to an Enterprise plan, but I don't know much about how it works.</p> <p>Could someone explain the Enterprise plan to me? I'd especially like to know about the features, pricing, user management, security, and whether it would be a better fit for a company of our size.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tamilsmoke\"> /u/tamilsmoke </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuxwrd/need_explanation_about_the_enterprise_pricing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuxwrd/need_explanation_about_the_enterprise_pricing/\">[comments]</a></span>",
+      "published": "2026-06-02T17:28:31+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "does anyone here still has the cursor legacy plan?",
+      "url": "https://www.reddit.com/r/cursor/comments/1tukgxz/does_anyone_here_still_has_the_cursor_legacy_plan/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>just wondering does anyone here still has the cursor legacy plan? the one with 500 usage per month and unlimited free auto?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MasterThonz\"> /u/MasterThonz </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tukgxz/does_anyone_here_still_has_the_cursor_legacy_plan/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tukgxz/does_anyone_here_still_has_the_cursor_legacy_plan/\">[comments]</a></span>",
+      "published": "2026-06-02T08:15:52+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Need help with a billing issue, and support is non-existent",
+      "url": "https://www.reddit.com/r/cursor/comments/1tuth8i/need_help_with_a_billing_issue_and_support_is/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys, had a payment not go through. I paid the invoice now, but I can't upgrade my account because the interface keeps treating my invoice as &quot;unpaid&quot;. Even though when I click, I get sent to a Stripe link that the invoice was, in fact, paid. I'd prefer not to set up a new account. The AI support agent wasn't any help and I'm not sure he even escalated anything. </p> <p>Has anyone run into this and been able to overcome it? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bergamotmarmalade\"> /u/bergamotmarmalade </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuth8i/need_help_with_a_billing_issue_and_support_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuth8i/need_help_with_a_billing_issue_and_support_is/\">[comments]</a></span>",
+      "published": "2026-06-02T14:58:21+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "is cursor down?",
+      "url": "https://www.reddit.com/r/cursor/comments/1tum4t3/is_cursor_down/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>endlessly getting connection error on each and every model. anyone else facing this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/scriptiefiftie\"> /u/scriptiefiftie </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tum4t3/is_cursor_down/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tum4t3/is_cursor_down/\">[comments]</a></span>",
+      "published": "2026-06-02T09:49:29+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "There could be a fix the \"context rot\" issue",
+      "url": "https://www.reddit.com/r/cursor/comments/1tur5px/there_could_be_a_fix_the_context_rot_issue/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I posted about burning $12/week re-explaining my project to Claude. That post hit 13K views, and something interesting happened in the comments.</p> <p>I posted yesterday about context rot and from the comments and dms, what I understood is nobody argued about whether the problem was real. They argued about <em>which manual workaround was least painful</em>.</p> <ul> <li>&quot;Just use a .cursorrules file&quot;</li> <li>&quot;Maintain a <a href=\"http://CLAUDE.md\">CLAUDE.md</a> and paste it every session&quot;</li> <li>&quot;Keep an <a href=\"http://ARCHITECTURE.md\">ARCHITECTURE.md</a> in your repo&quot;</li> <li>&quot;Split into shorter chats under 20 turns&quot;</li> </ul> <p>Every single comment was a different flavor of <em>you</em> doing the work to compensate for <em>its</em> forgetfulness.</p> <p>That's when it clicked.</p> <p>The problem isn't that the AI has bad memory. The problem is that the AI starts every conversation as a stranger to your project. It doesn't know what you decided three weeks ago. It doesn't know why you chose Prisma over Drizzle. It doesn't know that you already tried the obvious solution and it broke prod.</p> <p>So we keep feeding it documents. But documents are static. They don't update when you change your mind. They don't know what you built yesterday. And they definitely don't travel with you across Cursor, Claude, ChatGPT, and whatever tool you try next week.</p> <p><strong>Here's what what could be a fix:</strong></p> <ul> <li>A system that <em>learns</em> your project architecture as you work — not from a one-time scan, but from an ongoing relationship with your codebase.</li> <li>Something that remembers not just <em>what</em> your code does, but <em>why</em> you built it that way — the constraints, the rejected alternatives, the patterns you settled on after three hours of debate.</li> <li>A way to carry that understanding across every new chat, every new session, every new tool — without you copying and pasting a single markdown file.</li> <li>A layer that sits between your intent and the AI's execution, so the AI doesn't suggest Express endpoints in your Clean Architecture setup after you've already explained it twice.</li> <li>Something that gets <em>smarter</em> the longer you use it, instead of resetting to zero every time you open a new tab.</li> </ul> <p>Let me know your thoughts </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/curiousityrover_1\"> /u/curiousityrover_1 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tur5px/there_could_be_a_fix_the_context_rot_issue/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tur5px/there_could_be_a_fix_the_context_rot_issue/\">[comments]</a></span>",
+      "published": "2026-06-02T13:34:39+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Why I stopped using 3 different tools to check my site",
+      "url": "https://www.reddit.com/r/cursor/comments/1tuqbzc/why_i_stopped_using_3_different_tools_to_check_my/",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical-Music2736\"> /u/Electrical-Music2736 </a> <br /> <span><a href=\"https://www.reddit.com/r/berylso/comments/1tuqbas/why_i_stopped_using_3_different_tools_to_check_my/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuqbzc/why_i_stopped_using_3_different_tools_to_check_my/\">[comments]</a></span>",
+      "published": "2026-06-02T13:03:09+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "my .cursorrules iteration framework after 3 weeks. structure that actually shipped.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tuhvo2/my_cursorrules_iteration_framework_after_3_weeks/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>been iterating on my .cursorrules across 3 weeks of agent dev work and landed on a 4-section structure that's been holding up. sharing in case it saves someone the trial-and-error i went through.</p> <p>section 1 — codebase context (5-8 lines). nothing aspirational, just facts: what language, what frameworks, what testing pattern. cursor uses this every prompt regardless of file scope.</p> <p>section 2 — explicit behaviors (15-20 lines). these are the &quot;do X&quot; / &quot;avoid Y&quot; rules that map to specific failures i'd seen. &quot;always check for null returns before chaining&quot; type stuff. measurable in output.</p> <p>section 3 — code style preferences (5-10 lines). functional vs class, naming conventions, comment depth. these felt cosmetic until i removed them and saw the regression in style consistency.</p> <p>section 4 — failure handlers (5-8 lines). &quot;if you don't know, ask for the file&quot; / &quot;if a test would help, write one.&quot; catches the cases where the model would otherwise guess and ship broken.</p> <p>what i removed and didn't miss: long philosophical paragraphs about engineering principles. cursor seems to summarize these into nothing. concrete behavioral rules outperform abstract values every time.</p> <p>what's still unclear: whether section ordering matters. i've kept context first because that felt right, never tested moving it.</p> <p>what's your structure look like? specifically curious if anyone's tested ordering or has a section i haven't thought of.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Practical_Low29\"> /u/Practical_Low29 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuhvo2/my_cursorrules_iteration_framework_after_3_weeks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tuhvo2/my_cursorrules_iteration_framework_after_3_weeks/\">[comments]</a></span>",
+      "published": "2026-06-02T05:51:50+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "For learning Python and AI engineering, which AI is most useful?",
+      "url": "https://www.reddit.com/r/cursor/comments/1tunmot/for_learning_python_and_ai_engineering_which_ai/",
+      "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fun2function\"> /u/fun2function </a> <br /> <span><a href=\"https://www.reddit.com/r/AskProgramming/comments/1tunlp3/for_learning_python_and_ai_engineering_which_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tunmot/for_learning_python_and_ai_engineering_which_ai/\">[comments]</a></span>",
+      "published": "2026-06-02T11:06:16+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "[ Removed by Reddit ]",
+      "url": "https://www.reddit.com/r/cursor/comments/1tun81n/removed_by_reddit/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>[ Removed by Reddit on account of violating the <a href=\"https://www.reddit.com/help/contentpolicy\">content policy</a>. ]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/montycarlos1419\"> /u/montycarlos1419 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tun81n/removed_by_reddit/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tun81n/removed_by_reddit/\">[comments]</a></span>",
+      "published": "2026-06-02T10:46:04+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "Cursor ide deletitself all the time",
+      "url": "https://www.reddit.com/r/cursor/comments/1tugglv/cursor_ide_deletitself_all_the_time/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Each time/ basically every day when I turn on my pc to get cursor do my work, I see the icon as a blank paper(which means cursor deleted itself).</p> <p>This is so annoying to waste time to download the installation over and over again, why can't it auto-update itself???</p> <p>Is there a fix to this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sinudra\"> /u/Sinudra </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tugglv/cursor_ide_deletitself_all_the_time/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tugglv/cursor_ide_deletitself_all_the_time/\">[comments]</a></span>",
+      "published": "2026-06-02T04:39:00+00:00"
+    },
+    {
+      "source_id": "reddit-cursor",
+      "title": "What's a good, affordable coding plan or API-based LLM to be used with Cursor Pro?",
+      "url": "https://www.reddit.com/r/cursor/comments/1tukl9t/whats_a_good_affordable_coding_plan_or_apibased/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm currently using the GLM Coding Plan that I got during their previous Black Friday sales. I'll use this once I ran out of the Cursor's Pro quota. The usage quota is very generous, but it doesn't come with the latest model (GLM 5.1).</p> <p>Any recommendation?</p> <p>Side question: If I use 3rd-party models, will my code be shared, or does Cursor's &quot;Privacy Mode&quot; still apply?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nyamuk91\"> /u/nyamuk91 </a> <br /> <span><a href=\"https://www.reddit.com/r/cursor/comments/1tukl9t/whats_a_good_affordable_coding_plan_or_apibased/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cursor/comments/1tukl9t/whats_a_good_affordable_coding_plan_or_apibased/\">[comments]</a></span>",
+      "published": "2026-06-02T08:22:34+00:00"
+    },
+    {
+      "source_id": "github-blog-ai",
+      "title": "GitHub Copilot app: The agent-native desktop experience",
+      "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+      "summary": "<p>At Microsoft Build 2026, GitHub introduced new tools, updates, and surfaces so agents can work the way you already work.</p>\n<p>The post <a href=\"https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/\">GitHub Copilot app: The agent-native desktop experience</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-06-02T17:30:03+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Please post your personal projects, startups, product placements, collaboration needs, blogs etc.</p> <p>Please mention the payment and pricing requirements for products and services.</p> <p>Please do not post link shorteners, link aggregator websites , or auto-subscribe links.</p> <p>--</p> <p>Any abuse of trust will lead to bans.</p> <p>Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>--</p> <p>Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/\">[comments]</a></span>",
+      "published": "2026-06-02T02:15:14+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "Browse CVPR 2026 papers on PapersWithCode [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/\"> <img alt=\"Browse CVPR 2026 papers on PapersWithCode [P]\" src=\"https://preview.redd.it/se5nr2z7tt4h1.png?width=140&amp;height=91&amp;auto=webp&amp;s=dc5f025b3936b18a0af5d2fba8f15a0112bdda74\" title=\"Browse CVPR 2026 papers on PapersWithCode [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/se5nr2z7tt4h1.png?width=3046&amp;format=png&amp;auto=webp&amp;s=7db15b73afb749da236e5bb50ff96372f6a3239b\">https://preview.redd.it/se5nr2z7tt4h1.png?width=3046&amp;format=png&amp;auto=webp&amp;s=7db15b73afb749da236e5bb50ff96372f6a3239b</a></p> <p>Hi,</p> <p>Niels here from the open-source team at Hugging Face. It's been 2 weeks since I <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/\">launched</a> <a href=\"http://paperswithcode.co/\">paperswithcode.co</a>, a revival of the website we all loved. It allows us to keep track of the state-of-the-art (SOTA) across various domains of AI, from agents to computer vision and time-series forecasting. </p> <p>I've just added conference support as a new feature. The idea is that you should be able to easily browse all papers of major AI conferences like NeurIPS, CVPR, and ICML.</p> <p>As CVPR 2026 takes place next week in Denver, USA, I've indexed all papers with corresponding arXiv IDs. They are categorized by task, and tagged with linked GitHub and project page URLs, Hugging Face artifacts, and evals. </p> <p>You can also browse the papers which were accepted for an Oral presentation as well as the Spotlight papers.</p> <p>You can try it at <a href=\"https://paperswithcode.co/conferences\">https://paperswithcode.co/conferences</a>!</p> <p>Feel free to leave feedback.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NielsRogge\"> /u/NielsRogge </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-02T08:32:17+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "MTPAMI Survey Paper Length for submission time? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1turyvl/mtpami_survey_paper_length_for_submission_time_d/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>My paper is around 33 pages including but tpami guideline said it should be 20 pages</p> <p>Does anyone know which is correct?</p> <p>Its mistake it’s TPAMI</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alternative_Art2984\"> /u/Alternative_Art2984 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1turyvl/mtpami_survey_paper_length_for_submission_time_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1turyvl/mtpami_survey_paper_length_for_submission_time_d/\">[comments]</a></span>",
+      "published": "2026-06-02T14:04:54+00:00"
+    },
+    {
+      "source_id": "reddit-ml",
+      "title": "Backpropagation destroys V1 brain alignment in one epoch, tracking RSA alignment to fMRI across training for BP, FA, predictive coding, and STDP [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Third in a series of papers tracking learning rules vs. human fMRI (THINGS dataset, V1–IT, N=3 subjects).</p> <p>Previous finding: untrained CNNs match backprop at V1. This paper asks: when does training break that, and does the learning rule matter?</p> <p><strong>Setup:</strong> RSA alignment measured at 8 checkpoints (epochs 0, 1, 2, 5, 10, 20, 30, 40), 5 seeds per rule, same architecture throughout.</p> <p><strong>Main findings:</strong></p> <ol> <li>BP drops 90% of V1 alignment after one epoch (r: 0.102 → 0.011, p = 0.031, consistent across all 5 seeds). FA drops 49%. PC and STDP drop only 25–31% and stabilise.</li> <li>By epoch 40: PC (r = 0.064) &gt; STDP (0.059) &gt;&gt; BP (0.022) ≈ FA (0.019). Cohen's d &gt; 5 for PC/STDP vs BP: extremely consistent across seeds.</li> <li>Opposing trend at LOC: BP shows a small increase in object-selective cortex alignment (+0.011) while local rules show nothing. Suggests a fundamental trade-off: global error signals build higher representations but destroy early ones.</li> <li>Degradation rate tracks error signal globality: exact gradients (BP) &gt; random feedback (FA) &gt; local prediction errors (PC, STDP).</li> </ol> <p><strong>Limitations worth noting:</strong></p> <ul> <li>5 seeds caps permutation test resolution at p ≈ 0.031</li> <li>Training on 32×32 CIFAR-10, evaluated on 224×224 THINGS, resolution/domain shift is a confound</li> <li>LOC increase not tested for significance, treated as suggestive</li> </ul> <p>Paper: <a href=\"http://arxiv.org/abs/2605.30556\">arxiv.org/abs/2605.30556</a></p> <p>Companion: <a href=\"http://arxiv.org/abs/2604.16875\">arxiv.org/abs/2604.16875</a> </p> <p>Code: <a href=\"http://github.com/nilsleut\">github.com/nilsleut</a></p> <p>Curious whether anyone has seen similar dynamics in larger architectures, the prediction would be that deeper models show the same pattern but more slowly.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ConfusionSpiritual19\"> /u/ConfusionSpiritual19 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/\">[comments]</a></span>",
+      "published": "2026-06-02T12:43:47+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "url": "https://openai.com/index/travelers",
+      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "published": "2026-06-02T12:00:00+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Codex for every role, tool, and workflow",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "published": "2026-06-02T09:00:00+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "published": "2026-06-02T07:00:00+00:00"
+    },
+    {
+      "source_id": "openai-blog",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "published": "2026-06-02T02:00:00+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "YouTube Auto speed for premium members [video]",
+      "url": "https://www.youtube.com/shorts/P2cdhi1aSac",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/shorts/P2cdhi1aSac\">https://www.youtube.com/shorts/P2cdhi1aSac</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377866\">https://news.ycombinator.com/item?id=48377866</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:56:13+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "1 in 5 U.S. Adolescents and Young Adults Use AI Chatbots for Mental Health",
+      "url": "https://www.rand.org/news/press/2026/06/nearly-1-in-5-us-adolescents-and-young-adults-use-ai.html",
+      "summary": "<p>Article URL: <a href=\"https://www.rand.org/news/press/2026/06/nearly-1-in-5-us-adolescents-and-young-adults-use-ai.html\">https://www.rand.org/news/press/2026/06/nearly-1-in-5-us-adolescents-and-young-adults-use-ai.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377862\">https://news.ycombinator.com/item?id=48377862</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:55:43+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Winners of the 2026 Apple Design Awards",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/",
+      "summary": "<p>Article URL: <a href=\"https://www.apple.com/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/\">https://www.apple.com/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377861\">https://news.ycombinator.com/item?id=48377861</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:55:39+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "More than 6 out of 10 people turn to AI for psychological support",
+      "url": "https://www.axa.com/en/press/press-releases/2026-mind-health-report",
+      "summary": "<p>Article URL: <a href=\"https://www.axa.com/en/press/press-releases/2026-mind-health-report\">https://www.axa.com/en/press/press-releases/2026-mind-health-report</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377854\">https://news.ycombinator.com/item?id=48377854</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:55:04+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Why Does OpenAI Pretend to Be a Nonprofit?",
+      "url": "https://www.wsj.com/opinion/why-does-openai-pretend-to-be-a-nonprofit-ca83ed83",
+      "summary": "<p>Article URL: <a href=\"https://www.wsj.com/opinion/why-does-openai-pretend-to-be-a-nonprofit-ca83ed83\">https://www.wsj.com/opinion/why-does-openai-pretend-to-be-a-nonprofit-ca83ed83</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377840\">https://news.ycombinator.com/item?id=48377840</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:53:04+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "2× – nine months later: We did it",
+      "url": "https://ideas.fin.ai/p/2x-nine-months-later",
+      "summary": "<p>Article URL: <a href=\"https://ideas.fin.ai/p/2x-nine-months-later\">https://ideas.fin.ai/p/2x-nine-months-later</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377839\">https://news.ycombinator.com/item?id=48377839</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:53:02+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Why Fossil DVCS is so awesome for the lone developer; A podcast",
+      "url": "https://news.ycombinator.com/item?id=48377821",
+      "summary": "<p>See my youtube video at:\nhttps://www.youtube.com/watch?v=DGYWkJUAl8E</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377821\">https://news.ycombinator.com/item?id=48377821</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:50:08+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "AI Outperforms Law Professors in Stanford Law Study",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+      "summary": "<p>Article URL: <a href=\"https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/\">https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377761\">https://news.ycombinator.com/item?id=48377761</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:43:12+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Bernie Sanders: The American AI Sovereign Wealth Fund Act [video]",
+      "url": "https://www.youtube.com/watch?v=VN4b4UCWMKI",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=VN4b4UCWMKI\">https://www.youtube.com/watch?v=VN4b4UCWMKI</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377760\">https://news.ycombinator.com/item?id=48377760</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:43:09+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Exploding immune cells splatter potent toxins everywhere",
+      "url": "https://www.nature.com/articles/d41586-026-01766-4",
+      "summary": "<p>Article URL: <a href=\"https://www.nature.com/articles/d41586-026-01766-4\">https://www.nature.com/articles/d41586-026-01766-4</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377741\">https://news.ycombinator.com/item?id=48377741</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:40:54+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Release of MonVisoer 0.1.0",
+      "url": "https://github.com/linuxrebel/MonVisor",
+      "summary": "<p>Article URL: <a href=\"https://github.com/linuxrebel/MonVisor\">https://github.com/linuxrebel/MonVisor</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377639\">https://news.ycombinator.com/item?id=48377639</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:28:44+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Companies to pay over $4M after gender reveal ignited deadly SoCal wildfire",
+      "url": "https://ktla.com/news/inland-empire/settlement-gender-reveal-ignites-deadly-el-dorado-fire-california/",
+      "summary": "<p>Article URL: <a href=\"https://ktla.com/news/inland-empire/settlement-gender-reveal-ignites-deadly-el-dorado-fire-california/\">https://ktla.com/news/inland-empire/settlement-gender-reveal-ignites-deadly-el-dorado-fire-california/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377634\">https://news.ycombinator.com/item?id=48377634</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "published": "2026-06-02T23:27:58+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "LLMs are not the black box you were promised",
+      "url": "https://www.jay.ai/blog/llms-are-not-a-black-box",
+      "summary": "<p>Article URL: <a href=\"https://www.jay.ai/blog/llms-are-not-a-black-box\">https://www.jay.ai/blog/llms-are-not-a-black-box</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377631\">https://news.ycombinator.com/item?id=48377631</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:27:30+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Second rabid bat found in crowded California neighborhoods sparks concern",
+      "url": "https://www.dailymail.com/health/article-15865653/rabid-bat-san-francisco-rabies-exposure.html",
+      "summary": "<p>Article URL: <a href=\"https://www.dailymail.com/health/article-15865653/rabid-bat-san-francisco-rabies-exposure.html\">https://www.dailymail.com/health/article-15865653/rabid-bat-san-francisco-rabies-exposure.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377629\">https://news.ycombinator.com/item?id=48377629</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:27:13+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Soon 80k-pound self-driving trucks could deliver packages to your door",
+      "url": "https://www.dailymail.com/yourmoney/article-15868457/self-driving-trucks-fedex-aurora-texas.html",
+      "summary": "<p>Article URL: <a href=\"https://www.dailymail.com/yourmoney/article-15868457/self-driving-trucks-fedex-aurora-texas.html\">https://www.dailymail.com/yourmoney/article-15868457/self-driving-trucks-fedex-aurora-texas.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377618\">https://news.ycombinator.com/item?id=48377618</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:25:38+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Will AI lead to the death of the internet? – DW Documentary [video]",
+      "url": "https://www.youtube.com/watch?v=8qVbE9DHkEk",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=8qVbE9DHkEk\">https://www.youtube.com/watch?v=8qVbE9DHkEk</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377559\">https://news.ycombinator.com/item?id=48377559</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:17:47+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "The game from childhood is now multiplayer",
+      "url": "https://tankolini-napierdolki.com/",
+      "summary": "<p>Article URL: <a href=\"https://tankolini-napierdolki.com/\">https://tankolini-napierdolki.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377555\">https://news.ycombinator.com/item?id=48377555</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:17:23+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Do Not Resign from Life",
+      "url": "https://theconvivialsociety.substack.com/p/do-not-resign-from-life",
+      "summary": "<p>Article URL: <a href=\"https://theconvivialsociety.substack.com/p/do-not-resign-from-life\">https://theconvivialsociety.substack.com/p/do-not-resign-from-life</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377542\">https://news.ycombinator.com/item?id=48377542</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:15:39+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Project Brain – Persistent memory index for AI coding",
+      "url": "https://github.com/OoneBreath/claude-code-project-brain",
+      "summary": "<p>Article URL: <a href=\"https://github.com/OoneBreath/claude-code-project-brain\">https://github.com/OoneBreath/claude-code-project-brain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377526\">https://news.ycombinator.com/item?id=48377526</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:12:59+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "databow: a Rust CLI to query any database with an ADBC driver",
+      "url": "https://columnar.tech/blog/introducing-databow//",
+      "summary": "<p>Article URL: <a href=\"https://columnar.tech/blog/introducing-databow//\">https://columnar.tech/blog/introducing-databow//</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377510\">https://news.ycombinator.com/item?id=48377510</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-02T23:11:13+00:00"
+    }
+  ],
+  "sources_run": [
+    "geeknews-hada",
+    "reddit-claudeai",
+    "reddit-cursor",
+    "github-blog-ai",
+    "reddit-ml",
+    "x-agentic-coding",
+    "x-github-copilot",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
+    "openai-blog",
+    "hn-newest",
+    "hn-agentic",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}

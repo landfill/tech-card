@@ -1,0 +1,179 @@
+{
+  "items": [
+    {
+      "title": "What's a good, affordable coding plan or API-based LLM to be used with Cursor Pro?",
+      "summary": "\nReddit thread asking for recommendations of affordable coding plans or API LLMs to pair with Cursor Pro (user currently on GLM Coding Plan); also asks whether Cursor's \"Privacy Mode\" protects code when using third‑party models.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tukl9t/whats_a_good_affordable_coding_plan_or_apibased/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "GitHub Copilot app: The agent-native desktop experience",
+      "summary": "\nGitHub announced the Copilot app at Microsoft Build 2026 — an agent-native desktop experience bringing Copilot/agent workflows into the desktop IDE and OS surfaces to better integrate coding agents into developer workflows.",
+      "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Codex for every role, tool, and workflow",
+      "summary": "\nOpenAI highlights new Codex plugins, sites, and annotations aimed at helping analysts, marketers, designers, investors and other teams integrate Codex into diverse roles, tools, and workflows.",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Codex is becoming a productivity tool for everyone",
+      "summary": "\nThe Next Era of Knowledge Work report from OpenAI describes how Codex is being used across research, data analysis, workflow automation, and content creation to transform knowledge work productivity.",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Soon 80k-pound self-driving trucks could deliver packages to your door",
+      "summary": "\nArticle discusses trials/efforts by companies (e.g., FedEx, Aurora) to deploy large self‑driving trucks for package delivery, indicating continued momentum in autonomous vehicle logistics deployments.",
+      "url": "https://www.dailymail.com/yourmoney/article-15868457/self-driving-trucks-fedex-aurora-texas.html",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "LLMs are not the black box you were promised",
+      "summary": "\nA Jay.ai blog post arguing that large language models are not inscrutable black boxes and discussing interpretability and observability approaches for LLMs.",
+      "url": "https://www.jay.ai/blog/llms-are-not-a-black-box",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Project Brain – Persistent memory index for AI coding",
+      "summary": "\nGitHub project providing a persistent memory index tailored for Claude Code users (aimed at improving memory/persistence in AI coding workflows).",
+      "url": "https://github.com/OoneBreath/claude-code-project-brain",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Codex, 역할별 플러그인·Sites·주석으로 비개발자 업무까지 확장",
+      "summary": "\nCodex가 역할별로 62개 인기 앱·110개 스킬을 묶어 비개발자(분석가·마케터 등) 채택을 늘리는 전략을 소개 — 코딩 없이 데이터 분석·크리에이티브·세일즈 작업에 적용 가능해 에이전틱 코딩의 사용자 범위가 확대되는 신호.",
+      "url": "https://news.hada.io/topic?id=30125",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Chipotlai Max - Chipotle Pepper AI를 기본 모델로 쓰는 밈 AI 코딩 에이전트",
+      "summary": "\nChipotle 고객지원 챗봇 Pepper를 코딩 모델로 활용해 OpenCode 포크에서 무료로 추론하는 밈 프로젝트가 바이럴—LeetCode 풀이 등 실무 작업도 시연되어 에이전틱 에이전트 응용·오용 사례를 드러냄.",
+      "url": "https://news.hada.io/topic?id=30120",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "OpenAI 프런티어 모델과 Codex가 이제 AWS에서 제공됨",
+      "summary": "\nOpenAI의 프런티어 모델과 Codex가 AWS 상에서 정식 제공되어 수백만 AWS 고객이 기존 보안·컴플라이언스·조달·결제 워크플로로 OpenAI 모델을 도입·운영 가능—엔터프라이즈 도입 경로가 확장되는 중요 변화.",
+      "url": "https://news.hada.io/topic?id=30119",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: AgentDir - 에이전트를 위한 mkdir - 에이전트 성능 극대화를 위한 read-only 가상 파일 시스템",
+      "summary": "\n실무 문서·파일 구조의 다양성이 에이전트(예: Claude Code)의 파일 탐색 성능 저하를 유발하므로, 읽기 전용 가상 파일 시스템(AgentDir)을 도입해 에이전트가 일관된 폴더 관례로 파일을 찾게 하는 접근을 제안.",
+      "url": "https://news.hada.io/topic?id=30115",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "MiniMax-M3 데뷔, 주요 벤치마크 성능에서 GPT-5.5와 Gemini 3.1 Pro를 능가하며 비용은 단 5-10% 수준",
+      "summary": "\n중국 스타트업 MiniMax가 오픈 가중치 기반 멀티모달 프론티어 모델 'M3'를 공개 — 벤치마크에서 GPT-5.5·Gemini 3.1 Pro를 능가하고 비용은 5–10% 수준으로 주장되어 프론티어 모델 경쟁·비용 구조에 영향을 줄 가능성.",
+      "url": "https://news.hada.io/topic?id=30114",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "스탠퍼드 CS336을 위한 AI 에이전트 지침",
+      "summary": "\nCS336 강의는 AI 코딩 보조 도구를 학생의 과제 해답 생성기가 아니라 설명·안내·피드백 역할로 활용하도록 설계된 지침을 제공 — 교육 환경에서 코딩 에이전트의 책임 분배와 학습적 활용법을 정리.",
+      "url": "https://news.hada.io/topic?id=30113",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Velith — AI 기반 장문 콘텐츠 제작 파이프라인",
+      "summary": "\nObsidian 노트와 Claude Code 등 에이전트 연동을 통해 노트 분석·연결·장문 리포트 자동 생성을 목표로 하는 장문 콘텐츠 파이프라인 프로젝트—에이전틱 에이전트(Claude Code)와 문서 생산 자동화 사례.",
+      "url": "https://news.hada.io/topic?id=30111",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: oh-my-harness - AI 코딩 에이전트를 위한 훅 제너레이터 CLI",
+      "summary": "\noh-my-harness는 Claude Code·Codex 등 에이전트를 위해 프롬프트 훅(테스트 실행, 커밋 전 검사 등)을 자동 생성하는 CLI 도구로, 에이전틱 에이전트와 개발자 워크플로 통합을 단순화하려는 시도.",
+      "url": "https://news.hada.io/topic?id=30100",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic, SEC에 S-1 초안을 비공개 제출",
+      "summary": "\nAnthropic(PBC)가 미국 SEC에 비공개로 Form S-1 초안을 제출 — 상장 준비 단계 진입을 알리며 프론티어 모델·기업가치와 자본시장 연결 가능성을 시사.",
+      "url": "https://news.hada.io/topic?id=30098",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "geo-seo-claude - Claude Code용 GEO 우선 SEO 스킬",
+      "summary": "\nClaude Code용 'GEO-first, SEO-supported' 스킬은 AI 검색 엔진(Claude 등)이 참조하기 쉬운 콘텐츠 구조와 전통 SEO를 동시에 유지하도록 점검하는 도구로, 에이전트가 웹 참조를 효과적으로 활용하게 하는 스킬 사례.",
+      "url": "https://news.hada.io/topic?id=30091",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "I ship AI agents in production. The mess is MCP.",
+      "summary": "\n현장 사례: 여러 MCP(도구 통합) 서버를 임의로 합치면 툴 설명 토큰이 컨텍스트 비용·도구 선택 오류를 유발 — 해결법으로 도구 설명 축소, scope 분리, 게이트웨이로 중앙화 등을 제안해 에이전트 운영의 실제 문제와 대응을 공유.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuqqpn/i_ship_ai_agents_in_production_the_mess_is_mcp/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "The folder setup that made Claude Projects pointless for me (steal it).",
+      "summary": "\n사용자가 Claude에게 상시 액세스 가능한 상위 폴더(AI_OS)를 두고 프로젝트별 하위 폴더·규칙(_manual.md 등)을 자동 생성하게 하는 폴더 관례 공유 — 에이전트와 로컬 파일·프로젝트 조직의 실무 팁.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv63j9/the_folder_setup_that_made_claude_projects/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Anyone else dealing with Claude lying and making stuff up? Like a lot?",
+      "summary": "\n사용자 보고: Claude가 업무용으로 쓸 때 허위 정보·날조(할루시네이션)를 자주 발생시킨다는 불만 — 모델 신뢰성·검증 필요성 및 실무 적용의 한계 지적.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tv62de/anyone_else_dealing_with_claude_lying_and_making/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "i gave claude godotiq and let it build a whole 3d game by itself, no human touched it",
+      "summary": "\nGodotiq라는 MCP 도구로 Claude에 3D 엔진 접근(장면 배치·시그널 연결 등)을 제공해, 인간 개입 없이도 완전한 3D 게임 레벨을 생성한 데모를 공개 — 에이전트의 도구 통합·자동 생성 능력 시연 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuy14g/i_gave_claude_godotiq_and_let_it_build_a_whole_3d/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I couldn't afford the X API, so I turned my Grok subscription into a live-search tool for any coding agent",
+      "summary": "\n고가의 X API 대신 사용중인 Grok CLI를 MCP 서버 도구(grok_search)로 래핑해 실시간 X·웹 검색을 모든 MCP 호환 에이전트(Claude Code·Codex 등)에서 재사용하게 만든 오픈소스 익스텐션—실시간 외부 지식 공급 방법론.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tv2lol/i_couldnt_afford_the_x_api_so_i_turned_my_grok/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor / Codex workflow in serious SaaS project.",
+      "summary": "\nCodex+Composer(또는 GPT-5.5 등)를 조합해 실무 SaaS 개발에서 에이전트별 책임 분담(전략·계획·실행)과 컨텍스트 관리(문서화·결정 레코드)를 통해 유지보수 가능한 agentic 개발 워크플로를 설계한 경험 공유—대규모 에이전트 적용 사례 중심 질문·권장 관행.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tv36mn/cursor_codex_workflow_in_serious_saas_project/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Agentic coding didn't make me faster it just moved the work to review",
+      "summary": "\n에이전틱 코딩으로 작성 속도는 빨라졌지만, 사람이 아닌 AI가 쓴 코드 검토가 더 많은 시간·노력을 요구해 전체 작업 시간은 줄지 않았다는 실무 고충 — 에이전트 도입이 리뷰·검증 비용을 어떻게 바꾸는지에 대한 경험적 경고.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tuip8p/agentic_coding_didnt_make_me_faster_it_just_moved/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "There could be a fix the \"context rot\" issue",
+      "summary": "\n컨텍스트 로트 문제(프로젝트 결정을 AI가 잊음)는 문서 중심의 보완으로는 해결되지 않으며, 프로젝트 아키텍처·결정·이유를 지속적으로 학습·갱신하는 레이어(코드베이스와 장기적 관계를 맺는 시스템)가 필요하다는 사용자 제안 및 논의—장기 컨텍스트 유지 관점에서의 제품 요구.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tur5px/there_could_be_a_fix_the_context_rot_issue/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ]
+}
