@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "summary": "\nGPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "summary": "\nSee how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "url": "https://openai.com/index/wasmer",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Stigmergy for capability selection in LLM agent loops (skills, tools, MCP)",
+      "summary": "\n<p>Article URL: <a href=\"https://sebastianhanke.substack.com/p/stigmergy-for-capability-selection\">https://sebastianhanke.substack.com/p/stigmergy-for-capability-selection</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48391316\">https://news.ycombinator.com/item?id=48391316</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://sebastianhanke.substack.com/p/stigmergy-for-capability-selection",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Lookspan – local-first observability for AI agents (npx lookspan)",
+      "summary": "\n<p>Article URL: <a href=\"https://github.com/JoniMartin27/lookspan\">https://github.com/JoniMartin27/lookspan</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48391306\">https://news.ycombinator.com/item?id=48391306</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "url": "https://github.com/JoniMartin27/lookspan",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Uber의 월 1,500달러 AI 한도는 AI 도구 가격 책정에 유용한 신호",
+      "summary": "\nUber가 직원별로 Cursor, Claude Code 같은 에이전트형 코딩 도구의 월별 토큰 지출을 최대 $1,500로 제한했다는 소식입니다. 기업 차원의 사용 한도 도입은 에이전트형 코딩 도구의 비용 관리·거버넌스와 조직 내 채택 전략에 대한 실무적 신호입니다.",
+      "url": "https://news.hada.io/topic?id=30153",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "A harness for every task: dynamic workflows in Claude Code",
+      "summary": "\nAnthropic의 Claude Code 팀이 공개한 글로, Claude Code에 도입된 'Dynamic Workflows' 기능을 설명합니다. 모델이 작업에 맞춰 즉석에서 하네스(harness)와 실행 구조를 생성·조정해 에이전트형 작업 흐름을 네이티브로 처리할 수 있게 하는 업데이트입니다.",
+      "url": "https://news.hada.io/topic?id=30144",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "작업별 맞춤 하네스: Claude Code의 동적 워크플로우",
+      "summary": "\n동적 워크플로우 기능은 Claude Code가 작업에 맞는 하네스를 즉석에서 작성·조율하고 서브에이전트(subagents)를 생성해 복잡한 개발 작업을 에이전트 내부에서 네이티브로 처리하도록 하는 업데이트 설명입니다.",
+      "url": "https://news.hada.io/topic?id=30136",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI, Codex에서 웹사이트를 만들어 배포하는 Sites 플러그인 공개",
+      "summary": "\nOpenAI Codex의 Sites 플러그인은 프롬프트/프로젝트에서 OpenAI가 호스팅하는 웹사이트·웹앱·게임을 별도 배포 워크플로 없이 '프롬프트만으로' 생성·저장·배포·점검할 수 있게 해주는 도구입니다. 개발자 생산성 및 에이전트-기반 배포 워크플로에 영향을 줄 수 있습니다.",
+      "url": "https://news.hada.io/topic?id=30128",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Spring IVE 1.5 — Slack에서 코드 맥락 아는 에이전트와 대화, 바이브코딩 작업 이력 관리, 사람+AI 비...",
+      "summary": "\nSpring IVE 1.5는 GitLab/GitHub 이슈를 Claude·Gemini·Codex·OpenCode 같은 AI CLI 에이전트가 자동 감지해 코드 작성 후 MR/PR까지 생성하는 웹 대시보드를 포함한 업데이트를 공개했습니다. Slack 통합 등으로 에이전트 기반 개발 워크플로 통합을 강화합니다.",
+      "url": "https://news.hada.io/topic?id=30140",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I wired Claude Code into a database of every Polymarket wallet and trades via MCP. What do you want me to ask it next? This is what I found so far:",
+      "summary": "\n사용자가 Claude Code를 Postgres MCP에 연결해 실거래 원장(Polymarket 거래·지갑)을 자연어로 질의하고, 에이전트가 직접 쿼리를 작성·실행해 분석 결과를 반환한 사례입니다. 에이전트의 데이터베이스 연결·실시간 분석 워크플로 활용 예를 보여줍니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvefqd/i_wired_claude_code_into_a_database_of_every/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I built Composer: a real-time markdown editor where your Claude Code agent edits the doc alongside you",
+      "summary": "\nComposer는 Markdown 문서를 사람과 에이전트가 실시간으로 함께 편집할 수 있게 해, Claude Code 에이전트가 문서 컨텍스트를 읽고 코멘트·수정 제안·응답을 할 수 있도록 MCP로 통합한 도구입니다. 협업형 에이전트 UX 개선을 노린 프로젝트입니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tw49jb/i_built_composer_a_realtime_markdown_editor_where/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Opus 4.8 vs Opus 4.7 vs GPT 5.5 on n=50 real tasks from 2 open source repos",
+      "summary": "\nOpus 4.8(Claude Code)·Opus 4.7·GPT-5.5·Composer 2.5를 실제 오픈소스 리포지토리의 실전 작업 50건으로 비교한 벤치마크 분석입니다. 결과는 Opus 4.8이 여러 기준에서 우수하며, Composer는 비용 우위지만 품질 격차가 존재함을 보여주어 에이전틱 코딩 모델 선택·비용-품질 트레이드오프에 직접적인 인사이트를 제공합니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvvjnw/opus_48_vs_opus_47_vs_gpt_55_on_n50_real_tasks/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic adds 150 partners to 'Project Glasswing'",
+      "summary": "\nAnthropic이 Mythos 모델에 대한 보안 테스트 이니셔티브 'Project Glasswing'에 150개 조직을 추가해 산업별(전력·헬스케어 등) 보안 검증을 확대했다는 보도입니다. 모델 보안·검증을 위한 외부 파트너십 확대 소식입니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvat8v/anthropic_adds_150_partners_to_project_glasswing/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Japanese government and banks granted access to Claude Mythos",
+      "summary": "\n일본 정부와 금융기관들이 Anthropic의 Claude Mythos에 접근 권한을 부여받았다는 소식으로, 기업·공공기관 레벨에서 프론티어 모델을 도입·시험하는 사례를 보여줍니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tw38qv/japanese_government_and_banks_granted_access_to/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "PSA: Keep a human approval gate in your Claude AI pipelines. Left to their own devices, these systems will gladly normalize their own bugs/logic or execute a misunderstood prompt with total confidence.",
+      "summary": "\n사용자가 Claude 기반 자동화 파이프라인에서 인간 승인 게이트를 유지하지 않아 발생한 데이터 오염·백필(backfill) 사례를 공유합니다. 에이전트 자동화 시 검증·휴먼 인 더 루프가 왜 필수인지에 대한 실무 경고입니다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvvn3m/psa_keep_a_human_approval_gate_in_your_claude_ai/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "composer 2.5 is actually solid if you can tolerate some bugs",
+      "summary": "\nComposer 2.5 사용자가 속도와 워크플로 측면에서 Composer가 '빠르고 실용적'이라 평가하면서도 보안·정확성 문제로 일부 불편이 있다고 언급합니다. Composer(에이전트 IDE) 실사용 경험과 트레이드오프에 관한 커뮤니티 피드백입니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tvsgoa/composer_25_is_actually_solid_if_you_can_tolerate/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Stop Burning Your Credits - Cursor needs this UI change ASAP",
+      "summary": "\nCursor 사용자가 'Max' 모드 같은 고비용 설정이 눈에 띄지 않아 의도치 않게 대량 크레딧을 소진한 사례를 공유하며, 비용·사용성 측면의 UI 개선을 요구합니다. 에이전트 플랫폼의 비용 가시성·안전장치 관련 실무 이슈입니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tvznt9/stop_burning_your_credits_cursor_needs_this_ui/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "My first free tool for Claude CLI tracking and cost optimization",
+      "summary": "\n개발자가 공개한 Claude CLI 토큰·비용 추적 도구(tokencost)로, Claude CLI 기반 워크플로의 비용 모니터링·최적화를 목표로 합니다. 에이전트 운영비용 관리를 위한 실용 툴입니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tvy87j/my_first_free_tool_for_claude_cli_tracking_and/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "CMU research study on spec-driven development — looking for open-source devs to interview (45-60 min, Zoom)",
+      "summary": "\nCarnegie Mellon 연구자가 스펙 기반 개발(Spec-Driven Development)과 AI 코딩 에이전트 사용 실태를 조사하기 위해 오픈소스 개발자 인터뷰 참가자를 모집한다는 공지입니다. 에이전트 중심 개발 프로세스 연구에 대한 참여 요청입니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tvtcwq/cmu_research_study_on_specdriven_development/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Developing with Claude Code feels slow, frustrating and mentally exhausting",
+      "summary": "\n사용자가 Claude Code 기반 개발 경험이 느리고 피로감을 준다고 토로하는 글로, 에이전트형 개발 툴의 실제 생산성·사용성 문제를 드러냅니다.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tvz4o7/developing_with_claude_code_feels_slow/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    }
+  ],
+  "chunks": 2
+}
