@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "title": "Show GN: TxtAIEditor - AI 에이전트와 Markdown/html 미리보기를 탑재한 Windows 텍스트 에디터",
+      "summary": "\nWindows 네이티브 에디터에 AI 협업·마크다운 미리보기·간단한 CSV 편집 등을 결합한 프로젝트로, 데스크톱 환경에서 에디터 + 에이전트 통합 사례를 보여줌.",
+      "url": "https://news.hada.io/topic?id=30170",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Show GN: Project Capture - 웹 프로젝트 화면 캡처를 자동화하는 AI 에이전트용 스킬",
+      "summary": "\nAI 코딩 에이전트가 프로젝트를 분석해 Playwright 기반으로 로그인/라우트 처리·스크린샷·결과 정리를 자동화하는 에이전트 스킬(프로젝트 QA/문서화·테스트용 스킬 사례).",
+      "url": "https://news.hada.io/topic?id=30169",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Agent Executor - Google의 분산 에이전트 런타임 오픈소스",
+      "summary": "\n신뢰성·안전성·커스터마이징·효율성 목표의 분산 에이전트 런타임 — 컨트롤러·스킬·도구·에이전트를 격리된 액터로 실행하고 자동 복구·재개·이벤트 로깅을 제공하는 오픈소스 런타임 소개.",
+      "url": "https://news.hada.io/topic?id=30158",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "I built an iPhone + Apple Watch app with Claude Code. It crossed 3,300+ users and made $3.7k in the last 28 days…",
+      "summary": "\nClaude Code(에이전틱 코딩 툴)를 사용해 iOS+watchOS 앱을 신속히 제작·배포한 사례 — 비전통적 개발자가 Claude Code로 프로덕트화하고 실사용자·수익을 확보한 경험 공유.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1twzetu/i_built_an_iphone_apple_watch_app_with_claude/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I put my claude code agents in the office simulation that runs 24/7",
+      "summary": "\n로컬 다중 에이전트 허니스(Munder Difflin) 오픈소스화 소식 — Claude Code 에이전트를 클러스터로 운영해 자율 작업을 수행하는 멀티에이전트 하니스 사례(오픈소스 배포).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1twq8nt/i_put_my_claude_code_agents_in_the_office/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I tested GPT-5.5 vs Opus 4.8 on agentic terminal coding (Terminal-Bench 2.1)",
+      "summary": "\nTerminal-Bench 기반 터미널 에이전틱 코딩 비교: GPT-5.5는 터미널 벤치 마크에서 빠르고 비용 효율적, Opus 4.8은 실무적 agentic 워크플로(대시보드 구축 등)에서 더 강점을 보였다는 실험 보고.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1twmqxk/i_tested_gpt55_vs_opus_48_on_agentic_terminal/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How claude builds claude at Anthropic",
+      "summary": "\nAnthropic Institute의 '재귀적 자기개선'·연구·사회적 동기화에 관한 설명 및 최전선 AI 개발의 일시적 동결/감속을 지원하는 검증 가능한 시스템 구축에 대한 언급 — 프론티어 모델 거버넌스 논의 포함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tx00dk/how_claude_builds_claude_at_anthropic/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I used Claude to rebuild my dad's lost game and port it to Reddit, getting over 350 players on day one!",
+      "summary": "\nClaude Code로 레거시 게임을 복원·웹/Reddit용으로 포팅한 사례 보고 — 에이전틱 도구가 디자인·엔진·배포까지 속도를 높인 실전 예시.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1twzw42/i_used_claude_to_rebuild_my_dads_lost_game_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How does Composer 2.5 compare to open-weight models?",
+      "summary": "\nCursor/Composer 사용자 질문: Composer 2.5의 성능·코스트 퍼포먼스가 오픈웨이트 모델 대비 어떤 장단점이 있는지 비교 문의 — Composer가 코딩 에이전트 스택에서 차지하는 위치 관련 토론.",
+      "url": "https://www.reddit.com/r/cursor/comments/1twlofn/how_does_composer_25_compare_to_openweight_models/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Landscape of second brain and memory solutions for AI native workflow",
+      "summary": "\n에이전트 메모리·세컨드브레인 서비스 조사 — 데이터 수집→조직→진화→사용→거버넌스의 라이프사이클 관점으로 메모리/지식 시스템을 비교해 에이전트 워크플로에 적합한 솔루션 분석.",
+      "url": "https://www.reddit.com/r/cursor/comments/1twn355/landscape_of_second_brain_and_memory_solutions/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor v3.6.31 + Composer v2.5 - Requests taking longer than usual",
+      "summary": "\nCursor 최신 업데이트(Composer v2.5) 이후 요청 지연 보고 — 실무에서 Composer/에디터 성능·지연이 개발자 생산성에 미치는 영향을 보여주는 사용자 리포트.",
+      "url": "https://www.reddit.com/r/cursor/comments/1twoead/cursor_v3631_composer_v25_requests_taking_longer/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Cloud Agents are impressive, but what tasks are you actually trusting them with?",
+      "summary": "\n클라우드 에이전트 도입 현실 질문: 리서치·문서·리팩토링·기능 개발·테스트 등 중 어떤 작업을 에이전트에 위임하는지 실무 신뢰범위에 대한 토론 촉발.",
+      "url": "https://www.reddit.com/r/cursor/comments/1twggca/cloud_agents_are_impressive_but_what_tasks_are/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor vs Claude Code",
+      "summary": "\n개발자 경험 비교: Cursor와 Claude Code의 에디터/에이전트 이해력·컨텍스트 처리 차이에 대한 사용자 피드백 — 개발 워크플로용 에이전트 툴 선택 관련 실무 관점.",
+      "url": "https://www.reddit.com/r/cursor/comments/1twy9k7/cursor_vs_claude_code/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor made me do it",
+      "summary": "\nCursor를 활용해 여러 오픈소스 패키지(.NET) 마이그레이션·리팩터링·CI/CD 재구성 등을 하루 만에 끝낸 사례 — AI 에디터가 반복적 유지보수·마이그레이션 작업을 가속하는 실증.",
+      "url": "https://www.reddit.com/r/cursor/comments/1twk09f/cursor_made_me_do_it/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "GitHub Universe is back: All together now, in the agentic era",
+      "summary": "\nGitHub Universe 2026이 '에이전틱 시대'를 테마로 재개 — 에이전트·코딩 에코시스템 중심의 행사로 개발자·도구·에이전트 통합 논의의 장이 될 예정.",
+      "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "\n엔터프라이즈 소프트웨어 딜리버리를 AI 에이전트·ChatGPT Enterprise·Codex로 재설계한 사례 연구 — 에이전트 기반 개발·자동화로 조직 운영·배포 파이프라인을 바꾸는 실무 적용.",
+      "url": "https://openai.com/index/endava-frontiers",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "summary": "\nChatGPT의 새로운 메모리(기억) 시스템 도입 — 사용자 선호·문맥을 장기적으로 관리해 에이전트/대화형 모델의 지속적 컨텍스트 제공을 개선하려는 기능 업데이트.",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Faithful uncertainty in LLM agents: calibration vs utility tradeoff in practice[D]",
+      "summary": "\n에이전트 시스템에서 '신뢰도(캘리브레이션)'와 실용성(유틸리티) 사이의 트레이드오프를 실무적으로 논의 — 계획 단계와 경량 검증기를 둬 도구 호출 환각을 줄이는 패턴과 그 비용(지연·유틸리티 손실)을 정리.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1twq0h3/faithful_uncertainty_in_llm_agents_calibration_vs/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ]
+}
