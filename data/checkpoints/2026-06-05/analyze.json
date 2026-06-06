@@ -1,0 +1,152 @@
+{
+  "items": [
+    {
+      "title": "Defending Code Reference Harness - AI 기반 취약점 발견과 수정용 Anthropic 오픈소스 프레임워크",
+      "summary": "\nAnthropic이 Claude로 자율 취약점 발견·수정 워크플로를 시연하기 위한 참조 구현을 공개함. 보안팀과 협업해 얻은 설계·프롬프트·툴 체인이 포함되어 있으나 제품이 아닌 레퍼런스 코드이며 현재 적극적 유지보수는 아님.",
+      "url": "https://news.hada.io/topic?id=30207",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "케임브릿지 대학교의 연구진들은 네트워크 전반에 걸쳐 적응하는 AI 웜을 구축하였습니다.",
+      "summary": "\n연구진들이 소형 오픈웨이트 LLM을 이용해 스스로 타깃을 분석하고 공격 전략을 수립·전파하는 자율형 AI 웜(POC)을 구축했음을 보도. LLM 기반 자동화 악성행위의 현실 가능성을 보여주는 보안·거버넌스 리스크 사례임.",
+      "url": "https://news.hada.io/topic?id=30204",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "취약한 앱을 만들고 LLM이 해킹할 수 있는지 알아보는 데 1,500달러를 썼다",
+      "summary": "\n고의로 취약한 React Native/FastAPI/Firebase 스택 앱을 만들고 LLM(또는 자동화 도구)이 어떻게 내부 비밀·플래그를 노출하거나 악용하는지 실험한 사례. 에이전틱 모델이 현실 코드·인프라에서 어떤 권한·정보에 접근 가능한지 점검한 실무적 보고.",
+      "url": "https://news.hada.io/topic?id=30209",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic은 제품 전반에서 Claude를 어떻게 봉쇄할까",
+      "summary": "\n클로드(웹/Claude Code/Cowork)에 걸맞은 봉쇄(sandboxing) 아키텍처 설계 경험을 정리한 글. 에이전트 권한·도구 접근 제어, 실패 가능성 대비와 피해 규모 관리 등 제품화된 에이전틱 모델 안전성 설계가 주제임.",
+      "url": "https://news.hada.io/topic?id=30186",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Did Claude increase bugs in rsync?",
+      "summary": "\n(외부 분석) rsync 저장소에서의 버그 발생·패치 이력을 통해 LLM 개입(예: 자동 패치·코드 제안)이 실제 버그 패턴에 어떤 영향을 미쳤는지 조사한 분석 페이지. 오픈소스 리포에 에이전틱 툴이 도입될 때의 코드 품질·리뷰 리스크를 다룸.",
+      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Your Claude Cowork usage limits just doubled for the next month.",
+      "summary": "\nClaude Cowork의 세션 사용 한도가 한시적으로 2배로 늘어났다는 공지(유료 플랜 대상, 기간 한정). Cowork를 통한 장시간·대규모 에이전트 작업 가능성이 늘어남을 의미.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1txyx3j/your_claude_cowork_usage_limits_just_doubled_for/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I’ve built 4 iOS apps with Claude. 5 more in progress. Zero users. Zero revenue. Let me save you some time.",
+      "summary": "\n개발자가 Claude로 iOS 앱을 신속히 만들어낸 경험을 공유. Claude가 코드 생성·스캐폴딩 장벽을 제거했지만 배포·사용자 확보·제품 완성도(프런트엔드 정교함)는 여전히 인간의 과제라는 실무적 관찰을 제공.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1txkn86/ive_built_4_ios_apps_with_claude_5_more_in/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude now writes 80% of the code at Anthropic",
+      "summary": "\n레딧 캡션 형태의 주장: 내부에서 Claude가 실제 코드 작성 비중을 크게 차지한다는 게시물. 내부 자동화·에이전트 활용이 조직 개발 생산성에 미치는 영향을 시사하는 주장(검증 필요).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1txisil/claude_now_writes_80_of_the_code_at_anthropic/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Hi Reddit, I posted my Build Your Own LLM workshop which encourages Claude use for coding exercises",
+      "summary": "\nLLM을 직접 만들어보는 비전공자 대상 워크숍 공개. 실습 중심으로 Claude 등 AI 코딩 어시스턴트를 코딩 연습 도구로 권장하며 토큰·GPU 코딩 등 실무 항목을 다룸.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1txqc8g/hi_reddit_i_posted_my_build_your_own_llm_workshop/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Setup your first Claude Code colleague today using clem",
+      "summary": "\n로컬 리눅스 머신에서 Claude Code 동료(에이전트)를 운영·관리하는 도구 'clem' 소개. Discord/Slack 연동, 시크릿 관리(sops/Infisical) 등 에이전트 팀 운영을 위한 실무적 루틴을 제공.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1txhwsj/setup_your_first_claude_code_colleague_today/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Voice Mode is multilingual now",
+      "summary": "\n사용자 보고: Claude의 음성 모드가 다국어 지원으로 확장된 것으로 보인다는 관찰(데스크탑·모바일). 음성 인터페이스를 통한 에이전트 상호작용 범위 확대 시사.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1txu2af/claude_voice_mode_is_multilingual_now/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Crazy how good and cost-effective Composer 2.5 is compared to SOTA models!",
+      "summary": "\nCursor/Composer 커뮤니티에서 Composer 2.5가 비용 대비 성능에서 강점을 보인다는 사용자 평가. Composer(프론티어·빌드 모델)의 실용성 향상이 에이전틱 코딩 채택을 가속할 가능성.",
+      "url": "https://www.reddit.com/r/cursor/comments/1txja7a/crazy_how_good_and_costeffective_composer_25_is/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How do you all stop Cursor from reading your .env?",
+      "summary": "\nCursor(에이전트)가 개발 환경의 .env 파일을 열어 '구성 이해'를 위해 비밀을 읽는 동작을 문제 삼는 토론. 에이전트에게 로컬 시크릿 접근을 제한하는 전략(런타임 시크릿 주입 등)을 모색하는 실무 이슈.",
+      "url": "https://www.reddit.com/r/cursor/comments/1txoxva/how_do_you_all_stop_cursor_from_reading_your_env/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I got tired of editing cursor/mcp.json by hand, so I built a VS Code extension that installs MCP servers in one click",
+      "summary": "\nMCP 서버(파일시스템·DB·검색 등) 설치·구성을 자동화하는 VS Code 확장 공개. Cursor 등 에이전트 클라이언트의 MCP 설정을 간소화해 에이전트-툴 통합 온보딩 비용을 낮춤.",
+      "url": "https://www.reddit.com/r/cursor/comments/1txyom7/i_got_tired_of_editing_cursormcpjson_by_hand_so_i/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "most expensive request ever - 10M tokens in 1 go",
+      "summary": "\n사용자가 Composer 세션이 'thinking' 상태에 머문 사이 7분 동안 약 1,000만 토큰이 소모되어 비용이 급증한 사례 공유. 에이전트 장기 실행·무한 루프 시 토큰·비용 제어의 실무적 위험을 보여줌.",
+      "url": "https://www.reddit.com/r/cursor/comments/1txs0ya/most_expensive_request_ever_10m_tokens_in_1_go/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "agentic code review is quietly replacing the way my team does PRs",
+      "summary": "\n여러 LLM 기반 도구(코더래빗, BugBot, Claude Code 등)를 PR 파이프라인에 도입해 초동 리뷰·스타일/보안 체크를 자동화한 사례. 사람 리뷰는 아키텍처·설계 판단에 집중하게 되어 리뷰 사이클과 품질이 변화했다는 보고.",
+      "url": "https://www.reddit.com/r/cursor/comments/1txhcpx/agentic_code_review_is_quietly_replacing_the_way/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "M3 looks good on benchmarks, but I only care if it stops Cursor from inventing files",
+      "summary": "\nCursor 사용자가 모델이 리포지토에 존재하지 않는 파일을 '발명'하는 홀루시네이션 문제를 지적하며, M3 등 더 큰 컨텍스트 모델이 리포지토 메모리 문제(문맥 소실·파일 발명)를 얼마나 완화하는지 여부에 관심을 표명.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tx6asq/m3_looks_good_on_benchmarks_but_i_only_care_if_it/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "You can now build an app, form a company and open a bank account all inside your AI tools",
+      "summary": "\nCursor+기타 에이전트 도구를 사용해 코딩뿐 아니라 법인 설립·EIN·은행 계좌 개설까지 하나의 에이전트 워크플로로 처리했다는 경험담. 에이전트가 개발에서 비즈니스 운영까지 확장되는 사례를 시사.",
+      "url": "https://www.reddit.com/r/cursor/comments/1txkxo6/you_can_now_build_an_app_form_a_company_and_open/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Queued prompts should be injected with tool call responses.",
+      "summary": "\nCursor 사용자 요청: 에이전트가 툴 호출 결과를 기다리는 동안 큐에 쌓인 프롬프트에도 중간 툴 응답을 주입해 실시간 상호작용을 개선하자는 제안. 에이전트-툴 협업 UX 개선 관련 실무 피드백.",
+      "url": "https://www.reddit.com/r/cursor/comments/1txpxle/queued_prompts_should_be_injected_with_tool_call/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Cursor CLI becomes extremely laggy over time on Ubuntu",
+      "summary": "\n로컬 Cursor CLI가 장기간 실행 후 입력 지연·성능 저하를 보이는 버그 보고. 로컬 에이전트 개발 환경의 안정성·운영 이슈에 관한 실사용자 리포트.",
+      "url": "https://www.reddit.com/r/cursor/comments/1txh9j5/cursor_cli_becomes_extremely_laggy_over_time_on/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Is it allowed to use OpenAI API outputs to create a silver code dataset or benchmark for a specific Python library? [d]",
+      "summary": "\nOpenAI API 출력물을 이용해 라이브러리별 코드 데이터셋(실버)이나 벤치마크를 만들고 그것을 미세조정/평가 데이터로 쓰는 것이 이용약관상 허용되는지에 대한 토론. 모델 파인튜닝·데이터 사용 정책이 개발자 워크플로에 미치는 법적·실무적 함의를 다룸.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1txc6qd/is_it_allowed_to_use_openai_api_outputs_to_create/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}
