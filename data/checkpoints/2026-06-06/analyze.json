@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "title": "한국의 포럼/커뮤니티는 이제 모든 이미지를 AI 검열 도구로 검사해야 함",
+      "summary": "\n전기통신사업법 변경으로 인터넷 포럼·커뮤니티 운영자에게 사용자가 업로드하는 모든 이미지·영상을 AI로 검사하도록 의무화함. 정부는 모델 실행용 하드웨어를 제공하지 않으며, 소규모 운영자는 데이터센터급 Nvidia GPU를 직접 구매해야 하는 등 현실적 부담과 비용 문제를 지적함.",
+      "url": "https://news.hada.io/topic?id=30222",
+      "category": "대한민국 IT",
+      "impact": "high"
+    },
+    {
+      "title": "Has anyone actually replaced Claude Code / Codex with local models on an Macbook Pro M5 Max 128GB?",
+      "summary": "\nMacBook Pro M5 Max(128GB)에서 로컬 모델이 Claude Code/Codex 같은 클라우드 기반 코딩 에이전트를 완전히 대체할 수 있는지 묻는 토론. Ollama, LM Studio 등 로컬 런타임과 어떤 절충(멀티파일 편집, 에이전트적 워크플로 손실 등)이 필요한지 경험을 묻고 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1typ9ld/has_anyone_actually_replaced_claude_code_codex/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic details how it sandboxes and contains Claude across its products",
+      "summary": "\nAnthropic이 자사 블로그(및 관련 링크)를 통해 Claude를 제품 전반에서 어떻게 샌드박스화하고 포함(contain)하는지 기술한 글을 공유하는 토론. 모델·플랫폼 수준의 격리·안전·권한 관리 구현 세부를 다룸.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1typ0eo/anthropic_details_how_it_sandboxes_and_contains/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic Just Published a Major Update on Recursive Self-Improvement: AI Is Already Accelerating Its Own Development (May 2026)",
+      "summary": "\nAnthropic 보고서를 요약한 토론으로, Claude가 코드 작성·병합에서 큰 비중을 차지하고 있고(보고된 수치: 병합 코드의 80% 이상 등), AI가 자체 개발 프로세스를 가속화하는 '재귀적 자체개선' 징후와 함께 생산성·리스크 양쪽을 논의함. 에이전트가 연구·개발 파이프라인에서 점점 더 많은 역할을 하고 있다는 주장 포함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ty8f47/anthropic_just_published_a_major_update_on/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude's new background tasks panel is exactly how agentic UIs should look",
+      "summary": "\nClaude 데스크탑의 백그라운드 작업 패널을 소개하는 글. Build→Review→Fix 같은 단계, 다수의 병렬 크리틱(검토) 에이전트, 토큰/도구 호출/소요시간 가시화 등 에이전틱 워크플로 관찰성을 높인 UI 사례로서 에이전트 UX 표준 논의에 기여함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tyh46r/claudes_new_background_tasks_panel_is_exactly_how/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Built an open-source library for making Claude Code style terminal UIs in Python",
+      "summary": "\nClaude Code 스타일의 터미널 UI(스트리밍 대화, 업데이트되는 툴 카드, 인라인 승인 등)를 쉽게 만들 수 있게 해주는 오픈소스 Python 라이브러리(XLI)를 공개. 에이전트용 TUI 구성 요소를 재사용 가능하게 해 에이전트 개발 UX를 낮추는 도구.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tytwwm/built_an_opensource_library_for_making_claude/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI Hardware hire joins Anthropic",
+      "summary": "\nOpenAI의 하드웨어 인력이 Anthropic으로 이직했다는 커뮤니티 게시. 프론티어 모델 운영·인프라(특히 하드웨어 역량) 전환은 모델 개발·배포 역량에 직접적 영향을 줄 수 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tyumtw/openai_hardware_hire_joins_anthropic/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How are you all handling context loss between AI coding sessions?",
+      "summary": "\nCursor/Claude Code 사용자들이 세션 간 코드베이스 문맥 소실을 어떻게 처리하는지 묻는 토론. 매 세션마다 아키텍처를 재설명해야 하는 현실과 Obsidian, 아키텍처 문서, MCP 등으로 이를 보완하는 방법들이 논의됨.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tywmom/how_are_you_all_handling_context_loss_between_ai/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "How much context does Cursor spend understanding a large repository before writing code?",
+      "summary": "\n대형 리포지토리 분석에서 에이전트가 소비하는 토큰/API 호출/탐색 루프가 비용의 주 원인이라는 벤치마크 결과 공유. 리포지토 지능 시스템을 검색 정확도 중심으로 최적화할지, 탐색·컨텍스트 재사용을 줄이는 데 집중할지 논의 제기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tyv20r/how_much_context_does_cursor_spend_understanding/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "What are your uses for subagents?",
+      "summary": "\n메인 에이전트가 서브에이전트를 활용해 리포지토 탐색·외부 리서치·문맥 전처리 등을 수행하게 하는 사용례 토론. 서브에이전트의 모델 선택, 역할 지정, 결과를 기다리게 만드는 제어 방식 등이 주된 실무 이슈로 거론됨.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tyu6wu/what_are_your_uses_for_subagents/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Did Cursor get hacked? I just got charged for usage I never made",
+      "summary": "\n어떤 사용자가 자정 무렵에 계정에서 고가 모델(Opus 4.7)을 장시간 사용해 월별 포함량의 큰 부분이 소진되고 On‑Demand 사용이 활성화되어 요금이 발생한 사례 공유. Google SSO였음에도 로그인 알림이 없었고, 지원 티켓을 열어 원인 조사 중.",
+      "url": "https://www.reddit.com/r/cursor/comments/1ty3w3u/did_cursor_get_hacked_i_just_got_charged_for/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Moving from MVP to real product: Codex, Cursor, Claude, or something else?",
+      "summary": "\nAI 기반으로 MVP를 만든 개발자가 제품을 프로덕션으로 전환할 때 어떤 에이전트/구독(Codex, Cursor, Claude 등)을 선택해야 하는지 조언을 구함. 예산(약 $100/月)과 실무적 요구(데이터베이스, 아키텍처, 검증 등)를 고려한 도구 선택 논의 요청.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tybko5/moving_from_mvp_to_real_product_codex_cursor/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Composer 2.5 today",
+      "summary": "\nCursor의 Composer 2.5 사용 중 파일 손상, 무작위 삭제, 이전에 보지 못한 환각(hallucination) 사례가 발생했다는 보고. 에이전트 기반 자동화가 코드베이스에 미치는 위험성과 신뢰성 문제를 환기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1ty2tqp/composer_25_today/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor cuts prices, adds enterprise spend controls amid \"tokenomics\" reckoning",
+      "summary": "\nCursor가 가격 인하와 엔터프라이즈용 사용량·지출 제어 기능을 도입했다는 보도. 에이전트 플랫폼의 '토크노믹스'(모델 비용·청구 구조) 문제에 대응하려는 조치로서 개발자·기업의 비용 관리에 직접적 영향.",
+      "url": "https://thenewstack.io/cursor-pricing-token-billing/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "You can't detect your way out of catastrophic LLM failure",
+      "summary": "\nLLM의 치명적 실패를 단순 감지(detectors)로 해결할 수 없음을 주장하는 분석/레포지토리 링크. 탐지 기반 접근의 한계와 더 근본적인 안전·아키텍처 대응 필요성을 실험·문서로 제시함.",
+      "url": "https://github.com/joseteiadirector/teia-igo-vs-claude-opus-4.8/blob/main/README.en.md",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Human-Like Neural Nets by Catapulting",
+      "summary": "\nGwern의 글 링크로, 'catapult' 단계와 같은 규모·성능 전이가 신경망을 인간 유사 방식으로 변화시킬 수 있다는 이론적·경험적 논의를 제공. 대형 모델 거동과 급작스러운 능력 출현(발산적 변화)을 이해하려는 프레임워크 제공.",
+      "url": "https://gwern.net/llm-catapult",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 2
+}
