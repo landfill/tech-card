@@ -1,0 +1,212 @@
+{
+  "week": "2026-W23",
+  "date_range": [
+    "2026-06-01",
+    "2026-06-07"
+  ],
+  "total_items": 134,
+  "filtered_items": 131,
+  "trend_map": [
+    {
+      "topic": "Claude Code / Claude (Anthropic)",
+      "days": [
+        "06-01",
+        "06-02",
+        "06-03",
+        "06-04",
+        "06-05",
+        "06-06",
+        "06-07"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Anthropic (Opus / funding / product news)",
+      "days": [
+        "06-01",
+        "06-02",
+        "06-03",
+        "06-05",
+        "06-06"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor (Composer / hooks / billing / token optimization / UX)",
+      "days": [
+        "06-01",
+        "06-02",
+        "06-03",
+        "06-04",
+        "06-05",
+        "06-06",
+        "06-07"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Codex / OpenAI frontier models & integrations",
+      "days": [
+        "06-01",
+        "06-02",
+        "06-03",
+        "06-06",
+        "06-07"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "MCP / persistent memory / token-efficiency / trust",
+      "days": [
+        "06-01",
+        "06-02",
+        "06-03",
+        "06-05",
+        "06-07"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Agent security & vulnerabilities (agent worms, sandboxing, approval gates)",
+      "days": [
+        "06-01",
+        "06-03",
+        "06-04",
+        "06-05",
+        "06-06",
+        "06-07"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Dynamic workflows / Harness engineering (agent harnesses, dynamic pipelines)",
+      "days": [
+        "06-02",
+        "06-03",
+        "06-07"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GitHub Copilot (desktop / agent-native app)",
+      "days": [
+        "06-02"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "Agent Executor (Google distributed agent runtime, open-source)",
+      "days": [
+        "06-04"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "Spanlens (LLM call & agent tracing observability)",
+      "days": [
+        "06-01"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "OpenAI frontier models on AWS (availability announcement)",
+      "days": [
+        "06-01",
+        "06-02"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "SQLite rejects agent-written code",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "React Doctor — AI-generated React static verification",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Forge / agent guardrails",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Gemini (3.5 Flash / CLI)",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "DeepSeek (products / pricing / Reasonix)",
+      "days": [],
+      "impact": "medium",
+      "direction": "fading"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 68,
+      "high_count": 14
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 63,
+      "high_count": 6
+    }
+  },
+  "top5": [
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "mentions": 2,
+      "impact": "high"
+    },
+    {
+      "title": "A harness for every task: dynamic workflows in Claude Code",
+      "url": "https://news.hada.io/topic?id=30144",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code Source Deep Dive - Part VIII: Permission System and Auto-Mode Classifier",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tziyn1/claude_code_source_deep_dive_part_viii_permission/",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic Just Published a Major Update on Recursive Self-Improvement: AI Is Already Accelerating Its Own Development (May 2026)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ty8f47/anthropic_just_published_a_major_update_on/",
+      "mentions": 1,
+      "impact": "high"
+    },
+    {
+      "title": "Agent Executor - Google의 분산 에이전트 런타임 오픈소스",
+      "url": "https://news.hada.io/topic?id=30158",
+      "mentions": 1,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-06-01": 16,
+    "2026-06-02": 24,
+    "2026-06-03": 20,
+    "2026-06-04": 18,
+    "2026-06-05": 21,
+    "2026-06-06": 15,
+    "2026-06-07": 17
+  }
+}

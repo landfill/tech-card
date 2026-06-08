@@ -1,0 +1,63 @@
+{
+  "date": "2026-06-01",
+  "cards": [
+    {
+      "type": "cover",
+      "title": "에이전틱 코딩의 실무화 — Claude Code 중심 주간 정리",
+      "body": [
+        "2026-06-01~06-07, 23주차 위클리 인텔리전스",
+        "주제: Claude Code / Claude(Anthropic) — 에이전틱 코딩의 실무화와 인프라 연동"
+      ]
+    },
+    {
+      "type": "highlight",
+      "title": "핵심: Claude Code의 실무화와 인프라 확장",
+      "body": [
+        "Claude Code의 Dynamic Workflows·권한 시스템 등 실무화 기능이 이번 주를 주도했다.",
+        "동시에 OpenAI의 프론티어 모델·Codex의 AWS 배포와 분산 런타임·트레이싱 도구의 부상이 병행됐다."
+      ]
+    },
+    {
+      "type": "news",
+      "title": "OpenAI 프론티어 모델·Codex, AWS 출시",
+      "body": [
+        "OpenAI의 프론티어 모델과 Codex가 AWS에서 제공되기 시작했다는 발표가 이번 주 반복적으로 다뤄졌다.",
+        "데일리 리포트는 이 변화가 엔터프라이즈 채택 경로와 거버넌스·조달 워크플로를 바꿀 가능성이 있다고 지적했다."
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Claude Code — Dynamic Workflows와 권한 설계",
+      "body": [
+        "Claude Code가 작업별로 하네스와 실행 구조를 즉석에서 생성·조정하는 Dynamic Workflows를 공개해 에이전틱 워크플로 실무화를 가속화했다.",
+        "소스 딥다이브는 권한 시스템과 자동 모드 분류기를 다루며 보안·거버넌스 관련 실무 통제의 중요성을 강조했다."
+      ]
+    },
+    {
+      "type": "news",
+      "title": "Agent Executor·Spanlens — 인프라·관측 툴 부상",
+      "body": [
+        "Google의 Agent Executor 오픈소스는 분산 에이전트 런타임으로 자동 복구·액터 격리·이벤트 로깅을 제공해 인프라 수준의 운영 지원을 구체화했다.",
+        "Spanlens 같은 호출·트레이싱 관측 도구는 에이전트형 워크플로의 관찰성·신뢰성 확보에 기여하는 신호로 꼽혔다."
+      ]
+    },
+    {
+      "type": "insight",
+      "title": "실무 관점 인사이트",
+      "body": [
+        "에이전틱 코딩은 모델 기능을 넘어 런타임·트레이스·툴체인으로 확장되는 징후를 보이고 있다.",
+        "MCP·persistent memory와 토큰 효율화 이니셔티브는 장기 컨텍스트 유지와 비용 통제를 겨냥한 실무적 해법이다.",
+        "거버넌스(권한·샌드박스·승인 게이트)와 보안 이슈는 Dynamic Workflows 보급과 함께 지속적 긴장 요인이 될 것이다."
+      ]
+    },
+    {
+      "type": "closing",
+      "title": "다음 주 주목 포인트",
+      "body": [
+        "Claude Code의 Dynamic Workflows·권한 설계 논의가 실무 적용 사례와 거버넌스 설계 간 긴장을 계속 만들 것으로 보인다.",
+        "OpenAI 프론티어 모델·Codex의 AWS 배포에 따른 엔터프라이즈 도입 사례와 비용·거버넌스 패턴을 주목하라.",
+        "분산 런타임(Agent Executor)과 호출·트레이싱(Spanlens) 관련 도구들이 실무 운영·모니터링 적용 사례를 촉발할 가능성이 있다."
+      ]
+    }
+  ]
+}
