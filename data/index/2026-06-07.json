@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "title": "하네스 엔지니어링: 에이전트 우선 세계에서 Codex 활용하기",
+      "summary": "\n내부 베타에서 '수동 작성 코드 0줄' 제약 하에 Codex가 애플리케이션 로직, 테스트, CI 설정, 문서, 관측성, 내부 도구까지 생성한 실험 사례. 빈 git 저장소에서 시작해 약 5개월 만에 ~100만 줄 규모 코드베이스가 만들어진 경험과 운영·검증 관련 이슈를 다룸.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30258",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: Claude Code가 답변을 요구할 때 화면에 오버레이를 띄우는 플러그인",
+      "summary": "\nClaude Code의 턴이 끝나면 화면 전체에 검은색 오버레이를 띄워 사용자 주의를 환기시키는 플러그인. README에 데모 이미지와 사용법이 있으며 macOS Apple Silicon Tahoe 26.5에서 동작 확인 사례가 있음.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30256",
+      "source_id": ""
+    },
+    {
+      "title": "The Illusion of Finished Work in Claude Code",
+      "summary": "\nClaude Code가 생성하는 출력은 '완성된 작업의 형태'를 띠지만 실제로는 체인형 액션(파일 변경, 명령 실행, 테스트 등)을 통해 만들어진 결과물이고 중요한 동작·안전·아키텍처 이슈를 놓칠 수 있다는 지적. 에이전틱 코딩에 필요한 리뷰 표면(작업 계획, 읽은 파일, 변경 파일, 실행된 명령, 테스트 결과, 미검증 항목 등)을 제안함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzo0q6/the_illusion_of_finished_work_in_claude_code/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code Source Deep Dive - Part VIII: Permission System and Auto-Mode Classifier",
+      "summary": "\nClaude Code의 권한 결정 파이프라인, 자동모드 분류기 구조와 훅 시스템을 상세 해설. 빠른/사고형(two-stage) 분류기, 허용·거부 규칙, 모드 변환 로직, 프리/포스트 툴 훅 타입과 이벤트(PreToolUse, PostToolUse 등)를 기술하여 에이전트 도구 호출 안전성과 자동화 거버넌스 메커니즘을 설명함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tziyn1/claude_code_source_deep_dive_part_viii_permission/",
+      "source_id": ""
+    },
+    {
+      "title": "MCP that lets you run and manage Claude Code sessions from Claude.ai chat (Work where you brainstorm)",
+      "summary": "\nClaude.ai 브라우저 채팅에서 바로 Claude Code 세션을 시작·관리할 수 있도록 연결하는 MCP(멀티 플랫폼 브리지) 구현체(tandem). 아이디어·브레인스토밍 창에서 작업 지시 → 원격/로컬 Claude Code 세션 실행 → 결과를 다시 채팅으로 회신하는 루프를 만든 오픈소스 프로젝트(깃허브 링크 포함).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzroot/mcp_that_lets_you_run_and_manage_claude_code/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude chat and Claude Code - How do you carry context from a Claude.ai brainstorming session into Claude Code without lossy copy-paste?",
+      "summary": "\n브레인스토밍을 Claude 채팅에서 하고 빌드를 Claude Code에서 이어갈 때 최신 컨텍스트가 공유되지 않아 발생하는 문제 제기. 단순 복사·붙여넣기는 손실이 크고 에이전트가 자체 가정을 만들어 재설명해야 하는 상황이 자주 발생한다는 실무적 고민과 해결 사례 요청.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzk512/claude_chat_and_claude_code_how_do_you_carry/",
+      "source_id": ""
+    },
+    {
+      "title": "I built a Claude Code skill that stress-tests a pitch through 150 simulated tech personas. It was more useful than I expected.",
+      "summary": "\n'synth-personas'라는 Claude Code 스킬을 공개: 마크다운 파일(피치·덱 등)을 받아 150개 시뮬레이션 페르소나로 병렬 평가를 수행, 패턴 기반 피드백·점수·반대 의견을 리포트로 생성. TypeScript CLI + OpenRouter 병렬 호출 구조를 사용하며 오픈소스(MIT)로 공개됨.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tz6vuo/i_built_a_claude_code_skill_that_stresstests_a/",
+      "source_id": ""
+    },
+    {
+      "title": "Created my first video automation using claude+remotion+elevenlab+openAI",
+      "summary": "\nClaude 기반 에이전트 팀으로 대량 비디오 배치 처리 자동화 구축: 스크립트 작성, 사실 검증, Remotion 컴포넌트 생성, 음성 합성(ElevenLabs) 및 이미지 생성까지 파이프라인화해 실 프로덕션에 적용한 사례 보고.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzld1g/created_my_first_video_automation_using/",
+      "source_id": ""
+    },
+    {
+      "title": "I made a free Windows app to track your Claude Code usage — built with Claude Code, with a mascot that reacts to what it's doing",
+      "summary": "\nClaude Code로 제작한 무료 Windows 앱으로 Claude Code 사용량을 추적하는 도구. 사용량 시각화와 반응형 마스코트를 포함한 사용자 도구 사례로, 에이전트 사용 모니터링·가시성 개선 목적.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzd64v/i_made_a_free_windows_app_to_track_your_claude/",
+      "source_id": ""
+    },
+    {
+      "title": "Cloud agent solutions",
+      "summary": "\n대형 코드베이스에서 여러 에이전트를 병렬로 실행·조정할 때 충돌을 피하는 운영 방식(워크트리·클론 등)의 한계와 Cursor 같은 클라우드 에이전트가 제공하는 장점에 대한 토론. 기업/팀 환경에서 클라우드 기반 에이전트 운영과 격리 문제를 다룸.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzri9h/cloud_agent_solutions/",
+      "source_id": ""
+    },
+    {
+      "title": "Built an MCP server called Context-Simplo to stop wasting thousands of tokens in Cursor/Claude",
+      "summary": "\nCursor/Claude 사용 시 컨텍스트·토큰 낭비를 줄이기 위한 MCP 서버(Context-Simplo) 구현 보고. 세션 간 컨텍스트 재사용·단일화로 토큰 비용 최적화를 목표로 함(프로젝트/툴 간 컨텍스트 공유 문제에 대한 실무적 대응).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tznfnv/built_an_mcp_server_called_contextsimplo_to_stop/",
+      "source_id": ""
+    },
+    {
+      "title": "Cursor Pro vs Claude Code vs Codex: Which gives the most usage for $20/month?",
+      "summary": "\nCursor Pro, Claude Code, Codex 중 월 $20 예산으로 어느 서비스가 코딩 작업량(실사용) 대비 가장 효율적인지에 대한 사용자 질문과 비교 논의. 요금제·모델 선택이 개발자 경험과 토큰 소비 효율에 미치는 영향이 핵심.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1tzrvld/cursor_pro_vs_claude_code_vs_codex_which_gives/",
+      "source_id": ""
+    },
+    {
+      "title": "Cursor’s Automation Is Uselessly Limited – Only Cloud-Based?",
+      "summary": "\nCursor의 자동화 기능이 클라우드 전용으로 설계된 점을 비판하는 사용자 글. 로컬 작업 자동화, VPN/사내 네트워크 등 온프레미스 시나리오에서의 제약을 문제 삼음—자동화의 배포 대상(클라우드 vs 로컬) 관련 실무 이슈.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/cursor/comments/1tzlej9/cursors_automation_is_uselessly_limited_only/",
+      "source_id": ""
+    },
+    {
+      "title": "Uncle Bob: \"I Don't Review Code Written by AI Agents\"",
+      "summary": "\nUncle Bob(로버트 C. 마틴)이 AI 에이전트가 작성한 코드를 리뷰하지 않겠다는 입장을 피치한 영상/논의에 대한 레딧 포스트. 에이전트 작성 코드의 검증·소유권·리뷰 문화에 관한 개발자 커뮤니티 논쟁을 촉발.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tz930c/uncle_bob_i_dont_review_code_written_by_ai_agents/",
+      "source_id": ""
+    },
+    {
+      "title": "I got tired of explaining my project to every AI coding tool every single session. Building the open source fix.",
+      "summary": "\n다수의 AI 코딩 도구가 세션마다 프로젝트 설정을 재설명해야 하는 문제를 지적하고, 로컬·오픈소스 방식으로 프로젝트 컨텍스트를 지속시키는 솔루션을 개발 중임을 알림. 툴 간 '영속적 프로젝트 메모리' 문제에 대한 실무 대응 사례.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1tz21td/i_got_tired_of_explaining_my_project_to_every_ai/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic adds Claude Design to the Claude Desktop App",
+      "summary": "\nAnthropic이 Claude 데스크톱 앱의 cowork 탭에 'Claude Design' 기능을 통합한 업데이트 보고. Claude 생태계 내 제품 확장 및 데스크톱 워크플로 통합 사례.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzk49t/anthropic_adds_claude_design_to_the_claude/",
+      "source_id": ""
+    },
+    {
+      "title": "TaskbarQuota – Real-time AI quota tracker in the Windows taskbar",
+      "summary": "\nWindows 작업표시줄에서 AI 사용 쿼터(토큰/요금제)를 실시간으로 추적하는 오픈소스 도구. 다양한 모델·서비스 사용량을 한곳에서 모니터링해 비용·쿼터 관리를 돕는 유틸리티 프로젝트.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://github.com/zioder/TaskbarQuota",
+      "source_id": ""
+    }
+  ]
+}
