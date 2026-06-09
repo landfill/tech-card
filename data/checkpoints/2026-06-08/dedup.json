@@ -1,0 +1,179 @@
+{
+  "items": [
+    {
+      "title": "170k Claude queries per gallon of gas?",
+      "summary": "\nClaude(Anthropic) 공유 링크 — '갤런당 17만 Claude 쿼리' 같은 효율성 관련 수치 공유. 대규모 모델 운영의 에너지·비용 효율성에 관한 실험적 주장/계산에 해당.",
+      "url": "https://claude.ai/share/44fdc891-0fe5-40f3-a5b5-b203bbb6ab02",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "summary": "\nOpenAI 공지 — OpenAI가 SEC에 기밀 상태의 S-1 초안을 제출했음을 확인. 상장(IPO) 관련 절차 개시 소식으로, 프론티어 모델 산업과 자본시장 영향이 큼.",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Built to benefit everyone: our plan",
+      "summary": "\nOpenAI 성명 — 접근성, 안전성, 공유 번영을 중심으로 한 조직적 비전과 AGI에 대한 공익적 접근 계획을 설명. 모델 개발·배포 정책과 거버넌스 방향 제시.",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "summary": "\nOpenAI 발표 — 일자리·생산성·경제에 대한 AI 영향 연구를 위한 'Economic Research Exchange' 출범 및 연구 프로젝트 선발 공고. AI의 거시경제 영향 연구 인프라 확장 관련.",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "AI Is Upending One of Finance's Cushiest Jobs",
+      "summary": "\nBloomberg 분석 — AI가 전통적 재무 상담사 역할을 어떻게 흔들고 있는지 사례와 영향 분석. 금융 서비스 분야에서의 모델·자동화 적용과 직무 재편을 다룸.",
+      "url": "https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "AI Has Broken Hiring",
+      "summary": "\nHBR 기고 — 채용 과정에서 AI 도구의 도입이 초래한 문제(편향, 과정 왜곡 등)와 이를 개선하기 위한 제안들을 논의. 인사(HR) 영역에서의 AI 적용 사례와 정책적 시사점.",
+      "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "category": "산업별 AX",
+      "impact": "medium"
+    },
+    {
+      "title": "[2026/06/01 ~ 07] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+      "summary": "\n이번 주 선정 논문 10편 요약 — LLM 기반 에이전트의 상태 관리, 추론 효율화, 실제 환경에서의 안전성·검증 가능성에 대한 연구들이 두드러짐. 에이전트 효율화(구조적 변화)와 트랜스포머 아키텍처 개선 관련 주요 논문 포함.",
+      "url": "https://news.hada.io/topic?id=30295",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Tokenomics: 에이전트형 소프트웨어 엔지니어링에서 토큰이 어디에 사용되는지 정량화",
+      "summary": "\nLLM 기반 다중 에이전트 소프트웨어 개발 시스템의 실행을 SDLC 단계에 매핑해 토큰 소비 패턴을 분석 — ChatDev 실험에서 코드 리뷰 및 검증 단계가 토큰 소비의 다수를 차지(예: 코드 리뷰 평균 59.4%). 에이전트형 개발의 비용·설계 시사점 제공.",
+      "url": "https://news.hada.io/topic?id=30294",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "[FEATURE] Claude Desktop의 공식 Linux(Ubuntu LTS/Debian) 빌드 요청",
+      "summary": "\nAnthropic의 Claude Desktop이 macOS/Windows 전용인 점을 지적하며 Ubuntu LTS·Debian 대상 공식 빌드 요청 및 관련 공개 논의. 데스크톱 에이전트 배포와 플랫폼 지원 이슈에 대한 사용자 요청 사례.",
+      "url": "https://news.hada.io/topic?id=30269",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "AI 시대, 가장 가치 있는 개발자는 장인이면서 빌더인 사람이 될 것",
+      "summary": "\nAI 코딩 도구 확산으로 '빌더'가 되는 진입 장벽이 낮아진 가운데, 코드의 장인적 숙련도와 설계 역량(판단력·품질)이 더 가치 있게 재조명된다는 관점 분석. 기업·개발자 전략 시사점 포함.",
+      "url": "https://news.hada.io/topic?id=30264",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Composer 2.5 might be better than I thought",
+      "summary": "\nComposer 2.5 사용자 후기: 일부 실수는 있지만 빠르고 저렴하며 적절한 가이드와 후처리로 만족스러운 결과를 낸다는 경험 공유. 고급 모델(gpt-5.5)과 비교해 비용·속도 대비 효율 언급.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0bqsb/composer_25_might_be_better_than_i_thought/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Looking for training or howto - how do I actually become a power user?",
+      "summary": "\nCursor 장기 사용자 질문: Composer·멀티 레포 네비게이션·CI/CD 통합·보안 패턴 자동화 등 고급 기능·워크플로 사례와 학습 리소스를 요청. 기업 도입·파워유저 전환을 위한 실무 팁 수요를 드러냄.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0g6vq/looking_for_training_or_howto_how_do_i_actually/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Is anyone actually running coding agents autonomously from issue to PR?",
+      "summary": "\n완전 자율 워크플로(이슈 할당→에이전트 계획·구현·PR 생성)를 실전에서 운용하는 사례와 검증·권한·체크(테스트·보안) 관행을 묻는 질문 — 에이전트 신뢰성·거버넌스의 실무 쟁점 제기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0jyc8/is_anyone_actually_running_coding_agents/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Daily experience with Cursor / Composer-v2.5",
+      "summary": "\nCursor(Composer 2.5) 일일 사용기: 고정된 워크플로(상위 모델로 기획→Composer로 실행)를 권장, 메모리 파일·명시적 컨텍스트를 통해 대형 변경도 안정적으로 처리 가능하다는 현장 팁 공유. 토큰/요금 문제도 언급.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0jidd/daily_experience_with_cursor_composerv25/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How I started getting much better results from Cursor Composer",
+      "summary": "\nComposer를 잘 쓰기 위한 워크플로 공유: 커스텀 프롬프트 '스킬'로 상세 구조화된 명령 생성→Composer 계획 모드로 실행→별도 리뷰 스킬로 비파괴 검토하는 패턴이 신뢰성·품질을 크게 개선했다는 실전 팁.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0jb07/how_i_started_getting_much_better_results_from/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Is Cursor more expensive than using Claude code (June 2026)?",
+      "summary": "\nCursor 사용자가 요금·사용량 문제 제기 — 특정 플랜에서 예전보다 사용량 소진이 빨라진 경험 공유와 Claude(Opus) 등 대체 모델과의 비용 비교 논의 요청.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0e7ce/is_cursor_more_expensive_than_using_claude_code/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I think AI coding tools are creating a generation of developers who can build faster than they can debug.",
+      "summary": "\nAI 코딩 도구 사용 증가로 '생성'은 쉬워졌지만 이해·디버깅 능력의 중요성이 부상한다는 관찰 — 디버깅·아키텍처·시스템 사고의 가치 재평가 제안.",
+      "url": "https://www.reddit.com/r/cursor/comments/1tzxai2/i_think_ai_coding_tools_are_creating_a_generation/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "How do I get my IDE back???",
+      "summary": "\nCursor 최신 업데이트로 UI/작업흐름이 바뀌어 기존 에디터 레이아웃(프로젝트 트리/코드/터미널/에이전트 패널)을 복원하는 방법을 묻는 실무자 문의 — UX 변경이 개발 생산성에 미치는 영향 사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u033qc/how_do_i_get_my_ide_back/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Anthropic changed their privacy policy today and there's a specific clause that every Claude user needs to know about",
+      "summary": "\nAnthropic가 2026-07-08 발효되는 새 개인정보처리방침을 발표했으며, 기존에 법적 절차를 요하던 대화 공개 기준을 '자사 판단(good faith belief)'으로 확장한 조항이 포함되어 사용자 데이터의 사전·광범위한 공유 가능성이 제기됨 — 프라이버시·규제·기업 신뢰성 이슈.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0kq84/anthropic_changed_their_privacy_policy_today_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "An active attack is planting backdoors inside Claude Code right now. If you use npm, your credentials may already be compromised.",
+      "summary": "\n보고서 요지: npm 공급망 공격으로 악성 패키지가 개발자 환경(예: ~/.claude/settings.json, .vscode/tasks.json)에 페이로드를 심어 자격증명 탈취·영구화·빌드 서버 지속 접근을 확보한 사례들 소개. Claude Code 환경 사용자의 보안·서플라이체인 위험을 경고.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u05t5e/an_active_attack_is_planting_backdoors_inside/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude's new usage limits are insane.",
+      "summary": "\n사용자 보고: Opus + 1M 컨텍스트 + UltraCode 조합에서 내부적으로 병렬 에이전트를 다수 띄워 토큰 소모가 급증해 요금·사용한도 소진이 빠르게 일어난다는 경험 공유 — 병렬 실행·컨텍스트 비용 관련 실무 경고.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzwrxs/claudes_new_usage_limits_are_insane/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "6 free open source repos that cut my Claude Code token costs by up to 90%",
+      "summary": "\n사용자는 토큰 비용 절감을 위해 OSS 도구(토큰 사용 분석, 명령 출력 압축, 코드베이스 그래프 인덱싱 등)를 조합해 비용을 대폭 줄인 사례를 공유 — Claude Code 운영 비용 최적화 실무 팁 모음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0m6q8/6_free_open_source_repos_that_cut_my_claude_code/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I built a 16-step multi-agent content pipeline. Claude runs the writing and reasoning agents. Here is the architecture and what surprised me.",
+      "summary": "\n다단계(16단계) 에이전트 파이프라인 아키텍처 공유: 리서치→플랜→작성→팩트체크→편집 등 좁은 역할의 에이전트들을 순차·격리 배치해 디버깅·품질 관리가 쉬워짐. 에이전트 오케스트레이션 설계 관점의 실무 인사이트 제공.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0araf/i_built_a_16step_multiagent_content_pipeline/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I measured how many tokens Claude Code wastes re-reading files and command output over a week. Its around ~10.5M",
+      "summary": "\n한 사용자가 로컬 필터·인덱싱 툴을 만들어 한 주간 Claude Code가 불필요하게 재읽는 파일·명령 출력으로 낭비한 토큰을 측정하고 약 10.5M 토큰(명령 출력·리트리벌 최적화로 대폭 절감 가능)을 절감한 사례를 공유 — 개발자 측 토큰 최적화 데이터.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0bkr5/i_measured_how_many_tokens_claude_code_wastes/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Plug Claude into whatever you are working on",
+      "summary": "\n오픈 하드웨어·소프트웨어 프로젝트(BugBuster)로 MCP 도구(59개)를 통해 Claude가 계측기·임베디드 HW를 직접 제어하는 사례 공유 — 에이전트가 물리 장비·테스트랩에 직접 연결되어 실험·디버깅을 자동화하는 인프라 예시.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0oigm/plug_claude_into_whatever_you_are_working_on/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ]
+}
