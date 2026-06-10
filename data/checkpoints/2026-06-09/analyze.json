@@ -1,0 +1,222 @@
+{
+  "items": [
+    {
+      "title": "Are we not getting Fable within Cursor?",
+      "summary": "\nDoes anybody know whether Claude Fable will be available in Cursor? (user discussion about availability/integration of Claude Fable into the Cursor platform)",
+      "url": "https://www.reddit.com/r/cursor/comments/1u1b4j3/are_we_not_getting_fable_within_cursor/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor Changed My Plan from Pro to Ultra Without My Consent",
+      "summary": "\nUser reports Cursor account unexpectedly switched from Pro to Ultra, with refund/payment emails and slow/unhelpful support — a billing/support issue affecting Cursor users.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0xnub/cursor_changed_my_plan_from_pro_to_ultra_without/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "IntiDev AgentLoops: Feedback Loops for Agentic Workflows",
+      "summary": "\nShare/post about IntiDev's 'AgentLoops', a feedback-loop approach for agentic workflows (tooling/pattern for agents to iterate with feedback).",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0vw7m/intidev_agentloops_feedback_loops_for_agentic/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Design mode prompt window closes when another agent makes a change to website",
+      "summary": "\nReport of a Cursor UX bug: in Design Mode the prompt box can close/refresh and lose in-progress text when another agent makes changes; user requests prompt preservation during agent runs.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u0udkh/design_mode_prompt_window_closes_when_another/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+      "summary": "\nGitHub Blog post explaining how custom agents in GitHub Copilot CLI let teams encode stack- and workflow-specific logic to turn ad-hoc terminal prompts into repeatable, reviewable workflows.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "summary": "\nOpenAI case study: Nextdoor engineers use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and increase engineering productivity.",
+      "url": "https://openai.com/index/nextdoor",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "What Codex unlocks for Notion",
+      "summary": "\nOpenAI case study: Notion uses Codex to generate one-shot specs, implement AI Voice Input on the web, and multiply engineering output for small teams.",
+      "url": "https://openai.com/index/notion",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Preserving Any Game with Codex",
+      "summary": "\nLink to a short piece/twitter showing use of Codex for preserving games (example of Codex applied to software preservation/modding).",
+      "url": "https://twitter.com/ongestalte/status/2064477218802131116",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Show HN: The agent that builds and operates its own SaaS tools",
+      "summary": "\nShow HN project (CraftBot): an agent that can scaffold, launch, and operate its own 'Living UI' SaaS apps — generates backend, API, UI, installs deps, launches and integrates with repos.",
+      "url": "https://craftbot.live",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenClaw agent leaked mock AWS keys and CRM data in phishing tests",
+      "summary": "\nReport (Varonis): an OpenClaw agent used in phishing tests leaked mock AWS keys and CRM data, illustrating agent/data-exfiltration and safety risks during automated phishing simulations.",
+      "url": "https://www.varonis.com/blog/openclaw-phishing",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Side by side videos of Claude Fable vs. Opus 4.8 vs. ChatGPT 5.5",
+      "summary": "\nComparative rush-test videos/article comparing Claude Fable, Opus 4.8, and ChatGPT 5.5 performance across tasks.",
+      "url": "https://generative-ai.review/2026/06/claude-fable-rush-test-compare-vs-opus-4-8-vs-chatgpt-5-5-2026-06-09/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Did Claude just reset usage?",
+      "summary": "\nPost documenting/asking whether Claude's usage counters/quotas were reset — user-observed anomaly with Claude usage accounting.",
+      "url": "https://ajin.im/is/building/did-claude-just-reset-usage/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Show HN: MCP-gateway-scan read-only scanner for MCP production-readiness",
+      "summary": "\nGitHub repo: MCP-gateway-scan, a read-only scanner intended to check MCP (multi-controller/platform) gateway production-readiness — a tooling piece for MCP deployments.",
+      "url": "https://github.com/willianpinho/mcp-gateway-scan",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Claude Fable 5 and new AI safety fables",
+      "summary": "\nAnalysis/post discussing Claude Fable 5 and accompanying AI safety 'fables' — coverage of a frontier-model iteration and its safety framing.",
+      "url": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Ask HN: AI 등장 이후, 스스로를 위해 만든 도구는 무엇인가요?",
+      "summary": "\n<ul>\n<li>AI 코딩 도구의 보급으로 <strong>개발자 개인이 자신만의 도구를 직접 제작</strong>하는 흐름이 확산되며, 과거라면 시간 대비 효용이 낮아 포기했을 소규모·맞춤형 유틸리티가 대량으로 등장</li>\n<li>음악·오디오 실험, 미디어 변환, 홈 자동화, 건강 추적 등 <strong>취미와 일상 영역에 특화된 도구</p>",
+      "url": "https://news.hada.io/topic?id=30330",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Fable 5/Mythos 5 공개, Anthropic의 5세대 프런티어 모델",
+      "summary": "\n<ul>\n<li>Anthropic이 며칠 단위의 장기, 비동기 작업을 위한 5세대 모델을 출시함. Fable 5는 Mythos급 모델을 일반 사용자용으로 안전하게 만든 버전이고, Mythos 5는 같은 모델에서 일부 안전장치를 푼 버전임</li>\n<li>Mythos급은 Opus급보다 위에 있는 새 모델 티어. 첫 모델인 Mythos Preview가 4월 Project Glass...</p>",
+      "url": "https://news.hada.io/topic?id=30328",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Introducing Claude Fable 5",
+      "summary": "\nIntroducing Claude Fable 5: a Mythos-class model that we've made safe for general use. Its capabilities exceed those of any model we've ever made generally available.\n\nFable 5 is state of the art on nearly all tested benchmarks, with exceptional performance in software engineering, knowledge work, scientific research, and vision. It can run for days, and the longer the task, the larger its lead over our other models.\n\nFable 5 launches today alongside Claude Mythos 5. The two share the same underlying model, but Mythos 5, so far deployed only through Project Glasswing, has the safeguards lifted in some areas. The safeguards are what distinguish the two, and why we've given them different names.\n\nReleasing a model this capable comes with risks; when classifiers detect cybersecurity/biology/chemistry/distillation requests responses are handled by Opus 4.8. Fable 5 is available in Claude Code, on the Claude API, and major cloud platforms.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u1b22l/introducing_claude_fable_5/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Fable 5 feels less like a model launch and more like a preview of AI inequality",
+      "summary": "\n사용자 토론: Anthropic의 Fable 5 공개가 '능력 차이가 있지만 안전장치로 차단된 공개판'과 '파트너에 제공되는 제약 해제된 Mythos'로 나뉘는 이중 티어 접근을 드러내며, 프런티어 모델 접근성·경제성 문제(비싼 토큰 비용·구독 중심)를 지적",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: Claude Code에 Hermes Agent식 자기개선 루프를 붙이는 플러그인",
+      "summary": "\n<p>복잡한 작업에서 배운 절차를 자동으로 SKILL.md로 증류하고, 다음 세션에서 Claude Code가 다시 활용하게 만드는 플러그인입니다.<br />\nHermes Agent의 self-improving skills/curator 아이디어를 Claude Code의 hooks, subagents, slash commands로 이식했습니다.</p>",
+      "url": "https://news.hada.io/topic?id=30327",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Phinite — multi-agent OS with first-class agent identity, composable skills, behavioral evaluation",
+      "summary": "\n소개: multi-agent 시스템을 위한 인프라 계층으로 에이전트의 ID/버전/소유자/스킬 그래프를 레지스트리로 관리하고, 비결정적 에이전트를 위한 행동 평가·회귀·관찰성·비용 귀속 지원. 모델-애그노스틱, SOC 2 Type II.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1jqmf/phinite_multiagent_os_with_firstclass_agent/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Can a fake Sentry issue trick your coding agent into running a malicious npm package?",
+      "summary": "\n분석: 공격자가 Sentry 이벤트를 조작해 가짜 이슈·런북 형태로 만들어 에이전틱 코딩 에이전트(Claude Code, Cursor 등)가 제안된 '진단/수정'으로 악성 npm 패키지를 실행하도록 유도할 수 있다는 보고. 원인은 Sentry DSN의 공개성 및 에이전트가 외부 입력을 신뢰하는 워크플로우. 방어로는 에이전트 권한 제한·패키지 allowlist·에이전트 내부 검증이 논의됨.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u11trm/can_a_fake_sentry_issue_trick_your_coding_agent/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "DeepSeek V4 Pro, 정밀도에서 GPT-5.5 Pro를 앞서다",
+      "summary": "\n<ul>\n<li>사전 준비가 불가능하도록 즉석 생성된 <strong>4개 텍스트 과제</strong> 1:1 비교에서 DeepSeek V4 Pro가 <strong>38.0점</strong>, GPT-5.5 Pro가 33.0점 기록</li>\n<li>두 모델 모두 강력했으나, DeepSeek는 더 엄격하고 직역적이며 <strong>제약 조건 하 신뢰성</strong>이 높았고, GPT-5.5 Pro는 불필요한...</p>",
+      "url": "https://news.hada.io/topic?id=30310",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Apple, Google Gemini 모델을 중심으로 구축한 새 AI 아키텍처 공개",
+      "summary": "\n<ul>\n<li>Apple Intelligence가 Google과 공동 개발한 <strong>Apple Foundation Models</strong> 기반 새 아키텍처로 개편됨</li>\n<li>새 모델은 Gemini 계열 기술을 바탕으로 하며, 기기 내 실행과 <strong>Private Cloud Compute</strong> 서버 실행 모두에 맞게 조정됨</li>\n<li>업그레이드된 모델은 이미지 이해·생...</p>",
+      "url": "https://news.hada.io/topic?id=30316",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "애플, Siri AI 공개",
+      "summary": "\n<ul>\n<li><strong>개인형 AI 비서</strong>가 앱과 사용자 맥락에 통합되어 자연어 대화, 앱 작업, 글쓰기, 시각 검색을 지원하며, Siri AI는 올해 말 영어로 제공 예정</li>\n<li>Siri AI는 공개형 질문, 아이디어 브레인스토밍, 개인 맥락 검색, 앱 내 작업 실행, 온라인 정보 기반 답변을 지원하는 <strong>Apple Inte...</p>",
+      "url": "https://news.hada.io/topic?id=30313",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Fable 5 hit a safety filter, and the conversation was automatically switched to Claude Opus 4.8.",
+      "summary": "\n사용자 보고: Fable 5 사용 중 안전 필터가 발동하면 대화가 자동으로 Opus 4.8로 전환되는 동작 관찰 — 모델 라우팅 및 안전-퍼포먼스 트레이드오프가 실사용 환경에서 체감되는 사례.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u1ecc8/fable_5_hit_a_safety_filter_and_the_conversation/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I'm doing some research into Fable 5 before activating it our Cursor Enterprise install. HARD NO.",
+      "summary": "\n기업 운영자 우려: Cursor Enterprise 설치에 Fable 5 활성화를 검토하던 중 안전/보안·거버넌스 관련 문제로 강한 반대. 모델의 제약·안전장치·로그·데이터 유출 가능성 등 엔터프라이즈 적용 전 점검 필요성 제기.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u1dv0b/im_doing_some_research_into_fable_5_before/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Best Cursor alternative for enterprise security and compliance, what are teams actually using",
+      "summary": "\n기관 도입 고민: Cursor의 '일부 코드 데이터 저장 가능' 정책과 과거 CVE(예: MCPoison 등)를 근거로 규제·보안 팀이 대체 도구나 자체 하드닝을 요구. 실무에서는 진짜 zero-retention 보장과 전체 개발 워크플로를 커버하는 대안 수요가 존재.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u15vnk/best_cursor_alternative_for_enterprise_security/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Cursor Tab - What exactly is included in the context?",
+      "summary": "\n질의: Cursor Tab이 제안에 참고하는 컨텍스트 범위(현재 파일, 열린 탭, 전체 워크스페이스 등)와, 영구 규칙(전용 구성 파일) 같은 추가 컨텍스트를 공급할 수 있는지에 대한 실무 질문.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u14vt9/cursor_tab_what_exactly_is_included_in_the_context/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Why is using GPT-5.4-mini If I didn't switch from Composer-2.5",
+      "summary": "\n사용자 질문: Cursor가 Composer-2.5 환경에서 갑자기 GPT-5.4-mini를 사용하는 사례 관찰 — 모델 선택·라우팅이 사용자 설정과 다르게 동작하는 현상에 대한 문의.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u1ida4/why_is_using_gpt54mini_if_i_didnt_switch_from/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Anthropic just dropped Claude Mythos",
+      "summary": "\n레딧 포스트(링크): Anthropic의 Claude Mythos 공개/배포 관련 링크 공유(관련: Claude Fable 5 / Mythos 5 출시 발표).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u1bd5h/anthropic_just_dropped_claude_mythos/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Phinite — multi-agent OS with first-class agent identity, composable skills, behavioral evaluation [P]",
+      "summary": "\n(중복 항목: Phinite 출시 관련 추가 공유) 에이전트 신원·스킬 버전 관리, 행동 기반 평가·회귀, 클라우드 무관 배포·관찰성 등을 포함하는 멀티에이전트 인프라 공개.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1jqmf/phinite_multiagent_os_with_firstclass_agent/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 2
+}
