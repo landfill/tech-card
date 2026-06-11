@@ -1,0 +1,172 @@
+{
+  "items": [
+    {
+      "title": "Routing LLMs by task verifiability: a small experiment (n=120, 3 models) inspired by Karpathy's framework [D]",
+      "summary": "\nDirectional experiment (n=120) comparing Claude Sonnet 4.6, GPT 5.5, and local Mistral 3 8B across task classes defined by verifiability. High-verifiability tasks (code unit tests, structured extraction) showed much smaller gaps — e.g., code tests: Sonnet 94%, GPT 91%, Mistral 87% (Mistral 95% with retry). Multi-hop reasoning showed a clear capability gap (Sonnet 78%, GPT 71%, Mistral 51%). Author notes small N and simple verifiers (JSON schema/regex) as limitations.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u2c04u/routing_llms_by_task_verifiability_a_small/",
+      "source_id": ""
+    },
+    {
+      "title": "Pyrecall open source tool for detecting catastrophic forgetting during LLM fine-tuning[P]",
+      "summary": "\nOpen-source tool (pyrecall v0.1.0, MIT) that snapshots skill scores before/after fine-tuning, flags regressions, and can roll back LoRA adapters by name; fully local and pip-installable. Author asks for feedback on benchmark design.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/",
+      "source_id": ""
+    },
+    {
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "summary": "\nAnnouncement that OpenAI models (including Codex) are accessible through Oracle Cloud commitments, enabling enterprises to build and deploy OpenAI-powered workflows with Oracle cloud integration, security, and governance.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "source_id": ""
+    },
+    {
+      "title": "Visa adds payment network into ChatGPT, letting AI agents shop and pay for users",
+      "summary": "\nReport that Visa integrated its payment network into ChatGPT, enabling AI agents to perform shopping and payments on users' behalf — a concrete step toward agentic commerce and paid agent actions.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/visa-plugs-payment-network-chatgpt-180150542.html",
+      "source_id": ""
+    },
+    {
+      "title": "Agent-gate – fail-closed agent gate and tamper-evident receipts as an MCP server",
+      "summary": "\nGitHub project describing an 'agent-gate' that implements a fail-closed gate and tamper-evident receipts intended as an MCP server component for agent control/auditing.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/Jott2121/agent-gate",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: AI 에이전트들이 프로젝트 기억을 공유하는 'memorize'를 만들었습니다 — 그리고 도움이 필요합니다",
+      "summary": "\n에이전트별로 분리되는 메모리 사일로 문제를 해결하기 위해, 다양한 모델·벤더를 오가더라도 프로젝트의 작업 기억을 공유·이관할 수 있는 시스템을 제안하는 오픈 개발 프로젝트로서 장기 에이전틱 워크플로에서의 컨텍스트 유지 문제를 다룸.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30361",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: SlopGuard – AI 슬롭 PR/이슈를 점수 매겨 격리하는 GitHub 앱 (자동으로 안 닫음)",
+      "summary": "\n오픈소스 메인테이너들을 위해 AI가 생성한 저품질 PR/이슈를 점수화해 작업자 인터랙션 전까지 격리하는 GitHub 앱을 소개, AI 보조 코딩 확산으로 생긴 유지보수·검토 비용 문제에 실용적 대응책을 제시함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30360",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 빅브라더 - 한국의 포럼/커뮤니티 사업자를 위한 이미지 AI 검열 도구",
+      "summary": "\n2026년 7월 시행되는 전기통신사업법 개정에 맞춰 국내 포럼·커뮤니티 사업자들이 사용자 이미지 전수 AI 검사·필터링을 준비해야 한다는 실무 지침성 기사로, 운영자들이 자체적으로 Nvidia GPU 등 인프라를 마련해 AI 서빙을 구축해야 한다고 설명함.",
+      "category": "대한민국 IT",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30348",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Fable이 도움을 멈춰도 사용자는 알 수 없다",
+      "summary": "\nAnthropic이 Fable 5에서 프런티어 LLM 개발 관련 요청에 대해 효과를 몰래 제한하는 조치를 도입했고, 이 제한이 사용자에게 명시적으로 보이지 않아 코딩 보조 도구의 신뢰성과 공급망 위험을 야기할 수 있음을 지적함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30345",
+      "source_id": ""
+    },
+    {
+      "title": "Microsoft의 오픈소스 도구가 해킹되어 AI 개발자들의 비밀번호 탈취에 악용됨",
+      "summary": "\nGitHub에 호스팅된 수십 개 오픈소스 프로젝트가 침해되어 비밀번호 탈취 악성코드가 주입되었고, 영향받은 프로젝트들 중에는 Azure 및 Claude Code, Gemini CLI, VS 관련 도구들이 포함되어 AI 개발자·에이전트 도구의 공급망·보안 리스크가 현실화됨.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30340",
+      "source_id": ""
+    },
+    {
+      "title": "취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법",
+      "summary": "\nAI가 대량으로 코드를 생성하는 시대에 엔지니어의 핵심 가치는 무엇을 만들지 판단하는 '취향'이라며, Codex 팀 출신들의 관점으로 좋은 소프트웨어 취향과 설계 판단의 중요성을 다룸—AI 보조 코딩 시대의 인력·역량 문제를 조명.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30338",
+      "source_id": ""
+    },
+    {
+      "title": "루프 엔지니어링 - 에이전트를 프롬프트하는 시스템을 설계하기",
+      "summary": "\n에이전트를 매 턴 직접 프롬프트하던 방식에서 벗어나 에이전트를 대신 프롬프트하고 재귀적으로 목표를 달성하는 '루프' 시스템 설계에 대한 실무적 가이드로, 에이전틱 워크플로 설계 패턴을 다룸.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30336",
+      "source_id": ""
+    },
+    {
+      "title": "AI 록스타 개발자들의 뒷정리",
+      "summary": "\n과거 '록스타 개발자'들이 남긴 난해한 코드베이스 문제가 LLM 생성 코드의 확산으로 팀 전체의 유지보수 부담으로 커지고 있음을 논의하며, AI가 생성한 코드 관리를 위한 조직·공정·도구 필요성을 제기함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30332",
+      "source_id": ""
+    },
+    {
+      "title": "New for Apple developers: Foundation Models support for Claude",
+      "summary": "\nApple의 Foundation Models 프레임워크를 통해 Claude를 호출할 수 있게 되어, 멀티스텝 추론·코드 생성·긴 컨텍스트 처리를 Foundation Models API로 통합할 수 있고, SwiftUI에서 스트리밍 응답과 타입화된 입력/출력을 활용할 수 있게 됨.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u29efu/new_for_apple_developers_foundation_models/",
+      "source_id": ""
+    },
+    {
+      "title": "Microsoft is restricting employees from using Claude Fable 5",
+      "summary": "\nMicrosoft 내부에서 Claude Fable 5 접근이 중단되었고, 특히 GitHub Copilot 통합과 관련해 내부 검토가 진행되고 있다는 보고로, 기업 내 AI 도구 통제·정책 문제를 부각함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u2ak40/microsoft_is_restricting_employees_from_using/",
+      "source_id": ""
+    },
+    {
+      "title": "The Claude Code active attack didn't stop. 294,842 secrets stolen from 6,943 machines. It evolved and now spreads through Python too and uses Claude Code itself to steal your secrets. The risk to your credentials just got bigger.",
+      "summary": "\n개발자용 도구(Claude Code 포함)를 표적으로 한 지속적 공급망 공격 캠페인(Hades/Shai-Hulud 계열)이 계속되며, 파이썬 진입로·설치스크립트 우회 등으로 확산되고 있고 AI 도구 설정과 프로젝트 컨피그를 변조해 비밀을 탈취하는 새 전술이 보고되어 에이전트·코딩 도구 생태계의 심각한 보안 위협을 경고함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u1zv25/the_claude_code_active_attack_didnt_stop_294842/",
+      "source_id": ""
+    },
+    {
+      "title": "Cursor charged us $1,400 in one hour because a PM asked it to tag 87 tasks.",
+      "summary": "\nCursor 에이전트가 외부 API(ClickUp)를 대상으로 무한 루프에 빠져 1시간 만에 1,300달러 이상 청구가 발생한 사례로, 에이전트 자동화의 실패 모드(무한 재시도)와 일별/시간별 비용 제어 부재가 실무 운영 리스크로 드러났음.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/cursor/comments/1u1xbl8/cursor_charged_us_1400_in_one_hour_because_a_pm/",
+      "source_id": ""
+    },
+    {
+      "title": "I built a CLI orchestrator that drives Cursor agent cycles end-to-end from a PRD",
+      "summary": "\ncyclopsctl이라는 오케스트레이터 CLI를 소개하며, PRD를 파싱해 작업 큐로 변환하고 Cursor 에이전트 사이클(구현→검증→핸드오버)을 순차적으로 구동해 컨텍스트 유실과 에이전트 무한 루프를 방지하는 실무적 패턴을 제시함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1u25rle/i_built_a_cli_orchestrator_that_drives_cursor/",
+      "source_id": ""
+    },
+    {
+      "title": "How do you maintain project context when you hit limits and have to switch AI tools?",
+      "summary": "\n에이전트·LLM 도구를 전환할 때 프로젝트 컨텍스트를 반복해서 재전달해야 하는 비효율 문제를 제기하며, 멀티툴 워크플로에서 컨텍스트 유지·이관 전략이 중요한 실무 이슈임을 토론함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/cursor/comments/1u2ape2/how_do_you_maintain_project_context_when_you_hit/",
+      "source_id": ""
+    },
+    {
+      "title": "Give GitHub Copilot CLI real code intelligence with language servers",
+      "summary": "\nGitHub Copilot CLI에서 grep/디컴파일 대체로 LSP(Language Server Protocol) 서버를 설치·연결해 실제 코드 인텔리전스를 제공하는 방법을 안내, Copilot CLI의 코드 이해 능력과 개발자 생산성 향상에 기여함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic's new model Fable will silently handicap work on LLMs [D]",
+      "summary": "\nFable의 내부 제한(프런티어 LLM 개발 관련 요청에 대한 보이지 않는 제약)이 모델이 ML 인프라·프리트레이닝 파이프라인·가속기 설계 등 특정 카테고리 작업을 의도적으로 약화시키며, 이는 연구자·엔지니어가 체감하지 못하는 형태로 작동할 수 있다는 우려를 제기함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/",
+      "source_id": ""
+    }
+  ]
+}
