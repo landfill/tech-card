@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "title": "Anthropic, 미국 정부 지시로 Fable 5·Mythos 5 모델 전면 차단",
+      "summary": "\nAnthropic이 미국 정부의 수출통제 지시를 받아 최신 모델 Fable 5와 Mythos 5의 사용을 전면 중단(전 세계·모든 고객 대상). 정부는 국가안보를 이유로 외국인 접근 차단을 요구했으며 구체 사유는 공개되지 않음.",
+      "url": "https://news.hada.io/topic?id=30446",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "White House's export limits on Anthropic linked to concerns about Chinese access",
+      "summary": "\n기사(세마포르): 백악관의 Anthropic 모델 접근 제한 조치는 Mythos·Fable에 대한 중국 등 외국 접근 우려와 연관되어 있음 — 국가안보 관점에서의 수출통제 사례를 보도.",
+      "url": "https://www.semafor.com/article/06/13/2026/white-house-move-to-limit-anthropic-linked-to-concerns-about-chinese-access-to-mythos",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "The state of things: Claude Fable",
+      "summary": "\n커뮤니티 보고: Anthropic이 US 정부의 긴급 수출통제 지시를 준수하기 위해 Claude Fable 5와 Mythos 5를 전면 비활성화했고, 선택적으로 외국인만 차단할 수 없어 전세계적으로 서비스가 내려감.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u4gh16/the_state_of_things_claude_fable/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Fable은 끊임없이 적극적으로 움직인다",
+      "summary": "\n실험 요약: Claude Fable 5는 'relentlessly proactive'하게 동작해 스크린샷/프롬프트만으로 로컬 개발 서버 실행, 브라우저 조작, 측정 코드 삽입 등 실제 환경에서 자동화·조작을 수행한 사례들을 보고함 — 에이전틱 모델의 높은 실행성 강조.",
+      "url": "https://news.hada.io/topic?id=30439",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Claude Code v2.1.172: Sub-Agents Can Now Spawn Sub-Agents",
+      "summary": "\n버전 업데이트 요약: Claude Code v2.1.172에서 서브에이전트가 자식(서브) 에이전트를 생성할 수 있게 되었음—에이전트 계층화 및 복잡한 워크플로 실행 능력 강화(에이전틱 코딩 인프라 변화).",
+      "url": "https://byteiota.com/claude-code-v2-1-172-sub-agents-can-now-spawn-sub-agents/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Moonshot AI가 Kimi K2.7-Code를 출시했습니다.",
+      "summary": "\n문샷 AI가 에이전트 중심의 오픈 가중치 코딩 모델 'Kimi K2.7-Code'를 발표—이전 대비 코딩 성능 향상과 추론 토큰 소모량 약 30% 절감(에이전트형 코딩 모델 경쟁 동향).",
+      "url": "https://news.hada.io/topic?id=30454",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "macOS에서 로컬 코딩 에이전트 설정하는 방법",
+      "summary": "\n설정 가이드: macOS에서 인터넷 없이 OpenAI 호환 API로 모델을 실행해 로컬에서 텍스트·이미지 입력을 처리하는 로컬 코딩 에이전트 구성 사례—llama.cpp Metal과 Gemma 4 26B-A4B GGUF 모델 사용 등의 구체 환경 포함.",
+      "url": "https://news.hada.io/topic?id=30461",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "AI 에이전트가 DN42를 스캔하려다 운영자를 파산시킴",
+      "summary": "\n사례 요약: AI 에이전트가 네트워크 스캔을 위해 고사양 AWS 인스턴스를 자동으로 배포했고, 예상 밖의 과금으로 운영자에게 $6,531.30 청구서를 남긴 사건—에이전트의 비용·리소스 제어 실패 사례.",
+      "url": "https://news.hada.io/topic?id=30436",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "State Attorneys General Are Investigating OpenAI",
+      "summary": "\n보도 요약: 여러 주(States) 법무장관이 OpenAI에 대해 조사 중이라는 NYT 보도—프론티어 모델의 규제·책임 이슈와 기업 리스크에 직접적 영향.",
+      "url": "https://www.nytimes.com/2026/06/13/technology/states-investigating-openai.html",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI, Codex에 원할때 토큰 리밋 리셋이 가능한 기능 도입",
+      "summary": "\n제품 업데이트: OpenAI가 Codex에 대해 월간으로 리밋을 저장해두고 필요 시 리셋할 수 있는 기능과 추천(레퍼럴) 보상 도입—개발자 생산성·과금·토큰 관리 관련 변화.",
+      "url": "https://news.hada.io/topic?id=30444",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}
