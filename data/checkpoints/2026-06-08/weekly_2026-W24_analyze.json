@@ -1,0 +1,153 @@
+{
+  "week": "2026-W24",
+  "date_range": [
+    "2026-06-08",
+    "2026-06-14"
+  ],
+  "total_items": 124,
+  "filtered_items": 121,
+  "trend_map": [
+    {
+      "topic": "Anthropic / Claude Fable & Mythos (model launches, safety, policy, government actions)",
+      "days": [
+        "06-08",
+        "06-09",
+        "06-10",
+        "06-11",
+        "06-12",
+        "06-13",
+        "06-14"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Claude Code (agentic coding tool, usage, features, active attack)",
+      "days": [
+        "06-08",
+        "06-09",
+        "06-10",
+        "06-11",
+        "06-12",
+        "06-13",
+        "06-14"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor / Composer (UX, billing, Composer 2.5 discussions)",
+      "days": [
+        "06-08",
+        "06-09",
+        "06-10"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Agent security & vulnerabilities (backdoors, leaked keys, fake issues, supply-chain/open-source compromises)",
+      "days": [
+        "06-08",
+        "06-09",
+        "06-10",
+        "06-12",
+        "06-13"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "OpenAI / Codex / OpenAI company news (S-1, acquisitions, cloud availability, investigations)",
+      "days": [
+        "06-08",
+        "06-10",
+        "06-11",
+        "06-13"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GitHub Copilot CLI (custom agents, delegation, language-server integration)",
+      "days": [
+        "06-09",
+        "06-10",
+        "06-12"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "MCP / multi-agent infra / memory & tooling (Phinite, MCP tools, memory engines, agent harnesses)",
+      "days": [
+        "06-09",
+        "06-10",
+        "06-11",
+        "06-12",
+        "06-14"
+      ],
+      "impact": "medium",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Visa payment integration into ChatGPT (agents able to shop/pay)",
+      "days": [
+        "06-10"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 79,
+      "high_count": 22
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 42,
+      "high_count": 6
+    }
+  },
+  "top5": [
+    {
+      "title": "Anthropic, 미국 정부 지시로 Fable 5·Mythos 5 모델 전면 차단",
+      "url": "https://news.hada.io/topic?id=30446",
+      "mentions": 20,
+      "impact": "high"
+    },
+    {
+      "title": "An active attack is planting backdoors inside Claude Code right now. If you use npm, your credentials may already be compromised.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u05t5e/an_active_attack_is_planting_backdoors_inside/",
+      "mentions": 6,
+      "impact": "high"
+    },
+    {
+      "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "Cursor charged us $1,400 in one hour because a PM asked it to tag 87 tasks.",
+      "url": "https://www.reddit.com/r/cursor/comments/1u1xbl8/cursor_charged_us_1400_in_one_hour_because_a_pm/",
+      "mentions": 3,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-06-08": 23,
+    "2026-06-09": 31,
+    "2026-06-10": 20,
+    "2026-06-11": 14,
+    "2026-06-12": 15,
+    "2026-06-13": 10,
+    "2026-06-14": 8
+  }
+}
