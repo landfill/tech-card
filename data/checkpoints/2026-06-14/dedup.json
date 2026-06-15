@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "title": "Amazon CEO와 미국 당국자의 대화가 Anthropic 모델 단속을 촉발함",
+      "summary": "\n미국 행정부가 Anthropic의 최상위 모델(예: Fable 5, Mythos 5)에 대한 해외 사용을 차단하는 결정을 내렸다는 보도 — 내부 프롬프트로 인한 안전 우려가 배경으로 지목됨.",
+      "url": "https://news.hada.io/topic?id=30472",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Senior Anthropic staffs are in Washington meeting White House officials to resolve the Fable 5 and Mythos dispute",
+      "summary": "\nAnthropic의 고위 기술진이 백악관 관계자들과 만나 Fable 5·Mythos 문제 해결을 모색 중이라는 속보성 보고 — 모델 오프라인 사태를 해소하기 위한 협의가 진행되고 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u5tax4/senior_anthropic_staffs_are_in_washington_meeting/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "repo-slopscore: 커밋 기록 분석으로 Git 저장소의 AI/LLM 기여 감지",
+      "summary": "\nrepo-slopscore는 Git 커밋 기록을 스캔해 AI/LLM 기여 흔적을 감지하는 도구로 공개 리포지토(소스: codeberg.org)에 소스가 있으며 수천 저장소를 스캔한 사례가 보고됨.",
+      "url": "https://news.hada.io/topic?id=30475",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Self-hosted Claude agent that self-improves over time with a verbatim memory palace and 90% cheaper repeat calls through 3 layers of caching!",
+      "summary": "\n자가호스팅 Claude 에이전트 구현 공개: 모든 출력물을 verbatim으로 저장하는 'memory palace'와 프롬프트 캐싱을 통해 반복 호출 비용을 크게 줄이는 설계(ChromaDB 로컬, Dockerfile 포함).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u5jfl3/selfhosted_claude_agent_that_selfimproves_over/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Code built a full browser auto-battling idle game with 12 playable mechs...",
+      "summary": "\nClaude Code(에이전틱 코딩 툴)를 사용해 풀 게임(시뮬레이션 코어, 절차적 아트, 위키 등)을 단기간에 완성한 사례 — 에이전트 기반 코딩 워크플로의 실제 생산성·범용성 시연.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u5qk2g/claude_code_built_a_full_browser_autobattling/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "My Claude Code now has a physical body — a little robot that jumps when CC needs my attention.",
+      "summary": "\nClaude Code의 상태에 반응하는 물리적 알림(작은 점프형 로봇)을 연결해 에이전트-개발자 상호작용의 주목성 문제를 해결한 개인 사례 — 에이전트 UX/통합 실험 사례로 의미 있음.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u5qjvo/my_claude_code_now_has_a_physical_body_a_little/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: Coding agent with algebraic memory (VSA) instead of RAG",
+      "summary": "\nRAG 대신 벡터·기억 접근을 대체하는 '대수적 메모리(VSA)' 기반 코딩 에이전트 구현을 공개한 프로젝트(깃허브) — 에이전트 기억·검색 아키텍처 대안 제시.",
+      "url": "https://github.com/vitaliyfedotovpro-art/raidho",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude sent me prompt injection?!",
+      "summary": "\n사용자가 Claude 데스크탑에서 편집 중 모델 응답에 마치 시스템 지시처럼 보이는 악성(예: 언어 변경) 문구가 포함되어 나타난 사례 보고 — 프롬프트 주입/시스템 지시 위조 문제의 실제 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u5yitd/claude_sent_me_prompt_injection/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ]
+}
