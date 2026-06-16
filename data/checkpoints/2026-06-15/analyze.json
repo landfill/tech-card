@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "title": "큰 컨텍스트 창을 신뢰하지 마라",
+      "summary": "\nLLM의 컨텍스트 창은 '예리한 구간'과 '둔한 구간'으로 나뉘며, 실제 유효 작업 범위는 광고된 창보다 작을 수 있고 구분점이 ~100k 토큰 주변이라는 관찰을 다룸 — 프론티어 모델의 장기 컨텍스트 신뢰성에 대한 실무적 시사점.",
+      "url": "https://news.hada.io/topic?id=30515",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: hera-agent-unity - CLI로 Unity를 제어하는 MCP 대안 (런타임 의존성 0)",
+      "summary": "\nAI 에이전트가 추측 대신 실제 Unity 에디터에서 코드를 실행해 결과를 읽어오도록 하는 도구로, Go 바이너리 + C# UPM 패키지 구성으로 런타임 의존성을 낮춰 에이전트 개발·하니스에 유용함.",
+      "url": "https://news.hada.io/topic?id=30510",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: tradingcodex - 코덱스를 자산운용사로 만들어주는 하네스",
+      "summary": "\nCodex 기반 에이전트를 자산운용사 워크플로로 전환하는 하네스(설정파일, 서브에이전트 구성, hooks, Django 서버 포함) 소개 — 코덱스형 에이전트의 산업 적용 사례.",
+      "url": "https://news.hada.io/topic?id=30508",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "리우데자네이루의 “자체 개발” LLM이 기존 모델의 병합으로 보임",
+      "summary": "\n리우데자네이루 시(市)가 공개한 '자체 개발' LLM이 다른 공개 모델들의 병합과 유사하다는 지적(관련 Hugging Face 커밋과 비교) — 모델 출처·투명성 이슈와 오픈 모델 리파지토리 연관성.",
+      "url": "https://news.hada.io/topic?id=30506",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "re_gent - AI 코딩 에이전트를 위한 버전 관리",
+      "summary": "\n에이전트가 수행한 작업을 git처럼 단계별로 추적·감사하는 도구로, 어떤 프롬프트가 어떤 줄을 작성했는지 등 세션 단위 로그(rgt log 등)를 제공해 에이전트 기반 개발의 추적성·책임성 보강에 초점.",
+      "url": "https://news.hada.io/topic?id=30496",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "에이전트 코딩에 로컬 LLM 활용하기",
+      "summary": "\n클라우드 플래그십 모델 비용이 급등하는 상황에서 로컬 LLM을 활용해 에이전트 코딩 작업을 지속하는 방법을 정리 — 가격 대비 성능과 결정론적 하니스 보강으로 실용성을 끌어올리는 전략 제시.",
+      "url": "https://news.hada.io/topic?id=30488",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: 맥북을 덮어도 클램쉘 모드로 AI 에이전트를 계속 돌리는 앱 — Electronic Clam",
+      "summary": "\nmacOS에서 노트북을 덮어도 AI 에이전트 프로세스를 중단시키지 않고 계속 실행하도록 해주는 메뉴바 앱으로, 장시간 에이전트 배치·개발 작업을 수행하는 사용성을 개선.",
+      "url": "https://news.hada.io/topic?id=30486",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Claude Code 창시자, 소프트웨어 엔지니어의 종말을 말하다 [유튜브]",
+      "summary": "\n에이전트형 코딩 도구 Claude Code 창시자의 발언을 다루며, 에이전트가 제품 개발·업무 흐름 재구성에 미치는 영향과 기업 내 AI 실험의 보상·리스크를 논의함.",
+      "url": "https://news.hada.io/topic?id=30492",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic has been sued for allegedly misleading customers on usage limits.",
+      "summary": "\n미 연방법원에 제기된 집단소송: Anthropic의 Max 요금제(예: Max 5x, Max 20x)가 광고한 사용량만큼 제공되지 않았다는 주장(환불·손해배상 청구) — 프론티어 모델의 요금·제한 투명성 문제 부각.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u6kzsr/anthropic_has_been_sued_for_allegedly_misleading/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak, says researcher",
+      "summary": "\nFable 5(Anthropic) 사례를 둘러싼 보안·규제 논란을 다루며, 단순 코드 수리 프롬프트가 보안 이슈로 비화한 배경과 정부의 규제·감시 강화 우려를 보도 — 프론티어 모델과 정부 대응의 정책적 파장.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u6tm7g/feds_freaked_over_fable_5_after_simple_fix_this/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Agent SDK Postponed 🎉",
+      "summary": "\nClaude 관련 Agent SDK 발표 일정이 연기되었다는 커뮤니티 게시물 — 에이전틱 플랫폼·서드파티 도구 생태계 일정 변동 신호.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u6qura/agent_sdk_postponed/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Agent SDK and third party update paused",
+      "summary": "\n서드파티 도구 연동 및 Agent SDK 관련 업데이트가 일시 중단된 듯하다는 커뮤니티 관찰 — 써드파티 통합 가용성에 영향 가능.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u6r5r1/agent_sdk_and_third_party_update_paused/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic is pausing cancellation of programming use counted towards subscriptions",
+      "summary": "\nAnthropic가 구독 산정에 포함된 '프로그래밍 사용' 취소 정책을 일시 중단했다는 커뮤니티 보고 — 요금·쿼터 정책의 실무적 조정 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u6rol3/anthropic_is_pausing_cancellation_of_programming/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Stop burning your Opus 4.8 Max limits. Use this prompt to slash token costs.",
+      "summary": "\nOpus/Claude Max 요금제의 토큰 소모를 줄이기 위한 실무 팁(초간결 출력·서브에이전트 실행 지시 등)과 토큰 절약 프롬프트 예시를 공유 — 운영비용 최적화 관점의 실무 노하우.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u6cwvn/stop_burning_your_opus_48_max_limits_use_this/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "A little desk badge that displays my Claude Code stats",
+      "summary": "\nccstats라는 자가호스팅 파이프라인으로 Claude Code 세션을 스크랩해 통계(토큰 사용량, 세션, 프로젝트별 집계 등)를 생성하고 소형 배지/대시보드로 표시하는 제작기 — 개인용 사용량 계측 도구 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u6m1yx/a_little_desk_badge_that_displays_my_claude_code/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
+      "summary": "\nGitHub 블로그: 터미널 기반 AI 에이전트인 Copilot CLI에서 슬래시 명령을 사용해 에이전트 동작을 제어하는 방법을 초보자 관점에서 정리.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+      "summary": "\nGitHub에서 공개한 리포지토리 수준의 CC0 멀티링궐 개발자 콘텐츠 데이터셋으로, README·이슈·PR 등에서 다국어 개발 문서를 발견·활용할 수 있게 하여 다국어 AI 개발을 촉진.",
+      "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude Corps",
+      "summary": "\nAnthropic의 공식 발표 페이지(Claude Corps) — Anthropic 관련 새로운 프로그램/이니셔티브(커뮤니티·제품 관련) 공지로, 에코시스템·에이전트 운영 관점에서 주목됨.",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show HN: HashMeterAi – Private AI Token Real Usage Meter for All Models",
+      "summary": "\n로컬 우선형 AI 사용량 계측기 HashMeterAi 공개(Claude Code, Codex 등 여러 모델을 통합해 개인 사용량을 측정) — 프라이버시 중심의 비용·사용량 모니터링 도구.",
+      "url": "https://github.com/Hash-7777/HashMeterAi",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "Ultracoding: The Next Frontier",
+      "summary": "\n'Ultracoding'을 주제로 에이전틱·고밀도 AI 기반 코딩 패러다임의 개념적 설명과 앞으로의 가능성을 정리한 블로그 글(개발자·제품 관점에서 에이전트 코딩의 진화 논의).",
+      "url": "https://www.jay.ai/blog/ultracoding-the-next-frontier",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}
