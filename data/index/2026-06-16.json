@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "title": "SpaceX, 90조원에 Cursor 인수",
+      "summary": "\nSpaceX가 AI 코딩 에이전트 Cursor(개발사 Anysphere)를 약 600억 달러(전액 주식 교환)로 인수해 기업용 AI 코딩 도구 시장에 본격 진입한다는 보도. xAI 인수와 함께 SpaceX 계열사가 에이전틱 코딩 툴 포지셔닝을 강화할 가능성이 큼.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30551",
+      "source_id": ""
+    },
+    {
+      "title": "[2026/06/08 ~ 14] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+      "summary": "\n주간 논문 요약으로, 자율성(자가개선), 멀티에이전트 시스템, 신뢰성·효율성 향상 등 최근 AI 연구의 트렌드를 정리—에이전틱/에이전트·프론티어 모델 관련 최신 연구 포인트를 모아 소개.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30531",
+      "source_id": ""
+    },
+    {
+      "title": "Apple Foundation Models에 Claude 탑재하기",
+      "summary": "\nApple의 LanguageModel 프로토콜(Foundation Models 프레임워크) 경로로 Claude를 서버사이드 모델로 호출할 수 있게 하는 Swift 패키지 공개—온디바이스 모델과 동일한 코드 경로로 외부 Claude를 통합하는 개발자용 연결 도구.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30529",
+      "source_id": ""
+    },
+    {
+      "title": "Ask HN: 일상적인 코딩에서 Claude/GPT를 로컬 모델로 대체한 사람이 있나요?",
+      "summary": "\n클라우드 모델 대신 컨테이너화·샌드박스된 오프라인 코딩 하니스로 완전히 전환한 개발자 사례와 사용 모델(Qwen3.6 35B-A3B 등) 경험 공유—데이터 프라이버시와 비용 관점에서 로컬 전환 고려 논의.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30525",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic just got sued over Claude usage limits — class action filed June 14",
+      "summary": "\n미 캘리포니아 북부지방법원에 제기된 집단소송(Kahn v. Anthropic). 원고는 'Max 5x/20x' 등 사용량 배수 표기가 실제 제공량과 달라 소비자 오도했다고 주장—클라우드/모델 요금·사용량 공시와 소비자 보호 쟁점 제기.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u78tig/anthropic_just_got_sued_over_claude_usage_limits/",
+      "source_id": ""
+    },
+    {
+      "title": "Trump official says it's \"up to Anthropic\" as to whether or not a resolution is found quickly in the Mythos/Fable shutdown.",
+      "summary": "\n미 정부 관계자가 Anthropic과의 협상이 모델(Mythos/Fable) 접근 제한 문제 해결의 열쇠라고 발언—Fable/Mythos 서비스 중단·재배포 문제에 대해 정부와 기업 간 협의가 진행 중이라는 정치·규제적 맥락 보고.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u73kmd/trump_official_says_its_up_to_anthropic_as_to/",
+      "source_id": ""
+    },
+    {
+      "title": "Built a cinematic ancient-DNA migration map fully with Claude Code and voice dictation",
+      "summary": "\n개인이 Claude Code(에이전트)를 사용해 제품을 프로토타입/구현한 사례: UI 와 백엔드 설계, Cloudflare 배포, Claude로 와이어프레임·비주얼 검증을 자동화한 실전 빌드 경험 공유—에이전틱 도구를 활용한 제품 개발 사례.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u7e4y5/built_a_cinematic_ancientdna_migration_map_fully/",
+      "source_id": ""
+    },
+    {
+      "title": "Spent $11k evaluating Fable: capability looked SOTA, refusals killed it (before Anthropic did)",
+      "summary": "\nWolfBench에서 Fable 5를 대규모 에이전트 벤치마크로 평가한 결과 보고: 전반적 성능은 높았으나 수만 건의 'refusal' 루프가 에이전트 워크플로를 중단시키고 시간·토큰을 소모해 실제 에이전틱 작업에선 실패율이 높았다는 분석—안전성·실행 신뢰성 문제 지적.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u7jnlw/spent_11k_evaluating_fable_capability_looked_sota/",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: Kevin – Claude talk less. Save Money",
+      "summary": "\n오픈소스 Claude 플러그인(‘Kevin’)으로 모델 응답 길이·토큰 비용을 줄여 비용을 절감하는 시도—에이전트/LLM 비용 최적화와 프롬프트·플러그인 실험에 관심 있는 개발자 대상 도구.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://github.com/hvardhan878/kevin",
+      "source_id": ""
+    },
+    {
+      "title": "An open letter: On transparent AI cyber protections",
+      "summary": "\nFable 관련 접근 제한 사태 등을 배경으로 AI 사이버 보호와 투명성 요구를 담은 오픈 레터(FreeFable) 공개—프론티어 모델의 보안·거버넌스 이슈에 대한 커뮤니티 대응 제안.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://freefable.org/",
+      "source_id": ""
+    },
+    {
+      "title": "Sparda – Turn any Express/FastAPI app into an MCP server in 3 minutes",
+      "summary": "\nExpress/FastAPI 앱을 단기간에 MCP(Multi-Channel/Model Connector Protocol) 서버로 전환하는 오픈소스 툴 공개—에이전트·모델 통합을 위한 경량 서버 변환 도구로, 모델-앱 연동을 간소화.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/zyx77550/sparda",
+      "source_id": ""
+    },
+    {
+      "title": "What does software development look like when agents write 100% of the code?",
+      "summary": "\n에이전트가 전체 코드 생성·유지보수를 담당하는 가정에서 소프트웨어 개발 프로세스가 어떻게 변하는지 탐구한 에세이—에이전틱 코딩으로 인한 조직·검증·배포·품질관리 변화 논의.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://blog.bastion.computer/what-does-software-development-look-like-when-agents-write-100-of-the-code/",
+      "source_id": ""
+    },
+    {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "summary": "\nOpenAI가 실제 대화 데이터를 사용해 배포 전 모델 행동을 예측하는 'Deployment Simulation' 기법을 소개—모델 출시 전 안전성·행동 예측을 개선하고 배포 리스크를 낮추려는 평가·검증 워크플로 신기능.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://openai.com/index/deployment-simulation",
+      "source_id": ""
+    }
+  ]
+}
