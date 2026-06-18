@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "title": "Show GN: sfs - 여러 AI 에이전트가 공유하는 두뇌(shared brain) 파일시스템",
+      "summary": "\n여러 기기/세션에서 돌리는 Claude Code·Codex 같은 에이전트들이 각자 따로 쌓는 컨텍스트를 해결하기 위해 '여러 에이전트가 공유하는 두뇌(shared brain)' 개념의 파일시스템을 제안한 프로젝트. 에이전트 간 지식·상태 공유를 통해 멀티-세션·멀티-기기 에이전틱 워크플로 개선을 목표로 함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30573",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code의 수석 디자이너가 AI로 빌드하는 방법 [유튜브]",
+      "summary": "\nClau­de Code를 실제 제품 개발 워크플로에서 어떻게 사용하는지 시연한 발표(Excalidraw에 autocomplete 추가). worktree로 병렬 Claude 세션을 운용하고, 디자이너·개발자 관점의 실전 패턴과 코드+세션 관리 기법을 다룸.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30562",
+      "source_id": ""
+    },
+    {
+      "title": "에이전틱 코드 리뷰",
+      "summary": "\n코딩 에이전트의 성능 향상으로 엔지니어링의 핵심 문제가 '코드 작성'에서 '그 코드를 신뢰할지 판단하는 일'로 이동했다는 분석. 리뷰가 레버리지 높은 작업이 됐고, 에이전트 산출물의 검증·리뷰 워크플로 설계가 중요해졌음을 논함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30571",
+      "source_id": ""
+    },
+    {
+      "title": "일론 머스크의 스페이스X, IPO 직후 AI 코딩 스타트업 커서(Cursor) 600억 달러에 인수",
+      "summary": "\nSpaceX(상장 후 급등)가 AI 코딩 스타트업 Cursor를 약 600억 달러 규모로 인수했다는 보도(기사 요약에 기업 가치·전략 연계 언급). 에이전틱 코딩 스타트업에 대한 대기업 인수·통합 사례로, 에이전트·개발자 도구 시장 재편 신호.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30561",
+      "source_id": ""
+    },
+    {
+      "title": "sandboxd - AI 앱-빌더 제품을 위한 오픈소스 샌드박스 엔진",
+      "summary": "\n사용자별 격리된 클라우드 개발 환경, 내장 코딩 에이전트, 라이브 미리보기 URL을 통합하는 AI 앱 빌더용 오픈소스 백엔드 엔진. HTTP 호출로 격리된 컨테이너 생성→에이전트가 내부에서 코드 작성→작성된 앱을 공유 가능한 워크플로를 자동화함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30560",
+      "source_id": ""
+    },
+    {
+      "title": "Getting more from each token: How Copilot improves context handling and model routing",
+      "summary": "\nGitHub Copilot이 세션 내 토큰 활용을 개선해 컨텍스트 처리와 모델 라우팅을 최적화하는 방법을 설명한 글. Copilot의 비용·효율 개선과 개발자 워크플로에서 토큰 효율성이 어떻게 반영되는지 기술적·운영적 변경점을 다룸.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "source_id": ""
+    },
+    {
+      "title": "Copilot individual plan sign-ups are reopening",
+      "summary": "\nGitHub Copilot 개인 플랜 가입 재개 공지. Copilot 접근성·개인 사용자 채널이 다시 열리면서 개발자 툴 구독 모델과 엔드유저 확보에 미치는 영향이 있음.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic CEO Dario Amodei joins top AI CEOs meeting with world leaders at G7 summit",
+      "summary": "\nAnthropic CEO 등 주요 AI 기업 경영진이 G7 정상급 회동에 참석해 고급 모델 접근성·정책을 논의한 소식(레딧 요약). 프론티어 모델의 국제적 접근·규제·협력 쟁점과 연계되는 이벤트.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8g4rn/anthropic_ceo_dario_amodei_joins_top_ai_ceos/",
+      "source_id": ""
+    },
+    {
+      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+      "summary": "\nOpenRouter 블로그의 에이전트 대결/벤치마크 성격 글(추천 URL 포함). 에이전틱 에이전트 성능 비교와 '어떤 모델을 에이전트 런타임으로 선택할지'에 관한 인사이트를 제공, 에이전트 설계·모델 선택 논의에 참고될 만함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "source_id": ""
+    },
+    {
+      "title": "GLM 5.2 via Claude Code is the first non-Claude model that feels close to Opus",
+      "summary": "\n레딧 사용자가 Claude Code를 통해 GLM 5.2를 Anthropic 호환 API로 사용해본 경험을 공유. 일부 실무 작업(디버깅·백엔드·프론트엔드)에서 Opus급 성능에 근접한 사례를 보고하며, 오픈/비(非)Claude 계열 모델이 에이전틱 워크플로에 점점 의미 있는 대안이 되고 있음을 시사.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8pycz/glm_52_via_claude_code_is_the_first_nonclaude/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Opus caught malware hidden in my repo, then reverse engineered the whole thing",
+      "summary": "\nClaude Code(Opus)를 이용한 리포지토리 자동화 중, 모델이 병합하려던 커밋에서 악성코드를 탐지하고 실행 없이 역분석까지 수행한 사례 보고. 에이전트 기반 CI/CD에서의 보안·정적 분석·자동화된 검토가 실제 위협 탐지에 기여한 케이스.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u7vqst/claude_opus_caught_malware_hidden_in_my_repo_then/",
+      "source_id": ""
+    },
+    {
+      "title": "Vlk: MemAct for the IDE – persistent working memory agents can prune themselves",
+      "summary": "\nIDE에 통합되는 지속형 '작업 메모리' 에이전트 구조를 제안하는 오픈소스 리포지터리. 에디터/IDE 환경에서 에이전트가 자신의 작업 메모리를 유지·수정·가지치기하며 장기적 컨텍스트를 관리하는 패턴을 다룸(에이전틱 개발자 도구 관련).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/aranajhonny/vlk",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: A free CLI coding agent, powered by ads",
+      "summary": "\n광고로 비용을 보조해 Deepseek 4.0, MiniMax M3 등 여러 모델을 백엔드로 사용하는 무료 CLI 코딩 에이전트 서비스 소개. 저비용·광고 기반으로 개발자 접근성을 넓히려는 비즈니스 모델과 경량 에이전트 UX 사례.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://freebuff.com",
+      "source_id": ""
+    },
+    {
+      "title": "Estonia assigns personal ID numbers to AI agents to grant them \"authorizations\"",
+      "summary": "\n에스토니아가 AI 에이전트에 개인식별번호를 부여해 일정 권한(authorization)을 부여하려 한다는 보도(블룸버그 링크). 에이전트의 법적·운영적 신원 관리, 권한 부여와 책임 소재에 관한 정책적 실험으로 에이전틱 시스템 운영·규제에 영향 가능.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/estonia-to-grant-ai-bots-legal-rights-with-personal-id-numbers",
+      "source_id": ""
+    }
+  ]
+}

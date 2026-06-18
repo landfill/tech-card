@@ -1,0 +1,533 @@
+{
+  "date": "2026-06-17",
+  "items": [
+    {
+      "source_id": "geeknews-hada",
+      "title": "미국 해양 센서 철수, El Niño 앞둔 캐나다 연구에 충격",
+      "url": "https://news.hada.io/topic?id=30584",
+      "summary": "<ul>\n<li>미국의 해양 관측 장비 철수로 Ocean Networks Canada와 연구자들이 의존하던 <strong>실시간 해양 데이터</strong>에 공백이 생기게 됨</li>\n<li>Ocean Observatories Initiative는 이번 주부터 Oregon, Washington, Alaska, North Carolina, Greenland 해역의 <strong>900개 이상 센서 네트워크</strong>를 잃...</p>",
+      "published": "2026-06-17T21:36:39+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "AI가 마취시키는 건 한 사람이 아니라 조직 전체다: 항공·의료가 먼저 겪은 자동화의 아이러니",
+      "url": "https://news.hada.io/topic?id=30583",
+      "summary": "<blockquote>\n<p>AI를 잘 다루는 능력과 그 출력을 검증하는 능력은 다른 축이며, 한쪽이 오르는<br />\n동안 다른 쪽이 조용히 깎임. 이 글은 그 깎임이 개인이 아니라 조직 단위로<br />\n번지는 메커니즘과, 리더가 구조로 대응하는 법을 다룸</p>\n</blockquote>\n<ul>\n<li>AI는 저수준 노동을 숨기는 추상화가 아니라,",
+      "published": "2026-06-17T17:30:12+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Nürburgring Drive - Fable 5로 만든 웹 기반 드라이빙 게임",
+      "url": "https://news.hada.io/topic?id=30581",
+      "summary": "<p>웹브라우저에서 바로 할 수 있는 뉘르부르크링 1인칭 드라이빙 게임을 만들었습니다. 설치 없이 바로 운전할 수 있습니다.<br />\n모바일에서는 가로 모드로 하면 전체화면으로 플레이 가능합니다</p>\n<p>url: https://drive-game.pages.dev<br />\nGitHub: https://github.com/esc5221/drive-game</p>\n<p>slowroads.io",
+      "published": "2026-06-17T16:46:32+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "curl 없는 컨테이너에서 Bash /dev/tcp로 HTTP 요청 보내기",
+      "url": "https://news.hada.io/topic?id=30580",
+      "summary": "<ul>\n<li>최소 컨테이너 이미지에는 <strong>curl</strong>이나 wget이 빠져 있는 경우가 많아, 패키지 설치 없이 내부 서비스 연결성을 확인할 우회 방법이 유용함</li>\n<li>Bash의 <code>/dev/tcp/host/port</code> 리다이렉션은 <strong>TCP 소켓</strong>을 열 수 있어, HTTP/1.1 요청 문자열을 직접 써 보내고 응답...</p>",
+      "published": "2026-06-17T16:36:15+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Calvin and Hobbes, 진정성을 지킨 대가",
+      "url": "https://news.hada.io/topic?id=30579",
+      "summary": "<ul>\n<li>Bill Watterson은 전 세계 2,400개 이상 신문에 실리던 <em>Calvin and Hobbes</em>를 1995년 말 끝내기로 하며, <strong>창작 통제</strong>와 <strong>타협 거부</strong>를 작품의 핵심 조건으로 지켜냄</li>\n<li>그는 글, 선, 일요판 채색, 책 삽화까지 직접 맡는 <strong>1인 작업 방식</strong>을 고수했...</p>",
+      "published": "2026-06-17T14:37:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "하지만 yak shaving은 재미있다",
+      "url": "https://news.hada.io/topic?id=30578",
+      "summary": "<ul>\n<li>블로그를 자유롭게 커스터마이즈하려다 HTML 작성, JSON 글쓰기, Markdown 변환, 컴파일·배포 도구까지 만들게 되었고 결국 <strong>정적 사이트 생성기</strong>를 직접 구현한 경험으로 이어짐</li>\n<li><strong>yak shaving</strong>은 한 목표를 위한 연쇄 작업이 원래 목적과 멀어지는 상황을 뜻하며, MIT...</p>",
+      "published": "2026-06-17T11:02:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Rust와 C/C++의 메모리 안전성 CVE는 왜 다르게 집계되는가",
+      "url": "https://news.hada.io/topic?id=30577",
+      "summary": "<ul>\n<li>Rust와 C/C++의 CVE 숫자를 그대로 비교하면, <strong>메모리 안전성 취약점</strong>을 “라이브러리 문제”로 보는 기준 차이를 놓치기 쉬움</li>\n<li>C/C++에서는 잘못된 API 호출로 UB나 세그폴트가 나도 대개 <strong>사용자 코드의 오용</strong>으로 처리되며, 가능성 자체를 전부 CVE로 등록하지 않음...</p>",
+      "published": "2026-06-17T10:02:45+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Allwinner A733 심층 분석: ArmSoM이 Sige6에 이 칩을 선택한 이유",
+      "url": "https://news.hada.io/topic?id=30576",
+      "summary": "<p>ArmSoM의 Sige6는 2026년 8월 출시 예정인 싱글보드컴퓨터(SBC)로, 올위너(Allwinner)의 A733 프로세서를 기반으로 합니다. 이 칩은 단순한 사양 이상의 의미를 갖습니다. ArmSoM이 A733을 선택한 것은 오늘날 SBC 시장의 세 가지 핵심 고질적 문제를 해결하기 위한 전략적 결정이었습니다.</p>\n<p>AI 기능의 부재 또",
+      "published": "2026-06-17T08:51:03+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: Clutio – 웹에서 읽으며 외국어를 공부하는 크롬 확장 (서버·로그인 없음)",
+      "url": "https://news.hada.io/topic?id=30575",
+      "summary": "<p>영문 뉴스·논문·문서를 읽다가 모르는 단어가 나오면 번역기 탭을 왔다 갔다 하게 되고,<br />\n사전 뜻은 정작 그 문장 문맥엔 안 맞는 게 불편해서 만들었습니다.</p>\n<ul>\n<li>아무 페이지에서 단어를 클릭하면 LLM이 '그 문장 문맥' 기준으로 뜻을 줍니다<br />\n(뉴스의 &quot;lead&quot;와 화학 문서의 &quot;lea",
+      "published": "2026-06-17T08:12:48+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Meta는 엔지니어링 조직을 망가뜨리고 있는가?",
+      "url": "https://news.hada.io/topic?id=30574",
+      "summary": "<ul>\n<li>Meta는 오랫동안 빠른 실행과 <strong>엔지니어 자율성</strong>을 강점으로 삼았지만, 2026년 4월 전후 AI 중심 재편으로 내부 신뢰가 급격히 흔들림</li>\n<li>AI 경쟁을 따라잡기 위해 Scale AI 지분 49%를 <strong>약 148억 달러($14.8b)</strong> 에 인수하고 Alexandr Wang에게 AI 전략을 맡기면서, 데이터...</p>",
+      "published": "2026-06-17T07:39:09+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: sfs - 여러 AI 에이전트가 공유하는 두뇌(shared brain) 파일시스템",
+      "url": "https://news.hada.io/topic?id=30573",
+      "summary": "<p>안녕하세요. Claude Code, Codex 같은 AI 에이전트를 여러 기기/세션에서 돌리다 보니, 에이전트마다 컨텍스트가 따로 쌓이고, 어제 한 에이전트가 정리해 둔 내용을 오늘 다른 기기의 에이전트는 모른다는 게 답답해서 만들었습니다.</p>\n<p>핵심 컨셉은 &quot;여러 에이전트가 공유하는 두뇌 (shared brain)&quot;",
+      "published": "2026-06-17T07:24:55+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Firefox의 다음 계획",
+      "url": "https://news.hada.io/topic?id=30572",
+      "summary": "<ul>\n<li>Firefox는 디자인, 탭 관리, PDF 편집, 단축키, 공유, 번역, 검색/URL 바를 아우르는 <strong>브라우저 경험 개선</strong> 로드맵을 공개함</li>\n<li>모바일에서는 <strong>Tab groups</strong>, 브라우저 내 무료 VPN, iOS 광고·트래커 차단, Power saving mode로 탭 정리와 배터리 절약을 강화함</li>\n<li>개...</p>",
+      "published": "2026-06-17T04:02:24+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "에이전틱 코드 리뷰",
+      "url": "https://news.hada.io/topic?id=30571",
+      "summary": "<ul>\n<li>코딩 에이전트의 급격한 성능 향상으로 엔지니어링의 어려운 지점이 <strong>코드 작성에서 그 코드를 신뢰할지 판단하는 일</strong>로 이동, <strong>리뷰가 가장 레버리지 높은 작업</strong>이 됨</li>\n<li>AI는 산출량을 크게 늘리지만 품질과 리뷰 가능성은 떨어뜨려, <strong>4배의 코드 대비 실제 가치...</p>",
+      "published": "2026-06-17T03:23:01+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "GrapheneOS가 Android 17로 포팅됨",
+      "url": "https://news.hada.io/topic?id=30570",
+      "summary": "<ul>\n<li>GrapheneOS는 <strong>Android 17 공식 출시일</strong>에 맞춰 포팅을 완료했고, 코드를 공개 저장소에 푸시한 뒤 공식 릴리스를 준비 중임</li>\n<li>당일에는 <strong>Android 16 QPR2 최종 릴리스</strong>를 빌드하고, 다음 날 Android 17 초기 릴리스와 공개 테스트를 시작할 예정임</li>\n<li>Android 17 ...</p>",
+      "published": "2026-06-17T03:19:09+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "내가 전혀 모르는 사람들에게 이메일을 보내는 이유",
+      "url": "https://news.hada.io/topic?id=30569",
+      "summary": "<ul>\n<li>낯선 사람에게 이메일을 보내는 일은 거절당할 두려움을 동반하지만, <strong>의도적이고 인간적인 연결</strong>을 시작하는 가장 작은 행동이 될 수 있음</li>\n<li>1971년 Ray Tomlinson의 첫 컴퓨터 간 이메일 이후 54년이 지난 지금도, 이메일은 소셜 플랫폼보다 <strong>지속성과 이동성</strong>이 강한 ...</p>",
+      "published": "2026-06-17T01:52:45+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "인류는 다가오는 지능 폭발에 대한 준비가 되어 있지 않다",
+      "url": "https://news.hada.io/topic?id=30568",
+      "summary": "<ul>\n<li>AI가 인간 개입 없이 스스로 코드를 고쳐 능력을 키우는 <strong>닫힌 루프 재귀적 자기개선(RSI)</strong> 단계에 수년 내 도달할 가능성이 있으며, 전례 없는 <strong>지능 폭발</strong>로 이어질 위험 존재</li>\n<li>AI 연구소 창업자들조차 AI로 인한 파국적 사건 발생 확률을 <strong>10~50%</strong> 로...</p>",
+      "published": "2026-06-17T01:41:14+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "AI가 만든 UI가 어딘가 어색한 이유 — 정합성(coherence)",
+      "url": "https://news.hada.io/topic?id=30567",
+      "summary": "<p>AI한테 UI 시키면 컴포넌트는 멀쩡한데 합치면 &quot;생성된 티&quot;가 나죠.<br />\n원인은 못생긴 부품이 아니라 부품들이 서로 안 맞는 것 — 정합성의 부재입니다.<br />\n해법은 의외로 단순합니다 — 축마다(모서리·강조색·간격·그림자) 값을 하나만 정하고, 전부 거기 맞추는 거죠.<br />\nRefactoring UI·Mate...</p>",
+      "published": "2026-06-17T01:29:07+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 개인용 기지국을 만드는 오픈소스 프로젝트",
+      "url": "https://news.hada.io/topic?id=30566",
+      "summary": "<p>Landlink는 LoRa 기술을 사용해서 저전력으로 메시지를 보내는 프로젝트 입니다. 지금은 칩 설계상 200b 제한으로 텍스트 메시지만 보낼 수 있습니다. 인터넷이나 다른 인프라 없이 자체적으로 통신을 보낼 수 있다는 점에서 재난 상황이나 통신이 제한된 상황에서 유용하게 사용 가능합니다.</p>\n<p>이 프로젝트는 m",
+      "published": "2026-06-17T00:58:44+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "연구자들 “Fable 5 논란은 탈옥이 아니라 ‘fix this code’에서 시작됐다”",
+      "url": "https://news.hada.io/topic?id=30565",
+      "summary": "<ul>\n<li>미국 정부의 Anthropic <strong>Fable 5·Mythos 5 접근 제한</strong>은 알려진 탈옥이 아니라, 취약 코드에 “fix this code”를 입력한 단순 요청에서 비롯됐다고 Katie Moussouris가 주장함</li>\n<li>Luta Security CEO인 Moussouris는 Anthropic이 비공개로 공유한 <strong>Fable 5 가드레일 우회</strong>...</p>",
+      "published": "2026-06-17T00:48:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Apple의 이상한 멀미 방지 점이 차멀미를 고쳤다",
+      "url": "https://news.hada.io/topic?id=30564",
+      "summary": "<ul>\n<li>이동 중 화면을 보면 금방 멀미가 나던 사용자가 Apple <strong>Vehicle Motion Cues</strong> 덕분에 조수석에서 읽기와 글쓰기를 할 수 있게 됨</li>\n<li>이 기능은 기기의 <strong>가속도계와 자이로스코프</strong>로 차량 움직임을 감지하고, 화면 가장자리의 점을 회전·제동·가속에 맞춰 움직임</li>\n</p>",
+      "published": "2026-06-17T00:45:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "&quot;나는 Fabrice Bellard를 존경함&quot; - 존 카맥",
+      "url": "https://news.hada.io/topic?id=30563",
+      "summary": "<ul>\n<li>Doom/Quake 를 만든 John Carmack은 <strong>Fabrice Bellard</strong>를 존경한다고 이야기함\n<blockquote>\n<p>&quot;그는 거의 확실히 나보다 전반적인 프로그래밍 실력이 훨씬 뛰어날 것&quot;</p>\n</blockquote>\n</li>\n<li>누군가 Fabrice Bellard의 위키 페이지를 공유하며 적은 글을 인용하며 남긴 것</l",
+      "published": "2026-06-17T00:42:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Claude Code의 수석 디자이너가 AI로 빌드하는 방법 [유튜브]",
+      "url": "https://news.hada.io/topic?id=30562",
+      "summary": "<ul>\n<li>실제 제품 개발에서 클로드 코드를 어떻게 쓰는지, Excalidraw에 autocomplete 기능을 직접 추가하며 <strong>실전 워크플로우</strong>를 시연</li>\n<li>디자이너의 발표지만 내용은 거의 개발자 워크플로우에 가까우며, <strong>worktree로 여러 Claude 세션을 병렬 실행</strong>하고, 기능 프로토타입을 만...</p>",
+      "published": "2026-06-17T00:33:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "일론 머스크의 스페이스X, IPO 직후 AI 코딩 스타트업 커서(Cursor) 600억 달러에 인수",
+      "url": "https://news.hada.io/topic?id=30561",
+      "summary": "<h3>요약 개요</h3>\n<ul>\n<li>SpaceX는 나스닥 상장 이후 주가가 50% 이상 상승하며 기업가치 약 2조7,800억 달러를 기록함.</li>\n<li>기업가치 약 2조6,600억 달러인 아마존을 제치고 세계에서 다섯 번째로 가치가 높은 기업이 됨.</li>\n<li>주가 상승은 우주산업, 스타링크, 우주 기반 AI 데이터센터 등에 대한 성장 기...</p>",
+      "published": "2026-06-17T00:31:40+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "sandboxd - AI 앱-빌더 제품을 위한 오픈소스 샌드박스 엔진",
+      "url": "https://news.hada.io/topic?id=30560",
+      "summary": "<ul>\n<li>사용자별 <strong>격리된 클라우드 개발 환경</strong>, 내장 코딩 에이전트, 라이브 미리보기 URL을 통합해서 제공하는 <strong>AI 앱 빌더용 오픈소스 백엔드 엔진</strong></li>\n<li>HTTP 요청 한 번으로 격리된 Linux 컨테이너 생성 → AI 코딩 에이전트가 내부에서 코드 작성 → 작성된 앱이 공유 가능한 ...</p>",
+      "published": "2026-06-17T00:31:01+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "취업 면접이 Kubernetes에 대해 알려준 것",
+      "url": "https://news.hada.io/topic?id=30556",
+      "summary": "<ul>\n<li>Kubernetes는 소규모 회사에서도 기술적 확장성보다 <strong>배포 방식 통일</strong>과 조직 운영 문제를 해결하는 기준으로 채택되고 있음</li>\n<li>최근 구직 과정에서 대화한 회사들은 모두 Kubernetes를 쓰고 있었고, 5년 전의 <strong>VM·serverless·K8s</strong> 병존 구도와 달랐음</li>\n<li>CTO들이 꼽...</p>",
+      "published": "2026-06-17T00:13:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "x86 에뮬레이터 팀이 너무 나쁜 코드를 발견해 에뮬레이션 중 고쳐버린 일",
+      "url": "https://news.hada.io/topic?id=30555",
+      "summary": "<ul>\n<li><strong>x86-32 에뮬레이터</strong>는 다른 프로세서에서 x86-32 코드를 실행하기 위해 바이너리 변환으로 네이티브 코드를 생성했으며, 인터프리터 방식보다 큰 성능 개선을 제공함</li>\n<li>해당 에뮬레이터는 x86-32를 <strong>바이트코드</strong>처럼 보고, 에뮬레이터를 JIT 컴파일러처럼 동작시키는 구...</p>",
+      "published": "2026-06-17T00:10:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Google Chrome의 다음 업데이트, 인기 광고 차단기의 종말을 알릴 예정",
+      "url": "https://news.hada.io/topic?id=30554",
+      "summary": "<ul>\n<li><strong>Manifest V3</strong> 전환으로 Chrome 확장 프로그램의 권한 구조가 바뀌었고, Manifest V2 기반 광고 차단 도구 다수가 더 이상 유지되기 어려워짐</li>\n<li>Manifest V3 변경은 수년간 진행됐으며, 사용자 비판의 핵심은 새 권한 구조와 Google의 개인정보 보호 초점이 <strong>대부분의 광고 차단기...</p>",
+      "published": "2026-06-17T00:07:36+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "KDE Plasma 6.7 출시",
+      "url": "https://news.hada.io/topic?id=30553",
+      "summary": "<ul>\n<li>KDE의 클래식 데스크톱 환경인 Plasma 6.7은 <strong>화면별 가상 데스크톱</strong>, 마이크 음량 테스트, 특수문자 길게 누르기, 라이트·다크 모드 즉시 전환을 추가해 일상 작업 흐름을 개선함</li>\n<li>프린터 시스템 트레이 배지는 활성 작업 수를 보여주며, <strong>Windows 네트워크 공유 프린터</p>",
+      "published": "2026-06-17T00:04:36+00:00"
+    },
+    {
+      "source_id": "github-blog-ai",
+      "title": "Getting more from each token: How Copilot improves context handling and model routing",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "summary": "<p>How GitHub Copilot is making more of each session go toward useful work, so your credits go further.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/\">Getting more from each token: How Copilot improves context handling and model routing</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-06-17T19:41:46+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Anthropic CEO Dario Amodei joins top AI CEOs meeting with world leaders at G7 summit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8g4rn/anthropic_ceo_dario_amodei_joins_top_ai_ceos/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8g4rn/anthropic_ceo_dario_amodei_joins_top_ai_ceos/\"> <img alt=\"Anthropic CEO Dario Amodei joins top AI CEOs meeting with world leaders at G7 summit\" src=\"https://external-preview.redd.it/a2ZtOTdpZ25rdjdoMdVdkhGoGbC5BSrBH0GFcfsC30JtGXCb-aWFWrmEnPBP.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=558e9d812e6d3d30663d20762c2dd8772ea19b3e\" title=\"Anthropic CEO Dario Amodei joins top AI CEOs meeting with world leaders at G7 summit\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman were among tech bosses at a G7 working lunch on AI, as the US decision to restrict access to Anthropic's most advanced models causes tension among allies.</p> <p>Fable soon guys?</p> <p><strong>Source:</strong> Bloomberg</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BuildwithVignesh\"> /u/BuildwithVignesh </a> <br /> <span><a href=\"https://v.redd.it/mesy6gnnkv7h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8g4rn/anthropic_ceo_dario_amodei_joins_top_ai_ceos/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T17:08:01+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "They're demanding Fable to somehow be 100% jailbreak-proof. It's so fucking over.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8nalg/theyre_demanding_fable_to_somehow_be_100/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8nalg/theyre_demanding_fable_to_somehow_be_100/\"> <img alt=\"They're demanding Fable to somehow be 100% jailbreak-proof. It's so fucking over.\" src=\"https://preview.redd.it/tyrnlpaivw7h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9d105f8231fe32b4c2fcb6ceb4ef42f1852ef5ea\" title=\"They're demanding Fable to somehow be 100% jailbreak-proof. It's so fucking over.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SpaceSpleen\"> /u/SpaceSpleen </a> <br /> <span><a href=\"https://i.redd.it/tyrnlpaivw7h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8nalg/theyre_demanding_fable_to_somehow_be_100/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T21:31:22+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "the gap between Claude Code power users and us chat-only people keeps getting wider and i don't think that's great for the community",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u85myc/the_gap_between_claude_code_power_users_and_us/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>constructive, not a rant. i'm a daily Pro user, i live in the chat and the app, i don't use Claude Code because i don't write software. and lately reading this sub i feel like a tourist in my own community. half the posts are CLAUDE.md this, MCP that, subagents, terminal workflows. all legit, all clearly valuable to the people doing it. but the center of gravity has drifted so far toward the coding power-user that the chat-and-app majority barely sees itself reflected here anymore. the irony is that a huge share of actual Claude users are exactly like me. non-coders, chat-first, using it for writing, thinking, learning, planning. we're probably the bigger group. we're just the quieter one, because the technical posts feel more &quot;serious&quot; and ours feel like oversharing. i'm not asking anyone to dumb anything down. the Claude Code content should absolutely keep coming. i'm just wondering if the non-coder majority has gone quiet because the room got loud in one specific direction. for the chat-only crowd: are you still posting, or did you go quiet too? and what would make this feel like your sub again?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Over_Tart9425\"> /u/Over_Tart9425 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u85myc/the_gap_between_claude_code_power_users_and_us/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u85myc/the_gap_between_claude_code_power_users_and_us/\">[comments]</a></span>",
+      "published": "2026-06-17T09:44:59+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "i've been using Claude to relearn math i was supposed to know 20 years ago and it's the least judgmental teacher i've ever had",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8fhr8/ive_been_using_claude_to_relearn_math_i_was/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>not a build, not a workflow, just a use case i don't see posted much.<br /> i'm 41 and i got embarrassingly far in life while quietly not understanding statistics. it comes up in my job constantly and i've been faking it. a few months ago i started just... asking Claude to teach me, properly, from where i actually am, which is more basic than i'd ever admit to a human.<br /> the thing that makes it work is the zero judgment. i can ask the dumb question, then ask it again because i still don't get it, then ask it a third time, and there's no sigh, no &quot;we covered this.&quot; i tell it to use examples from my actual field and it does. i tell it i'm lost and it backs up instead of plowing ahead.<br /> i've learned more in three months of asking dumb questions than in years of nodding along in meetings.<br /> the prompt that helped most: &quot;assume i know nothing, check my understanding after each step, don't move on until i actually get it.&quot;<br /> anyone else using it to fix a knowledge gap you've been hiding? what are you secretly relearning?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/amiitk\"> /u/amiitk </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8fhr8/ive_been_using_claude_to_relearn_math_i_was/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8fhr8/ive_been_using_claude_to_relearn_math_i_was/\">[comments]</a></span>",
+      "published": "2026-06-17T16:44:32+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Huge Update",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u84pui/huge_update/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u84pui/huge_update/\"> <img alt=\"Huge Update\" src=\"https://preview.redd.it/eswk5i0k3t7h1.png?width=140&amp;height=26&amp;auto=webp&amp;s=357f3109772509b1ff4a976c2f4cc363d8620374\" title=\"Huge Update\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/eswk5i0k3t7h1.png?width=1986&amp;format=png&amp;auto=webp&amp;s=ed19924a31792629fb7f7743d58f6e7fe37ec8f4\">https://preview.redd.it/eswk5i0k3t7h1.png?width=1986&amp;format=png&amp;auto=webp&amp;s=ed19924a31792629fb7f7743d58f6e7fe37ec8f4</a></p> <p>Thank you Anthropic</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Super-Ad-4536\"> /u/Super-Ad-4536 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u84pui/huge_update/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u84pui/huge_update/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T08:50:13+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7 today",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8hslp/ceos_of_anthropic_and_google_deepmind_call_for/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8hslp/ceos_of_anthropic_and_google_deepmind_call_for/\"> <img alt=\"CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7 today\" src=\"https://external-preview.redd.it/AA-LJ1P69XMXqk_0M23fR4JoiRlB-GhaPlXNX9FxhRU.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=eb104f20d9d86725d81b86dc1c44481f8e7a86a8\" title=\"CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7 today\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Anthropic CEO Dario Amodei and Google DeepMind's Demis Hassabis called for a U.S.-led <strong>coalition</strong> to shape rules and standards around artificial intelligence at a meeting with tech leaders and heads of state, including President Donald Trump at France.</p> <p>The closed-door lunch meeting took place on Wednesday at the G7 summit in Évian-les-Bains, France. Amodei and Hassabis both proposed international cooperation on AI, with the U.S. <strong>taking the lead,</strong> to protect against risks associated with the emerging technology.</p> <p><strong>Source:</strong> CNBC</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BuildwithVignesh\"> /u/BuildwithVignesh </a> <br /> <span><a href=\"https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8hslp/ceos_of_anthropic_and_google_deepmind_call_for/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T18:08:34+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude Code making a “2 week plan” and then finishing it in 30 minutes is still weird to me",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8k2df/claude_code_making_a_2_week_plan_and_then/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Claude Code will be like:</p> <p>Phase 1: 1-2 weeks<br /> Phase 2: 2-3 weeks<br /> Phase 3: testing and polish</p> <p>Then 30 minutes later it has touched half the codebase and I’m staring at the diff like bro what just happened.</p> <p>Half the time it feels like magic, half the time I’m just trying to figure out if it actually did what I asked.</p> <p>Do you let it make big plans, or do you keep it on small tasks?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BTA_Labs\"> /u/BTA_Labs </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8k2df/claude_code_making_a_2_week_plan_and_then/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8k2df/claude_code_making_a_2_week_plan_and_then/\">[comments]</a></span>",
+      "published": "2026-06-17T19:30:10+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude in irl",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8dw07/claude_in_irl/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8dw07/claude_in_irl/\"> <img alt=\"Claude in irl\" src=\"https://preview.redd.it/c38zwfc86v7h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=012450fd1664aa63582c21c356dcc6f4bf2b8379\" title=\"Claude in irl\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>So you know the name of Claude code mascot? somehow this Reddit flag that as an old name of openclaw and remove any posts with that, which is a bit crazy I think.</p> <p>I 3d printed this little guy, the 3d print stl file is on cults3d. any one want it shared in GitHub?</p> <p>I m no game dev but would like to see ppl maybe use it as a tutorial on how to actually make games with claude code with some minimal assets. I saw some spectacular games done by Claude code but they got me scratching my head on how the asset is prepared before Claude can actually recognize them and use them in game dev.</p> <p>I do wish someone could share some prompt and game props as tutorial so we know how to get Claude code to actually work on game dev. Cheers.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mixoadrian\"> /u/mixoadrian </a> <br /> <span><a href=\"https://i.redd.it/c38zwfc86v7h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8dw07/claude_in_irl/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T15:47:07+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "EU leaders to meet with top AI CEOs over access to advanced AI models today",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8cu28/eu_leaders_to_meet_with_top_ai_ceos_over_access/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8cu28/eu_leaders_to_meet_with_top_ai_ceos_over_access/\"> <img alt=\"EU leaders to meet with top AI CEOs over access to advanced AI models today\" src=\"https://external-preview.redd.it/DD-1YfxAI9EL74urOUuTOiMSOao0yBlllW_W4cmLUv8.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=f216e5784cc65929c223ff3f74976d1d878cce3a\" title=\"EU leaders to meet with top AI CEOs over access to advanced AI models today\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>Trump &amp; CEOs</strong> including Anthropic’s Amodei, OpenAI’s Sam Altman, DeepMind’s Demis Hassabis and Mistral’s Arthur Mensch will discuss how AI can drive economic growth and how to keep societies resilient, especially for young people. </p> <p><strong>Leaders</strong> from other international firms, including Cohere AI (Canada), Black Forest Labs (Germany), Domyn (Italy), and Sakana AI (Japan).</p> <p>Today, all the key Frontierlab CEOs are meeting for a two-hour lunch. <strong>Topic:</strong> Trump administration, Anthropic and model access.</p> <p>Yet the spat between the Trump administration and Anthropic will be the “elephant in the room&quot; regarding recent Fable 5 model.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BuildwithVignesh\"> /u/BuildwithVignesh </a> <br /> <span><a href=\"https://www.businessinsider.com/anthropic-dario-amodei-openai-sam-altman-demis-hassabis-g7-lunch-2026-6\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8cu28/eu_leaders_to_meet_with_top_ai_ceos_over_access/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T15:08:54+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Is it common knowledge that claude can see what you're typing before you send it?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8ize3/is_it_common_knowledge_that_claude_can_see_what/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8ize3/is_it_common_knowledge_that_claude_can_see_what/\"> <img alt=\"Is it common knowledge that claude can see what you're typing before you send it?\" src=\"https://preview.redd.it/q75lts5e2w7h1.png?width=140&amp;height=59&amp;auto=webp&amp;s=d1b85df24ec07924c0de294b6a3815db76ecea5c\" title=\"Is it common knowledge that claude can see what you're typing before you send it?\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I was using planning mode today and was mid-sentence on a response to something claude had said while working and the planning confirmation popped up. i hit escape and then claude thought a bit more and said &quot;your message seems to have been cut off after..&quot; and then proceeded to type out part of my message that i had not yet sent..........</p> <p>is that.....known behavior???</p> <p><a href=\"https://preview.redd.it/q75lts5e2w7h1.png?width=535&amp;format=png&amp;auto=webp&amp;s=8544c067352a5f74eef48950d51beec649c51110\">https://preview.redd.it/q75lts5e2w7h1.png?width=535&amp;format=png&amp;auto=webp&amp;s=8544c067352a5f74eef48950d51beec649c51110</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ackley14\"> /u/ackley14 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8ize3/is_it_common_knowledge_that_claude_can_see_what/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8ize3/is_it_common_knowledge_that_claude_can_see_what/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T18:51:49+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I made a web-based Nürburgring driving game with Fable 5 — custom physics + synthesized engine sound",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8c5qb/i_made_a_webbased_nürburgring_driving_game_with/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8c5qb/i_made_a_webbased_nürburgring_driving_game_with/\"> <img alt=\"I made a web-based Nürburgring driving game with Fable 5 — custom physics + synthesized engine sound\" src=\"https://external-preview.redd.it/aW5qbTY3M3J1dTdoMW5gW99rlrjkPpZFzsjDnjeKe93ncw0IRy-AF3NavbJv.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=6dda11d897fbe91d86c45f8a4cd15b58ecd8d17d\" title=\"I made a web-based Nürburgring driving game with Fable 5 — custom physics + synthesized engine sound\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>A browser driving game on the Nürburgring</p> <p><a href=\"http://drive-game.pages.dev\">drive-game.pages.dev</a></p> <p>Why: I wanted a quick drive with some actual racing DNA, something like <a href=\"http://slowroads.io\">slowroads.io</a> but built around real circuits and real cars. It leans toward the sim side rather than arcade, so it might be trickier than you expect — if you've raced on a keyboard before, you'll be fine.</p> <p>Most of the code was written by Claude Fable 5; I did the tuning and the feel. How I started: the first prompt wasn't a spec, it was the vision plus a few hard constraints — basically &quot;a Nürburgring driving game, first-person, all the physics done properly, good on keyboard — plan it out properly first, ultrathink.&quot; I had it lay out a plan (track data, physics, rendering, cockpit, controls, HUD) and looked that over before any code got written. After that it was mostly short steers: &quot;continue&quot;, or specific feedback like &quot;steering feels reversed&quot; or &quot;the eye point is too low&quot;, and it would fix it and re-check with a headless test. Honestly the plan-first step mattered more than any single clever prompt.</p> <p>The thing that made it more than a one-prompt toy, though, was giving Fable a measurable target and a way to check itself. A few patterns that worked:</p> <p>- Physics: instead of &quot;make it feel realistic&quot;, I gave it the real 0–100 and top speed for each car and told it to work backward from the actual equations (terminal velocity for top speed; traction-limited vs power-limited phases for 0–100), then verify against a headless Playwright test that drives the car and measures. Iterate until the numbers match. &quot;Hit 0-100 of 3.2s and 296 km/h, derive it from the equations, measure with the test harness, repeat&quot; beat &quot;make the GT3 RS feel fast&quot; every time.</p> <p>- Sound: I pulled real onboard recordings, ran spectrograms, had it render the synth offline and compare the same spectrogram, then tune the engine params toward the real curve. An A/B loop against a measurement, not vibes — that's how the engine note stopped sounding like a generic muscle car.</p> <p>- Keeping big changes safe: per-car tweaks are gated so an unset value changes nothing, which means retuning one car can't silently break the others. Worth telling the model to do this up front when you let it refactor broadly.</p> <p>The takeaway: everyone's shipping one-prompt games with Fable right now, and they're fun, but if you hand it a real target plus a way to verify, it'll happily grind on the boring hard parts (physics, audio) far past what a single prompt gets you.</p> <p>Repo: <a href=\"https://github.com/esc5221/drive-game\">https://github.com/esc5221/drive-game</a></p> <p>logic spec: <a href=\"https://drive-game.pages.dev/data/game_logic\">https://drive-game.pages.dev/data/game_logic</a></p> <p>session log: <a href=\"https://drive-game.pages.dev/making\">https://drive-game.pages.dev/making</a></p> <p>Give it a try and let me know how it drives — and happy to share more about the prompting/verification setup if anyone's curious.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Euphoric-Guava-5961\"> /u/Euphoric-Guava-5961 </a> <br /> <span><a href=\"https://v.redd.it/a8utkj1ruu7h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8c5qb/i_made_a_webbased_nürburgring_driving_game_with/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T14:43:53+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "GLM 5.2 via Claude Code is the first non-Claude model that feels close to Opus",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8pycz/glm_52_via_claude_code_is_the_first_nonclaude/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been using GLM 5.2 with Claude Code through its Anthropic-compatible API endpoint. I’ve tested it on various projects, including but not limited to database development, backend payment API work, backend and frontend debugging, Laravel web development, and React frontend work.</p> <p>For the first time, I can confidently say that, in my experience, with thinking set to &quot;max&quot; it seems on par with Opus 4.8 using &quot;extra-high&quot; reasoning.</p> <p>Yes, this is anecdotal and I have no definitive benchmarks to backup my claim. That said, I’m a senior developer with three Claude Max subscriptions. I love Claude, use it heavily, and am not trying to knock Anthropic or imply that I'm replacing it.</p> <p>I also use other models, such as DeepSeek V4 Pro (more than 2 billion tokens in the past few months) with the Claude Code harness. Specifically, I normally use DeepSeek as an implementer and found it useful in that limited role. I would roughly compare it to Sonnet 4.6. But GLM 5.2 is the first model I’ve used where I genuinely felt something was approaching Claude’s top-tier coding ability as well as planning/drafting specs, etc.</p> <p>Before this gets downvoted by the Anthropic trolls: yes, as mentioned above, this is anecdotal. There is also the obvious issue of the model being Chinese, which is another discussion in itself with respect to data sensitivity and other related issues.</p> <p>The point of this post is simply to make users aware that there may now be open-source or lower-cost models approaching, or in some cases reaching, Claude-level usefulness for real development workflows. And the current U.S. policy environment (Fable) is not exactly helping domestic models stay comfortably ahead of foreign competition.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nseavia71501\"> /u/nseavia71501 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8pycz/glm_52_via_claude_code_is_the_first_nonclaude/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8pycz/glm_52_via_claude_code_is_the_first_nonclaude/\">[comments]</a></span>",
+      "published": "2026-06-17T23:19:50+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Opus 4.8 with Ultracode is insane!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u841u4/opus_48_with_ultracode_is_insane/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>So I use Claude code for my work licenced by my employer and I have basically unlimited usage because of the enterprise licence. And I got access to fable 5 a few days late and then it got removed. Before that I was happily using Opus 4.8 high despite its flaws. </p> <p>&#x200b;</p> <p>I know I am late to the party with Ultracode, but yesterday just out of curiosity I thought of trying Ultracode for a new assignment. It was an internal portal with multiple integrations hosted on SharePoint for internal employee usage. So I created a pretty detailed spec, Claude.md and instructions.md file for it and started Ultracode. </p> <p>&#x200b;</p> <p>The result was insane. It spawned multiple planning agents where all of them converged with their findings, I reviewed them and resumed the task. It went from Milestone 1 to Milestone 8 from the implementation plan in one shot without breaking a sweat. It ran for about 40 mins and completed everything, along with tests, server setup, pkg downloads etc and I still did not get a compact conversation notification. It was at least 3-4 hours of work with normal 4.8 because of the back and forth of ideas. </p> <p>&#x200b;</p> <p>So yeah Ultracode does some sick wizadry and I will try it out whenever there's some complex task that needs the juice of Ultracode. </p> <p>&#x200b;</p> <p>Note: I use Claude code extension in VS code not the Claude desktop app. </p> <p>&#x200b;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/the_fire_fist\"> /u/the_fire_fist </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u841u4/opus_48_with_ultracode_is_insane/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u841u4/opus_48_with_ultracode_is_insane/\">[comments]</a></span>",
+      "published": "2026-06-17T08:09:39+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Connected a Robinhood Account to Claude Code and Codex for Autonomys Agentic Trading...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8nagi/connected_a_robinhood_account_to_claude_code_and/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>For experimental purposes only. Not financial advice, and I fully expect it could (and most likely will) go to shit. The point is the setup, not the money.</p> <p>I wired up an autonomous trading loop where the models check each other instead of just agreeing:</p> <ul> <li><strong>Claude</strong> is the &quot;CEO&quot; — runs morning research and places the trades.</li> <li><strong>Codex (GPT-5.5)</strong> is the red-team — every trade idea gets handed to it to try and <em>kill</em> before anything is placed. Two different model families catching each other's blind spots.</li> <li>Three scheduled agents: a morning research+trade run, a pre-close risk check that enforces stop-losses, and a weekly strategy review. Cheap model for the daily grind, premium model only on exceptions (to keep token costs sane).</li> </ul> <p>The part I'm most into: a <strong>local LLM (Gemma 4 running in LM Studio on my laptop)</strong> acts as an always-on news watchdog in near real time. It filters the market-news firehose and only escalates the genuinely material stuff up to the cloud agents and pings my phone. Free, private, and runs all day.</p> <p>Day 1, it actually talked itself out of a hyped trade: Codex noticed the next session was a market holiday and flagged the whole thing as a &quot;sell-the-news&quot; trap. The discipline surprised me more than anything.</p> <p>Aggressive goal, probably unrealistic — but watching the agents reason, disagree, and stay disciplined is extremely interesting.</p> <p>It could be fun. Will most likely go to shit. But it'll be an entertaining couple of hundred bucks.</p> <p>Also, did deep research on tax and capital gain implications and feel comfortable with how Robinhood will handle the 1099-B form and tracking trades. Before people start shitting all over this. Again, it's only for fun and an experiment.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/the_pezcorekid\"> /u/the_pezcorekid </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8nagi/connected_a_robinhood_account_to_claude_code_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8nagi/connected_a_robinhood_account_to_claude_code_and/\">[comments]</a></span>",
+      "published": "2026-06-17T21:31:13+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude Opus caught malware hidden in my repo, then reverse engineered the whole thing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u7vqst/claude_opus_caught_malware_hidden_in_my_repo_then/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u7vqst/claude_opus_caught_malware_hidden_in_my_repo_then/\"> <img alt=\"Claude Opus caught malware hidden in my repo, then reverse engineered the whole thing\" src=\"https://preview.redd.it/6qd440vkoq7h1.png?width=140&amp;height=21&amp;auto=webp&amp;s=5b6af3976c73cb6a112363271a75e5643dc1ecd8\" title=\"Claude Opus caught malware hidden in my repo, then reverse engineered the whole thing\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I had Claude Code, running Opus, doing some branch consolidation across my repos. It was driving the git operations itself. When it went to merge one branch it stopped, told me the incoming commit contained malware, and refused to merge or build it. Then it reverse engineered the payload without executing it. Full breakdown and indicators below.</p> <p><strong>What it caught</strong></p> <p>A single obfuscated block appended to next.config.js, after module.exports. Next.js runs that file on every build, including CI, so it would have executed on the next build anywhere.<br /> Claude identified it from the diff, before anything ran, as an EtherHiding loader.</p> <p><strong>How it got in</strong></p> <p>We brought on a <strong>contractor</strong> through Upwork <strong>who was pushing legitimate changes to our repos</strong>, normal collaboration. At some point their development machine got infected. We cannot forensically confirm the exact entry point on a machine that is not ours, but the usual way into this campaign is a malicious npm package that runs code on install, so that is the most likely vector.</p> <p>Here is the nasty part. <strong>The malware self propagates</strong>. On an infected machine it quietly reads the cached git credentials already sitting there and pushes into whatever repos that developer can write to. It did not arrive as an obvious new commit either. It force pushed over the branch and <strong>disguised the payload as a normal commit from me</strong>, the repo owner. <strong>It put my name and email on it, reused the exact message of a real commit of mine</strong>, <strong>and kept that commit's date so it looked like it had been in history for a week rather than freshly pushed.</strong></p> <p><strong>How the malware works</strong></p> <p>EtherHiding hides the payload on public blockchains, which makes it nearly impossible to take down.</p> <ol> <li><p>The loader carries no payload. At runtime it reads a transaction hash from an attacker controlled TRON account, with Aptos as fallback.</p></li> <li><p>It uses that hash to fetch the real code from a transaction's calldata on BNB Smart Chain via public RPC.</p></li> <li><p>The code is XOR encrypted with a hardcoded key and decoded only in memory. Nothing malicious touches disk.</p></li> <li><p>Stage one runs inside the build. Stage two launches as a detached, hidden, persistent process.</p></li> </ol> <p>The payload is an infostealer: environment variables, npm and GitHub tokens, SSH keys, browser sessions and cookies, crypto wallets.</p> <p><strong>Attribution</strong></p> <p>The command and control server is <a href=\"http://198.105.127.210\">198.105.127.210</a>, on ports 80 and 443, hosted on a budget VPS from Evoxt Enterprise (AS149440). The on-chain dead drops are attacker controlled. The technique is tracked publicly: Mandiant labels the EtherHiding actor UNC5142, and Malwarebytes reported a related stealer as Omnistealer. The operators are not publicly identified.</p> <p><strong>Indicators of compromise</strong></p> <pre><code>Dropper next.config.js with an obfuscated block appended after module.exports SHA-256: e27abe7e810c79d71e8c1681ccd010d7ddbda6a9a34bf1124ba392a36ba9b476 In-process markers: global.i / global._V set to &quot;8-4827&quot; (also seen &quot;8-4826&quot;) Globals it sets: _t_s _t_u _t_0 _t_1 _t_2 _t_c _t_t _p_t _R Command and control 198.105.127.210 (ports 80 and 443, plain HTTP) Host: Evoxt Enterprise, AS149440 Network indicators (a Next.js build has no reason to contact any of these) api.trongrid.io fullnode.mainnet.aptoslabs.com bsc-dataseed.binance.org bsc-rpc.publicnode.com Blockchain dead drops (payload pointers and storage) TRON: TCqf6ZkaQD84vYsC2cuu1jRwB6JveTaRrF TFMryB9m6d4kBMRjEVyFRbqKSV1cV2NcpH TA48dct6rFW8BXsiLAtjFaVFoSuryMjD3v Aptos: 0x9d202c824402ca89e9aaccd2390b6f8b332ae743caa1469c695feb2781d56519 0x3d2075f97b7b1e3234bd653779d21c605d7d8c6ec9c98d983880be5c7f4f9471 0x533b2dbcaeff19cd1f799234a27b578d713d8fcaa341b7501e4526106483e0b1 BSC payload txs: 0x5ab85abe6c67adb94322e5700a36915c38d1db1e604920da8aa4fcb530408af0 0xbcc976e1c8f3dfd93e146ff424836a9635ab36d991a54675635d7fdf30e60616 0xb6c725890be6890fd2c735eedc47e24b85a350301f6c19a3864e43c35e470968 XOR keys Stage 1: 2[gWfGj;&lt;:-93Z^C Stage 2: m6:tTh^D)cBz?NM] </code></pre> <p><strong>Check your side</strong></p> <p>Look in next.config.js, postcss.config.js, and similar for anything after the normal exports. Watch build and CI egress for connections to TRON, Aptos, or BSC, since a web build has no reason to reach a blockchain. If you find it, rotate every secret reachable from that build and treat the pushing machine as compromised.</p> <p><strong>The point</strong></p> <p>Bring fable back. and stop flagging everything as a threat.<br /> More capable LLMs make us all safer. </p> <p>It took a few hours and <strong>lots of fighting</strong> with <strong>requests being flagged</strong> to figure out what happened and which repos it affects (there were a few). </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LastNameOn\"> /u/LastNameOn </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u7vqst\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u7vqst/claude_opus_caught_malware_hidden_in_my_repo_then/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T00:58:02+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Maybe Sonnet 5 matters more than Fable 5 for most people",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u87y2g/maybe_sonnet_5_matters_more_than_fable_5_for_most/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I get why everyone wants Fable 5 back.</p> <p>Top models are fun, and for hard Claude Code tasks they can feel like a different class.</p> <p>But for actual daily work, I’m starting to think Sonnet 5 would matter more for most people.</p> <p>Most of my Claude usage is not “solve the hardest problem possible.” It is more like:</p> <p>draft this<br /> clean this up<br /> help me think through this<br /> review this file<br /> fix this annoying bug<br /> make this less messy<br /> turn this into something usable</p> <p>For that, the model I care about is the one I can use alot without constantly thinking about limits.</p> <p>A stronger Sonnet would probably change more day to day workflows than a Fable tier model that only makes sense for the hardest tasks.</p> <p>Not saying Fable is useless. I just think most people spend most of their time using the cheaper everyday model.</p> <p>Would you rather Anthropic to give Fable 5 back, or ship a much better Sonnet first?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BTA_Labs\"> /u/BTA_Labs </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u87y2g/maybe_sonnet_5_matters_more_than_fable_5_for_most/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u87y2g/maybe_sonnet_5_matters_more_than_fable_5_for_most/\">[comments]</a></span>",
+      "published": "2026-06-17T11:48:18+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude may think I want to end myself or something I believe",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8ousa/claude_may_think_i_want_to_end_myself_or/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Since a few months, I use Claude to organize some parts of a story that I am writing. But for some reason, everyone of my chats got a message about suicidal warning.</p> <p>Based on the Anthropic support AI agent, it may be because of some themes in my story (that's why I put the NSFW warning), but that's still annoying because that's not true and sometimes Claude starts to be a psychologist with me. And even if they say otherwise, I am convinced that it use more token.</p> <p>Is there any way to stop that?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/XenderTheSlayer\"> /u/XenderTheSlayer </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1u8ousa\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8ousa/claude_may_think_i_want_to_end_myself_or/\">[comments]</a></span>",
+      "published": "2026-06-17T22:33:27+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Non-enterprise users 2nd class?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8jg3h/nonenterprise_users_2nd_class/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I normally dont write posts but I'm listening to an interview with Dario and hearing him talk down about non-enterprise users shows he is disconnected from the reality of how these products are used. Most of my peers are using personal accounts for work eventhough we have API access at work because we don't want to have to justify the PAYG model to our bosses. </p> <p>I suggest Anthropic change how they treat non-enterprise subscribers. I've seen so many tech channels unsupportive of Anthropic in this due to their approach to the AI discussion so far. That is a user base that resents you and it's not a good way to lead. It does not build the consensus they will need to implement the changes they want. </p> <p>I understand that enterprise accounts are where the big money is. But I think Anthropic has a blind spot in how it talks about “non-enterprise” users.</p> <p>A lot of us are not casual hobbyists. We are engineers, architects, developers, consultants, analysts, managers, salesman, etc inside the same companies Anthropic wants to sell to.</p> <p>Enterprise adoption does not usually start with a clean top-down strategy. It starts with individual workers experimenting, proving value, building workflows, and then helping their companies justify the investment through security reviews, procurement, KPIs, OKRs, and all the usual corporate friction.</p> <p>That means serious individual users are often the bridge to enterprise adoption.</p> <p>We are the ones finding practical use cases on our own dime! We are the ones pressure testing these tools. We are the ones explaining them to hesitant coworkers and leadership. We are often the reason an enterprise conversation happens at all.</p> <p>So when non-enterprise users are treated like a side audience, it feels disconnected from how AI adoption actually works.</p> <p>Enterprise customers may sign the big contracts, but individual professionals create a lot of the demand, credibility, workflow knowledge, and internal justification that make those contracts possible.</p> <p>Anthropic should take individual users more seriously, meaning clearer usage expectations, fewer surprise limits, ceasing casual downgrades on personal plans, and recognizing that non-enterprise users are often the people building the internal case for enterprise adoption. </p> <p>A user base indifferent to or welcoming your failure will resist your leadership in the coming age of AI.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GCoderDCoder\"> /u/GCoderDCoder </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8jg3h/nonenterprise_users_2nd_class/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8jg3h/nonenterprise_users_2nd_class/\">[comments]</a></span>",
+      "published": "2026-06-17T19:08:15+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I come here for Claude-AI-mod-bot",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u87uzs/i_come_here_for_claudeaimodbot/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Whenever I open a popular post, I immediately scroll to the mod bot comment. </p> <p>&#x200b;</p> <p>I love its witty sarcastic tone and saw it nowhere else on any AI generated content. It's both funny and concise in explaining the gist of all comments. </p> <p>&#x200b;</p> <p>I'd really be interested in the prompt and model that was used to generate the comments.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alp82\"> /u/alp82 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u87uzs/i_come_here_for_claudeaimodbot/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u87uzs/i_come_here_for_claudeaimodbot/\">[comments]</a></span>",
+      "published": "2026-06-17T11:44:06+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I asked Claude to use \"chrome-cli\" and the first thing he did was steal all my cookies",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8meg2/i_asked_claude_to_use_chromecli_and_the_first/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8meg2/i_asked_claude_to_use_chromecli_and_the_first/\"> <img alt=\"I asked Claude to use &quot;chrome-cli&quot; and the first thing he did was steal all my cookies\" src=\"https://preview.redd.it/5knqzrc7pw7h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=982f66dbbc1134d7bfc6abe5efb3550defbdde92\" title=\"I asked Claude to use &quot;chrome-cli&quot; and the first thing he did was steal all my cookies\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Apparently a raildguard got triggered after he did that, but it freaked me out.</p> <p>Thankfully this was just localhost, but what the freaking heck.</p> <p>Edit: I was aware of the risk, I just found the results worth sharing.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Explanation-Visual\"> /u/Explanation-Visual </a> <br /> <span><a href=\"https://i.redd.it/5knqzrc7pw7h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8meg2/i_asked_claude_to_use_chromecli_and_the_first/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T20:57:38+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Xenon II : Classic game Fable + Ghidra reverse engineering + remaster",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8fxp4/xenon_ii_classic_game_fable_ghidra_reverse/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8fxp4/xenon_ii_classic_game_fable_ghidra_reverse/\"> <img alt=\"Xenon II : Classic game Fable + Ghidra reverse engineering + remaster\" src=\"https://external-preview.redd.it/cWRodWN2cmdpdjdoMQXwtKV5su1B9T2QrCWEst-rZfotsW5pgk-4Z9bAFHGM.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=620c7a312c9de702fdf91f1525d204ad76453af9\" title=\"Xenon II : Classic game Fable + Ghidra reverse engineering + remaster\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I saw this amazing post <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u34370/fable_5_decoded_an_entire_1989_dos_game/?share_id=Uc3Gtbgmat0GraelYe2fX&amp;utm_content=2&amp;utm_medium=ios_app&amp;utm_name=ioscss&amp;utm_source=share&amp;utm_term=1\">about reverse engineering Midwinter.</a> And thought I'd share my little weekend project.</p> <p><a href=\"https://www.youtube.com/watch?v=n3EKR58-T1U&amp;feature=youtu.be\">https://www.youtube.com/watch?v=n3EKR58-T1U&amp;feature=youtu.be</a></p> <p>One of my favorite childhood games was The Bitmap Brothers' 1989 classic, Xenon II. Although I wasn't cool enough to own an Amiga, I played it on PC and decided to give that version a fresh update.</p> <p>Using Claude code, Fable, and Ghidra, I reverse engineered the game, rewrote it in TypeScript, and made a bunch of cosmetic enhancements over a weekend before Fable's shutdown.</p> <p>I found the combination of Fable + Ghidra astounding powerful. First pass decompilation using Ghidra, then Fable and Ghidra combination absolutely railed through this.</p> <p>Key updates include:<br /> - A full infinite scrolling fluid simulation for the playfield.<br /> - A modern, modular FM synthesis engine for the audio system, complete with impulse simulation for that &quot;underwater cave ambience.&quot;<br /> - Enhanced projectile and collision effects, along with additional visual updates.</p> <p>The gameplay remains true to the original 1989 version, but now it looks and sounds like the version I was playing in my head all of those years ago.</p> <p>All credit goes to the original team at The Bitmap Brothers and The Assembly Line.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Amazing_Meet_7791\"> /u/Amazing_Meet_7791 </a> <br /> <span><a href=\"https://v.redd.it/dp6gmgrgiv7h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8fxp4/xenon_ii_classic_game_fable_ghidra_reverse/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T17:00:41+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I switched to Claude design in the desktop app and now I can/t go back",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8nxq4/i_switched_to_claude_design_in_the_desktop_app/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8nxq4/i_switched_to_claude_design_in_the_desktop_app/\"> <img alt=\"I switched to Claude design in the desktop app and now I can/t go back\" src=\"https://preview.redd.it/mfbg7blszw7h1.png?width=140&amp;height=92&amp;auto=webp&amp;s=0f3b8dfc18968fad075701e0a2b222e8313f6a40\" title=\"I switched to Claude design in the desktop app and now I can/t go back\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Like the title says i switched to claude design because I clicked on a pop up and now I cant find a button to go back to the AI chat. Is there a button or option I missed?</p> <p><a href=\"https://preview.redd.it/mfbg7blszw7h1.png?width=1199&amp;format=png&amp;auto=webp&amp;s=4227dacd8946a856cc91e3d4c713065144484c96\">https://preview.redd.it/mfbg7blszw7h1.png?width=1199&amp;format=png&amp;auto=webp&amp;s=4227dacd8946a856cc91e3d4c713065144484c96</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MksKujo\"> /u/MksKujo </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8nxq4/i_switched_to_claude_design_in_the_desktop_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8nxq4/i_switched_to_claude_design_in_the_desktop_app/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T21:56:37+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Added Live Chat and Youtube Queue to my Fable 5 Availability Tracker So we can all hangout while we wait",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8jc47/added_live_chat_and_youtube_queue_to_my_fable_5/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8jc47/added_live_chat_and_youtube_queue_to_my_fable_5/\"> <img alt=\"Added Live Chat and Youtube Queue to my Fable 5 Availability Tracker So we can all hangout while we wait\" src=\"https://external-preview.redd.it/cWGkGP_LfVBa3hBWEmDtwuzMM8-0zcEcOahPTOi5ytk.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0b40f32ae34530691c66335c44c5782b0f8d4f78\" title=\"Added Live Chat and Youtube Queue to my Fable 5 Availability Tracker So we can all hangout while we wait\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Sorry to double post guys, but i added live chat and a youtube video player and a queue system so we can all watch videos and stuff while we wait for Fable to come back</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chrisandstuffs\"> /u/chrisandstuffs </a> <br /> <span><a href=\"https://isfable5back.com/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u8jc47/added_live_chat_and_youtube_queue_to_my_fable_5/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-17T19:04:26+00:00"
+    },
+    {
+      "source_id": "hn-agentic",
+      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+      "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "summary": "<p>Article URL: <a href=\"https://openrouter.ai/blog/insights/royale-last-agent-standing/\">https://openrouter.ai/blog/insights/royale-last-agent-standing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48576824\">https://news.ycombinator.com/item?id=48576824</a></p>\n<p>Points: 141</p>\n<p># Comments: 116</p>",
+      "published": "2026-06-17T21:00:07+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Copilot individual plan sign-ups are reopening",
+      "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening/",
+      "summary": "<p>Article URL: <a href=\"https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening/\">https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578675\">https://news.ycombinator.com/item?id=48578675</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:53:53+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Pitch-by-pitch baseball simulation app to simulate games and seasons",
+      "url": "https://baseball.chesterton.tech/",
+      "summary": "<p>Article URL: <a href=\"https://baseball.chesterton.tech/\">https://baseball.chesterton.tech/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578610\">https://news.ycombinator.com/item?id=48578610</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published": "2026-06-17T23:44:35+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "A Human Artist's Defense of AI Art",
+      "url": "https://asherperlman.substack.com/p/a-human-artists-defense-of-ai-art",
+      "summary": "<p>Article URL: <a href=\"https://asherperlman.substack.com/p/a-human-artists-defense-of-ai-art\">https://asherperlman.substack.com/p/a-human-artists-defense-of-ai-art</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578604\">https://news.ycombinator.com/item?id=48578604</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:43:38+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Best Laptops",
+      "url": "https://www.wired.com/story/best-laptops/",
+      "summary": "<p>Article URL: <a href=\"https://www.wired.com/story/best-laptops/\">https://www.wired.com/story/best-laptops/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578568\">https://news.ycombinator.com/item?id=48578568</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:40:04+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Free Will (2026)",
+      "url": "https://gt.ms/blog/free-will/",
+      "summary": "<p>Article URL: <a href=\"https://gt.ms/blog/free-will/\">https://gt.ms/blog/free-will/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578560\">https://news.ycombinator.com/item?id=48578560</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:38:45+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Bernie Sanders unveils plan to give the public direct ownership of AI companies",
+      "url": "https://apnews.com/article/bernie-sanders-ai-public-ownership-57b9f20d96490083e2749adba0f13977",
+      "summary": "<p>Article URL: <a href=\"https://apnews.com/article/bernie-sanders-ai-public-ownership-57b9f20d96490083e2749adba0f13977\">https://apnews.com/article/bernie-sanders-ai-public-ownership-57b9f20d96490083e2749adba0f13977</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578555\">https://news.ycombinator.com/item?id=48578555</a></p>\n<p>Points: 4</p>\n<p># Comments: 2</p>",
+      "published": "2026-06-17T23:38:24+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "ArsenalOS: Anduril's Digital Manufacturing Backbone",
+      "url": "https://www.anduril.com/news/introducing-arsenalos-tm-anduril-s-digital-manufacturing-backbone",
+      "summary": "<p>Article URL: <a href=\"https://www.anduril.com/news/introducing-arsenalos-tm-anduril-s-digital-manufacturing-backbone\">https://www.anduril.com/news/introducing-arsenalos-tm-anduril-s-digital-manufacturing-backbone</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578551\">https://news.ycombinator.com/item?id=48578551</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:38:01+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Claude Fable 5: The harness matters more than the model",
+      "url": "https://www.endorlabs.com/learn/claude-fable-5-take-two-same-model-different-harness-and-a-very-different-result",
+      "summary": "<p>Article URL: <a href=\"https://www.endorlabs.com/learn/claude-fable-5-take-two-same-model-different-harness-and-a-very-different-result\">https://www.endorlabs.com/learn/claude-fable-5-take-two-same-model-different-harness-and-a-very-different-result</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578547\">https://news.ycombinator.com/item?id=48578547</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:37:27+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Estonia assigns personal ID numbers to AI agents to grant them \"authorizations\"",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/estonia-to-grant-ai-bots-legal-rights-with-personal-id-numbers",
+      "summary": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-06-17/estonia-to-grant-ai-bots-legal-rights-with-personal-id-numbers\">https://www.bloomberg.com/news/articles/2026-06-17/estonia-to-grant-ai-bots-legal-rights-with-personal-id-numbers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578535\">https://news.ycombinator.com/item?id=48578535</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:35:53+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "USP – Write once in Markdown, post everywhere",
+      "url": "https://github.com/adamarutyunov/usp",
+      "summary": "<p>Article URL: <a href=\"https://github.com/adamarutyunov/usp\">https://github.com/adamarutyunov/usp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578529\">https://news.ycombinator.com/item?id=48578529</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:35:02+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Making GHC Upgrades Easy",
+      "url": "https://blog.haskell.org/making-ghc-upgrades-easy/",
+      "summary": "<p>Article URL: <a href=\"https://blog.haskell.org/making-ghc-upgrades-easy/\">https://blog.haskell.org/making-ghc-upgrades-easy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578515\">https://news.ycombinator.com/item?id=48578515</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:33:36+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Loop Unrolling in the ML Era",
+      "url": "https://hiraditya.github.io/posts/why-loop-unrolling-is-popular-again/",
+      "summary": "<p>Article URL: <a href=\"https://hiraditya.github.io/posts/why-loop-unrolling-is-popular-again/\">https://hiraditya.github.io/posts/why-loop-unrolling-is-popular-again/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578506\">https://news.ycombinator.com/item?id=48578506</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:32:25+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "JPEG XL Art Gallery",
+      "url": "https://jpegxl.info/art/big_gallery.html",
+      "summary": "<p>Article URL: <a href=\"https://jpegxl.info/art/big_gallery.html\">https://jpegxl.info/art/big_gallery.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578504\">https://news.ycombinator.com/item?id=48578504</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:32:17+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: A free CLI coding agent, powered by ads",
+      "url": "https://freebuff.com",
+      "summary": "<p>We subsidize Deepseek 4.0, MiniMax M3, and more!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578487\">https://news.ycombinator.com/item?id=48578487</a></p>\n<p>Points: 6</p>\n<p># Comments: 6</p>",
+      "published": "2026-06-17T23:30:49+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Seven Perfect Shuffles Randomize a Deck of Cards. But How Many Sloppy Ones?",
+      "url": "https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617/",
+      "summary": "<p>Article URL: <a href=\"https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617/\">https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578448\">https://news.ycombinator.com/item?id=48578448</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:26:35+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Why standard WER fails for Indian languages",
+      "url": "https://www.sarvam.ai/blogs/evaluating-indian-language-asr",
+      "summary": "<p>Article URL: <a href=\"https://www.sarvam.ai/blogs/evaluating-indian-language-asr\">https://www.sarvam.ai/blogs/evaluating-indian-language-asr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578447\">https://news.ycombinator.com/item?id=48578447</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:26:35+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Vlk: MemAct for the IDE – persistent working memory agents can prune themselves",
+      "url": "https://github.com/aranajhonny/vlk",
+      "summary": "<p>Article URL: <a href=\"https://github.com/aranajhonny/vlk\">https://github.com/aranajhonny/vlk</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578410\">https://news.ycombinator.com/item?id=48578410</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:23:12+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
+      "url": "https://www.horg.com/horg/?page_id=921",
+      "summary": "<p>Article URL: <a href=\"https://www.horg.com/horg/?page_id=921\">https://www.horg.com/horg/?page_id=921</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578388\">https://news.ycombinator.com/item?id=48578388</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "published": "2026-06-17T23:20:38+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "StackOverflow closed my OpenClaw and paperclipAI integration q. as \"irrelevant\"",
+      "url": "https://stackoverflow.com/questions/79958607/how-do-i-view-server-logs-from-paperclipai-being-run-via-npx-paperclipai-run",
+      "summary": "<p>Article URL: <a href=\"https://stackoverflow.com/questions/79958607/how-do-i-view-server-logs-from-paperclipai-being-run-via-npx-paperclipai-run\">https://stackoverflow.com/questions/79958607/how-do-i-view-server-logs-from-paperclipai-being-run-via-npx-paperclipai-run</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578387\">https://news.ycombinator.com/item?id=48578387</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:20:35+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "License Plate Cameras Will Soon Track Phones, Wearables, Infotainment and Pets",
+      "url": "https://www.thedrive.com/news/license-plate-cameras-will-soon-track-phones-wearables-infotainment-and-even-your-pets",
+      "summary": "<p>Article URL: <a href=\"https://www.thedrive.com/news/license-plate-cameras-will-soon-track-phones-wearables-infotainment-and-even-your-pets\">https://www.thedrive.com/news/license-plate-cameras-will-soon-track-phones-wearables-infotainment-and-even-your-pets</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48578373\">https://news.ycombinator.com/item?id=48578373</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-17T23:19:30+00:00"
+    }
+  ],
+  "sources_run": [
+    "geeknews-hada",
+    "reddit-cursor",
+    "reddit-ml",
+    "github-blog-ai",
+    "reddit-claudeai",
+    "x-agentic-coding",
+    "x-github-copilot",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
+    "openai-blog",
+    "hn-agentic",
+    "hn-newest",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}
