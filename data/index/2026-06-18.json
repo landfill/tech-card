@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "title": "유출 재무 문서: OpenAI, 매년 수십억 달러 손실",
+      "summary": "\n유출된 감사 재무제표를 바탕으로 OpenAI의 비용 상승이 매출 성장보다 빠르게 진행되고 있음을 보도함(2024 매출 약 $3.7B → 2025 $13.07B 등). IPO 준비 문서와 관련된 내부 재무 압박을 드러내며, 모델·인프라 투자 확대의 재무적 부담이 핵심임.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30616",
+      "source_id": ""
+    },
+    {
+      "title": "OpenAI, 2025년 손실 거의 8배 증가… 지출 340억 달러",
+      "summary": "\n감사 재무문서를 인용해 OpenAI의 회사 귀속 순손실이 2024년 50.9억 달러에서 2025년 385.3억 달러로 급증했으며, 2025년 지출이 $340B에 달해 영업손실이 대폭 확대됐음을 보도. 모델·인프라 투자와 비용구조가 프론티어 모델 생태계에 미치는 영향을 시사함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30597",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic, 서울 사무소 공식 개소…네이버·넥슨·삼성SDS·LG CNS 등과 전방위 파트너십",
+      "summary": "\nAnthropic이 서울 사무소를 공식 개소하고 한국의 주요 기업들과 파트너십을 전개한다고 발표(아시아·태평양 지역 거점 확장). 한국에서 Claude 사용량이 높은 점을 배경으로 제시하며 지역 비즈니스·개발자 지원 강화가 목적임.",
+      "category": "대한민국 IT",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30600",
+      "source_id": ""
+    },
+    {
+      "title": "Cursor에서 Git 서비스 Origin 올 가을 출시 예정",
+      "summary": "\n코드 에디터/에이전트 업체 Cursor가 자체 Git 서비스 'Origin'을 올 가을 출시할 예정이며 현재 웨이트리스트를 수집 중(회사 도메인 이메일로만 가입 가능). 에이전트와 연동된 Git 호스팅의 등장으로 개발자 워크플로 통합 가능성이 높아짐.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30599",
+      "source_id": ""
+    },
+    {
+      "title": "ktx - 데이터/분석 에이전트를 위한 실행 가능한 컨텍스트 레이어",
+      "summary": "\nClaude Code, Codex 등 AI 에이전트가 기업 데이터 웨어하우스에 질의할 때 정확한 맥락(지표 정의·테이블 관계·업무 지식)을 제공하는 자가 개선형 컨텍스트 레이어를 제안/설명함. 에이전트의 정확도·안전성·운영 가능성을 높이는 인프라 구성 제안임.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30588",
+      "source_id": ""
+    },
+    {
+      "title": "New in Claude Code: Artifacts",
+      "summary": "\nClaude Code 세션에서 생성된 대화·작업 결과를 인터랙티브 페이지(예: PR 워크스루, 라이빙 대시보드)로 공유하는 'Artifacts' 기능이 베타로 공개됨(Team/Enterprise 대상). 세션 컨텍스트를 반영해 실시간 갱신되는 공유 링크 제공.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9e4gs/new_in_claude_code_artifacts/",
+      "source_id": ""
+    },
+    {
+      "title": "Day 23 of building GTA 6 using claude",
+      "summary": "\n개인이 Claude Code와 Codex를 활용해 MMO 스타일 게임을 개발하는 진행 상황을 공유(브라우저 실행, 에이전트 기반 콘텐츠 생성 등). 커뮤니티 수준에서 에이전트들이 실제 개발 프로젝트에 적용되는 사례를 보여줌.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u90nmg/day_23_of_building_gta_6_using_claude/",
+      "source_id": ""
+    },
+    {
+      "title": "Always wanted to build a tower defense. ~1000 hours later, with Claude, here it is.",
+      "summary": "\n프로그래밍 비전문가가 Claude Code(및 Fable 등)를 사용해 약 1000시간의 작업 끝에 타워 디펜스 게임을 완성한 사례. 에이전트 기반 코딩이 개인 개발자의 생산성을 어떻게 바꾸는지 보여주는 사용자 사례임.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u97xtc/always_wanted_to_build_a_tower_defense_1000_hours/",
+      "source_id": ""
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "summary": "\nOpenAI가 ChatGPT Enterprise용 신규 사용량 분석 도구와 업데이트된 지출 통제 기능을 발표하여 조직이 AI 비용을 관리하고 규모를 확장하기 위한 도구를 제공함. 엔터프라이즈 운영·거버넌스 측면의 변화에 해당.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source_id": ""
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT",
+      "summary": "\nGPT-5.5 Instant를 활용해 ChatGPT의 건강·의료 관련 응답 품질(추론, 맥락 유지, 의사 검토 기반 평가)을 개선했다는 OpenAI 제품 업데이트. 의료용 LLM 응답의 신뢰성 향상 시도에 관한 소식.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: MCP tools in one server – pay-as-you-go, no subscription",
+      "summary": "\n337개 이상의 MCP(다양한 API/유틸) 툴을 단일 서버에 모아 비용 기반으로 제공하는 서비스. AI 채팅·텍스트 분석 등 여러 도구를 통합해 개발자·프로토타이핑용으로 활용할 수 있는 소규모 MCP 허브 사례임.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://smithery.ai/servers/scotia1973/api-hub2",
+      "source_id": ""
+    },
+    {
+      "title": "Get user requests directly on your website and have an agent build",
+      "summary": "\n웹사이트에서 사용자 요청을 직접 받아 에이전트가 요구사항을 해석하고 빌드하는 워크플로를 제공하는 서비스(Amendor). 사용자-에이전트 직결 형식의 프로덕트화 사례로, 에이전트 자동화된 빌드 파이프라인을 시사함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://amendor.site/",
+      "source_id": ""
+    },
+    {
+      "title": "Update: White House talks with Anthropic shift to setting AI security rules",
+      "summary": "\n백악관과 Anthropic 간 대화가 모델 보안·규칙 설정 쪽으로 이동하고 있다는 보도 링크를 공유(정책·규제 협의의 진전 신호). 프론티어 모델의 접근성·운영에 영향을 줄 수 있는 정책 동향임.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9gnq7/update_white_house_talks_with_anthropic_shift_to/",
+      "source_id": ""
+    },
+    {
+      "title": "Fable 5 suspension update for Claude users: Anthropic exec says it may return “in the coming days”",
+      "summary": "\nAnthropic 국제 담당 임원이 서울 행사에서 일시 중단된 Fable/Mythos 모델(Fable 5 등)이 \"며칠 내로 다시 사용 가능해질 것\"이라 공개 발언했다는 지역 보도 요약. 모델 접근성 회복 가능성에 대한 사용자 커뮤니티 업데이트임.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8yino/fable_5_suspension_update_for_claude_users/",
+      "source_id": ""
+    }
+  ]
+}
