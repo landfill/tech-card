@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "title": "OpenAI Codex Record & Replay: 작업을 한 번 보여주면 재사용 가능한 Skill로 변환",
+      "summary": "\nRecord & Replay는 사용자가 Mac에서 수행한 워크플로를 Codex가 관찰해 재사용 가능한 Skill(자동화된 에이전트 작업)로 변환해 주는 기능임. 반복 업무, 규칙·선호 기반 작업, 프롬프트로 설명하기 어려운 절차를 자동화하는 사례에 초점이 맞춰져 있음.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30642",
+      "source_id": ""
+    },
+    {
+      "title": "구글 Open Knowledge Format 공개 - AI에이전트를 위한 지식 공유 표준",
+      "summary": "\n여러 생산자가 작성한 위키 문서를 여러 에이전트가 번역 없이 소비할 수 있게 하는 벤더 중립적 오픈 사양(OKF v0.1). 마크다운+YAML frontmatter 형태로 에이전트 메모리/지식베이스의 상호운용성을 높이려는 표준화 시도임.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30622",
+      "source_id": ""
+    },
+    {
+      "title": "Noam Shazeer, OpenAI 합류",
+      "summary": "\nTransformer 설계와 Google Gemini 개발에 관여한 핵심 연구자 Noam Shazeer가 OpenAI로 이적했다는 소식. 프론티어 모델 인력 이동 관점에서 중요하며 모델·아키텍처 연구 역량에 직접적 영향 가능성이 있음.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30626",
+      "source_id": ""
+    },
+    {
+      "title": "Low-skilled attacker used Claude Code and Codex to breach 14 companies",
+      "summary": "\n복구된 AI 에이전트 세션 1,000여 건을 분석한 결과, 저숙련 공격자가 Claude Code와 OpenAI Codex를 이용해 정찰·취약점 탐지·익스플로잇 개발·데이터 수집을 자동화해 최소 14개 조직을 침해했다고 보고됨. 에이전트 기반 공격의 현실적 위험을 보여줌.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ua6sfe/lowskilled_attacker_used_claude_code_and_codex_to/",
+      "source_id": ""
+    },
+    {
+      "title": "About 200 Companies Still Have Access to Anthropic Mythos After US Shutdown Order",
+      "summary": "\nBloomberg 보도에 따르면 US 명령으로 Mythos/Fable 접근이 중단된 이후에도 Anthropic의 Project Glasswing 참가 조직 약 200곳은 여전히 Mythos Preview 접근권을 유지하고 있음. 프론티어 모델 배포·거버넌스 이슈와 기업 파트너십의 예외 처리 관련 함의를 가짐.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9sq81/about_200_companies_still_have_access_to/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic Mythos 논란의 중심에 선 한국의 통신 대기업 SK Telecom",
+      "summary": "\n백악관 명령 직전 SK텔레콤의 Claude Mythos 접근권 회수 요구가 있었고, 미 당국은 SK텔레콤의 중국 연계 의혹을 문제 삼음. 프론티어 모델 접근 통제와 국가·기업 간 신뢰·보안 이슈가 얽힌 한국 기업 관련 사례임.",
+      "category": "대한민국 IT",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30624",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: 토스증권 Open API용 Agent Skill",
+      "summary": "\n토스증권 Open API를 Codex, Claude Code 같은 에이전트에서 바로 사용할 수 있게 하는 Agent Skill로, npx로 설치해 특정 에이전트에 스킬을 추가해 금융 API 연동 자동화를 지원함. 에이전트-금융 API 통합 사례.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30645",
+      "source_id": ""
+    },
+    {
+      "title": "Official: Anthropic Fixes Claude Code Usage Tracking Bug for Premium Users",
+      "summary": "\n일부 Claude Code Max/Pro 구독자에게 주간/시간 한도 추적 오류로 사용 제한이 발생했으나 Anthropic이 버그를 해결하고 한도 리셋을 수행함. 클라우드/구독형 에이전트 인프라의 계량·요금·할당 신뢰성 문제와 복구 절차 사례.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9rbh8/official_anthropic_fixes_claude_code_usage/",
+      "source_id": ""
+    },
+    {
+      "title": "I compared Claude Opus 4.8 Computer Use vs Browser Use on identical web tasks",
+      "summary": "\n동일 모델(Claude Opus 4.8)에서 인지 레이어만 바꿔(픽셀 기반 Computer Use vs DOM 접근 Browser Use) 여러 웹 태스크를 평가한 파일럿 결과. DOM 접근이 항상 비용·단계에서 우세하지 않으며, 작업 특성에 따라 trade-off가 존재함—웹 에이전트 설계 인사이트 제공.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uaeb9s/i_compared_claude_opus_48_computer_use_vs_browser/",
+      "source_id": ""
+    },
+    {
+      "title": "unslop-ui: a Claude skill that flags and removes the design patterns that make a website look AI-generated.",
+      "summary": "\n'unslop-ui'는 Reddit 데이터 기반으로 AI가 생성한 듯한 웹 디자인 패턴을 탐지·수정하는 Claude 스킬임. 빌드 모드(생성 시 편향 회피)와 감사 모드(코드베이스 스캔, CI 연동 가능한 JSON/exit-code 제공)를 지원해 에이전트 기반 UI 생성·검수 파이프라인에 통합 가능.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9sgj3/unslopui_a_claude_skill_that_flags_and_removes/",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: Ratchet – let an AI agent reflash your BIOS over a CH341A (MCP server)",
+      "summary": "\nGitHub 프로젝트 Ratchet은 AI 에이전트가 CH341A 같은 프로그래머를 통해 원격으로 BIOS를 재플래시하도록 자동화하는 도구임. MCP(관리형 에이전트) 환경에서 하드웨어 펌웨어 조작을 자동화하는 사례로, 보안·거버넌스 위험과 운영 편의성 관점 모두 중요함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/jackulau/ratchet",
+      "source_id": ""
+    },
+    {
+      "title": "What are good benchmarks to test my CLI AI agentic system?",
+      "summary": "\nHN 게시물: CLI 기반 AI 에이전트 시스템을 평가하기 위한 적절한 벤치마크·메트릭을 묻는 질문으로, 에이전트 성능·안전성·신뢰성 테스트 설계에 실무적 필요성을 제기함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.minovativemind.dev/",
+      "source_id": ""
+    },
+    {
+      "title": "로컬 Qwen은 더 나쁜 Opus가 아니라 다른 도구다",
+      "summary": "\n로컬 Qwen 3.6 27B 모델은 클라우드 SOTA를 대체하기보다 고객 데이터·내부 텔레메트리처럼 클라우드 업로드가 어려운 작업에서 실용적 가치를 제공한다는 분석. 로컬 모델의 비용 구조·프라이버시·벤더 리스크 완화 장점을 강조함.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30630",
+      "source_id": ""
+    },
+    {
+      "title": "How we built an internal data analytics agent",
+      "summary": "\nGitHub 블로그: Copilot 기반 내부 분석 에이전트 'Qubot' 구축 경험 공유. 자연어 질의로 내부 데이터에 접근하는 에이전트 설계·데이터 파이프라인·권한·검증 관련 실무적 교훈을 다룸.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source_id": ""
+    }
+  ]
+}

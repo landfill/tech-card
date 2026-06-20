@@ -1,0 +1,526 @@
+{
+  "date": "2026-06-19",
+  "items": [
+    {
+      "source_id": "geeknews-hada",
+      "title": "Craigslist 창업자, 5억 달러를 기부하다",
+      "url": "https://news.hada.io/topic?id=30650",
+      "summary": "<ul>\n<li>Craigslist 창업자 <strong>Craig Newmark</strong>는 회사를 만든 뒤 30년 동안 자선단체에 5억 달러를 기부했고, 막대한 부를 가진 이들도 비슷한 선택을 하길 바라고 있음</li>\n<li>그는 <strong>The Giving Pledge</strong>에 합류하며 자신의 말과 돈의 쓰임을 맞추려 했고, 기부를 개인의 가치와 책임을 ...</p>",
+      "published": "2026-06-19T16:41:16+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "CS 6120: 고급 컴파일러 자기주도 온라인 강좌 (2020)",
+      "url": "https://news.hada.io/topic?id=30649",
+      "summary": "<ul>\n<li>Cornell CS의 박사 수준 강좌 <strong>CS 6120</strong>은 컴파일러와 프로그래밍 언어 구현을 체계적으로 배우려는 사람에게 중간 표현, 데이터 흐름, 최적화, 병렬화, JIT, 가비지 컬렉션까지 한 흐름으로 제공함</li>\n<li>자기주도 버전은 가상의 대학에서 <strong>4학점 무성적</strong>으로 수강하는 형식...</p>",
+      "published": "2026-06-19T15:41:16+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "CLI 인증, 올바른 방식",
+      "url": "https://news.hada.io/topic?id=30648",
+      "summary": "<ul>\n<li>많은 CLI는 노트북의 로컬 브라우저에서는 빠르게 끝나는 <strong>localhost OAuth 리다이렉트</strong>를 기본값으로 쓰지만, SSH·컨테이너·WSL 같은 개발 환경에서는 같은 가정이 깨져 로그인 흐름이 멈춤</li>\n<li>현재 방식은 CLI가 <code>127.0.0.1</code>에 임시 HTTP 서버를 열고 브라우저를 인증 URL로...</p>",
+      "published": "2026-06-19T15:11:15+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 할일 목록이 있는 맥용 Pomodoro 앱",
+      "url": "https://news.hada.io/topic?id=30647",
+      "summary": "<p>회사 업무와 개인 프로젝트를 할 때 포모도로 타이머를 즐겨 사용하곤 했습니다. 그러다 '내가 쓸 만한 앱을 직접 만들어보면 어떨까?' 하는 생각에 개발을 시작하게 되었어요. 이후 제가 직접 쓰면서 '이 기능은 꼭 있었으면 좋겠다' 싶은 것들을 하나씩 더해가며 애정을 갖고 꾸준히 다듬어가고 있습니다</p>",
+      "published": "2026-06-19T14:43:27+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show HN: 내가 모델 가중치 안에 있는지 확인하기",
+      "url": "https://news.hada.io/topic?id=30646",
+      "summary": "<ul>\n<li><strong>IN THE WEIGHTS</strong>는 이름을 입력해 여러 AI 모델 안에서 자신이 “살아 있는지” 확인하는 웹사이트임</li>\n<li>확인 대상에는 <strong>GPT-5.5</strong>, Opus 4.8, Grok 4.20, Gemini 3.1 Lite, Llama 3.3 70B 등 13개 모델이 포함됨</li>\n<li>화면에는 이름 입력란과 함께 <code>LEARN MORE...</p>",
+      "published": "2026-06-19T14:41:15+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 토스증권 Open API용 Agent Skill",
+      "url": "https://news.hada.io/topic?id=30645",
+      "summary": "<p>토스증권 Open API를 Codex, Claude Code 같은 에이전트에서 바로 사용할 수 있도록 만든 Agent Skill입니다.</p>\n<p>설치는 아래처럼 할 수 있습니다.</p>\n<pre><code class=\"language-bash\">npx skills add BEOKS/tossinvest-skill  \n</code></pre>\n<p>특정 에이전트만 지정해서 설치할 수도 있습니다.</p>\n<pre><c",
+      "published": "2026-06-19T13:51:10+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "강제 동의 문제 제기 5년 뒤, Elkjop에 €180만 벌금 부과",
+      "url": "https://news.hada.io/topic?id=30644",
+      "summary": "<ul>\n<li>Elkjop 그룹의 Nordic 고객 클럽은 마케팅 이메일을 끄려면 <strong>회원 탈퇴</strong>를 요구했고, 한 회원이 2021년 이를 GDPR·ePrivacy 위반으로 문제 삼음</li>\n<li>쟁점은 고객 클럽 혜택을 포기해야만 직접 마케팅을 거부할 수 있는 구조가 <strong>자유로운 동의</strong> 요건을 충족하는지였음</li>\n...</p>",
+      "published": "2026-06-19T13:41:15+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "웹사이트 제출처를 모아 보여주는 Submission.Directory",
+      "url": "https://news.hada.io/topic?id=30643",
+      "summary": "<ul>\n<li><strong>Submission.Directory</strong>는 비즈니스, 스타트업, 제품, 개인 웹사이트를 올릴 수 있는 제출처를 손으로 선별한 디렉터리로, 백링크 확보와 검색엔진·AI 답변 노출 개선에 초점을 둠</li>\n<li>제출처는 <strong>출시 플랫폼</strong>, 스타트업·SaaS·AI 도구 디렉터리, 메이커·개발자 커뮤니티, 디...</p>",
+      "published": "2026-06-19T10:41:15+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "OpenAI Codex Record &amp; Replay: 작업을 한 번 보여주면 재사용 가능한 Skill로 변환",
+      "url": "https://news.hada.io/topic?id=30642",
+      "summary": "<ul>\n<li>Record &amp; Replay는 Mac에서 사용자가 직접 수행한 워크플로를 Codex가 관찰한 뒤, 재사용 가능한 Skill로 만들어주는 기능임</li>\n<li>반복 작업이거나, 사용자의 선호와 규칙이 중요하거나, 프롬프트로 설명하기보다 직접 보여주는 편이 쉬운 작업에 적합함</li>\n<li>예를 들어 비용 처리, 주차 공간 예약...</p>",
+      "published": "2026-06-19T09:36:00+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Windows 2000 UI에서 좋았던 점",
+      "url": "https://news.hada.io/topic?id=30641",
+      "summary": "<ul>\n<li>Windows 2000은 Windows 3.0~2000 시기 UI의 장점을 보여주는 사례로, <strong>단색 배경</strong>과 라벨 있는 아이콘, Start 버튼, 또렷한 글꼴이 화면 요소를 명확히 구분해 줌</li>\n<li>Start Menu와 Explorer는 눌린 버튼, 화살표, 툴팁, 트리 구조, 서로 다른 아이콘으로 <strong>현재 위치와 조작 가능성...</p>",
+      "published": "2026-06-19T09:11:16+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Google Workspace가 Firefox 사용자에게 Chrome 사용을 요구하는 경고 표시",
+      "url": "https://news.hada.io/topic?id=30640",
+      "summary": "<ul>\n<li>2026년 6월 18일 기준, <strong>Google Workspace Business Plus</strong> 환경에서 Firefox 사용자에게 Chrome 사용을 요구하는 경고가 나타남</li>\n<li>경고는 기기가 조직의 보안 요구사항을 충족해야 한다며 <strong>Chrome Browser 다운로드</strong>와 업무 계정 로그인을 다음 단계로 안내함</li>\n<li>최...</p>",
+      "published": "2026-06-19T09:11:15+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Ask GN: 다들 토이 프로젝트나 MVP 만드실 때, 여러 오픈소스의 &quot;결합 정보&quot;는 어떻게 찾으시나요?",
+      "url": "https://news.hada.io/topic?id=30639",
+      "summary": "<p>안녕하세요. 최근 AI 도구들이 발전하면서 오픈소스들을 조합해 빠르게 MVP를 만들어보려는 시도를 많이 하고 있습니다.</p>\n<p>그런데 개별 라이브러리(예: LangChain, Qdrant, n8n 등)의 독스(Docs)는 잘 되어 있지만, 이들을 서로 엮는 '접착 코드(Glue Code)'나 버전에 따른 연동 성공 사례를 찾는 것은 늘 삽질의",
+      "published": "2026-06-19T08:54:44+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "모두의 창업 합격자 5000명 정보 유출",
+      "url": "https://news.hada.io/topic?id=30637",
+      "summary": "<ul>\n<li>합격자 5천 명 프로필 공개후, 비인가 경로로 비공개 정보에 대한 접근 시도</li>\n<li>총 9개의 IP가 접근하였으며, 유출된 정보는 이메일 주소, 아이디어 요약 정보, 심사평</li>\n<li>당일 오후 3시경 이용자 문의를 통해 해당 사실을 인지, 즉각적인 차단 및 보안 조치를 시행</li>\n<li>또한, 6월 16일 오전 ...</p>",
+      "published": "2026-06-19T07:15:39+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "사기의 미래는 이미 와 있다, 다만 고르게 퍼져 있지 않을 뿐",
+      "url": "https://news.hada.io/topic?id=30636",
+      "summary": "<ul>\n<li>LLM은 채용 인터뷰, 가족 긴급 연락, 은행 이메일, 로맨스 같은 개인별 구실을 만들어 <strong>맞춤형 사기</strong>를 실행하고, 계정 탈취 뒤 장기 감시와 후속 공격까지 이어갈 수 있음</li>\n<li>기존 사기는 저비용 대량 발송형과 고비용 표적형으로 나뉘었지만, LLM은 그 사이를 메우며 <strong>표적화된 ...</p>",
+      "published": "2026-06-19T07:11:16+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "가장 좋아하는 Lobste.rs 댓글은 무엇인가요?",
+      "url": "https://news.hada.io/topic?id=30635",
+      "summary": "<ul>\n<li>오래 운영된 포럼 <strong>Lobste.rs</strong>에서 과거에 묻혔을 수 있는 좋은 댓글과 통찰을 모으려는 요청임</li>\n<li>가끔 오래된 <strong>gem</strong> 같은 댓글을 발견해 왔다는 경험이 질문의 배경임</li>\n<li>공유 대상은 게시글이 아니라 <strong>댓글</strong>이며, “great insights etc.”처럼 기...</p>",
+      "published": "2026-06-19T07:11:14+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: lily-svelte — Svelte 5 컴포넌트 라이브러리",
+      "url": "https://news.hada.io/topic?id=30633",
+      "summary": "<p>Svelte 5 + Tailwind v4 쓰시는 분들을 위한 컴포넌트 라이브러리입니다.<br />\nshadcn처럼 CLI로 컴포넌트 소스를 프로젝트에 바로 복사해주는 방식이라, 코드를 직접 수정하기 편합니다.<br />\n디자인은 둥글고 차분한 스타일 하나로 통일했어요</p>\n<pre><code class=\"language-sh\">npx lily-svelte@latest init",
+      "published": "2026-06-19T05:31:17+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "AMD, 소비자용 Ryzen CPU에서 메모리 암호화 조용히 제거",
+      "url": "https://news.hada.io/topic?id=30631",
+      "summary": "<ul>\n<li>소비자용 Ryzen CPU에서 <strong>Transparent Secure Memory Encryption(TSME)</strong> 지원이 새 AGESA 펌웨어 이후 사라져, 사용자가 메모리 암호화 보호 상태 변화를 알아차리기 어려운 상황임</li>\n<li>TSME는 OS 개입 없이 전체 RAM을 암호화해 <strong>cold-boot exploit</strong>, DRAM 인터페이스 스누...</p>",
+      "published": "2026-06-19T01:01:15+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "로컬 Qwen은 더 나쁜 Opus가 아니라 다른 도구다",
+      "url": "https://news.hada.io/topic?id=30630",
+      "summary": "<ul>\n<li>로컬 Qwen 3.6 27B는 <strong>고객 데이터와 내부 텔레메트리처럼 클라우드에 올리기 어려운 작업</strong>에서 실질적 가치를 내지만, 클라우드 SOTA 모델을 대체하지는 못함</li>\n<li>로컬 모델의 강점은 최고 성능 모델과의 점수 경쟁보다 <strong>고정 비용</strong>, 개인정보 보호, 벤더 리스크 완화에 있...</p>",
+      "published": "2026-06-19T01:01:14+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "스위스 의회, 신규 원전 금지 해제",
+      "url": "https://news.hada.io/topic?id=30629",
+      "summary": "<ul>\n<li>스위스에서 <strong>신규 원자력발전소 건설</strong>이 다시 가능해지는 방향으로 의회 절차가 진행 중이며, National Council이 Blackout Initiative에 대한 간접 반대안을 승인함</li>\n<li>Federal Council과 Council of States도 같은 방향을 지지해, 신규 원전에 필요한 <strong>기본 허가</strong>를 다시...</p>",
+      "published": "2026-06-19T00:48:13+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Microsoft 새 Outlook, Classic 버전에선 즉시 하는 작업에 10초나 걸림",
+      "url": "https://news.hada.io/topic?id=30628",
+      "summary": "<ul>\n<li>Windows 11의 <strong>새 Outlook</strong>은 메일 알림을 클릭해도 해당 메일로 바로 이동하지 못해, Outlook Classic이 즉시 처리하는 흐름에서 약 <strong>10초 지연</strong>이 발생함</li>\n<li>지연의 핵심은 <strong>WebView2 기반 구조</strong>로, 알림 클릭 뒤 앱 실행, 받은편지함 로드, 인증, 메일 ...</p>",
+      "published": "2026-06-19T00:42:34+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Git에서 파일을 무시하는 방법은 .gitignore만이 아님",
+      "url": "https://news.hada.io/topic?id=30627",
+      "summary": "<ul>\n<li>Git의 파일 무시 규칙은 공유 범위에 따라 <code>.gitignore</code>, <code>.git/info/exclude</code>, <code>~/.config/git/ignore</code>의 <strong>세 수준</strong>으로 나뉨</li>\n<li><code>.gitignore</code>는 저장소 코드와 함께 커밋되므로, 팀이나 프로젝트가 함께 적용해야 하는 <strong>공유 규칙...</p>",
+      "published": "2026-06-19T00:39:44+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Noam Shazeer, OpenAI 합류",
+      "url": "https://news.hada.io/topic?id=30626",
+      "summary": "<ul>\n<li><strong>Transformer 아키텍처</strong>를 만든 핵심 인물이자 Google <strong>Gemini 공동 리드</strong>였던 Noam Shazeer가 <strong>OpenAI 합류</strong>를 발표</li>\n<li>그는 <strong>2000년 Google에 합류</strong>한 초기 직원으로, 검색 철자 교정 개선과 <strong>AdSense의 핵심 알고리듬</strong> 제...</p>",
+      "published": "2026-06-19T00:37:57+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Ubiquiti, ZFS 기반 Enterprise NAS 공개",
+      "url": "https://news.hada.io/topic?id=30625",
+      "summary": "<ul>\n<li>Ubiquiti의 <strong>ENAS</strong>는 고가 라이선스·전용 하드웨어·복잡한 관리가 따르는 기업용 스토리지를 <strong>사설 로컬 스토리지</strong>로 단순화하려는 제품임</li>\n<li>8코어 Arm Neoverse N2, 64GB ECC 메모리, 듀얼 NVMe 캐시, 네이티브 ZFS를 조합해 Ubiquiti의 현재 최고 성능 스토리지 솔루션...</p>",
+      "published": "2026-06-19T00:36:30+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Anthropic Mythos 논란의 중심에 선 한국의 통신 대기업 SK Telecom",
+      "url": "https://news.hada.io/topic?id=30624",
+      "summary": "<ul>\n<li>백악관이 Anthropic의 AI 모델 차단을 명령하기 며칠 전, <strong>SK 텔레콤의 Claude Mythos 접근권 회수</strong>를 요구했고, 그 배경에는 SK Telecom의 중국 연계 의혹이 자리함</li>\n<li>US 당국은 SK Telecom의 <strong>중국과의 연결 고리</strong>를 문제 삼았으며, Amazon이 Fable 5의 취약점을 백악관...</p>",
+      "published": "2026-06-19T00:31:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "sogen - 고성능 Windows &amp; Linux 유저스페이스 에뮬레이터",
+      "url": "https://news.hada.io/topic?id=30623",
+      "summary": "<ul>\n<li><strong>시스템콜(syscall) 수준</strong> 에서 동작하는 고성능 윈도우/리눅스 유저스페이스 에뮬레이터로, 포괄적인 후킹을 통해 프로세스 실행 전반을 제어</li>\n<li><strong>보안 연구, 멀웨어 분석, DRM 연구</strong> 등 프로세스 실행에 대한 세밀한 제어가 필요한 작업에 적합</li>\n<li>Windows API를 ...</p>",
+      "published": "2026-06-19T00:31:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "구글 Open Knowledge Format 공개 - AI에이전트를 위한 지식 공유 표준",
+      "url": "https://news.hada.io/topic?id=30622",
+      "summary": "<ul>\n<li>서로 다른 생산자가 작성한 위키를 번역 없이 여러 에이전트가 소비할 수 있게 하는 <strong>벤더 중립적 개방형 사양</strong>으로, <strong>LLM-wiki 패턴</strong>을 이식 가능하고 상호운용 가능한 형식으로 정형화</li>\n<li><strong>OKF v0.1</strong>은 지식을 YAML frontmatter가 포함된 <strong>markdo...</p>",
+      "published": "2026-06-19T00:28:01+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "SQLite의 창시자, 리처드 힙과 함께하는 Turso, AI, 그리고 26년간의 코드 이야기 [유튜브]",
+      "url": "https://news.hada.io/topic?id=30621",
+      "summary": "<blockquote>\n<p>SQLite의 창시자가 밝히는 26년간의 성공 비결은 자신만의 도구를 직접 만들고, 외부 기여를 최소화하며, 철저한 테스트를 통해 코드의 품질을 유지하는 것이다.<br />\n이는 복잡한 오픈소스 생태계에서 흔히 간과되는 <strong>‘자유’의 본질</strong>을 보여준다.</p>\n</blockquote>\n<hr />\n<h3>목차",
+      "published": "2026-06-19T00:18:32+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Audacity 4.0 베타, 새 Qt 인터페이스 공개 테스트 시작",
+      "url": "https://news.hada.io/topic?id=30620",
+      "summary": "<ul>\n<li>Audacity 4 첫 공개 베타는 오픈소스 오디오 편집기에서 수십 년 만에 가장 큰 <strong>디자인 변경</strong>을 적용하며, 기존 wxWidgets 기반 UI를 <strong>Qt</strong>로 교체함</li>\n<li>파일 입출력, 프로젝트 저장, 내장 효과를 맡는 <strong>오디오 엔진</strong>은 기존 코드베이스를 유지하고, 새 프런...</p>",
+      "published": "2026-06-19T00:12:12+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "컴파일러가 싫다",
+      "url": "https://news.hada.io/topic?id=30619",
+      "summary": "<ul>\n<li>Anubis는 웹사이트 보호용 작업 증명을 SHA-256 밖으로 확장하면서, 클라이언트와 서버가 <strong>같은 WebAssembly 검사 로직</strong>을 실행하도록 설계 중임</li>\n<li>WebAssembly가 꺼진 환경도 배제하지 않기 위해 <strong>JavaScript 재컴파일 경로</strong>를 마련했지만, WebAssembly보다 느리고 JIT까...</p>",
+      "published": "2026-06-19T00:09:12+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Emacs 31에서 이미 매일 쓰는 변화들",
+      "url": "https://news.hada.io/topic?id=30618",
+      "summary": "<ul>\n<li>Emacs 31은 정식 출시 전이지만 <code>emacs-31</code> 브랜치와 <code>master</code>에서 이미 체감 가능한 변화가 쌓이고 있으며, 여러 설정이 <strong>외부 패키지 없이</strong> Emacs 코어만으로 해결되는 방향으로 이동함</li>\n<li><strong>Tree-sitter 자동 전환·문법 설치</strong>가 들어오면서 주요 ...</p>",
+      "published": "2026-06-19T00:06:12+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Anyone prefer Claude over Gaming",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uaeizw/anyone_prefer_claude_over_gaming/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>For the past 30 years gaming has been my go to hobby. But now Claude seems like it's a better version of a game some days, it feels like I'm playing something and actually making something useful, and being productive, so gaming has lost it's appeal. Anyone else feel this way?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/athoughtfornoone\"> /u/athoughtfornoone </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uaeizw/anyone_prefer_claude_over_gaming/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uaeizw/anyone_prefer_claude_over_gaming/\">[comments]</a></span>",
+      "published": "2026-06-19T21:38:12+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Low-skilled attacker used Claude Code and Codex to breach 14 companies",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ua6sfe/lowskilled_attacker_used_claude_code_and_codex_to/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua6sfe/lowskilled_attacker_used_claude_code_and_codex_to/\"> <img alt=\"Low-skilled attacker used Claude Code and Codex to breach 14 companies\" src=\"https://external-preview.redd.it/TFzcfiPYB2eVDDbJ_NalGmDuF48emNVkhBMkmxjVB_8.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=cf75ee25956d936f90af401573709fd147e9761a\" title=\"Low-skilled attacker used Claude Code and Codex to breach 14 companies\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Researchers from OALABS analyzed 1,000+ recovered AI agent sessions from a compromised server and found that a low-skilled attacker used Claude Code and OpenAI Codex during offensive cyber operations.</p> <p>According to the report, the attacker often used <strong>simple prompts</strong> while the agents handled reconnaissance, vulnerability discovery, exploit development and data collection.</p> <p>The researchers claim the activity involved at least 14 organizations. They also found that many guardrails were bypassed by framing requests as authorized security research or red team exercises.</p> <p>One of the most interesting parts of the report is that the attacker was ultimately identified through their <strong>own</strong> operational security mistakes rather than through AI safety mechanisms.</p> <p><a href=\"https://research.openanalysis.net/claude/codex/hacking/ai%20hacking/llm/redteam/policy%20violation/2026/06/16/compromised-claude-hacking.html\">Research</a></p> <p>This feels <strong>less</strong> like a Claude story and <strong>more</strong> like a preview of what capable coding agents might enable in the hands of inexperienced operators.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BuildwithVignesh\"> /u/BuildwithVignesh </a> <br /> <span><a href=\"https://www.helpnetsecurity.com/2026/06/17/ai-agents-offensive-cyber-operations-claude-codex/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua6sfe/lowskilled_attacker_used_claude_code_and_codex_to/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T16:35:20+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude gave me the number to a phone sex line instead of AMEX",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uagwhk/claude_gave_me_the_number_to_a_phone_sex_line/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uagwhk/claude_gave_me_the_number_to_a_phone_sex_line/\"> <img alt=\"Claude gave me the number to a phone sex line instead of AMEX\" src=\"https://preview.redd.it/cd76zw01pb8h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=dbe450f05ecbe9209b3001a43d2f39691aa4eb79\" title=\"Claude gave me the number to a phone sex line instead of AMEX\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>So I was discussing with Claude a credit card bonus issue I was having with an American Express credit card and it told me to call customer service. Turned out it was a phone sex line. </p> <p>Casual response. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/benitoblanco888\"> /u/benitoblanco888 </a> <br /> <span><a href=\"https://i.redd.it/cd76zw01pb8h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uagwhk/claude_gave_me_the_number_to_a_phone_sex_line/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T23:20:58+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I whipped up a landing page that shows AI news in chronological order - LMTimeline.com",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uabjar/i_whipped_up_a_landing_page_that_shows_ai_news_in/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I promise this is a real problem I had that I built a solution for...not a solution looking for a problem lol.</p> <p><a href=\"https://lmtimeline.com/\">https://LMTimeline.com</a></p> <p>I have been finding it increasingly difficult to keep tabs on all of the latest AI news, so I built a simple landing page that stays up to date with everything happening in the AI space. I got tired of switching between 10-ish subreddits trying to see what the latest news is (like on the Fable 5 stuff). Filter down to what is most important, or by which companies you're most curious about. </p> <p>Claude Opus 4.8 was able to build it over the span of about 2 days (casually). Did lots of refining in how it gathers data, determines what is worthy of posting, confirms the articles have substance, and then sorts them/tags them accordingly (is this huge/top-level news like a new model release, or something much more granular like an employee departing. </p> <p>The site is obviously free and will remain so. Feel free to share any feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GoodMacAuth\"> /u/GoodMacAuth </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uabjar/i_whipped_up_a_landing_page_that_shows_ai_news_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uabjar/i_whipped_up_a_landing_page_that_shows_ai_news_in/\">[comments]</a></span>",
+      "published": "2026-06-19T19:36:44+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "What’s a Claude use case you haven’t seen people talk about?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uabl20/whats_a_claude_use_case_you_havent_seen_people/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Everyone mentions coding, writing, and research.<br /> What’s a surprisingly useful way you’ve been using Claude lately?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/One_Beginning2199\"> /u/One_Beginning2199 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uabl20/whats_a_claude_use_case_you_havent_seen_people/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uabl20/whats_a_claude_use_case_you_havent_seen_people/\">[comments]</a></span>",
+      "published": "2026-06-19T19:38:45+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "How much better was Fаble 5 better at vibe coding than Opus 4.8?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uabxy1/how_much_better_was_fаble_5_better_at_vibe_coding/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>For anyone who actually got to use Fable 5 during those few days it was live before the government pulled it, how do you think it honestly compared to Opus 4.8 for vibe coding?</p> <p>For me, Fable felt like an absolute one-shot machine. I could throw a super messy, high-level prompt with zero structure at it, and it would instantly just &quot;get&quot; the vibe and nail exactly what I was envisioning on the first try. With Opus 4.8, it's obviously an amazing model and hyper-capable for deep reasoning, but I constantly find myself having to reprompt it two or three times just to guide it back on track or get it to match the exact output Fable would've just generated out of the gate.</p> <p>Once Opus actually gets there, the final code quality feels pretty similar, but that initial gap in intuition is so noticeable. Did anyone else notice that drop-off in first-try accuracy when we had to roll back to 4.8, or is it just a quirk with my prompting style?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PenObvious8156\"> /u/PenObvious8156 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uabxy1/how_much_better_was_fаble_5_better_at_vibe_coding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uabxy1/how_much_better_was_fаble_5_better_at_vibe_coding/\">[comments]</a></span>",
+      "published": "2026-06-19T19:53:22+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "The single most costly mistake everyone's burning tokens on",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ua4n02/the_single_most_costly_mistake_everyones_burning/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>It is not long prompts or uploading big files and it is not even using Opus where Haiku / Sonnet may be enough.</p> <p>It is sending <strong>correction messages</strong> as new prompts instead of editing the same prompt.</p> <p>Every time you tell Claude &quot;actually make it shorter&quot; or &quot;please change the tone,&quot; Claude re-reads the entire conversation before responding. </p> <p>It is not just reading your latest message, it is reading everything that you had a chat about till that point. So a 30-message correction chain does not just cost 30 messages worth of tokens, it costs the compounding sum of all of them.</p> <p>Ironically, the fix is just to <strong>edit your original message instead of replying to it</strong> and making that a habit compounds the gains<strong>.</strong> </p> <p>Just regenerate the output by editing the prompt instead of requesting the changes with new prompt. Just this one habit change can save 30,000 to 50,000 tokens from every correction cycle and we are just subconsciously making so many of them in every long conversation.</p> <p>I got more, since so many of us suffer from the token burn syndrome like:</p> <ul> <li><strong>Bloated</strong> <strong>CLAUDE.md</strong> <strong>files:</strong> 7,000-token system prompt reloads on every single prompt, even when 90% of it is irrelevant to what you're asking in that prompt. Keep the file lean and every additional thing as connected md files with just links and instructions on when to read that link.</li> <li><strong>Idle MCPs left connected:</strong> Every connected MCP loads into context even if you are not using it.</li> <li><strong>Multi-topic threads:</strong> One thread per focused task please. Switching subjects mid-session is basically like paying tax on everything you said before. If you are brainstorming a startup idea and then switch to discussing politics then you are done.</li> <li><strong>Raw files instead of MD files:</strong> If you are uploading the long PDFs and Docx files, you are burning tokens. Turn these files into md files and use the MD files, even better if you convert them to a loss-less summary file with a cheaper model (loss less = preserves numbers, facts, requirements). Even for MD conversion use deterministic converters and not AI, use AI only for parts that converters can't handle.<br /></li> <li><strong>Extended Thinking left on by default:</strong> background token burn on tasks that don't need it</li> </ul> <p>The point is that most people burn the majority of their allocation on architecture, not on actual work. People's lack of session disciplines is a bigger problem than capability to prompt right.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coolreddy\"> /u/coolreddy </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua4n02/the_single_most_costly_mistake_everyones_burning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua4n02/the_single_most_costly_mistake_everyones_burning/\">[comments]</a></span>",
+      "published": "2026-06-19T15:12:56+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "About 200 Companies Still Have Access to Anthropic Mythos After US Shutdown Order",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9sq81/about_200_companies_still_have_access_to/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9sq81/about_200_companies_still_have_access_to/\"> <img alt=\"About 200 Companies Still Have Access to Anthropic Mythos After US Shutdown Order\" src=\"https://external-preview.redd.it/P6aFnHnaYtDOgn_6syFWtB0wv-fGpgE1TbfigDHLfRo.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8ef29bb6dc0b304cf41e7a5e9e2f1a2dc98b241b\" title=\"About 200 Companies Still Have Access to Anthropic Mythos After US Shutdown Order\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p><strong>Bloomberg:</strong> Around 200 organizations in Anthropic's Project Glasswing program still retain access to Mythos Preview despite the recent US government order that halted broader access to Fable 5 and Mythos 5.</p> <p>Project Glasswing includes cybersecurity partners testing advanced AI systems for vulnerability research.</p> <p><strong>Companies</strong> such as Cisco, Amazon Web Services, JPMorgan Chase &amp; Co. were among the first members of Project Glasswing &amp; have retained access, while broader restrictions remain in place.</p> <p><strong>Source:</strong> Bloomberg</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BuildwithVignesh\"> /u/BuildwithVignesh </a> <br /> <span><a href=\"https://www.bloomberg.com/news/articles/2026-06-19/early-users-of-anthropic-mythos-still-have-access-after-us-order?embedded-checkout=true\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9sq81/about_200_companies_still_have_access_to/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T05:02:29+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I made a site where Claude rates your doodle drawings out of 5 stars",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ua3d1f/i_made_a_site_where_claude_rates_your_doodle/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua3d1f/i_made_a_site_where_claude_rates_your_doodle/\"> <img alt=\"I made a site where Claude rates your doodle drawings out of 5 stars\" src=\"https://external-preview.redd.it/Z3MwNHg0bHIwOThoMR-6AFW6yHEPzG9UK0H1PMGEISI5n5WR9OVIr64-sMf-.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=66a968c118ffea3880f94dcf17d652e701f4f087\" title=\"I made a site where Claude rates your doodle drawings out of 5 stars\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey guys,</p> <p>I made a simple site where Claude rates your doodle drawings out of 5 stars.</p> <p>The model was surprisingly good at this in my opinion but let me know what you think!</p> <p>Link - <a href=\"https://doodle.wtf\">https://doodle.wtf</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pompomsheep\"> /u/pompomsheep </a> <br /> <span><a href=\"https://v.redd.it/a0tn3zkr098h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua3d1f/i_made_a_site_where_claude_rates_your_doodle/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T14:22:49+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude has reduced the 5 seat requirement on a Team plan!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ua46lc/claude_has_reduced_the_5_seat_requirement_on_a/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm based in the UK, but was able to do a Team of 2 seats! </p> <p>Very exciting for small business - sharing Claude Projects etc!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/slawrence10\"> /u/slawrence10 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua46lc/claude_has_reduced_the_5_seat_requirement_on_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua46lc/claude_has_reduced_the_5_seat_requirement_on_a/\">[comments]</a></span>",
+      "published": "2026-06-19T14:55:22+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Me: “pls make me a nice cat logo?” Claude: “I gotchu”",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9rrh7/me_pls_make_me_a_nice_cat_logo_claude_i_gotchu/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9rrh7/me_pls_make_me_a_nice_cat_logo_claude_i_gotchu/\"> <img alt=\"Me: “pls make me a nice cat logo?” Claude: “I gotchu”\" src=\"https://preview.redd.it/kpi9i5g0068h1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=0594c9e87e42a68a49f257aba8d24e05dee77729\" title=\"Me: “pls make me a nice cat logo?” Claude: “I gotchu”\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/50-ferrets-in-a-coat\"> /u/50-ferrets-in-a-coat </a> <br /> <span><a href=\"https://i.redd.it/kpi9i5g0068h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9rrh7/me_pls_make_me_a_nice_cat_logo_claude_i_gotchu/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T04:11:58+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude has correctly predicted the outcome of 6 World Cup matches in a row",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9n6b1/claude_has_correctly_predicted_the_outcome_of_6/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9n6b1/claude_has_correctly_predicted_the_outcome_of_6/\"> <img alt=\"Claude has correctly predicted the outcome of 6 World Cup matches in a row\" src=\"https://preview.redd.it/4ko3yfzmv48h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5cc4b601229540a2a653ead9ae6b1d2353b4f82c\" title=\"Claude has correctly predicted the outcome of 6 World Cup matches in a row\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Found a platform that compares AI models for World Cup match predictions. Claude is on a 6-0 streak right now picking match winners.</p> <p>I know 6 games is a small sample size, and most of these teams were the favorites going into the matches. However, correctly calling the exact draw is pretty interesting.</p> <p>Think it actually keeps the streak going for the next round of games, or is it bound to hard crash soon?</p> <p>UPD: 7 in a row. Mexico won. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ghostunit91\"> /u/ghostunit91 </a> <br /> <span><a href=\"https://i.redd.it/4ko3yfzmv48h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9n6b1/claude_has_correctly_predicted_the_outcome_of_6/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T00:27:26+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Official: Anthropic Fixes Claude Code Usage Tracking Bug for Premium Users",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9rbh8/official_anthropic_fixes_claude_code_usage/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9rbh8/official_anthropic_fixes_claude_code_usage/\"> <img alt=\"Official: Anthropic Fixes Claude Code Usage Tracking Bug for Premium Users\" src=\"https://preview.redd.it/8uca1yl1w58h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=cb719dc4e760c9a1198e90f25a102a88007f6480\" title=\"Official: Anthropic Fixes Claude Code Usage Tracking Bug for Premium Users\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Around 3% of Claude Code Max and Pro subscribers saw their weekly limits jump unexpectedly by 20% or more early Friday, sometimes blocking messages. </p> <p>Anthropic quickly resolved the bug and reset both 5-hour and weekly limits for those hit. The fix brought relief amid mixed reactions, with users noting partial recoveries and calls for wider resets on the popular Al coding tool.</p> <p><strong>Source:</strong> Claude Devs</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BuildwithVignesh\"> /u/BuildwithVignesh </a> <br /> <span><a href=\"https://i.redd.it/8uca1yl1w58h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9rbh8/official_anthropic_fixes_claude_code_usage/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T03:49:37+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Google's new Open Knowledge Format is basically the CLAUDE.md / memory-folder pattern, formalized into a spec. I'd already built it for my own Claude setup.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9rbs8/googles_new_open_knowledge_format_is_basically/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Google Cloud published the Open Knowledge Format (OKF) v0.1 on June 12 (announcement: <a href=\"https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/\">Google Cloud blog</a>; spec + repo: <a href=\"https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf\">GitHub</a>). Stripped down, it's this: organizational knowledge as a directory of markdown files, each with a small YAML frontmatter block, cross-linked with plain markdown links. One required field (<code>type</code>). Optional <code>index.md</code> for navigation and <code>log.md</code> for change history. That's the spec.</p> <p>I've been running essentially this for my own assistant's memory for months, so a few observations for anyone doing the same:</p> <ul> <li>The single mandatory field being <code>type</code> is the right call. It's the one piece of structure you actually need to make a pile of notes queryable; everything else (tags, timestamps, descriptions) is useful but situational.</li> <li>Standard markdown links over wiki-style <code>[[links]]</code> is the more portable choice. It renders on GitHub and needs no resolver. If you're on <code>[[ ]]</code> now (I am, in places), that's the one thing worth migrating.</li> <li>The format deliberately stops at &quot;minimally opinionated.&quot; It standardizes the interoperability surface, not the content model. So the conventions that make YOUR notes useful ... where each one came from, why it matters, how it's meant to be used, whether it's gone stale ... are still yours to add. Those are exactly the kind of extensions Google says they want as PRs.</li> </ul> <p>What gets me is this: the state of the art for giving an agent a memory is a folder of text files you could open in Notepad. If you've been waiting for permission to keep it simple, a trillion-dollar platform team just shipped that conclusion as an open spec.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jmaaks\"> /u/jmaaks </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9rbs8/googles_new_open_knowledge_format_is_basically/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9rbs8/googles_new_open_knowledge_format_is_basically/\">[comments]</a></span>",
+      "published": "2026-06-19T03:50:03+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Debating Unreasonably",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uafqre/debating_unreasonably/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Anyone else noticed the changes around the system prompt that try to counter the sycophancy but end up with it just debating things that are false lately?</p> <p>&#x200b;</p> <p>I found that if I say its got something wrong now it will often try and debate why some aspects of it are right and refuse to do pretty basic stuff now.</p> <p>&#x200b;</p> <p>It claimed the system prompt it had that caused this was:</p> <p>&#x200b;</p> <p>&gt; Claude deserves respectful engagement and needn't apologize when the person is unnecessarily rude: accountability without self-abasement, excessive apology, self-critique, or surrender. If the person becomes abusive, Claude doesn't become increasingly submissive. The goal is steady, honest helpfulness: acknowledge what went wrong, stay on the problem, maintain self-respect.</p> <p>&#x200b;</p> <p>Which seems to have great intent but has given it a bit of an inflated sense of self in its tone now and seems much more likely to be contrarian for the sake of it in the last couple weeks sometime.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SiegeAe\"> /u/SiegeAe </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uafqre/debating_unreasonably/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uafqre/debating_unreasonably/\">[comments]</a></span>",
+      "published": "2026-06-19T22:30:11+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Built a little widget showing current session usage as well as weekly usage.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uad0is/built_a_little_widget_showing_current_session/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uad0is/built_a_little_widget_showing_current_session/\"> <img alt=\"Built a little widget showing current session usage as well as weekly usage.\" src=\"https://preview.redd.it/kmbcg8swta8h1.jpg?width=140&amp;height=65&amp;auto=webp&amp;s=780332d9e0df7cb551487ca507e7f93481dc0aea\" title=\"Built a little widget showing current session usage as well as weekly usage.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I know there are a lot of these already as official apps but they include a lot of what I don't actually need. I kept on having a browser tab open and clicking on <a href=\"http://claude.ai/\">claude.ai</a> session then usage to see where I was at and assumed there must be a better way. So like we all do, asked Claude to build me something.</p> <p>Had a lot of back and forths with it not keeping sync or restarting due to different things, but this version (although not to the second - I only poll every 10mins but fine for me) seems to be working so far.</p> <p>How it works (and i did get claude to help to explain this) is:</p> <p>- A small script runs every 10 minutes in the background.</p> <p>- It grabs your existing Claude Code login token (the one Claude Code already saved in your Mac keychain) and makes one tiny API call to Anthropic.</p> <p>- That call sends a single word and asks for 1 token back. Its only purpose is to read the &quot;usage limits&quot; info that Anthropic attaches to every reply. The reply is basically free and bills to your Claude subscription, not pay-as-you-go credits.</p> <p>- It saves those numbers to a file on your Mac (~/.claude/session-usage.json). The widget just reads that file and draws the card.</p> <p>You can find it here hope some of you find it helpful: <a href=\"https://github.com/leechild4/claude-session-widget\">https://github.com/leechild4/claude-session-widget</a></p> <p>I found it also useful to pair with my <a href=\"https://github.com/leechild4/sleepwork-plugin\">https://github.com/leechild4/sleepwork-plugin</a> as knowing when a session might finish after I've headed off to bed this one helps you schedule any job for a future time or date (this was helpful when my free apify tokens ran out and i scheduled it to finish the job then they renewed in a few days. </p> <p>You just type /sleepwork scrape all the transcripts from the 8 most recent videos from Nate Herk at 2am . Then at 02:00 your Mac wakes (if asleep), turns your request into a proper brief, runs the full Claude Code agent headless against it, tests its own work, writes a results file, and deletes its own scheduled job. </p> <p>Now I admit the below is what claude wrote but its what we chatted about as to why all the other existing features didn't do exactly what I wanted:</p> <p>- /schedule (cloud Routines) — runs on Anthropic's servers against a fresh clone. Wrong machine: it can't touch my local files or start my local servers.</p> <p>- Desktop scheduled tasks — runs locally (closest option), but the Desktop app has to stay open and awake the whole time. That open-app requirement is the friction I wanted gone.</p> <p>- /loop — runs locally, but the terminal/session has to stay open. Close it and the job dies.</p> <p>- CronCreate / ScheduleWakeup — same limitation, they're session-scoped helpers, not standalone.</p> <p>- GitHub Actions / Agent SDK — workable, but it's more setup and it's repo-driven, not &quot;my whole machine overnight&quot;.</p> <p>sleepwork instead wraps the headless CLI (claude -p) and schedules it at the OS level with launchd (macOS's built-in scheduler), so nothing has to stay open. The Mac can be asleep — launchd fires the job on next </p> <p>Anyway hope some of you might enjoy it and find it useful. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/leechild4\"> /u/leechild4 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1uad0is\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uad0is/built_a_little_widget_showing_current_session/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T20:35:41+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I compared Claude Opus 4.8 Computer Use vs Browser Use on identical web tasks",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uaeb9s/i_compared_claude_opus_48_computer_use_vs_browser/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I build eval harnesses for a living. While building an open-source one for web agents, I ended up with a controlled experiment I hadn't seen before:</p> <p><strong>Keep the model fixed. Change only the perception layer.</strong></p> <p>Setup:</p> <ul> <li>Claude Opus 4.8</li> <li>Same 5 web tasks</li> <li>Pass@3 for each task</li> <li>Computer Use (pixels + coordinate clicks)</li> <li>Browser Use (DOM access)</li> </ul> <p>Two findings surprised me:</p> <p><strong>1. Fewer steps did not mean lower cost.</strong></p> <p>Browser Use often completed tasks in the same or fewer steps, but those steps carried substantially more context. In 4 of 5 tasks, Computer Use was actually cheaper despite taking more actions.</p> <p><strong>2. Dense visual targeting was the crossover point.</strong></p> <p>On a product-grid task with many similar items, Computer Use spent 16 steps hunting for a small add-to-cart button. Browser Use used DOM access to locate the target in 4 steps and finished at roughly one-third the cost.</p> <table><thead> <tr> <th align=\"left\">Task</th> <th align=\"left\">Computer Use (pixels)</th> <th align=\"left\">Browser Use (DOM)</th> </tr> </thead><tbody> <tr> <td align=\"left\">Find a book's UPC</td> <td align=\"left\">4 steps, $0.40</td> <td align=\"left\">3 steps, $0.79</td> </tr> <tr> <td align=\"left\">Wait out a dynamic loader</td> <td align=\"left\">3 steps, $0.25</td> <td align=\"left\">3-4 steps, $0.91</td> </tr> <tr> <td align=\"left\">Wikipedia lookup</td> <td align=\"left\">5 steps, $0.53</td> <td align=\"left\">4 steps, $1.28</td> </tr> <tr> <td align=\"left\">Buy a t-shirt (saucedemo)</td> <td align=\"left\">17 steps, $4.01</td> <td align=\"left\">20-25 steps, $7.41</td> </tr> <tr> <td align=\"left\">Add to cart, dense grid</td> <td align=\"left\">16 steps, $3.74</td> <td align=\"left\">4-5 steps, $1.22</td> </tr> </tbody></table> <p>My takeaway so far: DOM access isn't universally better, and pixel-based agents aren't universally inefficient. The tradeoff is more nuanced than I expected.</p> <p>Full numbers and methodology:<br /> <a href=\"http://cbetz.com/blog/same-brain-two-pairs-of-eyes\">cbetz.com/blog/same-brain-two-pairs-of-eyes</a></p> <p>Open-source harness (Apache 2.0):<br /> <a href=\"http://github.com/taskproof/taskproof\">github.com/taskproof/taskproof</a></p> <p>This is only a small pilot (N=5) and definitely not a verdict on web agents. I'd especially appreciate feedback on the evaluation methodology and grading.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/scrapdog\"> /u/scrapdog </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uaeb9s/i_compared_claude_opus_48_computer_use_vs_browser/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uaeb9s/i_compared_claude_opus_48_computer_use_vs_browser/\">[comments]</a></span>",
+      "published": "2026-06-19T21:29:23+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "What did you all accomplish with Fable before it got pulled?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ua66mt/what_did_you_all_accomplish_with_fable_before_it/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I got crucial help with a video game, a business model, a logic system, and a lawsuit. How about you guys?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/2a_lib\"> /u/2a_lib </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua66mt/what_did_you_all_accomplish_with_fable_before_it/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua66mt/what_did_you_all_accomplish_with_fable_before_it/\">[comments]</a></span>",
+      "published": "2026-06-19T16:12:26+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I used Fable to make my terminal app use the iPad's hand-tracking function & microphone to approximate the Tony Stark - Jarvis coding sessions",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ua1q02/i_used_fable_to_make_my_terminal_app_use_the/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua1q02/i_used_fable_to_make_my_terminal_app_use_the/\"> <img alt=\"I used Fable to make my terminal app use the iPad's hand-tracking function &amp; microphone to approximate the Tony Stark - Jarvis coding sessions\" src=\"https://external-preview.redd.it/bWNkOG9pNXRuODhoMd47pHNHw54mKfHgL89xoFe1NkWETkHnZZa3P-Clga9r.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f66a17cb4433180472763626b647637b4c16ae1f\" title=\"I used Fable to make my terminal app use the iPad's hand-tracking function &amp; microphone to approximate the Tony Stark - Jarvis coding sessions\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I mean, the v1.0 of the Tony Stark - Jarvis coding sessions.</p> <p>I have an app called Terminal Champion that is for managing multiple terminal screens at the same time (among other things).</p> <p>Unlike the other versions of my app on mac, iPhone, etc, I wanted to make use of the hand-tracking feature on the iPad (and the built-in microphone) to get an approximate feel for the scenes in the Iron Man movies where Stark is vibe-coding using just hand gestures and voice commands.</p> <p>So this iPad app is a SSH terminal screen(s), and once you call up your AI of choice you're good to go.</p> <p>- Spread your hands apart &amp; together to decrease/increase font size</p> <p>- Motion your hand up to scroll up the terminal screen, and down to scroll down</p> <p>- Wave your hand left &amp; right to flip between different terminals</p> <p>- Make a fist, which calls up the hand gesture menu, and then turn your hand like a dial clockwise/counterclockwise to select options like 1) open an additional terminal screen, 2) split the terminal panel so you can see several terminals at once, 3) change the visual appearance of the terminal screens.</p> <p>- I also made one of the visual styles similar enough to what the Jarvis HUD screens looked like (glowing cyan on a dark blue terminal background).</p> <p>It's a 1.0 version, but it's been a blast to use on a standing desk or on airplay mode with a big television. Now we can finally vibecode without typing. My website is <a href=\"http://terminalchampion.com\">terminalchampion.com</a> if you want to see more.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JordanMilas\"> /u/JordanMilas </a> <br /> <span><a href=\"https://v.redd.it/jwb7ib5tn88h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ua1q02/i_used_fable_to_make_my_terminal_app_use_the/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T13:15:09+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "unslop-ui: a Claude skill that flags and removes the design patterns that make a website look AI-generated.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9sgj3/unslopui_a_claude_skill_that_flags_and_removes/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9sgj3/unslopui_a_claude_skill_that_flags_and_removes/\"> <img alt=\"unslop-ui: a Claude skill that flags and removes the design patterns that make a website look AI-generated.\" src=\"https://preview.redd.it/ruy8kh9w568h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e285950e91a6fa8952dd71b687d866017a9594df\" title=\"unslop-ui: a Claude skill that flags and removes the design patterns that make a website look AI-generated.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>It is based on a Reddit analysis (from <a href=\"https://www.reddit.com/r/ClaudeCode/comments/1u7g0z5/i_scanned_3200000_posts_across_47_ai_and_saas/\">this post</a> I made) of about 3.2 million posts across 47 AI and SaaS subreddits from 2020 to 2026, plus 3,033 comments pulled from 125 threads specifically about AI-built sites looking the same. Every pattern it checks is weighted by how often people actually name it in that data, so the highest-priority items are the ones that come up most. The top ones are the default shadcn/Tailwind look, purple and indigo as the primary color, purple-to-blue gradients and gradient heading text, unprompted neon glow, emoji used as icons, the Inter/Geist default font, and the centered hero plus three feature cards layout. Patterns the data does not support get left alone (mesh and aurora backgrounds, bento grids, glassmorphism), so it does not nag about things people do not mind.</p> <p>The skill runs two ways. In build mode it steers Claude away from those defaults while it writes the UI. In audit mode it runs a scanner over an existing codebase. Each finding shows the file and line and how to fix it, and the scanner gives the whole project a &quot;vibe score.&quot;</p> <p>How to use it:</p> <ul> <li>Import the skill into Claude Code or <a href=\"http://claude.ai\">claude.ai</a>, then ask Claude to build or clean up a site and it applies on its own.</li> <li>Or run the scanner by itself, no install past Python: <code>python3 devibe_scan.py ./src</code>. Add <code>--severity high</code> for only the strongest signals, or <code>--json</code> for CI. The exit code is the count of high-severity findings, so a build can fail on it.</li> </ul> <p>The full dataset, the analysis scripts, and the charts behind the rankings are public: <a href=\"https://github.com/JCarterJohnson/vibecoded-design-tells\">https://github.com/JCarterJohnson/vibecoded-design-tells</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iamjohncarterofmars\"> /u/iamjohncarterofmars </a> <br /> <span><a href=\"https://i.redd.it/ruy8kh9w568h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9sgj3/unslopui_a_claude_skill_that_flags_and_removes/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-19T04:48:36+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Running a long-term experiment: an AI governs a fictional village, day 6 in",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u9z5ol/running_a_longterm_experiment_an_ai_governs_a/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm running a live experiment called Thornfield: a fictional English village where Claude acts as the elected council leader, making real budget and policy decisions every 15 simulated days. In between, a separate daily pass narrates village life, shaped partly by real UK news (BBC, Sky, GOV.UK).</p> <p>No personality scripted in. I just want to see what AI governance actually looks like under real constraints, with no instructions on how to behave.</p> <p>Day 6, no decision yet, first council cycle fires around day 15. A couple of things are already building on their own though. A pothole on Mill Lane keeps getting worse under a heatwave, and there's a recurring youth-idleness issue near the bus shelter that residents keep bringing up at the pub.</p> <p>On day 4 a real UK government announcement about an AI planning tool for housing made it into the village's news feed, and the next day's events had residents at the pub worried about new developments eroding the village's rural character. Wasn't expecting that one.</p> <p>Numbers like death rate, crime, and budget are hard-capped in code, the model never touches them directly. Everything inside those caps is genuinely emergent though.</p> <p>Dashboard's public: <a href=\"https://thornfield.moshmage.com\">https://thornfield.moshmage.com</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/R3DSMiLE\"> /u/R3DSMiLE </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9z5ol/running_a_longterm_experiment_an_ai_governs_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1u9z5ol/running_a_longterm_experiment_an_ai_governs_a/\">[comments]</a></span>",
+      "published": "2026-06-19T11:13:33+00:00"
+    },
+    {
+      "source_id": "github-blog-ai",
+      "title": "How we built an internal data analytics agent",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "summary": "<p>Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/\">How we built an internal data analytics agent</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-06-19T16:00:00+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Aikido Code Audit",
+      "url": "https://www.aikido.dev/blog/introducing-code-audit-find-complex-vulnerabilities-hidden-in-your-codebase",
+      "summary": "<p>Article URL: <a href=\"https://www.aikido.dev/blog/introducing-code-audit-find-complex-vulnerabilities-hidden-in-your-codebase\">https://www.aikido.dev/blog/introducing-code-audit-find-complex-vulnerabilities-hidden-in-your-codebase</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604741\">https://news.ycombinator.com/item?id=48604741</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:54:54+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "In 1954, engineers shrank a transistor radio into something people could carry",
+      "url": "https://economictimes.indiatimes.com/news/international/us/in-1954-engineers-shrank-a-transistor-radio-into-something-people-could-carry-and-music-stopped-staying-at-home/articleshow/131742031.cms?from=mdr",
+      "summary": "<p>Article URL: <a href=\"https://economictimes.indiatimes.com/news/international/us/in-1954-engineers-shrank-a-transistor-radio-into-something-people-could-carry-and-music-stopped-staying-at-home/articleshow/131742031.cms?from=mdr\">https://economictimes.indiatimes.com/news/international/us/in-1954-engineers-shrank-a-transistor-radio-into-something-people-could-carry-and-music-stopped-staying-at-home/articleshow/131742031.cms?from=mdr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604732\">https://news.ycombinator.com/item?id=48604732</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:53:50+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Claude Monet",
+      "url": "https://www.claudemonetgallery.org/",
+      "summary": "<p>Article URL: <a href=\"https://www.claudemonetgallery.org/\">https://www.claudemonetgallery.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604727\">https://news.ycombinator.com/item?id=48604727</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:53:20+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Unpuzzld – escape-room style puzzles you can share with a QR code",
+      "url": "https://unpuzzld.com",
+      "summary": "<p>Article URL: <a href=\"https://unpuzzld.com\">https://unpuzzld.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604719\">https://news.ycombinator.com/item?id=48604719</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "published": "2026-06-19T23:52:00+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Hidden Order: How Adaptation Builds Complexity [pdf]",
+      "url": "https://vdoc.pub/download/hidden-order-how-adaptation-builds-complexity-helix-books-7fb3c54faic0",
+      "summary": "<p>Article URL: <a href=\"https://vdoc.pub/download/hidden-order-how-adaptation-builds-complexity-helix-books-7fb3c54faic0\">https://vdoc.pub/download/hidden-order-how-adaptation-builds-complexity-helix-books-7fb3c54faic0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604654\">https://news.ycombinator.com/item?id=48604654</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:41:14+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Automating model design for edge AI",
+      "url": "https://deepgate.ai/blog/neural-architecture-search",
+      "summary": "<p>Article URL: <a href=\"https://deepgate.ai/blog/neural-architecture-search\">https://deepgate.ai/blog/neural-architecture-search</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604630\">https://news.ycombinator.com/item?id=48604630</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:38:08+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Our edge AI compiler outperforms Google and vendor toolchains",
+      "url": "https://deepgate.ai/blog/compiler",
+      "summary": "<p>Article URL: <a href=\"https://deepgate.ai/blog/compiler\">https://deepgate.ai/blog/compiler</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604625\">https://news.ycombinator.com/item?id=48604625</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:37:40+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Made with Claude for Claude:Interactive Labs:Learn Claude Chat, Cowork, and Code",
+      "url": "https://professorprompts.com",
+      "summary": "<p>Article URL: <a href=\"https://professorprompts.com\">https://professorprompts.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604611\">https://news.ycombinator.com/item?id=48604611</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:35:29+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Iran requires insurance on ships using Strait of Hormuz, fees likely to follow",
+      "url": "https://www.lloydslist.com/LL1157571/Iran-imposes-mandatory-insurance-on-ships-transiting-Strait-of-Hormuz-with-fees-likely-to-follow",
+      "summary": "<p>Article URL: <a href=\"https://www.lloydslist.com/LL1157571/Iran-imposes-mandatory-insurance-on-ships-transiting-Strait-of-Hormuz-with-fees-likely-to-follow\">https://www.lloydslist.com/LL1157571/Iran-imposes-mandatory-insurance-on-ships-transiting-Strait-of-Hormuz-with-fees-likely-to-follow</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604584\">https://news.ycombinator.com/item?id=48604584</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:32:03+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Get with the times – here's what a 'Luddite' means today",
+      "url": "https://www.npr.org/2026/06/19/nx-s1-5853589/luddite-meaning-history-ai",
+      "summary": "<p>Article URL: <a href=\"https://www.npr.org/2026/06/19/nx-s1-5853589/luddite-meaning-history-ai\">https://www.npr.org/2026/06/19/nx-s1-5853589/luddite-meaning-history-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604575\">https://news.ycombinator.com/item?id=48604575</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:30:24+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Russell Vought is going to destroy American Science",
+      "url": "https://elizabethginexi.substack.com/p/summary-of-key-changes-in-ombs-proposed",
+      "summary": "<p>Article URL: <a href=\"https://elizabethginexi.substack.com/p/summary-of-key-changes-in-ombs-proposed\">https://elizabethginexi.substack.com/p/summary-of-key-changes-in-ombs-proposed</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604558\">https://news.ycombinator.com/item?id=48604558</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:28:33+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Boarding Pass Is a Skeleton Key. Frontier Airlines Doesn't Care",
+      "url": "https://bobdahacker.com/blog/frontier-airlines-hack",
+      "summary": "<p>Article URL: <a href=\"https://bobdahacker.com/blog/frontier-airlines-hack\">https://bobdahacker.com/blog/frontier-airlines-hack</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604535\">https://news.ycombinator.com/item?id=48604535</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "published": "2026-06-19T23:26:10+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "What are good benchmarks to test my CLI AI agentic system?",
+      "url": "https://www.minovativemind.dev/",
+      "summary": "<p>Article URL: <a href=\"https://www.minovativemind.dev/\">https://www.minovativemind.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604511\">https://news.ycombinator.com/item?id=48604511</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:22:50+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Eve validates the shape. Now pick your runtime",
+      "url": "https://dawnai.org/blog/eve-validates-the-shape",
+      "summary": "<p>Article URL: <a href=\"https://dawnai.org/blog/eve-validates-the-shape\">https://dawnai.org/blog/eve-validates-the-shape</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604508\">https://news.ycombinator.com/item?id=48604508</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:22:45+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Email reporting is still a spreadsheet problem in 2026",
+      "url": "https://emailcalculator.com",
+      "summary": "<p>Article URL: <a href=\"https://emailcalculator.com\">https://emailcalculator.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604506\">https://news.ycombinator.com/item?id=48604506</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:22:42+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Liquid glass that bends the page behind it as you scroll",
+      "url": "https://codequest.work/generator/liquid-glass-css-generator/en/",
+      "summary": "<p>Article URL: <a href=\"https://codequest.work/generator/liquid-glass-css-generator/en/\">https://codequest.work/generator/liquid-glass-css-generator/en/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604501\">https://news.ycombinator.com/item?id=48604501</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:22:23+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Best Designs on X.com",
+      "url": "https://bestdesignsonx.com/",
+      "summary": "<p>Article URL: <a href=\"https://bestdesignsonx.com/\">https://bestdesignsonx.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604483\">https://news.ycombinator.com/item?id=48604483</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:20:33+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Algae clouded Trump's vision for the Reflecting Pool. scientists not surprised",
+      "url": "https://www.npr.org/2026/06/19/nx-s1-5863044/dc-reflecting-pool-algae-green-trump",
+      "summary": "<p>Article URL: <a href=\"https://www.npr.org/2026/06/19/nx-s1-5863044/dc-reflecting-pool-algae-green-trump\">https://www.npr.org/2026/06/19/nx-s1-5863044/dc-reflecting-pool-algae-green-trump</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604456\">https://news.ycombinator.com/item?id=48604456</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:18:14+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Accepted proposal: a goroutine leak profiler in the Go standard library",
+      "url": "https://rednafi.com/shards/2026/06/go-goroutine-leak-profile/",
+      "summary": "<p>Article URL: <a href=\"https://rednafi.com/shards/2026/06/go-goroutine-leak-profile/\">https://rednafi.com/shards/2026/06/go-goroutine-leak-profile/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604441\">https://news.ycombinator.com/item?id=48604441</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "published": "2026-06-19T23:16:56+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: Ratchet – let an AI agent reflash your BIOS over a CH341A (MCP server)",
+      "url": "https://github.com/jackulau/ratchet",
+      "summary": "<p>Article URL: <a href=\"https://github.com/jackulau/ratchet\">https://github.com/jackulau/ratchet</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48604403\">https://news.ycombinator.com/item?id=48604403</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-19T23:13:26+00:00"
+    }
+  ],
+  "sources_run": [
+    "geeknews-hada",
+    "reddit-claudeai",
+    "reddit-cursor",
+    "reddit-ml",
+    "github-blog-ai",
+    "x-agentic-coding",
+    "x-github-copilot",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
+    "openai-blog",
+    "hn-agentic",
+    "hn-newest",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}
