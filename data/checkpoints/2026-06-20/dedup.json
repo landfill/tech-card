@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "title": "used an MCP connector to put together a brand shot for a client, wasnt expecting it to actually hold up",
+      "summary": "\n사용자가 VidGuy(MCP 서버)를 Claude에 연결해 장면·무드·프레이밍을 설명하자 대화 내에서 바로 완성된 영상(클립+보이스오버)을 산출. 사례는 MCP가 단순 컨텍스트/검색을 넘는 워크플로 통합(에셋 조립·출력까지) 역할을 할 수 있음을 보여줌.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ub91dl/used_an_mcp_connector_to_put_together_a_brand/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Nobel Winner John Jumper to Leave Google DeepMind for Anthropic",
+      "summary": "\nAlphaFold를 이끈 노벨 화학상 수상자 John Jumper가 Google DeepMind를 떠나 Anthropic 합류를 발표. Anthropic의 2026년 공격적 인재 영입 흐름(예: Karpathy 합류) 맥락에서 주목되는 이동이다.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uan2ow/nobel_winner_john_jumper_to_leave_google_deepmind/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Supercharging Claude Code with the Right (CLI) Tools",
+      "summary": "\nClaude Code가 자체적으로 추천한 생산성 향상용 CLI 10종 정리(예: ast-grep, difftastic, shellcheck 등). 핵심 메시지: AST 기반 도구(ast-grep)가 LLM 기반 코딩 어시스턴트의 효과를 크게 높임.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ub11yd/supercharging_claude_code_with_the_right_cli_tools/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I built a real-time YouTube fact-checker with Claude Code",
+      "summary": "\nClaude Code로 개발된 크롬 확장형 실시간 유튜브 팝업 팩트체커. RAG 기반 소스 워터폴, 캐시 레이어, 자막(캡션) 텍스트 중심 설계로 비용 최적화. 백엔드 개발·디버깅·배포를 Claude Code와 페어프로그래밍 방식으로 진행했다고 서술.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ub7w8v/i_built_a_realtime_youtube_factchecker_with/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anyone have any luck handing off projects from Claude Code to Claude Design?",
+      "summary": "\n문서: Claude Design이 /design 스킬을 통해 Claude Code와 양방향 핸드오프를 지원한다고 되어 있으나, VS Code 터미널에서 /design이나 /update 명령이 보이지 않는 문제를 보고하는 사용자 질문(통합·권한/버전 문제 의심).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ub9gtw/anyone_have_any_luck_handing_off_projects_from/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    },
+    {
+      "title": "John Jumper, Google DeepMind 떠나 Anthropic 합류",
+      "summary": "\nAlphaFold 팀을 이끌며 2024년 노벨화학상 수상자인 John Jumper가 거의 9년간 몸담았던 Google DeepMind를 떠나 Anthropic에 합류한다고 발표. 프론티어 연구·인재 경쟁 측면에서 중요한 이적이다.",
+      "url": "https://news.hada.io/topic?id=30673",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "MCP용 Zero-Touch OAuth",
+      "summary": "\nEnterprise-Managed Authorization(EMA) 확장으로 MCP 서버 권한을 중앙에서 관리할 수 있는 '제로-터치' OAuth 흐름이 소개됨. 목적은 온보딩 단순화·정책 적용·감사 추적 등 엔터프라이즈 요구 충족.",
+      "url": "https://news.hada.io/topic?id=30657",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "GPT-5.5, MIT 라이선스 GLM-5.2보다 환각률 3배",
+      "summary": "\n프론티어 모델 확대 전략에 대한 문제제기: GPT-5.5가 MIT 라이선스 기반 오픈 웨이트 모델 GLM-5.2보다 환각률이 약 3배 높다는 주장과 함께, 모델 크기·정확성·현실성 간의 관계에 대한 논의 제기.",
+      "url": "https://news.hada.io/topic?id=30668",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Ask HN: What are some good benchmarks for different agent harnesses?",
+      "summary": "\n터미널 벤치만으로는 현실을 충분히 반영하지 못한다는 문제의식 아래, 다양한 에이전트 하니스(terminal, chat, orchestrator 등)에서 모델 성능을 비교·평가할 수 있는 벤치마크 사례를 묻는 토론 요청.",
+      "url": "https://news.ycombinator.com/item?id=48614029",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show HN: FERNme – agent memory that updates with ~zero LLM calls",
+      "summary": "\n퍼시스턴트 메모리 구현으로서 Hebbian 공시성 규칙과 퍼지 엣지를 사용해 에이전트의 메모리 태그를 만들고, LLM 호출을 거의 사용하지 않고도 개인화된 메모리/기억을 유지하려는 오픈소스 프로젝트(GitHub).",
+      "url": "https://github.com/mirkofr/FERNme",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Ask HN: What are your parameter count estimates for Opus 4.8 and GPT-5.5?",
+      "summary": "\n프론티어 연구진이 공개하지 않는 모델 파라미터 수에 대해 커뮤니티 추정치를 묻는 토론. Opus 4.8·GPT-5.5 같은 최신 모델 규모에 대한 엔지니어링 추정치 공유 요청.",
+      "url": "https://news.ycombinator.com/item?id=48613944",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    }
+  ]
+}
