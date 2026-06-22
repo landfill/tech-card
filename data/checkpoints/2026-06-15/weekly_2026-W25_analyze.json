@@ -1,0 +1,159 @@
+{
+  "week": "2026-W25",
+  "date_range": [
+    "2026-06-15",
+    "2026-06-21"
+  ],
+  "total_items": 102,
+  "filtered_items": 100,
+  "trend_map": [
+    {
+      "topic": "Anthropic / Claude Fable & Mythos (model launches, safety, policy, government actions)",
+      "days": [
+        "06-15",
+        "06-16",
+        "06-17",
+        "06-18",
+        "06-19",
+        "06-21"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Claude Code (agentic coding tool: features, usage, attacks, artifacts)",
+      "days": [
+        "06-15",
+        "06-16",
+        "06-17",
+        "06-18",
+        "06-19",
+        "06-20",
+        "06-21"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Cursor / SpaceX acquisition & product updates (Origin)",
+      "days": [
+        "06-16",
+        "06-17",
+        "06-18"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GitHub Copilot / Copilot CLI (token routing, sign-ups, agent workflows)",
+      "days": [
+        "06-15",
+        "06-17",
+        "06-19"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "OpenAI / Codex (Record & Replay, local proxies, Codex tooling)",
+      "days": [
+        "06-15",
+        "06-19",
+        "06-21"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "MCP / multi-agent infra & tooling (re_gent, ktx, sandbox engines, MCP connectors)",
+      "days": [
+        "06-15",
+        "06-16",
+        "06-17",
+        "06-18",
+        "06-19",
+        "06-20",
+        "06-21"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Claude Opus (Opus 4.8 comparisons, detection of malware)",
+      "days": [
+        "06-15",
+        "06-17",
+        "06-19",
+        "06-20"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Major talent moves (Noam Shazeer -> OpenAI, John Jumper -> Anthropic)",
+      "days": [
+        "06-19",
+        "06-20"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "Visa payment integration into ChatGPT (prev-week topic)",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 64,
+      "high_count": 20
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 36,
+      "high_count": 5
+    }
+  },
+  "top5": [
+    {
+      "title": "Identity verification on Claude",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "mentions": 6,
+      "impact": "high"
+    },
+    {
+      "title": "Getting more from each token: How Copilot improves context handling and model routing",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "Low-skilled attacker used Claude Code and Codex to breach 14 companies",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ua6sfe/lowskilled_attacker_used_claude_code_and_codex_to/",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "SpaceX, 90조원에 Cursor 인수",
+      "url": "https://news.hada.io/topic?id=30551",
+      "mentions": 2,
+      "impact": "high"
+    },
+    {
+      "title": "OpenAI, 2025년 손실 거의 8배 증가… 지출 340억 달러",
+      "url": "https://news.hada.io/topic?id=30597",
+      "mentions": 2,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-06-15": 20,
+    "2026-06-16": 13,
+    "2026-06-17": 14,
+    "2026-06-18": 13,
+    "2026-06-19": 13,
+    "2026-06-20": 11,
+    "2026-06-21": 16
+  }
+}
