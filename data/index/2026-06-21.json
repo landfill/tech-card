@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "title": "Claude Sonnet 5 Spotted, Release Expected Next Week",
+      "summary": "\nReddit reports an internal model registration for Anthropic's Sonnet 5 with testers speculating a release as soon as next week; the post notes multiple frontier-model release rumors (GPT 5.6, Gemini 3.5 Pro) that could make the week unusually active.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ubuobh/claude_sonnet_5_spotted_release_expected_next_week/",
+      "source_id": ""
+    },
+    {
+      "title": "Official: Anthropic to Require Identity Verification for Certain Capabilities Starting July 8, 2026",
+      "summary": "\nReddit summary of Anthropic's Privacy Policy update: starting July 8, 2026, certain Claude capabilities will require identity verification handled by Persona (a third-party provider); the post highlights that Persona has faced user backlash and a reported data exposure earlier in 2026.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/",
+      "source_id": ""
+    },
+    {
+      "title": "Identity verification on Claude",
+      "summary": "\nAnthropic support article explaining Claude's identity-verification flow: which capabilities may require verification, and that verification is performed by Persona as a third-party provider (official product doc / source of the policy change).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic clarifies the ID verification update, nothing new or related to restricting access",
+      "summary": "\nReddit post linking Anthropic clarification that the ID verification notice is an explanatory update and not a new restriction on access; frames the change as informational rather than a new gating of users.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uc0r5u/anthropic_clarifies_the_id_verification_update/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic rolled out identity verification two months ago. It's for age verification, not Fable access.",
+      "summary": "\nReddit post argues the Persona-based ID verification option was added in April and is intended for age verification (18+) in specific flagged cases rather than to gate access to Fable or other model capabilities; links archived support and news coverage.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ubw6zw/anthropic_rolled_out_identity_verification_two/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic is rolling out identity verification. Updated just yesterday.",
+      "summary": "\nUser post pointing to Persona as the verification provider and linking an archived Anthropic support article about identity verification on Claude; highlights rollout timing and vendor details.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uboasr/anthropic_is_rolling_out_identity_verification/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Asking for Age verification after years??",
+      "summary": "\nUser report of receiving an email requesting age verification for Claude, objecting to providing government ID or a face scan and asking for community help—an example of end-user friction and privacy concerns around the verification flow.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ubwvy4/claude_asking_for_age_verification_after_years/",
+      "source_id": ""
+    },
+    {
+      "title": "NSA Chief Says Anthropic's Mythos Broke Into Nearly All Classified Systems in Hours",
+      "summary": "\nReddit post citing an Economist piece quoting U.S. intelligence leadership claiming Anthropic's Mythos model breached classified environments rapidly; the thread highlights national-security concerns tied to frontier models and their rapid capabilities.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ubibvk/nsa_chief_says_anthropics_mythos_broke_into/",
+      "source_id": ""
+    },
+    {
+      "title": "I wanted to test free speech and ended up building a game with Claude",
+      "summary": "\nDeveloper built a Flappy Bird parody using Claude Fable 5 (and Opus 4.8 for website generation), showing how Fable and Opus can be composed to create a solo-created web game and the practical capabilities of these frontier models for rapid app building.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uc1eup/i_wanted_to_test_free_speech_and_ended_up/",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: opencodex — Codex에서 아무 LLM이나 쓸 수 있는 로컬 프록시",
+      "summary": "\nopencodex is a local proxy that translates between Codex's protocol and arbitrary LLM providers, enabling streaming, tool calls, tokens and images to be proxied so developers can use non-OpenAI models with Codex-compatible tooling.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30685",
+      "source_id": ""
+    },
+    {
+      "title": "open-code-review — Alibaba의 AI 코드 리뷰 도구",
+      "summary": "\nAlibaba open-sourced an AI code-review assistant used internally by tens of thousands of developers to identify millions of defects; the system reads git diffs and uses tool-driven agents to surface line-level suggestions—notable large-scale code-assist infra being released.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30677",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: ANMA, boundary contracts for cheaper AI coding agents",
+      "summary": "\nANMA presents YAML 'contracts' with CLAUDE.md, hooks and CI checks to enforce architecture rules for cheaper models—benchmarks claim it forces cheaper models to follow constraints that they'd otherwise ignore; practical approach to reliability in AI coding agents.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/anma-labs/anma",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: PeekAI – Local-first observability for Python AI agents",
+      "summary": "\nPeekAI is a tool for local-first observability of Python AI agents, providing telemetry/inspection for agent runs to help developers debug and reason about multi-step agent behavior without centralized telemetry.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/oussamaKH63/peekai",
+      "source_id": ""
+    },
+    {
+      "title": "Show HN: Lupen – an itemized, verified receipt for Claude Code and Codex spend",
+      "summary": "\nLupen is an open project that produces itemized, verified receipts for spend on Claude Code and Codex, aiming to improve cost observability for model-based development workflows.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://github.com/momoraul/Lupen",
+      "source_id": ""
+    },
+    {
+      "title": "Bean – a portable convergence gate for agent work",
+      "summary": "\nGitHub project describing 'Bean', a portable convergence gate for agent work intended to coordinate/route agent tasks and manage handoff/convergence points in multi-agent workflows—agent orchestration infra for developer workflows.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/grainulation/bean/",
+      "source_id": ""
+    },
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "summary": "\nOpenAI blog: Samsung Electronics deployed ChatGPT Enterprise and Codex company-wide, representing one of OpenAI's largest enterprise rollouts and a significant corporate adoption case for generative AI developer and productivity tools.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source_id": ""
+    }
+  ]
+}
