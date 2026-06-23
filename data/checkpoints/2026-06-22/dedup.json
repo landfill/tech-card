@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "title": "Apertus, 주권 AI를 위한 오픈 파운데이션 모델",
+      "summary": "\n스위스 기관들(EPFL·ETH Zurich·CSCS)이 주도해 공개한 파운데이션 모델 Apertus는 오픈 가중치·오픈 데이터·오픈 과학을 표방하며 학습 데이터·코드·가중치·정렬 원칙까지 문서화해 재현 가능성을 강조함.",
+      "url": "https://news.hada.io/topic?id=30718",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Claude의 신원 확인 절차",
+      "summary": "\nClaude가 기능 접근·플랫폼 무결성·안전·컴플라이언스 목적으로 Persona Identities 기반의 신원 확인(정부 발급 신분증과 셀피 등)을 요구할 수 있다는 설명—모델 접근과 기능 제어 관점의 정책·운영 변화 관련.",
+      "url": "https://news.hada.io/topic?id=30703",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "The text in Claude Code’s “Extended Thinking” output",
+      "summary": "\n클로드 코드의 'Extended Thinking' 출력물에 포함된 텍스트의 진위(authenticity)를 문제삼는 분석 글—에이전틱 워크플로에서 모델 출력의 신뢰성과 표현 방식에 대한 비판적 고찰.",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Four members of congress respectfully request an explanation of Howard W. Lutnick's export ban against Anthropic no later than the 26th of June",
+      "summary": "\n미 하원 의원 여러 명이 Anthropic에 대한 수출 통제(Frontier model export control) 조치의 근거와 절차를 묻는 서한을 상무부에 보냄—프론티어 모델 규제·수출통제와 기업 운영 리스크에 직결되는 사건.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ucvp8v/four_members_of_congress_respectfully_request_an/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Show GN: Agent-Blackbox - Claude Code/OpenCode 실행을 세션 맵과 토큰 낭비 분석으로 보는 도구",
+      "summary": "\nClaude Code/OpenCode 실행을 로컬에서 기록하고 세션 맵과 컨텍스트 효율 점수로 시각화하는 Agent-Blackbox 도구 소개—에이전틱 세션 디버깅과 토큰·컨텍스트 효율성 분석용 개발자 툴.",
+      "url": "https://news.hada.io/topic?id=30719",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: ax-grep, 에이전트 웹 검색 토큰 사용량을 3배 개선 해주는 웹 리서치 툴",
+      "summary": "\n브라우저의 접근성 트리와 유사한 구조를 브라우저 없이 재현해 에이전트의 웹 리서치 시 토큰 사용량을 크게 줄이고 메모리 사용을 개선한다는 ax-grep 툴 소개—에이전틱 리서치 인프라 최적화 도구.",
+      "url": "https://news.hada.io/topic?id=30715",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic should release optional local models to offload compute for agent tasks inClaude Code",
+      "summary": "\n사용자 제안: Anthropic가 엣지에서 실행되는 옵션형 로컬 모델(예: 30B 또는 여러 8B 특화 모델)을 공개해 에이전트 업무의 연산·북케이핑을 오프로드하면 토큰·지연·비용을 절감할 수 있다는 논의—하이브리드 엣지/클라우드 모델 전략 관련 커뮤니티 요청.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ucblkd/anthropic_should_release_optional_local_models_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI — Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "summary": "\nOpenAI의 Daybreak 이니셔티브 일환인 Patch the Planet는 오픈소스 유지보수자들이 취약점 발견·검증·수정할 수 있도록 AI와 전문가 검토를 결합해 지원하는 프로그램을 소개함—오픈소스 보안과 유지보수 인센티브에 직접 영향.",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "OpenAI — Codex-maxxing for long-running work",
+      "summary": "\nCodex를 이용해 컨텍스트 보존·복잡한 프로젝트 관리를 자동화하고 단일 프롬프트를 넘어 일의 연속성을 유지하는 방법 사례 공유—장기 작업·에이전트형 워크플로 설계 인사이트.",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Sakana Fugu multi-agent system delivered as one model",
+      "summary": "\nSakanaAI의 Fugu 프로젝트는 다중 에이전트 시스템을 한 모델로 제공하는 구현을 GitHub에 공개—에이전틱 시스템 설계와 단일 모델로의 통합 접근 사례.",
+      "url": "https://github.com/SakanaAI/fugu",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "GLM-5.2 is above GPT-5.5 in new agentic knowledge work eval",
+      "summary": "\n새로운 에이전틱 지식 작업 평가에서 GLM-5.2가 GPT-5.5를 능가했다는 주장(기사)—모델 비교 평가와 에이전트 업무 성능 논쟁 관련 신호.",
+      "url": "https://artificialanalysis.ai/articles/aa-briefcase",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: 클로드 코드를 기본 LLM으로 하는 IDE, myDoo 를 오픈합니다.",
+      "summary": "\n클로드 코드를 기본 LLM으로 통합한 VS Code 포크 기반 IDE 'myDoo' 공개—IDE 레벨에서 LLM(Claude Code)을 개발자 워크플로에 결합한 사례로, 에이전틱 코딩 환경 확장 사례.",
+      "url": "https://news.hada.io/topic?id=30709",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Show GN: NotionTalk | 카카오톡에서 바로 사용하는 Notion 편집/조회 도구(MCP)",
+      "summary": "\n카카오톡에서 자연어 명령으로 Notion을 생성·조회하는 MCP(메시지 기반 커넥터) 도구 소개—MCP 형태의 엔드유저·업무용 AI 워크플로 통합 사례(한국 시장 대상).",
+      "url": "https://news.hada.io/topic?id=30714",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "ponytail - AI 에이전트를 가장 게으른 시니어 개발자처럼 생각하게 만들기",
+      "summary": "\n프롬프트/프로그래밍 비유를 통해 에이전트에게 '매우 경험 많은 시니어 개발자'처럼 행동하게 해서 짧고 효율적인 수정 제안을 유도하는 아이디어 공유—프롬프트 설계와 에이전트 행동 유도 기법.",
+      "url": "https://news.hada.io/topic?id=30701",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low"
+    },
+    {
+      "title": "Severely diminished performance following Usage Policy warning. Claude is now silently underperforming on every task-- what's going on?",
+      "summary": "\nUsage Policy 경고 이후 Claude 성능이 전반적으로 저하된 것처럼 보인다는 사용자 보고—정책 집행(제한/경고)과 실제 모델 품질·계정별 처리 정책이 개발자·사용자 워크플로에 미치는 영향 사례.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ud0h4p/severely_diminished_performance_following_usage/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ]
+}
