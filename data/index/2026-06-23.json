@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "title": "Introducing a new way for teams to work with Claude: tag Claude in.",
+      "summary": "\nAnthropic 출시 공지: Slack에서 Claude를 팀원으로 초대해 채널·툴 권한을 주고 태그로 작업을 위임할 수 있는 'Claude Tag' 베타(Enterprise/Team)를 발표. Claude가 채널 문맥을 지속적으로 학습하고 필요 시 주도적으로 스레드를 플래그하거나 외부 데이터 소스에서 관련 정보를 끌어올림.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1udn7zy/introducing_a_new_way_for_teams_to_work_with/",
+      "source_id": ""
+    },
+    {
+      "title": "I built a free pixel-art RTS that turns your Claude Code sessions into a calm little kingdom",
+      "summary": "\n에이전트 세션을 시각화하는 오픈소스 앱 'Age of Agents' 소개: Claude Code 등 에이전트 세션을 '정착민'·건물로 맵핑하고 세션 질문(AskUserQuestion) 처리, 로컬 전용 서버로 프라이버시 보장. 에이전트 상태 시각화·UX 실험의 사례.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1udmh8u/i_built_a_free_pixelart_rts_that_turns_your/",
+      "source_id": ""
+    },
+    {
+      "title": "I've been building and using this way of spatially brain-dumping, refining, and prompting agents, and honestly enjoying it.",
+      "summary": "\nBonsAI라는 macOS 네이티브 앱 소개: 에이전트 프롬프트용 보드(노드 그래프), @로 파일/브라우저/GitHub 등 문맥을 끌어오고 on-device 의미적 린터를 돌려 에이전트에 넘길 완성된 프롬프트를 만드는 워크플로 도구. 오픈소스 레포 링크 포함.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1udgkog/ive_been_building_and_using_this_way_of_spatially/",
+      "source_id": ""
+    },
+    {
+      "title": "I built a terminal tool to manage a fleet of Claude Code sessions across all my repos",
+      "summary": "\n여러 Claude Code 세션을 한 화면에서 관리하는 터미널 도구 'repomon' 공개: 세션 상태·대기 알림·다계정 지원·자동 재개·사용 한도 표시 등으로 에이전트 병렬 운영을 편하게 함. Apache-2.0 오픈소스.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1udtfgt/i_built_a_terminal_tool_to_manage_a_fleet_of/",
+      "source_id": ""
+    },
+    {
+      "title": "I built a fairly detailed medieval peasant sim by directing Claude Code agents in parallel. Write-up on how.",
+      "summary": "\n'도미즈데이'라는 라이프심을 Claude Code 에이전트 병렬로 제작한 사례 연구: UI 없이 헤드리스로 수천 번 재생해 자체 버그를 잡고, 별도 AI 단계가 렌더 스크린을 평가하는 등 에이전트 기반 개발·테스트 워크플로 실험을 설명.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1udp0wc/i_built_a_fairly_detailed_medieval_peasant_sim_by/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code on Google glass",
+      "summary": "\nGoogle Glass(XE-C)에 Claude Code를 웹소켓으로 연결해 음성 입력으로 에이전트와 상호작용하는 개인 포팅 사례 — 휴대형·헤드업 디스플레이에서의 에이전트 접근성 시연.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1udc99r/claude_code_on_google_glass/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code and me, a perfect combination !!!",
+      "summary": "\n사용자 경험 사례: Claude Code로 프로젝트 감시·빌드·검증을 병렬로 수행해 단시간에 작동하는 웹사이트를 만든 개인 후기(사용자 감상 위주).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1udp9o2/claude_code_and_me_a_perfect_combination/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Code의 “Extended Thinking” 출력 텍스트는 실제 추론이 아님",
+      "summary": "\n조사 결과: Claude Code의 로컬 세션 로그에서 'thinking block'에 사람이 읽을 만한 추론 텍스트 대신 600자 길이의 signature가 남아 있었음. Anthropic이 추론을 signature로 암호화하고 키를 보유해 사용자 기기에 원문 추론이 전달되지 않는 설계로 보임 — 로컬 에이전트 가시성·디버깅·프라이버시 시사점.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://news.hada.io/topic?id=30766",
+      "source_id": ""
+    },
+    {
+      "title": "Codex 로깅 버그가 로컬 SSD에 TB 단위 쓰기를 발생시켜 SSD 수명을 빠르게 소모할 수 있음",
+      "summary": "\n보고: Codex가 로컬 SQLite 피드백 로그 DB에 대량 연속 기록을 하며 한 사용자의 경우 21일 만에 약 37TB를 기록, 장기간 가동 시 SSD 수명·성능 문제를 일으킬 수 있음 — 로컬 개발 도구의 로그·IO 행태가 하드웨어에 미치는 영향 경고.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30738",
+      "source_id": ""
+    },
+    {
+      "title": "에이전틱 테스팅 - E2E 테스트 스택에서 에이전트의 역할",
+      "summary": "\nSlack 엔지니어링팀 실험: 200건 이상의 에이전틱 워크플로를 돌려 에이전트 기반 E2E 테스트가 전통적 결정론적 테스트를 대체할 수 있는지 검증 — 목표 중심 테스트와 에이전트의 다양한 경로 탐색 장단점 분석.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30744",
+      "source_id": ""
+    },
+    {
+      "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+      "summary": "\nGitHub가 캘리포니아 AI 투명성법(California AI Transparency Act)의 오픈소스 라이선스 충돌·국제 표준 정합성 문제 해결을 위한 수정 촉구 연합에 참여한다고 발표—오픈소스와 AI 규제의 실무적 상호작용을 다룸.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
+      "source_id": ""
+    },
+    {
+      "title": "Helping build shared standards for advanced AI",
+      "summary": "\nOpenAI가 Appia Foundation 등과 협력해 평가 프레임워크·안전 관행·글로벌 협력을 통한 고급 AI 표준 구축 지원을 발표 — 프론티어 모델 안전·규제·검증 인프라에 관한 활동 개요.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source_id": ""
+    },
+    {
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "summary": "\nGPT-5 Pro를 사용해 3년간 풀리지 않던 면역학 문제를 해결한 사례 기사: 고성능 언어모델이 연구 가설 생성·데이터 해석에서 기여한 구체적 워크플로와 결과를 소개(생명과학 도메인에서의 프론티어 모델 응용 사례).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "source_id": ""
+    },
+    {
+      "title": "How Omio is building the future of conversational travel",
+      "summary": "\nOmio가 OpenAI 기술을 도입해 대화형 여행 경험과 제품 개발 가속화를 추진하는 사례 연구: 여행 산업에서의 컨버세이셔널 AI 적용 전략·성과를 설명.",
+      "category": "산업별 AX",
+      "impact": "medium",
+      "url": "https://openai.com/index/omio",
+      "source_id": ""
+    },
+    {
+      "title": "ClaudeMeter – macOS menu bar app to track Claude usage and limits",
+      "summary": "\nmacOS 메뉴바용 유틸리티 'ClaudeMeter' 오픈소스: Claude 사용량·한도 추적을 제공해 Pro/Max 사용자의 소비 관리에 도움을 주는 간단한 클라이언트 도구.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low",
+      "url": "https://github.com/yotake/claude-meter",
+      "source_id": ""
+    },
+    {
+      "title": "AI systems out-persuade expert humans",
+      "summary": "\narXiv 연구 초록: AI 시스템이 도메인 전문가보다 설득력 있는 주장을 더 잘 만드는 실험 결과를 보고 — 프론티어 모델의 설득·의사결정 영향력과 안전성·윤리 논의에 대한 시사점.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://arxiv.org/abs/2606.16475",
+      "source_id": ""
+    }
+  ]
+}
