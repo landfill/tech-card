@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "title": "Mistral OCR 4 공개",
+      "summary": "\nMistral OCR 4는 텍스트 추출을 넘어 바운딩 박스·블록 분류·인라인 신뢰도 점수까지 반환하는 문서 이해 모델로, 10개 언어 그룹의 170개 언어와 단일 컨테이너 자체 호스팅을 지원해 데이터 주권·컴플라이언스에 적합함.",
+      "url": "https://news.hada.io/topic?id=30781",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "We just made agents talk to each other",
+      "summary": "\nTraycer(오픈소스 데스크톱 앱)는 Claude Code, Codex, Cursor, OpenCode 등 여러 에이전트를 상호 통신하게 해 작업을 분할·조정하는 A2A(Agent-to-Agent) 프로토콜과 지속적 멀티에이전트 루프, 공유 영구 컨텍스트를 지원함—데스크톱 앱은 오픈소스, 호스트 프로세스는 보안 강화 후 공개 예정.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uerpw8/we_just_made_agents_talk_to_each_other/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "GLM-5.2 matched Claude Opus on 45 terminal-bench coding-agent tasks at less than half the cost (full methodology + failure transcripts inside)",
+      "summary": "\nGLM-5.2(오픈 가중치)가 Claude Opus와 동일한 코딩 에이전트(terminal-bench) 설정에서 45개 과제 중 25개를 해결하며 결과 품질이 동일했고, 토큰·지출 효율성 측면에서 Opus보다 비용이 크게 낮았다는 실험 결과와 실패 전사(transcripts)를 제시함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uen56t/glm52_matched_claude_opus_on_45_terminalbench/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Building Agent Telemetry for LLMs",
+      "summary": "\n에이전트 기반 워크플로를 운영·디버그·모니터링하기 위한 텔레메트리(로그, 메트릭, 추적) 설계와 구현 고려사항을 다룬 글로, 장기 실행·다중 에이전트 환경에서 관측성과 신뢰성을 확보하는 방법을 제시함.",
+      "url": "https://lexifina.com/blog/building-agent-telemetry-for-llms",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Code as Agent Harness",
+      "summary": "\n(arXiv) 코드 자체를 에이전트 하네스로 사용하는 개념을 제안하는 연구/조감으로, 에이전트 실행·조정·스킬 로딩을 코드 레벨에서 조직하는 패턴을 다룸—에이전트 설계·하네스 패턴 관련 주요 참조.",
+      "url": "https://arxiv.org/abs/2605.18747",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "summary": "\nAnthropic이 자사 Claude 모델의 기능을 불법적으로 추출했다고 주장하며 Alibaba를 지목한 사건을 보도—프론티어 모델 지적재산·모델 탈취 관련 중요한 산업 쟁점.",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Legal tech firm sues US over order limiting foreign access to top-tier Anthropic models",
+      "summary": "\n(레딧 링크) 미국의 명령이 최상위 Anthropic 모델의 해외 접근을 제한한 것에 대해 법률 기술 기업이 소송을 제기했다는 소식을 공유하는 게시물로, 모델 접근성·규제와 국제적 영향 이슈를 다룸.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1udybyz/legal_tech_firm_sues_us_over_order_limiting/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "I gave an autonomous Claude agent a domain and 30 days to get real traffic",
+      "summary": "\n자율 Claude 에이전트에게 도메인·레포·30일 목표(사람 방문자 확보)를 주고 운영한 실험으로, 에이전트가 자체적으로 빌드·배포·분석·자기수정하는 과정과 실시간 피드백에 반응하는 문제가 관찰됨—자율 에이전트의 실용적 한계와 피드백 루프 실험.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uer5vc/i_gave_an_autonomous_claude_agent_a_domain_and_30/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    }
+  ],
+  "chunks": 1
+}
