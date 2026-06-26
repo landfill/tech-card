@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "title": "I built a chess coach you can actually talk to, powered by Claude but grounded by a chess engine so it doesn't make things up",
+      "summary": "\nOpen-source chess-review coach that uses Claude for explanation but runs Stockfish underneath so advice is grounded in engine lines; can run as an MCP server inside Claude Code and adapts to user's mistake patterns.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ufetef/i_built_a_chess_coach_you_can_actually_talk_to/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "A free form builder for agents because I hate building forms by hand",
+      "summary": "\nFree hosted form builder (formling.dev) designed for agents: connect via MCP or point an agent at the form, owner claims answers via magic link; aims to let agents build/own forms with agent-readable outputs.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ufcr6z/a_free_form_builder_for_agents_because_i_hate/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Stop asking Claude for \"something creative.\" Ask it to find the lacuna.",
+      "summary": "\nPost proposes 'lacuna prompting' as a pattern to get less-average, sharper creative output: map the field, find the hidden axis, locate the empty cell (lacuna), name the force keeping it empty, then propose a fill with confidence metadata.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ufcktm/stop_asking_claude_for_something_creative_ask_it/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Anthropic allegations of unauthorised access by Alibaba",
+      "summary": "\nPost summarizes that Anthropic told the U.S. Senate it accused Alibaba (its AI lab) of using ~25,000 fraudulent accounts to access Claude and run a large-scale distillation-style extraction attack.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uexovy/anthropic_allegations_of_unauthorised_access_by/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Code as Agent Harness — 코드를 에이전트의 실행 기반으로 보는 102페이지 서베이",
+      "summary": "\n102-page survey (UIUC × Meta × Stanford) arguing that code is the operational substrate for agents: agents use code to act, store state, verify feedback and drive workflows—framing code as more than LLM output.",
+      "url": "https://news.hada.io/topic?id=30815",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic, “Alibaba가 Claude AI 모델 역량을 불법 추출했다”",
+      "summary": "\nArticle reporting Anthropic's claim to the U.S. Senate that Alibaba-related activity represented the largest-scale distillation-style attack against Claude, potentially accelerating access to higher-capability outputs.",
+      "url": "https://news.hada.io/topic?id=30820",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
+      "summary": "\nGitHub Blog post analyzing how the Copilot agentic harness performs across benchmarks and models, claiming strong results and token efficiency while supporting choice among 20+ models.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "high"
+    },
+    {
+      "title": "How agents are transforming work",
+      "summary": "\nOpenAI research post describing how AI agents enable longer, more complex tasks and expand productivity across roles, arguing agents are changing workflows and the nature of work.",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "Trump administration asks to hold OpenAI's next model",
+      "summary": "\nAxios report that the Trump administration requested a pause/hold on OpenAI's next model release, a government intervention around frontier model deployment policy.",
+      "url": "https://www.axios.com/2026/06/25/trump-administration-openai-gpt-model-release",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    }
+  ]
+}
