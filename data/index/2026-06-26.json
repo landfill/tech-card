@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "title": "Show HN: OpenKnowledge – Obsidian/Notion의 오픈소스 AI 우선 대안",
+      "summary": "\n로컬 우선 WYSIWYG Markdown 편집기로 Claude, Codex 등과의 통합을 제공해 개인 노트·지식베이스·LLM 위키 용도로 설계된 오픈소스 프로젝트입니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30860",
+      "source_id": ""
+    },
+    {
+      "title": "AI에게 주도권을 빼앗기지 마세요 — 두 번의 자동화 실패에서 배운 것",
+      "summary": "\n작성자가 Claude Code로 자동매매 시스템과 블로그 자동발행을 운영하며 겪은 두 번의 실패 사례(자동매매의 검증 실패·부정확한 자동 발행)와 그 교훈을 다룹니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30855",
+      "source_id": ""
+    },
+    {
+      "title": "Show GN: SongRyeon Core - LLM이 쓴 말과 코드가 검증한 정보를 분리하는 로컬 에이전트 런타임 실험",
+      "summary": "\n로컬 우선 에이전트 런타임 실험으로, LLM의 판단(말)과 코드가 실제 확인한 사실을 분리해서 다루는 디자인을 제안합니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30854",
+      "source_id": ""
+    },
+    {
+      "title": "codelight — Claude Code status display",
+      "summary": "\nGeekMagic Ultra용 커스텀 펌웨어와 컴패니언 파이썬 스크립트로 Claude Code 사용량·세션 상태를 표시하는 상태 대시보드 프로젝트입니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug80z0/codelight_claude_code_status_display/",
+      "source_id": ""
+    },
+    {
+      "title": "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies: Reports",
+      "summary": "\n보도에 따르면 미국 행정부가 Anthropic의 Mythos(Claude 계열로 보이는) 모델을 일부 기업·정부 기관에 배포하는 것을 허용했다는 보도가 나왔습니다(원문 출처 기사 링크가 언급됨).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uglxiz/trump_admin_allows_anthropic_to_release_mythos_ai/",
+      "source_id": ""
+    },
+    {
+      "title": "Anthropic moves toward deal with US to lift curbs on AI models",
+      "summary": "\n보도 링크를 근거로 Anthropic가 미 정부와 모델 배포 제한 완화를 위한 합의 가능성 쪽으로 움직이고 있다는 보도가 공유되었습니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugl2au/anthropic_moves_toward_deal_with_us_to_lift_curbs/",
+      "source_id": ""
+    },
+    {
+      "title": "US gov forces OpenAI to stagger 5.6 rollout",
+      "summary": "\n여러 보도·논의에 따르면 미 정부가 OpenAI의 GPT-5.6 일반 사용자 대상 배포를 단계적으로 하도록 조치한 정황이 있다는 소식이 커뮤니티에 공유되었습니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug6qe7/us_gov_forces_openai_to_stagger_56_rollout/",
+      "source_id": ""
+    },
+    {
+      "title": "Update: Higher rate limits on Claude API",
+      "summary": "\nClaude API의 상향된 레이트 리밋(사용률 한도) 관련 업데이트가 커뮤니티에 공유되어, 에이전틱/인프라 사용자들에게 영향이 있는 변경입니다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugm2vp/update_higher_rate_limits_on_claude_api/",
+      "source_id": ""
+    },
+    {
+      "title": "Non-coder doctor here — rebuilt my department's website (dead for 2 years) with Claude + Claude Design over a weekend. ~14x the traffic 3 months on.",
+      "summary": "\n비개발자가 Claude와 Claude Design을 활용해 병원 부서 웹사이트를 주말에 재구축했고, 3개월 만에 트래픽이 약 14배 증가한 경험담과 사용법·효과를 공유합니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugcnkd/noncoder_doctor_here_rebuilt_my_departments/",
+      "source_id": ""
+    },
+    {
+      "title": "I used Claude to fix my biggest frustration with PDFs",
+      "summary": "\n여러 PDF를 한 파일로 관리하기 위해 메타데이터로 파일 경계를 표시하는 확장(.pdfx) 아이디어를 구현했고, Claude로 개발 작업의 상당 부분을 도왔다고 보고합니다(오픈소스 공개 링크 포함).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugj1bt/i_used_claude_to_fix_my_biggest_frustration_with/",
+      "source_id": ""
+    },
+    {
+      "title": "auth.md — 에이전트가 사용자를 대신해 가입시키기 위한 오픈 프로토콜",
+      "summary": "\n서비스 루트에 호스팅되는 auth.md 파일 표준을 제안하여 에이전트가 사용자를 대신해 회원가입을 수행할 수 있도록 지원하는 오픈 프로토콜 초안입니다(지원 플로우·scope·등록 방식 명시).",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://news.hada.io/topic?id=30837",
+      "source_id": ""
+    },
+    {
+      "title": "ComAI – An open-source Linux assistant for troubleshooting with local LLMs",
+      "summary": "\n로컬 LLM을 활용해 Linux 문제 해결을 돕는 오픈소스 어시스턴트(ComAI) 리포지토리로, 로컬-first 지원과 개발자·운영자용 도구로 쓰일 수 있습니다.",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium",
+      "url": "https://github.com/hossbit/comai-linux-assistant",
+      "source_id": ""
+    },
+    {
+      "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
+      "summary": "\n구글 리서치 블로그의 글로, 추론(reasoning) 과정이 LLM 내부의 파라메트릭 지식을 어떻게 끌어내는지와 관련된 연구·인사이트를 소개합니다.",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium",
+      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
+      "source_id": ""
+    },
+    {
+      "title": "Claude Plays World of ClaudeCraft",
+      "summary": "\nWorld of ClaudeCraft라는 브라우저 MMO에 Claude Code 기반 VTuber 에이전트를 넣어, 에이전트가 게임 내에서 행동하고 트위치 스트림으로 실시간 상호작용하는 실험을 공유합니다(오픈소스 링크 포함).",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "low",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ufz93w/claude_plays_world_of_claudecraft/",
+      "source_id": ""
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "date": "2026-06-26",
+  "items": [
+    {
+      "source_id": "geeknews-hada",
+      "title": "Apple, 고급형 M6 Mac 칩 건너뛰고 AI 중심 M7 라인으로 전환 예정",
+      "url": "https://news.hada.io/topic?id=30862",
+      "summary": "<ul>\n<li>Apple은 Mac용 자체 실리콘 전략을 조정해 다음 <strong>최상위 프로세서</strong>를 AI 중심 M7 세대로 앞당기려 함</li>\n<li>현재 <strong>M5 시리즈</strong>를 쓰는 가운데, 보급형 Mac용 기본 M6 프로세서는 이르면 올해 공개될 계획임</li>\n<li>기존 세대 흐름과 달리 <strong>고급형 M6 버전</strong>은...</p>",
+      "published": "2026-06-26T21:36:13+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "민주·권위주의 국가들이 대규모 감시 경쟁을 벌이고 있음",
+      "url": "https://news.hada.io/topic?id=30861",
+      "summary": "<ul>\n<li>국가 대규모 감시는 민주주의와 권위주의를 가리지 않고 확산됐으며, <strong>인권과 사생활 침해</strong>뿐 아니라 실제 문제 해결에도 비효율적이라는 비판을 받음</li>\n<li>미국의 감시 체계는 <strong>FISA Section 702</strong>, PRISM, Upstream, XKeyscore를 축으로 법원 판단 없이 방대한 인터넷 활동...</p>",
+      "published": "2026-06-26T19:38:47+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show HN: OpenKnowledge – Obsidian/Notion의 오픈소스 AI 우선 대안",
+      "url": "https://news.hada.io/topic?id=30860",
+      "summary": "<ul>\n<li>개인 노트, 지식 베이스, 스펙, LLM 위키를 위한 로컬 우선 <strong>WYSIWYG Markdown 편집기</strong>이며 Claude, Codex 등 하네스와의 통합을 제공함</li>\n<li>Markdown 파일 편집을 Google Doc이나 Notion 페이지 편집처럼 느끼게 하는 <strong>true WYSIWYG</strong> 편집 경험을 목표로 함</li>\n<li>Clau...</p>",
+      "published": "2026-06-26T17:34:20+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "IBM, 1nm 미만 0.7nm 칩 기술 공개",
+      "url": "https://news.hada.io/topic?id=30859",
+      "summary": "<ul>\n<li>반도체 산업이 전통적 스케일링의 물리적 한계에 가까워진 가운데, IBM은 <strong>0.7nm·7옹스트롬 노드</strong> 기반의 세계 최초 1nm 미만 칩 기술을 공개함</li>\n<li>손톱 크기 칩에 <strong>약 1,000억 개 트랜지스터</strong>를 집적해, 2021년 IBM 2nm 칩 대비 거의 두 배의 밀도를 목표로 함</li>\n<li>...</p>",
+      "published": "2026-06-26T16:36:39+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Nico의 데이터룸, Papermark 코드 도용 의혹 제기",
+      "url": "https://news.hada.io/topic?id=30858",
+      "summary": "<ul>\n<li>Nico의 <strong>데이터룸 제품</strong>이 직접 만든 결과물이 아니라 Papermark의 오픈소스 및 엔터프라이즈 라이선스 코드에서 가져온 것 같다는 의혹이 공개됨</li>\n<li>핵심 쟁점은 <strong>저작권과 라이선스 침해</strong> 여부이며, 문제 제기자는 제품을 즉시 내려야 한다고 요구함</li>\n<li>이 사안은...</p>",
+      "published": "2026-06-26T14:35:05+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Vibecoding 공개로 Emacs 패치가 거절됨",
+      "url": "https://news.hada.io/topic?id=30856",
+      "summary": "<ul>\n<li>macOS용 <strong>Emacs 성능 개선</strong>을 위해 만든 작은 패치가 <code>emacs-devel</code>에 제출됐지만, LLM 보조 작업을 받지 않는 GNU 정책 때문에 받아들여지지 않음</li>\n<li>작업자는 GLM 5.2가 이슈를 찾고 초안을 만들었다고 공개하면서도, 본인이 정확성·영향 분석, 수정, 수동 테스트, <strong>...</p>",
+      "published": "2026-06-26T14:04:12+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "AI에게 주도권을 빼앗기지 마세요 — 두 번의 자동화 실패에서 배운 것",
+      "url": "https://news.hada.io/topic?id=30855",
+      "summary": "<p>Claude Code로 자동매매 시스템과 블로그 자동발행을 직접 운영하다 겪은 두 번의 실패에서 출발한 글입니다.</p>\n<ul>\n<li>자동매매: 매매 도메인 지식이 부족해 AI가 짠 코드를 검증하지 못했고, 결과는 0승 8패·자산 3% 손실</li>\n<li>블로그 자동발행: 검수 없이 내보낸 부정확한 글로 독자 피드백을 받음</li>\n...</p>",
+      "published": "2026-06-26T11:49:18+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: SongRyeon Core - LLM이 쓴 말과 코드가 검증한 정보를 분리하는 로컬 에이전트 런타임 실험",
+      "url": "https://news.hada.io/topic?id=30854",
+      "summary": "<p>안녕하세요. 코딩을 배우면서 AI 에이전트 런타임을 직접 실험하고 있는 정후입니다.</p>\n<p>SongRyeon Core는 “LLM이 말한 판단”과 “코드가 실제로 확인한 사실”을 분리해서 다루는 작은 로컬 우선(agent runtime) 실험입니다.</p>\n<p>요즘 LLM 기반 에이전트를 만들다 보면 다음 문제가 자주 생긴다고 느꼈습니",
+      "published": "2026-06-26T06:28:52+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: macSandbox – Apple Silicon Mac을 위한 일회용 Windows 11 샌드박스",
+      "url": "https://news.hada.io/topic?id=30853",
+      "summary": "<p>Windows Sandbox 경험을 macOS에서. QEMU + Hypervisor.framework로 Windows 11 ARM64 VM을 몇 초 만에 띄워 앱 내장 RDP 화면으로 보여주고, 종료하면 모든 변경이 폐기됩니다. 본인 소유 Windows 11 ARM64 ISO로 1회 무인 빌드. Apple Silicon 전용, AGPL-3.0/상용 듀얼 라이선스. v0.1.0 첫 공개.</p>",
+      "published": "2026-06-26T06:15:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 당근전톡 — 당근마켓 가기 전에 카톡으로 동네 공개매물 먼저 둘러보기",
+      "url": "https://news.hada.io/topic?id=30852",
+      "summary": "<p>안녕하세요.<br />\n카카오 PlayMCP 기반으로 당근전톡이라는 작은 MCP 서비스를 만들어봤습니다.</p>\n<p>당근전톡은 당근마켓 앱을 열기 전에, 카톡에서 자연어로 동네 공개매물을 먼저 찾아볼 수 있는 읽기 전용 리서치 도구입니다.</p>\n<p>예를 들면 이렇게 물어볼 수 있습니다.</p>\n<ul>\n<li>합정동에서 맥북 중고",
+      "published": "2026-06-26T05:34:56+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "인터넷의 ‘신분증 제시’ 시대가 프라이버시를 무너뜨린다",
+      "url": "https://news.hada.io/topic?id=30850",
+      "summary": "<ul>\n<li>온라인 <strong>연령 확인</strong>은 단순한 나이 확인을 넘어 얼굴 이미지, 정부 ID, 은행 연결, 기존 계정 데이터로 사용자의 신원을 확인하는 구조가 될 수 있음</li>\n<li>호주의 16세 미만 소셜미디어 금지는 2025년 12월 시행됐지만, 정부 조사에서 약 <strong>10명 중 7명</strong>의 아동이 여전히 소셜...</p>",
+      "published": "2026-06-26T03:38:07+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Show GN: 삼선 - 세 선으로 그린 그림",
+      "url": "https://news.hada.io/topic?id=30848",
+      "summary": "<p>요즘 재미있는 일들 많으신가요?<br />\n저는 재미있는 일이 많지 않아서 재미있을 거리를 만들어 봤습니다.<br />\n이름은 '삼선' 이고 세 개의 선, 세 획으로 그림을 그려서 공유하는 웹 사이트입니다.</p>\n<p>그림을 그리고 주제를 적으면 됩니다.<br />\n세 획이라는 제한 안에서 얼마나 기발하고 재밌는 그림이 나올",
+      "published": "2026-06-26T02:32:14+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Om Malik 별세",
+      "url": "https://news.hada.io/topic?id=30847",
+      "summary": "<ul>\n<li><strong>Om Malik</strong>가 2026년 6월 24일 Stanford Hospital에서 세상을 떠났으며, 원문은 그의 생몰연도를 <strong>1966-2026</strong>으로 표시함</li>\n<li>구체적 사인은 적지 않고, 오랜 기간 <strong>심장 관련 건강 여정</strong>을 겪어 왔다고만 전함</li>\n<li>마지막 순간에는 <strong>가족과 친...</p>",
+      "published": "2026-06-26T01:34:01+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "새로운 HTTP QUERY 메소드",
+      "url": "https://news.hada.io/topic?id=30846",
+      "summary": "<p>RFC 10008로 새롭게 정의된 HTTP QUERY 메소드에 대한 설명</p>\n<p>기존 RESTful API에서 복잡한 검색을 처리할 때 GET과 POST 모두 한계가 있었는데, 이를 해결하기 위해 오랜 논의 끝에 QUERY 메소드가 표준화됨</p>\n<p>GET의 한계</p>\n<ul>\n<li>복잡한 필터나 관계형 쿼리를 URL 파라미터로 보내면 URL이 지나치게",
+      "published": "2026-06-26T01:28:50+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "모든 고객을 위한 Cloudflare OAuth",
+      "url": "https://news.hada.io/topic?id=30845",
+      "summary": "<ul>\n<li>Cloudflare는 고객이 직접 <strong>self-managed OAuth</strong> 앱을 만들 수 있게 해, Cloudflare API 접근을 표준 위임 승인 흐름으로 제공할 수 있게 함</li>\n<li>예전에는 일부 수동 온보딩된 파트너만 타사 OAuth를 쓸 수 있었고, 자체 통합 개발자는 위임형 앱 흐름에 맞지 않는 <strong>API 토큰</p>",
+      "published": "2026-06-26T01:11:49+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "LastPass가 또 다른 데이터 유출을 사용자에게 통지함",
+      "url": "https://news.hada.io/topic?id=30844",
+      "summary": "<ul>\n<li>LastPass 사용자는 외부 파트너 <strong>Klue 침해 사고</strong>로 개인 데이터와 지원 케이스 데이터가 노출됐다는 통지를 받음</li>\n<li>이번 사고의 접근 범위는 <strong>표준 비즈니스 연락처 정보</strong>, CRM 데이터, 지원 케이스 데이터, 영업 관련 데이터로 제한됐으며 비밀번호 금고는 영향받지 않...</p>",
+      "published": "2026-06-26T01:08:49+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Ford, AI 품질검사 차질로 ‘gray beard’ 검사관 재고용",
+      "url": "https://news.hada.io/topic?id=30843",
+      "summary": "<ul>\n<li>Ford Motor Co.는 고질적인 <strong>품질 문제</strong>를 줄이기 위해 “gray beard”로 불리는 베테랑 엔지니어들을 다시 불러 젊은 직원 교육과 AI 도구 보완에 투입함</li>\n<li>지난 <strong>3년간 350명</strong>의 베테랑 엔지니어를 채용했으며, 다수는 전직 Ford 직원이고 일부는 공급업체 출신임</li>...</p>",
+      "published": "2026-06-26T01:05:49+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Apple, MacBook과 iPad 가격 인상",
+      "url": "https://news.hada.io/topic?id=30842",
+      "summary": "<ul>\n<li>메모리·저장장치 등 <strong>부품 비용 급등</strong>이 Apple 제품 가격에 직접 반영되며, MacBook과 iPad를 중심으로 시작 가격이 일제히 올라감</li>\n<li>Tim Cook은 가격 인상이 “불가피”해졌고, 그동안 고객에게 비용 전가를 막아온 상황도 <strong>지속 불가능</strong>해졌다고 설명함</li>\n<li>인상 ...</p>",
+      "published": "2026-06-26T01:02:49+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "도구와 대화하는 것의 피로감",
+      "url": "https://news.hada.io/topic?id=30841",
+      "summary": "<ul>\n<li>LLM은 키보드나 자동차처럼 몸에 익는 <strong>좋은 도구</strong>가 아니라, 요청과 협상을 요구하는 상대처럼 작동해 사용자의 사회적 에너지를 소모함</li>\n<li>좋은 도구는 일관성과 속도 덕분에 뇌가 <strong>신체의 확장</strong>처럼 받아들이지만, Claude나 Cursor 같은 LLM은 아직 그 수준에 미치지 못...</p>",
+      "published": "2026-06-26T01:02:23+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Herculaneum 두루마리 전체를 처음으로 해독",
+      "url": "https://news.hada.io/topic?id=30839",
+      "summary": "<ul>\n<li>서기 79년 Vesuvius 분화 뒤 열 수 없었던 <strong>PHerc. 1667</strong>이 물리적으로 펼쳐지지 않은 채 가상으로 복원돼, 보존된 텍스트가 처음부터 끝까지 읽힘</li>\n<li>고해상도 X선 스캔과 표면 재구성, 평탄화, <strong>머신러닝 잉크 검출</strong>을 결합해 탄화된 두루마리를 읽을 수 있는 페이지로 ...</p>",
+      "published": "2026-06-26T00:56:49+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "딥테크 기업은 다르게 만들어진다",
+      "url": "https://news.hada.io/topic?id=30838",
+      "summary": "<ul>\n<li>지난 10년간 확장 속도가 빠른 비트(소프트웨어)에 자본이 집중됐으나, 이제 경제 전반의 병목이 다시 원자(atoms), 즉 물리적 영역으로 돌아오면서 이를 제거하는 <strong>프론티어 기술</strong> 기업이 차세대 기업으로 부상 중</li>\n<li>데이터센터의 전력망 부담, 국방 예산의 자율무기·센서·조선 전환, 제...</p>",
+      "published": "2026-06-26T00:45:01+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "auth.md — 에이전트가 사용자를 대신해 가입시키기 위한 오픈 프로토콜",
+      "url": "https://news.hada.io/topic?id=30837",
+      "summary": "<ul>\n<li>각 서비스가 자기 도메인 루트에 호스팅하는 <code>auth.md</code> 파일 표준</li>\n<li>에이전트에게 사용자를 대신해 등록하는 방법을 알려줘서, 별도의 회원가입 폼 없이 에이전트가 사용자를 등록 가능</li>\n<li>파일에는 지원하는 <strong>flow</strong>, 존재하는 <strong>scope</strong>, 서비스 등록 방...</p>",
+      "published": "2026-06-26T00:31:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "CSS font-family 권장 사항",
+      "url": "https://news.hada.io/topic?id=30836",
+      "summary": "<ul>\n<li>웹에서 특정 폰트 이름을 믿고 디자인하면 플랫폼·네트워크·보안 설정에 따라 깨질 수 있어, <strong>일반 계열 fallback</strong>을 전제로 <code>font-family</code>를 짜야 함</li>\n<li>고정폭 표현이 필요한 코드·아트워크·레이아웃에는 <strong><code>monospace</code></strong> 를 반드시 포함해야 하며,...</p>",
+      "published": "2026-06-26T00:12:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "대부분의 스타트업은 번(burn) 문제가 아니라 의사결정 문제를 안고 있다",
+      "url": "https://news.hada.io/topic?id=30835",
+      "summary": "<ul>\n<li>2023년 이후 폐업한 VC 투자 스타트업 431곳을 분석한 결과 <strong>&quot;자본 고갈&quot;이 70%</strong> 로 실패 원인 1위를 차지했으나, 현금 소진은 더 깊은 문제의 증상에 불과함</li>\n<li>근본 원인은 <strong>파편화된 데이터</strong>, 불명확한 우선순위, 무엇이 실제 성과를 이끄는지에 대한 </p>",
+      "published": "2026-06-26T00:11:02+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Zig, 새로운 @bitCast 의미론과 LLVM 백엔드 개선",
+      "url": "https://news.hada.io/topic?id=30834",
+      "summary": "<ul>\n<li>Zig <strong>master 브랜치</strong>에 LLVM 백엔드의 비 ABI 정수 처리 개선과 새 <code>@bitCast</code> 의미론이 병합되어, 최적화 문제와 언어 동작 불일치를 함께 정리함</li>\n<li><code>u4</code>, <code>i13</code>, <code>u40</code> 같은 <strong>임의 비트폭 정수</strong>는 SSA 값에서는 bit-int로...</p>",
+      "published": "2026-06-26T00:09:21+00:00"
+    },
+    {
+      "source_id": "geeknews-hada",
+      "title": "Hacker News 데이터로 살펴보는 18년간 기술 트렌드 변화",
+      "url": "https://news.hada.io/topic?id=30833",
+      "summary": "<ul>\n<li><strong>Hacker Trends</strong>는 Hacker News에 축적된 약 4,500만 건의 게시글과 댓글을 분석하여 특정 기술, 제품, 기업, 인물의 언급량 변화를 시계열로 보여주는 서비스이다.</li>\n<li>여러 검색어를 한 그래프에 표시하여 기술 간 경쟁, 시장의 세대교체, 사건에 따른 관심도 급등을 비교할 수 있다.</p>",
+      "published": "2026-06-26T00:06:20+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I used Claude to fix my biggest frustration with PDFs",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugj1bt/i_used_claude_to_fix_my_biggest_frustration_with/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugj1bt/i_used_claude_to_fix_my_biggest_frustration_with/\"> <img alt=\"I used Claude to fix my biggest frustration with PDFs\" src=\"https://external-preview.redd.it/MDFmcGoxeDV6bzloMZE-Dwb-GpuVJ9EDAIVBZmkoErfLQYmYnHFNLvAQpAaZ.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=7121ef55ff24ab9a26dc2b2809064d032b7fc771\" title=\"I used Claude to fix my biggest frustration with PDFs\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>My bank asked for 17 PDF documents regarding my mortgage application. </p> <p>I got tired of opening and closing files and keeping track of things. So I decided to send a single PDF with many pages, to avoid going back and forth, but that caused even more confusion.</p> <p>So I came up with an idea: what if I could scroll horizontally to see the pages of a single file and then scroll vertically to see more files? That’d be a great way to navigate multiple PDFs all at once, in a simple, 2D canvas, like Figma (which by the way doesn’t support pdf imports natively).</p> <p>I decided to extend the pdf standard by adding metadata to indicate where files end and where new files start. This allowed me to store multiple PDFs into a single, backwards compatible PDF. I called this new format .pdfx but it can also be stored as a regular pdf with metadata.</p> <p>I was lucky, because I managed to task Claude just 3 hours before the most advanced model was shut down and I was surprised at its capabilities, it did 80% of the project in 2 hours.</p> <p>It’s open-source, uses Electron with native Liquid Glass overrides with attention to UI/UX, but there are some rough edges:</p> <p><a href=\"https://github.com/AlexandrosGounis/pdfx\">https://github.com/AlexandrosGounis/pdfx</a></p> <p>Your feedback would be highly appreciated</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gounisalex\"> /u/gounisalex </a> <br /> <span><a href=\"https://v.redd.it/bgs5eg16zo9h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugj1bt/i_used_claude_to_fix_my_biggest_frustration_with/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T21:05:42+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies: Reports",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uglxiz/trump_admin_allows_anthropic_to_release_mythos_ai/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Source: <a href=\"https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html?__source=iosappshare%7Ccom.atebits.Tweetie2.ShareExtension\">https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html?__source=iosappshare%7Ccom.atebits.Tweetie2.ShareExtension</a> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thelastsubject123\"> /u/thelastsubject123 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uglxiz/trump_admin_allows_anthropic_to_release_mythos_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uglxiz/trump_admin_allows_anthropic_to_release_mythos_ai/\">[comments]</a></span>",
+      "published": "2026-06-26T23:01:51+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Non-coder doctor here — rebuilt my department's website (dead for 2 years) with Claude + Claude Design over a weekend. ~14x the traffic 3 months on.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugcnkd/noncoder_doctor_here_rebuilt_my_departments/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm a neuroanesthesiologist, not a developer. My brain does airways and spine surgery, not CSS. So this is a &quot;what Claude let a non-coder actually ship&quot; post, not a flex.</p> <p>Background: my hospital department had a fellowship website that had been dead for ~2 years. Outdated info, roughly 8 visitors a month. My HOD asked me to fix it. The normal route — brief a web dev, wait weeks, get a generic template — felt like more friction than it was worth, so I tried building it myself.</p> <p>How I did it: Claude + Claude Design. I'm not writing code or reading it. I brought the actual content — curriculum structure, the medical context, what the program is, the look I wanted (dark, clean) — and Claude handled the HTML/CSS, the responsive layout, and the iteration. It's a landing page, not a complex app, so I'm not overselling the difficulty. But the part that used to be impossible for me — turning a vision into a live, decent-looking site without a middleman — is the part that worked.</p> <p>What was useful vs. what wasn't:</p> <ul> <li>Describing the <em>outcome</em> I wanted (&quot;make this section read like a prospectus, not a brochure&quot;) worked far better than trying to describe layout.</li> <li>Where I had clear domain content, it flew. Where I was vague, I got generic output — the bottleneck was my own clarity, not the tool.</li> </ul> <p>Results, 3 months in:</p> <ul> <li>~8 visitors/month → ~115/month. Roughly 14x.</li> <li>More interesting than the total: the old site was found by accident (passive search only). The new one actually gets shared — direct and social traffic that didn't exist before, plus the first referrals from our institution's own site. It spikes whenever we post about it, which a dead site never does.</li> </ul> <p>Link if anyone wants to tear it apart: <a href=\"http://spineanesthesiafellowship.com\">spineanesthesiafellowship.com</a></p> <p>Genuinely after feedback from people who do this properly — what would you fix on the UX, and is there anything about an AI-built site that bites you later (SEO, maintainability) that I should know before I get comfortable?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/janardhanan15\"> /u/janardhanan15 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugcnkd/noncoder_doctor_here_rebuilt_my_departments/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugcnkd/noncoder_doctor_here_rebuilt_my_departments/\">[comments]</a></span>",
+      "published": "2026-06-26T17:05:07+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Asked Claude to mock up an outfit for me",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uglhwy/asked_claude_to_mock_up_an_outfit_for_me/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uglhwy/asked_claude_to_mock_up_an_outfit_for_me/\"> <img alt=\"Asked Claude to mock up an outfit for me\" src=\"https://preview.redd.it/xr6cbydqgp9h1.jpg?width=140&amp;height=115&amp;auto=webp&amp;s=577b1087f117c50c22b511ff3e1e6b20ceb2f5c8\" title=\"Asked Claude to mock up an outfit for me\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/littleoakleaf\"> /u/littleoakleaf </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1uglhwy\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1uglhwy/asked_claude_to_mock_up_an_outfit_for_me/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T22:43:56+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "i can't read anything anymore without checking if claude wrote it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugdzhq/i_cant_read_anything_anymore_without_checking_if/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>someone sent me a heartfelt birthday message yesterday and my first thought was &quot;three bullet points and an em dash, nice try.&quot;</p> <p>its ruined me. i clock the tells everywhere now. the &quot;its not just X, its Y&quot; rhythm. the closing line that ties everything up in a little bow. the word &quot;delve&quot; showing up in a text from my uncle who has never delved into anything in his life.</p> <p>the wild part is half of it is probably real people who just write like that. but the pattern is burned into my brain and i cant turn it off anymore.</p> <p>anyone else lost the ability to read a linkedin post at face value? whats the tell that gives it away instantly for you</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Efficient_Leave8158\"> /u/Efficient_Leave8158 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugdzhq/i_cant_read_anything_anymore_without_checking_if/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugdzhq/i_cant_read_anything_anymore_without_checking_if/\">[comments]</a></span>",
+      "published": "2026-06-26T17:54:56+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "US gov forces OpenAI to stagger 5.6 rollout",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug6qe7/us_gov_forces_openai_to_stagger_56_rollout/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>So, apparently OpenAI will be rolling out gpt-5.6 to consumers only mid-July while some enterprises already have access from today. So, I guess that means Fable won't be back in our hands anytime soon as well? </p> <p><a href=\"https://www.axios.com/2026/06/25/trump-administration-openai-gpt-model-release\">https://www.axios.com/2026/06/25/trump-administration-openai-gpt-model-release</a></p> <p>From all reports, 5.6 isn't as good as Fable even though it's improved on 5.5 on UI/UX work. So, I can't see Fable being restored before GPT-5.6 now. Maybe this is why Anthropic is pushing for Sonnet 5? But how would they release it next week if the US gov is even delaying 5.6?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Emergency-Bobcat6485\"> /u/Emergency-Bobcat6485 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug6qe7/us_gov_forces_openai_to_stagger_56_rollout/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug6qe7/us_gov_forces_openai_to_stagger_56_rollout/\">[comments]</a></span>",
+      "published": "2026-06-26T13:22:26+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "I had the courage to run /code-review with Opus 4.8 on Max",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugejtr/i_had_the_courage_to_run_codereview_with_opus_48/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Claude spawned 25 agents, all on Max, checking the code </p> <p>If you value your life, don't do that</p> <p>By the way, does anyone know a movie that lasts 4 hours and 35 minutes?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Immediate_Boot2239\"> /u/Immediate_Boot2239 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugejtr/i_had_the_courage_to_run_codereview_with_opus_48/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugejtr/i_had_the_courage_to_run_codereview_with_opus_48/\">[comments]</a></span>",
+      "published": "2026-06-26T18:15:47+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "claude quietly replaced gaming as my evening thing and im not sure how to feel about it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug9zf2/claude_quietly_replaced_gaming_as_my_evening/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>for like 20 years my wind down was games. last few months i open claude instead and tinker with little projects til its late. tools, scripts, a dumb app to track when i water my plants. half of them i never finish.</p> <p>the part that gets me is it feels productive, so i dont put the same guardrails on it that i used to put on gaming. id tell myself &quot;one more match and im done.&quot; i dont say that with this. i just keep going, because it feels like im making something.</p> <p>but some nights im not really making anything useful. im just optimizing a thing nobody asked for, getting the same hit i used to get off a ranked ladder, except now its dressed up as work so i dont question it.</p> <p>i dont think its bad exactly. ive learned a ton and built a couple things i use every day. but ive also looked up at 1am more times than id like, telling myself it was productive when it was mostly just absorbing.</p> <p>theres something about a tool that always says yes and always has a next step. games at least had a credits screen.</p> <p>for the people who feel the same pull, hows it actually sitting with you? are you building things that matter to you, or did it just become the new thing you do instead of stopping</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Practical_Cap_9820\"> /u/Practical_Cap_9820 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug9zf2/claude_quietly_replaced_gaming_as_my_evening/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug9zf2/claude_quietly_replaced_gaming_as_my_evening/\">[comments]</a></span>",
+      "published": "2026-06-26T15:27:30+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Anthropic moves toward deal with US to lift curbs on AI models",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugl2au/anthropic_moves_toward_deal_with_us_to_lift_curbs/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugl2au/anthropic_moves_toward_deal_with_us_to_lift_curbs/\"> <img alt=\"Anthropic moves toward deal with US to lift curbs on AI models\" src=\"https://external-preview.redd.it/2-z5yEc2L4U7Aphs2-HG80XX1xs6J8XQZUsAsfeknv8.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=199677c6a3eff36d1bcdd9077eb41c4dd45da799\" title=\"Anthropic moves toward deal with US to lift curbs on AI models\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Seems like there might actually be some movement, after no official news. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ThroughandThrough2\"> /u/ThroughandThrough2 </a> <br /> <span><a href=\"https://www.bloomberg.com/news/articles/2026-06-26/anthropic-moves-toward-deal-with-us-to-lift-curbs-on-ai-models\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugl2au/anthropic_moves_toward_deal_with_us_to_lift_curbs/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T22:25:34+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "i've started saying \"great question\" before answering my own coworkers",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug4627/ive_started_saying_great_question_before/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>caught myself doing it in standup yesterday. someone asked when the migration lands and before i even thought about it i went &quot;great question&quot; and paused like i needed to gather context.</p> <p>other ones ive picked up:</p> <p>starting replies with &quot;you're absolutely right&quot; even when theyre not sarcastically </p> <p>saying &quot;let me make sure i understand&quot; before literally anything</p> <p>ending texts with a follow up question i dont actually want answered</p> <p>my partner says i hedge everything now. i'll state a fact and then add &quot;though it depends on a few factors.&quot; thats not me. thats Opus 4.8 leaking out of my mouth.</p> <p>anyone else catching the tics in their own speech? whats the one that gave you away</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Secure-Director1575\"> /u/Secure-Director1575 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug4627/ive_started_saying_great_question_before/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug4627/ive_started_saying_great_question_before/\">[comments]</a></span>",
+      "published": "2026-06-26T11:28:47+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "The new desktop UI merges Chat and Cowork into one tab and it's mega confusing.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugdmay/the_new_desktop_ui_merges_chat_and_cowork_into/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugdmay/the_new_desktop_ui_merges_chat_and_cowork_into/\"> <img alt=\"The new desktop UI merges Chat and Cowork into one tab and it's mega confusing.\" src=\"https://preview.redd.it/kojga38zxn9h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=429bac42cd368e174a15b47c8b580b34092c20b9\" title=\"The new desktop UI merges Chat and Cowork into one tab and it's mega confusing.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I woke up this morning and spent a good 5 minutes trying to find the &quot;New Chat&quot; button.</p> <p>It turns out that Cowork doesn't have a dedicated tab anymore. Instead, Chat and Cowork now live in this weird &quot;Home&quot; tab and you turn on Cowork by tapping &quot;Cowork&quot; in the prompt box. </p> <p>Mega confusing because now you your tasks and chats all live in the same section.</p> <p>Tbh, I found it much better with the three tabs completely separate. I am curious if its just me or is everyone else seeing this change too?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ali_malik99\"> /u/ali_malik99 </a> <br /> <span><a href=\"https://i.redd.it/kojga38zxn9h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugdmay/the_new_desktop_ui_merges_chat_and_cowork_into/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T17:41:16+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "You could've phrased this a bit better, Claude...",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug4cdk/you_couldve_phrased_this_a_bit_better_claude/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug4cdk/you_couldve_phrased_this_a_bit_better_claude/\"> <img alt=\"You could've phrased this a bit better, Claude...\" src=\"https://preview.redd.it/o3hk9fut5m9h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=227e00ae331b876b9e3d9a1d764ffd420abb4e8e\" title=\"You could've phrased this a bit better, Claude...\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/platcrest\"> /u/platcrest </a> <br /> <span><a href=\"https://i.redd.it/o3hk9fut5m9h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug4cdk/you_couldve_phrased_this_a_bit_better_claude/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T11:37:24+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude Plays World of ClaudeCraft",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ufz93w/claude_plays_world_of_claudecraft/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ufz93w/claude_plays_world_of_claudecraft/\"> <img alt=\"Claude Plays World of ClaudeCraft\" src=\"https://external-preview.redd.it/djZudDRmb3RxazloMZuy_VtagojulpqCqDa7hOnrfasPTWUReBvSlqMi9fE0.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f68bdc4c38884be3befaa1aa3a1d36dfddc938b1\" title=\"Claude Plays World of ClaudeCraft\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Two weeks ago we shared <strong>World of ClaudeCraft</strong> here, a free, open-source browser MMO that was built in 48 hours with Claude. </p> <p>We decided to make the experiment recursive: we built a Claude Code-powered VTuber and put her inside the game.</p> <p><strong>Day 1 is live here:</strong><br /> <a href=\"https://www.twitch.tv/claudeplaysclaudecraft?utm_source=chatgpt.com\">https://www.twitch.tv/claudeplaysclaudecraft</a></p> <p>Claude decides what to do next, sends actions to the game, and speaks through the VTuber avatar (using Elevenlabs for TTS). We’re streaming the run unedited, including the wandering, party joining, emoting and socialising. </p> <p>She can freely interact with the twitch chat and the real people actually in game right now.<br /> The game is free to play and open source at <a href=\"https://github.com/levy-street/world-of-claudecraft\">https://github.com/levy-street/world-of-claudecraft</a> </p> <p>Hope you enjoy the spectacle!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/singing_coach_ai\"> /u/singing_coach_ai </a> <br /> <span><a href=\"https://v.redd.it/c3079rntqk9h1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ufz93w/claude_plays_world_of_claudecraft/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T06:52:58+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "codelight — Claude Code status display",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug80z0/codelight_claude_code_status_display/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug80z0/codelight_claude_code_status_display/\"> <img alt=\"codelight — Claude Code status display\" src=\"https://preview.redd.it/f1crs77pwm9h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9cf7ebe42c75948ee20f3794d4c280210c3384f2\" title=\"codelight — Claude Code status display\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Custom firmware for the GeekMagic Ultra that turns it into a live Claude Code dashboard. A companion Python script on your computer polls usage and session state and pushes it to the device over WiFi.</p> <p><a href=\"https://github.com/henrikekblad/codelight\">https://github.com/henrikekblad/codelight</a></p> <p>The code is &quot;ready&quot;. But as the disclaimer on github says, I managed to rip the screen cable when doing the final tests. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mysensors\"> /u/mysensors </a> <br /> <span><a href=\"https://i.redd.it/f1crs77pwm9h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug80z0/codelight_claude_code_status_display/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T14:13:47+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "whats a claude use case you're a little embarrassed by",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug9z43/whats_a_claude_use_case_youre_a_little/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>ill go first. i use it to draft texts to my landlord because confrontation makes my hands sweat and it writes a calmer version of me than the one typing.<br /> also naming things. variables, my wifi network, a friend's dog. i outsource all naming now.<br /> and the dumb one, i paste a menu in before going to a restaurant and ask what someone with my exact pickiness should order, so i dont freeze when the waiter gets to me.<br /> none of this is impressive. none of it is a startup. but its the stuff i actually reach for daily, way more than the big projects i tell people about.<br /> curious what the non glamorous ones are for everybody else. whats the use case you'd never put in a &quot;built with claude&quot; post but use constantly</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Any_Boss_8337\"> /u/Any_Boss_8337 </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug9z43/whats_a_claude_use_case_youre_a_little/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug9z43/whats_a_claude_use_case_youre_a_little/\">[comments]</a></span>",
+      "published": "2026-06-26T15:27:10+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "LLM-speak is contaminating my thoughts",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugaqjk/llmspeak_is_contaminating_my_thoughts/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>My manager sent a message in the Slack channel on Tuesday: “I built a $1200 Amazon cart last night just to see what the price would do this morning once Prime Day started. It dropped by $103. Yay, I guess.”</p> <p>My immediate thought for a reply:”That’s not nothing, and you're right to notice it.” 🥴</p> <p>Love to hear if y’all are experiencing something similar.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mr_Compyuterhead\"> /u/Mr_Compyuterhead </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugaqjk/llmspeak_is_contaminating_my_thoughts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugaqjk/llmspeak_is_contaminating_my_thoughts/\">[comments]</a></span>",
+      "published": "2026-06-26T15:55:54+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Did Claude have a stroke?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugi22u/did_claude_have_a_stroke/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugi22u/did_claude_have_a_stroke/\"> <img alt=\"Did Claude have a stroke?\" src=\"https://preview.redd.it/fckteu9lso9h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=6e25273becf64e5d4fd822b8d87c1f373e65e4b8\" title=\"Did Claude have a stroke?\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rogentdev\"> /u/rogentdev </a> <br /> <span><a href=\"https://i.redd.it/fckteu9lso9h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugi22u/did_claude_have_a_stroke/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T20:28:13+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Update: Higher rate limits on Claude API",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugm2vp/update_higher_rate_limits_on_claude_api/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugm2vp/update_higher_rate_limits_on_claude_api/\"> <img alt=\"Update: Higher rate limits on Claude API\" src=\"https://preview.redd.it/6pmm3401lp9h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=79ea3d40916ca13b49de22645444943445fdb6c1\" title=\"Update: Higher rate limits on Claude API\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iamjohncarterofmars\"> /u/iamjohncarterofmars </a> <br /> <span><a href=\"https://i.redd.it/6pmm3401lp9h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugm2vp/update_higher_rate_limits_on_claude_api/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T23:08:12+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "echo•mux: a self-hosted multi-room Bluetooth audio streamer with per-speaker latency alignment and Spotify Connect support",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugi8mc/echomux_a_selfhosted_multiroom_bluetooth_audio/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugi8mc/echomux_a_selfhosted_multiroom_bluetooth_audio/\"> <img alt=\"echo•mux: a self-hosted multi-room Bluetooth audio streamer with per-speaker latency alignment and Spotify Connect support\" src=\"https://preview.redd.it/ln64macoto9h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a46d282f296542f7a0e1ae2ba05020c7168bac75\" title=\"echo•mux: a self-hosted multi-room Bluetooth audio streamer with per-speaker latency alignment and Spotify Connect support\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey everyone!</p> <p>A couple of weeks ago, I was lying in bed, listening to Spotify, looking around at my mix of premium and budget Bluetooth speakers from different brands, and thought: “Why can’t I just stream to all of these simultaneously?”</p> <p>As a long-time developer, I thought I could for sure solve this somehow with the hardware I already own, and did my research. I found the industry goes towards Wi-Fi-based systems, Sonos and whatever, but I love my new Edifiers, my old Sony, and my Sackit (anyone remember that?), and I see no reason to buy something new. I realized the latency of different brands of speakers or locations is the real problem, and soon I had an architecture in mind.</p> <p>So over the last two weeks, I sat down in my spare time and built echomux together with Claude. I love it allowed me to follow test driven development principles, which usually are too much work. </p> <p>It turns my Raspberry Pis (I own two of them) into a multi-room Bluetooth hub controlled via a mobile-first web UI. For 10 bucks each, I bought additional Bluetooth antennas to get even better coverage to the backyard.</p> <p>I really just built it for myself to solve my own problem and have no plans to release a real product. Getting it to work reliably was hell, though. I ran into massive roadblocks, like a bug in the current repository version of BlueZ that makes muxing to multiple devices impossible, audio synchronization issues, and getting the UI right.</p> <p>But it’s finally working perfectly for my needs, so I figured I’d open-source it in case someone else is facing the exact same frustration.</p> <p>What it does:</p> <ul> <li><strong>Spotify Connect:</strong> It exposes itself as a standard Spotify Connect device (powered by librespot). No custom music player app needed.</li> <li><strong>Per-Speaker Latency Adjustment:</strong> You can adjust the delay (0–2000 ms) for each speaker individually through the UI to fix room alignment and BT buffering sync issues.</li> <li><strong>Multi-Node / Satellite Support:</strong> Since a single Pi can't reach across a whole house via BT, you can deploy satellites on additional Pis. The master streams audio to them via RTP unicast, but you control everything from a single central UI.</li> <li><strong>Tech Stack:</strong> Built in Go (single binary) for Linux with systemd, leveraging PipeWire, WirePlumber, and BlueZ. The UI is built with Svelte. If anyone wanted to build a native app, I included the agent instructions to do so. But the current web-based approach &quot;just works&quot; regardless of whether I am on the PC or on the phone, which I really like.</li> </ul> <p>It’s completely open-source now (Apache 2.0) and installs via an interactive setup script, which also builds BlueZ from source to fix the buggy repo version.</p> <p>I plan to maintain and develop this further as I come up with new ideas or find things that annoy me, aiming to make it even more stable and user-friendly.</p> <p>Check out the repo, architecture diagrams, and API specs here: <a href=\"https://github.com/dolphprefect/echomux\">https://github.com/dolphprefect/echomux</a></p> <p>It does the work for me now. I hope it’s useful to some of you too, enjoy.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Purple_Hornet_9725\"> /u/Purple_Hornet_9725 </a> <br /> <span><a href=\"https://i.redd.it/ln64macoto9h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugi8mc/echomux_a_selfhosted_multiroom_bluetooth_audio/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T20:35:04+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Claude and dopamine",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugko8k/claude_and_dopamine/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey, for people who use Claude Code heavily, don’t you feel like it gets kind of addictive?</p> <p>I have a $200 plan, another $100 plan, and my company gives me $1k to spend, which they’ll probably raise to $1.5k soon.</p> <p>And I know my personal plans are heavily subsidized, because they go way further than the $1,000 I get from the company to spend through the API.</p> <p>It’s like you just keep creating, creating, creating.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GordoTetoncito\"> /u/GordoTetoncito </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugko8k/claude_and_dopamine/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugko8k/claude_and_dopamine/\">[comments]</a></span>",
+      "published": "2026-06-26T22:09:48+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "How many \"... just fixed Claude Code's biggest problem\" videos have you seen this week/month/year?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugi1xh/how_many_just_fixed_claude_codes_biggest_problem/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Also accepted:</p> <p>&quot;... Makes Claude Code 10x More Powerful!&quot;<br /> &quot;... Claude Code better then 99% of people&quot;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AngeloTiciano\"> /u/AngeloTiciano </a> <br /> <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugi1xh/how_many_just_fixed_claude_codes_biggest_problem/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ugi1xh/how_many_just_fixed_claude_codes_biggest_problem/\">[comments]</a></span>",
+      "published": "2026-06-26T20:28:04+00:00"
+    },
+    {
+      "source_id": "reddit-claudeai",
+      "title": "Yo chat is this normal?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ug66wk/yo_chat_is_this_normal/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug66wk/yo_chat_is_this_normal/\"> <img alt=\"Yo chat is this normal?\" src=\"https://preview.redd.it/5vt0yqwokm9h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=16eb93702fe35e16180bd0ed5e081d097f213f50\" title=\"Yo chat is this normal?\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ShakaLakaLoko\"> /u/ShakaLakaLoko </a> <br /> <span><a href=\"https://i.redd.it/5vt0yqwokm9h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ug66wk/yo_chat_is_this_normal/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-26T13:00:34+00:00"
+    },
+    {
+      "source_id": "github-blog-ai",
+      "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
+      "url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+      "summary": "<p>GitHub joined the United Nations Development Programme in Ghana to explore how open source governance can support one of West Africa's most ambitious digital reform efforts. </p>\n<p>The post <a href=\"https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/\">GitHub and UNDP team up to advance development priorities in Ghana with open source</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-06-26T16:53:57+00:00"
+    },
+    {
+      "source_id": "github-blog-ai",
+      "title": "Transitioning as a Hubber",
+      "url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
+      "summary": "<p>How GitHub's culture and benefits helped me be the best version of myself.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/\">Transitioning as a Hubber</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+      "published": "2026-06-26T12:00:00+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: OCR.chat",
+      "url": "https://ocr.chat/",
+      "summary": "<p>Article URL: <a href=\"https://ocr.chat/\">https://ocr.chat/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693525\">https://news.ycombinator.com/item?id=48693525</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:49:50+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
+      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
+      "summary": "<p>Article URL: <a href=\"https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/\">https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693524\">https://news.ycombinator.com/item?id=48693524</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:49:43+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "ComAI – An open-source Linux assistant for troubleshooting with local LLMs",
+      "url": "https://github.com/hossbit/comai-linux-assistant",
+      "summary": "<p>Article URL: <a href=\"https://github.com/hossbit/comai-linux-assistant\">https://github.com/hossbit/comai-linux-assistant</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693507\">https://news.ycombinator.com/item?id=48693507</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:46:50+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "My Addiction with Trading Apps",
+      "url": "https://cat.strayforge.com/posts/investment-reflection/",
+      "summary": "<p>Article URL: <a href=\"https://cat.strayforge.com/posts/investment-reflection/\">https://cat.strayforge.com/posts/investment-reflection/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693502\">https://news.ycombinator.com/item?id=48693502</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:45:31+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Why It's So Hard to Add a Column in the Middle of a PostgreSQL Table",
+      "url": "https://www.bytebase.com/blog/why-its-hard-to-add-a-column-in-the-middle-of-postgres-table/",
+      "summary": "<p>Article URL: <a href=\"https://www.bytebase.com/blog/why-its-hard-to-add-a-column-in-the-middle-of-postgres-table/\">https://www.bytebase.com/blog/why-its-hard-to-add-a-column-in-the-middle-of-postgres-table/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693501\">https://news.ycombinator.com/item?id=48693501</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:45:29+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Meta Patent: Prescription Lenses That Project Virtual Screens into Your Vision",
+      "url": "https://patentlyze.com/patent/meta-holographic-ar-display-built-prescription-lenses/",
+      "summary": "<p>Article URL: <a href=\"https://patentlyze.com/patent/meta-holographic-ar-display-built-prescription-lenses/\">https://patentlyze.com/patent/meta-holographic-ar-display-built-prescription-lenses/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693486\">https://news.ycombinator.com/item?id=48693486</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:43:33+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Show HN: A shareable World Cup 2026 bracket simulator with live results",
+      "url": "https://fifasim.com",
+      "summary": "<p>Article URL: <a href=\"https://fifasim.com\">https://fifasim.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693483\">https://news.ycombinator.com/item?id=48693483</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:42:56+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "With AI, researchers discover new way to detect sudden cardiac death risk",
+      "url": "https://news.berkeley.edu/2026/06/24/with-ai-researchers-discover-new-way-to-detect-sudden-cardiac-death-risk/",
+      "summary": "<p>Article URL: <a href=\"https://news.berkeley.edu/2026/06/24/with-ai-researchers-discover-new-way-to-detect-sudden-cardiac-death-risk/\">https://news.berkeley.edu/2026/06/24/with-ai-researchers-discover-new-way-to-detect-sudden-cardiac-death-risk/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693458\">https://news.ycombinator.com/item?id=48693458</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:40:15+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Computation Is Bound by Physical Laws: A Fact-Based Church-Turing Thesis",
+      "url": "https://cryptpad.fr/code/#/2/code/edit/kZK83-Xxeqb1cOHsonKZgAWm/",
+      "summary": "<p>Article URL: <a href=\"https://cryptpad.fr/code/#/2/code/edit/kZK83-Xxeqb1cOHsonKZgAWm/\">https://cryptpad.fr/code/#/2/code/edit/kZK83-Xxeqb1cOHsonKZgAWm/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693429\">https://news.ycombinator.com/item?id=48693429</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:36:56+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Quake in 13 Kilobytes",
+      "url": "https://js13kgames.com/games/q1k3",
+      "summary": "<p>Article URL: <a href=\"https://js13kgames.com/games/q1k3\">https://js13kgames.com/games/q1k3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693428\">https://news.ycombinator.com/item?id=48693428</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:36:56+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Foreign funds help make housing unaffordable: research",
+      "url": "https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/",
+      "summary": "<p>Article URL: <a href=\"https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/\">https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693420\">https://news.ycombinator.com/item?id=48693420</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:36:30+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Holos: Device Is Your Fediverse Server",
+      "url": "https://holos.social/",
+      "summary": "<p>Article URL: <a href=\"https://holos.social/\">https://holos.social/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693414\">https://news.ycombinator.com/item?id=48693414</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:35:55+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Writing and Code: Same Leverage, Different Story",
+      "url": "https://vincentping.com/en/writing-vs-code-leverage",
+      "summary": "<p>Article URL: <a href=\"https://vincentping.com/en/writing-vs-code-leverage\">https://vincentping.com/en/writing-vs-code-leverage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693395\">https://news.ycombinator.com/item?id=48693395</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:33:55+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Forward Self Models",
+      "url": "https://jagilley.github.io/forward-self-models.html",
+      "summary": "<p>Article URL: <a href=\"https://jagilley.github.io/forward-self-models.html\">https://jagilley.github.io/forward-self-models.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693393\">https://news.ycombinator.com/item?id=48693393</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:33:48+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Om",
+      "url": "https://daringfireball.net/2026/06/om",
+      "summary": "<p>Article URL: <a href=\"https://daringfireball.net/2026/06/om\">https://daringfireball.net/2026/06/om</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693391\">https://news.ycombinator.com/item?id=48693391</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:33:46+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Trump threatens 100% tariff on European digital services taxes",
+      "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko",
+      "summary": "<p>Article URL: <a href=\"https://www.bbc.co.uk/news/articles/cn4rd71411ko\">https://www.bbc.co.uk/news/articles/cn4rd71411ko</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693371\">https://news.ycombinator.com/item?id=48693371</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published": "2026-06-26T23:30:03+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Waveloop: What Fable Left Me",
+      "url": "https://neynt.ca/writing/waveloop/",
+      "summary": "<p>Article URL: <a href=\"https://neynt.ca/writing/waveloop/\">https://neynt.ca/writing/waveloop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693369\">https://news.ycombinator.com/item?id=48693369</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "published": "2026-06-26T23:29:51+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Ask HN: Anthropic Billing Issues?",
+      "url": "https://news.ycombinator.com/item?id=48693360",
+      "summary": "<p>We just received an email from Anthropic, which mentions that we have been overcharged for several months.  They do not mention the nature of the error or the magnitude.  Did anyone else receive something similar?  Curious how widespread this is.  I'm surprised and concerned that they sent the notification after business hours on a Friday with \"[No action required]\" in the subject.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693360\">https://news.ycombinator.com/item?id=48693360</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:28:31+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "Steam Controller auto-charge with computer vision tracking",
+      "url": "https://github.com/FossPrime/Steam-Controller-Auto-Charge",
+      "summary": "<p>Article URL: <a href=\"https://github.com/FossPrime/Steam-Controller-Auto-Charge\">https://github.com/FossPrime/Steam-Controller-Auto-Charge</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693338\">https://news.ycombinator.com/item?id=48693338</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:26:09+00:00"
+    },
+    {
+      "source_id": "hn-newest",
+      "title": "A molecular seesaw drives healthy skin development: research",
+      "url": "https://med.stanford.edu/news/all-news/2026/06/molecular-seesaw-skin-development.html",
+      "summary": "<p>Article URL: <a href=\"https://med.stanford.edu/news/all-news/2026/06/molecular-seesaw-skin-development.html\">https://med.stanford.edu/news/all-news/2026/06/molecular-seesaw-skin-development.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693332\">https://news.ycombinator.com/item?id=48693332</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published": "2026-06-26T23:25:18+00:00"
+    }
+  ],
+  "sources_run": [
+    "geeknews-hada",
+    "reddit-claudeai",
+    "reddit-cursor",
+    "reddit-ml",
+    "github-blog-ai",
+    "x-agentic-coding",
+    "x-github-copilot",
+    "rdt-claude-code",
+    "rdt-codex",
+    "rdt-cursor-agent",
+    "openai-blog",
+    "hn-agentic",
+    "hn-newest",
+    "awesomeagents-ai",
+    "platum"
+  ]
+}
