@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "title": "오픈 웨이트 LLM과 폐쇄형 LLM의 격차",
+      "summary": "\nArtificial Analysis Intelligence Index 기준으로 오픈 웨이트 LLM이 폐쇄형 LLM의 성능을 따라잡는 속도가 2024년 여름 이후 빨라지고 있다는 분석. 추세선을 단일 지표로 보면 2026년 말에 지표상 격차가 0이 되는 시점이 도달 가능하다고 제시함 — 오픈 모델의 경쟁력 상승을 시사.",
+      "url": "https://news.hada.io/topic?id=30896",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "미국, Anthropic의 Mythos AI를 ‘신뢰된’ 미국 조직에 공개 허용",
+      "summary": "\n미국 정부가 Anthropic의 고성능 Claude Mythos 5 접근 제한을 완화해 100곳 이상 미국 기관·대기업·정부기관에 접근을 허용함. Mythos·Fable 5 관련 수출통제 이슈로 빚어진 마찰이 완화되는 조치로 해석됨.",
+      "url": "https://news.hada.io/topic?id=30878",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "GPT‑5.6 Sol 프리뷰: 차세대 모델",
+      "summary": "\nOpenAI가 GPT‑5.6 시리즈(플래그십 Sol, 일상용 Terra, 저비용 Luna)를 제한 프리뷰로 공개. Sol은 코딩·생물학·사이버보안에서 에이전트 능력이 강화되었고 고급 추론 모드(ultra 등)를 제공한다고 발표.",
+      "url": "https://news.hada.io/topic?id=30866",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "미국 정부가 GPT-5.6 사용자를 결정할 예정",
+      "summary": "\n트럼프 행정부가 최신 AI 모델 접근을 정부가 심사하는 정책을 확대 중이라는 보도. OpenAI는 Sol 출시 시 미국 정부 승인을 받은 기업만 접근하도록 제한한 사례가 언급되며 개인 사용자·기업 접근성 문제가 부각됨.",
+      "url": "https://news.hada.io/topic?id=30867",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "high"
+    },
+    {
+      "title": "I open-sourced industry best practice to self-improving agents",
+      "summary": "\n여러 AI 관찰성 업체가 제공하는 '자기개선 루프'를 개인/소규모에서도 쓸 수 있게 로컬로 동작하는 오픈소스 프로젝트 Kyoko를 공개. OpenTelemetry 기반 추적, 로컬 Claude Code 인스턴스 분석, 평가·휴먼 승인 패널 등으로 구성되어 에이전트 개선 파이프라인을 자가 운영할 수 있게 함.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uh0t7o/i_opensourced_industry_best_practice_to/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "I built and shipped a full production app (iOS + Android) using Claude as my primary development tool. Here's exactly how it worked - and where it didn't.",
+      "summary": "\n개발자가 Claude를 주된 협업 도구로 사용해 백엔드·iOS·Android·인프라를 포함한 상용 앱을 2.5개월 야간 작업으로 출시한 사례. Claude의 강점(명확한 스펙 처리, 초안 생산)과 약점(UI 디버깅, 세션간 일관성, 컨텍스트 드리프트)을 실무 관점에서 정리함—에이전트 기반 개발 워크플로 우수·한계의 현실적 보고.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uhf25g/i_built_and_shipped_a_full_production_app_ios/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Enki – memory for AI agents that keeps ~half as much and answers as well",
+      "summary": "\n에이전트 메모리 최적화 관련 벤치마크/레포지토리로, 에이전트가 저장하는 메모리 양을 절반 수준으로 줄이면서도 유사한 응답 품질을 유지한다는 주장과 자료를 공개함—에이전트 컨텍스트/메모리 관리에 직접적 시사점.",
+      "url": "https://github.com/stephen487/enki-benchmarks",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "medium"
+    },
+    {
+      "title": "Scoop: Powerful Anthropic model, Fable 5, on track to return soon",
+      "summary": "\n커뮤니티 소식으로 Anthropic의 강력한 모델 Fable 5가 복귀 준비 중이라는 루머/스쿱이 공유됨(외부 링크: Axios). Anthropic 모델 라인업·복귀 일정 관련 시장·개발자 관심을 환기.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uh3dj3/scoop_powerful_anthropic_model_fable_5_on_track/",
+      "category": "에이전틱 코딩 & 프론티어 모델",
+      "impact": "medium"
+    },
+    {
+      "title": "Why are all the Claude Code skill files I see online completely pointless?",
+      "summary": "\n커뮤니티 토론: 많은 Claude Code용 'skill file'이 실제로 모델의 일관적 오류를 고치지 못하고 단순히 역할을 선언하는 수준에 그친다는 비판. 실무에서 스킬 파일이 고쳐야 할 구체적 문제(성능·접근성·보안·CSP 등)를 명시해야 유의미하다는 지적.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uhed8x/why_are_all_the_claude_code_skill_files_i_see/",
+      "category": "GitHub & 인프라 트렌드",
+      "impact": "low"
+    }
+  ]
+}
