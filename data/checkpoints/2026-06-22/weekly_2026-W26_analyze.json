@@ -1,0 +1,175 @@
+{
+  "week": "2026-W26",
+  "date_range": [
+    "2026-06-22",
+    "2026-06-28"
+  ],
+  "total_items": 79,
+  "filtered_items": 78,
+  "trend_map": [
+    {
+      "topic": "Anthropic / Claude Fable & Mythos (model launches, safety, policy, government actions)",
+      "days": [
+        "06-22",
+        "06-24",
+        "06-25",
+        "06-26",
+        "06-27",
+        "06-28"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Claude Code (agentic coding tool: features, incidents, Extended Thinking)",
+      "days": [
+        "06-22",
+        "06-23",
+        "06-24",
+        "06-25",
+        "06-26",
+        "06-27",
+        "06-28"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Agentic infra & tooling (agent harnesses, telemetry, agent management, local runtimes)",
+      "days": [
+        "06-22",
+        "06-23",
+        "06-24",
+        "06-25",
+        "06-26",
+        "06-27",
+        "06-28"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "GLM-5.2 (benchmarks vs Claude/GPT)",
+      "days": [
+        "06-22",
+        "06-24",
+        "06-28"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "OpenAI / GPT-5.6 (preview, rollout, government actions)",
+      "days": [
+        "06-25",
+        "06-26",
+        "06-27"
+      ],
+      "impact": "high",
+      "direction": "sustained"
+    },
+    {
+      "topic": "Mistral OCR 4",
+      "days": [
+        "06-24"
+      ],
+      "impact": "high",
+      "direction": "rising"
+    },
+    {
+      "topic": "OpenAI / Codex & initiatives (Patch the Planet, Codex-maxxing, logging bug)",
+      "days": [
+        "06-22",
+        "06-23"
+      ],
+      "impact": "medium",
+      "direction": "steady"
+    },
+    {
+      "topic": "Claude Opus (comparisons, detection)",
+      "days": [
+        "06-24",
+        "06-28"
+      ],
+      "impact": "high",
+      "direction": "steady"
+    },
+    {
+      "topic": "GitHub Copilot (agentic harness evaluation & Copilot-related news)",
+      "days": [
+        "06-25"
+      ],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Cursor / SpaceX (Origin) (prev-week topic)",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Major talent moves (prev-week topic)",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    },
+    {
+      "topic": "Visa payment integration into ChatGPT (prev-week topic)",
+      "days": [],
+      "impact": "high",
+      "direction": "fading"
+    }
+  ],
+  "category_stats": {
+    "에이전틱 코딩 & 프론티어 모델": {
+      "count": 49,
+      "high_count": 21
+    },
+    "GitHub & 인프라 트렌드": {
+      "count": 29,
+      "high_count": 3
+    }
+  },
+  "top5": [
+    {
+      "title": "Claude Code suddenly tried to open a Remote Desktop connection on my PC. This seriously scared me.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ui8g1t/claude_code_suddenly_tried_to_open_a_remote/",
+      "mentions": 9,
+      "impact": "high"
+    },
+    {
+      "title": "Trump administration asks to hold OpenAI's next model",
+      "url": "https://www.axios.com/2026/06/25/trump-administration-openai-gpt-model-release",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies: Reports",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uglxiz/trump_admin_allows_anthropic_to_release_mythos_ai/",
+      "mentions": 4,
+      "impact": "high"
+    },
+    {
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "mentions": 3,
+      "impact": "high"
+    },
+    {
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "mentions": 3,
+      "impact": "high"
+    }
+  ],
+  "daily_counts": {
+    "2026-06-22": 15,
+    "2026-06-23": 15,
+    "2026-06-24": 8,
+    "2026-06-25": 9,
+    "2026-06-26": 14,
+    "2026-06-27": 9,
+    "2026-06-28": 8
+  }
+}
